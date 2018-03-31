@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -474,13 +474,6 @@ NoConn ~ 15250 7950
 NoConn ~ 15250 8050
 NoConn ~ 15250 8150
 NoConn ~ 15250 8250
-NoConn ~ 15250 8350
-NoConn ~ 15250 8450
-NoConn ~ 15250 8550
-NoConn ~ 15250 8650
-NoConn ~ 15250 8750
-NoConn ~ 15250 8850
-NoConn ~ 15250 8950
 NoConn ~ 15250 9050
 NoConn ~ 15250 9150
 NoConn ~ 15250 9250
@@ -608,4 +601,77 @@ Wire Wire Line
 Connection ~ 15300 5350
 Wire Wire Line
 	8100 1950 8100 5400
+$Sheet
+S 700  650  500  150 
+U 5ABE5061
+F0 "Battery" 60
+F1 "battery.sch" 60
+$EndSheet
+$Sheet
+S 2650 2400 1900 1400
+U 5ABE7AA4
+F0 "Audio" 60
+F1 "audio.sch" 60
+F2 "SAI2_TXFS" I L 2650 2750 60 
+F3 "SAI2_TXC" I L 2650 2850 60 
+F4 "SAI2_MCLK" I L 2650 2950 60 
+F5 "SAI2_RXD" O L 2650 2500 60 
+F6 "SAI2_TXD" I L 2650 2600 60 
+$EndSheet
+Text Label 15800 8950 2    60   ~ 0
+SAI2_TXD
+Wire Wire Line
+	15800 8950 15250 8950
+Text Label 15800 8850 2    60   ~ 0
+SAI2_RXD
+Wire Wire Line
+	15800 8850 15250 8850
+Text Label 15800 8750 2    60   ~ 0
+SAI2_TXC
+Wire Wire Line
+	15800 8750 15250 8750
+Text Label 15800 8650 2    60   ~ 0
+SAI2_MCLK
+Text Label 15800 8550 2    60   ~ 0
+SAI2_TXFS
+Text Label 15800 8450 2    60   ~ 0
+SAI2_RXC
+Text Label 15800 8350 2    60   ~ 0
+SAI2_RXFS
+Wire Wire Line
+	15800 8350 15250 8350
+Wire Wire Line
+	15800 8450 15250 8450
+Wire Wire Line
+	15800 8550 15250 8550
+Wire Wire Line
+	15800 8650 15250 8650
+Text Label 2100 2600 0    60   ~ 0
+SAI2_TXD
+Wire Wire Line
+	2100 2600 2650 2600
+Text Label 2100 2500 0    60   ~ 0
+SAI2_RXD
+Wire Wire Line
+	2100 2500 2650 2500
+Text Label 2100 2850 0    60   ~ 0
+SAI2_TXC
+Wire Wire Line
+	2100 2850 2650 2850
+Text Label 2100 2950 0    60   ~ 0
+SAI2_MCLK
+Text Label 2100 2750 0    60   ~ 0
+SAI2_TXFS
+Text Label 1100 2500 0    60   ~ 0
+SAI2_RXC
+Text Label 1100 2300 0    60   ~ 0
+SAI2_RXFS
+Wire Wire Line
+	1650 2300 1100 2300
+Wire Wire Line
+	1650 2500 1100 2500
+Wire Wire Line
+	2650 2750 2100 2750
+Wire Wire Line
+	2100 2950 2650 2950
 $EndSCHEMATC
