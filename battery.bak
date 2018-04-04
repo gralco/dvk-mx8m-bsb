@@ -492,7 +492,7 @@ PS/SYNC
 Wire Wire Line
 	4600 4200 5050 4200
 Text Notes 5850 3100 0    60   ~ 0
-TPS63020   RT6154A possible drop-in
+RT6154A possible drop-in\nUsing TPS63020 instead due to availability and price
 $Comp
 L TPS63020 U?
 U 1 1 5AC4BB64

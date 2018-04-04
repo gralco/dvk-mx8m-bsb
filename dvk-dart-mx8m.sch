@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:dvk-dart-mx8m-rescue
 LIBS:power
 LIBS:device
 LIBS:switches

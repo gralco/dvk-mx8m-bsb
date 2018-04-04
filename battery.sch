@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:dvk-dart-mx8m-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -309,7 +310,7 @@ Wire Wire Line
 	5600 4750 5600 4700
 Connection ~ 5600 4700
 Text Notes 6250 5650 0    60   ~ 0
-V_FB=V_REF=500mV\n"The typical value of the voltage at the FB pin is 500mV"\n"It is recommended to keep the resistor R2 value in the range of 200kΩ"\nTheir example application circuit uses 180k for R2, therefore:\nR2≅200k±20k (±10%) or 180k~~220k\nGiven this, V_OUT≅3.8V, 1.1188M≤R1≤1.452M\nThe most common value in this range is 1.2M\nMaking R2≅181.818k or roughly 182k
+V_FB=V_REF=500mV\n"The typical value of the voltage at the FB pin is 500mV"\n"It is recommended to keep the value for [R2] in the range of 200kΩ; lower than 500kΩ"\nTheir example application circuit uses 180k for R2, therefore:\nR2≅200k±20k (±10%) or 180k~~220k\nGiven this, V_OUT≅3.8V, 1.1188M≤R1≤1.452M\nThe most common value in this range is 1.2M\nMaking R2≅181.818k or roughly 182k
 $Bitmap
 Pos 6750 4750
 Scale 1.000000
