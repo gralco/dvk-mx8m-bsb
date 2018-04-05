@@ -5,6 +5,10 @@ D power-flag symbol BASE_PER_3V3
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP BR24G04NUX-3TTR
+D IC EEPROM 4KBIT 400KHZ 8VSON
+$ENDCMP
+#
 $CMP SOM_NVCC_3V3
 D power-flag symbol SOM_NVCC_3V3
 K Power Flag Symbol
