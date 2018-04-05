@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BASE_PER_3V3
+D power-flag symbol BASE_PER_3V3
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP SOM_NVCC_3V3
+D power-flag symbol SOM_NVCC_3V3
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP SOM_SNVS_3V3
+D power-flag symbol SOM_SNVS_3V3
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP SOM_VBAT
 D power-flag symbol SOM_VBAT
 K Power Flag Symbol
@@ -7,6 +22,11 @@ $ENDCMP
 #
 $CMP SOM_VBAT_3V3
 D power-flag symbol SOM_VBAT_3V3
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VCC_PJ_IN
+D power-flag symbol SOM_SNVS_3V3
 K Power Flag Symbol
 $ENDCMP
 #
