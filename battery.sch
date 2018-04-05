@@ -37,13 +37,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet 2 6
+Title "Battery"
+Date "2018-04-05"
+Rev "v0.1.0"
+Comp "Purism SPC"
+Comment1 "Copyright 2018"
+Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -4676,6 +4676,17 @@ F 1 "SOM_NVCC_3V3" H 4900 3590 50  0000 C CNN
 F 2 "" H 4900 3450 50  0001 C CNN
 F 3 "" H 4900 3450 50  0001 C CNN
 	1    4900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG031
+U 1 1 5ACBEC9D
+P 3700 3250
+F 0 "#FLG031" H 3700 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 3400 50  0000 C CNN
+F 2 "" H 3700 3250 50  0001 C CNN
+F 3 "" H 3700 3250 50  0001 C CNN
+	1    3700 3250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BASE_PER_1V8
+D power-flag symbol BASE_PER_1V8
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP BASE_PER_3V3
 D power-flag symbol BASE_PER_3V3
 K Power Flag Symbol
@@ -7,6 +12,11 @@ $ENDCMP
 #
 $CMP BR24G04NUX-3TTR
 D IC EEPROM 4KBIT 400KHZ 8VSON
+$ENDCMP
+#
+$CMP NVCC_SD2_1V8_3V3
+D power-flag symbol NVCC_SD2_1V8_3V3
+K Power Flag Symbol
 $ENDCMP
 #
 $CMP SOM_NVCC_3V3
@@ -27,6 +37,25 @@ $ENDCMP
 $CMP SOM_VBAT_3V3
 D power-flag symbol SOM_VBAT_3V3
 K Power Flag Symbol
+$ENDCMP
+#
+$CMP SW_3P3_SD2
+D power-flag symbol SW_3P3_SD2
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP TLV70218DBVR
+D IC REG LINEAR 1.8V 300MA SOT23-5
+$ENDCMP
+#
+$CMP TPS27082L
+D IC LOAD SW HIGH SIDE 6SOT
+$ENDCMP
+#
+$CMP TVS_DIODE
+D Bidirectional transient-voltage-suppression (TVS) diode, alternative symbol
+K diode TVS
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
 $CMP VCC_PJ_IN
