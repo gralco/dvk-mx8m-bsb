@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "DVK-DART-MX8M"
 Date "2018-04-05"
 Rev "v0.1.0"
@@ -658,10 +658,6 @@ NoConn ~ 15250 8350
 NoConn ~ 15250 8450
 Wire Wire Line
 	1650 700  2600 700 
-Text Label 2600 700  2    60   ~ 0
-PWR_SAVE
-Text Notes 2250 600  0    60   ~ 0
-TODO!!!
 Text Label 2600 1100 2    60   ~ 0
 PMIC_ON_REQ
 Text Label 2600 1200 2    60   ~ 0
@@ -770,15 +766,6 @@ Text Notes 7250 2250 0    60   ~ 0
 Max 100mA 
 Text Notes 7250 14550 0    60   ~ 0
 Max 100mA 
-$Sheet
-S 600  3000 1050 450 
-U 5AC89E64
-F0 "Reset & Watchdog" 60
-F1 "watchdog.sch" 60
-F2 "GPIO1_IO02(nWDOG)" I R 1650 3100 60 
-F3 "POR_B" O R 1650 3250 60 
-F4 "PMIC_ON_REQ" O R 1650 3350 60 
-$EndSheet
 Wire Wire Line
 	1650 3100 2600 3100
 Wire Wire Line
@@ -786,13 +773,13 @@ Wire Wire Line
 Wire Wire Line
 	1650 3350 2600 3350
 Text Label 2600 3100 2    60   ~ 0
-GPIO1_IO02(nWDOG)
+GPIO1_IO02(~WDOG~)
 Text Label 2600 3250 2    60   ~ 0
 POR_B
 Text Label 2600 3350 2    60   ~ 0
 PMIC_ON_REQ
 Text Label 16250 7350 2    60   ~ 0
-GPIO1_IO02(nWDOG)
+GPIO1_IO02(~WDOG~)
 Wire Wire Line
 	15250 7350 16250 7350
 Text Label 16000 2050 2    60   ~ 0
@@ -822,4 +809,21 @@ Text Label 16000 2250 2    60   ~ 0
 ~CONN_SD2_RST
 Wire Wire Line
 	15250 2250 16000 2250
+Text Label 2600 700  2    60   ~ 0
+PMIC_STBY_REQ
+$Sheet
+S 600  3000 1050 450 
+U 5AC89E64
+F0 "Reset & Watchdog" 60
+F1 "watchdog.sch" 60
+F2 "POR_B" O R 1650 3250 60 
+F3 "PMIC_ON_REQ" O R 1650 3350 60 
+F4 "GPIO1_IO02(~WDOG~)" I R 1650 3100 60 
+$EndSheet
+$Sheet
+S 600  3650 1050 150 
+U 5ACF2B88
+F0 "USB" 60
+F1 "usb.sch" 60
+$EndSheet
 $EndSCHEMATC
