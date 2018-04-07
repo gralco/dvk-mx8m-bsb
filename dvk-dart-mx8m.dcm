@@ -14,6 +14,10 @@ $CMP BR24G04NUX-3TTR
 D IC EEPROM 4KBIT 400KHZ 8VSON
 $ENDCMP
 #
+$CMP FT440
+D IC REG BUCK 0.6A SYNC SOT23
+$ENDCMP
+#
 $CMP MIC2876
 D IC REG BOOST 8TDFN
 $ENDCMP
@@ -60,6 +64,11 @@ $CMP TVS_DIODE
 D Bidirectional transient-voltage-suppression (TVS) diode, alternative symbol
 K diode TVS
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP USB_SS3_VBUS
+D power-flag symbol USB_SS3_VBUS
+K Power Flag Symbol
 $ENDCMP
 #
 $CMP VCC_PJ

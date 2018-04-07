@@ -62,6 +62,11 @@ K diode TVS
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
+$CMP USB_SS3_VBUS
+D power-flag symbol USB_SS3_VBUS
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP VCC_PJ
 D power-flag symbol VCC_PJ
 K Power Flag Symbol
