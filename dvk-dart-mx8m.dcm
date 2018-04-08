@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC2G241
+D IC BUFFER/DVR 3ST DL INV
+$ENDCMP
+#
 $CMP BASE_PER_1V8
 D power-flag symbol BASE_PER_1V8
 K Power Flag Symbol

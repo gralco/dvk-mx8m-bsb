@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "DVK-DART-MX8M"
 Date "2018-04-05"
 Rev "v0.1.0"
@@ -113,58 +113,6 @@ F 3 "" H 15300 5400 50  0001 C CNN
 	1    15300 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 7150 8100 10500
-Wire Wire Line
-	8100 7150 8150 7150
-Wire Wire Line
-	8150 8350 8100 8350
-Connection ~ 8100 8350
-Wire Wire Line
-	8150 8650 8100 8650
-Connection ~ 8100 8650
-Wire Wire Line
-	8150 9750 8100 9750
-Connection ~ 8100 9750
-Wire Wire Line
-	15300 1750 15300 5400
-Wire Wire Line
-	15300 1750 15250 1750
-Wire Wire Line
-	15250 2350 15300 2350
-Connection ~ 15300 2350
-Wire Wire Line
-	15250 3450 15300 3450
-Connection ~ 15300 3450
-Wire Wire Line
-	15250 3750 15300 3750
-Connection ~ 15300 3750
-Wire Wire Line
-	15250 4050 15300 4050
-Connection ~ 15300 4050
-Wire Wire Line
-	15250 4350 15300 4350
-Connection ~ 15300 4350
-Wire Wire Line
-	15250 4650 15300 4650
-Connection ~ 15300 4650
-Wire Wire Line
-	8100 5150 8150 5150
-Wire Wire Line
-	8100 4250 8150 4250
-Connection ~ 8100 5150
-Wire Wire Line
-	8100 3650 8150 3650
-Connection ~ 8100 4250
-Wire Wire Line
-	8100 3350 8150 3350
-Connection ~ 8100 3650
-Wire Wire Line
-	8100 2550 8150 2550
-Connection ~ 8100 3350
-Wire Wire Line
-	8100 1950 8150 1950
-Connection ~ 8100 2550
 $Comp
 L GND #PWR04
 U 1 1 5ABB3F49
@@ -176,13 +124,6 @@ F 3 "" H 15300 10500 50  0001 C CNN
 	1    15300 10500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15300 6850 15300 10500
-Wire Wire Line
-	15300 6850 15250 6850
-Wire Wire Line
-	15250 10150 15300 10150
-Connection ~ 15300 10150
 $Comp
 L GNDA #PWR05
 U 1 1 5ABB42FC
@@ -194,10 +135,6 @@ F 3 "" H 15450 6600 50  0001 C CNN
 	1    15450 6600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15250 6550 15450 6550
-Wire Wire Line
-	15450 6500 15450 6600
 $Comp
 L GND #PWR06
 U 1 1 5ABB466B
@@ -209,37 +146,6 @@ F 3 "" H 8100 15600 50  0001 C CNN
 	1    8100 15600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 11550 8100 15600
-Wire Wire Line
-	8100 11550 8150 11550
-Wire Wire Line
-	8150 11850 8100 11850
-Connection ~ 8100 11850
-Wire Wire Line
-	8150 12150 8100 12150
-Connection ~ 8100 12150
-Wire Wire Line
-	8150 12450 8100 12450
-Connection ~ 8100 12450
-Wire Wire Line
-	8150 12750 8100 12750
-Connection ~ 8100 12750
-Wire Wire Line
-	8150 13050 8100 13050
-Connection ~ 8100 13050
-Wire Wire Line
-	8150 13350 8100 13350
-Connection ~ 8100 13350
-Wire Wire Line
-	8150 13650 8100 13650
-Connection ~ 8100 13650
-Wire Wire Line
-	8150 13950 8100 13950
-Connection ~ 8100 13950
-Wire Wire Line
-	8150 14250 8100 14250
-Connection ~ 8100 14250
 $Comp
 L GND #PWR07
 U 1 1 5ABB4C51
@@ -251,66 +157,17 @@ F 3 "" H 15300 15600 50  0001 C CNN
 	1    15300 15600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15300 11550 15300 15600
-Wire Wire Line
-	15300 11550 15250 11550
-Wire Wire Line
-	15250 12250 15300 12250
-Connection ~ 15300 12250
-Wire Wire Line
-	15250 12750 15300 12750
-Connection ~ 15300 12750
-Wire Wire Line
-	15250 14450 15300 14450
-Connection ~ 15300 14450
-Wire Wire Line
-	15250 14750 15300 14750
-Connection ~ 15300 14750
 $Comp
 L SOM_VBAT #PWR08
 U 1 1 5ABB586C
-P 7200 15500
-F 0 "#PWR08" H 7200 15350 50  0001 C CNN
-F 1 "SOM_VBAT" H 7200 15640 50  0000 C CNN
-F 2 "" H 7200 15500 50  0001 C CNN
-F 3 "" H 7200 15500 50  0001 C CNN
-	1    7200 15500
+P 7150 15300
+F 0 "#PWR08" H 7150 15150 50  0001 C CNN
+F 1 "SOM_VBAT" H 7150 15440 50  0000 C CNN
+F 2 "" H 7150 15300 50  0001 C CNN
+F 3 "" H 7150 15300 50  0001 C CNN
+	1    7150 15300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 15550 8150 15550
-Wire Wire Line
-	7200 15550 7200 15500
-Wire Wire Line
-	8050 14650 8050 15550
-Wire Wire Line
-	8050 14650 8150 14650
-Connection ~ 8050 15550
-Wire Wire Line
-	8150 14750 8050 14750
-Connection ~ 8050 14750
-Wire Wire Line
-	8150 14850 8050 14850
-Connection ~ 8050 14850
-Wire Wire Line
-	8150 14950 8050 14950
-Connection ~ 8050 14950
-Wire Wire Line
-	8150 15050 8050 15050
-Connection ~ 8050 15050
-Connection ~ 8050 15150
-Connection ~ 8050 15250
-Connection ~ 8050 15350
-Connection ~ 8050 15450
-Wire Wire Line
-	8150 15150 8050 15150
-Wire Wire Line
-	8150 15250 8050 15250
-Wire Wire Line
-	8150 15350 8050 15350
-Wire Wire Line
-	8150 15450 8050 15450
 $Comp
 L SOM_VBAT_3V3 #PWR09
 U 1 1 5ABB5FA9
@@ -322,10 +179,6 @@ F 3 "" H 7200 14500 50  0001 C CNN
 	1    7200 14500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 14550 8150 14550
-Wire Wire Line
-	7200 14550 7200 14500
 NoConn ~ 8150 950 
 NoConn ~ 8150 1050
 NoConn ~ 8150 1150
@@ -430,8 +283,6 @@ NoConn ~ 15250 9850
 NoConn ~ 15250 9950
 NoConn ~ 15250 10050
 NoConn ~ 15250 10250
-NoConn ~ 15250 10350
-NoConn ~ 15250 10450
 NoConn ~ 8150 7250
 NoConn ~ 8150 7350
 NoConn ~ 8150 7450
@@ -537,15 +388,12 @@ F 3 "" H 15450 6500 50  0001 C CNN
 	1    15450 6500
 	1    0    0    -1  
 $EndComp
-Connection ~ 15450 6550
-Wire Wire Line
-	8100 1950 8100 5400
 $Sheet
-S 600  600  1400 200 
+S 550  600  1400 200 
 U 5ABE5061
 F0 "Battery" 60
 F1 "battery.sch" 60
-F2 "PWR_SAVE" I R 2000 700 60 
+F2 "PWR_SAVE" I R 1950 700 60 
 $EndSheet
 $Comp
 L SOM_SNVS_3V3 #PWR011
@@ -558,46 +406,34 @@ F 3 "" H 7200 1600 50  0001 C CNN
 	1    7200 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 1650 8150 1650
-Wire Wire Line
-	7200 1650 7200 1600
 $Sheet
-S 600  1000 1400 450 
+S 550  1000 1400 450 
 U 5AC540E7
 F0 "Power" 60
 F1 "power.sch" 60
-F2 "PMIC_ON_REQ" I R 2000 1100 60 
-F3 "PMIC_STBY_REQ" I R 2000 1200 60 
-F4 "~CONN_SD2_RST" I R 2000 1350 60 
+F2 "PMIC_ON_REQ" I R 1950 1100 60 
+F3 "PMIC_STBY_REQ" I R 1950 1200 60 
+F4 "~CONN_SD2_RST" I R 1950 1350 60 
 $EndSheet
 Text Label 7750 1650 0    60   ~ 0
 LICELL
 Text Notes 5400 1750 0    60   ~ 0
 "Variscite recommends using an\nexternal low power time keeping\ncircuitry which is [more] power\nefficient than the SOC RTC core"
-Text Label 3250 1750 2    60   ~ 0
+Text Label 3200 1750 2    60   ~ 0
 I2C2_SDA
-Text Label 3250 1850 2    60   ~ 0
+Text Label 3200 1850 2    60   ~ 0
 I2C2_SCL
-Wire Wire Line
-	2000 1750 3250 1750
-Wire Wire Line
-	2000 1850 3250 1850
-Wire Wire Line
-	15250 7450 16450 7450
-Wire Wire Line
-	15250 7550 16750 7550
 Text Label 16200 7450 2    60   ~ 0
 I2C2_SDA
 Text Label 16200 7550 2    60   ~ 0
 I2C2_SCL
 $Sheet
-S 600  1650 1400 300 
+S 550  1650 1400 300 
 U 5AC56093
 F0 "RTC Battery" 60
 F1 "rtc.sch" 60
-F2 "I2C2_SDA" B R 2000 1750 60 
-F3 "I2C2_SCL" I R 2000 1850 60 
+F2 "I2C2_SDA" B R 1950 1750 60 
+F3 "I2C2_SCL" I R 1950 1850 60 
 $EndSheet
 $Comp
 L R R1
@@ -621,10 +457,6 @@ F 3 "" H 16750 7250 50  0001 C CNN
 	1    16750 7250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16450 7450 16450 7400
-Wire Wire Line
-	16750 7550 16750 7400
 $Comp
 L BASE_PER_3V3 #PWR012
 U 1 1 5AC65102
@@ -636,88 +468,49 @@ F 3 "" H 16600 7000 50  0001 C CNN
 	1    16600 7000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16450 7100 16450 7050
-Wire Wire Line
-	16450 7050 16750 7050
-Wire Wire Line
-	16750 7050 16750 7100
-Wire Wire Line
-	16600 7050 16600 7000
-Connection ~ 16600 7050
 Text Notes 16250 2050 0    60   ~ 0
 power button!
 NoConn ~ 15250 8350
 NoConn ~ 15250 8450
-Wire Wire Line
-	2000 700  3250 700 
-Text Label 3250 1100 2    60   ~ 0
+Text Label 3200 1100 2    60   ~ 0
 PMIC_ON_REQ
-Text Label 3250 1200 2    60   ~ 0
+Text Label 3200 1200 2    60   ~ 0
 PMIC_STBY_REQ
-Wire Wire Line
-	3250 1100 2000 1100
-Wire Wire Line
-	3250 1200 2000 1200
-Wire Wire Line
-	15250 1950 16200 1950
 Text Label 16200 1950 2    60   ~ 0
 PMIC_ON_REQ
-Wire Wire Line
-	15250 2150 16200 2150
 Text Label 16200 2150 2    60   ~ 0
 PMIC_STBY_REQ
 $Sheet
-S 600  2150 1400 650 
+S 550  2150 1400 650 
 U 5ABE7AA4
 F0 "Audio" 60
 F1 "audio.sch" 60
-F2 "SAI2_TXFS" I R 2000 2500 60 
-F3 "SAI2_TXC" I R 2000 2600 60 
-F4 "SAI2_MCLK" I R 2000 2700 60 
-F5 "SAI2_RXD" O R 2000 2250 60 
-F6 "SAI2_TXD" I R 2000 2350 60 
+F2 "SAI2_TXFS" I R 1950 2500 60 
+F3 "SAI2_TXC" I R 1950 2600 60 
+F4 "SAI2_MCLK" I R 1950 2700 60 
+F5 "SAI2_RXD" O R 1950 2250 60 
+F6 "SAI2_TXD" I R 1950 2350 60 
 $EndSheet
 Text Label 16200 8950 2    60   ~ 0
 SAI2_TXD
-Wire Wire Line
-	16200 8950 15250 8950
 Text Label 16200 8850 2    60   ~ 0
 SAI2_RXD
-Wire Wire Line
-	16200 8850 15250 8850
 Text Label 16200 8750 2    60   ~ 0
 SAI2_TXC
-Wire Wire Line
-	16200 8750 15250 8750
 Text Label 16200 8650 2    60   ~ 0
 SAI2_MCLK
 Text Label 16200 8550 2    60   ~ 0
 SAI2_TXFS
-Wire Wire Line
-	16200 8550 15250 8550
-Wire Wire Line
-	16200 8650 15250 8650
-Text Label 3250 2350 2    60   ~ 0
+Text Label 3200 2350 2    60   ~ 0
 SAI2_TXD
-Wire Wire Line
-	3250 2350 2000 2350
-Text Label 3250 2250 2    60   ~ 0
+Text Label 3200 2250 2    60   ~ 0
 SAI2_RXD
-Wire Wire Line
-	3250 2250 2000 2250
-Text Label 3250 2600 2    60   ~ 0
+Text Label 3200 2600 2    60   ~ 0
 SAI2_TXC
-Wire Wire Line
-	3250 2600 2000 2600
-Text Label 3250 2700 2    60   ~ 0
+Text Label 3200 2700 2    60   ~ 0
 SAI2_MCLK
-Text Label 3250 2500 2    60   ~ 0
+Text Label 3200 2500 2    60   ~ 0
 SAI2_TXFS
-Wire Wire Line
-	2000 2500 3250 2500
-Wire Wire Line
-	3250 2700 2000 2700
 $Comp
 L SOM_NVCC_3V3 #PWR013
 U 1 1 5AC989E1
@@ -729,10 +522,6 @@ F 3 "" H 7200 2200 50  0001 C CNN
 	1    7200 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 2200 7200 2250
-Wire Wire Line
-	7200 2250 8150 2250
 Text Notes 9000 2200 0    60   ~ 0
 (A23 used to be CLK2_N)\n(A25 used to be CLK2_P)
 Text Notes 9400 2500 0    60   ~ 0
@@ -752,33 +541,20 @@ F 3 "" H 7700 1600 50  0001 C CNN
 	1    7700 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 1600 7700 1650
-Connection ~ 7700 1650
 Text Notes 7250 2250 0    60   ~ 0
 Max 100mA 
 Text Notes 7250 14550 0    60   ~ 0
 Max 100mA 
-Wire Wire Line
-	2000 3100 3250 3100
-Wire Wire Line
-	2000 3250 3250 3250
-Wire Wire Line
-	2000 3350 3250 3350
-Text Label 3250 3100 2    60   ~ 0
+Text Label 3200 3100 2    60   ~ 0
 GPIO1_IO02(~WDOG~)
-Text Label 3250 3250 2    60   ~ 0
+Text Label 3200 3250 2    60   ~ 0
 POR_B
-Text Label 3250 3350 2    60   ~ 0
+Text Label 3200 3350 2    60   ~ 0
 PMIC_ON_REQ
 Text Label 16200 7350 2    60   ~ 0
 GPIO1_IO02(~WDOG~)
-Wire Wire Line
-	15250 7350 16200 7350
 Text Label 16200 2050 2    60   ~ 0
 POR_B
-Wire Wire Line
-	15250 2050 16200 2050
 $Comp
 L NVCC_SD2_1V8_3V3 #PWR015
 U 1 1 5ACBD5F9
@@ -790,100 +566,60 @@ F 3 "" H 16600 5200 50  0001 C CNN
 	1    16600 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15250 5350 16600 5350
-Wire Wire Line
-	16600 5350 16600 5200
-Wire Wire Line
-	2000 1350 3250 1350
-Text Label 3250 1350 2    60   ~ 0
+Text Label 3200 1350 2    60   ~ 0
 ~CONN_SD2_RST
 Text Label 16200 2250 2    60   ~ 0
 ~CONN_SD2_RST
-Wire Wire Line
-	15250 2250 16200 2250
-Text Label 3250 700  2    60   ~ 0
+Text Label 3200 700  2    60   ~ 0
 PMIC_STBY_REQ
 $Sheet
-S 600  3000 1400 450 
+S 550  3000 1400 450 
 U 5AC89E64
 F0 "Reset & Watchdog" 60
 F1 "watchdog.sch" 60
-F2 "POR_B" O R 2000 3250 60 
-F3 "PMIC_ON_REQ" O R 2000 3350 60 
-F4 "GPIO1_IO02(~WDOG~)" I R 2000 3100 60 
+F2 "POR_B" O R 1950 3250 60 
+F3 "PMIC_ON_REQ" O R 1950 3350 60 
+F4 "GPIO1_IO02(~WDOG~)" I R 1950 3100 60 
 $EndSheet
 $Sheet
-S 600  3650 1400 300 
+S 550  3650 1400 300 
 U 5ACF2B88
 F0 "USB" 60
 F1 "usb.sch" 60
-F2 "GPIO1_IO13(USB1_OTG_OC)" O R 2000 3750 60 
-F3 "USB1_ID" O R 2000 3850 60 
+F2 "GPIO1_IO13(USB1_OTG_OC)" O R 1950 3750 60 
+F3 "USB1_ID" O R 1950 3850 60 
 $EndSheet
-Wire Wire Line
-	2000 3750 3250 3750
-Text Label 3250 3750 2    60   ~ 0
+Text Label 3200 3750 2    60   ~ 0
 GPIO1_IO13(USB1_OTG_OC)
-Wire Wire Line
-	2000 3850 3250 3850
-Text Label 3250 3850 2    60   ~ 0
+Text Label 3200 3850 2    60   ~ 0
 USB1_ID
 $Sheet
-S 600  4150 1350 800 
+S 550  4150 1350 800 
 U 5AC9B567
 F0 "uSD Card" 60
 F1 "sd.sch" 60
-F2 "CONN_SD2_DATA1" B R 1950 4250 60 
-F3 "CONN_SD2_DATA0" B R 1950 4350 60 
-F4 "CONN_SD2_CMD" I R 1950 4450 60 
-F5 "CONN_SD2_DATA3" B R 1950 4550 60 
-F6 "CONN_SD2_DATA2" B R 1950 4650 60 
-F7 "CONN_SD2_CLK" I R 1950 4750 60 
-F8 "CONN_SD2_CD_B" O R 1950 4850 60 
+F2 "CONN_SD2_DATA1" B R 1900 4250 60 
+F3 "CONN_SD2_DATA0" B R 1900 4350 60 
+F4 "CONN_SD2_CMD" I R 1900 4450 60 
+F5 "CONN_SD2_DATA3" B R 1900 4550 60 
+F6 "CONN_SD2_DATA2" B R 1900 4650 60 
+F7 "CONN_SD2_CLK" I R 1900 4750 60 
+F8 "CONN_SD2_CD_B" O R 1900 4850 60 
 $EndSheet
-Wire Wire Line
-	1950 4250 3250 4250
-Wire Wire Line
-	1950 4350 3250 4350
-Wire Wire Line
-	1950 4450 3250 4450
-Wire Wire Line
-	1950 4550 3250 4550
-Wire Wire Line
-	1950 4650 3250 4650
-Wire Wire Line
-	1950 4750 3250 4750
-Wire Wire Line
-	1950 4850 3250 4850
-Text Label 3250 4250 2    60   ~ 0
+Text Label 3200 4250 2    60   ~ 0
 CONN_SD2_DATA1
-Text Label 3250 4350 2    60   ~ 0
+Text Label 3200 4350 2    60   ~ 0
 CONN_SD2_DATA0
-Text Label 3250 4450 2    60   ~ 0
+Text Label 3200 4450 2    60   ~ 0
 CONN_SD2_CMD
-Text Label 3250 4550 2    60   ~ 0
+Text Label 3200 4550 2    60   ~ 0
 CONN_SD2_DATA3
-Text Label 3250 4650 2    60   ~ 0
+Text Label 3200 4650 2    60   ~ 0
 CONN_SD2_DATA2
-Text Label 3250 4750 2    60   ~ 0
+Text Label 3200 4750 2    60   ~ 0
 CONN_SD2_CLK
-Text Label 3250 4850 2    60   ~ 0
+Text Label 3200 4850 2    60   ~ 0
 CONN_SD2_CD_B
-Wire Wire Line
-	15250 4850 16200 4850
-Wire Wire Line
-	15250 5150 16200 5150
-Wire Wire Line
-	15250 5250 16200 5250
-Wire Wire Line
-	15250 5050 16200 5050
-Wire Wire Line
-	15250 4750 16200 4750
-Wire Wire Line
-	15250 4950 16200 4950
-Wire Wire Line
-	15250 4550 16200 4550
 Text Label 16200 4850 2    60   ~ 0
 CONN_SD2_DATA1
 Text Label 16200 5150 2    60   ~ 0
@@ -898,4 +634,349 @@ Text Label 16200 4950 2    60   ~ 0
 CONN_SD2_CLK
 Text Label 16200 4550 2    60   ~ 0
 CONN_SD2_CD_B
+Wire Wire Line
+	8100 7150 8100 10500
+Wire Wire Line
+	8100 7150 8150 7150
+Wire Wire Line
+	8150 8350 8100 8350
+Connection ~ 8100 8350
+Wire Wire Line
+	8150 8650 8100 8650
+Connection ~ 8100 8650
+Wire Wire Line
+	8150 9750 8100 9750
+Connection ~ 8100 9750
+Wire Wire Line
+	15300 1750 15300 5400
+Wire Wire Line
+	15300 1750 15250 1750
+Wire Wire Line
+	15250 2350 15300 2350
+Connection ~ 15300 2350
+Wire Wire Line
+	15250 3450 15300 3450
+Connection ~ 15300 3450
+Wire Wire Line
+	15250 3750 15300 3750
+Connection ~ 15300 3750
+Wire Wire Line
+	15250 4050 15300 4050
+Connection ~ 15300 4050
+Wire Wire Line
+	15250 4350 15300 4350
+Connection ~ 15300 4350
+Wire Wire Line
+	15250 4650 15300 4650
+Connection ~ 15300 4650
+Wire Wire Line
+	8100 5150 8150 5150
+Wire Wire Line
+	8100 4250 8150 4250
+Connection ~ 8100 5150
+Wire Wire Line
+	8100 3650 8150 3650
+Connection ~ 8100 4250
+Wire Wire Line
+	8100 3350 8150 3350
+Connection ~ 8100 3650
+Wire Wire Line
+	8100 2550 8150 2550
+Connection ~ 8100 3350
+Wire Wire Line
+	8100 1950 8150 1950
+Connection ~ 8100 2550
+Wire Wire Line
+	15300 6850 15300 10500
+Wire Wire Line
+	15300 6850 15250 6850
+Wire Wire Line
+	15300 10150 15250 10150
+Connection ~ 15300 10150
+Wire Wire Line
+	15250 6550 15450 6550
+Wire Wire Line
+	15450 6500 15450 6600
+Wire Wire Line
+	8100 11550 8100 15600
+Wire Wire Line
+	8100 11550 8150 11550
+Wire Wire Line
+	8150 11850 8100 11850
+Connection ~ 8100 11850
+Wire Wire Line
+	8150 12150 8100 12150
+Connection ~ 8100 12150
+Wire Wire Line
+	8150 12450 8100 12450
+Connection ~ 8100 12450
+Wire Wire Line
+	8150 12750 8100 12750
+Connection ~ 8100 12750
+Wire Wire Line
+	8150 13050 8100 13050
+Connection ~ 8100 13050
+Wire Wire Line
+	8150 13350 8100 13350
+Connection ~ 8100 13350
+Wire Wire Line
+	8150 13650 8100 13650
+Connection ~ 8100 13650
+Wire Wire Line
+	8150 13950 8100 13950
+Connection ~ 8100 13950
+Wire Wire Line
+	8150 14250 8100 14250
+Connection ~ 8100 14250
+Wire Wire Line
+	15300 11550 15300 15600
+Wire Wire Line
+	15300 11550 15250 11550
+Wire Wire Line
+	15250 12250 15300 12250
+Connection ~ 15300 12250
+Wire Wire Line
+	15250 12750 15300 12750
+Connection ~ 15300 12750
+Wire Wire Line
+	15250 14450 15300 14450
+Connection ~ 15300 14450
+Wire Wire Line
+	15250 14750 15300 14750
+Connection ~ 15300 14750
+Wire Wire Line
+	7150 15300 7150 15400
+Wire Wire Line
+	8050 14650 8050 15550
+Wire Wire Line
+	8050 14650 8150 14650
+Wire Wire Line
+	8150 14750 8050 14750
+Connection ~ 8050 14750
+Wire Wire Line
+	8150 14850 8050 14850
+Connection ~ 8050 14850
+Wire Wire Line
+	8150 14950 8050 14950
+Connection ~ 8050 14950
+Wire Wire Line
+	8150 15050 8050 15050
+Connection ~ 8050 15050
+Connection ~ 8050 15150
+Connection ~ 8050 15250
+Connection ~ 8050 15350
+Connection ~ 8050 15450
+Wire Wire Line
+	8150 15150 8050 15150
+Wire Wire Line
+	8150 15250 8050 15250
+Wire Wire Line
+	7150 15350 8150 15350
+Wire Wire Line
+	8050 15450 8150 15450
+Wire Wire Line
+	7200 14550 8150 14550
+Wire Wire Line
+	7200 14550 7200 14500
+Connection ~ 15450 6550
+Wire Wire Line
+	8100 1950 8100 5400
+Wire Wire Line
+	7200 1650 8150 1650
+Wire Wire Line
+	7200 1650 7200 1600
+Wire Wire Line
+	1950 1750 3200 1750
+Wire Wire Line
+	1950 1850 3200 1850
+Wire Wire Line
+	15250 7450 16450 7450
+Wire Wire Line
+	15250 7550 16750 7550
+Wire Wire Line
+	16450 7450 16450 7400
+Wire Wire Line
+	16750 7550 16750 7400
+Wire Wire Line
+	16450 7100 16450 7050
+Wire Wire Line
+	16450 7050 16750 7050
+Wire Wire Line
+	16750 7050 16750 7100
+Wire Wire Line
+	16600 7050 16600 7000
+Connection ~ 16600 7050
+Wire Wire Line
+	1950 700  3200 700 
+Wire Wire Line
+	3200 1100 1950 1100
+Wire Wire Line
+	3200 1200 1950 1200
+Wire Wire Line
+	15250 1950 16200 1950
+Wire Wire Line
+	15250 2150 16200 2150
+Wire Wire Line
+	16200 8950 15250 8950
+Wire Wire Line
+	16200 8850 15250 8850
+Wire Wire Line
+	16200 8750 15250 8750
+Wire Wire Line
+	16200 8550 15250 8550
+Wire Wire Line
+	16200 8650 15250 8650
+Wire Wire Line
+	3200 2350 1950 2350
+Wire Wire Line
+	3200 2250 1950 2250
+Wire Wire Line
+	3200 2600 1950 2600
+Wire Wire Line
+	1950 2500 3200 2500
+Wire Wire Line
+	3200 2700 1950 2700
+Wire Wire Line
+	7200 2200 7200 2250
+Wire Wire Line
+	7200 2250 8150 2250
+Wire Wire Line
+	7700 1600 7700 1650
+Connection ~ 7700 1650
+Wire Wire Line
+	1950 3100 3200 3100
+Wire Wire Line
+	1950 3250 3200 3250
+Wire Wire Line
+	1950 3350 3200 3350
+Wire Wire Line
+	15250 7350 16200 7350
+Wire Wire Line
+	15250 2050 16200 2050
+Wire Wire Line
+	15250 5350 16600 5350
+Wire Wire Line
+	16600 5350 16600 5200
+Wire Wire Line
+	1950 1350 3200 1350
+Wire Wire Line
+	15250 2250 16200 2250
+Wire Wire Line
+	1950 3750 3200 3750
+Wire Wire Line
+	1950 3850 3200 3850
+Wire Wire Line
+	1900 4250 3200 4250
+Wire Wire Line
+	1900 4350 3200 4350
+Wire Wire Line
+	1900 4450 3200 4450
+Wire Wire Line
+	1900 4550 3200 4550
+Wire Wire Line
+	1900 4650 3200 4650
+Wire Wire Line
+	1900 4750 3200 4750
+Wire Wire Line
+	1900 4850 3200 4850
+Wire Wire Line
+	15250 4850 16200 4850
+Wire Wire Line
+	15250 5150 16200 5150
+Wire Wire Line
+	15250 5250 16200 5250
+Wire Wire Line
+	15250 5050 16200 5050
+Wire Wire Line
+	15250 4750 16200 4750
+Wire Wire Line
+	15250 4950 16200 4950
+Wire Wire Line
+	15250 4550 16200 4550
+$Comp
+L C C1
+U 1 1 5ACBFBDA
+P 7150 15550
+F 0 "C1" H 7175 15650 50  0000 L CNN
+F 1 "100uF" H 7175 15450 50  0000 L CNN
+F 2 "" H 7188 15400 50  0001 C CNN
+F 3 "" H 7150 15550 50  0001 C CNN
+	1    7150 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5ACBFD9A
+P 7450 15800
+F 0 "#PWR016" H 7450 15550 50  0001 C CNN
+F 1 "GND" H 7450 15650 50  0000 C CNN
+F 2 "" H 7450 15800 50  0001 C CNN
+F 3 "" H 7450 15800 50  0001 C CNN
+	1    7450 15800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 15550 8150 15550
+Connection ~ 7150 15350
+$Comp
+L C C2
+U 1 1 5ACC06DB
+P 7450 15550
+F 0 "C2" H 7475 15650 50  0000 L CNN
+F 1 "100uF" H 7475 15450 50  0000 L CNN
+F 2 "" H 7488 15400 50  0001 C CNN
+F 3 "" H 7450 15550 50  0001 C CNN
+	1    7450 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5ACC079A
+P 7750 15550
+F 0 "C3" H 7775 15650 50  0000 L CNN
+F 1 "100uF" H 7775 15450 50  0000 L CNN
+F 2 "" H 7788 15400 50  0001 C CNN
+F 3 "" H 7750 15550 50  0001 C CNN
+	1    7750 15550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 15700 7150 15750
+Wire Wire Line
+	7150 15750 7750 15750
+Wire Wire Line
+	7750 15750 7750 15700
+Wire Wire Line
+	7450 15700 7450 15800
+Connection ~ 7450 15750
+Wire Wire Line
+	7450 15400 7450 15350
+Connection ~ 7450 15350
+Wire Wire Line
+	7750 15400 7750 15350
+Connection ~ 7750 15350
+Wire Wire Line
+	15250 10350 16200 10350
+Wire Wire Line
+	15250 10450 16200 10450
+Text Label 16200 10350 2    60   ~ 0
+UART1_RXD
+Text Label 16200 10450 2    60   ~ 0
+UART1_TXD
+$Sheet
+S 550  5100 1350 300 
+U 5ACD5BC1
+F0 "UART Debug" 60
+F1 "uart.sch" 60
+F2 "UART1_TXD" I R 1900 5200 60 
+F3 "UART1_RXD" O R 1900 5300 60 
+$EndSheet
+Wire Wire Line
+	1900 5200 3200 5200
+Wire Wire Line
+	1900 5300 3200 5300
+Text Label 3200 5200 2    60   ~ 0
+UART1_TXD
+Text Label 3200 5300 2    60   ~ 0
+UART1_RXD
 $EndSCHEMATC
