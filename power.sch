@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title "Power"
 Date "2018-04-05"
 Rev "v0.1.0"
@@ -1137,4 +1137,8 @@ F 3 "" H 4750 4800 50  0001 C CNN
 $EndComp
 Text Notes 6100 5650 0    60   ~ 0
   SW4A of PF4210 is 1.8V\nbut SoM doesn't bring it out
+Text Notes 6500 5950 0    60   ~ 0
+When VCC_PJ≅VBAT\nLDO can be tested
+Text Notes 4550 2900 0    60   ~ 0
+~~129.9ms until\n≥VIH (1.6V)
 $EndSCHEMATC
