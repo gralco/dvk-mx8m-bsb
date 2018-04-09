@@ -38,12 +38,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 10
-Title ""
-Date "2018-04-05"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "USB"
+Date "2018-04-09"
+Rev "v0.1.0"
+Comp "Purism SPC"
+Comment1 "Copyright 2018"
+Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr

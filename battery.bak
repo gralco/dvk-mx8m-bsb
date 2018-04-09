@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
 Title "Battery"
-Date "2018-04-05"
+Date "2018-04-09"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
