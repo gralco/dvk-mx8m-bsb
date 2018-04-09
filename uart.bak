@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -71,7 +71,13 @@ P 6850 3950
 F 0 "J5" H 6850 4250 50  0000 C CNN
 F 1 "Conn_01x06" H 6850 3550 50  0000 C CNN
 F 2 "" H 6850 3950 50  0001 C CNN
-F 3 "" H 6850 3950 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 6850 3950 50  0001 C CNN
+F 4 "Sullins" H 6850 3950 60  0001 C CNN "MFG Name"
+F 5 "PREC006SAAN-RC" H 6850 3950 60  0001 C CNN "MFG Part Num"
+F 6 "S1012EC-06-ND" H 6850 3950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC006SAAN-RC/S1012EC-06-ND/2774848" H 6850 3950 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6850 3950 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=&pkeyword=&pv5=1814&FV=114016f%2C1140050%2C1600007%2C1680001%2C8d00002%2C1bf80001%2C1f140000%2C1fa40053%2Cffe0013a%2C9340019&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 6850 3950 60  0001 C CNN "Others"
 	1    6850 3950
 	1    0    0    -1  
 $EndComp

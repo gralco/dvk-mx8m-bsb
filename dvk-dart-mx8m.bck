@@ -35,6 +35,11 @@ D power-flag symbol NVCC_SD2_1V8_3V3
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP SN74LVC1G04
+D IC SINGLE INVERTER GATE
+K CMOS BUFFER
+$ENDCMP
+#
 $CMP SOM_NVCC_3V3
 D power-flag symbol SOM_NVCC_3V3
 K Power Flag Symbol
