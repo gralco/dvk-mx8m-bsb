@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 12
 Title "Power"
 Date "2018-04-09"
 Rev "v0.1.0"
