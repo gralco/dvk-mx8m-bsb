@@ -4,6 +4,11 @@ $CMP 74LVC2G241
 D IC BUFFER/DVR 3ST DL INV
 $ENDCMP
 #
+$CMP AVDD
+D power-flag symbol AVDD
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP BASE_PER_1V8
 D power-flag symbol BASE_PER_1V8
 K Power Flag Symbol
@@ -35,8 +40,18 @@ D power-flag symbol NVCC_SD2_1V8_3V3
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP OVDD
+D power-flag symbol OVDD
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP SN74LVC1G04
 D IC SINGLE INVERTER GATE
+K CMOS BUFFER
+$ENDCMP
+#
+$CMP SN74LVC1G34
+D IC BUFFER NON-INVERT
 K CMOS BUFFER
 $ENDCMP
 #
@@ -71,6 +86,10 @@ $ENDCMP
 #
 $CMP TPS27082L
 D IC LOAD SW HIGH SIDE 6SOT
+$ENDCMP
+#
+$CMP TPS65632RTER
+D LED Display Drivers Triple-Output AMOLED Display Power Supply
 $ENDCMP
 #
 $CMP TVS_DIODE

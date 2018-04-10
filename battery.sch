@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 2 13
 Title "Battery"
 Date "2018-04-09"
 Rev "v0.1.0"
