@@ -35,6 +35,10 @@ $CMP MIC2876
 D IC REG BOOST 8TDFN
 $ENDCMP
 #
+$CMP MIC5501
+D IC REG LINEAR 3V 300MA SOT23-5
+$ENDCMP
+#
 $CMP NVCC_SD2_1V8_3V3
 D power-flag symbol NVCC_SD2_1V8_3V3
 K Power Flag Symbol
@@ -42,6 +46,11 @@ $ENDCMP
 #
 $CMP OVDD
 D power-flag symbol OVDD
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP OVSS
+D power-flag symbol OVSS
 K Power Flag Symbol
 $ENDCMP
 #
