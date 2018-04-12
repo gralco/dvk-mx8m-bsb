@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 14
 Title "Power"
-Date "2018-04-10"
+Date "2018-04-11"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -1758,7 +1758,7 @@ F 1 "10k" V 8300 4250 50  0000 C CNN
 F 2 "" V 8230 4250 50  0001 C CNN
 F 3 "" H 8300 4250 50  0001 C CNN
 	1    8300 4250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8550 4600 8550 4650

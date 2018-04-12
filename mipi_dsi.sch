@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 14
 Title "MIPI DSI"
-Date "2018-04-10"
+Date "2018-04-11"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -2157,9 +2157,9 @@ F 3 "" H 4250 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3150 4250 3150
+	4250 3150 4300 3150
 Wire Wire Line
-	4250 3150 4250 2900
+	4250 2900 4250 3150
 Wire Wire Line
 	4300 3050 4250 3050
 Connection ~ 4250 3050
@@ -2178,9 +2178,9 @@ F 3 "" H 4850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3150 4850 3150
+	4850 3150 4800 3150
 Wire Wire Line
-	4850 3150 4850 2900
+	4850 2900 4850 3150
 Wire Wire Line
 	4800 3050 4850 3050
 Connection ~ 4850 3050
@@ -2203,4 +2203,17 @@ Wire Wire Line
 Connection ~ 6000 2050
 Text Notes 6350 1950 0    60   ~ 0
 1.8V rises ~~12ms after 3.0V
+$Comp
+L AVDD #PWR0149
+U 1 1 5ACF9758
+P 5200 3250
+F 0 "#PWR0149" H 5200 3100 50  0001 C CNN
+F 1 "AVDD" H 5200 3390 50  0000 C CNN
+F 2 "" H 5200 3250 50  0001 C CNN
+F 3 "" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3350 5200 3250
 $EndSCHEMATC

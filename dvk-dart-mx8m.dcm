@@ -39,6 +39,10 @@ $CMP MIC5501
 D IC REG LINEAR 3V 300MA SOT23-5
 $ENDCMP
 #
+$CMP NUP5120
+D TVS DIODE 5V SOT563
+$ENDCMP
+#
 $CMP NVCC_SD2_1V8_3V3
 D power-flag symbol NVCC_SD2_1V8_3V3
 K Power Flag Symbol
@@ -52,6 +56,11 @@ $ENDCMP
 $CMP OVSS
 D power-flag symbol OVSS
 K Power Flag Symbol
+$ENDCMP
+#
+$CMP SIM_Card_Det
+D SIM Card
+K SIM card UICC
 $ENDCMP
 #
 $CMP SN74LVC1G04
