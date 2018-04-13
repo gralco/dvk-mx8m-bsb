@@ -102,7 +102,7 @@ L D_Schottky D10
 U 1 1 5AD05906
 P 5550 3650
 F 0 "D10" H 5550 3750 50  0000 C CNN
-F 1 "ZLLS400" H 5800 3600 50  0000 C CNN
+F 1 "CFSH05-20L" H 5875 3600 50  0000 C CNN
 F 2 "" H 5550 3650 50  0001 C CNN
 F 3 "" H 5550 3650 50  0001 C CNN
 	1    5550 3650
@@ -181,7 +181,7 @@ F 3 "" H 5750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 3350 5900 3350
+	4550 3350 5900 3350
 Wire Wire Line
 	5750 3350 5750 3900
 $Comp
@@ -197,43 +197,43 @@ F 3 "" H 5750 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 4250 5750 4200
-Text HLabel 4700 3250 0    60   Output ~ 0
+Text HLabel 4550 3250 0    60   Output ~ 0
 JTAG_TMS
-Text HLabel 4700 3350 0    60   Output ~ 0
+Text HLabel 4550 3350 0    60   Output ~ 0
 JTAG_TCK
-Text HLabel 4700 3450 0    60   Input ~ 0
+Text HLabel 4550 3450 0    60   Input ~ 0
 JTAG_TDO
-Text HLabel 4700 3550 0    60   Output ~ 0
+Text HLabel 4550 3550 0    60   Output ~ 0
 JTAG_TDI
-Text HLabel 4700 3650 0    60   Output ~ 0
+Text HLabel 4550 3650 0    60   Output ~ 0
 POR_B
 Wire Wire Line
-	4700 3250 5900 3250
+	4550 3250 5900 3250
 Connection ~ 5750 3350
 Wire Wire Line
-	4700 3450 5900 3450
+	4550 3450 5900 3450
 Wire Wire Line
-	4700 3550 5900 3550
+	4550 3550 5900 3550
 Wire Wire Line
-	4700 3650 5400 3650
+	4550 3650 5400 3650
 Wire Wire Line
 	5700 3650 5900 3650
 Wire Wire Line
-	6000 3850 4700 3850
-Text HLabel 4700 3850 0    60   Output ~ 0
+	6000 3850 4550 3850
+Text HLabel 4550 3850 0    60   Output ~ 0
 JTAG_~TRST
-Text Notes 4750 3250 0    60   ~ 0
+Text Notes 4600 3250 0    60   ~ 0
 90K PD
-Text Notes 4750 3350 0    60   ~ 0
+Text Notes 4600 3350 0    60   ~ 0
 27K PU
-Text Notes 4750 3450 0    60   ~ 0
+Text Notes 4600 3450 0    60   ~ 0
 27K PU
-Text Notes 4750 3550 0    60   ~ 0
+Text Notes 4600 3550 0    60   ~ 0
 27K PU
-Text Notes 4750 3650 0    60   ~ 0
+Text Notes 4600 3650 0    60   ~ 0
 27K PU
-Text Notes 4750 3850 0    60   ~ 0
+Text Notes 4600 3850 0    60   ~ 0
 27K PU
-Text Notes 4750 3100 0    60   ~ 0
+Text Notes 4600 3100 0    60   ~ 0
 Internal
 $EndSCHEMATC
