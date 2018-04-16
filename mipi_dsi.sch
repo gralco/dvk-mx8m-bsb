@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 14
 Title "MIPI DSI"
-Date "2018-04-11"
+Date "2018-04-16"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -385,7 +385,7 @@ CAPTOUCH_~INT
 Text HLabel 6800 4150 2    60   Input ~ 0
 CAPTOUCH_~RST
 Text HLabel 5300 4450 2    60   Input ~ 0
-DSI_BL_PWM
+RESX
 Text Notes 5950 4575 0    60   ~ 0
  called "C_1V8_S1" in the\n"plink20170817" schematic
 $Bitmap

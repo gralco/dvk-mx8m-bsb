@@ -385,7 +385,7 @@ CAPTOUCH_~INT
 Text HLabel 6800 4150 2    60   Input ~ 0
 CAPTOUCH_~RST
 Text HLabel 5300 4450 2    60   Input ~ 0
-DSI_BL_PWM
+RESX
 Text Notes 5950 4575 0    60   ~ 0
  called "C_1V8_S1" in the\n"plink20170817" schematic
 $Bitmap
