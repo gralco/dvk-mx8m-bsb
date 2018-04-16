@@ -31,14 +31,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:dvk-dart-mx8m
-LIBS:dvk-dart-mx8m-cache
+LIBS:dvk-mx8m-bsb
+LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 14
-Title "DVK-DART-MX8M"
+Title "DVK-MX8M-BSB"
 Date "2018-04-16"
 Rev "v0.1.0"
 Comp "Purism SPC"

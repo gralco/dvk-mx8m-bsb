@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name dvk-dart-mx8m)(type KiCad)(uri "$(KIPRJMOD)/dvk-dart-mx8m.pretty")(options "")(descr DVK-DART-MX8M))
+  (lib (name dvk-mx8m-bsb)(type KiCad)(uri "$(KIPRJMOD)/dvk-mx8m-bsb.pretty")(options "")(descr DVK-DART-MX8M))
 )

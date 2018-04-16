@@ -31,8 +31,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:dvk-dart-mx8m
-LIBS:dvk-dart-mx8m-cache
+LIBS:dvk-mx8m-bsb
+LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

@@ -1,4 +1,4 @@
-update=Mon 16 Apr 2018 04:00:19 PM EDT
+update=Mon 16 Apr 2018 07:50:52 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=dvk-dart-mx8m
+LibName33=dvk-mx8m-bsb
 [general]
 version=1
