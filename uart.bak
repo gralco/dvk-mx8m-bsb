@@ -251,4 +251,6 @@ Wire Wire Line
 	6250 3550 6250 3500
 Wire Wire Line
 	6250 3200 6250 3150
+Text Notes 6650 3600 0    60   ~ 0
+Accepts 3.3V \nor 5V Logic
 $EndSCHEMATC
