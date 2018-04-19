@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 3V3_OUT
+D power-flag symbol 3V3_OUT
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 3V3_P
+D power-flag symbol 3V3_P
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 74LVC2G241
 D IC BUFFER/DVR 3ST DL INV
 $ENDCMP
@@ -63,6 +73,11 @@ D power-flag symbol OVSS
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP Q_PMOS_SSSGD
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP SIM_Card_Det
 D SIM Card
 K SIM card UICC
@@ -76,26 +91,6 @@ $ENDCMP
 $CMP SN74LVC1G34
 D IC BUFFER NON-INVERT
 K CMOS BUFFER
-$ENDCMP
-#
-$CMP SOM_NVCC_3V3
-D power-flag symbol SOM_NVCC_3V3
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP SOM_SNVS_3V3
-D power-flag symbol SOM_SNVS_3V3
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP SOM_VBAT
-D power-flag symbol SOM_VBAT
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP SOM_VBAT_3V3
-D power-flag symbol SOM_VBAT_3V3
-K Power Flag Symbol
 $ENDCMP
 #
 $CMP SW_3P3_SD2
@@ -126,6 +121,11 @@ D power-flag symbol USB_SS3_VBUS
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP VBAT_SOM
+D power-flag symbol VBAT_SOM
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP VCC_PJ
 D power-flag symbol VCC_PJ
 K Power Flag Symbol
@@ -133,6 +133,11 @@ $ENDCMP
 #
 $CMP VCI_TP_VCC
 D power-flag symbol VCI_TP_VCC
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VSYS
+D power-flag symbol VSYS
 K Power Flag Symbol
 $ENDCMP
 #
