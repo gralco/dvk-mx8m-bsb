@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1V8_P
+D power-flag symbol 1V8_P
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 3V3_OUT
 D power-flag symbol 3V3_OUT
 K Power Flag Symbol
@@ -16,16 +21,6 @@ $ENDCMP
 #
 $CMP AVDD
 D power-flag symbol AVDD
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP BASE_PER_1V8
-D power-flag symbol BASE_PER_1V8
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP BASE_PER_3V3
-D power-flag symbol BASE_PER_3V3
 K Power Flag Symbol
 $ENDCMP
 #
@@ -63,6 +58,14 @@ D power-flag symbol NVCC_SD2_1V8_3V3
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP NX20P5090UKAZ
+D IC PWR SW USB 1CH 5A HI 15WLCSP
+$ENDCMP
+#
+$CMP NX5P3290UKZ
+D IC USB POWER SWITCH 16WLCSP
+$ENDCMP
+#
 $CMP OVDD
 D power-flag symbol OVDD
 K Power Flag Symbol
@@ -71,6 +74,22 @@ $ENDCMP
 $CMP OVSS
 D power-flag symbol OVSS
 K Power Flag Symbol
+$ENDCMP
+#
+$CMP PCMF2HDMI2SZ
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP PCMF3HDMI2SZ
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP PTN5110HQZ
+D IC USB PD TCPC PHY HX2QFN16
 $ENDCMP
 #
 $CMP Q_PMOS_SSSGD
@@ -98,6 +117,12 @@ D power-flag symbol SW_3P3_SD2
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP TLV3201AIDBVR
+D 10 MHz, 850 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
 $CMP TLV70218DBVR
 D IC REG LINEAR 1.8V 300MA SOT23-5
 $ENDCMP
@@ -121,13 +146,18 @@ D power-flag symbol USB_SS3_VBUS
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP VBAT_SOM
-D power-flag symbol VBAT_SOM
+$CMP VBAT
+D power-flag symbol VBAT
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP VCC_PJ
-D power-flag symbol VCC_PJ
+$CMP VBAT_REG
+D power-flag symbol VBAT_REG
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VCHRG
+D power-flag symbol VCHRG
 K Power Flag Symbol
 $ENDCMP
 #
