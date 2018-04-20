@@ -166,9 +166,4 @@ D power-flag symbol VCI_TP_VCC
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP VSYS
-D power-flag symbol VSYS
-K Power Flag Symbol
-$ENDCMP
-#
 #End Doc Library
