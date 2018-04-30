@@ -738,7 +738,7 @@ Wire Wire Line
 Text Notes 1450 6000 0    60   ~ 0
          This disables charging\n      but maybe not VBUS->VOUT\n  if PTN5110HQ's FAULT_STATUS[6]==1\n(Force Off VBUS bit) then set EN_HiZ=1\nEN_HiZ may be auto-set when in hiccup
 Text Notes 3225 3725 0    60   ~ 0
- Default LOW\nadapter source
+ Default LOW:\nadapter source
 $Comp
 L R R208
 U 1 1 5AF3AB1B
@@ -784,7 +784,7 @@ Text Notes 1150 6600 0    60   ~ 0
 Also, reading PTN5110HQ's CC_STATUS and POWER_STATUS\nregisters will tell TCPM (i.MX8M) when to set OTG_CONFIG=1\n(this will also happen when PTN5110HQ sets EN_SRC HIGH)
 Wire Wire Line
 	3150 5000 4300 5000
-Text Notes 2300 4900 0    60   ~ 0
+Text Notes 2300 4700 0    60   ~ 0
 Open-drain output\ntied with TCPC_~INT
 Text Notes 6400 5450 0    60   ~ 0
 VBAT(DPL)=2.15~~2.5V
@@ -2240,4 +2240,6 @@ Text Notes 7600 4050 0    60   ~ 0
 NCR18650BD is recommended
 Text Notes 950  1900 0    60   ~ 0
 (interpret RSOC% based on this plot)
+Text Notes 1700 4900 0    60   ~ 0
+If enough I/O is available then\nseparate CHRG_~INT~ & TCPC_~INT
 $EndSCHEMATC
