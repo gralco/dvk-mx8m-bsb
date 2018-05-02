@@ -47,17 +47,6 @@ Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Micro_SD_Card_Det J901
-U 1 1 5AC9C744
-P 5550 4000
-F 0 "J901" H 4900 4700 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 6200 4700 50  0000 R CNN
-F 2 "" H 7600 4700 50  0001 C CNN
-F 3 "" H 5550 4100 50  0001 C CNN
-	1    5550 4000
-	1    0    0    -1  
-$EndComp
 Text HLabel 2600 4300 0    60   BiDi ~ 0
 CONN_SD2_DATA1
 Text HLabel 2600 4200 0    60   BiDi ~ 0
@@ -339,11 +328,6 @@ Wire Wire Line
 	6400 4500 6350 4500
 Wire Wire Line
 	6400 4550 6400 4500
-Connection ~ 4550 4500
-Wire Wire Line
-	4550 4400 4550 4500
-Wire Wire Line
-	4650 4400 4550 4400
 Wire Wire Line
 	2600 4300 4650 4300
 Wire Wire Line
@@ -354,8 +338,6 @@ Wire Wire Line
 	2600 3700 4650 3700
 Wire Wire Line
 	2600 3600 4650 3600
-Wire Wire Line
-	2600 4500 4650 4500
 Wire Wire Line
 	4150 3550 4150 3800
 Connection ~ 4150 3800
@@ -389,4 +371,23 @@ Wire Wire Line
 	5400 2250 5400 2200
 Text Notes 5600 2475 0    60   ~ 0
 may need 0Ω
+$Comp
+L Micro_SD_Card_Det_ALPS_SCHA J802
+U 1 1 5AFA0CE0
+P 5550 4000
+F 0 "J802" H 4900 4700 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_ALPS_SCHA" H 6200 4700 50  0000 R CNN
+F 2 "" H 7600 4700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/alps_SCHA4B0419-1155906.pdf" H 5550 4100 50  0001 C CNN
+F 4 "ALPS" H 5550 4000 60  0001 C CNN "MFG Name"
+F 5 "SCHA4B0419" H 5550 4000 60  0001 C CNN "MFG Part Num"
+F 6 "688-SCHA4B0419" H 5550 4000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/ALPS/SCHA4B0419?qs=sGAEpiMZZMuJakaoiLiBpsFSICW6cUCj0ci6XSEAGXcTwv1T7afZMw%3d%3d" H 5550 4000 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5550 4000 60  0001 C CNN "Tolerance"
+F 9 "https://www.mouser.com/Connectors/Memory-Connectors/Memory-Card-Connectors/_/N-axj8k?P=1yzxfxm&Ns=Pricing|0" H 5550 4000 60  0001 C CNN "Others"
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4500 2600 4500
 $EndSCHEMATC
