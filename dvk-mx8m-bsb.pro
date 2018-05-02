@@ -1,4 +1,4 @@
-update=Mi 02 Mai 2018 15:11:34 CEST
+update=Wed 02 May 2018 07:49:43 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +60,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=dvk-mx8m-bsb
+[general]
+version=1

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 15 16
 Title "WLAN+BT M.2"
 Date "2018-05-02"
 Rev "v0.1.0"
@@ -935,14 +935,6 @@ Text Label 9000 4400 2    60   ~ 0
 ~W_DISABLE2
 Text Label 9000 4500 2    60   ~ 0
 ~W_DISABLE1
-NoConn ~ 7750 2150
-NoConn ~ 7750 2250
-NoConn ~ 7750 2350
-NoConn ~ 7750 2450
-NoConn ~ 7750 2550
-NoConn ~ 7750 2650
-NoConn ~ 7750 2750
-NoConn ~ 7750 2850
 NoConn ~ 8500 2100
 NoConn ~ 8500 2200
 NoConn ~ 8500 2300
@@ -978,4 +970,18 @@ F 3 "" H 9850 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9850 4950 9850 4900
+Text HLabel 7750 2150 0    60   Input ~ 0
+WIFI_CLK
+Text HLabel 7750 2250 0    60   Input ~ 0
+WIFI_CMD
+Text HLabel 7750 2350 0    60   BiDi ~ 0
+WIFI_DATA0
+Text HLabel 7750 2450 0    60   BiDi ~ 0
+WIFI_DATA1
+Text HLabel 7750 2550 0    60   BiDi ~ 0
+WIFI_DATA2
+Text HLabel 7750 2650 0    60   BiDi ~ 0
+WIFI_DATA3
+NoConn ~ 7750 2750
+NoConn ~ 7750 2850
 $EndSCHEMATC
