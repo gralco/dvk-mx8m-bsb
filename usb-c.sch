@@ -300,7 +300,7 @@ P 8300 3300
 F 0 "U1005" H 7650 4100 60  0000 C CNN
 F 1 "PTN5110HQZ" H 7800 2500 60  0000 C CNN
 F 2 "" H 8000 3400 60  0001 C CNN
-F 3 "" H 8000 3400 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PTN5110_SDS.pdf" H 8000 3400 60  0001 C CNN
 	1    8300 3300
 	1    0    0    -1  
 $EndComp
@@ -328,7 +328,7 @@ P 4000 7950
 F 0 "U1002" H 3450 8900 60  0000 C CNN
 F 1 "PTN36043BXZ" H 4350 8900 60  0000 C CNN
 F 2 "" H 4000 8100 60  0001 C CNN
-F 3 "" H 4000 8100 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PTN36043.pdf" H 4000 8100 60  0001 C CNN
 	1    4000 7950
 	1    0    0    -1  
 $EndComp

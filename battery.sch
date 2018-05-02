@@ -526,7 +526,7 @@ P 4800 4150
 F 0 "U201" H 4550 5300 60  0000 C CNN
 F 1 "BQ25896" H 4900 5300 60  0000 C CNN
 F 2 "" H 4900 4350 60  0001 C CNN
-F 3 "" H 4900 4350 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq25896.pdf" H 4900 4350 60  0001 C CNN
 	1    4800 4150
 	1    0    0    -1  
 $EndComp

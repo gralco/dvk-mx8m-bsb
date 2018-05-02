@@ -54,7 +54,7 @@ P 3050 3350
 F 0 "U1501" H 2600 4250 60  0000 C CNN
 F 1 "SGTL5000" H 3500 4250 60  0000 C CNN
 F 2 "" H 3050 3400 60  0000 C CNN
-F 3 "" H 3050 3400 60  0000 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf" H 3050 3400 60  0001 C CNN
 	1    3050 3350
 	1    0    0    -1  
 $EndComp

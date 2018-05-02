@@ -230,7 +230,7 @@ P 4650 1900
 F 0 "U303" H 4400 2550 60  0000 C CNN
 F 1 "RT8070" H 4800 2550 60  0000 C CNN
 F 2 "" H 4700 2050 60  0001 C CNN
-F 3 "" H 4700 2050 60  0001 C CNN
+F 3 "https://www.richtek.com/assets/product_file/RT8070/DS8070-08.pdf" H 4700 2050 60  0001 C CNN
 	1    4650 1900
 	1    0    0    -1  
 $EndComp
@@ -572,7 +572,7 @@ P 9150 4500
 F 0 "U305" H 8950 4800 60  0000 C CNN
 F 1 "FT440" H 9300 4800 60  0000 C CNN
 F 2 "" H 9150 4400 591 0001 C CNN
-F 3 "https://websites.godaddy.com/blob/d0f1813f-418c-4780-8b0e-f456f226885c/downloads/1bich44lo_657337.pdf" H 9150 4400 591 0001 C CNN
+F 3 "http://www.ineltek.com/wp-content/uploads/manual/fmd/FT440x.pdf" H 9150 4400 591 0001 C CNN
 F 4 "Fremont Micro" H 9150 4500 60  0001 C CNN "MFG Name"
 F 5 "FT440CA" H 9150 4500 60  0001 C CNN "MFG Part Num"
 F 6 "1219-1077-1-ND" H 9150 4500 60  0001 C CNN "Distrib PN"
@@ -1686,7 +1686,7 @@ P 10050 1850
 F 0 "U306" H 9850 2200 60  0000 C CNN
 F 1 "TCK206G,LF" H 10000 1500 60  0000 C CNN
 F 2 "" H 10050 1850 60  0001 C CNN
-F 3 "" H 10050 1850 60  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14738&prodName=TCK206G" H 10050 1850 60  0001 C CNN
 	1    10050 1850
 	1    0    0    -1  
 $EndComp

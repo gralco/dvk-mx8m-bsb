@@ -156,7 +156,7 @@ P 8450 2950
 F 0 "U901" H 8250 3600 60  0000 C CNN
 F 1 "IP4220CZ6" H 8400 3500 60  0000 C CNN
 F 2 "" V 8425 2950 60  0001 C CNN
-F 3 "" V 8425 2950 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" V 8425 2950 60  0001 C CNN
 	1    8450 2950
 	1    0    0    -1  
 $EndComp
