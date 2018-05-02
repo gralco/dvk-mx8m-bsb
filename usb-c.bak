@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 14
+Sheet 9 15
 Title "USB Type C"
-Date "2018-04-19"
+Date "2018-05-02"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -751,7 +751,7 @@ L R R1024
 U 1 1 5AF58EF4
 P 9050 5850
 F 0 "R1024" V 9130 5850 50  0000 C CNN
-F 1 "10k" V 8950 5850 50  0000 C CNN
+F 1 "NC" V 8950 5850 50  0000 C CNN
 F 2 "" V 8980 5850 50  0001 C CNN
 F 3 "" H 9050 5850 50  0001 C CNN
 	1    9050 5850
@@ -1554,7 +1554,9 @@ Open-drain output\ntied with CHRG_~INT
 Text Notes 7200 1550 0    60   ~ 0
 "Under dead battery operation, PTN5110 applies voltage clamps to both CC pins so that\n the system may receive power as a Sink. To support platforms with buck-boost\n configuration, PTN5110 asserts EN_SNK1 pin based on validity of VBUS voltage\n (facilitates 5 V VBUS sinking)."
 Text Notes 7800 6500 0    60   ~ 0
-Initialize as the DFP (host)\nread CC_STATUS to determine role\nuse Host Negotiation Protocol (HNP)\nto become an UFP (device)\n∴USB ID is effectively unused
+Initialize as the UFP (device)\nread CC_STATUS to determine role\nuse Host Negotiation Protocol (HNP)\nto become an DFP (host)\n∴USB ID is effectively unused
 Text Notes 7800 6700 0    60   ~ 0
-⇒Legacy hosts would "wait" for this\n⇒If CC initializes as UFP then sw driver shouldn't care about ID
+⇒Legacy devices would "wait" for this\n⇒If CC initializes as UFP then no HNP needed
+Text Notes 8800 6000 0    60   ~ 0
+10k
 $EndSCHEMATC

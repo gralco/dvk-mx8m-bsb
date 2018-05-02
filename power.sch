@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 15
 Title "Power"
-Date "2018-04-19"
+Date "2018-05-02"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -206,7 +206,7 @@ L R R303
 U 1 1 5AC8DBD8
 P 3950 2100
 F 0 "R303" V 4030 2100 50  0000 C CNN
-F 1 "R" V 3950 2100 50  0000 C CNN
+F 1 "1M" V 3950 2100 50  0000 C CNN
 F 2 "" V 3880 2100 50  0001 C CNN
 F 3 "" H 3950 2100 50  0001 C CNN
 	1    3950 2100

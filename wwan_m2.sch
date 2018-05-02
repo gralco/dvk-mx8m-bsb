@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 13 15
 Title "WWAN M.2"
-Date "2018-04-19"
+Date "2018-05-02"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -55,7 +55,6 @@ NoConn ~ 6250 2350
 NoConn ~ 6250 2250
 NoConn ~ 6250 2150
 NoConn ~ 6250 2050
-NoConn ~ 6250 1950
 NoConn ~ 6750 2900
 NoConn ~ 6750 2800
 NoConn ~ 6750 2600
@@ -7128,7 +7127,7 @@ Text HLabel 7850 3800 2    60   Output ~ 0
 Connection ~ 7800 3800
 Text HLabel 7650 4600 2    60   BiDi ~ 0
 USB_D+
-Text HLabel 8150 4500 2    60   BiDi ~ 0
+Text HLabel 7650 4500 2    60   BiDi ~ 0
 USB_D-
 Text HLabel 5950 6700 2    60   BiDi ~ 0
 PCM_SYNC/I2S_FSC
@@ -7461,7 +7460,7 @@ Text Notes 7950 4450 0    60   ~ 0
 Wire Wire Line
 	6750 4600 7650 4600
 Wire Wire Line
-	6750 4500 8150 4500
+	6750 4500 7650 4500
 Text Notes 5850 7350 0    60   ~ 0
 SAI6 can be configured\nas master or slave
 $EndSCHEMATC
