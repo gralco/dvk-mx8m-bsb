@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 16
+Sheet 2 17
 Title "USB Type C"
 Date "2018-05-02"
 Rev "v0.1.0"

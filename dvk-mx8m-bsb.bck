@@ -29,6 +29,10 @@ $CMP 74LVC2G241
 D IC BUFFER/DVR 3ST DL INV
 $ENDCMP
 #
+$CMP AR8031
+D IC TRANSCEIVER ETHERNET 48-QFN
+$ENDCMP
+#
 $CMP AVDD
 D power-flag symbol AVDD
 K Power Flag Symbol
@@ -116,6 +120,11 @@ $CMP PCMF3HDMI2SZ
 D EMI 2-inductor-filter
 K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP PRA1T824-G/Y(L)
+D RJ45 with transformer + leds
+K RJ45
 $ENDCMP
 #
 $CMP PTN5110HQZ

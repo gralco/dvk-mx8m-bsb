@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 15 17
 Title "WLAN+BT M.2"
 Date "2018-05-02"
 Rev "v0.1.0"
