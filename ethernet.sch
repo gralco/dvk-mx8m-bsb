@@ -820,9 +820,14 @@ L PRA1T824-G/Y(L) J1703
 U 1 1 5AFF6E15
 P 10900 2650
 F 0 "J1703" H 9750 3300 50  0000 L CNN
-F 1 "PRA1T824-G/Y(L)" H 10450 650 50  0000 R CNN
+F 1 "JD1-0001NL" H 10200 650 50  0000 R CNN
 F 2 "" H 10900 2650 50  0001 C CNN
-F 3 "" H 10900 2650 50  0001 C CNN
+F 3 "http://productfinder.pulseeng.com/products/datasheets/JD1-0001NL.pdf" H 10900 2650 50  0001 C CNN
+F 4 "Pulse Electronics " H 10900 2650 60  0001 C CNN "MFG Name"
+F 5 "JD1-0001NL" H 10900 2650 60  0001 C CNN "MFG Part Num"
+F 6 "553-2361-ND" H 10900 2650 60  0001 C CNN "Distrib PN"
+F 7 "-" H 10900 2650 60  0001 C CNN "Tolerance"
+F 8 "https://www.digikey.com/product-detail/en/abracon-llc/ARJM11C7-502-AB-ER2-T/535-14130-1-ND/7675239" H 10900 2650 60  0001 C CNN "Others"
 	1    10900 2650
 	1    0    0    -1  
 $EndComp
@@ -921,9 +926,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 6200 3650 6200
 Wire Wire Line
-	3650 6850 3650 6200
+	3650 6200 3650 6850
 Wire Wire Line
-	2850 6850 3650 6850
+	3650 6850 2850 6850
 Wire Wire Line
 	2850 6850 2850 6800
 Wire Wire Line
@@ -1395,7 +1400,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 3600 8800 3600
 Wire Wire Line
-	8800 3450 8800 3600
+	8800 3600 8800 3450
 Wire Wire Line
 	8000 3450 8000 3500
 Wire Wire Line
@@ -1449,7 +1454,9 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 3450 8800 3450
+	8800 3450 8000 3450
 Wire Wire Line
 	8300 3800 8300 3900
+Text Notes 9650 5450 0    60   ~ 0
+ARJM11C7-502-AB-ER2-T\nhas green left, yellow right\n  like on EmCaft's board
 $EndSCHEMATC
