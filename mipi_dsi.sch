@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 17
+Sheet 11 17
 Title "MIPI DSI"
 Date "2018-05-02"
 Rev "v0.1.0"
@@ -2216,4 +2216,6 @@ F 3 "" H 7850 3800 50  0001 C CNN
 	1    7850 3800
 	1    0    0    -1  
 $EndComp
+Text Notes 3150 5400 0    60   ~ 0
+TODO: low power state signal??
 $EndSCHEMATC

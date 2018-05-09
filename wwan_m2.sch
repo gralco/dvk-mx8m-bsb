@@ -7465,4 +7465,6 @@ Text Notes 5850 7350 0    60   ~ 0
 SAI6 can be configured\nas master or slave
 Text Notes 4300 1550 0    60   ~ 0
 EM7355 & EM7455\ndon't use SUSCLK
+Text Notes 2800 6100 0    60   ~ 0
+  TX and RX\nof the module
 $EndSCHEMATC

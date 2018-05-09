@@ -38,6 +38,12 @@ D power-flag symbol AVDD
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP Audio-Jack-4_1Switch
+D 4-pin (audio) jack receptable (stereo/TRS connector) with 1 switching contact
+K audio jack receptable stereo headphones connector
+F ~
+$ENDCMP
+#
 $CMP BQ25896
 D IC NVDC CHARGER I2C 
 $ENDCMP
