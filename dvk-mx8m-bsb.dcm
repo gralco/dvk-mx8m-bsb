@@ -143,6 +143,11 @@ $CMP PTN5110HQZ
 D IC USB PD TCPC PHY HX2QFN16
 $ENDCMP
 #
+$CMP Q_NMOS_DUAL
+D 30 V, 180 mA dual N-channel Trench MOSFET
+K nmos n-mos n-mosfet transistor dual
+$ENDCMP
+#
 $CMP Q_PMOS_SSSGD
 D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor

@@ -95,12 +95,6 @@ K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
 $ENDCMP
 #
-$CMP NC7SB3157
-D Low-Voltage SPDT Analog Switch or 2:1Multiplexer 
-K SWITCH
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
-$ENDCMP
-#
 $CMP NUP5120
 D TVS DIODE 5V SOT563
 $ENDCMP
@@ -147,6 +141,11 @@ $ENDCMP
 #
 $CMP PTN5110HQZ
 D IC USB PD TCPC PHY HX2QFN16
+$ENDCMP
+#
+$CMP Q_NMOS_DUAL
+D 30 V, 180 mA dual N-channel Trench MOSFET
+K nmos n-mos n-mosfet transistor dual
 $ENDCMP
 #
 $CMP Q_PMOS_SSSGD
