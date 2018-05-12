@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 18
+Sheet 4 19
 Title "Power"
 Date "2018-05-02"
 Rev "v0.1.0"
@@ -1685,5 +1685,5 @@ Text HLabel 7150 4400 2    60   Output ~ 0
 Wire Wire Line
 	6900 4400 7150 4400
 Text Notes 7350 6300 0    60   ~ 0
-TODO:\nadd parallel 0.1uF bulk caps!\n& spread all over the power plane
+TODO:\nadd parallel 100nF bulk caps!\n& spread all over the power plane
 $EndSCHEMATC

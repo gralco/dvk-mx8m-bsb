@@ -1,0 +1,555 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dvk-mx8m-bsb
+LIBS:dvk-mx8m-bsb-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R1902
+U 1 1 5B0661C0
+P 4150 2250
+F 0 "R1902" V 4230 2250 50  0000 C CNN
+F 1 "22" V 4150 2250 50  0000 C CNN
+F 2 "" V 4080 2250 50  0001 C CNN
+F 3 "" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1902
+U 1 1 5B067A54
+P 4700 3250
+F 0 "C1902" H 4725 3350 50  0000 L CNN
+F 1 "100nF" H 4725 3150 50  0000 L CNN
+F 2 "" H 4738 3100 50  0001 C CNN
+F 3 "" H 4700 3250 50  0001 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3500 4400 3500
+Wire Wire Line
+	4400 3500 4400 3600
+Wire Wire Line
+	4400 3600 4350 3600
+$Comp
+L GND #PWR0314
+U 1 1 5B067AE0
+P 4600 3500
+F 0 "#PWR0314" H 4600 3250 50  0001 C CNN
+F 1 "GND" H 4600 3350 50  0000 C CNN
+F 2 "" H 4600 3500 50  0001 C CNN
+F 3 "" H 4600 3500 50  0001 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3050 4350 3050
+$Comp
+L GND #PWR0315
+U 1 1 5B068781
+P 3800 4100
+F 0 "#PWR0315" H 3800 3850 50  0001 C CNN
+F 1 "GND" H 3800 3950 50  0000 C CNN
+F 2 "" H 3800 4100 50  0001 C CNN
+F 3 "" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4100 3800 4050
+$Comp
+L GND #PWR0316
+U 1 1 5B068863
+P 3600 2650
+F 0 "#PWR0316" H 3600 2400 50  0001 C CNN
+F 1 "GND" H 3600 2500 50  0000 C CNN
+F 2 "" H 3600 2650 50  0001 C CNN
+F 3 "" H 3600 2650 50  0001 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1901
+U 1 1 5B06887D
+P 3600 2450
+F 0 "C1901" H 3625 2550 50  0000 L CNN
+F 1 "10uF" H 3625 2350 50  0000 L CNN
+F 2 "" H 3638 2300 50  0001 C CNN
+F 3 "" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2650 3600 2600
+Wire Wire Line
+	3600 2300 3600 2250
+Wire Wire Line
+	3600 2250 4000 2250
+Wire Wire Line
+	4300 2250 4700 2250
+Connection ~ 4700 3050
+Connection ~ 3800 2250
+$Comp
+L 3V3_P #PWR0317
+U 1 1 5B0689D2
+P 4700 2200
+F 0 "#PWR0317" H 4700 2050 50  0001 C CNN
+F 1 "3V3_P" H 4700 2340 50  0000 C CNN
+F 2 "" H 4700 2200 50  0001 C CNN
+F 3 "" H 4700 2200 50  0001 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 2250
+Wire Wire Line
+	4700 2200 4700 3100
+$Comp
+L R R1901
+U 1 1 5B0697D6
+P 3200 3350
+F 0 "R1901" H 3375 3400 50  0000 C CNN
+F 1 "10k" H 3325 3300 50  0000 C CNN
+F 2 "" V 3130 3350 50  0001 C CNN
+F 3 "" H 3200 3350 50  0001 C CNN
+	1    3200 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3150 2750 3150
+Wire Wire Line
+	3250 3050 2750 3050
+$Comp
+L 3V3_P #PWR0318
+U 1 1 5B069B9B
+P 3200 3000
+F 0 "#PWR0318" H 3200 2850 50  0001 C CNN
+F 1 "3V3_P" H 3200 3140 50  0000 C CNN
+F 2 "" H 3200 3000 50  0001 C CNN
+F 3 "" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3000 3200 3200
+Text HLabel 2700 3550 0    60   Output ~ 0
+PROX_~INT
+Wire Wire Line
+	2700 3550 3250 3550
+Wire Wire Line
+	3200 3500 3200 3550
+Connection ~ 3200 3550
+Text Notes 2200 1900 0    157  ~ 31
+Proximity & Ambient Light
+$Comp
+L RPR-0521RS U1901
+U 1 1 5B0DE7C1
+P 3800 3400
+F 0 "U1901" H 3600 3900 60  0000 C CNN
+F 1 "RPR-0521RS" H 4100 3900 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:RPR-0521RS" H 3800 3250 60  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/opto/optical_sensor/opto_module/rpr-0521rs-e.pdf" H 3800 3250 60  0001 C CNN
+F 4 "Rohm" H 3800 3400 60  0001 C CNN "MFG Name"
+F 5 "RPR-0521RS" H 3800 3400 60  0001 C CNN "MFG Part Num"
+F 6 "755-RPR-0521RS" H 3800 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RPR-0521RS?qs=pn%2Fzyis3XjF8Rw%252biP8XjBQ%3D%3D" H 3800 3400 60  0001 C CNN "Distrib Link"
+F 8 "-" H 3800 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/sensors-transducers/optical-sensors-ambient-light-ir-uv-sensors/536?k=&pkeyword=&pv1537=1&FV=a40092%2C1140003%2C2dc1d7f%2C2dc1f37%2C2dc258d%2C2dc258e%2C1f140000%2Cffe00218&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 3800 3400 60  0001 C CNN "Others"
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1903
+U 1 1 5B0E0E47
+P 4500 3250
+F 0 "C1903" H 4525 3350 50  0000 L CNN
+F 1 "100nF" H 4525 3150 50  0000 L CNN
+F 2 "" H 4538 3100 50  0001 C CNN
+F 3 "" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3400 4500 3450
+Wire Wire Line
+	4500 3450 4700 3450
+Wire Wire Line
+	4700 3450 4700 3400
+Wire Wire Line
+	4600 3500 4600 3450
+Connection ~ 4600 3450
+Wire Wire Line
+	4500 3100 4500 3050
+Connection ~ 4500 3050
+Text Notes 2100 4500 0    60   ~ 0
+Reference:\nhttp://www.rohm.com/web/global/sensor-shield-support/ps-als-sensor
+Text Notes 7400 1900 0    157  ~ 31
+9-Axis IMU
+$Comp
+L ICM-20948 U1902
+U 1 1 5B0EC7C4
+P 8100 2750
+F 0 "U1902" H 7950 3450 60  0000 R CNN
+F 1 "ICM-20948" H 8150 2050 60  0000 R CNN
+F 2 "dvk-mx8m-bsb:ICM-20948" H 8100 2700 60  0001 C CNN
+F 3 "https://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf" H 8100 2700 60  0001 C CNN
+F 4 "TDK InvenSense" H 8100 2750 60  0001 C CNN "MFG Name"
+F 5 "ICM-20948" H 8100 2750 60  0001 C CNN "MFG Part Num"
+F 6 "1428-1123-1-ND" H 8100 2750 60  0001 C CNN "Distrib PN"
+F 7 "https://store.invensense.com/ProductDetail/ICM20948-InvenSense/597203/" H 8100 2750 60  0001 C CNN "Distrib Link"
+F 8 "-" H 8100 2750 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/tdk-invensense/ICM-20948/1428-1123-1-ND/7062698" H 8100 2750 60  0001 C CNN "Others"
+	1    8100 2750
+	1    0    0    -1  
+$EndComp
+Text Label 2750 3050 0    60   ~ 0
+I2C1_SCL
+Text Label 2750 3150 0    60   ~ 0
+I2C1_SDA
+Text Label 6800 2400 0    60   ~ 0
+I2C1_SCL_1V8
+Text Label 6800 2500 0    60   ~ 0
+I2C1_SDA_1V8
+Wire Wire Line
+	7450 2400 6800 2400
+Wire Wire Line
+	7450 2500 6800 2500
+$Comp
+L GND #PWR0319
+U 1 1 5B0EFE3A
+P 7300 2750
+F 0 "#PWR0319" H 7300 2500 50  0001 C CNN
+F 1 "GND" H 7300 2600 50  0000 C CNN
+F 2 "" H 7300 2750 50  0001 C CNN
+F 3 "" H 7300 2750 50  0001 C CNN
+	1    7300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2700 7450 2700
+Wire Wire Line
+	7300 2700 7300 2750
+Text Notes 6850 3800 0    60   ~ 0
+Reference:\nhttps://store.invensense.com/datasheets/invensense/\nAN-IVS-0001EVB-00%20v1%202.pdf
+$Comp
+L C C1905
+U 1 1 5B0F1B79
+P 9450 2400
+F 0 "C1905" H 9475 2500 50  0000 L CNN
+F 1 "100nF" H 9475 2300 50  0000 L CNN
+F 2 "" H 9488 2250 50  0001 C CNN
+F 3 "" H 9450 2400 50  0001 C CNN
+	1    9450 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2200 9450 2200
+$Comp
+L GND #PWR0320
+U 1 1 5B0F1D3B
+P 9450 2600
+F 0 "#PWR0320" H 9450 2350 50  0001 C CNN
+F 1 "GND" H 9450 2450 50  0000 C CNN
+F 2 "" H 9450 2600 50  0001 C CNN
+F 3 "" H 9450 2600 50  0001 C CNN
+	1    9450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2600 9450 2550
+$Comp
+L 3V3_P #PWR0321
+U 1 1 5B0F3735
+P 9450 2150
+F 0 "#PWR0321" H 9450 2000 50  0001 C CNN
+F 1 "3V3_P" H 9450 2290 50  0000 C CNN
+F 2 "" H 9450 2150 50  0001 C CNN
+F 3 "" H 9450 2150 50  0001 C CNN
+	1    9450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2150 9450 2250
+Connection ~ 9450 2200
+$Comp
+L 1V8_P #PWR0322
+U 1 1 5B0F45AF
+P 6700 2150
+F 0 "#PWR0322" H 6700 2000 50  0001 C CNN
+F 1 "1V8_P" H 6700 2290 50  0000 C CNN
+F 2 "" H 6700 2150 50  0001 C CNN
+F 3 "" H 6700 2150 50  0001 C CNN
+	1    6700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1904
+U 1 1 5B0F45D3
+P 6700 2550
+F 0 "C1904" H 6725 2650 50  0000 L CNN
+F 1 "100nF" H 6725 2450 50  0000 L CNN
+F 2 "" H 6738 2400 50  0001 C CNN
+F 3 "" H 6700 2550 50  0001 C CNN
+	1    6700 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0323
+U 1 1 5B0F4626
+P 6700 2750
+F 0 "#PWR0323" H 6700 2500 50  0001 C CNN
+F 1 "GND" H 6700 2600 50  0000 C CNN
+F 2 "" H 6700 2750 50  0001 C CNN
+F 3 "" H 6700 2750 50  0001 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2150 6700 2400
+Wire Wire Line
+	7450 2200 6700 2200
+Connection ~ 6700 2200
+Wire Wire Line
+	6700 2750 6700 2700
+$Comp
+L C C1906
+U 1 1 5B0FA115
+P 9050 2900
+F 0 "C1906" H 9075 3000 50  0000 L CNN
+F 1 "100nF" H 9075 2800 50  0000 L CNN
+F 2 "" H 9088 2750 50  0001 C CNN
+F 3 "" H 9050 2900 50  0001 C CNN
+	1    9050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0324
+U 1 1 5B0FA198
+P 9050 3100
+F 0 "#PWR0324" H 9050 2850 50  0001 C CNN
+F 1 "GND" H 9050 2950 50  0000 C CNN
+F 2 "" H 9050 3100 50  0001 C CNN
+F 3 "" H 9050 3100 50  0001 C CNN
+	1    9050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2600 9050 2600
+Wire Wire Line
+	9050 2600 9050 2750
+Wire Wire Line
+	9050 3100 9050 3050
+$Comp
+L 1V8_P #PWR0325
+U 1 1 5B0FDFE1
+P 8800 2150
+F 0 "#PWR0325" H 8800 2000 50  0001 C CNN
+F 1 "1V8_P" H 8800 2290 50  0000 C CNN
+F 2 "" H 8800 2150 50  0001 C CNN
+F 3 "" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2300 8800 2300
+Wire Wire Line
+	8800 2300 8800 2150
+Wire Wire Line
+	7400 2800 7450 2800
+Connection ~ 7400 2700
+NoConn ~ 8750 2500
+NoConn ~ 8750 2400
+Text HLabel 6650 2300 0    60   Output ~ 0
+IMU_INT
+Wire Wire Line
+	6650 2300 7450 2300
+Text Notes 6850 3950 0    60   ~ 0
+AD0 sets the slave address's LSB (110100X)
+Wire Wire Line
+	7450 2600 7400 2600
+Wire Wire Line
+	7400 2600 7400 2800
+$Comp
+L GND #PWR0326
+U 1 1 5B105474
+P 8850 2750
+F 0 "#PWR0326" H 8850 2500 50  0001 C CNN
+F 1 "GND" H 8850 2600 50  0000 C CNN
+F 2 "" H 8850 2750 50  0001 C CNN
+F 3 "" H 8850 2750 50  0001 C CNN
+	1    8850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2700 8850 2700
+Wire Wire Line
+	8850 2700 8850 2750
+Text Notes 6850 4200 0    60   ~ 0
+INT1_ACTL sets if IMU_INT\nis active-high or active-low
+Text Notes 6850 4350 0    60   ~ 0
+"FSYNC - Connect to GND if unused"
+Text Notes 6850 4500 0    60   ~ 0
+I2C's VIH=1.8V
+$Comp
+L Q_NMOS_SGD Q1901
+U 1 1 5B11E6E9
+P 4550 5500
+F 0 "Q1901" V 4800 5400 50  0000 L CNN
+F 1 "FDV301N" V 4900 5350 50  0000 L CNN
+F 2 "" H 4750 5600 50  0001 C CNN
+F 3 "" H 4550 5500 50  0001 C CNN
+	1    4550 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R1903
+U 1 1 5B11E6F0
+P 4800 5400
+F 0 "R1903" H 4975 5450 50  0000 C CNN
+F 1 "10k" H 4925 5350 50  0000 C CNN
+F 2 "" V 4730 5400 50  0001 C CNN
+F 3 "" H 4800 5400 50  0001 C CNN
+	1    4800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1V8_P #PWR0327
+U 1 1 5B11E6F7
+P 4800 5150
+F 0 "#PWR0327" H 4800 5000 50  0001 C CNN
+F 1 "1V8_P" H 4800 5290 50  0000 C CNN
+F 2 "" H 4800 5150 50  0001 C CNN
+F 3 "" H 4800 5150 50  0001 C CNN
+	1    4800 5150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5600 5500 5600
+Wire Wire Line
+	4800 5550 4800 5600
+Connection ~ 4800 5600
+Wire Wire Line
+	4800 5150 4800 5250
+Wire Wire Line
+	4550 5300 4550 5200
+Wire Wire Line
+	4550 5200 4800 5200
+Connection ~ 4800 5200
+$Comp
+L Q_NMOS_SGD Q1902
+U 1 1 5B11E705
+P 6800 5500
+F 0 "Q1902" V 7050 5400 50  0000 L CNN
+F 1 "FDV301N" V 7150 5350 50  0000 L CNN
+F 2 "" H 7000 5600 50  0001 C CNN
+F 3 "" H 6800 5500 50  0001 C CNN
+	1    6800 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R1904
+U 1 1 5B11E70C
+P 7050 5400
+F 0 "R1904" H 7225 5450 50  0000 C CNN
+F 1 "10k" H 7175 5350 50  0000 C CNN
+F 2 "" V 6980 5400 50  0001 C CNN
+F 3 "" H 7050 5400 50  0001 C CNN
+	1    7050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5600 7750 5600
+Wire Wire Line
+	7050 5550 7050 5600
+Connection ~ 7050 5600
+Wire Wire Line
+	6800 5300 6800 5200
+Text Label 5500 5600 2    60   ~ 0
+I2C1_SDA_1V8
+Text Label 7750 5600 2    60   ~ 0
+I2C1_SCL_1V8
+Wire Wire Line
+	6600 5600 6150 5600
+Wire Wire Line
+	3900 5600 4350 5600
+$Comp
+L 1V8_P #PWR0328
+U 1 1 5B11E71E
+P 7050 5150
+F 0 "#PWR0328" H 7050 5000 50  0001 C CNN
+F 1 "1V8_P" H 7050 5290 50  0000 C CNN
+F 2 "" H 7050 5150 50  0001 C CNN
+F 3 "" H 7050 5150 50  0001 C CNN
+	1    7050 5150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5150 7050 5250
+Wire Wire Line
+	6800 5200 7050 5200
+Connection ~ 7050 5200
+Text HLabel 6150 5600 0    60   Input ~ 0
+I2C1_SCL
+Text HLabel 3900 5600 0    60   BiDi ~ 0
+I2C1_SDA
+Text Label 3900 5600 0    60   ~ 0
+I2C1_SDA
+Text Label 6150 5600 0    60   ~ 0
+I2C1_SCL
+$Comp
+L PWR_FLAG #FLG0329
+U 1 1 5B123465
+P 3800 2200
+F 0 "#FLG0329" H 3800 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 2350 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2200 3800 2750
+$EndSCHEMATC

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 18
+Sheet 7 19
 Title "UART Debug"
 Date "2018-05-02"
 Rev "v0.1.0"

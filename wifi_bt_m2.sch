@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 18
+Sheet 17 19
 Title "WLAN+BT M.2"
 Date "2018-05-02"
 Rev "v0.1.0"
@@ -1215,8 +1215,6 @@ Wire Wire Line
 	9500 3750 9500 4150
 Text Notes 9800 5400 0    60   ~ 0
 RS9116 has SCL as output\n⇒master?\n(only device on I2C2 bus)
-Text Notes 7800 5950 0    60   ~ 0
-RS9116's I2C is part of its\nIO_VDD_1 domain\nwhich is 3.0~~3.6V!\nTODO!!!
 Text Notes 9550 3700 0    60   ~ 0
 Closed = ON (~*_DISABLE~ HIGH)\nOpen = OFF
 $Comp
@@ -1451,8 +1449,6 @@ F 3 "" H 4950 5700 50  0001 C CNN
 	1    4950 5700
 	1    0    0    -1  
 $EndComp
-Text Notes 3750 5600 0    60   ~ 0
-TODO:\nM.2 spec defines\nUART&PCM 1.8V!\nbut RS9116 is 3.3V!!
 Text Label 6650 1650 2    60   ~ 0
 M2_PCM_CLK
 Text Label 6650 1750 2    60   ~ 0

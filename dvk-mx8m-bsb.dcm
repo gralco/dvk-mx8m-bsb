@@ -153,6 +153,10 @@ D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
+$CMP RPR-0521RS
+D LIGHT SENSOR WITH IRLED
+$ENDCMP
+#
 $CMP SIM_Card_Det
 D SIM Card
 K SIM card UICC
