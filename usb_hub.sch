@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 19
+Sheet 10 20
 Title ""
-Date "2018-05-02"
+Date "2018-05-14"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -1008,4 +1008,6 @@ Text Notes 4975 5675 0    60   ~ 0
 Cboard=(Cxout⁻¹+Cxin⁻¹)⁻¹+Cxout_xin
 Text Notes 4975 5900 0    60   ~ 0
 Where Cxout and Cxin are capacitance to GND\nand Cxout_xin is capacitance between XOUT/XIN
+Text Notes 5650 1200 0    60   ~ 0
+TODO:\nUse USB4640???
 $EndSCHEMATC

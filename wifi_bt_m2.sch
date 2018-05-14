@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 19
+Sheet 17 20
 Title "WLAN+BT M.2"
-Date "2018-05-02"
+Date "2018-05-14"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -940,10 +940,8 @@ Text HLabel 5250 2100 0    60   BiDi ~ 0
 WIFI_DATA2
 Text HLabel 5250 2200 0    60   BiDi ~ 0
 WIFI_DATA3
-Text Notes 4200 1350 0    60   ~ 0
-RedPine RS9116 MB0\nRequires +5V for USB!
-Text Notes 3050 900  0    60   ~ 0
-RS9116 NC:\nRTS, CTS, BT_HOST_WAKE, WIFI_WAKE
+Text Notes 2950 900  0    60   ~ 0
+RS9116 NC:\nRTS, CTS, BT_HOST_WAKE
 Text HLabel 5250 2300 0    60   Output ~ 0
 WIFI_WAKE
 $Comp
@@ -1674,5 +1672,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 5700 1800 6300
 Text Notes 7900 3350 0    60   ~ 0
-Pin 54 on RS9116 is USB_VBUS Sink!!!
+TODO:\nPin 54 on RS9116 is USB_VBUS Sink!!!
+Text Notes 4400 1350 0    60   ~ 0
+RedPine RS9116 MB0\nRequires +5V on\nPin 54 for USB!
+Text Notes 2950 1250 0    60   ~ 0
+RS9116 datasheet says\nno WIFI_WAKE\nbut the schematic has it
 $EndSCHEMATC

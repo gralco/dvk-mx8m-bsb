@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 19
+Sheet 14 20
 Title "Audio"
-Date "2018-05-02"
+Date "2018-05-14"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -1395,13 +1395,13 @@ P 10200 3250
 F 0 "J1404" H 10200 2950 50  0000 C CNN
 F 1 "SJ-43515TS" H 10075 3525 50  0000 C CNN
 F 2 "" H 10450 3350 50  0001 C CNN
-F 3 "https://www.cui.com/product/resource/sj-4351x-smt-series.pdf" H 10450 3350 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/sj-4351x.pdf" H 10450 3350 50  0001 C CNN
 F 4 "CUI" H 10200 3250 60  0001 C CNN "MFG Name"
-F 5 "SJ-43515TS-SMT-TR" H 10200 3250 60  0001 C CNN "MFG Part Num"
-F 6 "CP-43515TSSJCT-ND" H 10200 3250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/cui-inc/SJ-43515TS-SMT-TR/CP-43515TSSJCT-ND/669733" H 10200 3250 60  0001 C CNN "Distrib Link"
+F 5 "SJ-43515TS" H 10200 3250 60  0001 C CNN "MFG Part Num"
+F 6 "CP-43515TS-ND" H 10200 3250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/cui-inc/SJ-43515TS/CP-43515TS-ND/368147" H 10200 3250 60  0001 C CNN "Distrib Link"
 F 8 "-" H 10200 3250 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/connectors-interconnects/barrel-audio-connectors/434?k=&pkeyword=&pv272=68&pv272=69&pv272=127&FV=740002%2C1140003%2C1140160%2C1e800011%2C1f140000%2Cffe001b2%2C8740008&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 10200 3250 60  0001 C CNN "Others"
+F 9 "https://www.digikey.com/products/en/connectors-interconnects/barrel-audio-connectors/434?FV=740002%2C8740008%2C1e800011%2C1f140000%2Cffe001b2%2C440007f%2C4400044%2C4400045&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 10200 3250 60  0001 C CNN "Others"
 	1    10200 3250
 	-1   0    0    1   
 $EndComp
@@ -5679,4 +5679,6 @@ Text Notes 8600 6500 0    60   Italic 0
 38.33dB gain would yield 3.3Vpp
 Wire Notes Line
 	5150 6000 500  6000
+Text Notes 10475 3300 0    39   ~ 0
+SMD Equivalent:\nSJ-43515RS-SMT-TR
 $EndSCHEMATC

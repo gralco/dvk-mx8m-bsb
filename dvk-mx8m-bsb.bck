@@ -83,6 +83,12 @@ $CMP MIC5501
 D IC REG LINEAR 3V 300MA SOT23-5
 $ENDCMP
 #
+$CMP MX25L1606E
+D 3V, 16M-BIT [x 1/x 2] CMOS SERIAL FLASH MEMORY
+K NOR Serial Flash Embedded Memory
+F http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf
+$ENDCMP
+#
 $CMP Micro_SD_Card_Det_ALPS_SCHA
 D Micro SD Card Socket with card detection pins
 K connector SD microsd

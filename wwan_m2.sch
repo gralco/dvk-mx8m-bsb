@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 19
+Sheet 13 20
 Title "WWAN M.2"
-Date "2018-05-02"
+Date "2018-05-14"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -49,7 +49,6 @@ Comment4 ""
 $EndDescr
 Text Notes 6250 950  0    60   ~ 0
 M.2 Key B
-NoConn ~ 6250 3550
 NoConn ~ 6250 2450
 NoConn ~ 6250 2350
 NoConn ~ 6250 2250
@@ -6287,9 +6286,9 @@ F 3 "" H 4650 3850 50  0001 C CNN
 	1    4650 3850
 	1    0    0    -1  
 $EndComp
-Text Notes 800  5050 0    60   ~ 0
+Text Notes 750  5050 0    60   ~ 0
 "It is recommended to place the UIM_RST trace\nbetween UIM_DATA and UIM_CLK to provide isolation"
-Text Notes 700  5150 0    60   ~ 0
+Text Notes 650  5150 0    60   ~ 0
 "It is recommended to surround the UIM_DATA with ground."
 $Comp
 L M.2_Key_B J1403
@@ -7330,10 +7329,10 @@ Text Label 5300 3850 0    60   ~ 0
 PCM_IN
 Text Label 5300 3750 0    60   ~ 0
 PCM_OUT
-Text Label 5150 3050 0    60   ~ 0
+Text Label 5300 3550 0    60   ~ 0
 PCM_SYNC
 Wire Wire Line
-	6250 3050 5150 3050
+	6250 3550 5300 3550
 Text Label 4550 6500 0    60   ~ 0
 PCM_CLK
 Text Label 4550 6900 0    60   ~ 0
@@ -7466,4 +7465,9 @@ Wire Wire Line
 	5050 5700 5050 6300
 Wire Wire Line
 	5400 5750 5400 6100
+NoConn ~ 6250 3050
+Text Notes 950  1200 0    60   ~ 0
+TODO:\nFibocom is State 8, Config_0!!!\nRemove SIM2 and/or read more Config pins?
+Text Notes 6100 750  0    60   ~ 0
+Used Table 29/30
 $EndSCHEMATC

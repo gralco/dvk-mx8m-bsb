@@ -37,13 +37,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 19
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet 19 20
+Title "Sensors"
+Date "2018-05-14"
+Rev "v0.1.0"
+Comp "Purism SPC"
+Comment1 "Copyright 2018"
+Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -87,9 +87,7 @@ F 3 "" H 4600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 2950 4500 2950
-Wire Wire Line
-	4500 2950 4350 2950
+	4700 2950 4350 2950
 $Comp
 L GND #PWR0315
 U 1 1 5B068781
@@ -130,9 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2200 3600 2150
 Wire Wire Line
-	3600 2150 3800 2150
-Wire Wire Line
-	3800 2150 4000 2150
+	3600 2150 4000 2150
 Wire Wire Line
 	4300 2150 4700 2150
 Connection ~ 4700 2950
@@ -150,11 +146,7 @@ F 3 "" H 4700 2100 50  0001 C CNN
 $EndComp
 Connection ~ 4700 2150
 Wire Wire Line
-	4700 2100 4700 2150
-Wire Wire Line
-	4700 2150 4700 2950
-Wire Wire Line
-	4700 2950 4700 3000
+	4700 2100 4700 3000
 $Comp
 L R R1901
 U 1 1 5B0697D6
@@ -186,9 +178,7 @@ Wire Wire Line
 Text HLabel 2700 3450 0    60   Output ~ 0
 PROX_~INT
 Wire Wire Line
-	2700 3450 3200 3450
-Wire Wire Line
-	3200 3450 3250 3450
+	2700 3450 3250 3450
 Wire Wire Line
 	3200 3400 3200 3450
 Connection ~ 3200 3450
@@ -225,9 +215,7 @@ $EndComp
 Wire Wire Line
 	4500 3300 4500 3350
 Wire Wire Line
-	4500 3350 4600 3350
-Wire Wire Line
-	4600 3350 4700 3350
+	4500 3350 4700 3350
 Wire Wire Line
 	4700 3350 4700 3300
 Wire Wire Line
@@ -264,9 +252,7 @@ F 3 "" H 7300 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 2600 7400 2600
-Wire Wire Line
-	7400 2600 7450 2600
+	7300 2600 7450 2600
 Wire Wire Line
 	7300 2600 7300 2650
 Text Notes 6850 3900 0    60   ~ 0
@@ -309,9 +295,7 @@ F 3 "" H 9450 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 2050 9450 2100
-Wire Wire Line
-	9450 2100 9450 2150
+	9450 2050 9450 2150
 Connection ~ 9450 2100
 $Comp
 L 1V8_P #PWR0322
@@ -347,9 +331,7 @@ F 3 "" H 6700 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 2050 6700 2100
-Wire Wire Line
-	6700 2100 6700 2300
+	6700 2050 6700 2300
 Wire Wire Line
 	7450 2100 6700 2100
 Connection ~ 6700 2100
@@ -466,16 +448,12 @@ F 3 "" H 4750 5100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 5550 4750 5550
-Wire Wire Line
-	4750 5550 5450 5550
+	4700 5550 5450 5550
 Wire Wire Line
 	4750 5500 4750 5550
 Connection ~ 4750 5550
 Wire Wire Line
-	4750 5100 4750 5150
-Wire Wire Line
-	4750 5150 4750 5200
+	4750 5100 4750 5200
 Wire Wire Line
 	4500 5250 4500 5150
 Wire Wire Line
@@ -504,9 +482,7 @@ F 3 "" H 7050 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 5550 7050 5550
-Wire Wire Line
-	7050 5550 7750 5550
+	7000 5550 7750 5550
 Wire Wire Line
 	7050 5500 7050 5550
 Connection ~ 7050 5550
@@ -532,9 +508,7 @@ F 3 "" H 7050 5100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 5100 7050 5150
-Wire Wire Line
-	7050 5150 7050 5200
+	7050 5100 7050 5200
 Wire Wire Line
 	6800 5150 7050 5150
 Connection ~ 7050 5150
@@ -558,9 +532,7 @@ F 3 "" H 3800 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2100 3800 2150
-Wire Wire Line
-	3800 2150 3800 2650
+	3800 2100 3800 2650
 $Bitmap
 Pos 9100 5300
 Scale 1.000000
@@ -1707,10 +1679,10 @@ B9 F6 6F C4 75 BC 2F 59 8E 6F 6B 13 7B 3B 83 7D B2 96 FF 01 A2 EC 04 A3 EF 71 E2
 EndData
 $EndBitmap
 $Comp
-L ICM-20948 U?
+L ICM-20948 U1902
 U 1 1 5AF6DE9D
 P 8100 2650
-F 0 "U?" H 7750 3350 60  0000 R CNN
+F 0 "U1902" H 7750 3350 60  0000 R CNN
 F 1 "ICM-20948" H 8550 3350 60  0000 R CNN
 F 2 "" H 8100 2600 60  0000 C CNN
 F 3 "" H 8100 2600 60  0000 C CNN
@@ -1723,9 +1695,5 @@ Wire Wire Line
 	8100 3550 7400 3550
 Connection ~ 7400 2700
 Wire Wire Line
-	7400 2500 7400 2600
-Wire Wire Line
-	7400 2600 7400 2700
-Wire Wire Line
-	7400 2700 7400 3550
+	7400 3550 7400 2500
 $EndSCHEMATC
