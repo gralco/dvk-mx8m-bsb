@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 20
+Sheet 1 21
 Title "DVK-MX8M-BSB"
-Date "2018-05-14"
+Date "2018-05-15"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -1792,7 +1792,7 @@ Connection ~ 18550 13050
 Wire Wire Line
 	11450 11850 11350 11850
 Wire Wire Line
-	11350 13050 11350 11850
+	11350 11850 11350 13050
 Wire Wire Line
 	10600 13050 11450 13050
 Wire Wire Line
@@ -2743,8 +2743,8 @@ Wire Wire Line
 Text Label 7800 2900 2    60   ~ 0
 MIC_SEL
 NoConn ~ 7800 2900
-Text Notes 5150 15750 0    60   ~ 0
-TODO:\nVibration Motor\nGNSS\nMIPI DSI/CSI
+Text Notes 5150 16000 0    60   ~ 0
+TODO:\nGNSS\nMIPI CSI/DSI
 $Sheet
 S 5150 11850 1400 1850
 U 5AFCA865
@@ -2994,4 +2994,14 @@ Text Label 7800 15000 2    60   ~ 0
 ECSPI1_MISO
 Text Label 7800 14800 2    60   ~ 0
 ECSPI1_SCLK
+$Sheet
+S 5150 15400 1400 200 
+U 5AFCB56A
+F0 "Haptic Motor" 60
+F1 "haptic.sch" 60
+F2 "HAPTIC" I R 6550 15500 60 
+$EndSheet
+Wire Wire Line
+	6550 15500 7800 15500
+NoConn ~ 7800 15500
 $EndSCHEMATC

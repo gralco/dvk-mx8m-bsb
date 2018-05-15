@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 20
+Sheet 12 21
 Title "Buttons & LED"
-Date "2018-05-14"
+Date "2018-05-15"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -243,8 +243,6 @@ Wire Wire Line
 	8750 3550 8750 3500
 Wire Wire Line
 	8750 4000 8750 3950
-Wire Wire Line
-	8450 3750 8400 3750
 Text Label 3700 1300 0    60   ~ 0
 BOOT_CFG04
 Text Label 3700 4550 0    60   ~ 0
@@ -259,7 +257,7 @@ Text HLabel 4300 4550 2    60   Output ~ 0
 SW_HOME
 Text HLabel 4300 5400 2    60   Output ~ 0
 ONOFF
-Text HLabel 8400 3750 0    60   Input ~ 0
+Text HLabel 8000 3750 0    60   Input ~ 0
 GP_LED1
 Text Notes 9100 3400 0    60   ~ 0
 LTST-C19HE1WT\n  RBG Option
@@ -549,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3700 4300 3700
 Wire Wire Line
-	3650 3750 3650 3650
+	3650 3650 3650 3750
 $Comp
 L C C1212
 U 1 1 5AF8B0A3
@@ -632,8 +630,50 @@ Wire Wire Line
 	3400 6600 4300 6600
 Wire Wire Line
 	3650 6550 3650 6650
-Text Notes 7850 3650 0    60   ~ 0
+Text Notes 7500 3650 0    60   ~ 0
 16-bit PWM2
 Text Notes 7250 2450 0    60   ~ 0
 Use PWM2_PWMSAR to set the compare value (duty cycle)\nUse PWM2_PWMCR[15:4] to set the PRESCALER (frequency)\nUse PWM2_PWMPR to set the top of the counter (frequency)
+$Comp
+L R R1207
+U 1 1 5AFF5FC7
+P 8050 3950
+F 0 "R1207" H 8225 4000 50  0000 C CNN
+F 1 "100k" H 8200 3900 50  0000 C CNN
+F 2 "" V 7980 3950 50  0001 C CNN
+F 3 "" H 8050 3950 50  0001 C CNN
+	1    8050 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1208
+U 1 1 5AFF6F1F
+P 8250 3750
+F 0 "R1208" V 8330 3750 50  0000 C CNN
+F 1 "100" V 8250 3750 50  0000 C CNN
+F 2 "" V 8180 3750 50  0001 C CNN
+F 3 "" H 8250 3750 50  0001 C CNN
+	1    8250 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 3750 8100 3750
+Wire Wire Line
+	8400 3750 8450 3750
+Wire Wire Line
+	8050 3800 8050 3750
+Connection ~ 8050 3750
+$Comp
+L GND #PWR0195
+U 1 1 5AFF8032
+P 8050 4150
+F 0 "#PWR0195" H 8050 3900 50  0001 C CNN
+F 1 "GND" H 8050 4000 50  0000 C CNN
+F 2 "" H 8050 4150 50  0001 C CNN
+F 3 "" H 8050 4150 50  0001 C CNN
+	1    8050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4150 8050 4100
 $EndSCHEMATC
