@@ -1220,15 +1220,15 @@ L 74AUP2G00 U1502
 U 1 1 5AFAFE0B
 P 7550 3550
 F 0 "U1502" H 7550 3600 50  0000 C CNN
-F 1 "74AUP2G00" H 7550 3500 50  0000 C CNN
+F 1 "74AUP2G08" H 7550 3500 50  0000 C CNN
 F 2 "" H 7550 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g00.pdf" H 7550 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf" H 7550 3550 50  0001 C CNN
 F 4 "Texas Instruments" H 7550 3550 60  0001 C CNN "MFG Name"
-F 5 "SN74AUP2G00DCUR" H 7550 3550 60  0001 C CNN "MFG Part Num"
-F 6 "296-36884-1-ND" H 7550 3550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AUP2G00DCUR/296-36884-1-ND/4376315" H 7550 3550 60  0001 C CNN "Distrib Link"
+F 5 "SN74AUP2G08DCUR" H 7550 3550 60  0001 C CNN "MFG Part Num"
+F 6 "296-32271-1-ND" H 7550 3550 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AUP2G08DCUR/296-32271-1-ND/3505517" H 7550 3550 60  0001 C CNN "Distrib Link"
 F 8 "-" H 7550 3550 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?quantity=&ColumnSort=1000011&page=1&k=74AUP2G00&pageSize=500" H 7550 3550 60  0001 C CNN "Others"
+F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?k=74AUP2G08" H 7550 3550 60  0001 C CNN "Others"
 	1    7550 3550
 	-1   0    0    -1  
 $EndComp
@@ -1248,23 +1248,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 5100 9400 5100
 Connection ~ 9400 5100
-$Comp
-L 74AUP2G00 U1502
-U 2 1 5AEC3CE9
-P 7550 4450
-F 0 "U1502" H 7550 4500 50  0000 C CNN
-F 1 "74AUP2G00" H 7550 4400 50  0000 C CNN
-F 2 "" H 7550 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g00.pdf" H 7550 4450 50  0001 C CNN
-F 4 "Texas Instruments" H 7550 4450 60  0001 C CNN "MFG Name"
-F 5 "SN74AUP2G00DCUR" H 7550 4450 60  0001 C CNN "MFG Part Num"
-F 6 "296-36884-1-ND" H 7550 4450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AUP2G00DCUR/296-36884-1-ND/4376315" H 7550 4450 60  0001 C CNN "Distrib Link"
-F 8 "-" H 7550 4450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?quantity=&ColumnSort=1000011&page=1&k=74AUP2G00&pageSize=500" H 7550 4450 60  0001 C CNN "Others"
-	2    7550 4450
-	-1   0    0    -1  
-$EndComp
 Text Notes 1150 7550 0    60   ~ 0
 internal 10k pull-up
 Text HLabel 2700 6700 2    60   Input ~ 0
@@ -1413,7 +1396,7 @@ $EndComp
 Wire Wire Line
 	5400 7550 5400 7500
 Wire Wire Line
-	5000 6300 4950 6300
+	4950 6300 5000 6300
 Connection ~ 4950 5750
 Wire Wire Line
 	5800 6500 5850 6500
@@ -1668,7 +1651,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5750 5300 6100
 Wire Wire Line
-	4950 6300 4950 5700
+	4950 5700 4950 6300
 Wire Wire Line
 	1800 5700 1800 6300
 Text Notes 7900 3350 0    60   ~ 0
@@ -1677,4 +1660,21 @@ Text Notes 4400 1350 0    60   ~ 0
 RedPine RS9116 MB0\nRequires +5V on\nPin 54 for USB!
 Text Notes 2950 1250 0    60   ~ 0
 RS9116 datasheet says\nno WIFI_WAKE\nbut the schematic has it
+$Comp
+L 74AUP2G00 U1502
+U 2 1 5B14C873
+P 7550 4450
+F 0 "U1502" H 7550 4500 50  0000 C CNN
+F 1 "74AUP2G08" H 7550 4400 50  0000 C CNN
+F 2 "" H 7550 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf" H 7550 4450 50  0001 C CNN
+F 4 "Texas Instruments" H 7550 4450 60  0001 C CNN "MFG Name"
+F 5 "SN74AUP2G08DCUR" H 7550 4450 60  0001 C CNN "MFG Part Num"
+F 6 "296-32271-1-ND" H 7550 4450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AUP2G08DCUR/296-32271-1-ND/3505517" H 7550 4450 60  0001 C CNN "Distrib Link"
+F 8 "-" H 7550 4450 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?k=74AUP2G08" H 7550 4450 60  0001 C CNN "Others"
+	2    7550 4450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
