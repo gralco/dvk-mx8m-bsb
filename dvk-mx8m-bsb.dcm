@@ -5,6 +5,11 @@ D power-flag symbol 1V8_P
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP 3V3
+D power-flag symbol 3V3
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 3V3_OUT
 D power-flag symbol 3V3_OUT
 K Power Flag Symbol
@@ -20,6 +25,16 @@ D power-flag symbol 3V3_SD
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP 5V_P
+D power-flag symbol 5V_P
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP 5V_SOM
+D power-flag symbol 5V_SOM
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 74AUP2G00
 D Dual And2
 K TTL and2
@@ -27,6 +42,10 @@ $ENDCMP
 #
 $CMP 74LVC2G241
 D IC BUFFER/DVR 3ST DL INV
+$ENDCMP
+#
+$CMP AP22800
+D 5V SINGLE CHANNEL PROGRAMMABLE LOAD SWITCH
 $ENDCMP
 #
 $CMP AR8031
