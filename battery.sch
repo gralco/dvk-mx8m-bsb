@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 21
 Title "Battery"
-Date "2018-05-15"
+Date "2018-05-16"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -2063,7 +2063,7 @@ AD 0E 16 6D AF 46 10 04 41 10 04 61 16 F4 FC 20 41 10 04 41 10 84 C9 FC FF 58 AF
 EndData
 $EndBitmap
 Text Notes 7850 3500 0    60   ~ 0
-NCR18650BD is recommended
+NCR18650B is recommended
 Text Notes 1300 2700 0    60   ~ 0
 (interpret RSOC% based on this plot)
 Text Notes 1950 4350 0    60   ~ 0

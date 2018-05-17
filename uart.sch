@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 21
 Title "UART Debug"
-Date "2018-05-15"
+Date "2018-05-16"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"

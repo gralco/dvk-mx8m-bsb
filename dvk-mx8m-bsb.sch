@@ -39,7 +39,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 21
 Title "DVK-MX8M-BSB"
-Date "2018-05-15"
+Date "2018-05-16"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"

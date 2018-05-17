@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 21
 Title "USB Type C"
-Date "2018-05-15"
+Date "2018-05-16"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"

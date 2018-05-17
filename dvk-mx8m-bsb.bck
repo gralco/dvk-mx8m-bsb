@@ -182,6 +182,16 @@ $CMP SN74LVC1G66
 D IC SWITCH 1X1 SC70-5
 $ENDCMP
 #
+$CMP SW_DP3T
+D Switch, three position, douple pole triple throw, 3 position switch, DP3T
+K switch dp3t ON-ON-ON
+$ENDCMP
+#
+$CMP SW_SP3T
+D Switch, three position, douple pole triple throw, 3 position switch, DP3T
+K switch dp3t ON-ON-ON
+$ENDCMP
+#
 $CMP TCK206G,LF
 D IC LOAD SWITCH X34 2A WCSP4C
 $ENDCMP
