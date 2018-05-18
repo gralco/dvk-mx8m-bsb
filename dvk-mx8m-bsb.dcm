@@ -159,11 +159,6 @@ K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
-$CMP PRA1T824-G/Y(L)
-D RJ45 with transformer + leds
-K RJ45
-$ENDCMP
-#
 $CMP PTN5110HQZ
 D IC USB PD TCPC PHY HX2QFN16
 $ENDCMP
@@ -176,6 +171,11 @@ $ENDCMP
 $CMP Q_PMOS_SSSGD
 D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP RJHSE-5381
+D RJ45 with transformer + leds
+K RJ45
 $ENDCMP
 #
 $CMP RPR-0521RS

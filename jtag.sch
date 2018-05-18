@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 21
 Title "JTAG"
-Date "2018-05-16"
+Date "2018-05-18"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -98,17 +98,6 @@ F 3 "" H 6100 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky D801
-U 1 1 5AD05906
-P 5500 3750
-F 0 "D801" H 5500 3850 50  0000 C CNN
-F 1 "CFSH05-20L" H 5825 3700 50  0000 C CNN
-F 2 "" H 5500 3750 50  0001 C CNN
-F 3 "" H 5500 3750 50  0001 C CNN
-	1    5500 3750
-	-1   0    0    1   
-$EndComp
-$Comp
 L R R803
 U 1 1 5AD0593B
 P 6400 3150
@@ -135,10 +124,10 @@ Wire Wire Line
 	6500 3950 6500 3750
 Connection ~ 6500 3750
 $Comp
-L GND #PWR0135
+L GND #PWR0134
 U 1 1 5AD06B94
 P 6900 3800
-F 0 "#PWR0135" H 6900 3550 50  0001 C CNN
+F 0 "#PWR0134" H 6900 3550 50  0001 C CNN
 F 1 "GND" H 6900 3650 50  0000 C CNN
 F 2 "" H 6900 3800 50  0001 C CNN
 F 3 "" H 6900 3800 50  0001 C CNN
@@ -174,10 +163,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 3450 5700 4000
 $Comp
-L GND #PWR0136
+L GND #PWR0135
 U 1 1 5AD075E7
 P 5700 4350
-F 0 "#PWR0136" H 5700 4100 50  0001 C CNN
+F 0 "#PWR0135" H 5700 4100 50  0001 C CNN
 F 1 "GND" H 5700 4200 50  0000 C CNN
 F 2 "" H 5700 4350 50  0001 C CNN
 F 3 "" H 5700 4350 50  0001 C CNN
@@ -214,10 +203,10 @@ JTAG_~TRST
 Text Notes 5700 3200 0    60   ~ 0
 ARM DStream
 $Comp
-L 3V3_OUT #PWR0137
+L 3V3_OUT #PWR0136
 U 1 1 5AEA3F80
 P 6400 2950
-F 0 "#PWR0137" H 6400 2800 50  0001 C CNN
+F 0 "#PWR0136" H 6400 2800 50  0001 C CNN
 F 1 "3V3_OUT" H 6400 3090 50  0000 C CNN
 F 2 "" H 6400 2950 50  0001 C CNN
 F 3 "" H 6400 2950 50  0001 C CNN
@@ -247,10 +236,10 @@ F 3 "" H 5300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR0138
+L 3V3_OUT #PWR0137
 U 1 1 5AE5744F
 P 5250 2900
-F 0 "#PWR0138" H 5250 2750 50  0001 C CNN
+F 0 "#PWR0137" H 5250 2750 50  0001 C CNN
 F 1 "3V3_OUT" H 5250 3040 50  0000 C CNN
 F 2 "" H 5250 2900 50  0001 C CNN
 F 3 "" H 5250 2900 50  0001 C CNN
@@ -272,4 +261,21 @@ Connection ~ 5200 3350
 Wire Wire Line
 	5300 3300 5300 3650
 Connection ~ 5300 3650
+$Comp
+L D_Schottky_ALT D801
+U 1 1 5B170CAA
+P 5500 3750
+F 0 "D801" H 5500 3850 50  0000 C CNN
+F 1 "DB2J209" H 5720 3710 50  0000 C CNN
+F 2 "" H 5500 3750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5500 3750 50  0001 C CNN
+F 4 "Panasonic" V 5500 3750 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 5500 3750 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 5500 3750 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 5500 3750 60  0001 C CNN "Distrib Link"
+F 8 "-" V 5500 3750 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 5500 3750 60  0001 C CNN "Others"
+	1    5500 3750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

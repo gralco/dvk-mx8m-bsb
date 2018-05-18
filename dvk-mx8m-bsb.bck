@@ -5,6 +5,11 @@ D power-flag symbol 1V8_P
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP 3V3
+D power-flag symbol 3V3
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 3V3_OUT
 D power-flag symbol 3V3_OUT
 K Power Flag Symbol
@@ -171,6 +176,11 @@ $ENDCMP
 $CMP Q_PMOS_SSSGD
 D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP RJHSE-5381
+D RJ45 with transformer + leds
+K RJ45
 $ENDCMP
 #
 $CMP RPR-0521RS

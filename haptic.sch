@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 21 21
 Title "Haptic/Vibration Motor"
-Date "2018-05-16"
+Date "2018-05-18"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -65,10 +65,10 @@ F 9 "http://www.nfpmotor.com/products-coin-vibration-motors.html" H 6050 3900 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0329
+L GND #PWR0328
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0329" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0328" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -95,10 +95,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0330
+L 3V3_P #PWR0329
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0330" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0329" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -123,7 +123,7 @@ L D_Schottky_ALT D2101
 U 1 1 5AFD563E
 P 5250 3950
 F 0 "D2101" V 5200 3750 50  0000 C CNN
-F 1 "DB2J20900L" V 5300 3650 50  0000 C CNN
+F 1 "DB2J209" V 5300 3700 50  0000 C CNN
 F 2 "" H 5250 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5250 3950 50  0001 C CNN
 F 4 "Panasonic" V 5250 3950 60  0001 C CNN "MFG Name"
@@ -201,4 +201,10 @@ Text Notes 5100 2650 0    60   ~ 0
 PWM pins occupied:\nGPIO1_IO01 - DSI (DSI_BL_PWM??)\nGPIO1_IO13 - LED\nGPIO1_IO14 - Ethernet (CLKO_25MHz)\nGPIO1_IO15 - CSI (CLKO2)
 Text Notes 3650 3300 0    60   ~ 0
 PWM needed?\nOnly needs to be toggled\nON 1 sec, OFF 1 sec (0.5Hz)
+Text Notes 3950 4900 0    60   ~ 0
+Motor Connector:\nhttps://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html
+Text Notes 3650 3600 0    60   ~ 0
+Can MUX as either\nGPIO or PWM2\nswapping with LED
+Text Notes 3950 5250 0    60   ~ 0
+Alibaba Alternative Motor:\nhttps://www.alibaba.com/product-detail/Coin-motor-vibration-dc-motor\ncellphone_1994583657.html?spm=a2700.8443308.0.0.5aa13e5f1wxHgs
 $EndSCHEMATC

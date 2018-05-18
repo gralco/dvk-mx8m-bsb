@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 21
 Title "Battery"
-Date "2018-05-16"
+Date "2018-05-18"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -62,17 +62,6 @@ Text Notes 6700 3650 0    60   ~ 0
 Ihold=3.5A\nItrip=6.3A\nTtrip(max)=5s@8A
 Text Notes 6775 3150 0    60   ~ 0
 Vrm=5.8V\nVz=6.8
-$Comp
-L VBAT_REG #PWR053
-U 1 1 5ADAB4F5
-P 7850 2550
-F 0 "#PWR053" H 7850 2400 50  0001 C CNN
-F 1 "VBAT_REG" H 7850 2700 50  0000 C CNN
-F 2 "" H 7850 2550 50  0001 C CNN
-F 3 "" H 7850 2550 50  0001 C CNN
-	1    7850 2550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Battery_Cell BT301
 U 1 1 5ADAE7AB
@@ -102,10 +91,10 @@ F 3 "" H 4250 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L GND #PWR053
 U 1 1 5ADEA24E
 P 4250 3000
-F 0 "#PWR054" H 4250 2750 50  0001 C CNN
+F 0 "#PWR053" H 4250 2750 50  0001 C CNN
 F 1 "GND" H 4250 2850 50  0000 C CNN
 F 2 "" H 4250 3000 50  0001 C CNN
 F 3 "" H 4250 3000 50  0001 C CNN
@@ -124,10 +113,10 @@ F 3 "" H 4450 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR055
+L GND #PWR054
 U 1 1 5ADEA329
 P 4450 3100
-F 0 "#PWR055" H 4450 2850 50  0001 C CNN
+F 0 "#PWR054" H 4450 2850 50  0001 C CNN
 F 1 "GND" H 4450 2950 50  0000 C CNN
 F 2 "" H 4450 3100 50  0001 C CNN
 F 3 "" H 4450 3100 50  0001 C CNN
@@ -174,10 +163,10 @@ F 3 "" H 5800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L GND #PWR055
 U 1 1 5ADFC71C
 P 5800 3550
-F 0 "#PWR056" H 5800 3300 50  0001 C CNN
+F 0 "#PWR055" H 5800 3300 50  0001 C CNN
 F 1 "GND" H 5800 3400 50  0000 C CNN
 F 2 "" H 5800 3550 50  0001 C CNN
 F 3 "" H 5800 3550 50  0001 C CNN
@@ -196,10 +185,10 @@ F 3 "" H 4350 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR057
+L GND #PWR056
 U 1 1 5ADFDA73
 P 4150 3500
-F 0 "#PWR057" H 4150 3250 50  0001 C CNN
+F 0 "#PWR056" H 4150 3250 50  0001 C CNN
 F 1 "GND" H 4150 3350 50  0000 C CNN
 F 2 "" H 4150 3500 50  0001 C CNN
 F 3 "" H 4150 3500 50  0001 C CNN
@@ -218,10 +207,10 @@ F 3 "" H 7450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR058
+L GND #PWR057
 U 1 1 5AE01F71
 P 6450 3050
-F 0 "#PWR058" H 6450 2800 50  0001 C CNN
+F 0 "#PWR057" H 6450 2800 50  0001 C CNN
 F 1 "GND" H 6450 2900 50  0000 C CNN
 F 2 "" H 6450 3050 50  0001 C CNN
 F 3 "" H 6450 3050 50  0001 C CNN
@@ -249,8 +238,8 @@ F 2 "" H 7150 3700 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lowrhosmd_datasheet.pdf.pdf" H 7100 3900 50  0001 C CNN
 F 4 "Littelfuse" V 7100 3900 60  0001 C CNN "MFG Name"
 F 5 "NANOSMD350LR-2" V 7100 3900 60  0001 C CNN "MFG Part Num"
-F 6 "NANOSMD350LR-2CT-ND" V 7100 3900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/littelfuse-inc/NANOSMD400LR-2/NANOSMD400LR-2CT-ND/7321651" V 7100 3900 60  0001 C CNN "Distrib Link"
+F 6 "650-NANOSMD350LR-2" V 7100 3900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Littelfuse/nanoSMD350LR-2?qs=x%252b5oGMAyMFYqoQRJ6CArbw%3D%3D" V 7100 3900 60  0001 C CNN "Distrib Link"
 F 8 "-" V 7100 3900 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses/150?FV=1140003%2Cmu3.1A%7C682%2Cmu3.3A%7C682%2Cmu3.5A%7C682%2Cmu3.7A%7C682%2Cmu3.8A%7C682%2C1f140000%2Cffe00096&quantity=0&ColumnSort=-682&page=1&pageSize=500" V 7100 3900 60  0001 C CNN "Others"
 	1    7100 3900
@@ -290,10 +279,10 @@ F 3 "" H 6300 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L GND #PWR058
 U 1 1 5AE37872
 P 6100 4900
-F 0 "#PWR059" H 6100 4650 50  0001 C CNN
+F 0 "#PWR058" H 6100 4650 50  0001 C CNN
 F 1 "GND" H 6100 4750 50  0000 C CNN
 F 2 "" H 6100 4900 50  0001 C CNN
 F 3 "" H 6100 4900 50  0001 C CNN
@@ -328,10 +317,10 @@ F 3 "" H 3400 3150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L VBAT_REG #PWR060
+L VBAT_REG #PWR059
 U 1 1 5AE5FF35
 P 3400 2950
-F 0 "#PWR060" H 3400 2800 50  0001 C CNN
+F 0 "#PWR059" H 3400 2800 50  0001 C CNN
 F 1 "VBAT_REG" H 3400 3100 50  0000 C CNN
 F 2 "" H 3400 2950 50  0001 C CNN
 F 3 "" H 3400 2950 50  0001 C CNN
@@ -372,10 +361,10 @@ F 3 "" H 3000 3150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L VBAT_REG #PWR061
+L VBAT_REG #PWR060
 U 1 1 5AE632B4
 P 3000 2950
-F 0 "#PWR061" H 3000 2800 50  0001 C CNN
+F 0 "#PWR060" H 3000 2800 50  0001 C CNN
 F 1 "VBAT_REG" H 3000 3100 50  0000 C CNN
 F 2 "" H 3000 2950 50  0001 C CNN
 F 3 "" H 3000 2950 50  0001 C CNN
@@ -383,10 +372,10 @@ F 3 "" H 3000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR062
+L GND #PWR061
 U 1 1 5AE67B37
 P 7100 4600
-F 0 "#PWR062" H 7100 4350 50  0001 C CNN
+F 0 "#PWR061" H 7100 4350 50  0001 C CNN
 F 1 "GND" H 7100 4450 50  0000 C CNN
 F 2 "" H 7100 4600 50  0001 C CNN
 F 3 "" H 7100 4600 50  0001 C CNN
@@ -411,10 +400,10 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR063
+L GND #PWR062
 U 1 1 5AE86DE3
 P 7450 3050
-F 0 "#PWR063" H 7450 2800 50  0001 C CNN
+F 0 "#PWR062" H 7450 2800 50  0001 C CNN
 F 1 "GND" H 7450 2900 50  0000 C CNN
 F 2 "" H 7450 3050 50  0001 C CNN
 F 3 "" H 7450 3050 50  0001 C CNN
@@ -491,17 +480,17 @@ F 9 "https://www.mouser.com/Passive-Components/Capacitors/Ceramic-Capacitors/MLC
 	1    6700 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 7650 2350 0    60   ~ 0
+Text Notes 7225 2350 0    60   ~ 0
 3.5~~4.25V
 Text Notes 5700 2400 0    60   ~ 0
 I(Lsat)=7A
 Text Notes 7850 4100 0    60   ~ 0
 reference design: http://www.ti.com/lit/ug/sluuba2b/sluuba2b.pdf
 $Comp
-L PWR_FLAG #FLG064
+L PWR_FLAG #FLG063
 U 1 1 5AF16085
 P 7450 2550
-F 0 "#FLG064" H 7450 2625 50  0001 C CNN
+F 0 "#FLG063" H 7450 2625 50  0001 C CNN
 F 1 "PWR_FLAG" H 7450 2700 50  0000 C CNN
 F 2 "" H 7450 2550 50  0001 C CNN
 F 3 "" H 7450 2550 50  0001 C CNN
@@ -509,10 +498,10 @@ F 3 "" H 7450 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG065
+L PWR_FLAG #FLG064
 U 1 1 5AF1CA20
 P 6400 3850
-F 0 "#FLG065" H 6400 3925 50  0001 C CNN
+F 0 "#FLG064" H 6400 3925 50  0001 C CNN
 F 1 "PWR_FLAG" H 6400 4000 50  0000 C CNN
 F 2 "" H 6400 3850 50  0001 C CNN
 F 3 "" H 6400 3850 50  0001 C CNN
@@ -542,10 +531,10 @@ F 3 "" H 3750 4250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR066
+L 3V3_P #PWR065
 U 1 1 5AE7B0F9
 P 3750 4050
-F 0 "#PWR066" H 3750 3900 50  0001 C CNN
+F 0 "#PWR065" H 3750 3900 50  0001 C CNN
 F 1 "3V3_P" H 3750 4190 50  0000 C CNN
 F 2 "" H 3750 4050 50  0001 C CNN
 F 3 "" H 3750 4050 50  0001 C CNN
@@ -564,10 +553,10 @@ F 3 "" H 3650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR067
+L GND #PWR066
 U 1 1 5AED22FA
 P 3750 5150
-F 0 "#PWR067" H 3750 4900 50  0001 C CNN
+F 0 "#PWR066" H 3750 4900 50  0001 C CNN
 F 1 "GND" H 3750 5000 50  0000 C CNN
 F 2 "" H 3750 5150 50  0001 C CNN
 F 3 "" H 3750 5150 50  0001 C CNN
@@ -590,10 +579,10 @@ F 3 "" H 4050 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR068
+L GND #PWR067
 U 1 1 5AF3ADC2
 P 3850 3350
-F 0 "#PWR068" H 3850 3100 50  0001 C CNN
+F 0 "#PWR067" H 3850 3100 50  0001 C CNN
 F 1 "GND" H 3850 3200 50  0000 C CNN
 F 2 "" H 3850 3350 50  0001 C CNN
 F 3 "" H 3850 3350 50  0001 C CNN
@@ -601,10 +590,10 @@ F 3 "" H 3850 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR069
+L VBUS #PWR068
 U 1 1 5AF7190A
 P 4250 2550
-F 0 "#PWR069" H 4250 2400 50  0001 C CNN
+F 0 "#PWR068" H 4250 2400 50  0001 C CNN
 F 1 "VBUS" H 4250 2700 50  0000 C CNN
 F 2 "" H 4250 2550 50  0001 C CNN
 F 3 "" H 4250 2550 50  0001 C CNN
@@ -622,10 +611,10 @@ Open-drain output\ntied with TCPC_~INT
 Text Notes 6650 4900 0    60   ~ 0
 VBAT(DPL)=2.15~~2.5V
 $Comp
-L VBAT #PWR070
+L VBAT #PWR069
 U 1 1 5AE2587A
 P 6700 3850
-F 0 "#PWR070" H 6700 3700 50  0001 C CNN
+F 0 "#PWR069" H 6700 3700 50  0001 C CNN
 F 1 "VBAT" H 6700 4000 50  0000 C CNN
 F 2 "" H 6700 3850 50  0001 C CNN
 F 3 "" H 6700 3850 50  0001 C CNN
@@ -2072,83 +2061,52 @@ Text HLabel 3950 2700 0    60   Input ~ 0
 VBUS
 Text GLabel 3950 2500 0    60   Input ~ 0
 VBUS
-Text HLabel 9500 2500 2    60   Output ~ 0
+Text HLabel 10200 2500 2    60   Output ~ 0
 VBAT_REG
-Text GLabel 9500 2700 2    60   Output ~ 0
+Text GLabel 10200 2700 2    60   Output ~ 0
 VBAT_REG
 Text Notes 5050 1800 0    236  ~ 47
 Battery Charge Controller
 $Comp
-L C C311
-U 1 1 5B05FBB2
-P 8200 2800
-F 0 "C311" H 8225 2900 50  0000 L CNN
-F 1 "22uF" H 8225 2700 50  0000 L CNN
-F 2 "" H 8238 2650 50  0001 C CNN
-F 3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" H 8200 2800 50  0001 C CNN
-F 4 "Taiyo Yuden" H 8200 2800 60  0001 C CNN "MFG Name"
-F 5 "JMK212BJ226MG-T" H 8200 2800 60  0001 C CNN "MFG Part Num"
-F 6 "587-1305-1-ND" H 8200 2800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BJ226MG-T/587-1305-1-ND/931082" H 8200 2800 60  0001 C CNN "Distrib Link"
-F 8 "20%" H 8200 2800 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?FV=400006%2C1f140000%2Cmu100%C2%B5F%7C2049%2Cmu22%C2%B5F%7C2049%2Cmu33%C2%B5F%7C2049%2Cmu47%C2%B5F%7C2049%2Cffe0003c%2C380014%2C380022%2C380004%2C380009&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8200 2800 60  0001 C CNN "Others"
-	1    8200 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C312
-U 1 1 5B05FEC6
-P 8450 2800
-F 0 "C312" H 8475 2900 50  0000 L CNN
-F 1 "22uF" H 8475 2700 50  0000 L CNN
-F 2 "" H 8488 2650 50  0001 C CNN
-F 3 "" H 8450 2800 50  0001 C CNN
-	1    8450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C313
-U 1 1 5B05FF6D
-P 8700 2800
-F 0 "C313" H 8725 2900 50  0000 L CNN
-F 1 "22uF" H 8725 2700 50  0000 L CNN
-F 2 "" H 8738 2650 50  0001 C CNN
-F 3 "" H 8700 2800 50  0001 C CNN
-	1    8700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C314
-U 1 1 5B05FFE5
-P 8950 2800
-F 0 "C314" H 8975 2900 50  0000 L CNN
-F 1 "22uF" H 8975 2700 50  0000 L CNN
-F 2 "" H 8988 2650 50  0001 C CNN
-F 3 "" H 8950 2800 50  0001 C CNN
-	1    8950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C315
-U 1 1 5B060058
-P 9200 2800
-F 0 "C315" H 9225 2900 50  0000 L CNN
-F 1 "22uF" H 9225 2700 50  0000 L CNN
-F 2 "" H 9238 2650 50  0001 C CNN
-F 3 "" H 9200 2800 50  0001 C CNN
-	1    9200 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR071
+L GND #PWR070
 U 1 1 5B0600CE
 P 8700 3050
-F 0 "#PWR071" H 8700 2800 50  0001 C CNN
+F 0 "#PWR070" H 8700 2800 50  0001 C CNN
 F 1 "GND" H 8700 2900 50  0000 C CNN
 F 2 "" H 8700 3050 50  0001 C CNN
 F 3 "" H 8700 3050 50  0001 C CNN
 	1    8700 3050
 	1    0    0    -1  
+$EndComp
+Text Notes 8550 2550 0    60   ~ 0
+~~110uF
+$Comp
+L R R308
+U 1 1 5B0E4134
+P 9550 2600
+F 0 "R308" V 9630 2600 50  0000 C CNN
+F 1 "NC" V 9450 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 9480 2600 50  0001 C CNN
+F 3 "https://riedon.com/media/pdf/CSR.pdf" H 9550 2600 50  0001 C CNN
+F 4 "Riedon" V 9550 2600 60  0001 C CNN "MFG Name"
+F 5 "CSR2512A0R025F" V 9550 2600 60  0001 C CNN "MFG Part Num"
+F 6 "696-1666-1-ND" V 9550 2600 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/riedon/CSR2512A0R025F/696-1666-1-ND/5723654" V 9550 2600 60  0001 C CNN "Distrib Link"
+F 8 "1%" V 9550 2600 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0172%2Cc002a%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c06f9%2C142c0787%2C142c08f2%2C142c0b45%2C142c0ce1%2C142c10bd&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 9550 2600 60  0001 C CNN "Others"
+	1    9550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 JP301
+U 1 1 5B0E413B
+P 9500 2150
+F 0 "JP301" V 9600 2100 50  0000 C CNN
+F 1 "NC" V 9400 1950 50  0000 C CNN
+F 2 "" H 9500 2150 50  0001 C CNN
+F 3 "" H 9500 2150 50  0001 C CNN
+	1    9500 2150
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4250 2550 4250 2650
@@ -2255,15 +2213,13 @@ Wire Wire Line
 Wire Wire Line
 	6050 2600 6750 2600
 Wire Wire Line
-	7850 2550 7850 2650
-Wire Wire Line
 	7850 3000 7850 2950
 Wire Wire Line
 	7450 2950 7450 3050
 Wire Wire Line
 	7250 3000 7250 2950
 Wire Wire Line
-	7050 2600 9450 2600
+	7050 2600 9400 2600
 Connection ~ 7850 2600
 Wire Wire Line
 	7450 2550 7450 2650
@@ -2340,12 +2296,12 @@ Connection ~ 4000 2600
 Wire Wire Line
 	4000 2600 4550 2600
 Wire Wire Line
-	9500 2500 9450 2500
+	10200 2500 10150 2500
 Wire Wire Line
-	9450 2500 9450 2700
+	10150 2500 10150 2700
 Wire Wire Line
-	9450 2700 9500 2700
-Connection ~ 9450 2600
+	10150 2700 10200 2700
+Connection ~ 10150 2600
 Wire Wire Line
 	8200 2950 8200 3000
 Wire Wire Line
@@ -2365,7 +2321,7 @@ Wire Wire Line
 	8950 2650 8950 2600
 Connection ~ 8950 2600
 Wire Wire Line
-	9200 2650 9200 2600
+	9200 2600 9200 2650
 Connection ~ 9200 2600
 Wire Wire Line
 	8450 2950 8450 3000
@@ -2376,6 +2332,155 @@ Wire Wire Line
 	8950 2950 8950 3000
 Connection ~ 8950 3000
 Connection ~ 8700 3000
-Text Notes 8550 2550 0    60   ~ 0
-~~110uF
+Wire Wire Line
+	9500 2350 9500 2400
+Wire Wire Line
+	9350 2400 9750 2400
+Wire Wire Line
+	9350 2400 9350 2600
+Connection ~ 9350 2600
+Wire Wire Line
+	9700 2600 10150 2600
+Wire Wire Line
+	9600 2400 9600 2350
+Wire Wire Line
+	9750 2400 9750 2600
+Connection ~ 9750 2600
+Connection ~ 9600 2400
+Connection ~ 9500 2400
+Wire Wire Line
+	7850 2650 7850 2600
+$Comp
+L C C310
+U 1 1 5B1BC001
+P 8200 2800
+F 0 "C310" H 8225 2900 50  0000 L CNN
+F 1 "22uF" H 8225 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8238 2650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 8200 2800 50  0001 C CNN
+F 4 "Murata" H 8200 2800 60  0001 C CNN "MFG Name"
+F 5 "GRM219R61C226ME15L" H 8200 2800 60  0001 C CNN "MFG Part Num"
+F 6 "490-9952-1-ND" H 8200 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 8200 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 8200 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8200 2800 60  0001 C CNN "Others"
+	1    8200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C311
+U 1 1 5B1BC555
+P 8450 2800
+F 0 "C311" H 8475 2900 50  0000 L CNN
+F 1 "22uF" H 8475 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8488 2650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 8450 2800 50  0001 C CNN
+F 4 "Murata" H 8450 2800 60  0001 C CNN "MFG Name"
+F 5 "GRM219R61C226ME15L" H 8450 2800 60  0001 C CNN "MFG Part Num"
+F 6 "490-9952-1-ND" H 8450 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 8450 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 8450 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8450 2800 60  0001 C CNN "Others"
+	1    8450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C312
+U 1 1 5B1BC5DD
+P 8700 2800
+F 0 "C312" H 8725 2900 50  0000 L CNN
+F 1 "22uF" H 8725 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8738 2650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 8700 2800 50  0001 C CNN
+F 4 "Murata" H 8700 2800 60  0001 C CNN "MFG Name"
+F 5 "GRM219R61C226ME15L" H 8700 2800 60  0001 C CNN "MFG Part Num"
+F 6 "490-9952-1-ND" H 8700 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 8700 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 8700 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8700 2800 60  0001 C CNN "Others"
+	1    8700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C313
+U 1 1 5B1BC65C
+P 8950 2800
+F 0 "C313" H 8975 2900 50  0000 L CNN
+F 1 "22uF" H 8975 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8988 2650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 8950 2800 50  0001 C CNN
+F 4 "Murata" H 8950 2800 60  0001 C CNN "MFG Name"
+F 5 "GRM219R61C226ME15L" H 8950 2800 60  0001 C CNN "MFG Part Num"
+F 6 "490-9952-1-ND" H 8950 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 8950 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 8950 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8950 2800 60  0001 C CNN "Others"
+	1    8950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C314
+U 1 1 5B1BC6E2
+P 9200 2800
+F 0 "C314" H 9225 2900 50  0000 L CNN
+F 1 "22uF" H 9225 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9238 2650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 9200 2800 50  0001 C CNN
+F 4 "Murata" H 9200 2800 60  0001 C CNN "MFG Name"
+F 5 "GRM219R61C226ME15L" H 9200 2800 60  0001 C CNN "MFG Part Num"
+F 6 "490-9952-1-ND" H 9200 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 9200 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 9200 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 9200 2800 60  0001 C CNN "Others"
+	1    9200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R309
+U 1 1 5BA1BB3A
+P 9950 2800
+F 0 "R309" H 10100 2850 50  0000 C CNN
+F 1 "330" H 10100 2750 50  0000 C CNN
+F 2 "" V 9880 2800 50  0001 C CNN
+F 3 "" H 9950 2800 50  0001 C CNN
+	1    9950 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 5BA1BC16
+P 9950 3350
+F 0 "#PWR071" H 9950 3100 50  0001 C CNN
+F 1 "GND" H 9950 3200 50  0000 C CNN
+F 2 "" H 9950 3350 50  0001 C CNN
+F 3 "" H 9950 3350 50  0001 C CNN
+	1    9950 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3350 9950 3300
+Wire Wire Line
+	9950 3000 9950 2950
+Wire Wire Line
+	9950 2650 9950 2600
+Connection ~ 9950 2600
+Text Notes 10000 3050 0    60   ~ 0
+1.4mA~~7mA
+$Comp
+L LED_ALT D304
+U 1 1 5BA9D13D
+P 9950 3150
+F 0 "D304" V 9950 2950 50  0000 C CNN
+F 1 "GREEN_LED" V 9850 2850 50  0000 C CNN
+F 2 "" H 9950 3150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C171GKT.pdf" H 9950 3150 50  0001 C CNN
+F 4 "Lite-On" V 9950 3150 60  0001 C CNN "MFG Name"
+F 5 "LTST-C171GKT" V 9950 3150 60  0001 C CNN "MFG Part Num"
+F 6 "LTST-C171GKT" V 9950 3150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ltst-c171gkt/lite-on-technology" V 9950 3150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9950 3150 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=LTST-C171GKT&start=0" V 9950 3150 60  0001 C CNN "Others"
+	1    9950 3150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

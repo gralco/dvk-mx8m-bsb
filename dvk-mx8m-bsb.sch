@@ -39,7 +39,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 21
 Title "DVK-MX8M-BSB"
-Date "2018-05-16"
+Date "2018-05-18"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -901,14 +901,6 @@ F 3 "" H 13100 10300 50  0001 C CNN
 	1    13100 10300
 	1    0    0    -1  
 $EndComp
-Text Notes 3350 12150 0    60   ~ 0
-SAI1_TXD3(GPIO4_IO15)
-Text Notes 3350 12250 0    60   ~ 0
-SAI1_TXD6(GPIO4_IO18)
-Text Notes 3350 12750 0    60   ~ 0
-SAI1_RXD1(GPIO4_IO03)
-Text Notes 3350 12050 0    60   ~ 0
-used to be:
 Text Label 3200 12150 2    60   ~ 0
 BTN1
 Text Label 3200 12250 2    60   ~ 0
@@ -954,8 +946,6 @@ Text Notes 3250 4250 0    60   ~ 0
 SW_HOME
 Text Notes 3250 3650 0    60   ~ 0
 CAPTOUCH_~RST
-Text Notes 8850 2150 0    60   ~ 0
-TODO!!!
 $Comp
 L 3V3_OUT #PWR015
 U 1 1 5AF1557D
@@ -1037,7 +1027,6 @@ NoConn ~ 12050 9550
 NoConn ~ 12050 9650
 NoConn ~ 18600 9450
 NoConn ~ 18600 9650
-NoConn ~ 18600 9850
 NoConn ~ 18600 10050
 NoConn ~ 18600 10850
 NoConn ~ 18600 10950
@@ -1047,14 +1036,11 @@ NoConn ~ 17900 12150
 NoConn ~ 17900 9950
 NoConn ~ 17900 9550
 NoConn ~ 17900 9250
-NoConn ~ 17900 9350
 NoConn ~ 18600 5250
-NoConn ~ 18600 5450
 NoConn ~ 18600 6050
 NoConn ~ 17900 4050
 NoConn ~ 17900 4150
 NoConn ~ 17900 4250
-NoConn ~ 17900 4350
 NoConn ~ 17900 4450
 NoConn ~ 17900 3550
 NoConn ~ 17900 4850
@@ -2126,7 +2112,7 @@ Wire Wire Line
 Wire Wire Line
 	18500 5250 18600 5250
 Wire Wire Line
-	18500 5450 18600 5450
+	18500 5450 19650 5450
 Wire Wire Line
 	18500 5650 19650 5650
 Wire Wire Line
@@ -2140,7 +2126,7 @@ Wire Wire Line
 Wire Wire Line
 	18000 4250 17900 4250
 Wire Wire Line
-	18000 4350 17900 4350
+	18000 4350 16850 4350
 Wire Wire Line
 	18000 4450 17900 4450
 Wire Wire Line
@@ -2158,13 +2144,13 @@ Wire Wire Line
 Wire Wire Line
 	18000 9250 17900 9250
 Wire Wire Line
-	18000 9350 17900 9350
+	18000 9350 16850 9350
 Wire Wire Line
 	18500 9450 18600 9450
 Wire Wire Line
 	18500 9650 18600 9650
 Wire Wire Line
-	18500 9850 18600 9850
+	18500 9850 19650 9850
 Wire Wire Line
 	18500 10050 18600 10050
 Wire Wire Line
@@ -2677,7 +2663,6 @@ Wire Wire Line
 	6550 2900 7800 2900
 Text Label 7800 2900 2    60   ~ 0
 MIC_SEL
-NoConn ~ 7800 2900
 Text Notes 5150 16000 0    60   ~ 0
 TODO:\nGNSS\nMIPI CSI/DSI
 $Sheet
@@ -2878,8 +2863,6 @@ Text Label 7800 14250 2    60   ~ 0
 PROX_~INT
 Text Label 7800 14400 2    60   ~ 0
 IMU_INT
-NoConn ~ 7800 14250
-NoConn ~ 7800 14400
 $Sheet
 S 5150 14700 1400 500 
 U 5B0A785D
@@ -2927,7 +2910,6 @@ F2 "HAPTIC" I R 6550 15500 60
 $EndSheet
 Wire Wire Line
 	6550 15500 7800 15500
-NoConn ~ 7800 15500
 Text Label 7800 6450 2    60   ~ 0
 SAI5_TX_BCLK
 Text Label 7800 6550 2    60   ~ 0
@@ -2944,8 +2926,8 @@ Text Label 16850 4750 0    60   ~ 0
 SAI5_RXD
 Text Label 16850 5650 0    60   ~ 0
 SAI5_TXD
-Text Notes 7900 2750 0    60   ~ 0
-SAI5_RXC(GPIO3_IO20)
+Text Notes 7850 2750 0    60   ~ 0
+GPIO3_IO20
 NoConn ~ 3200 11200
 NoConn ~ 3200 11100
 $Comp
@@ -3022,4 +3004,26 @@ F 3 "" H 16700 12350 50  0001 C CNN
 	1    16700 12350
 	1    0    0    -1  
 $EndComp
+Text Label 16850 9350 0    60   ~ 0
+HAPTIC
+Text Label 7800 15500 2    60   ~ 0
+HAPTIC
+Text Notes 3250 3550 0    60   ~ 12
+Alternate Functions:
+Text Notes 9950 1125 0    60   ~ 0
+Spare GPIO:\nGPIO5_IO03 (was PWM3)
+Text Notes 7850 14250 0    60   ~ 0
+GPIO3_IO19 (was LED1)
+Text Label 16850 4350 0    60   ~ 0
+PROX_~INT
+Text Notes 11200 1500 0    60   ~ 0
+GPIO that can be swapped around:\nGPIO3_IO20\nGPIO3_IO25\nGPIO3_IO19 (was LED1)\nGPIO5_IO05 (was PWM1)\nGPIO5_IO03 (was PWM3)
+Text Notes 7850 14400 0    60   ~ 0
+GPIO3_IO25
+Text Label 19650 5450 2    60   ~ 0
+IMU_INT
+Text Notes 7850 2900 0    60   ~ 0
+GPIO5_IO05 (was PWM1)
+Text Label 19650 9850 2    60   ~ 0
+MIC_SEL
 $EndSCHEMATC
