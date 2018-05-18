@@ -5,11 +5,6 @@ D power-flag symbol 1V8_P
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP 3V3
-D power-flag symbol 3V3
-K Power Flag Symbol
-$ENDCMP
-#
 $CMP 3V3_OUT
 D power-flag symbol 3V3_OUT
 K Power Flag Symbol
@@ -25,16 +20,6 @@ D power-flag symbol 3V3_SD
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP 5V_P
-D power-flag symbol 5V_P
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP 5V_SOM
-D power-flag symbol 5V_SOM
-K Power Flag Symbol
-$ENDCMP
-#
 $CMP 74AUP2G00
 D Dual And2
 K TTL and2
@@ -42,10 +27,6 @@ $ENDCMP
 #
 $CMP 74LVC2G241
 D IC BUFFER/DVR 3ST DL INV
-$ENDCMP
-#
-$CMP AP22800
-D 5V SINGLE CHANNEL PROGRAMMABLE LOAD SWITCH
 $ENDCMP
 #
 $CMP AR8031
@@ -173,11 +154,6 @@ D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
-$CMP RJHSE-5381
-D RJ45 with transformer + leds
-K RJ45
-$ENDCMP
-#
 $CMP RPR-0521RS
 D LIGHT SENSOR WITH IRLED
 $ENDCMP
@@ -199,11 +175,6 @@ $ENDCMP
 #
 $CMP SN74LVC1G66
 D IC SWITCH 1X1 SC70-5
-$ENDCMP
-#
-$CMP SW_DP3T
-D Switch, three position, douple pole triple throw, 3 position switch, DP3T
-K switch dp3t ON-ON-ON
 $ENDCMP
 #
 $CMP TCK206G,LF
