@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 21
+Sheet 16 20
 Title "Ethernet"
 Date "2018-05-18"
 Rev "v0.1.0"
