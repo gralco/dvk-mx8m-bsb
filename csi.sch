@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 22 22
 Title ""
 Date ""
 Rev ""
@@ -48,25 +48,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 5600 3150 2    60   Output ~ 0
-CSI_P1_DP0
+C0_P
 Text HLabel 5600 3250 2    60   Output ~ 0
-CSI_P1_DN0
+C0_N
 Text HLabel 5600 3350 2    60   Output ~ 0
-CSI_P1_DP1
+C1_P
 Text HLabel 5600 3450 2    60   Output ~ 0
-CSI_P1_DN1
+C1_N
 Text HLabel 5600 3550 2    60   Output ~ 0
-DSI_P1_DP2
+C2_P
 Text HLabel 5600 3650 2    60   Output ~ 0
-CSI_P1_DN2
+C2_N
 Text HLabel 5600 3750 2    60   Output ~ 0
-CSI_P1_DP3
+C3_P
 Text HLabel 5600 3850 2    60   Output ~ 0
-CSI_P1_DN3
+C3_N
 Text HLabel 5600 3950 2    60   Input ~ 0
-CSI_P1_CKP
+CLK_P
 Text HLabel 5600 4050 2    60   Input ~ 0
-CSI_P1_CKN
+CLK_N
 Wire Wire Line
 	5600 3150 5550 3150
 Wire Wire Line
@@ -97,4 +97,12 @@ NoConn ~ 5550 3750
 NoConn ~ 5550 3850
 NoConn ~ 5550 3950
 NoConn ~ 5550 4050
+Text HLabel 5600 4200 2    60   BiDi ~ 0
+I2C1_SDA_1V8
+Wire Wire Line
+	5600 4200 5550 4200
+Text HLabel 5600 4300 2    60   Input ~ 0
+I2C1_SCL_1V8
+Wire Wire Line
+	5600 4300 5550 4300
 $EndSCHEMATC

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 21
+Sheet 2 22
 Title "USB Type C"
 Date "2018-05-18"
 Rev "v0.1.0"
@@ -66,8 +66,14 @@ U 1 1 5ADED0F6
 P 1250 1200
 F 0 "C207" V 1300 1300 50  0000 L CNN
 F 1 "10uF" V 1200 950 50  0000 L CNN
-F 2 "" H 1288 1050 50  0001 C CNN
-F 3 "" H 1250 1200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1288 1050 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1250 1200 50  0001 C CNN
+F 4 "Taiyo Yuden" V 1250 1200 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 1250 1200 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 1250 1200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 1250 1200 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 1250 1200 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 1250 1200 60  0001 C CNN "Others"
 	1    1250 1200
 	0    -1   -1   0   
 $EndComp
@@ -339,17 +345,6 @@ F 3 "" H 950 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C201
-U 1 1 5AED2BED
-P 800 5600
-F 0 "C201" H 825 5700 50  0000 L CNN
-F 1 "10uF" H 825 5500 50  0000 L CNN
-F 2 "" H 838 5450 50  0001 C CNN
-F 3 "" H 800 5600 50  0001 C CNN
-	1    800  5600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L R R202
 U 1 1 5AED5D55
 P 1100 6600
@@ -576,17 +571,6 @@ F 1 "100nF" H 8525 2850 50  0000 L CNN
 F 2 "" H 8538 2800 50  0001 C CNN
 F 3 "" H 8500 2950 50  0001 C CNN
 	1    8500 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C213
-U 1 1 5AF3D56C
-P 8200 2950
-F 0 "C213" H 8225 3050 50  0000 L CNN
-F 1 "10uF" H 8225 2850 50  0000 L CNN
-F 2 "" H 8238 2800 50  0001 C CNN
-F 3 "" H 8200 2950 50  0001 C CNN
-	1    8200 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1602,6 +1586,40 @@ F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhb
 F 8 "-" V 2000 6400 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 2000 6400 60  0001 C CNN "Others"
 	1    2000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C213
+U 1 1 5B0AE4C1
+P 8200 2950
+F 0 "C213" H 8250 3050 50  0000 L CNN
+F 1 "10uF" H 8250 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8238 2800 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 8200 2950 50  0001 C CNN
+F 4 "Taiyo Yuden" V 8200 2950 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 8200 2950 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 8200 2950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 8200 2950 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 8200 2950 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 8200 2950 60  0001 C CNN "Others"
+	1    8200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C201
+U 1 1 5B0AF555
+P 800 5600
+F 0 "C201" H 600 5700 50  0000 L CNN
+F 1 "10uF" H 600 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 838 5450 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 800 5600 50  0001 C CNN
+F 4 "Taiyo Yuden" V 800 5600 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 800 5600 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 800 5600 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 800 5600 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 800 5600 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 800 5600 60  0001 C CNN "Others"
+	1    800  5600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

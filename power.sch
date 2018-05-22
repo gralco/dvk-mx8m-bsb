@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 21
+Sheet 4 22
 Title "Power"
 Date "2018-05-18"
 Rev "v0.1.0"
@@ -47,17 +47,6 @@ Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L C C401
-U 1 1 5AC8916D
-P 1500 2050
-F 0 "C401" H 1525 2150 50  0000 L CNN
-F 1 "10uF" H 1525 1950 50  0000 L CNN
-F 2 "" H 1538 1900 50  0001 C CNN
-F 3 "" H 1500 2050 50  0001 C CNN
-	1    1500 2050
-	1    0    0    -1  
-$EndComp
 $Comp
 L L L402
 U 1 1 5AC89425
@@ -775,22 +764,11 @@ $Comp
 L C C422
 U 1 1 5B4026A2
 P 7150 4800
-F 0 "C422" H 7175 4900 50  0000 L CNN
+F 0 "C422" H 7150 4900 50  0000 L CNN
 F 1 "100nF" H 7175 4700 50  0000 L CNN
 F 2 "" H 7188 4650 50  0001 C CNN
 F 3 "" H 7150 4800 50  0001 C CNN
 	1    7150 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C420
-U 1 1 5B402732
-P 6900 4800
-F 0 "C420" H 6925 4900 50  0000 L CNN
-F 1 "10uF" H 6925 4700 50  0000 L CNN
-F 2 "" H 6938 4650 50  0001 C CNN
-F 3 "" H 6900 4800 50  0001 C CNN
-	1    6900 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -953,22 +931,11 @@ $Comp
 L C C421
 U 1 1 5B40E9C6
 P 7050 2050
-F 0 "C421" H 7075 2150 50  0000 L CNN
+F 0 "C421" H 7050 2150 50  0000 L CNN
 F 1 "100nF" H 7075 1950 50  0000 L CNN
 F 2 "" H 7088 1900 50  0001 C CNN
 F 3 "" H 7050 2050 50  0001 C CNN
 	1    7050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C419
-U 1 1 5B40E9CD
-P 6800 2050
-F 0 "C419" H 6825 2150 50  0000 L CNN
-F 1 "10uF" H 6825 1950 50  0000 L CNN
-F 2 "" H 6838 1900 50  0001 C CNN
-F 3 "" H 6800 2050 50  0001 C CNN
-	1    6800 2050
 	1    0    0    -1  
 $EndComp
 Text Notes 3600 5900 0    60   ~ 0
@@ -1557,4 +1524,55 @@ Wire Wire Line
 	5250 4100 5250 4650
 Wire Wire Line
 	5300 4300 5250 4300
+$Comp
+L C C401
+U 1 1 5B0BA13D
+P 1500 2050
+F 0 "C401" H 1300 2150 50  0000 L CNN
+F 1 "10uF" H 1300 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1538 1900 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1500 2050 50  0001 C CNN
+F 4 "Taiyo Yuden" V 1500 2050 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 1500 2050 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 1500 2050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 1500 2050 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 1500 2050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 1500 2050 60  0001 C CNN "Others"
+	1    1500 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C420
+U 1 1 5B0BE741
+P 6900 4800
+F 0 "C420" H 6700 4900 50  0000 L CNN
+F 1 "10uF" H 6700 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6938 4650 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6900 4800 50  0001 C CNN
+F 4 "Taiyo Yuden" V 6900 4800 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 6900 4800 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 6900 4800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 6900 4800 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 6900 4800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 6900 4800 60  0001 C CNN "Others"
+	1    6900 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C419
+U 1 1 5B0BE9C2
+P 6800 2050
+F 0 "C419" H 6600 2150 50  0000 L CNN
+F 1 "10uF" H 6600 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6838 1900 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6800 2050 50  0001 C CNN
+F 4 "Taiyo Yuden" V 6800 2050 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 6800 2050 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 6800 2050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 6800 2050 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 6800 2050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 6800 2050 60  0001 C CNN "Others"
+	1    6800 2050
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

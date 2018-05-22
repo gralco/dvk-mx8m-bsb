@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 21
+Sheet 3 22
 Title "Battery"
 Date "2018-05-18"
 Rev "v0.1.0"
@@ -435,57 +435,6 @@ Text Notes 7850 3950 0    60   ~ 0
 VBAT(nom)=REG06[7:2]\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nREG06[7:2]=010111⇒VBAT(max_ovp)=4.3814784\nBQ29705 provides 4.425V as OVP!!!
 Text Notes 4300 5200 0    60   ~ 0
 BC1.2 is not mandated by PD spec\nICO used to determine max current\nAlso negotiated from CC pins (I2C)
-$Comp
-L C C306
-U 1 1 5AED4121
-P 6550 2800
-F 0 "C306" H 6575 2900 50  0000 L CNN
-F 1 "10uF" H 6575 2700 50  0000 L CNN
-F 2 "" H 6588 2650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6550 2800 50  0001 C CNN
-F 4 "Taiyo Yuden" H 6550 2800 60  0001 C CNN "MFG Name"
-F 5 "LMK212AB7106KG-T" H 6550 2800 60  0001 C CNN "MFG Part Num"
-F 6 "963-LMK212AB7106KG-T" H 6550 2800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/LMK212AB7106KG-T?qs=sGAEpiMZZMs0AnBnWHyRQC2E6McmylamyklRJglDYmUoNn3WEQbr7Q%3d%3d" H 6550 2800 60  0001 C CNN "Distrib Link"
-F 8 "10%" H 6550 2800 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/Passive-Components/Capacitors/Ceramic-Capacitors/MLCCs-Multilayer-Ceramic-Capacitors/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT/_/N-bkrdv?P=1z0wrkrZ1yx4aw4Z1yx4aw3Z1yx4awyZ1yx4atvZ1yx4avvZ1yx4avuZ1yx4attZ1z0x7xmZ1yx4atuZ1yx4as7Z1yzs9nvZ1yozvb4Z1yx4arfZ1yx4ardZ1yx4arcZ1ylo5rpZ1y9kvc0Z1yp7zipZ1yo19l7Z1yp7xv3Z1ykkc05Z1yp7ddoZ1yo19mxZ1yp7xv5Z1yo195iZ1yp7xv1Z1ykkkqbZ1ykkkqaZ1ykkkm9Z1yzmou0Z1yx6r6bZ1z0x6frZ1z0x6d8&Ns=Pricing%7c0" H 6550 2800 60  0001 C CNN "Others"
-	1    6550 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C305
-U 1 1 5AED41D9
-P 6350 2800
-F 0 "C305" H 6375 2900 50  0000 L CNN
-F 1 "10uF" H 6375 2700 50  0000 L CNN
-F 2 "" H 6388 2650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6350 2800 50  0001 C CNN
-F 4 "Taiyo Yuden" H 6350 2800 60  0001 C CNN "MFG Name"
-F 5 "LMK212AB7106KG-T" H 6350 2800 60  0001 C CNN "MFG Part Num"
-F 6 "963-LMK212AB7106KG-T" H 6350 2800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/LMK212AB7106KG-T?qs=sGAEpiMZZMs0AnBnWHyRQC2E6McmylamyklRJglDYmUoNn3WEQbr7Q%3d%3d" H 6350 2800 60  0001 C CNN "Distrib Link"
-F 8 "10%" H 6350 2800 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/Passive-Components/Capacitors/Ceramic-Capacitors/MLCCs-Multilayer-Ceramic-Capacitors/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT/_/N-bkrdv?P=1z0wrkrZ1yx4aw4Z1yx4aw3Z1yx4awyZ1yx4atvZ1yx4avvZ1yx4avuZ1yx4attZ1z0x7xmZ1yx4atuZ1yx4as7Z1yzs9nvZ1yozvb4Z1yx4arfZ1yx4ardZ1yx4arcZ1ylo5rpZ1y9kvc0Z1yp7zipZ1yo19l7Z1yp7xv3Z1ykkc05Z1yp7ddoZ1yo19mxZ1yp7xv5Z1yo195iZ1yp7xv1Z1ykkkqbZ1ykkkqaZ1ykkkm9Z1yzmou0Z1yx6r6bZ1z0x6frZ1z0x6d8&Ns=Pricing%7c0" H 6350 2800 60  0001 C CNN "Others"
-	1    6350 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C C307
-U 1 1 5AED5FB0
-P 6700 4150
-F 0 "C307" H 6725 4250 50  0000 L CNN
-F 1 "10uF" H 6725 4050 50  0000 L CNN
-F 2 "" H 6738 4000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6700 4150 50  0001 C CNN
-F 4 "Taiyo Yuden" H 6700 4150 60  0001 C CNN "MFG Name"
-F 5 "LMK212AB7106KG-T" H 6700 4150 60  0001 C CNN "MFG Part Num"
-F 6 "963-LMK212AB7106KG-T" H 6700 4150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/LMK212AB7106KG-T?qs=sGAEpiMZZMs0AnBnWHyRQC2E6McmylamyklRJglDYmUoNn3WEQbr7Q%3d%3d" H 6700 4150 60  0001 C CNN "Distrib Link"
-F 8 "10%" H 6700 4150 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/Passive-Components/Capacitors/Ceramic-Capacitors/MLCCs-Multilayer-Ceramic-Capacitors/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT/_/N-bkrdv?P=1z0wrkrZ1yx4aw4Z1yx4aw3Z1yx4awyZ1yx4atvZ1yx4avvZ1yx4avuZ1yx4attZ1z0x7xmZ1yx4atuZ1yx4as7Z1yzs9nvZ1yozvb4Z1yx4arfZ1yx4ardZ1yx4arcZ1ylo5rpZ1y9kvc0Z1yp7zipZ1yo19l7Z1yp7xv3Z1ykkc05Z1yp7ddoZ1yo19mxZ1yp7xv5Z1yo195iZ1yp7xv1Z1ykkkqbZ1ykkkqaZ1ykkkm9Z1yzmou0Z1yx6r6bZ1z0x6frZ1z0x6d8&Ns=Pricing%7c0" H 6700 4150 60  0001 C CNN "Others"
-	1    6700 4150
-	1    0    0    -1  
-$EndComp
 Text Notes 7225 2350 0    60   ~ 0
 3.5~~4.25V
 Text Notes 5700 2400 0    60   ~ 0
@@ -2505,4 +2454,55 @@ Text Notes 6250 5250 0    60   ~ 0
 Battery holder gives ~~1mm clearance underneath the battery\nThermistor is 1.1±0.15mm thick, should fit fine with stack-up
 Text Notes 6250 5500 0    60   ~ 0
 Battery holder seems to fit up to ~~68.88mm long batteries\nneed to test 18650 protected cells which are ~~69.35mm long
+$Comp
+L C C305
+U 1 1 5B0BB8A8
+P 6350 2800
+F 0 "C305" H 6150 2900 50  0000 L CNN
+F 1 "10uF" H 6150 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6388 2650 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6350 2800 50  0001 C CNN
+F 4 "Taiyo Yuden" V 6350 2800 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 6350 2800 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 6350 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 6350 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 6350 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 6350 2800 60  0001 C CNN "Others"
+	1    6350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C306
+U 1 1 5B0BBD65
+P 6550 2800
+F 0 "C306" H 6350 2900 50  0000 L CNN
+F 1 "10uF" H 6350 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6588 2650 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6550 2800 50  0001 C CNN
+F 4 "Taiyo Yuden" V 6550 2800 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 6550 2800 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 6550 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 6550 2800 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 6550 2800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 6550 2800 60  0001 C CNN "Others"
+	1    6550 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C307
+U 1 1 5B0BD3BE
+P 6700 4150
+F 0 "C307" H 6500 4250 50  0000 L CNN
+F 1 "10uF" H 6500 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6738 4000 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6700 4150 50  0001 C CNN
+F 4 "Taiyo Yuden" V 6700 4150 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 6700 4150 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 6700 4150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 6700 4150 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 6700 4150 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 6700 4150 60  0001 C CNN "Others"
+	1    6700 4150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

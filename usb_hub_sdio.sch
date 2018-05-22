@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 21
+Sheet 9 22
 Title ""
 Date "2018-05-18"
 Rev "v0.1.0"
@@ -170,9 +170,9 @@ USB2_DN
 Text HLabel 3850 2750 0    60   BiDi ~ 0
 USB2_DP
 Text HLabel 3800 3300 0    60   Input ~ 0
-I2C2_SCL
+I2C1_SCL
 Text HLabel 3800 3400 0    60   BiDi ~ 0
-I2C2_SDA
+I2C1_SDA
 Text HLabel 2550 1900 0    60   Output ~ 0
 USB2_ID
 $Comp

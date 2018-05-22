@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 21
+Sheet 6 22
 Title "RTC"
 Date "2018-05-18"
 Rev "v0.1.0"
@@ -97,9 +97,9 @@ Wire Wire Line
 Wire Wire Line
 	5550 3800 5600 3800
 Text HLabel 4950 3100 0    60   BiDi ~ 0
-I2C2_SDA
+I2C1_SDA
 Text HLabel 5850 3100 2    60   Input ~ 0
-I2C2_SCL
+I2C1_SCL
 $Comp
 L GND #PWR0122
 U 1 1 5AC6302E
