@@ -75,6 +75,10 @@ $CMP M.2_Key_E
 F ~
 $ENDCMP
 #
+$CMP MA8627
+D USB 2.0 High Speed 3-Port Hub with SD Reader Controller
+$ENDCMP
+#
 $CMP MIC2876
 D IC REG BOOST 8TDFN
 $ENDCMP

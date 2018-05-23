@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 22
+Sheet 22 22
 Title "Haptic/Vibration Motor"
 Date "2018-05-18"
 Rev "v0.1.0"
@@ -65,10 +65,10 @@ F 9 "http://www.nfpmotor.com/products-coin-vibration-motors.html" H 6050 3900 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0319
+L GND #PWR0332
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0319" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0332" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -95,10 +95,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0320
+L 3V3_P #PWR0333
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0320" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0333" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
