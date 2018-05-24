@@ -132,6 +132,10 @@ D power-flag symbol OVSS
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP PAM2841
+D 1.5A SW CURRENT, 40V PRECISION WLED DRIVER
+$ENDCMP
+#
 $CMP PCMF2HDMI2SZ
 D EMI 2-inductor-filter
 K EMI filter

@@ -5,6 +5,11 @@ D power-flag symbol 1V8_P
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP 22V4_P
+D power-flag symbol 22V4_P
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 3V3_OUT
 D power-flag symbol 3V3_OUT
 K Power Flag Symbol
@@ -130,6 +135,10 @@ $ENDCMP
 $CMP OVSS
 D power-flag symbol OVSS
 K Power Flag Symbol
+$ENDCMP
+#
+$CMP PAM2841
+D 1.5A SW CURRENT, 40V PRECISION WLED DRIVER
 $ENDCMP
 #
 $CMP PCMF2HDMI2SZ
