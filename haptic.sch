@@ -48,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Motor_DC M2101
+L Motor_DC M2301
 U 1 1 5AFCD142
 P 6050 3900
-F 0 "M2101" H 6150 4000 50  0000 L CNN
+F 0 "M2301" H 6150 4000 50  0000 L CNN
 F 1 "C0820" H 6150 3700 50  0000 L TNN
 F 2 "" H 6050 3810 50  0001 C CNN
 F 3 "http://www.nfpmotor.com/products-micro-dc-motors-coin-vibration-motor-NFP-C0820L.html" H 6050 3810 50  0001 C CNN
@@ -65,10 +65,10 @@ F 9 "http://www.nfpmotor.com/products-coin-vibration-motors.html" H 6050 3900 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0342
+L GND #PWR0336
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0342" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0336" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -78,10 +78,10 @@ $EndComp
 Text Notes 6550 3800 0    60   ~ 0
 When the motor is off\nboth terminals are at GND
 $Comp
-L Q_PMOS_GSD Q2101
+L Q_PMOS_GSD Q2301
 U 1 1 5AFD137F
 P 5950 3400
-F 0 "Q2101" H 6150 3350 50  0000 L CNN
+F 0 "Q2301" H 6150 3350 50  0000 L CNN
 F 1 "DMG2301L" H 6150 3450 50  0000 L CNN
 F 2 "" H 6150 3500 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 5950 3400 50  0001 C CNN
@@ -95,10 +95,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0343
+L 3V3_P #PWR0337
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0343" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0337" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -106,10 +106,10 @@ F 3 "" H 6050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2101
+L R R2301
 U 1 1 5AFD2E14
 P 5350 3200
-F 0 "R2101" H 5525 3250 50  0000 C CNN
+F 0 "R2301" H 5525 3250 50  0000 C CNN
 F 1 "100k" H 5500 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5280 3200 50  0001 C CNN
 F 3 "" H 5350 3200 50  0001 C CNN
@@ -119,10 +119,10 @@ $EndComp
 Text HLabel 5300 3400 0    60   Input ~ 0
 HAPTIC
 $Comp
-L D_Schottky_ALT D2101
+L D_Schottky_ALT D2301
 U 1 1 5AFD563E
 P 5250 3950
-F 0 "D2101" V 5200 3750 50  0000 C CNN
+F 0 "D2301" V 5200 3750 50  0000 C CNN
 F 1 "DB2J209" V 5300 3700 50  0000 C CNN
 F 2 "" H 5250 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5250 3950 50  0001 C CNN
@@ -136,10 +136,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2102
+L R R2302
 U 1 1 5AFFD30C
 P 5550 3400
-F 0 "R2102" V 5630 3400 50  0000 C CNN
+F 0 "R2302" V 5630 3400 50  0000 C CNN
 F 1 "100" V 5550 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5480 3400 50  0001 C CNN
 F 3 "" H 5550 3400 50  0001 C CNN
@@ -170,10 +170,10 @@ Wire Wire Line
 	5250 4250 6050 4250
 Connection ~ 6050 4250
 $Comp
-L C C2101
+L C C2301
 U 1 1 5B0285ED
 P 5650 3950
-F 0 "C2101" H 5675 4050 50  0000 L CNN
+F 0 "C2301" H 5675 4050 50  0000 L CNN
 F 1 "100nF" H 5675 3850 50  0000 L CNN
 F 2 "" H 5688 3800 50  0001 C CNN
 F 3 "" H 5650 3950 50  0001 C CNN

@@ -59,10 +59,10 @@ F 3 "" H 2900 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R406
+L R R407
 U 1 1 5AC894B5
 P 3350 2050
-F 0 "R406" H 3500 2100 50  0000 C CNN
+F 0 "R407" H 3500 2100 50  0000 C CNN
 F 1 "75k" H 3500 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3280 2050 50  0001 C CNN
 F 3 "" H 3350 2050 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 3350 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R407
+L R R408
 U 1 1 5AC89505
 P 3350 2450
-F 0 "R407" H 3500 2500 50  0000 C CNN
+F 0 "R408" H 3500 2500 50  0000 C CNN
 F 1 "24k" H 3500 2400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3280 2450 50  0001 C CNN
 F 3 "" H 3350 2450 50  0001 C CNN
@@ -344,10 +344,10 @@ $EndComp
 Text Notes 800  6000 0    60   ~ 0
 Cheaper, more efficient, smaller, and simpler than RT6150A\n     Explicitly mentions USB/smartphone application
 $Comp
-L R R408
+L R R406
 U 1 1 5ACAFE3F
 P 3300 4850
-F 0 "R408" V 3380 4850 50  0000 C CNN
+F 0 "R406" V 3380 4850 50  0000 C CNN
 F 1 "1M" V 3300 4850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3230 4850 50  0001 C CNN
 F 3 "" H 3300 4850 50  0001 C CNN
@@ -990,10 +990,10 @@ F 3 "" H 5400 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R418
+L R R416
 U 1 1 5B0C354D
 P 10450 3250
-F 0 "R418" V 10530 3250 50  0000 C CNN
+F 0 "R416" V 10530 3250 50  0000 C CNN
 F 1 "NC" V 10350 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 10380 3250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf" H 10450 3250 50  0001 C CNN
@@ -1494,10 +1494,10 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R417
+L R R415
 U 1 1 5B24CEF2
 P 6950 4400
-F 0 "R417" V 7030 4400 50  0000 C CNN
+F 0 "R415" V 7030 4400 50  0000 C CNN
 F 1 "NC" V 6850 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 6880 4400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 6950 4400 50  0001 C CNN
