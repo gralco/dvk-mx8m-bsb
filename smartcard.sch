@@ -229,7 +229,7 @@ U 1 1 5B26711A
 P 7850 3300
 F 0 "J2301" H 7675 3700 50  0000 R CNN
 F 1 "SMART_CARD" H 8450 3700 50  0000 R CNN
-F 2 "" H 7850 3650 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Conn_Amphenol_SIMcard_10100271" H 7850 3650 50  0001 C CNN
 F 3 "https://www.amphenolcanada.com/productsearch/drawings/ac/1010027182.pdf" H 7800 3300 50  0001 C CNN
 F 4 "Amphenol" H 7850 3300 60  0001 C CNN "MFG Name"
 F 5 "1010027182" H 7850 3300 60  0001 C CNN "MFG Part Num"
