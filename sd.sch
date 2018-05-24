@@ -47,257 +47,153 @@ Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4050 4100 0    60   BiDi ~ 0
+Text HLabel 4250 3950 0    60   BiDi ~ 0
 CONN_SD2_DATA1
-Text HLabel 4050 4000 0    60   BiDi ~ 0
+Text HLabel 4250 3850 0    60   BiDi ~ 0
 CONN_SD2_DATA0
-Text HLabel 4050 3600 0    60   Input ~ 0
+Text HLabel 4250 3450 0    60   Input ~ 0
 CONN_SD2_CMD
-Text HLabel 4050 3500 0    60   BiDi ~ 0
+Text HLabel 4250 3350 0    60   BiDi ~ 0
 CONN_SD2_DATA3
-Text HLabel 4050 3400 0    60   BiDi ~ 0
+Text HLabel 4250 3250 0    60   BiDi ~ 0
 CONN_SD2_DATA2
-Text HLabel 4050 3800 0    60   Input ~ 0
+Text HLabel 4250 3650 0    60   Input ~ 0
 CONN_SD2_CLK
-Text HLabel 4050 4300 0    60   Output ~ 0
+Text HLabel 4250 4150 0    60   Output ~ 0
 CONN_SD2_CD_B
 $Comp
 L GND #PWR0161
 U 1 1 5AC9FCAE
-P 7850 4350
-F 0 "#PWR0161" H 7850 4100 50  0001 C CNN
-F 1 "GND" H 7850 4200 50  0000 C CNN
-F 2 "" H 7850 4350 50  0001 C CNN
-F 3 "" H 7850 4350 50  0001 C CNN
-	1    7850 4350
+P 7400 4200
+F 0 "#PWR0161" H 7400 3950 50  0001 C CNN
+F 1 "GND" H 7400 4050 50  0000 C CNN
+F 2 "" H 7400 4200 50  0001 C CNN
+F 3 "" H 7400 4200 50  0001 C CNN
+	1    7400 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0162
 U 1 1 5ACA0128
-P 6050 4350
-F 0 "#PWR0162" H 6050 4100 50  0001 C CNN
-F 1 "GND" H 6050 4200 50  0000 C CNN
-F 2 "" H 6050 4350 50  0001 C CNN
-F 3 "" H 6050 4350 50  0001 C CNN
-	1    6050 4350
+P 5600 4200
+F 0 "#PWR0162" H 5600 3950 50  0001 C CNN
+F 1 "GND" H 5600 4050 50  0000 C CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1002
 U 1 1 5ACA0BD2
-P 6250 2600
-F 0 "C1002" H 6275 2700 50  0000 L CNN
-F 1 "22uF" H 6275 2500 50  0000 L CNN
-F 2 "" H 6288 2450 50  0001 C CNN
-F 3 "" H 6250 2600 50  0001 C CNN
-	1    6250 2600
+P 5800 2450
+F 0 "C1002" H 5825 2550 50  0000 L CNN
+F 1 "22uF" H 5825 2350 50  0000 L CNN
+F 2 "" H 5838 2300 50  0001 C CNN
+F 3 "" H 5800 2450 50  0001 C CNN
+	1    5800 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1003
 U 1 1 5ACA10D0
-P 6550 2600
-F 0 "C1003" H 6575 2700 50  0000 L CNN
-F 1 "22uF" H 6575 2500 50  0000 L CNN
-F 2 "" H 6588 2450 50  0001 C CNN
-F 3 "" H 6550 2600 50  0001 C CNN
-	1    6550 2600
+P 6100 2450
+F 0 "C1003" H 6125 2550 50  0000 L CNN
+F 1 "22uF" H 6125 2350 50  0000 L CNN
+F 2 "" H 6138 2300 50  0001 C CNN
+F 3 "" H 6100 2450 50  0001 C CNN
+	1    6100 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0163
 U 1 1 5ACA12D0
-P 6550 2850
-F 0 "#PWR0163" H 6550 2600 50  0001 C CNN
-F 1 "GND" H 6550 2700 50  0000 C CNN
-F 2 "" H 6550 2850 50  0001 C CNN
-F 3 "" H 6550 2850 50  0001 C CNN
-	1    6550 2850
-	1    0    0    -1  
-$EndComp
-Text Label 4100 3400 0    60   ~ 0
-CONN_SD2_DATA2
-Text Label 4100 3800 0    60   ~ 0
-CONN_SD2_CLK_R
-Text Label 4100 4000 0    60   ~ 0
-CONN_SD2_DATA0
-Text Label 4100 3500 0    60   ~ 0
-CONN_SD2_DATA3
-Text Label 4100 3600 0    60   ~ 0
-CONN_SD2_CMD
-Text Label 4100 4100 0    60   ~ 0
-CONN_SD2_DATA1
-Text Label 4100 4300 0    60   ~ 0
-CONN_SD2_CD_B
-$Comp
-L NVCC_SD2 #PWR0164
-U 1 1 5AE77A2E
-P 5550 2950
-F 0 "#PWR0164" H 5550 2800 50  0001 C CNN
-F 1 "NVCC_SD2" H 5550 3090 50  0000 C CNN
-F 2 "" H 5550 2950 50  0001 C CNN
-F 3 "" H 5550 2950 50  0001 C CNN
-	1    5550 2950
+P 6100 2700
+F 0 "#PWR0163" H 6100 2450 50  0001 C CNN
+F 1 "GND" H 6100 2550 50  0000 C CNN
+F 2 "" H 6100 2700 50  0001 C CNN
+F 3 "" H 6100 2700 50  0001 C CNN
+	1    6100 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_SD #PWR0165
+L 3V3_SD #PWR0164
 U 1 1 5AE8C9A8
-P 6550 2350
-F 0 "#PWR0165" H 6550 2200 50  0001 C CNN
-F 1 "3V3_SD" H 6550 2490 50  0000 C CNN
-F 2 "" H 6550 2350 50  0001 C CNN
-F 3 "" H 6550 2350 50  0001 C CNN
-	1    6550 2350
+P 6100 2200
+F 0 "#PWR0164" H 6100 2050 50  0001 C CNN
+F 1 "3V3_SD" H 6100 2340 50  0000 C CNN
+F 2 "" H 6100 2200 50  0001 C CNN
+F 3 "" H 6100 2200 50  0001 C CNN
+	1    6100 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1004
 U 1 1 5AE8CA13
-P 6850 2600
-F 0 "C1004" H 6875 2700 50  0000 L CNN
-F 1 "100nF" H 6875 2500 50  0000 L CNN
-F 2 "" H 6888 2450 50  0001 C CNN
-F 3 "" H 6850 2600 50  0001 C CNN
-	1    6850 2600
+P 6400 2450
+F 0 "C1004" H 6425 2550 50  0000 L CNN
+F 1 "100nF" H 6425 2350 50  0000 L CNN
+F 2 "" H 6438 2300 50  0001 C CNN
+F 3 "" H 6400 2450 50  0001 C CNN
+	1    6400 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 5900 4000
+Connection ~ 6100 2650
 Wire Wire Line
-	5900 3350 5900 4000
+	6100 2600 6100 2700
 Wire Wire Line
-	5200 3000 5900 3000
+	5800 2650 6400 2650
 Wire Wire Line
-	5200 3050 5200 3000
+	6400 2650 6400 2600
 Wire Wire Line
-	5550 2950 5550 3050
-Connection ~ 6550 2800
+	6400 2250 6400 2300
 Wire Wire Line
-	6550 2750 6550 2850
+	5600 3550 5650 3550
+Connection ~ 6100 2250
 Wire Wire Line
-	6250 2800 6850 2800
+	5800 2600 5800 2650
+Connection ~ 5800 2250
 Wire Wire Line
-	6850 2800 6850 2750
+	5800 2300 5800 2250
 Wire Wire Line
-	6850 2400 6850 2450
+	6100 2200 6100 2300
 Wire Wire Line
-	6050 3700 6100 3700
-Connection ~ 6550 2400
+	5600 2250 6400 2250
 Wire Wire Line
-	6250 2750 6250 2800
-Connection ~ 6250 2400
+	5600 3550 5600 2250
 Wire Wire Line
-	6250 2450 6250 2400
+	5600 3750 5650 3750
 Wire Wire Line
-	6550 2350 6550 2450
+	5600 4200 5600 3750
 Wire Wire Line
-	6050 2400 6850 2400
+	7400 4150 7350 4150
 Wire Wire Line
-	6050 3700 6050 2400
-Connection ~ 5550 3000
+	7400 4200 7400 4150
 Wire Wire Line
-	5900 3000 5900 3050
+	4250 3950 5650 3950
 Wire Wire Line
-	6050 3900 6100 3900
+	4250 3850 5650 3850
 Wire Wire Line
-	6050 4350 6050 3900
-Wire Wire Line
-	4050 3800 6100 3800
-Wire Wire Line
-	7850 4300 7800 4300
-Wire Wire Line
-	7850 4350 7850 4300
-Wire Wire Line
-	4050 4100 6100 4100
-Wire Wire Line
-	4050 4000 6100 4000
-Wire Wire Line
-	4050 3600 6100 3600
-Wire Wire Line
-	4050 3500 6100 3500
-Wire Wire Line
-	4050 3400 6100 3400
-Wire Wire Line
-	5550 3350 5550 3600
-Connection ~ 5550 3600
-Wire Wire Line
-	5200 3350 5200 4300
-Connection ~ 5200 4300
+	4250 3250 5650 3250
 $Comp
 L Micro_SD_Card_Det_ALPS_SCHA J1001
 U 1 1 5AFA0CE0
-P 7000 3800
-F 0 "J1001" H 6350 4500 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_ALPS_SCHA" H 7650 4500 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:ALPS_SCHA4B0419" H 9050 4500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/15/alps_SCHA4B0419-1155906.pdf" H 7000 3900 50  0001 C CNN
-F 4 "ALPS" H 7000 3800 60  0001 C CNN "MFG Name"
-F 5 "SCHA4B0419" H 7000 3800 60  0001 C CNN "MFG Part Num"
-F 6 "688-SCHA4B0419" H 7000 3800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/ALPS/SCHA4B0419?qs=sGAEpiMZZMuJakaoiLiBpsFSICW6cUCj0ci6XSEAGXcTwv1T7afZMw%3d%3d" H 7000 3800 60  0001 C CNN "Distrib Link"
-F 8 "-" H 7000 3800 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/Connectors/Memory-Connectors/Memory-Card-Connectors/_/N-axj8k?P=1yzxfxm&Ns=Pricing|0" H 7000 3800 60  0001 C CNN "Others"
-	1    7000 3800
+P 6550 3650
+F 0 "J1001" H 5900 4350 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_ALPS_SCHA" H 7200 4350 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:ALPS_SCHA4B0419" H 8600 4350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/alps_SCHA4B0419-1155906.pdf" H 6550 3750 50  0001 C CNN
+F 4 "ALPS" H 6550 3650 60  0001 C CNN "MFG Name"
+F 5 "SCHA4B0419" H 6550 3650 60  0001 C CNN "MFG Part Num"
+F 6 "688-SCHA4B0419" H 6550 3650 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/ALPS/SCHA4B0419?qs=sGAEpiMZZMuJakaoiLiBpsFSICW6cUCj0ci6XSEAGXcTwv1T7afZMw%3d%3d" H 6550 3650 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6550 3650 60  0001 C CNN "Tolerance"
+F 9 "https://www.mouser.com/Connectors/Memory-Connectors/Memory-Card-Connectors/_/N-axj8k?P=1yzxfxm&Ns=Pricing|0" H 6550 3650 60  0001 C CNN "Others"
+	1    6550 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 4300 6100 4300
-$Comp
-L R R1001
-U 1 1 5B32045F
-P 5200 3200
-F 0 "R1001" H 5375 3250 50  0000 C CNN
-F 1 "10k" H 5325 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5130 3200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5200 3200 50  0001 C CNN
-F 4 "Stackpole" H 5200 3200 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 5200 3200 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 5200 3200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5200 3200 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 5200 3200 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5200 3200 60  0001 C CNN "Others"
-	1    5200 3200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R R1002
-U 1 1 5B3204AF
-P 5550 3200
-F 0 "R1002" H 5725 3250 50  0000 C CNN
-F 1 "10k" H 5675 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5480 3200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5550 3200 50  0001 C CNN
-F 4 "Stackpole" H 5550 3200 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 5550 3200 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 5550 3200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5550 3200 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 5550 3200 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5550 3200 60  0001 C CNN "Others"
-	1    5550 3200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R R1003
-U 1 1 5B32051A
-P 5900 3200
-F 0 "R1003" H 6075 3250 50  0000 C CNN
-F 1 "10k" H 6025 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5830 3200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5900 3200 50  0001 C CNN
-F 4 "Stackpole" H 5900 3200 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 5900 3200 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 5900 3200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5900 3200 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 5900 3200 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5900 3200 60  0001 C CNN "Others"
-	1    5900 3200
-	-1   0    0    -1  
-$EndComp
-Text Notes 4750 2750 0    60   ~ 0
-Pull-ups may be unneeded
 $Bitmap
-Pos 6950 4750
+Pos 6500 4600
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 B1 00 00 00 7E 08 02 00 00 00 25 7B B8 
@@ -843,6 +739,134 @@ FE D6 89 12 42 EE B8 6C 3F 2D AD 36 E9 06 C8 47 D9 75 6D D2 45 90 8F AC EB DA 84
 E4 00 FA AC 3B 3F 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 6600 5050 0    60   ~ 0
+Text Notes 6150 4900 0    60   ~ 0
 Normally Open?
+Wire Wire Line
+	4250 4150 5650 4150
+Connection ~ 4750 4150
+Connection ~ 5450 3850
+Connection ~ 5100 3450
+$Comp
+L R R1003
+U 1 1 5B32051A
+P 5450 3050
+F 0 "R1003" H 5625 3100 50  0000 C CNN
+F 1 "NC" H 5575 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5380 3050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 3050 50  0001 C CNN
+F 4 "Stackpole" H 5450 3050 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 5450 3050 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 5450 3050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5450 3050 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 5450 3050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5450 3050 60  0001 C CNN "Others"
+	1    5450 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1002
+U 1 1 5B3204AF
+P 5100 3050
+F 0 "R1002" H 5275 3100 50  0000 C CNN
+F 1 "NC" H 5225 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5030 3050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5100 3050 50  0001 C CNN
+F 4 "Stackpole" H 5100 3050 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 5100 3050 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 5100 3050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5100 3050 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 5100 3050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5100 3050 60  0001 C CNN "Others"
+	1    5100 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1001
+U 1 1 5B32045F
+P 4750 3050
+F 0 "R1001" H 4925 3100 50  0000 C CNN
+F 1 "NC" H 4875 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4680 3050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4750 3050 50  0001 C CNN
+F 4 "Stackpole" H 4750 3050 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 4750 3050 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 4750 3050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4750 3050 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 4750 3050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4750 3050 60  0001 C CNN "Others"
+	1    4750 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3200 4750 4150
+Wire Wire Line
+	5100 3200 5100 3450
+Wire Wire Line
+	5450 2850 5450 2900
+Connection ~ 5100 2850
+Wire Wire Line
+	5100 2800 5100 2900
+Wire Wire Line
+	4750 2900 4750 2850
+Wire Wire Line
+	4750 2850 5450 2850
+Wire Wire Line
+	5450 3200 5450 3850
+$Comp
+L 3V3_SD #PWR0165
+U 1 1 5B09DC2A
+P 5100 2800
+F 0 "#PWR0165" H 5100 2650 50  0001 C CNN
+F 1 "3V3_SD" H 5100 2940 50  0000 C CNN
+F 2 "" H 5100 2800 50  0001 C CNN
+F 3 "" H 5100 2800 50  0001 C CNN
+	1    5100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1004
+U 1 1 5B0D207F
+P 4450 3650
+F 0 "R1004" V 4530 3650 50  0000 C CNN
+F 1 "0" V 4450 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4380 3650 50  0001 C CNN
+F 3 "" H 4450 3650 50  0001 C CNN
+	1    4450 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 3450 5650 3450
+Wire Wire Line
+	4250 3650 4300 3650
+$Comp
+L C C1001
+U 1 1 5B0D22C2
+P 4650 4350
+F 0 "C1001" H 4675 4450 50  0000 L CNN
+F 1 "NC" H 4675 4250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4688 4200 50  0001 C CNN
+F 3 "" H 4650 4350 50  0001 C CNN
+	1    4650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0166
+U 1 1 5B0D2F89
+P 4650 4550
+F 0 "#PWR0166" H 4650 4300 50  0001 C CNN
+F 1 "GND" H 4650 4400 50  0000 C CNN
+F 2 "" H 4650 4550 50  0001 C CNN
+F 3 "" H 4650 4550 50  0001 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3650 5650 3650
+Wire Wire Line
+	4650 4200 4650 3650
+Connection ~ 4650 3650
+Wire Wire Line
+	4650 4550 4650 4500
+Wire Wire Line
+	4250 3350 5650 3350
 $EndSCHEMATC
