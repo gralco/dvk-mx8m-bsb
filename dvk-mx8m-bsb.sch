@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title "DVK-MX8M-BSB"
-Date "2018-05-18"
+Date "2018-05-23"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -1174,7 +1174,7 @@ I2C1_SCL
 Text Label 7800 2750 2    60   ~ 0
 MIC_SEL
 Text Notes 3900 15800 0    60   ~ 0
-TODO:\nGNSS\nMIPI CSI/DSI\nSmartcard
+TODO:\nGNSS\nMIPI CSI/DSI
 $Sheet
 S 5150 11650 1400 1850
 U 5AFCA865
@@ -1329,11 +1329,19 @@ ECSPI1_MISO
 Text Label 7800 14600 2    60   ~ 0
 ECSPI1_SCLK
 $Sheet
-S 5150 15200 1400 200 
+S 5150 15200 1400 300 
+U 5B1815F4
+F0 "Smart Card" 60
+F1 "smartcard.sch" 60
+F2 "SMARTCARD_DP" B R 6550 15300 60 
+F3 "SMARTCARD_DM" B R 6550 15400 60 
+$EndSheet
+$Sheet
+S 5150 15700 1400 200 
 U 5AFCB56A
 F0 "Haptic Motor" 60
 F1 "haptic.sch" 60
-F2 "HAPTIC" I R 6550 15300 60 
+F2 "HAPTIC" I R 6550 15800 60 
 $EndSheet
 Text Label 7800 6250 2    60   ~ 0
 SAI5_TX_BCLK
@@ -1421,7 +1429,7 @@ F 3 "" H 16700 12350 50  0001 C CNN
 $EndComp
 Text Label 16850 9350 0    60   ~ 0
 HAPTIC
-Text Label 7800 15300 2    60   ~ 0
+Text Label 7800 15800 2    60   ~ 0
 HAPTIC
 Text Notes 3250 3550 0    60   ~ 12
 Alternate Functions:
@@ -1550,7 +1558,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1250 7700 1250
 Wire Wire Line
-	6550 15300 7800 15300
+	6550 15800 7800 15800
 Wire Wire Line
 	18500 10350 19650 10350
 Wire Wire Line
@@ -2868,7 +2876,7 @@ Wire Wire Line
 	1950 5500 3200 5500
 Wire Wire Line
 	11950 9950 13100 9950
-Text Notes 7850 15300 0    60   ~ 0
+Text Notes 7850 15800 0    60   ~ 0
 GPIO5_IO04 (was PWM2)
 Wire Wire Line
 	18500 5450 18600 5450
@@ -3058,6 +3066,12 @@ Text Label 7800 8650 2    60   ~ 0
 uSD_DATA2
 Text Label 7800 8250 2    60   ~ 0
 uSD_CLK
-NoConn ~ 7800 7850
-NoConn ~ 7800 7950
+Wire Wire Line
+	6550 15300 7800 15300
+Wire Wire Line
+	6550 15400 7800 15400
+Text Label 7800 15300 2    60   ~ 0
+SMARTCARD_DP
+Text Label 7800 15400 2    60   ~ 0
+SMARTCARD_DM
 $EndSCHEMATC

@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 22
+Sheet 15 23
 Title "WWAN M.2"
-Date "2018-05-18"
+Date "2018-05-23"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -6029,15 +6029,15 @@ $EndComp
 Text Notes 800  4800 0    60   ~ 0
                 SIM_DETECT:\n Sierra, Huawei, and Telit are Active High\nSimCom and Gemalto needs to be inverted!\n  "When SIM is present, SIM_DET is high"\nSIM_DET needs to open when card inserted!
 Text Notes 3050 3100 0    60   ~ 0
-Standard: 3GPP TS 51.010-1
+Standards:\n3GPP TS 51.010-1\nISO/IEC 7816
 Text Notes 1400 4050 0    60   ~ 0
 UIM-CLK up to 5MHz
 $Comp
 L SIM_Card_Det J1401
 U 1 1 5AD7A3DC
 P 2050 3450
-F 0 "J1401" H 1750 3850 50  0000 R CNN
-F 1 "SIM_Card_Det" H 2400 3850 50  0000 R CNN
+F 0 "J1401" H 1875 3850 50  0000 R CNN
+F 1 "SIM_Card_Det" H 2650 3850 50  0000 R CNN
 F 2 "dvk-mx8m-bsb:JAE_SF56" H 2050 3800 50  0001 C CNN
 F 3 "http://www.jae.com/z-en/pdf_download_exec.cfm?param=MB-0256-2E_SF56.pdf" H 2000 3450 50  0001 C CNN
 F 4 "JAE" H 2050 3450 60  0001 C CNN "MFG Name"
@@ -6056,12 +6056,12 @@ DET is normally closed!
 $Comp
 L GND #PWR0203
 U 1 1 5AD7CB0F
-P 650 3250
-F 0 "#PWR0203" H 650 3000 50  0001 C CNN
-F 1 "GND" H 650 3100 50  0000 C CNN
-F 2 "" H 650 3250 50  0001 C CNN
-F 3 "" H 650 3250 50  0001 C CNN
-	1    650  3250
+P 1300 3250
+F 0 "#PWR0203" H 1300 3000 50  0001 C CNN
+F 1 "GND" H 1300 3100 50  0000 C CNN
+F 2 "" H 1300 3250 50  0001 C CNN
+F 3 "" H 1300 3250 50  0001 C CNN
+	1    1300 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6551,9 +6551,9 @@ Wire Wire Line
 Wire Wire Line
 	650  3450 1350 3450
 Wire Wire Line
-	1350 3200 650  3200
+	1350 3200 1300 3200
 Wire Wire Line
-	650  3200 650  3250
+	1300 3200 1300 3250
 Wire Wire Line
 	6250 3250 4550 3250
 Wire Wire Line

@@ -37,9 +37,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 22
+Sheet 17 23
 Title "Ethernet"
-Date "2018-05-18"
+Date "2018-05-23"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"

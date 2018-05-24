@@ -37,13 +37,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 22
+Sheet 11 23
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Date "2018-05-23"
+Rev "v0.1.0"
+Comp "Purism SPC"
+Comment1 "Copyright 2018"
+Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
