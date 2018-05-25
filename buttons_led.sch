@@ -53,8 +53,9 @@ U 1 1 5ACC398C
 P 3200 1300
 F 0 "SW1401" H 3250 1400 50  0000 L CNN
 F 1 "SW_Push" H 3200 1240 50  0000 C CNN
-F 2 "" H 3200 1500 50  0001 C CNN
-F 3 "" H 3200 1500 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Tact_SW_side" H 3200 1500 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3200 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-3000P/SW1022CT-ND/1534359" H 3200 1300 60  0001 C CNN "Distrib Link"
 	1    3200 1300
 	1    0    0    -1  
 $EndComp
@@ -64,8 +65,9 @@ U 1 1 5ACC39A6
 P 3200 2500
 F 0 "SW1402" H 3250 2600 50  0000 L CNN
 F 1 "SW_Push" H 3200 2440 50  0000 C CNN
-F 2 "" H 3200 2700 50  0001 C CNN
-F 3 "" H 3200 2700 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Tact_SW_side" H 3200 2700 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3200 2700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-3000P/SW1022CT-ND/1534359" H 3200 2500 60  0001 C CNN "Distrib Link"
 	1    3200 2500
 	1    0    0    -1  
 $EndComp
@@ -75,8 +77,9 @@ U 1 1 5ACC3A06
 P 3200 3700
 F 0 "SW1403" H 3250 3800 50  0000 L CNN
 F 1 "SW_Push" H 3200 3640 50  0000 C CNN
-F 2 "" H 3200 3900 50  0001 C CNN
-F 3 "" H 3200 3900 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Tact_SW_side" H 3200 3900 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3200 3900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-3000P/SW1022CT-ND/1534359" H 3200 3700 60  0001 C CNN "Distrib Link"
 	1    3200 3700
 	1    0    0    -1  
 $EndComp
@@ -86,8 +89,9 @@ U 1 1 5ACC3A3E
 P 3200 4550
 F 0 "SW1404" H 3250 4650 50  0000 L CNN
 F 1 "SW_Push" H 3200 4490 50  0000 C CNN
-F 2 "" H 3200 4750 50  0001 C CNN
-F 3 "" H 3200 4750 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Tact_SW_side" H 3200 4750 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3200 4750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-3000P/SW1022CT-ND/1534359" H 3200 4550 60  0001 C CNN "Distrib Link"
 	1    3200 4550
 	1    0    0    -1  
 $EndComp
@@ -97,8 +101,9 @@ U 1 1 5ACC3AC2
 P 3200 5400
 F 0 "SW1405" H 3250 5500 50  0000 L CNN
 F 1 "SW_Push" H 3200 5340 50  0000 C CNN
-F 2 "" H 3200 5600 50  0001 C CNN
-F 3 "" H 3200 5600 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Tact_SW_side" H 3200 5600 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3200 5600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-3000P/SW1022CT-ND/1534359" H 3200 5400 60  0001 C CNN "Distrib Link"
 	1    3200 5400
 	1    0    0    -1  
 $EndComp
@@ -239,8 +244,9 @@ U 1 1 5AFE7AB5
 P 3200 6600
 F 0 "SW1406" H 3250 6700 50  0000 L CNN
 F 1 "SW_Push" H 3200 6540 50  0000 C CNN
-F 2 "" H 3200 6800 50  0001 C CNN
-F 3 "" H 3200 6800 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Tact_SW_side" H 3200 6800 50  0001 C CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 3200 6800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-3000P/SW1022CT-ND/1534359" H 3200 6600 60  0001 C CNN "Distrib Link"
 	1    3200 6600
 	1    0    0    -1  
 $EndComp
@@ -649,7 +655,7 @@ U 1 1 5BAA5022
 P 8750 3350
 F 0 "D1407" V 8750 3150 50  0000 C CNN
 F 1 "GREEN_LED" V 8650 3050 50  0000 C CNN
-F 2 "" H 8750 3350 50  0001 C CNN
+F 2 "LEDs:LED_0805" H 8750 3350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C171GKT.pdf" H 8750 3350 50  0001 C CNN
 F 4 "Lite-On" V 8750 3350 60  0001 C CNN "MFG Name"
 F 5 "LTST-C171GKT" V 8750 3350 60  0001 C CNN "MFG Part Num"
