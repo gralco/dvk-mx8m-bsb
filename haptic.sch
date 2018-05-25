@@ -65,10 +65,10 @@ F 9 "http://www.nfpmotor.com/products-coin-vibration-motors.html" H 6050 3900 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0347
+L GND #PWR0358
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0347" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0358" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -95,10 +95,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0348
+L 3V3_P #PWR0359
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0348" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0359" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -198,7 +198,7 @@ Connection ~ 5350 3400
 Wire Wire Line
 	5700 3400 5750 3400
 Text Notes 5100 2650 0    60   ~ 0
-PWM pins occupied:\nGPIO1_IO01 - DSI (DSI_BL_PWM??)\nGPIO1_IO13 - LED\nGPIO1_IO14 - Ethernet (CLKO_25MHz)\nGPIO1_IO15 - CSI (CLKO2)
+PWM pins occupied:\nGPIO1_IO01 - LCD Backlight\nGPIO1_IO13 - LED\nGPIO1_IO14 - Ethernet (CLKO_25MHz)\nGPIO1_IO15 - CSI (CLKO2)
 Text Notes 3650 3300 0    60   ~ 0
 PWM needed?\nOnly needs to be toggled\nON 1 sec, OFF 1 sec (0.5Hz)
 Text Notes 3950 4900 0    60   ~ 0
