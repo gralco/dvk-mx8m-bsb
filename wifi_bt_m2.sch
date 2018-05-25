@@ -845,17 +845,6 @@ Text Notes 5975 3650 0    60   ~ 0
 RS9116 SUSCLK\nis a GPIO (unused)
 NoConn ~ 5850 2050
 $Comp
-L Q_NMOS_SGD Q1801
-U 1 1 5AEB8C36
-P 7250 5400
-F 0 "Q1801" V 7500 5300 50  0000 L CNN
-F 1 "FDV301N" V 7600 5250 50  0000 L CNN
-F 2 "" H 7450 5500 50  0001 C CNN
-F 3 "" H 7250 5400 50  0001 C CNN
-	1    7250 5400
-	0    1    1    0   
-$EndComp
-$Comp
 L 1V8_P #PWR0302
 U 1 1 5AEB9155
 P 7000 5050
@@ -868,17 +857,6 @@ F 3 "" H 7000 5050 50  0001 C CNN
 $EndComp
 Text HLabel 7500 5500 2    60   BiDi ~ 0
 I2C2_SDA
-$Comp
-L Q_NMOS_SGD Q1802
-U 1 1 5AEBC06B
-P 9650 5400
-F 0 "Q1802" V 9900 5300 50  0000 L CNN
-F 1 "FDV301N" V 10000 5250 50  0000 L CNN
-F 2 "" H 9850 5500 50  0001 C CNN
-F 3 "" H 9650 5400 50  0001 C CNN
-	1    9650 5400
-	0    1    1    0   
-$EndComp
 Text HLabel 9900 5500 2    60   BiDi ~ 0
 I2C2_SCL
 Text Label 6500 4150 2    60   ~ 0
@@ -1775,4 +1753,38 @@ Text Notes 4800 2500 0    60   ~ 0
 VIH=2.31V
 Text Notes 3800 3250 0    60   ~ 0
 RedPine RS9116\nhas 100k pull-up to\n3.3V making SDIO_~RST~\n~~2.55V when HIGH
+$Comp
+L Q_NMOS_GSD Q1801
+U 1 1 5B59B182
+P 7250 5400
+F 0 "Q1801" V 7475 5275 50  0000 L CNN
+F 1 "2SK3018" V 7550 5225 50  0000 L CNN
+F 2 "" H 7450 5500 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 7250 5400 50  0001 C CNN
+F 4 "Micro Commercial Co" V 7250 5400 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 7250 5400 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 7250 5400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 7250 5400 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7250 5400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 7250 5400 60  0001 C CNN "Others"
+	1    7250 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_GSD Q1802
+U 1 1 5B59B1CB
+P 9650 5400
+F 0 "Q1802" V 9875 5275 50  0000 L CNN
+F 1 "2SK3018" V 9950 5225 50  0000 L CNN
+F 2 "" H 9850 5500 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 9650 5400 50  0001 C CNN
+F 4 "Micro Commercial Co" V 9650 5400 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 9650 5400 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 9650 5400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 9650 5400 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9650 5400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 9650 5400 60  0001 C CNN "Others"
+	1    9650 5400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

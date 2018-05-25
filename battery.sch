@@ -486,17 +486,6 @@ F 3 "" H 3750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q301
-U 1 1 5AED20BF
-P 3650 4900
-F 0 "Q301" H 3850 4950 50  0000 L CNN
-F 1 "FDV301N" H 3850 4850 50  0000 L CNN
-F 2 "" H 3850 5000 50  0001 C CNN
-F 3 "" H 3650 4900 50  0001 C CNN
-	1    3650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR068
 U 1 1 5AED22FA
 P 3750 5150
@@ -2507,4 +2496,21 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 $EndComp
 Text Notes 7525 4700 0    60   ~ 0
 TODO:\nKeystone 1042 footprint???
+$Comp
+L Q_NMOS_GSD Q301
+U 1 1 5B59770D
+P 3650 4900
+F 0 "Q301" H 3850 4950 50  0000 L CNN
+F 1 "2SK3018" H 3850 4850 50  0000 L CNN
+F 2 "" H 3850 5000 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 3650 4900 50  0001 C CNN
+F 4 "Micro Commercial Co" V 3650 4900 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 3650 4900 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 3650 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 3650 4900 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3650 4900 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 3650 4900 60  0001 C CNN "Others"
+	1    3650 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

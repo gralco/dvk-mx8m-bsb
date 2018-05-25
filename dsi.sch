@@ -75,17 +75,6 @@ Text HLabel 3950 3600 0    60   Output ~ 0
 CAPTOUCH_~INT
 Text HLabel 2050 3700 0    60   Input ~ 0
 CAPTOUCH_~RST
-$Comp
-L Q_NMOS_SGD Q1201
-U 1 1 5ADC894E
-P 2700 3600
-F 0 "Q1201" V 2600 3700 50  0000 L CNN
-F 1 "2SK3018" V 2700 3750 50  0000 L CNN
-F 2 "" H 2900 3700 50  0001 C CNN
-F 3 "" H 2700 3600 50  0001 C CNN
-	1    2700 3600
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4800 3600 6000 3600
 Wire Wire Line
@@ -161,17 +150,6 @@ F 3 "" H 2700 3250 50  0001 C CNN
 $EndComp
 Text Notes 7350 1650 0    60   ~ 0
 TODO: low power state signal??
-$Comp
-L Q_NMOS_SGD Q1202
-U 1 1 5ADC89B8
-P 4600 3500
-F 0 "Q1202" V 4500 3600 50  0000 L CNN
-F 1 "2SK3018" V 4600 3650 50  0000 L CNN
-F 2 "" H 4800 3600 50  0001 C CNN
-F 3 "" H 4600 3500 50  0001 C CNN
-	1    4600 3500
-	0    -1   1    0   
-$EndComp
 $Comp
 L R R1201
 U 1 1 5B323584
@@ -2096,4 +2074,38 @@ Text Notes 4300 5550 0    60   ~ 0
 TODO:\nVerify if INT and RESET are active-LOW
 Text Notes 8000 4700 0    60   ~ 0
 100Ω Differential Impedance
+$Comp
+L Q_NMOS_GSD Q1202
+U 1 1 5B591F31
+P 4600 3500
+F 0 "Q1202" V 4550 3650 50  0000 L CNN
+F 1 "2SK3018" V 4650 3650 50  0000 L CNN
+F 2 "" H 4800 3600 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 4600 3500 50  0001 C CNN
+F 4 "Micro Commercial Co" V 4600 3500 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 4600 3500 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 4600 3500 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 4600 3500 60  0001 C CNN "Distrib Link"
+F 8 "-" V 4600 3500 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 4600 3500 60  0001 C CNN "Others"
+	1    4600 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Q_NMOS_GSD Q1201
+U 1 1 5B5926A5
+P 2700 3600
+F 0 "Q1201" V 2650 3750 50  0000 L CNN
+F 1 "2SK3018" V 2750 3750 50  0000 L CNN
+F 2 "" H 2900 3700 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 2700 3600 50  0001 C CNN
+F 4 "Micro Commercial Co" V 2700 3600 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 2700 3600 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 2700 3600 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 2700 3600 60  0001 C CNN "Distrib Link"
+F 8 "-" V 2700 3600 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 2700 3600 60  0001 C CNN "Others"
+	1    2700 3600
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

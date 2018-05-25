@@ -170,17 +170,6 @@ I2C1_SDA
 Text HLabel 8200 4250 2    60   Input ~ 0
 I2C1_SCL
 $Comp
-L Q_NMOS_SGD Q1101
-U 1 1 5B1803E8
-P 7950 3200
-F 0 "Q1101" V 8200 3100 50  0000 L CNN
-F 1 "FDV301N" V 8300 3050 50  0000 L CNN
-F 2 "" H 8150 3300 50  0001 C CNN
-F 3 "" H 7950 3200 50  0001 C CNN
-	1    7950 3200
-	0    1    1    0   
-$EndComp
-$Comp
 L 1V8_P #PWR0177
 U 1 1 5B1803EF
 P 7700 2850
@@ -190,17 +179,6 @@ F 2 "" H 7700 2850 50  0001 C CNN
 F 3 "" H 7700 2850 50  0001 C CNN
 	1    7700 2850
 	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NMOS_SGD Q1102
-U 1 1 5B1803F6
-P 7950 4150
-F 0 "Q1102" V 8200 4050 50  0000 L CNN
-F 1 "FDV301N" V 8300 4000 50  0000 L CNN
-F 2 "" H 8150 4250 50  0001 C CNN
-F 3 "" H 7950 4150 50  0001 C CNN
-	1    7950 4150
-	0    1    1    0   
 $EndComp
 $Comp
 L 1V8_P #PWR0178
@@ -313,4 +291,38 @@ Wire Wire Line
 	4400 3700 4450 3700
 Wire Wire Line
 	4400 3850 4450 3850
+$Comp
+L Q_NMOS_GSD Q1102
+U 1 1 5B58BACE
+P 7950 4150
+F 0 "Q1102" V 8175 4025 50  0000 L CNN
+F 1 "2SK3018" V 8250 3975 50  0000 L CNN
+F 2 "" H 8150 4250 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 7950 4150 50  0001 C CNN
+F 4 "Micro Commercial Co" V 7950 4150 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 7950 4150 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 7950 4150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 7950 4150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7950 4150 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 7950 4150 60  0001 C CNN "Others"
+	1    7950 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_GSD Q1101
+U 1 1 5B58FE44
+P 7950 3200
+F 0 "Q1101" V 8175 3075 50  0000 L CNN
+F 1 "2SK3018" V 8250 3025 50  0000 L CNN
+F 2 "" H 8150 3300 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 7950 3200 50  0001 C CNN
+F 4 "Micro Commercial Co" V 7950 3200 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 7950 3200 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 7950 3200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 7950 3200 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7950 3200 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 7950 3200 60  0001 C CNN "Others"
+	1    7950 3200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

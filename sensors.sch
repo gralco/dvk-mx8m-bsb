@@ -393,17 +393,6 @@ Text Notes 6850 4450 0    60   ~ 0
 Text Notes 6850 4600 0    60   ~ 0
 I2C's VIH=1.8V
 $Comp
-L Q_NMOS_SGD Q2001
-U 1 1 5B11E6E9
-P 4500 5450
-F 0 "Q2001" V 4750 5350 50  0000 L CNN
-F 1 "FDV301N" V 4850 5300 50  0000 L CNN
-F 2 "" H 4700 5550 50  0001 C CNN
-F 3 "" H 4500 5450 50  0001 C CNN
-	1    4500 5450
-	0    -1   1    0   
-$EndComp
-$Comp
 L 1V8_P #PWR0340
 U 1 1 5B11E6F7
 P 4750 5100
@@ -426,17 +415,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 5150 4750 5150
 Connection ~ 4750 5150
-$Comp
-L Q_NMOS_SGD Q2002
-U 1 1 5B11E705
-P 6800 5450
-F 0 "Q2002" V 7050 5350 50  0000 L CNN
-F 1 "FDV301N" V 7150 5300 50  0000 L CNN
-F 2 "" H 7000 5550 50  0001 C CNN
-F 3 "" H 6800 5450 50  0001 C CNN
-	1    6800 5450
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7000 5550 7750 5550
 Wire Wire Line
@@ -1725,5 +1703,39 @@ F 8 "20%" V 3600 2350 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 3600 2350 60  0001 C CNN "Others"
 	1    3600 2350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q2001
+U 1 1 5B5A1F96
+P 4500 5450
+F 0 "Q2001" V 4725 5325 50  0000 L CNN
+F 1 "2SK3018" V 4800 5275 50  0000 L CNN
+F 2 "" H 4700 5550 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 4500 5450 50  0001 C CNN
+F 4 "Micro Commercial Co" V 4500 5450 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 4500 5450 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 4500 5450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 4500 5450 60  0001 C CNN "Distrib Link"
+F 8 "-" V 4500 5450 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 4500 5450 60  0001 C CNN "Others"
+	1    4500 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Q_NMOS_GSD Q2002
+U 1 1 5B5A20E4
+P 6800 5450
+F 0 "Q2002" V 7025 5325 50  0000 L CNN
+F 1 "2SK3018" V 7100 5275 50  0000 L CNN
+F 2 "" H 7000 5550 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 6800 5450 50  0001 C CNN
+F 4 "Micro Commercial Co" V 6800 5450 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 6800 5450 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 6800 5450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 6800 5450 60  0001 C CNN "Distrib Link"
+F 8 "-" V 6800 5450 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 6800 5450 60  0001 C CNN "Others"
+	1    6800 5450
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
