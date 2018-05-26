@@ -259,4 +259,8 @@ D power-flag symbol VCI_TP_VCC
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP VCNL4040
+D Fully Integrated Proximity and Ambient Light Sensor with Infrared Emitter, I2C Interface, and Interrupt Function
+$ENDCMP
+#
 #End Doc Library

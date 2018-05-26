@@ -2903,33 +2903,10 @@ L R R102
 U 1 1 5B33103F
 P 16400 9650
 F 0 "R102" H 16550 9700 50  0000 C CNN
-F 1 "10k" H 16525 9600 50  0000 C CNN
+F 1 "2.2k" H 16525 9600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 16330 9650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 16400 9650 50  0001 C CNN
-F 4 "Stackpole" H 16400 9650 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 16400 9650 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 16400 9650 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 16400 9650 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 16400 9650 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 16400 9650 60  0001 C CNN "Others"
+F 3 "" H 16400 9650 50  0001 C CNN
 	1    16400 9650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R R101
-U 1 1 5B3312F6
-P 16050 9650
-F 0 "R101" H 16200 9700 50  0000 C CNN
-F 1 "10k" H 16175 9600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 15980 9650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 16050 9650 50  0001 C CNN
-F 4 "Stackpole" H 16050 9650 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 16050 9650 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 16050 9650 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 16050 9650 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 16050 9650 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 16050 9650 60  0001 C CNN "Others"
-	1    16050 9650
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -3124,4 +3101,15 @@ Text Notes 3250 9800 0    60   ~ 0
 GPIO3_IO25
 Text Label 19650 5450 2    60   ~ 0
 CAPTOUCH_~INT
+$Comp
+L R R101
+U 1 1 5B12EC2C
+P 16050 9650
+F 0 "R101" H 16200 9700 50  0000 C CNN
+F 1 "2.2k" H 16175 9600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 15980 9650 50  0001 C CNN
+F 3 "" H 16050 9650 50  0001 C CNN
+	1    16050 9650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
