@@ -30,7 +30,7 @@ D power-flag symbol 3V3_SD
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP 74AUP2G00
+$CMP 74AUP2G08
 D Dual And2
 K TTL and2
 $ENDCMP
