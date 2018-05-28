@@ -51,7 +51,7 @@ Text Notes 1050 1000 0    60   ~ 0
 Using Internal DVDD 1.5V Regulator:
 $Bitmap
 Pos 2000 1200
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 39 00 00 00 65 08 02 00 00 00 E1 D4 BA 
 5F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED DD 67 40 13 49 
@@ -591,7 +591,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 2050 2350
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 A9 00 00 02 51 08 02 00 00 00 28 0B 66 
 24 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 75 5C 14 4B 
@@ -2857,7 +2857,7 @@ Text Notes 550  5150 0    60   ~ 0
 2.7 POWER UP SEQUENCE\nBased on the system power configuration (1.8V or 2.8V for I/O power, using external DVDD or internal DVDD, requiring\naccess to the I2C during power up period or not), the power up sequence will differ. If 1.8V is used for I/O power, using\nthe internal DVDD is preferred. If 2.8V is used for I/O power, due to a high voltage drop at the internal DVDD regulator,\nthere is a potential heat issue. Hence, for a 2.8V power system, OmniVision recommends using an external DVDD\nsource. Due to the higher power down current when using an external DVDD source, OmniVision strongly recommends\ncutting off all powers, including the external DVDD, when the sensor is not in use in the case of 2.8V I/O and external\nDVDD.\n2.7.1 POWER UP WITH INTERNAL DVDD\nFor powering up with the internal DVDD and I2C access during the power ON period, the following conditions must occur:\n1. when DOVDD and AVDD are turned ON, make sure DOVDD becomes stable before AVDD becomes stable\n2. PWDN is active high with an asynchronized design (does not need clock)\n3. PWDN pin tied to digital ground if it is not controlled.\n4. if PWDN pin is controlled as below, for PWDN to go low, power must first become stable\n(AVDD to PWDN ≥ 5 ms)\n5. RESETB is active low with an asynchronized design\n6. master clock XVCLK should provide at least 1 ms before host accesses the sensor’s registers\n7. host can access I2C bus (if shared) during entire period. 20ms after RESETB goes high, host can access the\nsensor's registers to initialize sensor
 $Bitmap
 Pos 2050 6450
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 7D 00 00 03 05 08 02 00 00 00 4F 99 08 
 42 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 67 58 14 57 
@@ -6775,23 +6775,6 @@ Wire Wire Line
 	5300 6700 5300 7000
 Connection ~ 5300 6950
 Connection ~ 5900 6300
-$Comp
-L SW_DPDT_x2 SW1301
-U 1 1 5B356A34
-P 7000 3400
-F 0 "SW1301" V 7050 3050 50  0000 C CNN
-F 1 "DPDT" V 6950 3125 50  0000 C CNN
-F 2 "" H 7000 3400 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7000 3400 50  0001 C CNN
-F 4 "C&K" V 7000 3400 60  0001 C CNN "MFG Name"
-F 5 "JS202011JCQN" V 7000 3400 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10723CT-ND" V 7000 3400 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 7000 3400 60  0001 C CNN "Distrib Link"
-F 8 "-" V 7000 3400 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7000 3400 60  0001 C CNN "Others"
-	1    7000 3400
-	0    1    -1   0   
-$EndComp
 Text Notes 6250 3275 0    60   ~ 0
 2->1 = ON\n2->3 = OFF
 NoConn ~ 6900 3200
@@ -6853,5 +6836,22 @@ F 8 "5%" H 9700 3800 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 9700 3800 60  0001 C CNN "Others"
 	1    9700 3800
 	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_DPDT_x2 SW1301
+U 1 1 5B126541
+P 7000 3400
+F 0 "SW1301" V 7050 3050 50  0000 C CNN
+F 1 "DPDT" V 6950 3050 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 7000 3400 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7000 3400 50  0001 C CNN
+F 4 "C&K" V 7000 3400 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 7000 3400 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 7000 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 7000 3400 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7000 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7000 3400 60  0001 C CNN "Others"
+	1    7000 3400
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC

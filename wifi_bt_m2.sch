@@ -135,7 +135,7 @@ Text Notes 7800 700  0    60   ~ 0
 6.2 M.2 Signal Directions
 $Bitmap
 Pos 8550 1300
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 9A 00 00 00 E2 08 02 00 00 00 F8 62 96 
 2C 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -755,17 +755,6 @@ UARTn_UFCR[DCEDTE]=0 on POR
 Text HLabel 6050 2200 2    60   Output ~ 0
 BT_HOST_WAKE
 $Comp
-L SW_SPST SW1801
-U 1 1 5B070D28
-P 9500 4250
-F 0 "SW1801" V 9550 4500 50  0000 C CNN
-F 1 "WWAN_HKS" V 9450 4550 50  0000 C CNN
-F 2 "" H 9500 4250 50  0001 C CNN
-F 3 "" H 9500 4250 50  0001 C CNN
-	1    9500 4250
-	0    1    -1   0   
-$EndComp
-$Comp
 L 3V3_P #PWR0311
 U 1 1 5B0C3C8A
 P 9600 3600
@@ -925,12 +914,12 @@ $EndComp
 $Comp
 L GND #PWR0319
 U 1 1 5AF3C98A
-P 9500 4500
-F 0 "#PWR0319" H 9500 4250 50  0001 C CNN
-F 1 "GND" H 9500 4350 50  0000 C CNN
-F 2 "" H 9500 4500 50  0001 C CNN
-F 3 "" H 9500 4500 50  0001 C CNN
-	1    9500 4500
+P 9600 4500
+F 0 "#PWR0319" H 9600 4250 50  0001 C CNN
+F 1 "GND" H 9600 4350 50  0000 C CNN
+F 2 "" H 9600 4500 50  0001 C CNN
+F 3 "" H 9600 4500 50  0001 C CNN
+	1    9600 4500
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -946,7 +935,7 @@ F 3 "" H 9250 4000 50  0001 C CNN
 $EndComp
 Text Notes 7880 5390 0    60   ~ 0
 RS9116 is an I2C master\n⇒its SCL is an output\n(ok bc only device on I2C2)
-Text Notes 9600 4550 0    60   ~ 0
+Text Notes 9750 4550 0    60   ~ 0
 Open = ON\nClosed = OFF
 $Comp
 L 74AUP2G08 U1803
@@ -1452,7 +1441,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 4500 9000 4400
 Wire Wire Line
-	9500 4500 9500 4450
+	9600 4500 9600 4450
 Wire Wire Line
 	9400 3750 9500 3750
 Wire Wire Line
@@ -1814,4 +1803,43 @@ Wire Wire Line
 Connection ~ 7750 2750
 Wire Wire Line
 	7900 3100 7900 3150
+$Comp
+L SW_DPDT_x2 SW1601
+U 1 1 5B12219C
+P 9600 4250
+F 0 "SW1601" V 9650 4600 50  0000 C CNN
+F 1 "WLAN_HKS" V 9550 4600 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 9600 4250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 9600 4250 50  0001 C CNN
+F 4 "C&K" V 9600 4250 60  0001 C CNN "MFG Name"
+F 5 "JS202011JCQN" V 9600 4250 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10723CT-ND" V 9600 4250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 9600 4250 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9600 4250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 9600 4250 60  0001 C CNN "Others"
+	1    9600 4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L SW_DPDT_x2 SW1601
+U 2 1 5B1221A9
+P 10650 4250
+F 0 "SW1601" V 10700 3900 50  0000 C CNN
+F 1 "WLAN_HKS" V 10600 3900 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 10650 4250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 10650 4250 50  0001 C CNN
+F 4 "C&K" V 10650 4250 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 10650 4250 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 10650 4250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 10650 4250 60  0001 C CNN "Distrib Link"
+F 8 "-" V 10650 4250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 10650 4250 60  0001 C CNN "Others"
+	2    10650 4250
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 9700 4050
+NoConn ~ 10550 4050
+NoConn ~ 10750 4050
+NoConn ~ 10650 4450
+NoConn ~ 19750 8050
 $EndSCHEMATC

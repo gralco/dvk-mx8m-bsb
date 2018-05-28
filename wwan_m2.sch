@@ -62,7 +62,7 @@ NoConn ~ 6750 2300
 NoConn ~ 6750 2200
 $Bitmap
 Pos 9850 3950
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 67 00 00 01 A6 08 02 00 00 00 B6 8C B4 
 CA 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -3016,7 +3016,7 @@ Text Notes 10900 3450 0    60   ~ 0
 State
 $Bitmap
 Pos 9850 2600
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 54 00 00 01 69 08 02 00 00 00 D5 F6 21 
 90 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -5940,17 +5940,6 @@ F 3 "" H 5500 1250 50  0001 C CNN
 	1    5500 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L SW_SPST SW1501
-U 1 1 5AD5C2C0
-P 4500 4900
-F 0 "SW1501" V 4550 5150 50  0000 C CNN
-F 1 "WWAN_HKS" V 4450 5200 50  0000 C CNN
-F 2 "" H 4500 4900 50  0001 C CNN
-F 3 "" H 4500 4900 50  0001 C CNN
-	1    4500 4900
-	0    -1   -1   0   
-$EndComp
 Text Label 5150 4650 0    60   ~ 0
 ~Full_Card_Power_Off
 Text Label 7600 4500 2    60   ~ 0
@@ -6292,15 +6281,15 @@ $EndComp
 $Comp
 L GND #PWR0239
 U 1 1 5AD2A224
-P 4500 5150
-F 0 "#PWR0239" H 4500 4900 50  0001 C CNN
-F 1 "GND" H 4500 5000 50  0000 C CNN
-F 2 "" H 4500 5150 50  0001 C CNN
-F 3 "" H 4500 5150 50  0001 C CNN
-	1    4500 5150
+P 4400 5150
+F 0 "#PWR0239" H 4400 4900 50  0001 C CNN
+F 1 "GND" H 4400 5000 50  0000 C CNN
+F 2 "" H 4400 5150 50  0001 C CNN
+F 3 "" H 4400 5150 50  0001 C CNN
+	1    4400 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 3850 5175 0    60   ~ 0
+Text Notes 3550 5350 0    60   ~ 0
 Open = ON\nClosed = OFF
 $Comp
 L TXB0102DCT U1501
@@ -7083,7 +7072,7 @@ Wire Wire Line
 	4600 4350 4600 4650
 Connection ~ 4500 4650
 Wire Wire Line
-	4500 5100 4500 5150
+	4400 5100 4400 5150
 $Comp
 L VBAT #PWR0254
 U 1 1 5B03EB5C
@@ -7191,4 +7180,42 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    7800 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L SW_DPDT_x2 SW1501
+U 1 1 5B11FFE1
+P 4400 4900
+F 0 "SW1501" V 4450 5250 50  0000 C CNN
+F 1 "WWAN_HKS" V 4350 5250 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 4400 4900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 4400 4900 50  0001 C CNN
+F 4 "C&K" V 4400 4900 60  0001 C CNN "MFG Name"
+F 5 "JS202011JCQN" V 4400 4900 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10723CT-ND" V 4400 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 4400 4900 60  0001 C CNN "Distrib Link"
+F 8 "-" V 4400 4900 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 4400 4900 60  0001 C CNN "Others"
+	1    4400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_DPDT_x2 SW1501
+U 2 1 5B11FFEE
+P 5750 5200
+F 0 "SW1501" V 5800 4925 50  0000 C CNN
+F 1 "WWAN_HKS" V 5700 4925 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 5750 5200 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 5750 5200 50  0001 C CNN
+F 4 "C&K" V 5750 5200 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 5750 5200 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 5750 5200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 5750 5200 60  0001 C CNN "Distrib Link"
+F 8 "-" V 5750 5200 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 5750 5200 60  0001 C CNN "Others"
+	2    5750 5200
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4300 4700
+NoConn ~ 5650 5000
+NoConn ~ 5850 5000
+NoConn ~ 5750 5400
 $EndSCHEMATC
