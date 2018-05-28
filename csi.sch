@@ -47,64 +47,6 @@ Comment2 "GNU GPLv3"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7900 3200 2    60   Output ~ 0
-C0_P
-Text HLabel 7900 3300 2    60   Output ~ 0
-C0_N
-Text HLabel 7900 3400 2    60   Output ~ 0
-C1_P
-Text HLabel 7900 3500 2    60   Output ~ 0
-C1_N
-Text HLabel 7900 3600 2    60   Output ~ 0
-C2_P
-Text HLabel 7900 3700 2    60   Output ~ 0
-C2_N
-Text HLabel 7900 3800 2    60   Output ~ 0
-C3_P
-Text HLabel 7900 3900 2    60   Output ~ 0
-C3_N
-Text HLabel 7900 4000 2    60   Input ~ 0
-CLK_P
-Text HLabel 7900 4100 2    60   Input ~ 0
-CLK_N
-Wire Wire Line
-	7900 3200 7850 3200
-Wire Wire Line
-	7900 3300 7850 3300
-Wire Wire Line
-	7900 3400 7850 3400
-Wire Wire Line
-	7900 3500 7850 3500
-Wire Wire Line
-	7900 3600 7850 3600
-Wire Wire Line
-	7900 3700 7850 3700
-Wire Wire Line
-	7900 3800 7850 3800
-Wire Wire Line
-	7900 3900 7850 3900
-Wire Wire Line
-	7900 4000 7850 4000
-Wire Wire Line
-	7900 4100 7850 4100
-NoConn ~ 7850 3200
-NoConn ~ 7850 3300
-NoConn ~ 7850 3400
-NoConn ~ 7850 3500
-NoConn ~ 7850 3600
-NoConn ~ 7850 3700
-NoConn ~ 7850 3800
-NoConn ~ 7850 3900
-NoConn ~ 7850 4000
-NoConn ~ 7850 4100
-Text HLabel 7900 4250 2    60   BiDi ~ 0
-I2C1_SDA_1V8
-Wire Wire Line
-	7900 4250 7850 4250
-Text HLabel 7900 4350 2    60   Input ~ 0
-I2C1_SCL_1V8
-Wire Wire Line
-	7900 4350 7850 4350
 Text Notes 1050 1000 0    60   ~ 0
 Using Internal DVDD 1.5V Regulator:
 $Bitmap
@@ -6241,6 +6183,358 @@ DD 09 81 40 20 10 08 04 02 E9 0F 60 78 0D 02 81 40 20 10 08 04 D2 1F FC 1F 20 7B
 8B 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 7600 2850 0    60   ~ 0
+Active-HIGH
+Text Notes 6400 3700 0    60   ~ 0
+DPDT with\nmicrophone
+$Comp
+L R R1301
+U 1 1 5B1ED51C
+P 7000 2950
+F 0 "R1301" H 7175 3000 50  0000 C CNN
+F 1 "100k" H 7150 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6930 2950 50  0001 C CNN
+F 3 "" H 7000 2950 50  0001 C CNN
+	1    7000 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0193
+U 1 1 5B1EAF19
+P 7500 3600
+F 0 "#PWR0193" H 7500 3350 50  0001 C CNN
+F 1 "GND" H 7500 3450 50  0000 C CNN
+F 2 "" H 7500 3600 50  0001 C CNN
+F 3 "" H 7500 3600 50  0001 C CNN
+	1    7500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1301
+U 1 1 5B1EAF12
+P 7500 3350
+F 0 "C1301" H 7525 3450 50  0000 L CNN
+F 1 "10nF" H 7525 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7538 3200 50  0001 C CNN
+F 3 "" H 7500 3350 50  0001 C CNN
+	1    7500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_ALT D1301
+U 1 1 5B1EAB95
+P 7300 2900
+F 0 "D1301" H 7300 2725 50  0000 C CNN
+F 1 "DB2J209" H 7300 2800 50  0000 C CNN
+F 2 "" H 7300 2900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 7300 2900 50  0001 C CNN
+F 4 "Panasonic" V 7300 2900 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 7300 2900 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 7300 2900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 7300 2900 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7300 2900 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 7300 2900 60  0001 C CNN "Others"
+	1    7300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1302
+U 1 1 5B1E9C00
+P 7300 3150
+F 0 "R1302" V 7380 3150 50  0000 C CNN
+F 1 "100k" V 7200 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7230 3150 50  0001 C CNN
+F 3 "" H 7300 3150 50  0001 C CNN
+	1    7300 3150
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR0194
+U 1 1 5B1E8AAB
+P 7000 3650
+F 0 "#PWR0194" H 7000 3400 50  0001 C CNN
+F 1 "GND" H 7000 3500 50  0000 C CNN
+F 2 "" H 7000 3650 50  0001 C CNN
+F 3 "" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1V8_P #PWR0195
+U 1 1 5B1DBE6F
+P 7000 2750
+F 0 "#PWR0195" H 7000 2600 50  0001 C CNN
+F 1 "1V8_P" H 7000 2890 50  0000 C CNN
+F 2 "" H 7000 2750 50  0001 C CNN
+F 3 "" H 7000 2750 50  0001 C CNN
+	1    7000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0196
+U 1 1 5B1A278C
+P 8350 2650
+F 0 "#PWR0196" H 8350 2400 50  0001 C CNN
+F 1 "GND" H 8350 2500 50  0000 C CNN
+F 2 "" H 8350 2650 50  0001 C CNN
+F 3 "" H 8350 2650 50  0001 C CNN
+	1    8350 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1302
+U 1 1 5B197A0E
+P 8350 2450
+F 0 "C1302" H 8375 2550 50  0000 L CNN
+F 1 "100nF" H 8375 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8388 2300 50  0001 C CNN
+F 3 "" H 8350 2450 50  0001 C CNN
+	1    8350 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0197
+U 1 1 5B1964B5
+P 8500 3300
+F 0 "#PWR0197" H 8500 3050 50  0001 C CNN
+F 1 "GND" H 8500 3150 50  0000 C CNN
+F 2 "" H 8500 3300 50  0001 C CNN
+F 3 "" H 8500 3300 50  0001 C CNN
+	1    8500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC1G32 U1301
+U 1 1 5B196213
+P 8700 3050
+F 0 "U1301" H 8700 3100 50  0000 C CNN
+F 1 "74LVC1G32" H 8700 3000 50  0000 C CNN
+F 2 "" H 8700 3050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf" H 8700 3050 50  0001 C CNN
+F 4 "NXP" H 8700 3050 60  0001 C CNN "MFG Name"
+F 5 "74LVC1G32GW,125" H 8700 3050 60  0001 C CNN "MFG Part Num"
+F 6 "1727-3102-1-ND" H 8700 3050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/74LVC1G32GW125/1727-3102-1-ND/946759" H 8700 3050 60  0001 C CNN "Distrib Link"
+F 8 "-" H 8700 3050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?FV=ffe002c1&quantity=&ColumnSort=1000011&page=1&k=1g32&pageSize=500" H 8700 3050 60  0001 C CNN "Others"
+	1    8700 3050
+	1    0    0    -1  
+$EndComp
+Text HLabel 8050 2950 0    60   Input ~ 0
+CSI_PWDN
+Text HLabel 9300 3250 0    60   Input ~ 0
+CSI_~RST
+Text Notes 9375 2850 0    39   ~ 0
+requires external 1V8 LDO?
+Text Notes 9625 3050 0    39   ~ 0
+internal pull-down
+Text Notes 9625 3250 0    39   ~ 0
+internal pull-up
+$Comp
+L D_Schottky_ALT D1302
+U 1 1 5B15603B
+P 9500 3250
+F 0 "D1302" H 9500 3340 50  0000 C CNN
+F 1 "DB2J209" H 9500 3150 50  0000 C CNN
+F 2 "" H 9500 3250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 9500 3250 50  0001 C CNN
+F 4 "Panasonic" V 9500 3250 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 9500 3250 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 9500 3250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 9500 3250 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9500 3250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 9500 3250 60  0001 C CNN "Others"
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 9300 4000 0    60   Input ~ 0
+CLKO2
+$Comp
+L 1V8_P #PWR0198
+U 1 1 5B105CDE
+P 9700 3600
+F 0 "#PWR0198" H 9700 3450 50  0001 C CNN
+F 1 "1V8_P" H 9700 3740 50  0000 C CNN
+F 2 "" H 9700 3600 50  0001 C CNN
+F 3 "" H 9700 3600 50  0001 C CNN
+	1    9700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_ALT D1303
+U 1 1 5B104BA4
+P 9500 4000
+F 0 "D1303" H 9500 3900 50  0000 C CNN
+F 1 "DB2J209" H 9500 3825 50  0000 C CNN
+F 2 "" H 9500 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 9500 4000 50  0001 C CNN
+F 4 "Panasonic" V 9500 4000 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 9500 4000 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 9500 4000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 9500 4000 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9500 4000 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 9500 4000 60  0001 C CNN "Others"
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 9300 2975 0    60   ~ 0
+V_IH(min)=1.26V
+$Comp
+L C C1303
+U 1 1 5B0F9030
+P 9200 2250
+F 0 "C1303" H 9225 2350 50  0000 L CNN
+F 1 "100nF" H 9225 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9238 2100 50  0001 C CNN
+F 3 "" H 9200 2250 50  0001 C CNN
+	1    9200 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1304
+U 1 1 5B0F8FA9
+P 9450 2250
+F 0 "C1304" H 9450 2350 50  0000 L CNN
+F 1 "10nF" H 9475 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9488 2100 50  0001 C CNN
+F 3 "" H 9450 2250 50  0001 C CNN
+	1    9450 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1305
+U 1 1 5B0F8F0F
+P 9700 2250
+F 0 "C1305" H 9700 2350 50  0000 L CNN
+F 1 "1nF" H 9725 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9738 2100 50  0001 C CNN
+F 3 "" H 9700 2250 50  0001 C CNN
+	1    9700 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0199
+U 1 1 5B0F8E7D
+P 9200 2500
+F 0 "#PWR0199" H 9200 2250 50  0001 C CNN
+F 1 "GND" H 9200 2350 50  0000 C CNN
+F 2 "" H 9200 2500 50  0001 C CNN
+F 3 "" H 9200 2500 50  0001 C CNN
+	1    9200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1306
+U 1 1 5B0F8E57
+P 9950 2250
+F 0 "C1306" H 9950 2350 50  0000 L CNN
+F 1 "100pF" H 9950 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9988 2100 50  0001 C CNN
+F 3 "" H 9950 2250 50  0001 C CNN
+	1    9950 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 1V8_P #PWR0200
+U 1 1 5B0F8E1D
+P 10150 2000
+F 0 "#PWR0200" H 10150 1850 50  0001 C CNN
+F 1 "1V8_P" H 10150 2140 50  0000 C CNN
+F 2 "" H 10150 2000 50  0001 C CNN
+F 3 "" H 10150 2000 50  0001 C CNN
+	1    10150 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10250 4350
+NoConn ~ 10250 4050
+NoConn ~ 10250 2450
+NoConn ~ 10250 2350
+NoConn ~ 10250 2250
+$Comp
+L GND #PWR0201
+U 1 1 5B0F7392
+P 10200 4700
+F 0 "#PWR0201" H 10200 4450 50  0001 C CNN
+F 1 "GND" H 10200 4550 50  0000 C CNN
+F 2 "" H 10200 4700 50  0001 C CNN
+F 3 "" H 10200 4700 50  0001 C CNN
+	1    10200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x24 J1301
+U 1 1 5B0F6656
+P 10450 3250
+F 0 "J1301" H 10450 4450 50  0000 C CNN
+F 1 "OV5640" H 10450 1950 50  0000 C CNN
+F 2 "" H 10450 3250 50  0001 C CNN
+F 3 "https://cloud.puri.sm/apps/files/?dir=/dev/librem5/hardware/camera&fileid=45852" H 10450 3250 50  0001 C CNN
+	1    10450 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 10100 2750 0    60   Input ~ 0
+I2C1_SCL_1V8
+Text HLabel 10100 2550 0    60   BiDi ~ 0
+I2C1_SDA_1V8
+NoConn ~ 10250 5300
+NoConn ~ 10250 5200
+NoConn ~ 10250 5100
+NoConn ~ 10250 5000
+Text HLabel 10150 3150 0    60   Input ~ 0
+CLK_N
+Text HLabel 10150 3350 0    60   Input ~ 0
+CLK_P
+Text HLabel 10150 5300 0    60   Output ~ 0
+C3_N
+Text HLabel 10150 5200 0    60   Output ~ 0
+C3_P
+Text HLabel 10150 5100 0    60   Output ~ 0
+C2_N
+Text HLabel 10150 5000 0    60   Output ~ 0
+C2_P
+Text HLabel 10150 3950 0    60   Output ~ 0
+C1_N
+Text HLabel 10150 4150 0    60   Output ~ 0
+C1_P
+Text HLabel 10150 3550 0    60   Output ~ 0
+C0_N
+Text HLabel 10150 3750 0    60   Output ~ 0
+C0_P
+$Comp
+L 1V8_P #PWR0202
+U 1 1 5B19049B
+P 8500 2200
+F 0 "#PWR0202" H 8500 2050 50  0001 C CNN
+F 1 "1V8_P" H 8500 2340 50  0000 C CNN
+F 2 "" H 8500 2200 50  0001 C CNN
+F 3 "" H 8500 2200 50  0001 C CNN
+	1    8500 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2V8_P #PWR0203
+U 1 1 5B2B0429
+P 9750 4200
+F 0 "#PWR0203" H 9750 4050 50  0001 C CNN
+F 1 "2V8_P" H 9750 4340 50  0000 C CNN
+F 2 "" H 9750 4200 50  0001 C CNN
+F 3 "" H 9750 4200 50  0001 C CNN
+	1    9750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1307
+U 1 1 5B2B061C
+P 9750 4450
+F 0 "C1307" H 9775 4550 50  0000 L CNN
+F 1 "100nF" H 9775 4350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9788 4300 50  0001 C CNN
+F 3 "" H 9750 4450 50  0001 C CNN
+	1    9750 4450
+	-1   0    0    -1  
+$EndComp
+Text Label 9100 2850 0    60   ~ 0
+DVDD
 Wire Notes Line
 	500  900  3600 900 
 Wire Notes Line
@@ -6253,4 +6547,311 @@ Wire Notes Line
 	6250 5100 3600 5100
 Wire Notes Line
 	3600 5100 3600 7800
+Wire Wire Line
+	7000 3150 7150 3150
+Wire Wire Line
+	7000 3100 7000 3150
+Wire Wire Line
+	7500 2900 7500 3200
+Wire Wire Line
+	7100 2900 7100 3200
+Wire Wire Line
+	7450 2900 7500 2900
+Connection ~ 7100 3150
+Wire Wire Line
+	7150 2900 7100 2900
+Connection ~ 7500 3150
+Wire Wire Line
+	7450 3150 8100 3150
+Wire Wire Line
+	7500 3600 7500 3500
+Wire Wire Line
+	7000 3650 7000 3600
+Wire Wire Line
+	7000 2750 7000 2800
+Wire Wire Line
+	8350 2600 8350 2650
+Connection ~ 8500 2250
+Wire Wire Line
+	8350 2250 8500 2250
+Wire Wire Line
+	8350 2300 8350 2250
+Wire Wire Line
+	8500 3250 8500 3300
+Wire Wire Line
+	8500 2200 8500 2850
+Wire Wire Line
+	9650 4000 9800 4000
+Wire Wire Line
+	9800 4000 9800 3650
+Wire Wire Line
+	9800 3650 10250 3650
+Wire Wire Line
+	9350 3250 9300 3250
+Wire Wire Line
+	8100 2950 8050 2950
+Wire Wire Line
+	10250 3050 9300 3050
+Wire Wire Line
+	10250 2850 9100 2850
+Wire Wire Line
+	10250 3250 9650 3250
+Wire Wire Line
+	9300 4000 9350 4000
+Connection ~ 9700 4000
+Wire Wire Line
+	9700 3950 9700 4000
+Wire Wire Line
+	9700 3600 9700 3650
+Connection ~ 9950 2050
+Wire Wire Line
+	9950 2050 9950 2100
+Connection ~ 9700 2050
+Wire Wire Line
+	9700 2050 9700 2100
+Connection ~ 9450 2050
+Wire Wire Line
+	9450 2100 9450 2050
+Connection ~ 9200 2450
+Connection ~ 9700 2450
+Wire Wire Line
+	9700 2450 9700 2400
+Connection ~ 9450 2450
+Wire Wire Line
+	9450 2400 9450 2450
+Wire Wire Line
+	9950 2450 9950 2400
+Wire Wire Line
+	9200 2450 9950 2450
+Wire Wire Line
+	9200 2400 9200 2500
+Connection ~ 10150 2050
+Wire Wire Line
+	9200 2050 10150 2050
+Wire Wire Line
+	9200 2100 9200 2050
+Wire Wire Line
+	10150 2000 10150 2650
+Wire Wire Line
+	10150 2650 10250 2650
+Connection ~ 10200 4450
+Wire Wire Line
+	10200 4450 10250 4450
+Connection ~ 10200 3850
+Wire Wire Line
+	10200 3850 10250 3850
+Connection ~ 10200 3450
+Wire Wire Line
+	10200 3450 10250 3450
+Connection ~ 10200 2950
+Wire Wire Line
+	10250 2950 10200 2950
+Wire Wire Line
+	10200 2150 10200 4700
+Wire Wire Line
+	10250 2150 10200 2150
+Wire Wire Line
+	10100 2550 10250 2550
+Wire Wire Line
+	10150 3150 10250 3150
+Wire Wire Line
+	10150 3350 10250 3350
+Wire Wire Line
+	10150 5300 10250 5300
+Wire Wire Line
+	10150 5200 10250 5200
+Wire Wire Line
+	10150 5100 10250 5100
+Wire Wire Line
+	10150 5000 10250 5000
+Wire Wire Line
+	10150 3950 10250 3950
+Wire Wire Line
+	10150 4150 10250 4150
+Wire Wire Line
+	10150 3550 10250 3550
+Wire Wire Line
+	10150 3750 10250 3750
+Wire Wire Line
+	9750 4600 9750 4650
+Wire Wire Line
+	9750 4650 10200 4650
+Connection ~ 10200 4650
+Connection ~ 9750 4250
+Wire Wire Line
+	9750 4200 9750 4300
+Wire Wire Line
+	10250 4250 9750 4250
+Wire Wire Line
+	10100 2750 10250 2750
+Text Label 6200 6300 2    60   ~ 0
+DVDD
+Text Notes 9880 4380 0    39   ~ 0
+ Max\n~~42mA
+Text Notes 8850 5700 0    60   ~ 0
+OV5640 CMOS Image Sensor Datasheet:\nhttps://cdn.sparkfun.com/datasheets/\nSensors/LightImaging/OV5640_datasheet.pdf
+$Comp
+L MIC5504-1.8YM5 U1302
+U 1 1 5B313EA0
+P 5300 6400
+F 0 "U1302" H 5125 6650 50  0000 C CNN
+F 1 "NC" H 5550 6650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5300 6000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550x-300mA-Single-Output-LDO-in-Small-Packages-DS20006006A.pdf" H 5300 6600 50  0001 C CNN
+F 4 "Microchip" H 5300 6400 60  0001 C CNN "MFG Name"
+F 5 "MIC5504-1.8YM5-TR" H 5300 6400 60  0001 C CNN "MFG Part Num"
+F 6 "576-4879-1-ND" H 5300 6400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5504-1.8YM5-TR/576-4879-1-ND/5209405" H 5300 6400 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5300 6400 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=MIC5504-1.8Y&start=0" H 5300 6400 60  0001 C CNN "Others"
+	1    5300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1308
+U 1 1 5B320E3F
+P 4850 6500
+F 0 "C1308" H 4875 6600 50  0000 L CNN
+F 1 "NC" H 4875 6400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4888 6350 50  0001 C CNN
+F 3 "" H 4850 6500 50  0001 C CNN
+	1    4850 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1309
+U 1 1 5B320EA7
+P 5900 6500
+F 0 "C1309" H 5925 6600 50  0000 L CNN
+F 1 "NC" H 5925 6400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5938 6350 50  0001 C CNN
+F 3 "" H 5900 6500 50  0001 C CNN
+	1    5900 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0204
+U 1 1 5B32909E
+P 5300 7000
+F 0 "#PWR0204" H 5300 6750 50  0001 C CNN
+F 1 "GND" H 5300 6850 50  0000 C CNN
+F 2 "" H 5300 7000 50  0001 C CNN
+F 3 "" H 5300 7000 50  0001 C CNN
+	1    5300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1V8_P #PWR0205
+U 1 1 5B3319A6
+P 4850 5850
+F 0 "#PWR0205" H 4850 5700 50  0001 C CNN
+F 1 "1V8_P" H 4850 5990 50  0000 C CNN
+F 2 "" H 4850 5850 50  0001 C CNN
+F 3 "" H 4850 5850 50  0001 C CNN
+	1    4850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5850 4850 6350
+Wire Wire Line
+	4900 6300 4850 6300
+Connection ~ 4850 6300
+Wire Wire Line
+	5700 6500 5750 6500
+Wire Wire Line
+	5750 5900 4850 5900
+Connection ~ 4850 5900
+Wire Wire Line
+	5700 6300 6200 6300
+Wire Wire Line
+	5900 6300 5900 6350
+Wire Wire Line
+	4850 6650 4850 6950
+Wire Wire Line
+	4850 6950 5900 6950
+Wire Wire Line
+	5900 6950 5900 6650
+Wire Wire Line
+	5300 6700 5300 7000
+Connection ~ 5300 6950
+Connection ~ 5900 6300
+$Comp
+L SW_DPDT_x2 SW1301
+U 1 1 5B356A34
+P 7000 3400
+F 0 "SW1301" V 7050 3050 50  0000 C CNN
+F 1 "DPDT" V 6950 3125 50  0000 C CNN
+F 2 "" H 7000 3400 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7000 3400 50  0001 C CNN
+F 4 "C&K" V 7000 3400 60  0001 C CNN "MFG Name"
+F 5 "JS202011JCQN" V 7000 3400 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10723CT-ND" V 7000 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 7000 3400 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7000 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7000 3400 60  0001 C CNN "Others"
+	1    7000 3400
+	0    1    -1   0   
+$EndComp
+Text Notes 6250 3275 0    60   ~ 0
+2->1 = ON\n2->3 = OFF
+NoConn ~ 6900 3200
+Text Notes 5050 5800 0    60   ~ 0
+TODO:\nTest if needed
+Wire Notes Line
+	4550 5600 4550 7200
+Wire Notes Line
+	4550 7200 6250 7200
+Wire Notes Line
+	6250 7200 6250 5600
+Wire Notes Line
+	6250 5600 4550 5600
+$Comp
+L C C1310
+U 1 1 5B3A47C5
+P 5750 6750
+F 0 "C1310" H 5775 6850 50  0000 L CNN
+F 1 "NC" H 5775 6650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5788 6600 50  0001 C CNN
+F 3 "" H 5750 6750 50  0001 C CNN
+	1    5750 6750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6900 5750 6950
+Connection ~ 5750 6950
+$Comp
+L R R1304
+U 1 1 5B3A4C79
+P 5750 6100
+F 0 "R1304" H 5925 6150 50  0000 C CNN
+F 1 "NC" H 5850 6050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5680 6100 50  0001 C CNN
+F 3 "" H 5750 6100 50  0001 C CNN
+	1    5750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6250 5750 6600
+Connection ~ 5750 6500
+Wire Wire Line
+	5750 5950 5750 5900
+Text Notes 5425 7050 0    60   ~ 0
+5ms≤RC≤20ms
+$Comp
+L R R1303
+U 1 1 5B3A721A
+P 9700 3800
+F 0 "R1303" H 9875 3850 50  0000 C CNN
+F 1 "10k" H 9825 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9630 3800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9700 3800 50  0001 C CNN
+F 4 "Stackpole" H 9700 3800 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 9700 3800 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 9700 3800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 9700 3800 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 9700 3800 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 9700 3800 60  0001 C CNN "Others"
+	1    9700 3800
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
