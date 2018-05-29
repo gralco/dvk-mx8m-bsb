@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 23
+Sheet 14 24
 Title "Buttons & LED"
 Date "2018-05-23"
 Rev "v0.1.0"

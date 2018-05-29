@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 23
+Sheet 21 24
 Title "SPI NOR Flash"
 Date "2018-05-23"
 Rev "v0.1.0"

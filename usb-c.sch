@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 23
+Sheet 2 24
 Title "USB Type C"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -260,7 +260,7 @@ Text Notes 1800 1100 0    60   ~ 0
 Text Notes 9300 2600 0    60   ~ 0
 Ihold=4A\nItrip=8A
 Text Notes 750  750  0    118  ~ 24
-USB-C Config Channel (CC) and PD Role Controller
+USB-C TCPC - Config Channel (CC) and PD Role Controller
 $Comp
 L USB_C_Receptacle J201
 U 1 1 5AE939ED
@@ -282,8 +282,8 @@ $Comp
 L PTN36043BXZ U202
 U 1 1 5AECBE93
 P 3150 6200
-F 0 "U202" H 2600 7150 60  0000 C CNN
-F 1 "PTN36043BXZ" H 3500 7150 60  0000 C CNN
+F 0 "U202" H 2550 7150 60  0000 C CNN
+F 1 "PTN36043BXZ" H 3550 7150 60  0000 C CNN
 F 2 "" H 3150 6350 60  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PTN36043.pdf" H 3150 6350 60  0001 C CNN
 	1    3150 6200

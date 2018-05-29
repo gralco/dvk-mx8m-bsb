@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 23
+Sheet 20 24
 Title "Sensors"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -379,7 +379,7 @@ Text Notes 6050 3500 0    60   ~ 0
 SDO_A/G Address\n     1      0x6B\n     0      0x6A
 $Bitmap
 Pos 7500 5950
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 77 00 00 01 45 08 02 00 00 00 C0 7C 83 
 CE 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -3588,7 +3588,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 10100 5950
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 A2 00 00 01 63 08 02 00 00 00 69 3F FE 
 28 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -5210,64 +5210,4 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and
 	1    9950 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L SW_DPDT_x2 SW2001
-U 1 1 5B1273A9
-P 2700 5800
-F 0 "SW2001" V 2750 5525 50  0000 C CNN
-F 1 "GNSS_HKS" V 2650 5525 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 2700 5800 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2700 5800 50  0001 C CNN
-F 4 "C&K" V 2700 5800 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 2700 5800 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 2700 5800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 2700 5800 60  0001 C CNN "Distrib Link"
-F 8 "-" V 2700 5800 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 2700 5800 60  0001 C CNN "Others"
-	1    2700 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SW_DPDT_x2 SW2001
-U 2 1 5B12744E
-P 2700 6450
-F 0 "SW2001" V 2750 6175 50  0000 C CNN
-F 1 "GNSS_HKS" V 2650 6175 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 2700 6450 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2700 6450 50  0001 C CNN
-F 4 "C&K" V 2700 6450 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 2700 6450 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 2700 6450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 2700 6450 60  0001 C CNN "Distrib Link"
-F 8 "-" V 2700 6450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 2700 6450 60  0001 C CNN "Others"
-	2    2700 6450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5B127823
-P 2700 6050
-F 0 "#PWR?" H 2700 5800 50  0001 C CNN
-F 1 "GND" H 2700 5900 50  0000 C CNN
-F 2 "" H 2700 6050 50  0001 C CNN
-F 3 "" H 2700 6050 50  0001 C CNN
-	1    2700 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5B12790B
-P 2700 6700
-F 0 "#PWR?" H 2700 6450 50  0001 C CNN
-F 1 "GND" H 2700 6550 50  0000 C CNN
-F 2 "" H 2700 6700 50  0001 C CNN
-F 3 "" H 2700 6700 50  0001 C CNN
-	1    2700 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 6050 2700 6000
-Wire Wire Line
-	2700 6700 2700 6650
 $EndSCHEMATC

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 23
+Sheet 4 24
 Title "Power"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -2030,4 +2030,8 @@ Wire Notes Line
 	6800 7650 6800 6250
 Wire Notes Line
 	6800 6250 4500 6250
+Text Notes 10250 2625 0    39   ~ 0
+Worst-case current draw:\n Camera =140mA\n USB Switch=113mA\n Audio Codec=12mA\n Level Shifters=1.5mA\n Display=?mA\nRemaining≅333.5mA
+Text Notes 6250 6825 0    60   ~ 0
+0.5V drop
 $EndSCHEMATC

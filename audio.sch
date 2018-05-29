@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 23
+Sheet 16 24
 Title "Audio"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -51,8 +51,8 @@ $Comp
 L SGTL5000 U1601
 U 1 1 5ABE7D8D
 P 2250 3100
-F 0 "U1601" H 1800 4000 60  0000 C CNN
-F 1 "SGTL5000" H 2700 4000 60  0000 C CNN
+F 0 "U1601" H 1850 4000 60  0000 C CNN
+F 1 "SGTL5000" H 2675 4000 60  0000 C CNN
 F 2 "" H 2250 3150 60  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf" H 2250 3150 60  0001 C CNN
 F 4 "NXP" H 2250 3100 60  0001 C CNN "MFG Name"
@@ -498,7 +498,7 @@ Text Notes 10250 2150 0    60   ~ 0
 CTIA/AHJ
 $Bitmap
 Pos 10500 2500
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 F4 00 00 00 C8 08 02 00 00 00 50 F5 5B 
 7F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -2265,7 +2265,7 @@ Text Notes 8450 6175 0    60   ~ 0
 -37dB=14.1254mV/Pa\n∴ mic produces 14.1254mVrms when exposed to a\n   1kHz tone of 94dB-SPL at the capsule\n   (or 19.98mV amplitude)
 $Bitmap
 Pos 3950 5450
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 B3 00 00 01 3B 08 02 00 00 00 41 8E 9E 
 64 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 77 5C 53 57 
@@ -3399,7 +3399,7 @@ Text Notes 10475 3300 0    39   ~ 0
 SMD Equivalent:\nSJ-43515RS-SMT-TR
 $Bitmap
 Pos 2250 7000
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 0E 00 00 01 CF 08 02 00 00 00 5C 30 0F 
 A1 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -4668,7 +4668,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 1650 5450
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 B3 00 00 01 47 08 02 00 00 00 3D 6E 53 
 DE 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -8860,57 +8860,6 @@ Text Notes 7750 5900 0    60   ~ 0
 5->4 = ON\n5->6 = OFF
 NoConn ~ 8150 5300
 $Comp
-L SW_DPDT_x2 SW?
-U 1 1 5B123EC4
-P 6200 2450
-F 0 "SW?" V 6250 2175 50  0000 C CNN
-F 1 "DPDT" V 6150 2175 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 6200 2450 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6200 2450 50  0001 C CNN
-F 4 "C&K" V 6200 2450 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 6200 2450 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 6200 2450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 6200 2450 60  0001 C CNN "Distrib Link"
-F 8 "-" V 6200 2450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 6200 2450 60  0001 C CNN "Others"
-	1    6200 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SW_DPDT_x2 SW?
-U 1 1 5B123F68
-P 6050 2550
-F 0 "SW?" V 6100 2275 50  0000 C CNN
-F 1 "DPDT" V 6000 2275 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 6050 2550 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6050 2550 50  0001 C CNN
-F 4 "C&K" V 6050 2550 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 6050 2550 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 6050 2550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 6050 2550 60  0001 C CNN "Distrib Link"
-F 8 "-" V 6050 2550 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 6050 2550 60  0001 C CNN "Others"
-	1    6050 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SW_DPDT_x2 SW?
-U 1 1 5B1240DE
-P 6100 2600
-F 0 "SW?" V 6150 2325 50  0000 C CNN
-F 1 "DPDT" V 6050 2325 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 6100 2600 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 6100 2600 50  0001 C CNN
-F 4 "C&K" V 6100 2600 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 6100 2600 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 6100 2600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 6100 2600 60  0001 C CNN "Distrib Link"
-F 8 "-" V 6100 2600 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 6100 2600 60  0001 C CNN "Others"
-	1    6100 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L SW_DPDT_x2 SW1301
 U 2 1 5B124801
 P 7950 5200
@@ -8921,27 +8870,10 @@ F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7950 5200 50  0001 C CNN
 F 4 "C&K" V 7950 5200 60  0001 C CNN "MFG Name"
 F 5 "JS202011JCQN" V 7950 5200 60  0001 C CNN "MFG Part Num"
 F 6 "CKN10723CT-ND" V 7950 5200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 7950 5200 60  0001 C CNN "Distrib Link"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 7950 5200 60  0001 C CNN "Distrib Link"
 F 8 "-" V 7950 5200 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7950 5200 60  0001 C CNN "Others"
 	2    7950 5200
 	1    0    0    -1  
-$EndComp
-$Comp
-L SW_DPDT_x2 SW1301
-U 1 1 5B12480E
-P 12850 4000
-F 0 "SW1301" V 12900 3725 50  0000 C CNN
-F 1 "DPDT" V 12800 3725 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 12850 4000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 12850 4000 50  0001 C CNN
-F 4 "C&K" V 12850 4000 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 12850 4000 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 12850 4000 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 12850 4000 60  0001 C CNN "Distrib Link"
-F 8 "-" V 12850 4000 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 12850 4000 60  0001 C CNN "Others"
-	1    12850 4000
-	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

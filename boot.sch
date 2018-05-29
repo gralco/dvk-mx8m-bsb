@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 23
+Sheet 5 24
 Title "Boot Configuration"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -178,7 +178,7 @@ F 3 "" H 3450 5450 50  0001 C CNN
 $EndComp
 $Bitmap
 Pos 9350 850 
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 43 00 00 00 8A 08 02 00 00 00 CE 96 13 
 DA 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -536,7 +536,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 9350 1450
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 42 00 00 00 CA 08 02 00 00 00 2E 0C 72 
 88 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -1243,7 +1243,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 3450 6250
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 43 00 00 00 AB 08 02 00 00 00 02 66 C5 
 49 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -2267,7 +2267,7 @@ F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 3100 5150 50  0001 C CNN
 F 4 "C&K" V 3100 5150 60  0001 C CNN "MFG Name"
 F 5 "JS202011JCQN" V 3100 5150 60  0001 C CNN "MFG Part Num"
 F 6 "CKN10723CT-ND" V 3100 5150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 3100 5150 60  0001 C CNN "Distrib Link"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 3100 5150 60  0001 C CNN "Distrib Link"
 F 8 "-" V 3100 5150 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 3100 5150 60  0001 C CNN "Others"
 	1    3100 5150
@@ -2286,7 +2286,7 @@ F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 3800 4600 50  0001 C CNN
 F 4 "C&K" V 3800 4600 60  0001 C CNN "MFG Name"
 F 5 "JS202011JAQN" V 3800 4600 60  0001 C CNN "MFG Part Num"
 F 6 "CKN10722CT-ND" V 3800 4600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 3800 4600 60  0001 C CNN "Distrib Link"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 3800 4600 60  0001 C CNN "Distrib Link"
 F 8 "-" V 3800 4600 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 3800 4600 60  0001 C CNN "Others"
 	2    3800 4600
@@ -2356,38 +2356,4 @@ Wire Notes Line
 	5300 6550 5300 5750
 Wire Notes Line
 	5300 5750 1600 5750
-$Comp
-L SW_DPDT_x2 SW?
-U 1 1 5B11F517
-P -2650 4250
-F 0 "SW?" V -2600 3975 50  0000 C CNN
-F 1 "DPDT" V -2700 3975 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H -2650 4250 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H -2650 4250 50  0001 C CNN
-F 4 "C&K" V -2650 4250 60  0001 C CNN "MFG Name"
-F 5 "JS202011JCQN" V -2650 4250 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10723CT-ND" V -2650 4250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V -2650 4250 60  0001 C CNN "Distrib Link"
-F 8 "-" V -2650 4250 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V -2650 4250 60  0001 C CNN "Others"
-	1    -2650 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SW_DPDT_x2 SW?
-U 2 1 5B11F5C3
-P -1950 3850
-F 0 "SW?" V -1900 3575 50  0000 C CNN
-F 1 "DPDT" V -2000 3575 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H -1950 3850 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H -1950 3850 50  0001 C CNN
-F 4 "C&K" V -1950 3850 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V -1950 3850 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V -1950 3850 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V -1950 3850 60  0001 C CNN "Distrib Link"
-F 8 "-" V -1950 3850 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V -1950 3850 60  0001 C CNN "Others"
-	2    -1950 3850
-	0    -1   -1   0   
-$EndComp
 $EndSCHEMATC

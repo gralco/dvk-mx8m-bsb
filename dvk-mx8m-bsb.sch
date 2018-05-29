@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 23
+Sheet 1 24
 Title "DVK-MX8M-BSB"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -1175,7 +1175,7 @@ Text Label 3200 15850 2    60   ~ 0
 I2C1_SCL
 Text Label 3200 15050 2    60   ~ 0
 MIC_SEL
-Text Notes 6150 15900 0    60   ~ 0
+Text Notes 5450 15900 0    60   ~ 0
 TODO:\nGNSS\nMIPI CSI/DSI
 $Sheet
 S 6150 11150 1400 1850
@@ -3130,4 +3130,10 @@ CSI_~RST
 NoConn ~ 17900 4250
 Text Label 16850 4050 0    60   ~ 0
 CSI_PWDN
+$Sheet
+S 6150 15600 1400 350 
+U 5B0D6F7B
+F0 "GNSS" 60
+F1 "gnss.sch" 60
+$EndSheet
 $EndSCHEMATC

@@ -100,6 +100,10 @@ $CMP MA8627
 D USB 2.0 High Speed 3-Port Hub with SD Reader Controller
 $ENDCMP
 #
+$CMP MAX-M8
+D Concurrent GNSS Module
+$ENDCMP
+#
 $CMP MIC2876
 D IC REG BOOST 8TDFN
 $ENDCMP

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 23
+Sheet 13 24
 Title ""
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -51,7 +51,7 @@ Text Notes 1050 1000 0    60   ~ 0
 Using Internal DVDD 1.5V Regulator:
 $Bitmap
 Pos 2000 1200
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 39 00 00 00 65 08 02 00 00 00 E1 D4 BA 
 5F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED DD 67 40 13 49 
@@ -591,7 +591,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 2050 2350
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 A9 00 00 02 51 08 02 00 00 00 28 0B 66 
 24 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 75 5C 14 4B 
@@ -2857,7 +2857,7 @@ Text Notes 550  5150 0    60   ~ 0
 2.7 POWER UP SEQUENCE\nBased on the system power configuration (1.8V or 2.8V for I/O power, using external DVDD or internal DVDD, requiring\naccess to the I2C during power up period or not), the power up sequence will differ. If 1.8V is used for I/O power, using\nthe internal DVDD is preferred. If 2.8V is used for I/O power, due to a high voltage drop at the internal DVDD regulator,\nthere is a potential heat issue. Hence, for a 2.8V power system, OmniVision recommends using an external DVDD\nsource. Due to the higher power down current when using an external DVDD source, OmniVision strongly recommends\ncutting off all powers, including the external DVDD, when the sensor is not in use in the case of 2.8V I/O and external\nDVDD.\n2.7.1 POWER UP WITH INTERNAL DVDD\nFor powering up with the internal DVDD and I2C access during the power ON period, the following conditions must occur:\n1. when DOVDD and AVDD are turned ON, make sure DOVDD becomes stable before AVDD becomes stable\n2. PWDN is active high with an asynchronized design (does not need clock)\n3. PWDN pin tied to digital ground if it is not controlled.\n4. if PWDN pin is controlled as below, for PWDN to go low, power must first become stable\n(AVDD to PWDN ≥ 5 ms)\n5. RESETB is active low with an asynchronized design\n6. master clock XVCLK should provide at least 1 ms before host accesses the sensor’s registers\n7. host can access I2C bus (if shared) during entire period. 20ms after RESETB goes high, host can access the\nsensor's registers to initialize sensor
 $Bitmap
 Pos 2050 6450
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 7D 00 00 03 05 08 02 00 00 00 4F 99 08 
 42 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 67 58 14 57 
@@ -6535,155 +6535,6 @@ F 3 "" H 9750 4450 50  0001 C CNN
 $EndComp
 Text Label 9100 2850 0    60   ~ 0
 DVDD
-Wire Notes Line
-	500  900  3600 900 
-Wire Notes Line
-	3600 900  3600 3400
-Wire Notes Line
-	3600 3400 6250 3400
-Wire Notes Line
-	6250 3400 6250 5100
-Wire Notes Line
-	6250 5100 3600 5100
-Wire Notes Line
-	3600 5100 3600 7800
-Wire Wire Line
-	7000 3150 7150 3150
-Wire Wire Line
-	7000 3100 7000 3150
-Wire Wire Line
-	7500 2900 7500 3200
-Wire Wire Line
-	7100 2900 7100 3200
-Wire Wire Line
-	7450 2900 7500 2900
-Connection ~ 7100 3150
-Wire Wire Line
-	7150 2900 7100 2900
-Connection ~ 7500 3150
-Wire Wire Line
-	7450 3150 8100 3150
-Wire Wire Line
-	7500 3600 7500 3500
-Wire Wire Line
-	7000 3650 7000 3600
-Wire Wire Line
-	7000 2750 7000 2800
-Wire Wire Line
-	8350 2600 8350 2650
-Connection ~ 8500 2250
-Wire Wire Line
-	8350 2250 8500 2250
-Wire Wire Line
-	8350 2300 8350 2250
-Wire Wire Line
-	8500 3250 8500 3300
-Wire Wire Line
-	8500 2200 8500 2850
-Wire Wire Line
-	9650 4000 9800 4000
-Wire Wire Line
-	9800 4000 9800 3650
-Wire Wire Line
-	9800 3650 10250 3650
-Wire Wire Line
-	9350 3250 9300 3250
-Wire Wire Line
-	8100 2950 8050 2950
-Wire Wire Line
-	10250 3050 9300 3050
-Wire Wire Line
-	10250 2850 9100 2850
-Wire Wire Line
-	10250 3250 9650 3250
-Wire Wire Line
-	9300 4000 9350 4000
-Connection ~ 9700 4000
-Wire Wire Line
-	9700 3950 9700 4000
-Wire Wire Line
-	9700 3600 9700 3650
-Connection ~ 9950 2050
-Wire Wire Line
-	9950 2050 9950 2100
-Connection ~ 9700 2050
-Wire Wire Line
-	9700 2050 9700 2100
-Connection ~ 9450 2050
-Wire Wire Line
-	9450 2100 9450 2050
-Connection ~ 9200 2450
-Connection ~ 9700 2450
-Wire Wire Line
-	9700 2450 9700 2400
-Connection ~ 9450 2450
-Wire Wire Line
-	9450 2400 9450 2450
-Wire Wire Line
-	9950 2450 9950 2400
-Wire Wire Line
-	9200 2450 9950 2450
-Wire Wire Line
-	9200 2400 9200 2500
-Connection ~ 10150 2050
-Wire Wire Line
-	9200 2050 10150 2050
-Wire Wire Line
-	9200 2100 9200 2050
-Wire Wire Line
-	10150 2000 10150 2650
-Wire Wire Line
-	10150 2650 10250 2650
-Connection ~ 10200 4450
-Wire Wire Line
-	10200 4450 10250 4450
-Connection ~ 10200 3850
-Wire Wire Line
-	10200 3850 10250 3850
-Connection ~ 10200 3450
-Wire Wire Line
-	10200 3450 10250 3450
-Connection ~ 10200 2950
-Wire Wire Line
-	10250 2950 10200 2950
-Wire Wire Line
-	10200 2150 10200 4700
-Wire Wire Line
-	10250 2150 10200 2150
-Wire Wire Line
-	10100 2550 10250 2550
-Wire Wire Line
-	10150 3150 10250 3150
-Wire Wire Line
-	10150 3350 10250 3350
-Wire Wire Line
-	10150 5300 10250 5300
-Wire Wire Line
-	10150 5200 10250 5200
-Wire Wire Line
-	10150 5100 10250 5100
-Wire Wire Line
-	10150 5000 10250 5000
-Wire Wire Line
-	10150 3950 10250 3950
-Wire Wire Line
-	10150 4150 10250 4150
-Wire Wire Line
-	10150 3550 10250 3550
-Wire Wire Line
-	10150 3750 10250 3750
-Wire Wire Line
-	9750 4600 9750 4650
-Wire Wire Line
-	9750 4650 10200 4650
-Connection ~ 10200 4650
-Connection ~ 9750 4250
-Wire Wire Line
-	9750 4200 9750 4300
-Wire Wire Line
-	10250 4250 9750 4250
-Wire Wire Line
-	10100 2750 10250 2750
 Text Label 6200 6300 2    60   ~ 0
 DVDD
 Text Notes 9880 4380 0    39   ~ 0
@@ -6694,8 +6545,8 @@ $Comp
 L MIC5504-1.8YM5 U1302
 U 1 1 5B313EA0
 P 5300 6400
-F 0 "U1302" H 5125 6650 50  0000 C CNN
-F 1 "NC" H 5550 6650 50  0000 C CNN
+F 0 "U1302" H 5125 6725 50  0000 C CNN
+F 1 "MIC5504-1.8" H 5250 6650 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5300 6000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550x-300mA-Single-Output-LDO-in-Small-Packages-DS20006006A.pdf" H 5300 6600 50  0001 C CNN
 F 4 "Microchip" H 5300 6400 60  0001 C CNN "MFG Name"
@@ -6712,7 +6563,7 @@ L C C1308
 U 1 1 5B320E3F
 P 4850 6500
 F 0 "C1308" H 4875 6600 50  0000 L CNN
-F 1 "NC" H 4875 6400 50  0000 L CNN
+F 1 "1uF" H 4875 6400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4888 6350 50  0001 C CNN
 F 3 "" H 4850 6500 50  0001 C CNN
 	1    4850 6500
@@ -6723,7 +6574,7 @@ L C C1309
 U 1 1 5B320EA7
 P 5900 6500
 F 0 "C1309" H 5925 6600 50  0000 L CNN
-F 1 "NC" H 5925 6400 50  0000 L CNN
+F 1 "1uF" H 5925 6400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5938 6350 50  0001 C CNN
 F 3 "" H 5900 6500 50  0001 C CNN
 	1    5900 6500
@@ -6751,73 +6602,50 @@ F 3 "" H 4850 5850 50  0001 C CNN
 	1    4850 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 5850 4850 6350
-Wire Wire Line
-	4900 6300 4850 6300
-Connection ~ 4850 6300
-Wire Wire Line
-	5700 6500 5750 6500
-Wire Wire Line
-	5750 5900 4850 5900
-Connection ~ 4850 5900
-Wire Wire Line
-	5700 6300 6200 6300
-Wire Wire Line
-	5900 6300 5900 6350
-Wire Wire Line
-	4850 6650 4850 6950
-Wire Wire Line
-	4850 6950 5900 6950
-Wire Wire Line
-	5900 6950 5900 6650
-Wire Wire Line
-	5300 6700 5300 7000
-Connection ~ 5300 6950
-Connection ~ 5900 6300
+$Comp
+L SW_DPDT_x2 SW1301
+U 1 1 5B126541
+P 7000 3400
+F 0 "SW1301" V 7050 3050 50  0000 C CNN
+F 1 "DPDT" V 6950 3050 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 7000 3400 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7000 3400 50  0001 C CNN
+F 4 "C&K" V 7000 3400 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 7000 3400 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 7000 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 7000 3400 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7000 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7000 3400 60  0001 C CNN "Others"
+	1    7000 3400
+	0    1    -1   0   
+$EndComp
 Text Notes 6250 3275 0    60   ~ 0
 2->1 = ON\n2->3 = OFF
 NoConn ~ 6900 3200
 Text Notes 5050 5800 0    60   ~ 0
 TODO:\nTest if needed
-Wire Notes Line
-	4550 5600 4550 7200
-Wire Notes Line
-	4550 7200 6250 7200
-Wire Notes Line
-	6250 7200 6250 5600
-Wire Notes Line
-	6250 5600 4550 5600
 $Comp
 L C C1310
 U 1 1 5B3A47C5
 P 5750 6750
 F 0 "C1310" H 5775 6850 50  0000 L CNN
-F 1 "NC" H 5775 6650 50  0000 L CNN
+F 1 "100nF" H 5775 6650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5788 6600 50  0001 C CNN
 F 3 "" H 5750 6750 50  0001 C CNN
 	1    5750 6750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 6900 5750 6950
-Connection ~ 5750 6950
 $Comp
 L R R1304
 U 1 1 5B3A4C79
 P 5750 6100
 F 0 "R1304" H 5925 6150 50  0000 C CNN
-F 1 "NC" H 5850 6050 50  0000 C CNN
+F 1 "100k" H 5900 6050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5680 6100 50  0001 C CNN
 F 3 "" H 5750 6100 50  0001 C CNN
 	1    5750 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 6250 5750 6600
-Connection ~ 5750 6500
-Wire Wire Line
-	5750 5950 5750 5900
 Text Notes 5425 7050 0    60   ~ 0
 5ms≤RC≤20ms
 $Comp
@@ -6837,21 +6665,195 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    9700 3800
 	-1   0    0    -1  
 $EndComp
-$Comp
-L SW_DPDT_x2 SW1301
-U 1 1 5B126541
-P 7000 3400
-F 0 "SW1301" V 7050 3050 50  0000 C CNN
-F 1 "DPDT" V 6950 3050 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 7000 3400 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7000 3400 50  0001 C CNN
-F 4 "C&K" V 7000 3400 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 7000 3400 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 7000 3400 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 7000 3400 60  0001 C CNN "Distrib Link"
-F 8 "-" V 7000 3400 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7000 3400 60  0001 C CNN "Others"
-	1    7000 3400
-	0    1    -1   0   
-$EndComp
+Wire Wire Line
+	5750 5950 5750 5900
+Connection ~ 5750 6500
+Wire Wire Line
+	5750 6250 5750 6600
+Connection ~ 5750 6950
+Wire Wire Line
+	5750 6900 5750 6950
+Wire Notes Line
+	6250 5600 4550 5600
+Wire Notes Line
+	6250 7200 6250 5600
+Wire Notes Line
+	4550 7200 6250 7200
+Wire Notes Line
+	4550 5600 4550 7200
+Connection ~ 5900 6300
+Connection ~ 5300 6950
+Wire Wire Line
+	5300 6700 5300 7000
+Wire Wire Line
+	5900 6950 5900 6650
+Wire Wire Line
+	4850 6950 5900 6950
+Wire Wire Line
+	4850 6650 4850 6950
+Wire Wire Line
+	5900 6300 5900 6350
+Wire Wire Line
+	5700 6300 6200 6300
+Connection ~ 4850 5900
+Wire Wire Line
+	5750 5900 4850 5900
+Wire Wire Line
+	5700 6500 5750 6500
+Connection ~ 4850 6300
+Wire Wire Line
+	4900 6300 4850 6300
+Wire Wire Line
+	4850 5850 4850 6350
+Wire Wire Line
+	10100 2750 10250 2750
+Wire Wire Line
+	10250 4250 9750 4250
+Wire Wire Line
+	9750 4200 9750 4300
+Connection ~ 9750 4250
+Connection ~ 10200 4650
+Wire Wire Line
+	9750 4650 10200 4650
+Wire Wire Line
+	9750 4600 9750 4650
+Wire Wire Line
+	10150 3750 10250 3750
+Wire Wire Line
+	10150 3550 10250 3550
+Wire Wire Line
+	10150 4150 10250 4150
+Wire Wire Line
+	10150 3950 10250 3950
+Wire Wire Line
+	10150 5000 10250 5000
+Wire Wire Line
+	10150 5100 10250 5100
+Wire Wire Line
+	10150 5200 10250 5200
+Wire Wire Line
+	10150 5300 10250 5300
+Wire Wire Line
+	10150 3350 10250 3350
+Wire Wire Line
+	10150 3150 10250 3150
+Wire Wire Line
+	10100 2550 10250 2550
+Wire Wire Line
+	10250 2150 10200 2150
+Wire Wire Line
+	10200 2150 10200 4700
+Wire Wire Line
+	10250 2950 10200 2950
+Connection ~ 10200 2950
+Wire Wire Line
+	10200 3450 10250 3450
+Connection ~ 10200 3450
+Wire Wire Line
+	10200 3850 10250 3850
+Connection ~ 10200 3850
+Wire Wire Line
+	10200 4450 10250 4450
+Connection ~ 10200 4450
+Wire Wire Line
+	10150 2650 10250 2650
+Wire Wire Line
+	10150 2000 10150 2650
+Wire Wire Line
+	9200 2100 9200 2050
+Wire Wire Line
+	9200 2050 10150 2050
+Connection ~ 10150 2050
+Wire Wire Line
+	9200 2400 9200 2500
+Wire Wire Line
+	9200 2450 9950 2450
+Wire Wire Line
+	9950 2450 9950 2400
+Wire Wire Line
+	9450 2400 9450 2450
+Connection ~ 9450 2450
+Wire Wire Line
+	9700 2450 9700 2400
+Connection ~ 9700 2450
+Connection ~ 9200 2450
+Wire Wire Line
+	9450 2100 9450 2050
+Connection ~ 9450 2050
+Wire Wire Line
+	9700 2050 9700 2100
+Connection ~ 9700 2050
+Wire Wire Line
+	9950 2050 9950 2100
+Connection ~ 9950 2050
+Wire Wire Line
+	9700 3600 9700 3650
+Wire Wire Line
+	9700 3950 9700 4000
+Connection ~ 9700 4000
+Wire Wire Line
+	9300 4000 9350 4000
+Wire Wire Line
+	10250 3250 9650 3250
+Wire Wire Line
+	10250 2850 9100 2850
+Wire Wire Line
+	10250 3050 9300 3050
+Wire Wire Line
+	8100 2950 8050 2950
+Wire Wire Line
+	9350 3250 9300 3250
+Wire Wire Line
+	9800 3650 10250 3650
+Wire Wire Line
+	9800 4000 9800 3650
+Wire Wire Line
+	9650 4000 9800 4000
+Wire Wire Line
+	8500 2200 8500 2850
+Wire Wire Line
+	8500 3250 8500 3300
+Wire Wire Line
+	8350 2300 8350 2250
+Wire Wire Line
+	8350 2250 8500 2250
+Connection ~ 8500 2250
+Wire Wire Line
+	8350 2600 8350 2650
+Wire Wire Line
+	7000 2750 7000 2800
+Wire Wire Line
+	7000 3650 7000 3600
+Wire Wire Line
+	7500 3600 7500 3500
+Wire Wire Line
+	7450 3150 8100 3150
+Connection ~ 7500 3150
+Wire Wire Line
+	7150 2900 7100 2900
+Connection ~ 7100 3150
+Wire Wire Line
+	7450 2900 7500 2900
+Wire Wire Line
+	7100 2900 7100 3200
+Wire Wire Line
+	7500 2900 7500 3200
+Wire Wire Line
+	7000 3100 7000 3150
+Wire Wire Line
+	7000 3150 7150 3150
+Wire Notes Line
+	3600 5100 3600 7800
+Wire Notes Line
+	6250 5100 3600 5100
+Wire Notes Line
+	6250 3400 6250 5100
+Wire Notes Line
+	3600 3400 6250 3400
+Wire Notes Line
+	3600 900  3600 3400
+Wire Notes Line
+	500  900  3600 900 
+Text Notes 4600 7350 0    60   ~ 0
+Will draw up to 125mA from DVDD
 $EndSCHEMATC

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 23
+Sheet 10 24
 Title "uSD Card"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -194,7 +194,7 @@ F 9 "https://www.mouser.com/Connectors/Memory-Connectors/Memory-Card-Connectors/
 $EndComp
 $Bitmap
 Pos 6500 4600
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 B1 00 00 00 7E 08 02 00 00 00 25 7B B8 
 33 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED 9D 67 40 13 59 
