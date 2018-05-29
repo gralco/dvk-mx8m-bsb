@@ -389,10 +389,10 @@ When VBAT_REG can fall below\n3.3V use TPS63020 instead
 Text Notes 8800 3400 0    60   ~ 0
 LM3670MF-1.8 is much more expensive\n       ST1S12G18R is a drop-in
 $Comp
-L FT440 U405
+L FT440 U406
 U 1 1 5ACD7293
 P 8950 2150
-F 0 "U405" H 8750 2400 60  0000 C CNN
+F 0 "U406" H 8750 2400 60  0000 C CNN
 F 1 "FT440" H 9100 2400 60  0000 C CNN
 F 2 "" H 8950 2050 591 0001 C CNN
 F 3 "http://www.ineltek.com/wp-content/uploads/manual/fmd/FT440x.pdf" H 8950 2050 591 0001 C CNN
@@ -406,10 +406,10 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-re
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L403
+L L L404
 U 1 1 5ACD8255
 P 9650 2050
-F 0 "L403" V 9725 2050 50  0000 C CNN
+F 0 "L404" V 9725 2050 50  0000 C CNN
 F 1 "2.2uH" V 9600 2050 50  0000 C CNN
 F 2 "" H 9650 2050 50  0001 C CNN
 F 3 "https://www.coilcraft.com/pdfs/lps4018.pdf" H 9650 2050 50  0001 C CNN
@@ -425,10 +425,10 @@ $EndComp
 Text Notes 9050 3150 0    60   ~ 0
 Buck instead of TLV70218 LDO\n  saving up to ~~100mW loss
 $Comp
-L C C423
+L C C425
 U 1 1 5ACDF173
 P 7900 2300
-F 0 "C423" H 7925 2400 50  0000 L CNN
+F 0 "C425" H 7925 2400 50  0000 L CNN
 F 1 "4.7uF" H 7925 2200 50  0000 L CNN
 F 2 "" H 7938 2150 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BJ475KA-T&fileName=LMK107BJ475KA-T_SS&mode=specSheetDownload" H 7900 2300 50  0001 C CNN
@@ -498,10 +498,10 @@ Text HLabel 10650 2050 2    60   Output ~ 0
 Text Notes 900  6850 0    60   ~ 0
 TODO:\nadd parallel 100nF bulk caps!\n& spread all over the power plane
 $Comp
-L AP22800 U403
+L AP22800 U404
 U 1 1 5B2D37A6
 P 5850 2200
-F 0 "U403" H 5700 2750 60  0000 C CNN
+F 0 "U404" H 5700 2750 60  0000 C CNN
 F 1 "AP22800" H 6100 2750 60  0000 C CNN
 F 2 "" H 5850 2350 60  0001 C CNN
 F 3 "" H 5850 2350 60  0001 C CNN
@@ -509,10 +509,10 @@ F 3 "" H 5850 2350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C417
+L C C418
 U 1 1 5B2D4BF7
 P 5350 2250
-F 0 "C417" H 5375 2350 50  0000 L CNN
+F 0 "C418" H 5375 2350 50  0000 L CNN
 F 1 "100nF" H 5350 2150 50  0000 L CNN
 F 2 "" H 5388 2100 50  0001 C CNN
 F 3 "" H 5350 2250 50  0001 C CNN
@@ -520,10 +520,10 @@ F 3 "" H 5350 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R413
+L R R414
 U 1 1 5B2D5536
 P 6350 2100
-F 0 "R413" H 6500 2150 50  0000 C CNN
+F 0 "R414" H 6500 2150 50  0000 C CNN
 F 1 "10k" H 6475 2050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6280 2100 50  0001 C CNN
 F 3 "" H 6350 2100 50  0001 C CNN
@@ -557,10 +557,10 @@ $EndComp
 Text HLabel 4850 2650 0    60   Input ~ 0
 PWR_EN
 $Comp
-L AP22800 U404
+L AP22800 U405
 U 1 1 5B2DF479
 P 5950 4950
-F 0 "U404" H 5800 5500 60  0000 C CNN
+F 0 "U405" H 5800 5500 60  0000 C CNN
 F 1 "AP22800" H 6200 5500 60  0000 C CNN
 F 2 "" H 5950 5100 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP22800.pdf" H 5950 5100 60  0001 C CNN
@@ -574,10 +574,10 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-power-dist
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C418
+L C C419
 U 1 1 5B2DF47F
 P 5450 5000
-F 0 "C418" H 5475 5100 50  0000 L CNN
+F 0 "C419" H 5475 5100 50  0000 L CNN
 F 1 "100nF" H 5450 4900 50  0000 L CNN
 F 2 "" H 5488 4850 50  0001 C CNN
 F 3 "" H 5450 5000 50  0001 C CNN
@@ -585,10 +585,10 @@ F 3 "" H 5450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R414
+L R R415
 U 1 1 5B2DF485
 P 6450 4850
-F 0 "R414" H 6600 4900 50  0000 C CNN
+F 0 "R415" H 6600 4900 50  0000 C CNN
 F 1 "10k" H 6575 4800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6380 4850 50  0001 C CNN
 F 3 "" H 6450 4850 50  0001 C CNN
@@ -700,10 +700,10 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C416
+L C C417
 U 1 1 5B3FFF5B
 P 5200 4750
-F 0 "C416" H 5225 4850 50  0000 L CNN
+F 0 "C417" H 5225 4850 50  0000 L CNN
 F 1 "22uF" H 5225 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5238 4600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 5200 4750 50  0001 C CNN
@@ -761,10 +761,10 @@ F 3 "" H 4200 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C422
+L C C424
 U 1 1 5B4026A2
 P 7100 4750
-F 0 "C422" H 7100 4850 50  0000 L CNN
+F 0 "C424" H 7100 4850 50  0000 L CNN
 F 1 "100nF" H 7125 4650 50  0000 L CNN
 F 2 "" H 7138 4600 50  0001 C CNN
 F 3 "" H 7100 4750 50  0001 C CNN
@@ -928,10 +928,10 @@ F 3 "" H 7000 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C421
+L C C423
 U 1 1 5B40E9C6
 P 7000 2000
-F 0 "C421" H 7000 2100 50  0000 L CNN
+F 0 "C423" H 7000 2100 50  0000 L CNN
 F 1 "100nF" H 7025 1900 50  0000 L CNN
 F 2 "" H 7038 1850 50  0001 C CNN
 F 3 "" H 7000 2000 50  0001 C CNN
@@ -990,10 +990,10 @@ F 3 "" H 5350 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R416
+L R R420
 U 1 1 5B0C354D
 P 10400 2050
-F 0 "R416" V 10480 2050 50  0000 C CNN
+F 0 "R420" V 10480 2050 50  0000 C CNN
 F 1 "NC" V 10300 2050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 10330 2050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf" H 10400 2050 50  0001 C CNN
@@ -1094,10 +1094,10 @@ F 3 "" H 1250 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C424
+L C C429
 U 1 1 5B1C4CAA
 P 10000 2250
-F 0 "C424" H 10025 2350 50  0000 L CNN
+F 0 "C429" H 10025 2350 50  0000 L CNN
 F 1 "22uF" H 10025 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 10038 2100 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 10000 2250 50  0001 C CNN
@@ -1115,10 +1115,10 @@ Power TCPC\nchip first
 Text Notes 1350 5400 0    60   ~ 0
 ~~30ms until\nEN is HIGH
 $Comp
-L R R412
+L R R413
 U 1 1 5B24C59F
 P 5400 4250
-F 0 "R412" V 5480 4250 50  0000 C CNN
+F 0 "R413" V 5480 4250 50  0000 C CNN
 F 1 "NC" V 5300 4250 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 5330 4250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 5400 4250 50  0001 C CNN
@@ -1132,10 +1132,10 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R415
+L R R416
 U 1 1 5B24CEF2
 P 6900 4350
-F 0 "R415" V 6980 4350 50  0000 C CNN
+F 0 "R416" V 6980 4350 50  0000 C CNN
 F 1 "NC" V 6800 4350 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 6830 4350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 6900 4350 50  0001 C CNN
@@ -1174,10 +1174,10 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C420
+L C C422
 U 1 1 5B0BE741
 P 6850 4750
-F 0 "C420" H 6650 4850 50  0000 L CNN
+F 0 "C422" H 6650 4850 50  0000 L CNN
 F 1 "10uF" H 6650 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6888 4600 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6850 4750 50  0001 C CNN
@@ -1191,10 +1191,10 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C419
+L C C421
 U 1 1 5B0BE9C2
 P 6750 2000
-F 0 "C419" H 6550 2100 50  0000 L CNN
+F 0 "C421" H 6550 2100 50  0000 L CNN
 F 1 "10uF" H 6550 1900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6788 1850 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6750 2000 50  0001 C CNN
@@ -1221,10 +1221,10 @@ F 3 "" H 8350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PAM2841 U406
+L PAM2841 U407
 U 1 1 5B19D79C
 P 9000 5050
-F 0 "U406" H 8700 5600 60  0000 C CNN
+F 0 "U407" H 8700 5600 60  0000 C CNN
 F 1 "PAM2841" H 9200 5600 60  0000 C CNN
 F 2 "" H 9050 4900 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/PAM2841.pdf" H 9050 4900 60  0001 C CNN
@@ -1238,10 +1238,10 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-led-driver
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C425
+L C C426
 U 1 1 5B19DCF4
 P 7900 4500
-F 0 "C425" H 7925 4600 50  0000 L CNN
+F 0 "C426" H 7925 4600 50  0000 L CNN
 F 1 "10uF" H 7925 4400 50  0000 L CNN
 F 2 "" H 7938 4350 50  0001 C CNN
 F 3 "" H 7900 4500 50  0001 C CNN
@@ -1249,10 +1249,10 @@ F 3 "" H 7900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C426
+L C C427
 U 1 1 5B19DE3D
 P 7900 5100
-F 0 "C426" H 7925 5200 50  0000 L CNN
+F 0 "C427" H 7925 5200 50  0000 L CNN
 F 1 "1uF" H 7925 5000 50  0000 L CNN
 F 2 "" H 7938 4950 50  0001 C CNN
 F 3 "" H 7900 5100 50  0001 C CNN
@@ -1293,10 +1293,10 @@ F 3 "" H 7900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L404
+L L L403
 U 1 1 5B1A2374
 P 9000 4300
-F 0 "L404" V 9075 4300 50  0000 C CNN
+F 0 "L403" V 9075 4300 50  0000 C CNN
 F 1 "22uH" V 8950 4300 50  0000 C CNN
 F 2 "" H 9000 4300 50  0001 C CNN
 F 3 "" H 9000 4300 50  0001 C CNN
@@ -1337,10 +1337,10 @@ F 3 "" H 10250 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C428
+L C C430
 U 1 1 5B1A5C1F
 P 10650 4600
-F 0 "C428" H 10675 4700 50  0000 L CNN
+F 0 "C430" H 10675 4700 50  0000 L CNN
 F 1 "1uF" H 10675 4500 50  0000 L CNN
 F 2 "" H 10688 4450 50  0001 C CNN
 F 3 "" H 10650 4600 50  0001 C CNN
@@ -1381,10 +1381,10 @@ F 3 "" H 9000 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C427
+L C C428
 U 1 1 5B1A7173
 P 8350 5600
-F 0 "C427" H 8375 5700 50  0000 L CNN
+F 0 "C428" H 8375 5700 50  0000 L CNN
 F 1 "100nF" H 8375 5500 50  0000 L CNN
 F 2 "" H 8388 5450 50  0001 C CNN
 F 3 "" H 8350 5600 50  0001 C CNN
@@ -1461,10 +1461,10 @@ OVP@~~37.6V
 Text Notes 9300 6225 0    39   ~ 0
 (brochure lists backlight as an application)
 $Comp
-L C C429
+L C C416
 U 1 1 5B37D653
 P 5050 7200
-F 0 "C429" H 5075 7300 50  0000 L CNN
+F 0 "C416" H 5075 7300 50  0000 L CNN
 F 1 "1uF" H 5075 7100 50  0000 L CNN
 F 2 "" H 5088 7050 50  0001 C CNN
 F 3 "" H 5050 7200 50  0001 C CNN
@@ -1929,10 +1929,10 @@ F 3 "" H 5750 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C430
+L C C420
 U 1 1 5B37E46F
 P 6150 7100
-F 0 "C430" H 6175 7200 50  0000 L CNN
+F 0 "C420" H 6175 7200 50  0000 L CNN
 F 1 "1uF" H 6175 7000 50  0000 L CNN
 F 2 "" H 6188 6950 50  0001 C CNN
 F 3 "" H 6150 7100 50  0001 C CNN
@@ -1967,10 +1967,10 @@ Wire Wire Line
 Connection ~ 5050 6900
 Connection ~ 6150 6900
 $Comp
-L MIC5365-2.8 U407
+L MIC5365-2.8 U403
 U 1 1 5B3887C4
 P 5750 7000
-F 0 "U407" H 5650 7225 50  0000 C CNN
+F 0 "U403" H 5650 7225 50  0000 C CNN
 F 1 "MIC5365-2.8" H 5175 6750 50  0000 L CNN
 F 2 "" H 5750 7325 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf" H 5750 7000 50  0001 C CNN
@@ -1983,10 +1983,10 @@ F 8 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5750 7000 60  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R420
+L R R412
 U 1 1 5B3B9540
 P 5250 7000
-F 0 "R420" V 5350 7000 50  0000 C CNN
+F 0 "R412" V 5350 7000 50  0000 C CNN
 F 1 "10k" V 5250 7000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5180 7000 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5250 7000 50  0001 C CNN
