@@ -624,13 +624,12 @@ P 10900 2650
 F 0 "J1703" H 9750 3300 50  0000 L CNN
 F 1 "RJ45" H 10900 3300 50  0000 R CNN
 F 2 "" H 10900 2650 50  0001 C CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf" H 10900 2650 50  0001 C CNN
-F 4 "Amphenol" H 10900 2650 60  0001 C CNN "MFG Name"
-F 5 "RJHSE-5381" H 10900 2650 60  0001 C CNN "MFG Part Num"
-F 6 "RJHSE5381" H 10900 2650 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/rjhse5381/amphenol" H 10900 2650 60  0001 C CNN "Distrib Link"
-F 8 "-" H 10900 2650 60  0001 C CNN "Tolerance"
-F 9 "https://www.arrow.com/en/products/rjhse5384/amphenol" H 10900 2650 60  0001 C CNN "Others"
+F 3 "http://www.molex.com/pdm_docs/sd/936263006_sd.pdf" H 10900 2650 50  0001 C CNN
+F 4 "0936263006" H 10900 2650 60  0001 C CNN "MFG Part Num"
+F 5 "WM17615-ND" H 10900 2650 60  0001 C CNN "Distrib PN"
+F 6 "https://www.digikey.com/products/en?keywords=WM17615-ND" H 10900 2650 60  0001 C CNN "Distrib Link"
+F 7 "-" H 10900 2650 60  0001 C CNN "Tolerance"
+F 8 "https://www2.mouser.com/ProductDetail/Molex/93626-3006?qs=sGAEpiMZZMve4%2fbfQkoj%252bP%252b9Vd3WiQP62rKsrDLsV38%3d" H 10900 2650 60  0001 C CNN "Others"
 	1    10900 2650
 	1    0    0    -1  
 $EndComp
