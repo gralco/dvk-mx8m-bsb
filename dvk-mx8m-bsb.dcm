@@ -59,6 +59,11 @@ D power-flag symbol AVDD
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP Antenna_Chip
+D Chip antenna with extra pin for shielding
+K antenna
+$ENDCMP
+#
 $CMP Audio-Jack-4_1Switch
 D 4-pin (audio) jack receptable (stereo/TRS connector) with 1 switching contact
 K audio jack receptable stereo headphones connector

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 23 24
+Sheet 24 24
 Title "Haptic/Vibration Motor"
 Date "2018-05-23"
 Rev "v0.1.0"
@@ -54,21 +54,21 @@ P 6050 3900
 F 0 "M2401" H 6150 4000 50  0000 L CNN
 F 1 "C0820" H 6150 3700 50  0000 L TNN
 F 2 "" H 6050 3810 50  0001 C CNN
-F 3 "http://www.nfpmotor.com/products-micro-dc-motors-coin-vibration-motor-NFP-C0820L.html" H 6050 3810 50  0001 C CNN
-F 4 "NFP Motors" H 6050 3900 60  0001 C CNN "MFG Name"
-F 5 "NFP-C0820L" H 6050 3900 60  0001 C CNN "MFG Part Num"
-F 6 "NFP-C0820L" H 6050 3900 60  0001 C CNN "Distrib PN"
-F 7 "http://nfpshop.com/product/nfp-coin-motor-c0820-lead-wire/" H 6050 3900 60  0001 C CNN "Distrib Link"
+F 3 "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf" H 6050 3810 50  0001 C CNN
+F 4 "Molex" H 6050 3900 60  0001 C CNN "MFG Name"
+F 5 "0530480210" H 6050 3900 60  0001 C CNN "MFG Part Num"
+F 6 "0530480210" H 6050 3900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/0530480210/molex?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=0530480210&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart" H 6050 3900 60  0001 C CNN "Distrib Link"
 F 8 "-" H 6050 3900 60  0001 C CNN "Tolerance"
-F 9 "http://www.nfpmotor.com/products-coin-vibration-motors.html" H 6050 3900 60  0001 C CNN "Others"
+F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H 6050 3900 60  0001 C CNN "Others"
 	1    6050 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0371
+L GND #PWR0370
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0371" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0370" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -95,10 +95,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0372
+L 3V3_P #PWR0371
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0372" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0371" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -139,13 +139,42 @@ $Comp
 L R R2402
 U 1 1 5AFFD30C
 P 5550 3400
-F 0 "R2402" V 5630 3400 50  0000 C CNN
-F 1 "100" V 5550 3400 50  0000 C CNN
+F 0 "R2402" V 5450 3400 50  0000 C CNN
+F 1 "100" V 5650 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5480 3400 50  0001 C CNN
 F 3 "" H 5550 3400 50  0001 C CNN
 	1    5550 3400
 	0    1    1    0   
 $EndComp
+$Comp
+L C C2401
+U 1 1 5B0285ED
+P 5650 3950
+F 0 "C2401" H 5675 4050 50  0000 L CNN
+F 1 "100nF" H 5675 3850 50  0000 L CNN
+F 2 "" H 5688 3800 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5650 3950
+	-1   0    0    -1  
+$EndComp
+Text Notes 4850 4500 0    60   ~ 0
+Cap will reduce dV/dt\neffectively less EMI
+Text Notes 6550 4150 0    60   ~ 0
+Motor will have wire leads\nwith a 2-pin Molex or Boom Precision\nconnector installed (by request)!
+Text Notes 4900 3650 0    60   ~ 0
+0=ON\n1=OFF
+Text Notes 5100 2650 0    60   ~ 0
+PWM pins occupied:\nGPIO1_IO01 - LCD Backlight\nGPIO1_IO13 - LED\nGPIO1_IO14 - Ethernet (CLKO_25MHz)\nGPIO1_IO15 - CSI (CLKO2)
+Text Notes 3650 3300 0    60   ~ 0
+PWM needed?\nOnly needs to be toggled\nON 1 sec, OFF 1 sec (0.5Hz)
+Text Notes 3950 4900 0    60   ~ 0
+Cheaper Motor Connector:\nhttps://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html
+Text Notes 3650 3600 0    60   ~ 0
+Can MUX as either\nGPIO or PWM2\nswapping with LED
+Text Notes 3950 5250 0    60   ~ 0
+Motor Source:\nhttps://www.alibaba.com/product-detail/Coin-motor-vibration-dc-motor\ncellphone_1994583657.html?spm=a2700.8443308.0.0.5aa13e5f1wxHgs
+Text Notes 3950 5450 0    60   ~ 0
+Motor Datasheet:\nhttps://cloud.puri.sm/s/z8JR6DJ4KrJYzoW
 Wire Wire Line
 	6050 2950 6050 3200
 Wire Wire Line
@@ -169,42 +198,15 @@ Wire Wire Line
 Wire Wire Line
 	5250 4250 6050 4250
 Connection ~ 6050 4250
-$Comp
-L C C2401
-U 1 1 5B0285ED
-P 5650 3950
-F 0 "C2401" H 5675 4050 50  0000 L CNN
-F 1 "100nF" H 5675 3850 50  0000 L CNN
-F 2 "" H 5688 3800 50  0001 C CNN
-F 3 "" H 5650 3950 50  0001 C CNN
-	1    5650 3950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 3800 5650 3650
 Connection ~ 5650 3650
 Wire Wire Line
 	5650 4100 5650 4250
 Connection ~ 5650 4250
-Text Notes 4850 4500 0    60   ~ 0
-Cap will reduce dV/dt\neffectively less EMI
-Text Notes 6550 4150 0    60   ~ 0
-Motor will have wire leads\nwith a 2-pin Molex or JST\nconnector installed (by request)!
-Text Notes 4900 3650 0    60   ~ 0
-0=ON\n1=OFF
 Wire Wire Line
 	5350 3350 5350 3400
 Connection ~ 5350 3400
 Wire Wire Line
 	5700 3400 5750 3400
-Text Notes 5100 2650 0    60   ~ 0
-PWM pins occupied:\nGPIO1_IO01 - LCD Backlight\nGPIO1_IO13 - LED\nGPIO1_IO14 - Ethernet (CLKO_25MHz)\nGPIO1_IO15 - CSI (CLKO2)
-Text Notes 3650 3300 0    60   ~ 0
-PWM needed?\nOnly needs to be toggled\nON 1 sec, OFF 1 sec (0.5Hz)
-Text Notes 3950 4900 0    60   ~ 0
-Motor Connector:\nhttps://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html
-Text Notes 3650 3600 0    60   ~ 0
-Can MUX as either\nGPIO or PWM2\nswapping with LED
-Text Notes 3950 5250 0    60   ~ 0
-Alibaba Alternative Motor:\nhttps://www.alibaba.com/product-detail/Coin-motor-vibration-dc-motor\ncellphone_1994583657.html?spm=a2700.8443308.0.0.5aa13e5f1wxHgs
 $EndSCHEMATC

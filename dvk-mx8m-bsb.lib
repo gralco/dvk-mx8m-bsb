@@ -402,6 +402,27 @@ X AVDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# Antenna_Chip
+#
+DEF Antenna_Chip AE 0 40 N N 1 F N
+F0 "AE" -75 175 50 H V R CNN
+F1 "Antenna_Chip" -75 100 50 H V R CNN
+F2 "" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+A -1 -73 32 -882 1242 0 1 0 N 0 -105 -20 -45
+A 1 -73 32 -918 558 0 1 0 N 0 -105 20 -45
+C 30 -75 7 0 1 0 F
+P 2 0 1 0 0 -100 0 0 N
+P 2 0 1 10 0 200 0 -150 N
+P 2 0 1 0 30 -75 100 -75 N
+P 2 0 1 0 100 -100 100 -75 N
+P 3 0 1 10 50 200 0 0 -50 200 N
+X A 1 0 -200 100 U 50 50 1 1 O
+X Shield 2 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Audio-Jack-4_1Switch
 #
 DEF Audio-Jack-4_1Switch J 0 40 Y Y 1 F N
