@@ -300,7 +300,7 @@ RGEN
 Text Label 5800 3150 2    60   ~ 0
 RGEN
 Text Notes 3800 2350 0    60   ~ 0
-1.658≤ILIM≤2.063\n ILIM(nom)≅1.859\n   3.9≤VIN≤14
+1.658≤ILIM≤2.063\nILIM(nom)≅1.859A\n   3.9≤VIN≤14
 Text HLabel 4500 4250 0    60   BiDi ~ 0
 I2C1_SDA
 Text HLabel 4500 4350 0    60   Input ~ 0
@@ -471,6 +471,12 @@ F 0 "U301" H 4850 4750 60  0000 C CNN
 F 1 "BQ25896" H 5200 4750 60  0000 C CNN
 F 2 "" H 5150 3800 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/bq25896.pdf" H 5150 3800 60  0001 C CNN
+F 4 "Texas Instruments" H 5050 3600 60  0001 C CNN "MFG Name"
+F 5 "BQ25896" H 5050 3600 60  0001 C CNN "MFG Part Num"
+F 6 "BQ25896RTWT" H 5050 3600 60  0001 C CNN "Distrib PN"
+F 7 "https://store.ti.com/BQ25896RTWT.aspx" H 5050 3600 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5050 3600 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=BQ25896&start=0" H 5050 3600 60  0001 C CNN "Others"
 	1    5050 3600
 	1    0    0    -1  
 $EndComp
@@ -1974,7 +1980,7 @@ AD 0E 16 6D AF 46 10 04 41 10 04 61 16 F4 FC 20 41 10 04 41 10 84 C9 FC FF 58 AF
 EndData
 $EndBitmap
 Text Notes 7850 3500 0    60   ~ 0
-NCR18650B is recommended
+NCR18650B meets requirements
 Text Notes 1300 2700 0    60   ~ 0
 (interpret RSOC% based on this plot)
 Text Notes 1950 4350 0    60   ~ 0
@@ -2513,4 +2519,6 @@ F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2S
 	1    3650 4900
 	1    0    0    -1  
 $EndComp
+Text Notes 1600 3200 0    60   ~ 0
+Drawing ~~333.33mA,\nor consuming <1.2W,\nshould give close to\n10 hours going from\n100% to 0% charge
 $EndSCHEMATC

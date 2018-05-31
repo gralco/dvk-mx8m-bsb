@@ -50,149 +50,204 @@ $EndDescr
 $Comp
 L R R601
 U 1 1 5AC5AF1B
-P 5750 3800
-F 0 "R601" V 5830 3800 50  0000 C CNN
-F 1 "4.99k" V 5650 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5680 3800 50  0001 C CNN
-F 3 "" H 5750 3800 50  0001 C CNN
-	1    5750 3800
+P 6150 3800
+F 0 "R601" V 6230 3800 50  0000 C CNN
+F 1 "4.99k" V 6050 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6080 3800 50  0001 C CNN
+F 3 "" H 6150 3800 50  0001 C CNN
+	1    6150 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Ferrite_Bead FB601
 U 1 1 5AC5AF7B
-P 6000 3400
-F 0 "FB601" V 5850 3425 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6150 3400 50  0000 C CNN
-F 2 "" V 5930 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
+P 6400 3400
+F 0 "FB601" V 6250 3425 50  0000 C CNN
+F 1 "Ferrite_Bead" V 6550 3400 50  0000 C CNN
+F 2 "" V 6330 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5950 3800 5900 3800
+	6350 3800 6300 3800
 $Comp
 L RV-4162-C7 U601
 U 1 1 5AC5BD52
-P 5400 3250
-F 0 "U601" H 5250 3500 60  0000 C CNN
-F 1 "RV-4162-C7" H 5400 3000 60  0000 C CNN
-F 2 "" H 5500 3000 60  0001 C CNN
-F 3 "http://www.microcrystal.com/images/_Product-Documentation/02_Oscillator_&_RTC_Modules/01_Datasheet/RV-4162-C7.pdf" H 5500 3000 60  0001 C CNN
-F 4 "Micro Crystal" H 5400 3250 60  0001 C CNN "MFG Name"
-F 5 "RV-4162-C7" H 5400 3250 60  0001 C CNN "MFG Part Num"
-F 6 "428-200007-MG01" H 5400 3250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Micro-Crystal/RV-4162-C7-32768kHz-20PPM-TA-QC?qs=sGAEpiMZZMtpeOq%2f1QMb1cjExEQOv3UjUIQN3bihTa4%3d" H 5400 3250 60  0001 C CNN "Distrib Link"
-F 8 "-" H 5400 3250 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/product-detail/en/intersil/ISL12057IUZ/ISL12057IUZ-ND/2096552" H 5400 3250 60  0001 C CNN "Others"
-	1    5400 3250
+P 4950 3250
+F 0 "U601" H 4850 3500 60  0000 C CNN
+F 1 "RV-4162-C7" H 4950 3000 60  0000 C CNN
+F 2 "" H 5050 3000 60  0001 C CNN
+F 3 "http://www.microcrystal.com/images/_Product-Documentation/02_Oscillator_&_RTC_Modules/01_Datasheet/RV-4162-C7.pdf" H 5050 3000 60  0001 C CNN
+F 4 "Micro Crystal" H 4950 3250 60  0001 C CNN "MFG Name"
+F 5 "RV-4162-C7" H 4950 3250 60  0001 C CNN "MFG Part Num"
+F 6 "428-200007-MG01" H 4950 3250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Crystal/RV-4162-C7-32768kHz-20PPM-TA-QC?qs=sGAEpiMZZMtpeOq%2f1QMb1cjExEQOv3UjUIQN3bihTa4%3d" H 4950 3250 60  0001 C CNN "Distrib Link"
+F 8 "-" H 4950 3250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/intersil/ISL12057IUZ/ISL12057IUZ-ND/2096552" H 4950 3250 60  0001 C CNN "Others"
+	1    4950 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3400 5800 3400
+	6250 3400 5350 3400
 Wire Wire Line
-	6250 3600 6250 3400
+	6650 3600 6650 3400
 Wire Wire Line
-	6250 3400 6150 3400
+	6650 3400 6550 3400
 Wire Wire Line
-	5550 3800 5600 3800
-Text HLabel 4950 3100 0    60   BiDi ~ 0
+	5950 3800 6000 3800
+Text HLabel 4500 3100 0    60   BiDi ~ 0
 I2C1_SDA
-Text HLabel 5850 3100 2    60   Input ~ 0
+Text HLabel 5400 3100 2    60   Input ~ 0
 I2C1_SCL
 $Comp
 L GND #PWR0132
 U 1 1 5AC6302E
-P 4900 3350
-F 0 "#PWR0132" H 4900 3100 50  0001 C CNN
-F 1 "GND" H 4900 3200 50  0000 C CNN
-F 2 "" H 4900 3350 50  0001 C CNN
-F 3 "" H 4900 3350 50  0001 C CNN
-	1    4900 3350
+P 4450 3350
+F 0 "#PWR0132" H 4450 3100 50  0001 C CNN
+F 1 "GND" H 4450 3200 50  0000 C CNN
+F 2 "" H 4450 3350 50  0001 C CNN
+F 3 "" H 4450 3350 50  0001 C CNN
+	1    4450 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 3350 4900 3300
+	4450 3350 4450 3300
 Wire Wire Line
-	4900 3300 5000 3300
-NoConn ~ 5800 3300
-NoConn ~ 5000 3200
+	4450 3300 4550 3300
+NoConn ~ 4550 3200
 $Comp
 L D_Schottky_x2_KCom_AAK D601
 U 1 1 5AC55F7F
-P 6250 3800
-F 0 "D601" H 6150 3700 50  0000 C CNN
-F 1 "BAT54C" H 6250 3900 50  0000 C CNN
-F 2 "" H 6250 3800 50  0001 C CNN
-F 3 "" H 6250 3800 50  0001 C CNN
-	1    6250 3800
+P 6650 3800
+F 0 "D601" H 6550 3700 50  0000 C CNN
+F 1 "BAT54C" H 6650 3900 50  0000 C CNN
+F 2 "" H 6650 3800 50  0001 C CNN
+F 3 "" H 6650 3800 50  0001 C CNN
+	1    6650 3800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6550 3800 6600 3800
-Connection ~ 6600 3800
+	6950 3800 7000 3800
+Connection ~ 7000 3800
 Wire Wire Line
-	6600 3750 6600 3850
+	7000 3750 7000 3850
 $Comp
 L GND #PWR0133
 U 1 1 5AC5B669
-P 6600 4200
-F 0 "#PWR0133" H 6600 3950 50  0001 C CNN
-F 1 "GND" H 6600 4050 50  0000 C CNN
-F 2 "" H 6600 4200 50  0001 C CNN
-F 3 "" H 6600 4200 50  0001 C CNN
-	1    6600 4200
+P 7000 4200
+F 0 "#PWR0133" H 7000 3950 50  0001 C CNN
+F 1 "GND" H 7000 4050 50  0000 C CNN
+F 2 "" H 7000 4200 50  0001 C CNN
+F 3 "" H 7000 4200 50  0001 C CNN
+	1    7000 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 4200 6600 4150
+	7000 4200 7000 4150
 $Comp
 L C C601
 U 1 1 5AC5B61C
-P 6600 4000
-F 0 "C601" H 6625 4100 50  0000 L CNN
-F 1 "100nF" H 6625 3900 50  0000 L CNN
-F 2 "" H 6638 3850 50  0001 C CNN
-F 3 "" H 6600 4000 50  0001 C CNN
-	1    6600 4000
+P 7000 4000
+F 0 "C601" H 7025 4100 50  0000 L CNN
+F 1 "100nF" H 7025 3900 50  0000 L CNN
+F 2 "" H 7038 3850 50  0001 C CNN
+F 3 "" H 7000 4000 50  0001 C CNN
+	1    7000 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L VBAT_REG #PWR0134
 U 1 1 5AE5DA7A
-P 6600 3750
-F 0 "#PWR0134" H 6600 3600 50  0001 C CNN
-F 1 "VBAT_REG" H 6600 3890 50  0000 C CNN
-F 2 "" H 6600 3750 50  0001 C CNN
-F 3 "" H 6600 3750 50  0001 C CNN
-	1    6600 3750
+P 7000 3750
+F 0 "#PWR0134" H 7000 3600 50  0001 C CNN
+F 1 "VBAT_REG" H 7000 3890 50  0000 C CNN
+F 2 "" H 7000 3750 50  0001 C CNN
+F 3 "" H 7000 3750 50  0001 C CNN
+	1    7000 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L VBAT #PWR0135
 U 1 1 5AE5DAE8
-P 5550 3750
-F 0 "#PWR0135" H 5550 3600 50  0001 C CNN
-F 1 "VBAT" H 5550 3890 50  0000 C CNN
-F 2 "" H 5550 3750 50  0001 C CNN
-F 3 "" H 5550 3750 50  0001 C CNN
-	1    5550 3750
+P 5950 3750
+F 0 "#PWR0135" H 5950 3600 50  0001 C CNN
+F 1 "VBAT" H 5950 3890 50  0000 C CNN
+F 2 "" H 5950 3750 50  0001 C CNN
+F 3 "" H 5950 3750 50  0001 C CNN
+	1    5950 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 3750 5550 3800
-Text Notes 6300 3475 0    60   ~ 0
+	5950 3750 5950 3800
+Text Notes 6700 3475 0    60   ~ 0
 When powered on\nVBAT_REG is used
-Text Notes 4500 4100 0    60   ~ 0
+Text Notes 4900 4100 0    60   ~ 0
  If battery is depleted\nthen current is ~~350nA\n      (<1µWatt)
-Text Notes 4600 3800 0    60   ~ 0
+Text Notes 5000 3800 0    60   ~ 0
 VBAT is PTC fused
-Text Notes 6400 3200 0    60   ~ 0
+Text Notes 6800 3200 0    60   ~ 0
    VIH(min) not given, however\n assuming VIH(min)≅VDD*0.7857\n@VDD=4.2 then VIH(min)≅3.3012V
-Text Notes 6400 3575 0    60   ~ 0
+Text Notes 6800 3575 0    60   ~ 0
 3.5~~4.25V
 Wire Wire Line
-	5850 3100 5800 3100
+	5400 3100 5350 3100
 Wire Wire Line
-	4950 3100 5000 3100
+	4500 3100 4550 3100
+$Comp
+L D_Schottky_ALT D602
+U 1 1 5B6718B5
+P 5550 3300
+F 0 "D602" H 5500 3200 50  0000 C CNN
+F 1 "DB2J209" H 5775 3250 50  0000 C CNN
+F 2 "" H 5550 3300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5550 3300 50  0001 C CNN
+F 4 "Panasonic" V 5550 3300 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 5550 3300 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 5550 3300 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 5550 3300 60  0001 C CNN "Distrib Link"
+F 8 "-" V 5550 3300 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 5550 3300 60  0001 C CNN "Others"
+	1    5550 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L R R602
+U 1 1 5B68E84A
+P 6000 3100
+F 0 "R602" H 6150 3150 50  0000 C CNN
+F 1 "10k" H 6125 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5930 3100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6000 3100 50  0001 C CNN
+F 4 "Stackpole" H 6000 3100 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 6000 3100 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 6000 3100 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 6000 3100 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 6000 3100 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 6000 3100 60  0001 C CNN "Others"
+	1    6000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3300 6000 3250
+Wire Wire Line
+	6000 2900 6000 2950
+Wire Wire Line
+	5400 3300 5350 3300
+Text HLabel 6050 3300 2    60   Output ~ 0
+~IRQ
+Wire Wire Line
+	5700 3300 6050 3300
+Connection ~ 6000 3300
+$Comp
+L 3V3_OUT #PWR?
+U 1 1 5B6A7D4C
+P 6000 2900
+F 0 "#PWR?" H 6000 2750 50  0001 C CNN
+F 1 "3V3_OUT" H 6000 3040 50  0000 C CNN
+F 2 "" H 6000 2900 50  0001 C CNN
+F 3 "" H 6000 2900 50  0001 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

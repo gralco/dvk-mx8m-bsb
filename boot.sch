@@ -1738,8 +1738,6 @@ Text Notes 8300 2175 0    60   ~ 0
 No SD power cycle
 Text Notes 1700 2500 0    60   ~ 0
 BOOT_CFG04:\n0 - 1-bit SD bus\n1 - 4-bit SD bus\n(pull-up DATA1-3?)
-Text Notes 3200 3200 0    60   ~ 0
-HAPTIC
 Text Notes 9050 600  0    60   ~ 0
 Only eMMC
 Text Label 3200 3600 0    60   ~ 0
