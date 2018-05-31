@@ -4979,7 +4979,7 @@ FD 20 F7 46 46 5E 39 23 B7 75 75 7B CE A2 3D D7 23 E8 B4 75 BE 7E E7 E6 2A 7E 5B
 EndData
 $EndBitmap
 Text Notes 7300 3350 0    60   ~ 0
-0x6B
+0x6A
 Text Notes 9000 3050 0    60   ~ 0
 0X1E
 Text Notes 6000 4000 0    60   ~ 0
@@ -4999,7 +4999,6 @@ Wire Notes Line
 Connection ~ 9250 2950
 Wire Wire Line
 	9250 3050 9000 3050
-Connection ~ 6900 3250
 Wire Wire Line
 	6900 3350 7600 3350
 Wire Notes Line
@@ -5010,8 +5009,6 @@ Wire Wire Line
 	9250 2900 9250 3050
 Wire Wire Line
 	9000 2950 9250 2950
-Wire Wire Line
-	6900 3200 6900 3350
 Wire Wire Line
 	7600 3250 6900 3250
 Wire Wire Line
@@ -5210,4 +5207,37 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and
 	1    9950 2350
 	1    0    0    -1  
 $EndComp
+Text Notes 2100 3850 0    60   ~ 0
+7-bit Slave Address: 0x60\n       (1100 000x)
+Text Notes 2450 4100 0    60   ~ 0
+Read: 0xC1\nWrite: 0xC0
+Wire Wire Line
+	6900 3250 6900 3200
+$Comp
+L GND #PWR?
+U 1 1 5B202B1F
+P 6900 3400
+F 0 "#PWR?" H 6900 3150 50  0001 C CNN
+F 1 "GND" H 6900 3250 50  0000 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3350 6900 3400
+Text Notes 6150 3675 0    39   ~ 0
+(0x6B conflicts with\n charge controller IC)
+Text Notes 5900 2800 0    60   ~ 0
+7-bit Slave Address: 0x6A\n       (1101 010x)
+Text Notes 6250 3050 0    60   ~ 0
+Read: 0xD5\nWrite: 0xD4
+Text Notes 6250 2600 0    60   ~ 0
+Accel/Gyro:
+Text Notes 9200 3550 0    60   ~ 0
+7-bit Slave Address: 0x1E\n       (0011 110x)
+Text Notes 9550 3800 0    60   ~ 0
+Read: 0x3D\nWrite: 0x3C
+Text Notes 9700 3350 0    60   ~ 0
+Mag:
 $EndSCHEMATC

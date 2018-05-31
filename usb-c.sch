@@ -1622,4 +1622,8 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    800  5600
 	1    0    0    -1  
 $EndComp
+Text Notes 4850 2900 0    60   ~ 0
+7-Bit Slave Address: 0x52\n       (1010 010x)
+Text Notes 5500 2650 0    60   ~ 0
+Read: 0xA5\nWrite: 0xA4
 $EndSCHEMATC

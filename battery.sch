@@ -2521,4 +2521,8 @@ F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2S
 $EndComp
 Text Notes 1600 3200 0    60   ~ 0
 Drawing ~~333.33mA,\nor consuming <1.2W,\nshould give close to\n10 hours going from\n100% to 0% charge
+Text Notes 4750 2300 0    60   ~ 0
+7-bit Slave Address: 0x6B\n       (1101 011x)
+Text Notes 4000 4150 0    60   ~ 0
+Read: 0xD7\nWrite: 0xD6
 $EndSCHEMATC

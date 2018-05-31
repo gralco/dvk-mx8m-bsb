@@ -6742,4 +6742,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 3050 10750 3000
 Connection ~ 10000 3050
+Text Notes 9000 2300 0    60   ~ 0
+Slave Address: 0x78
 $EndSCHEMATC

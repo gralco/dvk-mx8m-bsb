@@ -8876,4 +8876,8 @@ F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%
 	2    7950 5200
 	1    0    0    -1  
 $EndComp
+Text Notes 500  2450 0    60   ~ 0
+7-bit Slave Address: 0x0A\n       (0001 010x)
+Text Notes 850  2700 0    60   ~ 0
+Read: 0x15\nWrite: 0x14
 $EndSCHEMATC
