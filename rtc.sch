@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 24
 Title "RTC"
-Date "2018-05-23"
+Date "2018-05-31"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -48,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R601
+L R R602
 U 1 1 5AC5AF1B
 P 6150 3800
-F 0 "R601" V 6230 3800 50  0000 C CNN
+F 0 "R602" V 6230 3800 50  0000 C CNN
 F 1 "4.99k" V 6050 3800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6080 3800 50  0001 C CNN
 F 3 "" H 6150 3800 50  0001 C CNN
@@ -101,10 +101,10 @@ I2C1_SDA
 Text HLabel 5400 3100 2    60   Input ~ 0
 I2C1_SCL
 $Comp
-L GND #PWR0132
+L GND #PWR601
 U 1 1 5AC6302E
 P 4450 3350
-F 0 "#PWR0132" H 4450 3100 50  0001 C CNN
+F 0 "#PWR601" H 4450 3100 50  0001 C CNN
 F 1 "GND" H 4450 3200 50  0000 C CNN
 F 2 "" H 4450 3350 50  0001 C CNN
 F 3 "" H 4450 3350 50  0001 C CNN
@@ -117,10 +117,10 @@ Wire Wire Line
 	4450 3300 4550 3300
 NoConn ~ 4550 3200
 $Comp
-L D_Schottky_x2_KCom_AAK D601
+L D_Schottky_x2_KCom_AAK D602
 U 1 1 5AC55F7F
 P 6650 3800
-F 0 "D601" H 6550 3700 50  0000 C CNN
+F 0 "D602" H 6550 3700 50  0000 C CNN
 F 1 "BAT54C" H 6650 3900 50  0000 C CNN
 F 2 "" H 6650 3800 50  0001 C CNN
 F 3 "" H 6650 3800 50  0001 C CNN
@@ -133,10 +133,10 @@ Connection ~ 7000 3800
 Wire Wire Line
 	7000 3750 7000 3850
 $Comp
-L GND #PWR0133
+L GND #PWR605
 U 1 1 5AC5B669
 P 7000 4200
-F 0 "#PWR0133" H 7000 3950 50  0001 C CNN
+F 0 "#PWR605" H 7000 3950 50  0001 C CNN
 F 1 "GND" H 7000 4050 50  0000 C CNN
 F 2 "" H 7000 4200 50  0001 C CNN
 F 3 "" H 7000 4200 50  0001 C CNN
@@ -157,10 +157,10 @@ F 3 "" H 7000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR0134
+L VBAT_REG #PWR604
 U 1 1 5AE5DA7A
 P 7000 3750
-F 0 "#PWR0134" H 7000 3600 50  0001 C CNN
+F 0 "#PWR604" H 7000 3600 50  0001 C CNN
 F 1 "VBAT_REG" H 7000 3890 50  0000 C CNN
 F 2 "" H 7000 3750 50  0001 C CNN
 F 3 "" H 7000 3750 50  0001 C CNN
@@ -168,10 +168,10 @@ F 3 "" H 7000 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT #PWR0135
+L VBAT #PWR602
 U 1 1 5AE5DAE8
 P 5950 3750
-F 0 "#PWR0135" H 5950 3600 50  0001 C CNN
+F 0 "#PWR602" H 5950 3600 50  0001 C CNN
 F 1 "VBAT" H 5950 3890 50  0000 C CNN
 F 2 "" H 5950 3750 50  0001 C CNN
 F 3 "" H 5950 3750 50  0001 C CNN
@@ -195,10 +195,10 @@ Wire Wire Line
 Wire Wire Line
 	4500 3100 4550 3100
 $Comp
-L D_Schottky_ALT D602
+L D_Schottky_ALT D601
 U 1 1 5B6718B5
 P 5550 3300
-F 0 "D602" H 5500 3200 50  0000 C CNN
+F 0 "D601" H 5500 3200 50  0000 C CNN
 F 1 "DB2J209" H 5775 3250 50  0000 C CNN
 F 2 "" H 5550 3300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5550 3300 50  0001 C CNN
@@ -212,10 +212,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L R R602
+L R R601
 U 1 1 5B68E84A
 P 6000 3100
-F 0 "R602" H 6150 3150 50  0000 C CNN
+F 0 "R601" H 6150 3150 50  0000 C CNN
 F 1 "10k" H 6125 3050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5930 3100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6000 3100 50  0001 C CNN
@@ -240,16 +240,22 @@ Wire Wire Line
 	5700 3300 6050 3300
 Connection ~ 6000 3300
 $Comp
-L 3V3_OUT #PWR0136
+L 3V3_OUT #PWR603
 U 1 1 5B6A7D4C
 P 6000 2900
-F 0 "#PWR0136" H 6000 2750 50  0001 C CNN
+F 0 "#PWR603" H 6000 2750 50  0001 C CNN
 F 1 "3V3_OUT" H 6000 3040 50  0000 C CNN
 F 2 "" H 6000 2900 50  0001 C CNN
 F 3 "" H 6000 2900 50  0001 C CNN
 	1    6000 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 4500 2900 0    60   ~ 0
-Slave Address: 0xD0
+Text Notes 4350 2650 0    60   ~ 0
+7-bit Slave Address: 0x68\n       (1101 000x)
+Text Notes 4700 2900 0    60   ~ 0
+Read: 0xD1\nWrite: 0xD0
+Text Notes 3650 4900 0    60   ~ 0
+Note:\nDatasheet says slave address is 0xD0\nwith a R/W bit appended, since 0xD must\nbe 4-bits wide the actual 7-bit address is\n0x68 (110 1000), and becomes 0xD0 during a\nwrite operation (1101 0000)
+Text Notes 3650 5300 0    60   ~ 0
+Reference:\nhttps://github.com/HIO-Project/linux-imx6-nano-imx_3.10.17_1.0.1_ga/\nblob/8848e94b2f889fe44f6736e2d4c98851a2282275/arch/arm/boot/dts/\nimx6qdl-mtp.dtsi#L351
 $EndSCHEMATC
