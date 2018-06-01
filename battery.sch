@@ -68,7 +68,7 @@ U 1 1 5ADAE7AB
 P 7500 4200
 F 0 "BT301" H 7250 4350 50  0000 L CNN
 F 1 "18650" H 7250 4150 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:BH18650" V 7500 4260 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:BAT_1042" V 7500 4260 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=918" V 7500 4260 50  0001 C CNN
 F 4 "Keystone" H 7500 4200 60  0001 C CNN "MFG Name"
 F 5 "1042" H 7500 4200 60  0001 C CNN "MFG Part Num"
@@ -429,17 +429,17 @@ F 3 "" H 7250 2800 50  0001 C CNN
 $EndComp
 Text HLabel 5600 4050 2    60   Input ~ 0
 ONOFF
-Text Notes 7850 4500 0    60   ~ 0
+Text Notes 7850 4550 0    60   ~ 0
 may want to include BQ29705 protection as in:\nhttp://www.ti.com/lit/ug/tiducl1/tiducl1.pdf\nschematic: http://www.ti.com/lit/df/tidrp70/tidrp70.pdf\n(PTC may be good enough)
-Text Notes 7850 3950 0    60   ~ 0
-VBAT(nom)=REG06[7:2]\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nREG06[7:2]=010111⇒VBAT(max_ovp)=4.3814784\nBQ29705 provides 4.425V as OVP!!!
+Text Notes 7850 3900 0    60   ~ 0
+VBAT(ovp_default)=REG06[7:2]=4.208V (reduce to 4.192V [010110])\nWorst Case:\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nBQ29705 provides 4.425V as OVP!
 Text Notes 4300 5200 0    60   ~ 0
 BC1.2 is not mandated by PD spec\nICO used to determine max current\nAlso negotiated from CC pins (I2C)
 Text Notes 7225 2350 0    60   ~ 0
 3.5~~4.25V
 Text Notes 5700 2400 0    60   ~ 0
 I(Lsat)=7A
-Text Notes 7850 4100 0    60   ~ 0
+Text Notes 7850 4150 0    60   ~ 0
 reference design: http://www.ti.com/lit/ug/sluuba2b/sluuba2b.pdf
 $Comp
 L PWR_FLAG #FLG303
@@ -1979,7 +1979,7 @@ AD 0E 16 6D AF 46 10 04 41 10 04 61 16 F4 FC 20 41 10 04 41 10 84 C9 FC FF 58 AF
 9C 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 7850 3500 0    60   ~ 0
+Text Notes 7850 3475 0    60   ~ 0
 NCR18650B meets requirements
 Text Notes 1300 2700 0    60   ~ 0
 (interpret RSOC% based on this plot)
@@ -2500,7 +2500,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    6700 4150
 	-1   0    0    -1  
 $EndComp
-Text Notes 7525 4700 0    60   ~ 0
+Text Notes 7500 4750 0    60   ~ 0
 TODO:\nKeystone 1042 footprint???
 $Comp
 L Q_NMOS_GSD Q301
@@ -2525,4 +2525,6 @@ Text Notes 4750 2300 0    60   ~ 0
 7-bit Slave Address: 0x6B\n       (1101 011x)
 Text Notes 4000 4150 0    60   ~ 0
 Read: 0xD7\nWrite: 0xD6
+Text Notes 7850 4025 0    60   ~ 0
+ICHG(default)=REG[6:0]=2048mA (reduce to ~~1.6A [0011001])
 $EndSCHEMATC
