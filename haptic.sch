@@ -65,10 +65,10 @@ F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0374
+L GND #PWR0377
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0374" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0377" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -95,10 +95,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0375
+L 3V3_P #PWR0378
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0375" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0378" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
