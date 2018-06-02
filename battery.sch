@@ -60,8 +60,8 @@ F 3 "" H 7100 4500 50  0001 C CNN
 $EndComp
 Text Notes 6700 3650 0    60   ~ 0
 Ihold=3.5A\nItrip=6.3A\nTtrip(max)=5s@8A
-Text Notes 6775 3150 0    60   ~ 0
-Vrm=5.8V\nVz=6.8
+Text Notes 6650 3200 0    60   ~ 0
+Vrwm(max)=5.0V\nVbr(min)=6.2V
 $Comp
 L Battery_Cell BT301
 U 1 1 5ADAE7AB
@@ -389,12 +389,12 @@ F 3 "" H 7100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead L302
+L Ferrite_Bead FB301
 U 1 1 5AE846A8
 P 6900 2600
-F 0 "L302" V 6650 2600 50  0000 C CNN
-F 1 "HI1206T500R" V 6725 2600 50  0000 C CNN
-F 2 "" V 6830 2600 50  0001 C CNN
+F 0 "FB301" V 6675 2600 50  0000 C CNN
+F 1 "HI1206T500R" V 6750 2600 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:FER-1206" V 6830 2600 50  0001 C CNN
 F 3 "http://assets.lairdtech.com/home/brandworld/files/HI1206T500R-10.pdf" H 6900 2600 50  0001 C CNN
 F 4 "Laird" V 6900 2600 60  0001 C CNN "Laird"
 F 5 "HI1206T500R-10" V 6900 2600 60  0001 C CNN "MFG Part Num"
@@ -420,10 +420,16 @@ $Comp
 L D_Zener_ALT D303
 U 1 1 5AE86DF6
 P 7250 2800
-F 0 "D303" V 7250 3000 50  0000 C CNN
-F 1 "SM6T6V8A" V 7350 3000 50  0000 C CNN
-F 2 "" H 7250 2800 50  0001 C CNN
-F 3 "" H 7250 2800 50  0001 C CNN
+F 0 "D303" V 7300 2975 50  0000 C CNN
+F 1 "ESD9X5.0ST5G" V 7425 3075 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-923" H 7250 2800 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD9X3.3ST5G-D.PDF" H 7250 2800 50  0001 C CNN
+F 4 "ON Semi" V 7250 2800 60  0001 C CNN "MFG Name"
+F 5 "ESD9X5.0ST5G" V 7250 2800 60  0001 C CNN "MFG Part Num"
+F 6 " ESD9X5.0ST5G" V 7250 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/esd9x5.0st5g/on-semiconductor" V 7250 2800 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7250 2800 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD9X5.0ST5G&start=0" V 7250 2800 60  0001 C CNN "Others"
 	1    7250 2800
 	0    -1   1    0   
 $EndComp

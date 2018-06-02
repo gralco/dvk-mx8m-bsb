@@ -343,17 +343,6 @@ F 3 "" H 6950 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead FB1702
-U 1 1 5AF273AB
-P 7800 3100
-F 0 "FB1702" V 7575 3100 50  0000 C CNN
-F 1 "BLM18PG121SN1D" V 7650 3100 50  0000 C CNN
-F 2 "" V 7730 3100 50  0001 C CNN
-F 3 "" H 7800 3100 50  0001 C CNN
-	1    7800 3100
-	0    1    1    0   
-$EndComp
-$Comp
 L L L1701
 U 1 1 5AF292B0
 P 6000 2150
@@ -435,17 +424,6 @@ F 2 "" H 4200 2100 50  0001 C CNN
 F 3 "" H 4200 2100 50  0001 C CNN
 	1    4200 2100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Ferrite_Bead FB1701
-U 1 1 5AF302A1
-P 3400 1000
-F 0 "FB1701" V 3250 1025 50  0000 C CNN
-F 1 "BLM18PG121SN1D" V 3550 1000 50  0000 C CNN
-F 2 "" V 3330 1000 50  0001 C CNN
-F 3 "" H 3400 1000 50  0001 C CNN
-	1    3400 1000
-	0    1    1    0   
 $EndComp
 $Comp
 L 3V3_P #PWR0296
@@ -1080,17 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	9850 5100 9850 5050
 Connection ~ 8800 4250
-$Comp
-L Ferrite_Bead FB1703
-U 1 1 5B023BDB
-P 9200 3900
-F 0 "FB1703" V 9125 3700 50  0000 C CNN
-F 1 "BLM18PG121SN1D" V 9350 3900 50  0000 C CNN
-F 2 "" V 9130 3900 50  0001 C CNN
-F 3 "" H 9200 3900 50  0001 C CNN
-	1    9200 3900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9350 3900 9550 3900
 Wire Wire Line
@@ -1591,4 +1558,55 @@ Wire Wire Line
 	4000 5050 4000 5100
 Connection ~ 4000 5100
 Connection ~ 3600 5100
+$Comp
+L Ferrite_Bead FB1701
+U 1 1 5B138C01
+P 3400 1000
+F 0 "FB1701" V 3250 1000 50  0000 C CNN
+F 1 "BLM18PG121SN1D" V 3550 1000 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:FER-0603" V 3330 1000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 3400 1000 50  0001 C CNN
+F 4 "Murata" V 3400 1000 60  0001 C CNN "MFG Name"
+F 5 "BLM18PG121SN1D" V 3400 1000 60  0001 C CNN "MFG Part Num"
+F 6 "490-1037-1-ND" V 3400 1000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" V 3400 1000 60  0001 C CNN "Distrib Link"
+F 8 "25%" V 3400 1000 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 3400 1000 60  0001 C CNN "Others"
+	1    3400 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Ferrite_Bead FB1702
+U 1 1 5B138D27
+P 7800 3100
+F 0 "FB1702" V 7575 3100 50  0000 C CNN
+F 1 "BLM18PG121SN1D" V 7650 3100 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:FER-0603" V 7730 3100 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 7800 3100 50  0001 C CNN
+F 4 "Murata" V 7800 3100 60  0001 C CNN "MFG Name"
+F 5 "BLM18PG121SN1D" V 7800 3100 60  0001 C CNN "MFG Part Num"
+F 6 "490-1037-1-ND" V 7800 3100 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" V 7800 3100 60  0001 C CNN "Distrib Link"
+F 8 "25%" V 7800 3100 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 7800 3100 60  0001 C CNN "Others"
+	1    7800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Ferrite_Bead FB1703
+U 1 1 5B139404
+P 9200 3900
+F 0 "FB1703" V 9125 3725 50  0000 C CNN
+F 1 "BLM18PG121SN1D" V 9350 3900 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:FER-0603" V 9130 3900 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9200 3900 50  0001 C CNN
+F 4 "Murata" V 9200 3900 60  0001 C CNN "MFG Name"
+F 5 "BLM18PG121SN1D" V 9200 3900 60  0001 C CNN "MFG Part Num"
+F 6 "490-1037-1-ND" V 9200 3900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" V 9200 3900 60  0001 C CNN "Distrib Link"
+F 8 "25%" V 9200 3900 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 9200 3900 60  0001 C CNN "Others"
+	1    9200 3900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
