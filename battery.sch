@@ -174,10 +174,10 @@ F 3 "" H 5800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R305
+L R R306
 U 1 1 5ADFDA10
 P 4350 3450
-F 0 "R305" V 4430 3450 50  0000 C CNN
+F 0 "R306" V 4430 3450 50  0000 C CNN
 F 1 "191" V 4250 3450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4280 3450 50  0001 C CNN
 F 3 "" H 4350 3450 50  0001 C CNN
@@ -246,10 +246,10 @@ F 9 "https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R307
+L R R308
 U 1 1 5AE3641A
 P 6100 4200
-F 0 "R307" V 6180 4200 50  0000 C CNN
+F 0 "R308" V 6180 4200 50  0000 C CNN
 F 1 "5.23k" V 6000 4200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6030 4200 50  0001 C CNN
 F 3 "" H 6100 4200 50  0001 C CNN
@@ -257,10 +257,10 @@ F 3 "" H 6100 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R306
+L R R307
 U 1 1 5AE36487
 P 5900 4600
-F 0 "R306" H 6050 4650 50  0000 C CNN
+F 0 "R307" H 6050 4650 50  0000 C CNN
 F 1 "30.1k" H 6050 4550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5830 4600 50  0001 C CNN
 F 3 "" H 5900 4600 50  0001 C CNN
@@ -487,25 +487,14 @@ F 9 "https://octopart.com/search?q=BQ25896&start=0" H 5050 3600 60  0001 C CNN "
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR070
-U 1 1 5AE7B0F9
-P 3750 4050
-F 0 "#PWR070" H 3750 3900 50  0001 C CNN
-F 1 "3V3_P" H 3750 4190 50  0000 C CNN
-F 2 "" H 3750 4050 50  0001 C CNN
-F 3 "" H 3750 4050 50  0001 C CNN
-	1    3750 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR071
+L GND #PWR070
 U 1 1 5AED22FA
-P 3750 5150
-F 0 "#PWR071" H 3750 4900 50  0001 C CNN
-F 1 "GND" H 3750 5000 50  0000 C CNN
-F 2 "" H 3750 5150 50  0001 C CNN
-F 3 "" H 3750 5150 50  0001 C CNN
-	1    3750 5150
+P 3800 5150
+F 0 "#PWR070" H 3800 4900 50  0001 C CNN
+F 1 "GND" H 3800 5000 50  0000 C CNN
+F 2 "" H 3800 5150 50  0001 C CNN
+F 3 "" H 3800 5150 50  0001 C CNN
+	1    3800 5150
 	1    0    0    -1  
 $EndComp
 Text Notes 1050 5000 0    60   ~ 0
@@ -513,10 +502,10 @@ Text Notes 1050 5000 0    60   ~ 0
 Text Notes 3475 3175 0    60   ~ 0
  Default LOW:\nadapter source
 $Comp
-L GND #PWR072
+L GND #PWR071
 U 1 1 5AF3ADC2
 P 3850 3350
-F 0 "#PWR072" H 3850 3100 50  0001 C CNN
+F 0 "#PWR071" H 3850 3100 50  0001 C CNN
 F 1 "GND" H 3850 3200 50  0000 C CNN
 F 2 "" H 3850 3350 50  0001 C CNN
 F 3 "" H 3850 3350 50  0001 C CNN
@@ -524,10 +513,10 @@ F 3 "" H 3850 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR073
+L VBUS #PWR072
 U 1 1 5AF7190A
 P 4250 2550
-F 0 "#PWR073" H 4250 2400 50  0001 C CNN
+F 0 "#PWR072" H 4250 2400 50  0001 C CNN
 F 1 "VBUS" H 4250 2700 50  0000 C CNN
 F 2 "" H 4250 2550 50  0001 C CNN
 F 3 "" H 4250 2550 50  0001 C CNN
@@ -540,15 +529,13 @@ Text Notes 750  5250 0    60   ~ 0
 Reading PTN5110HQ's CC_STATUS and POWER_STATUS\nregisters will tell TCPM (i.MX8M) when to set EN_HiZ
 Text Notes 750  5600 0    60   ~ 0
 Also, reading PTN5110HQ's CC_STATUS and POWER_STATUS\nregisters will tell TCPM (i.MX8M) when to set OTG_CONFIG=1\n(this will also happen when PTN5110HQ sets EN_SRC HIGH)
-Text Notes 2550 4150 0    60   ~ 0
-Open-drain output\ntied with TCPC_~INT
 Text Notes 6650 4900 0    60   ~ 0
 VBAT(DPL)=2.15~~2.5V
 $Comp
-L VBAT #PWR074
+L VBAT #PWR073
 U 1 1 5AE2587A
 P 6700 3850
-F 0 "#PWR074" H 6700 3700 50  0001 C CNN
+F 0 "#PWR073" H 6700 3700 50  0001 C CNN
 F 1 "VBAT" H 6700 4000 50  0000 C CNN
 F 2 "" H 6700 3850 50  0001 C CNN
 F 3 "" H 6700 3850 50  0001 C CNN
@@ -1989,8 +1976,6 @@ Text Notes 7850 3475 0    60   ~ 0
 NCR18650B meets requirements
 Text Notes 1300 2700 0    60   ~ 0
 (interpret RSOC% based on this plot)
-Text Notes 1950 4350 0    60   ~ 0
-If enough I/O is available then\nseparate CHRG_~INT~ & TCPC_~INT
 Text HLabel 3950 2700 0    60   Input ~ 0
 VBUS
 Text GLabel 3950 2500 0    60   Input ~ 0
@@ -2002,10 +1987,10 @@ VBAT_REG
 Text Notes 5050 1800 0    236  ~ 47
 Battery Charge Controller
 $Comp
-L GND #PWR075
+L GND #PWR074
 U 1 1 5B0600CE
 P 8700 3050
-F 0 "#PWR075" H 8700 2800 50  0001 C CNN
+F 0 "#PWR074" H 8700 2800 50  0001 C CNN
 F 1 "GND" H 8700 2900 50  0000 C CNN
 F 2 "" H 8700 3050 50  0001 C CNN
 F 3 "" H 8700 3050 50  0001 C CNN
@@ -2015,10 +2000,10 @@ $EndComp
 Text Notes 8550 2550 0    60   ~ 0
 ~~110uF
 $Comp
-L R R308
+L R R309
 U 1 1 5B0E4134
 P 9550 2600
-F 0 "R308" V 9630 2600 50  0000 C CNN
+F 0 "R309" V 9630 2600 50  0000 C CNN
 F 1 "NC" V 9450 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_2512" V 9480 2600 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/CSR.pdf" H 9550 2600 50  0001 C CNN
@@ -2189,16 +2174,14 @@ Wire Wire Line
 	5600 2700 5600 2600
 Connection ~ 5600 2600
 Wire Wire Line
-	3750 4400 3750 4700
+	3800 4400 3800 4700
 Wire Wire Line
-	3750 4100 3750 4050
+	3800 4100 3800 4050
 Wire Wire Line
-	3750 5150 3750 5100
+	4550 4650 3800 4650
+Connection ~ 3800 4650
 Wire Wire Line
-	4550 4650 3750 4650
-Connection ~ 3750 4650
-Wire Wire Line
-	3400 4900 3450 4900
+	3400 4900 3500 4900
 Wire Wire Line
 	3850 3350 3850 3300
 Wire Wire Line
@@ -2370,10 +2353,10 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R309
+L R R310
 U 1 1 5BA1BB3A
 P 9950 2800
-F 0 "R309" H 10100 2850 50  0000 C CNN
+F 0 "R310" H 10100 2850 50  0000 C CNN
 F 1 "330" H 10100 2750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9880 2800 50  0001 C CNN
 F 3 "" H 9950 2800 50  0001 C CNN
@@ -2381,10 +2364,10 @@ F 3 "" H 9950 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR076
+L GND #PWR075
 U 1 1 5BA1BC16
 P 9950 3350
-F 0 "#PWR076" H 9950 3100 50  0001 C CNN
+F 0 "#PWR075" H 9950 3100 50  0001 C CNN
 F 1 "GND" H 9950 3200 50  0000 C CNN
 F 2 "" H 9950 3350 50  0001 C CNN
 F 3 "" H 9950 3350 50  0001 C CNN
@@ -2418,10 +2401,10 @@ F 9 "https://octopart.com/search?q=LTST-C171GKT&start=0" V 9950 3150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R304
+L R R305
 U 1 1 5B302D80
 P 4050 3300
-F 0 "R304" V 4125 3300 50  0000 C CNN
+F 0 "R305" V 4125 3300 50  0000 C CNN
 F 1 "10k" V 3950 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3980 3300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4050 3300 50  0001 C CNN
@@ -2435,20 +2418,20 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R303
+L R R304
 U 1 1 5B2F65C3
-P 3750 4250
-F 0 "R303" H 3900 4300 50  0000 C CNN
-F 1 "10k" H 3875 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3680 4250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3750 4250 50  0001 C CNN
-F 4 "Stackpole" H 3750 4250 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 3750 4250 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 3750 4250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 3750 4250 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 3750 4250 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 3750 4250 60  0001 C CNN "Others"
-	1    3750 4250
+P 3800 4250
+F 0 "R304" H 3950 4300 50  0000 C CNN
+F 1 "10k" H 3925 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3730 4250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3800 4250 50  0001 C CNN
+F 4 "Stackpole" H 3800 4250 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 3800 4250 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 3800 4250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 3800 4250 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 3800 4250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 3800 4250 60  0001 C CNN "Others"
+	1    3800 4250
 	-1   0    0    -1  
 $EndComp
 Text Notes 6250 5250 0    60   ~ 0
@@ -2509,18 +2492,18 @@ $EndComp
 $Comp
 L Q_NMOS_GSD Q301
 U 1 1 5B59770D
-P 3650 4900
-F 0 "Q301" H 3850 4950 50  0000 L CNN
-F 1 "2SK3018" H 3850 4850 50  0000 L CNN
-F 2 "" H 3850 5000 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 3650 4900 50  0001 C CNN
-F 4 "Micro Commercial Co" V 3650 4900 60  0001 C CNN "MFG Name"
-F 5 "2SK3018-TP" V 3650 4900 60  0001 C CNN "MFG Part Num"
-F 6 "833-2SK3018-TP" V 3650 4900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 3650 4900 60  0001 C CNN "Distrib Link"
-F 8 "-" V 3650 4900 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 3650 4900 60  0001 C CNN "Others"
-	1    3650 4900
+P 3700 4900
+F 0 "Q301" H 3900 4950 50  0000 L CNN
+F 1 "2SK3018" H 3900 4850 50  0000 L CNN
+F 2 "" H 3900 5000 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 3700 4900 50  0001 C CNN
+F 4 "Micro Commercial Co" V 3700 4900 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 3700 4900 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 3700 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 3700 4900 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3700 4900 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 3700 4900 60  0001 C CNN "Others"
+	1    3700 4900
 	1    0    0    -1  
 $EndComp
 Text Notes 1600 3200 0    60   ~ 0
@@ -2531,4 +2514,50 @@ Text Notes 4000 4150 0    60   ~ 0
 Read: 0xD7\nWrite: 0xD6
 Text Notes 7850 4025 0    60   ~ 0
 ICHG(default)=REG[6:0]=2048mA (reduce to ~~1.6A [0011001])
+$Comp
+L R R303
+U 1 1 5B2725A1
+P 3450 4250
+F 0 "R303" H 3600 4300 50  0000 C CNN
+F 1 "10k" H 3575 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3380 4250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3450 4250 50  0001 C CNN
+F 4 "Stackpole" H 3450 4250 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 3450 4250 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 3450 4250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 3450 4250 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 3450 4250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 3450 4250 60  0001 C CNN "Others"
+	1    3450 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4400 3450 4450
+Connection ~ 3450 4450
+Wire Wire Line
+	3450 4100 3450 4050
+$Comp
+L 3V3_OUT #PWR076
+U 1 1 5B2BB51D
+P 3450 4050
+F 0 "#PWR076" H 3450 3900 50  0001 C CNN
+F 1 "3V3_OUT" H 3450 4190 50  0000 C CNN
+F 2 "" H 3450 4050 50  0001 C CNN
+F 3 "" H 3450 4050 50  0001 C CNN
+	1    3450 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5150 3800 5100
+$Comp
+L 3V3_OUT #PWR077
+U 1 1 5B2C5C01
+P 3800 4050
+F 0 "#PWR077" H 3800 3900 50  0001 C CNN
+F 1 "3V3_OUT" H 3800 4190 50  0000 C CNN
+F 2 "" H 3800 4050 50  0001 C CNN
+F 3 "" H 3800 4050 50  0001 C CNN
+	1    3800 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
