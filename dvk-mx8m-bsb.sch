@@ -513,6 +513,7 @@ F 0 "J101" H 11700 6550 50  0000 C CNN
 F 1 "IMX8M-SOM" H 11700 2450 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:IMX8M_SOM_EmCr" H 11500 4550 50  0001 C CNN
 F 3 "" H 11500 4550 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC40-80DS-04V51?qs=tTj%252bmQ3KZwb7MOjIqay%2FwA%3D%3D" H 11700 4550 60  0001 C CNN "Distrib link"
 	1    11700 4550
 	1    0    0    -1  
 $EndComp
@@ -524,6 +525,7 @@ F 0 "J101" H 11700 13050 50  0000 C CNN
 F 1 "IMX8M-SOM" H 11700 8950 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:IMX8M_SOM_EmCr" H 11500 11050 50  0001 C CNN
 F 3 "" H 11500 11050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC40-80DS-04V51?qs=tTj%252bmQ3KZwb7MOjIqay%2FwA%3D%3D" H 11700 11050 60  0001 C CNN "Distrib link"
 	2    11700 11050
 	1    0    0    -1  
 $EndComp
@@ -535,6 +537,7 @@ F 0 "J101" H 18250 6550 50  0000 C CNN
 F 1 "IMX8M-SOM" H 18250 2450 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:IMX8M_SOM_EmCr" H 18050 4550 50  0001 C CNN
 F 3 "" H 18050 4550 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC40-80DS-04V51?qs=tTj%252bmQ3KZwb7MOjIqay%2FwA%3D%3D" H 18250 4550 60  0001 C CNN "Distrib link"
 	3    18250 4550
 	1    0    0    -1  
 $EndComp
@@ -546,6 +549,7 @@ F 0 "J101" H 18250 13050 50  0000 C CNN
 F 1 "IMX8M-SOM" H 18250 8950 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:IMX8M_SOM_EmCr" H 18050 11050 50  0001 C CNN
 F 3 "" H 18050 11050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC40-80DS-04V51?qs=tTj%252bmQ3KZwb7MOjIqay%2FwA%3D%3D" H 18250 11050 60  0001 C CNN "Distrib link"
 	4    18250 11050
 	1    0    0    -1  
 $EndComp
