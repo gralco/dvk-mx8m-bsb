@@ -8795,8 +8795,8 @@ F 1 "DPDT" H 7750 5050 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 7850 5200 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7850 5200 50  0001 C CNN
 F 4 "C&K" V 7850 5200 60  0001 C CNN "MFG Name"
-F 5 "JS202011JCQN" V 7850 5200 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10723CT-ND" V 7850 5200 60  0001 C CNN "Distrib PN"
+F 5 "JS202011JAQN" V 7850 5200 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 7850 5200 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 7850 5200 60  0001 C CNN "Distrib Link"
 F 8 "-" V 7850 5200 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 7850 5200 60  0001 C CNN "Others"

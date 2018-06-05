@@ -92,7 +92,13 @@ P 5550 3100
 F 0 "J1803" H 5600 5075 50  0000 C CNN
 F 1 "Key E" H 5600 5000 50  0000 C CNN
 F 2 "" H 5550 3100 50  0001 C CNN
-F 3 "" H 5550 3100 50  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/CMDT180XXX001.pdf" H 5550 3100 50  0001 C CNN
+F 4 "Amphenol" H 5550 3100 60  0001 C CNN "MFG Name"
+F 5 "MDT180E03001" H 5550 3100 60  0001 C CNN "MFG Part Num"
+F 6 "MDT180E03001CT-ND" H 5550 3100 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT180E03001/MDT180E03001CT-ND/5810396" H 5550 3100 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5550 3100 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=MDT180E03001&start=0" H 5550 3100 60  0001 C CNN "Others"
 	1    5550 3100
 	1    0    0    -1  
 $EndComp
@@ -948,7 +954,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf" H 7550 3550 50  0001 C CN
 F 4 "Texas Instruments" H 7550 3550 60  0001 C CNN "MFG Name"
 F 5 "SN74AUP2G08DCUR" H 7550 3550 60  0001 C CNN "MFG Part Num"
 F 6 "296-32271-1-ND" H 7550 3550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AUP2G08DCUR/296-32271-1-ND/3505517" H 7550 3550 60  0001 C CNN "Distrib Link"
+F 7 "https://store.ti.com/SN74AUP2G08DCUR.aspx" H 7550 3550 60  0001 C CNN "Distrib Link"
 F 8 "-" H 7550 3550 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?k=74AUP2G08" H 7550 3550 60  0001 C CNN "Others"
 	1    7550 3550
@@ -1264,7 +1270,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf" H 7550 4450 50  0001 C CN
 F 4 "Texas Instruments" H 7550 4450 60  0001 C CNN "MFG Name"
 F 5 "SN74AUP2G08DCUR" H 7550 4450 60  0001 C CNN "MFG Part Num"
 F 6 "296-32271-1-ND" H 7550 4450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AUP2G08DCUR/296-32271-1-ND/3505517" H 7550 4450 60  0001 C CNN "Distrib Link"
+F 7 "https://store.ti.com/SN74AUP2G08DCUR.aspx" H 7550 4450 60  0001 C CNN "Distrib Link"
 F 8 "-" H 7550 4450 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?k=74AUP2G08" H 7550 4450 60  0001 C CNN "Others"
 	2    7550 4450
@@ -1810,9 +1816,9 @@ F 1 "WLAN_HKS" V 9550 4600 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 9600 4250 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 9600 4250 50  0001 C CNN
 F 4 "C&K" V 9600 4250 60  0001 C CNN "MFG Name"
-F 5 "JS202011JCQN" V 9600 4250 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10723CT-ND" V 9600 4250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 9600 4250 60  0001 C CNN "Distrib Link"
+F 5 "JS202011JAQN" V 9600 4250 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 9600 4250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 9600 4250 60  0001 C CNN "Distrib Link"
 F 8 "-" V 9600 4250 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 9600 4250 60  0001 C CNN "Others"
 	1    9600 4250
@@ -1829,7 +1835,7 @@ F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 10650 4250 50  0001 C CNN
 F 4 "C&K" V 10650 4250 60  0001 C CNN "MFG Name"
 F 5 "JS202011JAQN" V 10650 4250 60  0001 C CNN "MFG Part Num"
 F 6 "CKN10722CT-ND" V 10650 4250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 10650 4250 60  0001 C CNN "Distrib Link"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 10650 4250 60  0001 C CNN "Distrib Link"
 F 8 "-" V 10650 4250 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 10650 4250 60  0001 C CNN "Others"
 	2    10650 4250
@@ -1840,17 +1846,6 @@ NoConn ~ 10550 4050
 NoConn ~ 10750 4050
 NoConn ~ 10650 4450
 NoConn ~ 19750 8050
-$Comp
-L Conn_Coaxial J1801
-U 1 1 5B1205D5
-P 1900 2050
-F 0 "J1801" H 1910 2170 50  0000 C CNN
-F 1 "MHF4" H 2100 2050 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 1900 2050 50  0001 C CNN
-F 3 "" H 1900 2050 50  0001 C CNN
-	1    1900 2050
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR0331
 U 1 1 5B1205DC
@@ -1879,17 +1874,6 @@ Wire Wire Line
 	1750 2050 1700 2050
 Wire Wire Line
 	1700 2050 1700 2000
-$Comp
-L Conn_Coaxial J1802
-U 1 1 5B1206AC
-P 1900 2900
-F 0 "J1802" H 1910 3020 50  0000 C CNN
-F 1 "MHF4" H 2100 2900 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 1900 2900 50  0001 C CNN
-F 3 "" H 1900 2900 50  0001 C CNN
-	1    1900 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR0332
 U 1 1 5B1206B3
@@ -2084,4 +2068,38 @@ Wire Wire Line
 Connection ~ 6100 950 
 Text Notes 5350 900  0    60   ~ 0
 M.2 Key E
+$Comp
+L Conn_Coaxial J1801
+U 1 1 5B6AA251
+P 1900 2050
+F 0 "J1801" H 1910 2170 50  0000 C CNN
+F 1 "MHF4" H 2100 2050 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 1900 2050 50  0001 C CNN
+F 3 "https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf" H 1900 2050 50  0001 C CNN
+F 4 "Taoglas" H 1900 2050 60  0001 C CNN "MFG Name"
+F 5 "RECE-20449-001E-01" H 1900 2050 60  0001 C CNN "MFG Part Num"
+F 6 "960-RECE20449-001E01" H 1900 2050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D" H 1900 2050 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1900 2050 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=20449-001E&start=0" H 1900 2050 60  0001 C CNN "Others"
+	1    1900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J1802
+U 1 1 5B6AA2C1
+P 1900 2900
+F 0 "J1802" H 1910 3020 50  0000 C CNN
+F 1 "MHF4" H 2100 2900 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 1900 2900 50  0001 C CNN
+F 3 "https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf" H 1900 2900 50  0001 C CNN
+F 4 "Taoglas" H 1900 2900 60  0001 C CNN "MFG Name"
+F 5 "RECE-20449-001E-01" H 1900 2900 60  0001 C CNN "MFG Part Num"
+F 6 "960-RECE20449-001E01" H 1900 2900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D" H 1900 2900 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1900 2900 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=20449-001E&start=0" H 1900 2900 60  0001 C CNN "Others"
+	1    1900 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -58,7 +58,7 @@ F 3 "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf" H 6050 3810 50  0001 C 
 F 4 "Molex" H 6050 3900 60  0001 C CNN "MFG Name"
 F 5 "0530480210" H 6050 3900 60  0001 C CNN "MFG Part Num"
 F 6 "0530480210" H 6050 3900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/0530480210/molex?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=0530480210&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart" H 6050 3900 60  0001 C CNN "Distrib Link"
+F 7 "https://www.arrow.com/en/products/0530480210/molex" H 6050 3900 60  0001 C CNN "Distrib Link"
 F 8 "-" H 6050 3900 60  0001 C CNN "Tolerance"
 F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H 6050 3900 60  0001 C CNN "Others"
 	1    6050 3900

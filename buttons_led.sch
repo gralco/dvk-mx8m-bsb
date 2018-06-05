@@ -137,17 +137,6 @@ ON/OFF
 Wire Wire Line
 	3400 6000 4300 6000
 $Comp
-L Q_NMOS_GSD Q1401
-U 1 1 5ACC7CF3
-P 8650 3750
-F 0 "Q1401" H 8850 3800 50  0000 L CNN
-F 1 "2N7002P" H 8850 3700 50  0000 L CNN
-F 2 "" H 8850 3850 50  0001 C CNN
-F 3 "" H 8650 3750 50  0001 C CNN
-	1    8650 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR0214
 U 1 1 5ACC7D2C
 P 8750 4000
@@ -671,7 +660,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 6050 3650 5950
+	3650 5950 3650 6050
 $Comp
 L 3V3_P #PWR0226
 U 1 1 5B1DEF78
@@ -714,6 +703,23 @@ F 1 "3V3" H 3650 4490 50  0000 C CNN
 F 2 "" H 3650 4350 50  0001 C CNN
 F 3 "" H 3650 4350 50  0001 C CNN
 	1    3650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q1401
+U 1 1 5B5A957A
+P 8650 3750
+F 0 "Q1401" H 8850 3800 50  0000 L CNN
+F 1 "2SK3018" H 8850 3700 50  0000 L CNN
+F 2 "" H 8850 3850 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 8650 3750 50  0001 C CNN
+F 4 "Micro Commercial Co" V 8650 3750 60  0001 C CNN "MFG Name"
+F 5 "2SK3018-TP" V 8650 3750 60  0001 C CNN "MFG Part Num"
+F 6 "833-2SK3018-TP" V 8650 3750 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 8650 3750 60  0001 C CNN "Distrib Link"
+F 8 "-" V 8650 3750 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 8650 3750 60  0001 C CNN "Others"
+	1    8650 3750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -52,9 +52,15 @@ L L L402
 U 1 1 5AC89425
 P 3000 1800
 F 0 "L402" V 3060 1800 50  0000 C CNN
-F 1 "2uH" V 2950 1800 50  0000 C CNN
+F 1 "2.2uH" V 2950 1800 50  0000 C CNN
 F 2 "" H 3000 1800 50  0001 C CNN
-F 3 "" H 3000 1800 50  0001 C CNN
+F 3 "https://www.coilcraft.com/pdfs/xal50xx.pdf" H 3000 1800 50  0001 C CNN
+F 4 "Coilcraft" V 3000 1800 60  0001 C CNN "MFG Name"
+F 5 "XAL5030-222" V 3000 1800 60  0001 C CNN "MFG Part Num"
+F 6 "994-XAL5030-222MEB" V 3000 1800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Coilcraft/XAL5030-222MEB?qs=sGAEpiMZZMsg%252by3WlYCkU2kWFds1hA9DNQaFKMACSb4%3d" V 3000 1800 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 3000 1800 60  0001 C CNN "Tolerance"
+F 9 "https://www.coilcraft.com/apps/finder/finder.cfm?mfc=Richtek&apl=2%20uH&IC=RT8070&desc=Step-down%20converter" V 3000 1800 60  0001 C CNN "Others"
 	1    3000 1800
 	0    -1   -1   0   
 $EndComp
@@ -165,6 +171,12 @@ F 0 "U401" H 1950 2950 60  0000 C CNN
 F 1 "RT8070" H 2300 2950 60  0000 C CNN
 F 2 "" H 2200 2450 60  0001 C CNN
 F 3 "https://www.richtek.com/assets/product_file/RT8070/DS8070-08.pdf" H 2200 2450 60  0001 C CNN
+F 4 "Richtek" H 2150 2300 60  0001 C CNN "MFG Name"
+F 5 "RT8070ZSP" H 2150 2300 60  0001 C CNN "MFG Part Num"
+F 6 "1028-1109-1-ND" H 2150 2300 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/richtek-usa-inc/RT8070ZSP/1028-1109-1-ND/3078112" H 2150 2300 60  0001 C CNN "Distrib Link"
+F 8 "-" H 2150 2300 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=RT8070&start=0" H 2150 2300 60  0001 C CNN "Others"
 	1    2150 2300
 	1    0    0    -1  
 $EndComp
@@ -335,7 +347,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005572A.pdf" H 2650 4800 
 F 4 "Microchip" H 2600 4850 60  0001 C CNN "MFG Name"
 F 5 "MIC2876-AYMT-TR" H 2600 4850 60  0001 C CNN "MFG Part Num"
 F 6 "MIC2876-AYMT-TR" H 2600 4850 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/mic2876-aymt-tr/microchip-technology?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=MIC2876-AYMT-TR&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart" H 2600 4850 60  0001 C CNN "Distrib Link"
+F 7 "https://www.arrow.com/en/products/mic2876-aymt-tr/microchip-technology" H 2600 4850 60  0001 C CNN "Distrib Link"
 F 8 "-" H 2600 4850 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-regulators-dc-dc-switching-regulators/739?k=&pkeyword=&pv16=6793&pv16=9&pv16=13619&pv16=12249&pv16=17267&pv16=12771&pv16=12161&pv16=14930&pv16=11948&pv16=13043&pv16=16861&FV=1140003%2C15c0002%2C2040001%2C2040068%2C204000d%2C204008f%2C204000f%2C20400a0%2C20400a4%2C2040011%2C2040012%2C204072c%2C204074e%2C20407c1%2C2040002%2C2040014%2C2040807%2C2040808%2C2040809%2C204080a%2C204080b%2C204080f%2C2040810%2C2040812%2C2040813%2C2040815%2C2040817%2C2040818%2C2040819%2C2040827%2C2040828%2C204082a%2C204082b%2C204082c%2C204082d%2C204082e%2C204082f%2C2040830%2C2040831%2C2040840%2C2040842%2C2040843%2C2040845%2C2040846%2C2040848%2C2040849%2C2040856%2C2040857%2C20400d6%2C2040860%2C2040863%2C204086a%2C20400d8%2C2040870%2C2040872%2C2040879%2C204087c%2C204087f%2C2040880%2C2040881%2C2040882%2C204088b%2C204088d%2C204088e%2C20408a5%2C20408a6%2C20408ae%2C20400e9%2C20400ea%2C2040949%2C20400f4%2C2040104%2C204011c%2C2040131%2C204016b%2C204020c%2C2040006%2C2040007%2C20402d5%2C2040008%2C2040060%2C3fc00b5%2C8f40071%2C8f400a2%2C8f400b2%2C8f40013%2C8f40014%2C8f40015%2C8f400d5%2C8f400d8%2C8f40019%2C8f4001a%2C8f4001e%2C8f40025%2C8f40028%2C8f4002b%2C8f4002f%2C8f40032%2C8f40034%2C8f40042%2C8f40043%2C11280136%2C11280138%2C112801aa%2C112801ab%2C112801bc%2C112801bd%2C112801be%2C112801c7%2C112801c8%2C112801c9%2C16fc0091%2C16fc00ab%2C16fc00b1%2C16fc00b4%2C16fc00b5%2C16fc00b7%2C16fc00bf%2C16fc00c9%2C16fc001f%2C16fc002c%2C16fc002d%2C16fc0031%2C16fc0039%2C16fc003d%2C16fc0040%2C16fc0046%2C16fc0053%2C1f140000%2Cffe002e3&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 2600 4850 60  0001 C CNN "Others"
 	1    2600 4850
@@ -414,9 +426,9 @@ F 1 "2.2uH" V 9500 2050 50  0000 C CNN
 F 2 "" H 9550 2050 50  0001 C CNN
 F 3 "https://www.coilcraft.com/pdfs/lps4018.pdf" H 9550 2050 50  0001 C CNN
 F 4 "Coilcraft" V 9550 2050 60  0001 C CNN "MFG Name"
-F 5 "LPS4018-222MLB" V 9550 2050 60  0001 C CNN "MFG Part Num"
-F 6 "994-LPS4018-222MLB" V 9550 2050 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Coilcraft/LPS4018-222MLB?qs=zCSbvcPd3pYqVDdQX%2F%252buFA%3D%3D" V 9550 2050 60  0001 C CNN "Distrib Link"
+F 5 "LPS4018-222MRB" V 9550 2050 60  0001 C CNN "MFG Part Num"
+F 6 "994-LPS4018-222MRB" V 9550 2050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Coilcraft/LPS4018-222MRB?qs=sGAEpiMZZMsg%252by3WlYCkUyYZYjlLTHufsnqE1IhSpno%3d" V 9550 2050 60  0001 C CNN "Distrib Link"
 F 8 "20%" V 9550 2050 60  0001 C CNN "Tolerance"
 F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=LPS4018-222M" V 9550 2050 60  0001 C CNN "Others"
 	1    9550 2050
@@ -1047,7 +1059,13 @@ P 8900 4300
 F 0 "L403" V 8975 4300 50  0000 C CNN
 F 1 "22uH" V 8850 4300 50  0000 C CNN
 F 2 "" H 8900 4300 50  0001 C CNN
-F 3 "" H 8900 4300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0039.pdf" H 8900 4300 50  0001 C CNN
+F 4 "Murata" V 8900 4300 60  0001 C CNN "MFG Name"
+F 5 "LQH32CN220K" V 8900 4300 60  0001 C CNN "MFG Part Num"
+F 6 "LQH32CN220K23L" V 8900 4300 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/lqh32cn220k23l/murata-manufacturing" V 8900 4300 60  0001 C CNN "Distrib Link"
+F 8 "10%" V 8900 4300 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/lqh32cn220k53l/murata-manufacturing" V 8900 4300 60  0001 C CNN "Others"
 	1    8900 4300
 	0    -1   -1   0   
 $EndComp
@@ -1660,8 +1678,9 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf" H 5750 7000 50
 F 4 "Microchip" H 5750 7000 60  0001 C CNN "MFG Name"
 F 5 "MIC5365-2.8YC5-TR" H 5750 7000 60  0001 C CNN "MFG Part Num"
 F 6 "576-3187-1-ND" H 5750 7000 60  0001 C CNN "Distrib PN"
-F 7 "-" H 5750 7000 60  0001 C CNN "Tolerance"
-F 8 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5750 7000 60  0001 C CNN "Others"
+F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5365-2.8YD5-TR/1611-MIC5365-2.8YD5-CT-ND/5700550" H 5750 7000 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5750 7000 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5750 7000 60  0001 C CNN "Others"
 	1    5750 7000
 	1    0    0    -1  
 $EndComp

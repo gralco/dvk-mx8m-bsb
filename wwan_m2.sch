@@ -6563,9 +6563,9 @@ F 1 "WWAN_HKS" V 4350 5250 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 4400 4900 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 4400 4900 50  0001 C CNN
 F 4 "C&K" V 4400 4900 60  0001 C CNN "MFG Name"
-F 5 "JS202011JCQN" V 4400 4900 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10723CT-ND" V 4400 4900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" V 4400 4900 60  0001 C CNN "Distrib Link"
+F 5 "JS202011JAQN" V 4400 4900 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 4400 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 4400 4900 60  0001 C CNN "Distrib Link"
 F 8 "-" V 4400 4900 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 4400 4900 60  0001 C CNN "Others"
 	1    4400 4900
@@ -6582,7 +6582,7 @@ F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 5650 5050 50  0001 C CNN
 F 4 "C&K" V 5650 5050 60  0001 C CNN "MFG Name"
 F 5 "JS202011JAQN" V 5650 5050 60  0001 C CNN "MFG Part Num"
 F 6 "CKN10722CT-ND" V 5650 5050 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.de/product-detail/de/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 5650 5050 60  0001 C CNN "Distrib Link"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 5650 5050 60  0001 C CNN "Distrib Link"
 F 8 "-" V 5650 5050 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 5650 5050 60  0001 C CNN "Others"
 	2    5650 5050
@@ -6664,7 +6664,13 @@ P 3050 1200
 F 0 "J1502" H 3060 1320 50  0000 C CNN
 F 1 "MHF4" H 3250 1200 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 3050 1200 50  0001 C CNN
-F 3 "" H 3050 1200 50  0001 C CNN
+F 3 "https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf" H 3050 1200 50  0001 C CNN
+F 4 "Taoglas" H 3050 1200 60  0001 C CNN "MFG Name"
+F 5 "RECE-20449-001E-01" H 3050 1200 60  0001 C CNN "MFG Part Num"
+F 6 "960-RECE20449-001E01" H 3050 1200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D" H 3050 1200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 3050 1200 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=20449-001E&start=0" H 3050 1200 60  0001 C CNN "Others"
 	1    3050 1200
 	1    0    0    -1  
 $EndComp
@@ -6677,17 +6683,6 @@ F 1 "GND" H 3050 1300 50  0000 C CNN
 F 2 "" H 3050 1450 50  0001 C CNN
 F 3 "" H 3050 1450 50  0001 C CNN
 	1    3050 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_Coaxial J1503
-U 1 1 5B118DC4
-P 3050 2050
-F 0 "J1503" H 3060 2170 50  0000 C CNN
-F 1 "MHF4" H 3250 2050 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 3050 2050 50  0001 C CNN
-F 3 "" H 3050 2050 50  0001 C CNN
-	1    3050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7391,4 +7386,21 @@ Wire Wire Line
 Connection ~ 2600 7200
 Text Notes 4000 7050 0    60   ~ 0
 IN/OUT of\nthe module
+$Comp
+L Conn_Coaxial J1503
+U 1 1 5B6A4DC6
+P 3050 2050
+F 0 "J1503" H 3060 2170 50  0000 C CNN
+F 1 "MHF4" H 3250 2050 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 3050 2050 50  0001 C CNN
+F 3 "https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf" H 3050 2050 50  0001 C CNN
+F 4 "Taoglas" H 3050 2050 60  0001 C CNN "MFG Name"
+F 5 "RECE-20449-001E-01" H 3050 2050 60  0001 C CNN "MFG Part Num"
+F 6 "960-RECE20449-001E01" H 3050 2050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D" H 3050 2050 60  0001 C CNN "Distrib Link"
+F 8 "-" H 3050 2050 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=20449-001E&start=0" H 3050 2050 60  0001 C CNN "Others"
+	1    3050 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
