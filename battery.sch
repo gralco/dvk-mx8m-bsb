@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 24
 Title "Battery"
-Date "2018-06-01"
+Date "2018-06-06"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -2560,4 +2560,6 @@ F 3 "" H 3800 4050 50  0001 C CNN
 	1    3800 4050
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 4250 0    39   ~ 0
+THT Option:\nKeystone 1043
 $EndSCHEMATC
