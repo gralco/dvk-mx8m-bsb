@@ -312,17 +312,6 @@ EN_SRC
 Text HLabel 3400 4900 0    60   Input ~ 0
 EN_SNK
 $Comp
-L LED_ALT D302
-U 1 1 5AE5FE86
-P 3400 3150
-F 0 "D302" V 3450 2975 50  0000 C CNN
-F 1 "LED_ALT" V 3350 2950 50  0000 C CNN
-F 2 "" H 3400 3150 50  0001 C CNN
-F 3 "" H 3400 3150 50  0001 C CNN
-	1    3400 3150
-	0    1    -1   0   
-$EndComp
-$Comp
 L VBAT_REG #PWR064
 U 1 1 5AE5FF35
 P 3400 2950
@@ -338,7 +327,7 @@ L R R302
 U 1 1 5AE61BA6
 P 3400 3500
 F 0 "R302" H 3550 3550 50  0000 C CNN
-F 1 "2.2k" H 3525 3450 50  0000 C CNN
+F 1 "2.21k" H 3550 3450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3330 3500 50  0001 C CNN
 F 3 "" H 3400 3500 50  0001 C CNN
 	1    3400 3500
@@ -349,7 +338,7 @@ L R R301
 U 1 1 5AE62134
 P 3000 3500
 F 0 "R301" H 3150 3550 50  0000 C CNN
-F 1 "2.2k" H 3125 3450 50  0000 C CNN
+F 1 "2.21k" H 3150 3450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2930 3500 50  0001 C CNN
 F 3 "" H 3000 3500 50  0001 C CNN
 	1    3000 3500
@@ -359,12 +348,18 @@ $Comp
 L LED_ALT D301
 U 1 1 5AE62EC1
 P 3000 3150
-F 0 "D301" V 3050 2975 50  0000 C CNN
-F 1 "LED_ALT" V 2950 2950 50  0000 C CNN
-F 2 "" H 3000 3150 50  0001 C CNN
-F 3 "" H 3000 3150 50  0001 C CNN
+F 0 "D301" V 3050 3325 50  0000 C CNN
+F 1 "GREEN" V 2950 3350 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LTST-C190GKT" H 3000 3150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" H 3000 3150 50  0001 C CNN
+F 4 "Lite-On" V 3000 3150 60  0001 C CNN "MFG Name"
+F 5 "LTST-C190GKT" V 3000 3150 60  0001 C CNN "MFG Part Num"
+F 6 "LTST-C190GKT" V 3000 3150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology" V 3000 3150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3000 3150 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 3000 3150 60  0001 C CNN "Others"
 	1    3000 3150
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L VBAT_REG #PWR065
@@ -2353,17 +2348,6 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R310
-U 1 1 5BA1BB3A
-P 9950 2800
-F 0 "R310" H 10100 2850 50  0000 C CNN
-F 1 "330" H 10100 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9880 2800 50  0001 C CNN
-F 3 "" H 9950 2800 50  0001 C CNN
-	1    9950 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GND #PWR075
 U 1 1 5BA1BC16
 P 9950 3350
@@ -2381,25 +2365,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 2650 9950 2600
 Connection ~ 9950 2600
-Text Notes 10000 3050 0    60   ~ 0
-1.4mA~~7mA
-$Comp
-L LED_ALT D304
-U 1 1 5BA9D13D
-P 9950 3150
-F 0 "D304" V 9950 2950 50  0000 C CNN
-F 1 "GREEN_LED" V 9850 2850 50  0000 C CNN
-F 2 "" H 9950 3150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C171GKT.pdf" H 9950 3150 50  0001 C CNN
-F 4 "Lite-On" V 9950 3150 60  0001 C CNN "MFG Name"
-F 5 "LTST-C171GKT" V 9950 3150 60  0001 C CNN "MFG Part Num"
-F 6 "LTST-C171GKT" V 9950 3150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/ltst-c171gkt/lite-on-technology" V 9950 3150 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9950 3150 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=LTST-C171GKT&start=0" V 9950 3150 60  0001 C CNN "Others"
-	1    9950 3150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R305
 U 1 1 5B302D80
@@ -2562,4 +2527,55 @@ F 3 "" H 3800 4050 50  0001 C CNN
 $EndComp
 Text Notes 7050 4250 0    39   ~ 0
 THT Option:\nKeystone 1043
+Text Notes 3050 3800 0    60   ~ 0
+sink current ~~5mA
+$Comp
+L LED_ALT D302
+U 1 1 5B304940
+P 3400 3150
+F 0 "D302" V 3450 3325 50  0000 C CNN
+F 1 "GREEN" V 3350 3350 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LTST-C190GKT" H 3400 3150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" H 3400 3150 50  0001 C CNN
+F 4 "Lite-On" V 3400 3150 60  0001 C CNN "MFG Name"
+F 5 "LTST-C190GKT" V 3400 3150 60  0001 C CNN "MFG Part Num"
+F 6 "LTST-C190GKT" V 3400 3150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology" V 3400 3150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3400 3150 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 3400 3150 60  0001 C CNN "Others"
+	1    3400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_ALT D304
+U 1 1 5B3049D4
+P 9950 2800
+F 0 "D304" V 10000 2975 50  0000 C CNN
+F 1 "GREEN" V 9900 3000 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LTST-C190GKT" H 9950 2800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" H 9950 2800 50  0001 C CNN
+F 4 "Lite-On" V 9950 2800 60  0001 C CNN "MFG Name"
+F 5 "LTST-C190GKT" V 9950 2800 60  0001 C CNN "MFG Part Num"
+F 6 "LTST-C190GKT" V 9950 2800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology" V 9950 2800 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9950 2800 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 9950 2800 60  0001 C CNN "Others"
+	1    9950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R310
+U 1 1 5B30501E
+P 9950 3150
+F 0 "R310" H 10100 3200 50  0000 C CNN
+F 1 "2.21k" H 10100 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9880 3150 50  0001 C CNN
+F 3 "" H 9950 3150 50  0001 C CNN
+	1    9950 3150
+	-1   0    0    -1  
+$EndComp
+Text Notes 10025 3075 0    60   ~ 0
+0.18mA~~0.95mA
+Text Notes 9700 3350 0    60   ~ 0
+1%
 $EndSCHEMATC

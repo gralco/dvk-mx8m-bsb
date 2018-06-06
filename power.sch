@@ -1075,8 +1075,14 @@ U 1 1 5B1A4D0A
 P 9800 3700
 F 0 "D401" H 9800 3800 50  0000 C CNN
 F 1 "SS14" H 9800 3600 50  0000 C CNN
-F 2 "" H 9800 3700 50  0001 C CNN
-F 3 "" H 9800 3700 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:DO-214AC" H 9800 3700 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/SS/SS12.pdf" H 9800 3700 50  0001 C CNN
+F 4 "ON Semiconductor" H 9800 3700 60  0001 C CNN "MFG Name"
+F 5 "SS14" H 9800 3700 60  0001 C CNN "MFG Part Num"
+F 6 "SS14CT-ND" H 9800 3700 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729" H 9800 3700 60  0001 C CNN "Distrib Link"
+F 8 "-" H 9800 3700 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=SS14&start=0" H 9800 3700 60  0001 C CNN "Others"
 	1    9800 3700
 	-1   0    0    -1  
 $EndComp

@@ -699,9 +699,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 6200 3650 6200
 Wire Wire Line
-	3650 6200 3650 6850
+	3650 6850 3650 6200
 Wire Wire Line
-	3650 6850 2850 6850
+	2850 6850 3650 6850
 Wire Wire Line
 	2850 6850 2850 6800
 Wire Wire Line
@@ -916,9 +916,9 @@ Connection ~ 6300 1350
 Wire Wire Line
 	4050 4950 4000 4950
 Wire Wire Line
-	4050 5100 3950 5100
+	3950 5100 4050 5100
 Wire Wire Line
-	4050 5200 3950 5200
+	3950 5200 4050 5200
 Wire Wire Line
 	1750 5300 2550 5300
 Wire Wire Line
@@ -1162,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 3600 8800 3600
 Wire Wire Line
-	8800 3600 8800 3450
+	8800 3450 8800 3600
 Wire Wire Line
 	8000 3450 8000 3500
 Wire Wire Line
@@ -1216,26 +1216,9 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 3450 8000 3450
+	8000 3450 8800 3450
 Wire Wire Line
 	8300 3800 8300 3900
-$Comp
-L LED_ALT D1702
-U 1 1 5BA429D9
-P 9850 4900
-F 0 "D1702" V 9850 4700 50  0000 C CNN
-F 1 "GREEN_LED" V 9750 4600 50  0000 C CNN
-F 2 "" H 9850 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C171GKT.pdf" H 9850 4900 50  0001 C CNN
-F 4 "Lite-On" V 9850 4900 60  0001 C CNN "MFG Name"
-F 5 "LTST-C171GKT" V 9850 4900 60  0001 C CNN "MFG Part Num"
-F 6 "LTST-C171GKT" V 9850 4900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/ltst-c171gkt/lite-on-technology" V 9850 4900 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9850 4900 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=LTST-C171GKT&start=0" V 9850 4900 60  0001 C CNN "Others"
-	1    9850 4900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R1712
 U 1 1 5B3487C7
@@ -1480,7 +1463,7 @@ U 1 1 5B41CBCA
 P 2700 5300
 F 0 "D1701" H 2700 5210 50  0000 C CNN
 F 1 "DB2J209" H 2700 5150 50  0000 C CNN
-F 2 "" H 2700 5300 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 2700 5300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 2700 5300 50  0001 C CNN
 F 4 "Panasonic" V 2700 5300 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 2700 5300 60  0001 C CNN "MFG Part Num"
@@ -1608,5 +1591,22 @@ F 8 "25%" V 9200 3900 60  0001 C CNN "Tolerance"
 F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 9200 3900 60  0001 C CNN "Others"
 	1    9200 3900
 	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D1702
+U 1 1 5B38E6C5
+P 9850 4900
+F 0 "D1702" V 9900 4700 50  0000 C CNN
+F 1 "GREEN" V 9800 4700 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LTST-C190GKT" H 9850 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" H 9850 4900 50  0001 C CNN
+F 4 "Lite-On" V 9850 4900 60  0001 C CNN "MFG Name"
+F 5 "LTST-C190GKT" V 9850 4900 60  0001 C CNN "MFG Part Num"
+F 6 "LTST-C190GKT" V 9850 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology" V 9850 4900 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9850 4900 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 9850 4900 60  0001 C CNN "Others"
+	1    9850 4900
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

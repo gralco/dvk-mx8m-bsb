@@ -529,7 +529,7 @@ U 1 1 5AF3B9C5
 P 9100 2950
 F 0 "D203" V 9100 2775 50  0000 C CNN
 F 1 "PTVS20VS1UTR" V 9175 2600 50  0000 C CNN
-F 2 "" H 9100 2950 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:D_SOD-123W" H 9100 2950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PTVSXS1UTR_SER.pdf" H 9100 2950 50  0001 C CNN
 F 4 "NXP" V 9100 2950 60  0001 C CNN "MFG Name"
 F 5 "PTVS20VS1UTR" V 9100 2950 60  0001 C CNN "MFG Part Num"
@@ -785,45 +785,18 @@ $Comp
 L D_TVS_ALT D202
 U 1 1 5AF9EF91
 P 8550 5550
-F 0 "D202" V 8500 5350 50  0000 C CNN
-F 1 "ESD5B5.0" V 8600 5250 50  0000 C CNN
-F 2 "" H 8550 5550 50  0001 C CNN
-F 3 "" H 8550 5550 50  0001 C CNN
+F 0 "D202" V 8500 5375 50  0000 C CNN
+F 1 "ESD5B5.0" V 8600 5300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 8550 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 8550 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 8550 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 8550 5550 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 8550 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 8550 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 8550 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 8550 5550 60  0001 C CNN "Others"
 	1    8550 5550
 	0    1    1    0   
-$EndComp
-$Comp
-L D_TVS_ALT D204
-U 1 1 5AF9FFAE
-P 9100 5550
-F 0 "D204" V 9050 5350 50  0000 C CNN
-F 1 "ESD5B5.0" V 9150 5250 50  0000 C CNN
-F 2 "" H 9100 5550 50  0001 C CNN
-F 3 "" H 9100 5550 50  0001 C CNN
-	1    9100 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L D_TVS_ALT D205
-U 1 1 5AFA071E
-P 9300 5550
-F 0 "D205" V 9250 5350 50  0000 C CNN
-F 1 "ESD5B5.0" V 9350 5250 50  0000 C CNN
-F 2 "" H 9300 5550 50  0001 C CNN
-F 3 "" H 9300 5550 50  0001 C CNN
-	1    9300 5550
-	0    -1   1    0   
-$EndComp
-$Comp
-L D_TVS_ALT D206
-U 1 1 5AFA0A0A
-P 9850 5550
-F 0 "D206" V 9800 5350 50  0000 C CNN
-F 1 "ESD5B5.0" V 9900 5250 50  0000 C CNN
-F 2 "" H 9850 5550 50  0001 C CNN
-F 3 "" H 9850 5550 50  0001 C CNN
-	1    9850 5550
-	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	4500 2250 4450 2250
@@ -1577,7 +1550,7 @@ U 1 1 5B41CF31
 P 2000 6400
 F 0 "D201" H 1800 6350 50  0000 C CNN
 F 1 "DB2J209" H 1750 6475 50  0000 C CNN
-F 2 "" H 2000 6400 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 2000 6400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 2000 6400 50  0001 C CNN
 F 4 "Panasonic" V 2000 6400 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 2000 6400 60  0001 C CNN "MFG Part Num"
@@ -1624,7 +1597,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 $EndComp
 Text Notes 4850 2900 0    60   ~ 0
 7-Bit Slave Address: 0x52\n       (1010 010x)
-Text Notes 5500 2650 0    60   ~ 0
+Text Notes 5500 2675 0    60   ~ 0
 Read: 0xA5\nWrite: 0xA4
 Wire Wire Line
 	4500 2650 4500 2700
@@ -1642,4 +1615,55 @@ Wire Wire Line
 	4500 2500 4500 2550
 Connection ~ 4500 2550
 Connection ~ 4100 2550
+$Comp
+L D_TVS_ALT D204
+U 1 1 5B1E1397
+P 9100 5550
+F 0 "D204" V 9050 5375 50  0000 C CNN
+F 1 "ESD5B5.0" V 9150 5300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9100 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9100 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 9100 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9100 5550 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 9100 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9100 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9100 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9100 5550 60  0001 C CNN "Others"
+	1    9100 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D205
+U 1 1 5B1E1464
+P 9300 5550
+F 0 "D205" V 9250 5375 50  0000 C CNN
+F 1 "ESD5B5.0" V 9350 5300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9300 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9300 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 9300 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9300 5550 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 9300 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9300 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9300 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9300 5550 60  0001 C CNN "Others"
+	1    9300 5550
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D206
+U 1 1 5B1E1575
+P 9850 5550
+F 0 "D206" V 9800 5375 50  0000 C CNN
+F 1 "ESD5B5.0" V 9900 5300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9850 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9850 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 9850 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9850 5550 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 9850 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9850 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9850 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9850 5550 60  0001 C CNN "Others"
+	1    9850 5550
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

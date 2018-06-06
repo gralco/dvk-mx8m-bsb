@@ -150,12 +150,12 @@ $EndComp
 $Comp
 L R R1411
 U 1 1 5ACC7E2E
-P 8750 3000
-F 0 "R1411" H 8925 3050 50  0000 C CNN
-F 1 "330" H 8875 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8680 3000 50  0001 C CNN
-F 3 "" H 8750 3000 50  0001 C CNN
-	1    8750 3000
+P 8750 3350
+F 0 "R1411" H 8925 3400 50  0000 C CNN
+F 1 "330" H 8875 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8680 3350 50  0001 C CNN
+F 3 "" H 8750 3350 50  0001 C CNN
+	1    8750 3350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -440,46 +440,12 @@ F 3 "" H 8050 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 4150 8050 4100
-$Comp
-L LED_ALT D1405
-U 1 1 5BAA5022
-P 8750 3350
-F 0 "D1405" V 8750 3150 50  0000 C CNN
-F 1 "GREEN_LED" V 8650 3050 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 8750 3350 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C171GKT.pdf" H 8750 3350 50  0001 C CNN
-F 4 "Lite-On" V 8750 3350 60  0001 C CNN "MFG Name"
-F 5 "LTST-C171GKT" V 8750 3350 60  0001 C CNN "MFG Part Num"
-F 6 "LTST-C171GKT" V 8750 3350 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/ltst-c171gkt/lite-on-technology" V 8750 3350 60  0001 C CNN "Distrib Link"
-F 8 "-" V 8750 3350 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=LTST-C171GKT&start=0" V 8750 3350 60  0001 C CNN "Others"
-	1    8750 3350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3450 3550 3450 3500
 Connection ~ 3450 3500
 Wire Wire Line
 	3450 2300 3450 2250
 Connection ~ 3450 2250
-$Comp
-L TVS_DIODE D1404
-U 1 1 5B11A1E5
-P 3450 6200
-F 0 "D1404" V 3425 6000 50  0000 C CNN
-F 1 "TPD1E10B09" V 3500 5900 50  0000 C CNN
-F 2 "" H 3550 6200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b09.pdf" H 3550 6200 50  0001 C CNN
-F 4 "Texas Instruments" V 3450 6200 60  0001 C CNN "MFG Name"
-F 5 "TPD1E10B09" V 3450 6200 60  0001 C CNN "MFG Part Num"
-F 6 "TPD1E10B09DPYR" V 3450 6200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/tpd1e10b09dpyr/texas-instruments" V 3450 6200 60  0001 C CNN "Distrib Link"
-F 8 "-" V 3450 6200 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=TPD1E10B09&start=0" V 3450 6200 60  0001 C CNN "Others"
-	1    3450 6200
-	0    1    1    0   
-$EndComp
 Connection ~ 3450 6000
 Wire Wire Line
 	3450 4800 3450 4750
@@ -499,57 +465,6 @@ F 3 "" H 3450 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 6400 3450 6350
-$Comp
-L TVS_DIODE D1402
-U 1 1 5B124807
-P 3450 3700
-F 0 "D1402" V 3425 3500 50  0000 C CNN
-F 1 "TPD1E10B09" V 3500 3400 50  0000 C CNN
-F 2 "" H 3550 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b09.pdf" H 3550 3700 50  0001 C CNN
-F 4 "Texas Instruments" V 3450 3700 60  0001 C CNN "MFG Name"
-F 5 "TPD1E10B09" V 3450 3700 60  0001 C CNN "MFG Part Num"
-F 6 "TPD1E10B09DPYR" V 3450 3700 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/tpd1e10b09dpyr/texas-instruments" V 3450 3700 60  0001 C CNN "Distrib Link"
-F 8 "-" V 3450 3700 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=TPD1E10B09&start=0" V 3450 3700 60  0001 C CNN "Others"
-	1    3450 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L TVS_DIODE D1401
-U 1 1 5B124B49
-P 3450 2450
-F 0 "D1401" V 3425 2250 50  0000 C CNN
-F 1 "TPD1E10B09" V 3500 2150 50  0000 C CNN
-F 2 "" H 3550 2450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b09.pdf" H 3550 2450 50  0001 C CNN
-F 4 "Texas Instruments" V 3450 2450 60  0001 C CNN "MFG Name"
-F 5 "TPD1E10B09" V 3450 2450 60  0001 C CNN "MFG Part Num"
-F 6 "TPD1E10B09DPYR" V 3450 2450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/tpd1e10b09dpyr/texas-instruments" V 3450 2450 60  0001 C CNN "Distrib Link"
-F 8 "-" V 3450 2450 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=TPD1E10B09&start=0" V 3450 2450 60  0001 C CNN "Others"
-	1    3450 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L TVS_DIODE D1403
-U 1 1 5B125D7F
-P 3450 4950
-F 0 "D1403" V 3425 4750 50  0000 C CNN
-F 1 "TPD1E10B09" V 3500 4650 50  0000 C CNN
-F 2 "" H 3550 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b09.pdf" H 3550 4950 50  0001 C CNN
-F 4 "Texas Instruments" V 3450 4950 60  0001 C CNN "MFG Name"
-F 5 "TPD1E10B09" V 3450 4950 60  0001 C CNN "MFG Part Num"
-F 6 "TPD1E10B09DPYR" V 3450 4950 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/tpd1e10b09dpyr/texas-instruments" V 3450 4950 60  0001 C CNN "Distrib Link"
-F 8 "-" V 3450 4950 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=TPD1E10B09&start=0" V 3450 4950 60  0001 C CNN "Others"
-	1    3450 4950
-	0    1    1    0   
-$EndComp
 $Comp
 L GND #PWR0229
 U 1 1 5B126346
@@ -722,4 +637,91 @@ F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2S
 	1    8650 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L D_TVS_ALT D1401
+U 1 1 5B21D323
+P 3450 2450
+F 0 "D1401" V 3400 2250 50  0000 C CNN
+F 1 "ESD5B5.0" V 3500 2200 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 3450 2450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 3450 2450 50  0001 C CNN
+F 4 "ON Semiconductor" V 3450 2450 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 3450 2450 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 3450 2450 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 3450 2450 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3450 2450 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3450 2450 60  0001 C CNN "Others"
+	1    3450 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D1402
+U 1 1 5B21D35C
+P 3450 3700
+F 0 "D1402" V 3400 3500 50  0000 C CNN
+F 1 "ESD5B5.0" V 3500 3450 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 3450 3700 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 3450 3700 50  0001 C CNN
+F 4 "ON Semiconductor" V 3450 3700 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 3450 3700 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 3450 3700 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 3450 3700 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3450 3700 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3450 3700 60  0001 C CNN "Others"
+	1    3450 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D1403
+U 1 1 5B21D5E6
+P 3450 4950
+F 0 "D1403" V 3400 4750 50  0000 C CNN
+F 1 "ESD5B5.0" V 3500 4700 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 3450 4950 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 3450 4950 50  0001 C CNN
+F 4 "ON Semiconductor" V 3450 4950 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 3450 4950 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 3450 4950 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 3450 4950 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3450 4950 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3450 4950 60  0001 C CNN "Others"
+	1    3450 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D1404
+U 1 1 5B21D894
+P 3450 6200
+F 0 "D1404" V 3400 6000 50  0000 C CNN
+F 1 "ESD5B5.0" V 3500 5950 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 3450 6200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 3450 6200 50  0001 C CNN
+F 4 "ON Semiconductor" V 3450 6200 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 3450 6200 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 3450 6200 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 3450 6200 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3450 6200 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3450 6200 60  0001 C CNN "Others"
+	1    3450 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_ALT D1405
+U 1 1 5B2AEB0F
+P 8750 3000
+F 0 "D1405" V 8750 3200 50  0000 C CNN
+F 1 "RED" V 8650 3150 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LTST-C171KRKT" H 8750 3000 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/LTST-C171KRKT.pdf" H 8750 3000 50  0001 C CNN
+F 4 "Lite-On" V 8750 3000 60  0001 C CNN "MFG Name"
+F 5 "LTST-C171KRKT" V 8750 3000 60  0001 C CNN "MFG Part Num"
+F 6 "LTST-C171KRKT" V 8750 3000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ltst-c171krkt/lite-on-technology" V 8750 3000 60  0001 C CNN "Distrib Link"
+F 8 "-" V 8750 3000 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=LTST-C171KRKT&start=0" V 8750 3000 60  0001 C CNN "Others"
+	1    8750 3000
+	0    -1   -1   0   
+$EndComp
+Text Notes 8800 3550 0    60   ~ 0
+~~4mA
 $EndSCHEMATC

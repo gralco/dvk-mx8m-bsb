@@ -1737,40 +1737,6 @@ Text Label 7600 2250 0    60   ~ 0
 SW_HOME
 Text Notes 2850 6300 0    60   ~ 0
 2->1: eMMC\n2->3: USB (Serial Downloader)
-$Comp
-L TVS_DIODE D502
-U 1 1 5B0E3A58
-P 4200 5500
-F 0 "D502" V 4150 5675 50  0000 C CNN
-F 1 "TPD1E10B09" V 4250 5800 50  0000 C CNN
-F 2 "" H 4300 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b09.pdf" H 4300 5500 50  0001 C CNN
-F 4 "Texas Instruments" V 4200 5500 60  0001 C CNN "MFG Name"
-F 5 "TPD1E10B09" V 4200 5500 60  0001 C CNN "MFG Part Num"
-F 6 "TPD1E10B09DPYR" V 4200 5500 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/tpd1e10b09dpyr/texas-instruments" V 4200 5500 60  0001 C CNN "Distrib Link"
-F 8 "-" V 4200 5500 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=TPD1E10B09&start=0" V 4200 5500 60  0001 C CNN "Others"
-	1    4200 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L TVS_DIODE D501
-U 1 1 5B0E7160
-P 2800 5500
-F 0 "D501" V 2750 5675 50  0000 C CNN
-F 1 "TPD1E10B09" V 2850 5800 50  0000 C CNN
-F 2 "" H 2900 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd1e10b09.pdf" H 2900 5500 50  0001 C CNN
-F 4 "Texas Instruments" V 2800 5500 60  0001 C CNN "MFG Name"
-F 5 "TPD1E10B09" V 2800 5500 60  0001 C CNN "MFG Part Num"
-F 6 "TPD1E10B09DPYR" V 2800 5500 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/tpd1e10b09dpyr/texas-instruments" V 2800 5500 60  0001 C CNN "Distrib Link"
-F 8 "-" V 2800 5500 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=TPD1E10B09&start=0" V 2800 5500 60  0001 C CNN "Others"
-	1    2800 5500
-	0    -1   1    0   
-$EndComp
 Connection ~ 6600 6050
 Wire Wire Line
 	6650 6050 6600 6050
@@ -2412,4 +2378,38 @@ Wire Wire Line
 Connection ~ 3550 4100
 Wire Wire Line
 	3700 4450 3700 4500
+$Comp
+L D_TVS_ALT D501
+U 1 1 5B21861F
+P 2800 5500
+F 0 "D501" V 2750 5325 50  0000 C CNN
+F 1 "ESD5B5.0" V 2850 5250 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 2800 5500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 2800 5500 50  0001 C CNN
+F 4 "ON Semiconductor" V 2800 5500 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 2800 5500 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 2800 5500 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 2800 5500 60  0001 C CNN "Distrib Link"
+F 8 "-" V 2800 5500 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 2800 5500 60  0001 C CNN "Others"
+	1    2800 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D502
+U 1 1 5B218688
+P 4200 5500
+F 0 "D502" V 4150 5325 50  0000 C CNN
+F 1 "ESD5B5.0" V 4250 5250 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 4200 5500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 4200 5500 50  0001 C CNN
+F 4 "ON Semiconductor" V 4200 5500 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 4200 5500 60  0001 C CNN "MFG Part Num"
+F 6 "ESD5B5.0ST1GOSCT-ND" V 4200 5500 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 4200 5500 60  0001 C CNN "Distrib Link"
+F 8 "-" V 4200 5500 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 4200 5500 60  0001 C CNN "Others"
+	1    4200 5500
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

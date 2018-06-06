@@ -109,8 +109,14 @@ U 1 1 5AC55F7F
 P 6850 3850
 F 0 "D602" H 6750 3750 50  0000 C CNN
 F 1 "BAT54C" H 6850 3950 50  0000 C CNN
-F 2 "" H 6850 3850 50  0001 C CNN
-F 3 "" H 6850 3850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6850 3850 50  0001 C CNN
+F 3 "https://goodarksemi.com/docs/datasheets/schottky_diodes/BAT54-A-C-S.pdf" H 6850 3850 50  0001 C CNN
+F 4 "Good-Ark Semi" H 6850 3850 60  0001 C CNN "MFG Name"
+F 5 "BAT54C" H 6850 3850 60  0001 C CNN "MFG Part Num"
+F 6 "BAT54C" H 6850 3850 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/bat54c/good-ark-semiconductor" H 6850 3850 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6850 3850 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=BAT54C&start=0" H 6850 3850 60  0001 C CNN "Others"
 	1    6850 3850
 	-1   0    0    1   
 $EndComp
@@ -187,7 +193,7 @@ U 1 1 5B6718B5
 P 5550 3300
 F 0 "D601" H 5500 3200 50  0000 C CNN
 F 1 "DB2J209" H 5775 3250 50  0000 C CNN
-F 2 "" H 5550 3300 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 5550 3300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5550 3300 50  0001 C CNN
 F 4 "Panasonic" V 5550 3300 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 5550 3300 60  0001 C CNN "MFG Part Num"
