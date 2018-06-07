@@ -234,7 +234,7 @@ U 1 1 5AE34D8A
 P 7100 3900
 F 0 "F301" V 7000 3900 50  0000 C CNN
 F 1 "nanoSMD350LR" V 7200 3900 50  0000 C CNN
-F 2 "" H 7150 3700 50  0001 L CNN
+F 2 "dvk-mx8m-bsb:LittleFuse_1206" H 7150 3700 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lowrhosmd_datasheet.pdf.pdf" H 7100 3900 50  0001 C CNN
 F 4 "Littelfuse" V 7100 3900 60  0001 C CNN "MFG Name"
 F 5 "NANOSMD350LR-2" V 7100 3900 60  0001 C CNN "MFG Part Num"

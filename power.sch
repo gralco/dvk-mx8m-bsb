@@ -2604,4 +2604,8 @@ F 3 "" H 2700 7050 50  0001 C CNN
 	1    2700 7050
 	1    0    0    -1  
 $EndComp
+Text Notes 4400 2400 0    60   ~ 0
+AP22814: Ilimit=3.45A\nAP22804: Ilimit=3.00A (drop-in)
+Text Notes 4450 5050 0    60   ~ 0
+AP22814: Ilimit=3.45A\nAP22804: Ilimit=3.00A (drop-in)
 $EndSCHEMATC

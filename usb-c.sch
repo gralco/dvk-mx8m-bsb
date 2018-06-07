@@ -1368,7 +1368,7 @@ U 1 1 5AE32200
 P 9500 2750
 F 0 "F201" V 9600 2750 50  0000 C CNN
 F 1 "nanoSMD400LR" V 9400 2750 50  0000 C CNN
-F 2 "" H 9550 2550 50  0001 L CNN
+F 2 "dvk-mx8m-bsb:LittleFuse_1206" H 9550 2550 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lowrhosmd_datasheet.pdf.pdf" H 9500 2750 50  0001 C CNN
 F 4 "Littelfuse" V 9500 2750 60  0001 C CNN "MFG Name"
 F 5 "NANOSMD400LR-2" V 9500 2750 60  0001 C CNN "MFG Part Num"

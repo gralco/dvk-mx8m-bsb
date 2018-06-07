@@ -699,9 +699,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 6200 3650 6200
 Wire Wire Line
-	3650 6850 3650 6200
+	3650 6200 3650 6850
 Wire Wire Line
-	2850 6850 3650 6850
+	3650 6850 2850 6850
 Wire Wire Line
 	2850 6850 2850 6800
 Wire Wire Line
@@ -1162,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 3600 8800 3600
 Wire Wire Line
-	8800 3450 8800 3600
+	8800 3600 8800 3450
 Wire Wire Line
 	8000 3450 8000 3500
 Wire Wire Line
@@ -1216,7 +1216,7 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 3450 8800 3450
+	8800 3450 8000 3450
 Wire Wire Line
 	8300 3800 8300 3900
 $Comp
