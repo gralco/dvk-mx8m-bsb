@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 23 24
 Title "GNSS"
-Date "2018-06-06"
+Date "2018-06-07"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -304,4 +304,6 @@ F 3 "" H 6950 3200 50  0001 C CNN
 $EndComp
 Text Notes 7450 3375 0    39   ~ 0
 VCC_RF used for\nactive antenna or LNA
+Text Notes 7300 3675 0    60   ~ 0
+33nH\n22pF\n10Ω
 $EndSCHEMATC

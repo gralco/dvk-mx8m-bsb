@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 24
 Title "RTC"
-Date "2018-06-06"
+Date "2018-06-07"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"

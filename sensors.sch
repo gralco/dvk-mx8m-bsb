@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 20 24
 Title "Sensors"
-Date "2018-06-06"
+Date "2018-06-07"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
@@ -378,7 +378,7 @@ SDO_M Address\n     1    0x1E\n     0    0x1C
 Text Notes 6050 3500 0    60   ~ 0
 SDO_A/G Address\n     1      0x6B\n     0      0x6A
 $Bitmap
-Pos 7500 5950
+Pos 7450 5900
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 77 00 00 01 45 08 02 00 00 00 C0 7C 83 
@@ -3587,7 +3587,7 @@ D9 D9 D9 22 21 89 89 89 72 85 62 A5 47 04 C0 9A 83 E1 CF 3B 00 00 00 00 00 E0 75
 EndData
 $EndBitmap
 $Bitmap
-Pos 10100 5950
+Pos 10050 5900
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 A2 00 00 01 63 08 02 00 00 00 69 3F FE 
@@ -4991,11 +4991,11 @@ Wire Notes Line
 Wire Notes Line
 	6475 3225 6475 3500
 Wire Notes Line
-	6000 5350 11200 5350
+	5950 5300 11200 5300
 Wire Notes Line
-	6000 6550 6000 5350
+	5950 6500 5950 5300
 Wire Notes Line
-	6950 6550 6000 6550
+	11200 6500 5950 6500
 Connection ~ 9250 2950
 Wire Wire Line
 	9250 3050 9000 3050
@@ -5240,4 +5240,6 @@ Text Notes 9550 3800 0    60   ~ 0
 Read: 0x3D\nWrite: 0x3C
 Text Notes 9700 3350 0    60   ~ 0
 Mag:
+Wire Notes Line
+	11200 5300 11200 6500
 $EndSCHEMATC

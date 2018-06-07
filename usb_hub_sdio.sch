@@ -38,8 +38,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 24
-Title ""
-Date "2018-06-06"
+Title "USB Hub + SDIO Bridge"
+Date "2018-06-07"
 Rev "v0.1.0"
 Comp "Purism SPC"
 Comment1 "Copyright 2018"
