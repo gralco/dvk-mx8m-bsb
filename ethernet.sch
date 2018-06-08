@@ -344,8 +344,14 @@ U 1 1 5AF292B0
 P 6000 2150
 F 0 "L1701" V 6075 2150 50  0000 C CNN
 F 1 "4.7uH" V 5950 2150 50  0000 C CNN
-F 2 "" H 6000 2150 50  0001 C CNN
-F 3 "" H 6000 2150 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:L_1008" H 6000 2150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/inductor/__icsFiles/afieldfile/2014/11/13/S_CIG22L4R7MNE.pdf" H 6000 2150 50  0001 C CNN
+F 4 "Samsung" V 6000 2150 60  0001 C CNN "MFG Name"
+F 5 "CIG22L4R7MNE" V 6000 2150 60  0001 C CNN "MFG Part Num"
+F 6 "1276-6213-2-ND" V 6000 2150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CIG22L4R7MNE/1276-6213-2-ND/3971869" V 6000 2150 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 6000 2150 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=CIG22L4R7MNE&start=0" V 6000 2150 60  0001 C CNN "Others"
 	1    6000 2150
 	0    -1   -1   0   
 $EndComp
@@ -695,9 +701,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 6200 3550 6200
 Wire Wire Line
-	3550 6850 3550 6200
+	3550 6200 3550 6850
 Wire Wire Line
-	2850 6850 3550 6850
+	3550 6850 2850 6850
 Wire Wire Line
 	2850 6850 2850 6800
 Wire Wire Line
@@ -1158,7 +1164,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 3600 8800 3600
 Wire Wire Line
-	8800 3450 8800 3600
+	8800 3600 8800 3450
 Wire Wire Line
 	8000 3450 8000 3500
 Wire Wire Line
@@ -1212,7 +1218,7 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 3450 8800 3450
+	8800 3450 8000 3450
 Wire Wire Line
 	8300 3800 8300 3900
 $Comp
