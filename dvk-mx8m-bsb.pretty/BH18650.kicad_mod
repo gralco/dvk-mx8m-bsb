@@ -31,4 +31,9 @@
   (pad 1 thru_hole oval (at 35.75 0) (size 2 4) (drill 1.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 27 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -27 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/packages3d/BHC-18650-1P.wrl
+    (at (xyz 1.697 0.61 0))
+    (scale (xyz 0.394 0.394 0.394))
+    (rotate (xyz 0 0 270))
+  )
 )

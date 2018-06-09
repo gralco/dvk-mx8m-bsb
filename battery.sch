@@ -68,14 +68,14 @@ U 1 1 5ADAE7AB
 P 7500 4200
 F 0 "BT301" H 7250 4350 50  0000 L CNN
 F 1 "18650" H 7250 4150 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:BAT_1042" V 7500 4260 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=918" V 7500 4260 50  0001 C CNN
-F 4 "Keystone" H 7500 4200 60  0001 C CNN "MFG Name"
-F 5 "1042" H 7500 4200 60  0001 C CNN "MFG Part Num"
-F 6 "36-1042-ND" H 7500 4200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/keystone-electronics/1042/36-1042-ND/2745668" H 7500 4200 60  0001 C CNN "Distrib Link"
+F 2 "dvk-mx8m-bsb:BH18650" V 7500 4260 50  0001 C CNN
+F 3 "https://www.tme.eu/en/Document/8fa81c4c5d128169ded6af3ed3867ae3/BHC-18650-1P.pdf" V 7500 4260 50  0001 C CNN
+F 4 "COMF" H 7500 4200 60  0001 C CNN "MFG Name"
+F 5 "BHC-18650-1P" H 7500 4200 60  0001 C CNN "MFG Part Num"
+F 6 "BHC-18650-1P" H 7500 4200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/bhc-18650-1p/batteries-holders/comf/" H 7500 4200 60  0001 C CNN "Distrib Link"
 F 8 "-" H 7500 4200 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/ProductDetail/Keystone-Electronics/1042/?qs=/7TOpeL5Mz4qPdWi9tuLKw==" H 7500 4200 60  0001 C CNN "Others"
+F 9 "http://www.sierraic.com/BHC186501P" H 7500 4200 60  0001 C CNN "Others"
 	1    7500 4200
 	-1   0    0    -1  
 $EndComp
@@ -2525,8 +2525,6 @@ F 3 "" H 3800 4050 50  0001 C CNN
 	1    3800 4050
 	1    0    0    -1  
 $EndComp
-Text Notes 7050 4250 0    39   ~ 0
-THT Option:\nKeystone 1043
 Text Notes 3050 3800 0    60   ~ 0
 sink current ~~5mA
 $Comp
