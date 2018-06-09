@@ -48,23 +48,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Motor_DC M2401
-U 1 1 5AFCD142
-P 6050 3900
-F 0 "M2401" H 6150 4000 50  0000 L CNN
-F 1 "C0820" H 6150 3700 50  0000 L TNN
-F 2 "" H 6050 3810 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf" H 6050 3810 50  0001 C CNN
-F 4 "Molex" H 6050 3900 60  0001 C CNN "MFG Name"
-F 5 "0530480210" H 6050 3900 60  0001 C CNN "MFG Part Num"
-F 6 "0530480210" H 6050 3900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/0530480210/molex" H 6050 3900 60  0001 C CNN "Distrib Link"
-F 8 "-" H 6050 3900 60  0001 C CNN "Tolerance"
-F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H 6050 3900 60  0001 C CNN "Others"
-	1    6050 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR0385
 U 1 1 5AFCF90B
 P 6050 4300
@@ -211,4 +194,23 @@ Wire Wire Line
 	5700 3400 5750 3400
 Text Notes 3950 5650 0    60   ~ 0
 Motor PN:\nBY0820Z021L20
+Text Notes 6550 4450 0    60   ~ 0
+Metal housing is floating\n(not connected to either pin)\n⇒ could connect housing to GND
+$Comp
+L Motor_Haptic M2401
+U 1 1 5B40BABE
+P 6050 4000
+F 0 "M2401" H 5700 3800 50  0000 L CNN
+F 1 "Motor" H 5750 4100 50  0000 L TNN
+F 2 "dvk-mx8m-bsb:BY0820Z021L20" H 6050 3965 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf" H 6050 3965 50  0001 C CNN
+F 4 "Molex" H 6050 4000 60  0001 C CNN "MFG Name"
+F 5 "0530480210" H 6050 4000 60  0001 C CNN "MFG Part Num"
+F 6 "0530480210" H 6050 4000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/0530480210/molex" H 6050 4000 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6050 4000 60  0001 C CNN "Tolerance"
+F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H 6050 4000 60  0001 C CNN "Others"
+	1    6050 4000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

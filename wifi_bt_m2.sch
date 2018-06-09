@@ -137,10 +137,10 @@ Text Notes 6100 2550 0    60   ~ 0
 SoC's RX\nModule's TX
 Text Notes 6100 2775 0    60   ~ 0
 SoC's TX\nModule's RX
-Text Notes 8400 1850 0    60   ~ 0
+Text Notes 8550 1800 0    60   ~ 0
 6.2 M.2 Signal Directions
 $Bitmap
-Pos 9150 2450
+Pos 9300 2400
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 9A 00 00 00 E2 08 02 00 00 00 F8 62 96 
@@ -750,13 +750,13 @@ D7 0C 9E 41 3E 9F 77 30 7E 57 3E 1D 00 AF 58 2C 1A D4 0C 9E 90 21 2A 6F 97 4F 92
 C1 73 3A 9F CF 6F 6F 6E 0A DD E4 03 61 34 84 AC 22 EC B3 48 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 9850 2675 0    60   ~ 0
+Text Notes 10000 2625 0    60   ~ 0
 TX output\nRX input\nCTS output\nRTS input
-Text Notes 9800 3100 0    60   ~ 0
+Text Notes 9950 3050 0    60   ~ 0
 ⇒TX→RX\n  RX←TX\n  CTS→CTS\n  RTS←RTS
 Text Notes 6700 3050 0    39   ~ 0
 i.MX8M in DCE mode (POR state)\nhas CTS output, RTS input
-Text Notes 8300 2000 0    60   ~ 0
+Text Notes 8450 1950 0    60   ~ 0
 UARTn_UFCR[DCEDTE]=0 on POR
 Text HLabel 6050 2200 2    60   Output ~ 0
 BT_HOST_WAKE
@@ -1256,7 +1256,7 @@ BT_UART_CTS
 Text Notes 6500 3400 0    60   ~ 0
 Pin 54 on RS9116 is\nUSB_VBUS Sink
 Text Notes 4400 1350 0    60   ~ 0
-RedPine RS9116 MB0\nRequires 5V on\nPin 54 for USB!
+RedPine RS9116 MB0\nRequires 5V on\nPin 54 if USB used
 Text Notes 2950 1250 0    60   ~ 0
 RS9116 datasheet says\nno WIFI_WAKE\nbut the schematic has it
 $Comp
@@ -2102,4 +2102,10 @@ F 9 "https://octopart.com/search?q=20449-001E&start=0" H 1900 2900 60  0001 C CN
 	1    1900 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 8250 3350 0    60   ~ 0
+Leave ~BT_DISABLE\nLOW for RS9116
+Text Notes 9950 3900 0    60   ~ 0
+Note:\nAll switches' pins\ncan be swapped\ne.g. 2<->3\n or 1<->3
+Text Notes 8250 4000 0    60   ~ 0
+Input pins are\ninterchangeable
 $EndSCHEMATC

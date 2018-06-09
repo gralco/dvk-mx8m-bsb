@@ -6754,4 +6754,8 @@ Text Notes 9200 2400 0    60   ~ 0
 Read: 0xF1\nWrite 0xF0
 Text Notes 8950 1900 0    60   ~ 0
      Camera PN:\nTruly CO8725-B5SA-E
+Text Notes 5950 3150 0    60   ~ 0
+Note:\nAll switches' pins\ncan be swapped\ne.g. 2<->3\n or 1<->3\n (+mic)
+Text Notes 7075 4425 0    60   ~ 0
+Input pins are\ninterchangeable
 $EndSCHEMATC

@@ -2412,4 +2412,6 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 4200 5500 60  0001 C 
 	1    4200 5500
 	0    -1   1    0   
 $EndComp
+Text Notes 2300 4950 0    60   ~ 0
+Note:\nAll switches' pins\ncan be swapped\ne.g. 2<->3\n or 1<->3\n (+BOOT_MODE2)
 $EndSCHEMATC

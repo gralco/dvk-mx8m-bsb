@@ -55,6 +55,10 @@ $CMP 74LVC2G241
 D IC BUFFER/DVR 3ST DL INV
 $ENDCMP
 #
+$CMP AP22814
+D SINGLE CHANNEL POWER DISTRIBUTION LOAD SWITCH
+$ENDCMP
+#
 $CMP AR8031
 D IC TRANSCEIVER ETHERNET 48-QFN
 $ENDCMP
@@ -144,6 +148,16 @@ $CMP Micro_SD_Card_Det_Hirose_DM3AT
 D Micro SD Card Socket with card detection pins
 K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
+$CMP Motor_DC
+D DC Motor
+K DC Motor
+$ENDCMP
+#
+$CMP Motor_Haptic
+D Haptic Motor
+K Haptic Motor
 $ENDCMP
 #
 $CMP NUP5120

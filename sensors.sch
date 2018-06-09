@@ -5242,4 +5242,6 @@ Text Notes 9700 3350 0    60   ~ 0
 Mag:
 Wire Notes Line
 	11200 5300 11200 6500
+Text Notes 9800 2100 0    60   ~ 0
+Input pins are\ninterchangeable
 $EndSCHEMATC

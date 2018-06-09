@@ -8962,4 +8962,6 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 7850 3450 60  0001 C 
 	1    7850 3450
 	0    -1   1    0   
 $EndComp
+Text Notes 7250 6350 0    60   ~ 0
+Note:\nAll switches' pins\ncan be swapped\ne.g. 5<->4\n or 5<->6\n (+camera)
 $EndSCHEMATC
