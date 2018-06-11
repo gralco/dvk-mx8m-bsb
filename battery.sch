@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 24
-Title "Battery"
+Title "Librem5 development kit"
 Date "2018-06-07"
 Rev "v0.1.0"
-Comp "Purism SPC"
-Comment1 "Copyright 2018"
-Comment2 "GNU GPLv3"
-Comment3 ""
-Comment4 ""
+Comp "Copyright 2018 GNU GPLv3"
+Comment1 "eric.kuzmenko@puri.sm"
+Comment2 "angus.ainslie@puri.sm"
+Comment3 "nicole.faerber@puri.sm"
+Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
 L PWR_FLAG #FLG058
@@ -539,7 +539,7 @@ F 3 "" H 6700 3850 50  0001 C CNN
 $EndComp
 $Bitmap
 Pos 2175 1950
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 20 00 00 01 90 08 02 00 00 00 D9 47 93 
 63 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC BD 7B 7C 54 D5 

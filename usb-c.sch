@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 24
-Title "USB Type C"
+Title "Librem5 development kit"
 Date "2018-06-07"
 Rev "v0.1.0"
-Comp "Purism SPC"
-Comment1 "Copyright 2018"
-Comment2 "GNU GPLv3"
-Comment3 ""
-Comment4 ""
+Comp "Copyright 2018 GNU GPLv3"
+Comment1 "eric.kuzmenko@puri.sm"
+Comment2 "angus.ainslie@puri.sm"
+Comment3 "nicole.faerber@puri.sm"
+Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
 L C C204

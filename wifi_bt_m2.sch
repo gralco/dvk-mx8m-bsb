@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 18 24
-Title "WLAN+BT M.2"
+Title "Librem5 development kit"
 Date "2018-06-07"
 Rev "v0.1.0"
-Comp "Purism SPC"
-Comment1 "Copyright 2018"
-Comment2 "GNU GPLv3"
-Comment3 ""
-Comment4 ""
+Comp "Copyright 2018 GNU GPLv3"
+Comment1 "eric.kuzmenko@puri.sm"
+Comment2 "angus.ainslie@puri.sm"
+Comment3 "nicole.faerber@puri.sm"
+Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 Text HLabel 5250 1400 0    60   BiDi ~ 0
 USB_WLAN_DP
@@ -141,7 +141,7 @@ Text Notes 8550 1800 0    60   ~ 0
 6.2 M.2 Signal Directions
 $Bitmap
 Pos 9300 2400
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 9A 00 00 00 E2 08 02 00 00 00 F8 62 96 
 2C 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 

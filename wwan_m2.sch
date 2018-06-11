@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 24
-Title "WWAN M.2"
+Title "Librem5 development kit"
 Date "2018-06-07"
 Rev "v0.1.0"
-Comp "Purism SPC"
-Comment1 "Copyright 2018"
-Comment2 "GNU GPLv3"
-Comment3 ""
-Comment4 ""
+Comp "Copyright 2018 GNU GPLv3"
+Comment1 "eric.kuzmenko@puri.sm"
+Comment2 "angus.ainslie@puri.sm"
+Comment3 "nicole.faerber@puri.sm"
+Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 Text Notes 6300 950  0    60   ~ 0
 M.2 Key B
@@ -62,7 +62,7 @@ NoConn ~ 6750 2300
 NoConn ~ 6750 2200
 $Bitmap
 Pos 9850 3950
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 67 00 00 01 A6 08 02 00 00 00 B6 8C B4 
 CA 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -3016,7 +3016,7 @@ Text Notes 10900 3450 0    60   ~ 0
 State
 $Bitmap
 Pos 9850 2600
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 54 00 00 01 69 08 02 00 00 00 D5 F6 21 
 90 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 

@@ -38,14 +38,14 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 24
-Title "DVK-MX8M-BSB"
+Title "Librem5 development kit"
 Date "2018-06-07"
 Rev "v0.1.0"
-Comp "Purism SPC"
-Comment1 "Copyright 2018"
-Comment2 "GNU GPLv3"
-Comment3 ""
-Comment4 ""
+Comp "Copyright 2018 GNU GPLv3"
+Comment1 "eric.kuzmenko@puri.sm"
+Comment2 "angus.ainslie@puri.sm"
+Comment3 "nicole.faerber@puri.sm"
+Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Sheet
 S 550  900  1400 2100

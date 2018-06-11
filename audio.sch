@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 24
-Title "Audio"
+Title "Librem5 development kit"
 Date "2018-06-07"
 Rev "v0.1.0"
-Comp "Purism SPC"
-Comment1 "Copyright 2018"
-Comment2 "GNU GPLv3"
-Comment3 ""
-Comment4 ""
+Comp "Copyright 2018 GNU GPLv3"
+Comment1 "eric.kuzmenko@puri.sm"
+Comment2 "angus.ainslie@puri.sm"
+Comment3 "nicole.faerber@puri.sm"
+Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
 L SGTL5000 U1601
@@ -454,7 +454,7 @@ Text Notes 10000 2150 0    60   ~ 0
 CTIA/AHJ
 $Bitmap
 Pos 10250 2500
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 F4 00 00 00 C8 08 02 00 00 00 50 F5 5B 
 7F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -2170,7 +2170,7 @@ Text Notes 8350 6175 0    60   ~ 0
 -37dB=14.1254mV/Pa\n∴ mic produces 14.1254mVrms when exposed to a\n   1kHz tone of 94dB-SPL at the capsule\n   (or 19.98mV amplitude)
 $Bitmap
 Pos 3950 5450
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 B3 00 00 01 3B 08 02 00 00 00 41 8E 9E 
 64 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 77 5C 53 57 
@@ -3304,7 +3304,7 @@ Text Notes 10375 3300 0    39   ~ 0
 SMD Equivalent:\nSJ-43515RS-SMT-TR
 $Bitmap
 Pos 2250 7000
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 0E 00 00 01 CF 08 02 00 00 00 5C 30 0F 
 A1 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -4573,7 +4573,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 1650 5450
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 B3 00 00 01 47 08 02 00 00 00 3D 6E 53 
 DE 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
