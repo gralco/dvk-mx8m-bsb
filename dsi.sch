@@ -414,7 +414,7 @@ U 1 1 5B445B35
 P 6200 3600
 F 0 "J1201" H 6200 3900 50  0000 C CNN
 F 1 "Touch" H 6200 3200 50  0000 C CNN
-F 2 "" H 6200 3600 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:FH34SRJ-6S-0.5SH" H 6200 3600 50  0001 C CNN
 F 3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH34SRJ-6S-0.5SH(50)" H 6200 3600 50  0001 C CNN
 F 4 "Hirose Electric" H 6200 3600 60  0001 C CNN "MFG Name"
 F 5 "FH34SRJ-6S-0.5SH(50)" H 6200 3600 60  0001 C CNN "MFG Part Num"
