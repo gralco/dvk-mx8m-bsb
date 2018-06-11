@@ -32,15 +32,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dvk-mx8m-bsb
+LIBS:emcr_mx8m
 LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 24
-Title "Librem5 development kit"
-Date "2018-06-07"
-Rev "v0.1.0"
+Title "librem5 development kit"
+Date "2018-06-11"
+Rev "v01.1"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -170,10 +171,10 @@ I2C1_SDA
 Text HLabel 8150 4250 2    60   Input ~ 0
 I2C1_SCL
 $Comp
-L 1V8_P #PWR0190
+L 1V8_P #PWR0123
 U 1 1 5B1803EF
 P 7650 2850
-F 0 "#PWR0190" H 7650 2700 50  0001 C CNN
+F 0 "#PWR0123" H 7650 2700 50  0001 C CNN
 F 1 "1V8_P" H 7650 2990 50  0000 C CNN
 F 2 "" H 7650 2850 50  0001 C CNN
 F 3 "" H 7650 2850 50  0001 C CNN
@@ -181,10 +182,10 @@ F 3 "" H 7650 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0191
+L 1V8_P #PWR0124
 U 1 1 5B180400
 P 7650 3800
-F 0 "#PWR0191" H 7650 3650 50  0001 C CNN
+F 0 "#PWR0124" H 7650 3650 50  0001 C CNN
 F 1 "1V8_P" H 7650 3940 50  0000 C CNN
 F 2 "" H 7650 3800 50  0001 C CNN
 F 3 "" H 7650 3800 50  0001 C CNN

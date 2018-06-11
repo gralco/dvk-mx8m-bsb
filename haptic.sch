@@ -32,15 +32,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dvk-mx8m-bsb
+LIBS:emcr_mx8m
 LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 24 24
-Title "Librem5 development kit"
-Date "2018-06-07"
-Rev "v0.1.0"
+Title "librem5 development kit"
+Date "2018-06-11"
+Rev "v01.1"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -48,10 +49,10 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0385
+L GND #PWR0267
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0385" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0267" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -78,10 +79,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0386
+L 3V3_P #PWR0268
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0386" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0268" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN

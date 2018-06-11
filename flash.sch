@@ -32,15 +32,16 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dvk-mx8m-bsb
+LIBS:emcr_mx8m
 LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 21 24
-Title "Librem5 development kit"
-Date "2018-06-07"
-Rev "v0.1.0"
+Title "librem5 development kit"
+Date "2018-06-11"
+Rev "v01.1"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -48,10 +49,10 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0365
+L GND #PWR0247
 U 1 1 5B12CD29
 P 6000 4300
-F 0 "#PWR0365" H 6000 4050 50  0001 C CNN
+F 0 "#PWR0247" H 6000 4050 50  0001 C CNN
 F 1 "GND" H 6000 4150 50  0000 C CNN
 F 2 "" H 6000 4300 50  0001 C CNN
 F 3 "" H 6000 4300 50  0001 C CNN
@@ -76,10 +77,10 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/memory/774?k=&p
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0366
+L 3V3_P #PWR0248
 U 1 1 5B12EA15
 P 6000 2600
-F 0 "#PWR0366" H 6000 2450 50  0001 C CNN
+F 0 "#PWR0248" H 6000 2450 50  0001 C CNN
 F 1 "3V3_P" H 6000 2740 50  0000 C CNN
 F 2 "" H 6000 2600 50  0001 C CNN
 F 3 "" H 6000 2600 50  0001 C CNN
@@ -109,10 +110,10 @@ F 3 "" H 6150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0367
+L GND #PWR0249
 U 1 1 5B14F686
 P 5850 3050
-F 0 "#PWR0367" H 5850 2800 50  0001 C CNN
+F 0 "#PWR0249" H 5850 2800 50  0001 C CNN
 F 1 "GND" H 5850 2900 50  0000 C CNN
 F 2 "" H 5850 3050 50  0001 C CNN
 F 3 "" H 5850 3050 50  0001 C CNN
@@ -120,10 +121,10 @@ F 3 "" H 5850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0368
+L GND #PWR0250
 U 1 1 5B14F6A1
 P 6150 3050
-F 0 "#PWR0368" H 6150 2800 50  0001 C CNN
+F 0 "#PWR0250" H 6150 2800 50  0001 C CNN
 F 1 "GND" H 6150 2900 50  0000 C CNN
 F 2 "" H 6150 3050 50  0001 C CNN
 F 3 "" H 6150 3050 50  0001 C CNN
@@ -150,10 +151,10 @@ F 3 "" H 4550 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0369
+L 3V3_P #PWR0251
 U 1 1 5B152DB7
 P 4750 3350
-F 0 "#PWR0369" H 4750 3200 50  0001 C CNN
+F 0 "#PWR0251" H 4750 3200 50  0001 C CNN
 F 1 "3V3_P" H 4750 3490 50  0000 C CNN
 F 2 "" H 4750 3350 50  0001 C CNN
 F 3 "" H 4750 3350 50  0001 C CNN
@@ -231,10 +232,10 @@ Wire Wire Line
 Connection ~ 4750 3400
 Connection ~ 4950 3800
 $Comp
-L GND #PWR0370
+L GND #PWR0252
 U 1 1 5AFBA2C4
 P 4950 4300
-F 0 "#PWR0370" H 4950 4050 50  0001 C CNN
+F 0 "#PWR0252" H 4950 4050 50  0001 C CNN
 F 1 "GND" H 4950 4150 50  0000 C CNN
 F 2 "" H 4950 4300 50  0001 C CNN
 F 3 "" H 4950 4300 50  0001 C CNN
