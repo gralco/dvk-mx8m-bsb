@@ -141,7 +141,7 @@ Text Notes 8550 1800 0    60   ~ 0
 6.2 M.2 Signal Directions
 $Bitmap
 Pos 9300 2400
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 9A 00 00 00 E2 08 02 00 00 00 F8 62 96 
 2C 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -1278,17 +1278,6 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and
 $EndComp
 Text Notes 6700 1900 0    60   ~ 0
 SoC's IN/OUT
-$Comp
-L Conn_01x02 JP1801
-U 1 1 5B095E8A
-P 6350 1100
-F 0 "JP1801" H 6350 1200 50  0000 C CNN
-F 1 "NC" H 6350 900 50  0000 C CNN
-F 2 "" H 6350 1100 50  0001 C CNN
-F 3 "" H 6350 1100 50  0001 C CNN
-	1    6350 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 1400 5250 1400
 Wire Wire Line
@@ -2108,4 +2097,21 @@ Text Notes 9950 3900 0    60   ~ 0
 Note:\nAll switches' pins\ncan be swapped\ne.g. 2<->3\n or 1<->3
 Text Notes 8250 4000 0    60   ~ 0
 Input pins are\ninterchangeable
+$Comp
+L Conn_01x02 JP1801
+U 1 1 5B32C2B1
+P 6350 1100
+F 0 "JP1801" H 6350 1200 50  0000 C CNN
+F 1 "NC" H 6350 900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 6350 1100 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf" H 6350 1100 50  0001 C CNN
+F 4 "Samtec" V 6350 1100 60  0001 C CNN "MFG Name"
+F 5 "TMM-102-03-T-S" V 6350 1100 60  0001 C CNN "MFG Part Num"
+F 6 "SAM8977-ND" V 6350 1100 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206" V 6350 1100 60  0001 C CNN "Distrib Link"
+F 8 "-" V 6350 1100 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 6350 1100 60  0001 C CNN "Others"
+	1    6350 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

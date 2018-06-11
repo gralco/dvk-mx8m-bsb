@@ -196,15 +196,15 @@ Text Notes 1450 950  0    236  ~ 47
 $Comp
 L GND #PWR082
 U 1 1 5ACA3538
-P 8800 2200
-F 0 "#PWR082" H 8800 1950 50  0001 C CNN
-F 1 "GND" H 8800 2050 50  0000 C CNN
-F 2 "" H 8800 2200 50  0001 C CNN
-F 3 "" H 8800 2200 50  0001 C CNN
-	1    8800 2200
+P 8850 1950
+F 0 "#PWR082" H 8850 1700 50  0001 C CNN
+F 1 "GND" H 8850 1800 50  0000 C CNN
+F 2 "" H 8850 1950 50  0001 C CNN
+F 3 "" H 8850 1950 50  0001 C CNN
+	1    8850 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 7700 1200 0    236  ~ 47
+Text Notes 7750 950  0    236  ~ 47
 1.8V/600mA
 $Comp
 L GND #PWR083
@@ -398,62 +398,62 @@ Text Notes 3250 3850 0    60   ~ 0
 If using fixed MIC2876-5.0\nthen short FB-VOUT resistor\nopen FB-GND resistor
 Text Notes 2700 1200 0    60   ~ 0
 When VBAT_REG can fall below\n3.3V use TPS63020 instead
-Text Notes 8650 2900 0    60   ~ 0
+Text Notes 8700 2650 0    60   ~ 0
 LM3670MF-1.8 is much more expensive\n       ST1S12G18R is a drop-in
 $Comp
 L FT440 U406
 U 1 1 5ACD7293
-P 8800 1650
-F 0 "U406" H 8600 1900 60  0000 C CNN
-F 1 "FT440" H 8950 1900 60  0000 C CNN
-F 2 "" H 8800 1550 591 0001 C CNN
-F 3 "http://www.ineltek.com/wp-content/uploads/manual/fmd/FT440x.pdf" H 8800 1550 591 0001 C CNN
-F 4 "Fremont Micro" H 8800 1650 60  0001 C CNN "MFG Name"
-F 5 "FT440CA" H 8800 1650 60  0001 C CNN "MFG Part Num"
-F 6 "1219-1077-1-ND" H 8800 1650 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/fremont-micro-devices-usa/FT440CA/1219-1077-1-ND/3516029" H 8800 1650 60  0001 C CNN "Distrib Link"
-F 8 "-" H 8800 1650 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-regulators-dc-dc-switching-regulators/739?k=&pkeyword=&pv110=947&FV=a4027c%2C142c000b%2C142c0e23%2C142c036d%2C1bcc0020%2C1f140000%2Cffe002e3&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8800 1650 60  0001 C CNN "Others"
-	1    8800 1650
+P 8850 1400
+F 0 "U406" H 8650 1650 60  0000 C CNN
+F 1 "FT440" H 9000 1650 60  0000 C CNN
+F 2 "" H 8850 1300 591 0001 C CNN
+F 3 "http://www.ineltek.com/wp-content/uploads/manual/fmd/FT440x.pdf" H 8850 1300 591 0001 C CNN
+F 4 "Fremont Micro" H 8850 1400 60  0001 C CNN "MFG Name"
+F 5 "FT440CA" H 8850 1400 60  0001 C CNN "MFG Part Num"
+F 6 "1219-1077-1-ND" H 8850 1400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/fremont-micro-devices-usa/FT440CA/1219-1077-1-ND/3516029" H 8850 1400 60  0001 C CNN "Distrib Link"
+F 8 "-" H 8850 1400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-regulators-dc-dc-switching-regulators/739?k=&pkeyword=&pv110=947&FV=a4027c%2C142c000b%2C142c0e23%2C142c036d%2C1bcc0020%2C1f140000%2Cffe002e3&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8850 1400 60  0001 C CNN "Others"
+	1    8850 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L L L404
 U 1 1 5ACD8255
-P 9500 1550
-F 0 "L404" V 9575 1550 50  0000 C CNN
-F 1 "2.2uH" V 9450 1550 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:LPS4018-222MRB" H 9500 1550 50  0001 C CNN
-F 3 "https://www.coilcraft.com/pdfs/lps4018.pdf" H 9500 1550 50  0001 C CNN
-F 4 "Coilcraft" V 9500 1550 60  0001 C CNN "MFG Name"
-F 5 "LPS4018-222MRB" V 9500 1550 60  0001 C CNN "MFG Part Num"
-F 6 "994-LPS4018-222MRB" V 9500 1550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Coilcraft/LPS4018-222MRB?qs=sGAEpiMZZMsg%252by3WlYCkUyYZYjlLTHufsnqE1IhSpno%3d" V 9500 1550 60  0001 C CNN "Distrib Link"
-F 8 "20%" V 9500 1550 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=LPS4018-222M" V 9500 1550 60  0001 C CNN "Others"
-	1    9500 1550
+P 9550 1300
+F 0 "L404" V 9625 1300 50  0000 C CNN
+F 1 "2.2uH" V 9500 1300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LPS4018-222MRB" H 9550 1300 50  0001 C CNN
+F 3 "https://www.coilcraft.com/pdfs/lps4018.pdf" H 9550 1300 50  0001 C CNN
+F 4 "Coilcraft" V 9550 1300 60  0001 C CNN "MFG Name"
+F 5 "LPS4018-222MRB" V 9550 1300 60  0001 C CNN "MFG Part Num"
+F 6 "994-LPS4018-222MRB" V 9550 1300 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Coilcraft/LPS4018-222MRB?qs=sGAEpiMZZMsg%252by3WlYCkUyYZYjlLTHufsnqE1IhSpno%3d" V 9550 1300 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 9550 1300 60  0001 C CNN "Tolerance"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=LPS4018-222M" V 9550 1300 60  0001 C CNN "Others"
+	1    9550 1300
 	0    -1   -1   0   
 $EndComp
-Text Notes 8900 2650 0    60   ~ 0
+Text Notes 8950 2400 0    60   ~ 0
 Buck instead of TLV70218 LDO\n  saving up to ~~100mW loss
 $Comp
 L C C455
 U 1 1 5ACDF173
-P 7750 1800
-F 0 "C455" H 7775 1900 50  0000 L CNN
-F 1 "4.7uF" H 7775 1700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7788 1650 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BJ475KA-T&fileName=LMK107BJ475KA-T_SS&mode=specSheetDownload" H 7750 1800 50  0001 C CNN
-F 4 "Taiyo Yuden" H 7750 1800 60  0001 C CNN "Distrib Name"
-F 5 "LMK107BJ475KA-T" H 7750 1800 60  0001 C CNN "MFG Part Num"
-F 6 "587-1441-1-ND" H 7750 1800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BJ475KA-T/587-1441-1-ND/1004072" H 7750 1800 60  0001 C CNN "Distrib Link"
-F 8 "-" H 7750 1800 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?FV=c0003%2C380004%2C400005%2C440013%2C3f00027%2C6540013%2C1f140000%2Cmu4.7%C2%B5F%7C2049%2Cffe0003c&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 7750 1800 60  0001 C CNN "Others"
-	1    7750 1800
+P 7800 1550
+F 0 "C455" H 7825 1650 50  0000 L CNN
+F 1 "4.7uF" H 7825 1450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7838 1400 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BJ475KA-T&fileName=LMK107BJ475KA-T_SS&mode=specSheetDownload" H 7800 1550 50  0001 C CNN
+F 4 "Taiyo Yuden" H 7800 1550 60  0001 C CNN "Distrib Name"
+F 5 "LMK107BJ475KA-T" H 7800 1550 60  0001 C CNN "MFG Part Num"
+F 6 "587-1441-1-ND" H 7800 1550 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BJ475KA-T/587-1441-1-ND/1004072" H 7800 1550 60  0001 C CNN "Distrib Link"
+F 8 "-" H 7800 1550 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?FV=c0003%2C380004%2C400005%2C440013%2C3f00027%2C6540013%2C1f140000%2Cmu4.7%C2%B5F%7C2049%2Cffe0003c&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 7800 1550 60  0001 C CNN "Others"
+	1    7800 1550
 	-1   0    0    -1  
 $EndComp
-Text Notes 8950 2400 0    60   ~ 0
+Text Notes 9000 2150 0    60   ~ 0
   SW4A of PF4210 is 1.8V\nbut SoM doesn't bring it out
 $Comp
 L VBAT_REG #PWR089
@@ -480,12 +480,12 @@ $EndComp
 $Comp
 L VBAT_REG #PWR091
 U 1 1 5AF2B15A
-P 7750 1500
-F 0 "#PWR091" H 7750 1350 50  0001 C CNN
-F 1 "VBAT_REG" H 7750 1640 50  0000 C CNN
-F 2 "" H 7750 1500 50  0001 C CNN
-F 3 "" H 7750 1500 50  0001 C CNN
-	1    7750 1500
+P 7800 1250
+F 0 "#PWR091" H 7800 1100 50  0001 C CNN
+F 1 "VBAT_REG" H 7800 1390 50  0000 C CNN
+F 2 "" H 7800 1250 50  0001 C CNN
+F 3 "" H 7800 1250 50  0001 C CNN
+	1    7800 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -505,7 +505,7 @@ Text GLabel 1400 4050 0    60   Input ~ 0
 VBAT_REG
 Text HLabel 5000 1100 2    60   Output ~ 0
 3V3
-Text HLabel 10500 1550 2    60   Output ~ 0
+Text HLabel 10550 1300 2    60   Output ~ 0
 1V8_P
 Text Notes 2350 5650 0    60   ~ 0
 Spread all the decoupling/stitching\ncapacitors all over the power plane
@@ -762,63 +762,30 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x02 JP401
-U 1 1 5B0AFB82
-P 4700 850
-F 0 "JP401" V 4800 800 50  0000 C CNN
-F 1 "NC" V 4600 650 50  0000 C CNN
-F 2 "" H 4700 850 50  0001 C CNN
-F 3 "" H 4700 850 50  0001 C CNN
-	1    4700 850 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Conn_01x02 JP402
-U 1 1 5B0B2776
-P 5100 3200
-F 0 "JP402" V 5200 3150 50  0000 C CNN
-F 1 "NC" V 5000 3000 50  0000 C CNN
-F 2 "" H 5100 3200 50  0001 C CNN
-F 3 "" H 5100 3200 50  0001 C CNN
-	1    5100 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R418
 U 1 1 5B0C354D
-P 10250 1550
-F 0 "R418" V 10330 1550 50  0000 C CNN
-F 1 "NC" V 10150 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10180 1550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf" H 10250 1550 50  0001 C CNN
-F 4 "Stackpole" V 10250 1550 60  0001 C CNN "MFG Name"
-F 5 "CSR0805FK25L0" V 10250 1550 60  0001 C CNN "MFG Part Num"
-F 6 "CSR0805FK25L0CT-ND" V 10250 1550 60  0001 C CNN "Distrib PN"
-F 7 "1%" V 10250 1550 60  0001 C CNN "Tolerance"
-F 8 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=142c040d%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 10250 1550 60  0001 C CNN "Others"
-	1    10250 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Conn_01x02 JP404
-U 1 1 5B0C3554
-P 10200 1100
-F 0 "JP404" V 10300 1050 50  0000 C CNN
-F 1 "NC" V 10100 925 50  0000 C CNN
-F 2 "" H 10200 1100 50  0001 C CNN
-F 3 "" H 10200 1100 50  0001 C CNN
-	1    10200 1100
+P 10300 1300
+F 0 "R418" V 10380 1300 50  0000 C CNN
+F 1 "NC" V 10200 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10230 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf" H 10300 1300 50  0001 C CNN
+F 4 "Stackpole" V 10300 1300 60  0001 C CNN "MFG Name"
+F 5 "CSR0805FK25L0" V 10300 1300 60  0001 C CNN "MFG Part Num"
+F 6 "CSR0805FK25L0CT-ND" V 10300 1300 60  0001 C CNN "Distrib PN"
+F 7 "1%" V 10300 1300 60  0001 C CNN "Tolerance"
+F 8 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=142c040d%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 10300 1300 60  0001 C CNN "Others"
+	1    10300 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PWR_FLAG #FLG0106
 U 1 1 5B0C814D
-P 9850 1500
-F 0 "#FLG0106" H 9850 1575 50  0001 C CNN
-F 1 "PWR_FLAG" H 9850 1650 50  0000 C CNN
-F 2 "" H 9850 1500 50  0001 C CNN
-F 3 "" H 9850 1500 50  0001 C CNN
-	1    9850 1500
+P 9900 1250
+F 0 "#FLG0106" H 9900 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 1400 50  0000 C CNN
+F 2 "" H 9900 1250 50  0001 C CNN
+F 3 "" H 9900 1250 50  0001 C CNN
+	1    9900 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -831,17 +798,6 @@ F 2 "" H 4300 1250 50  0001 C CNN
 F 3 "" H 4300 1250 50  0001 C CNN
 	1    4300 1250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x02 JP403
-U 1 1 5B0B3A61
-P 6750 3300
-F 0 "JP403" V 6850 3250 50  0000 C CNN
-F 1 "NC" V 6650 3125 50  0000 C CNN
-F 2 "" H 6750 3300 50  0001 C CNN
-F 3 "" H 6750 3300 50  0001 C CNN
-	1    6750 3300
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R R404
@@ -890,18 +846,18 @@ $EndComp
 $Comp
 L C C459
 U 1 1 5B1C4CAA
-P 9850 1750
-F 0 "C459" H 9875 1850 50  0000 L CNN
-F 1 "22uF" H 9875 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9888 1600 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 9850 1750 50  0001 C CNN
-F 4 "Murata" H 9850 1750 60  0001 C CNN "MFG Name"
-F 5 "GRM219R61C226ME15L" H 9850 1750 60  0001 C CNN "MFG Part Num"
-F 6 "490-9952-1-ND" H 9850 1750 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 9850 1750 60  0001 C CNN "Distrib Link"
-F 8 "20%" H 9850 1750 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 9850 1750 60  0001 C CNN "Others"
-	1    9850 1750
+P 9900 1500
+F 0 "C459" H 9925 1600 50  0000 L CNN
+F 1 "22uF" H 9925 1400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9938 1350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 9900 1500 50  0001 C CNN
+F 4 "Murata" H 9900 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM219R61C226ME15L" H 9900 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-9952-1-ND" H 9900 1500 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 9900 1500 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 9900 1500 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 9900 1500 60  0001 C CNN "Others"
+	1    9900 1500
 	1    0    0    -1  
 $EndComp
 Text Notes 1050 2550 0    60   ~ 0
@@ -942,7 +898,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    6800 3750
 	0    -1   -1   0   
 $EndComp
-Text Label 7900 1750 0    60   ~ 0
+Text Label 7950 1500 0    60   ~ 0
 PWR_EN
 Text Label 5250 2000 0    60   ~ 0
 PWR_EN
@@ -967,276 +923,276 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    1650 1500
 	-1   0    0    -1  
 $EndComp
-Text Notes 8000 3350 0    236  ~ 47
+Text Notes 8000 3100 0    236  ~ 47
 22.4V/40mA
 $Comp
 L GND #PWR0109
 U 1 1 5B19D21F
-P 8200 4100
-F 0 "#PWR0109" H 8200 3850 50  0001 C CNN
-F 1 "GND" H 8200 3950 50  0000 C CNN
-F 2 "" H 8200 4100 50  0001 C CNN
-F 3 "" H 8200 4100 50  0001 C CNN
-	1    8200 4100
+P 8200 3850
+F 0 "#PWR0109" H 8200 3600 50  0001 C CNN
+F 1 "GND" H 8200 3700 50  0000 C CNN
+F 2 "" H 8200 3850 50  0001 C CNN
+F 3 "" H 8200 3850 50  0001 C CNN
+	1    8200 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L PAM2841 U407
 U 1 1 5B19D79C
-P 8850 4450
-F 0 "U407" H 8550 5000 60  0000 C CNN
-F 1 "PAM2841" H 9050 5000 60  0000 C CNN
-F 2 "" H 8900 4300 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/PAM2841.pdf" H 8900 4300 60  0001 C CNN
-F 4 "Diodes Inc" H 8850 4450 60  0001 C CNN "MFG Name"
-F 5 "PAM2841GR" H 8850 4450 60  0001 C CNN "MFG Part Num"
-F 6 "621-PAM2841GR" H 8850 4450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/PAM2841GR?qs=sGAEpiMZZMsE420DPIasPhwbUD6mTFil6SfLDlfAyjU%3d" H 8850 4450 60  0001 C CNN "Distrib Link"
-F 8 "-" H 8850 4450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-led-drivers/745?FV=c003f1%2Cc003f2%2Cc003f3%2Cc003f4%2Cc003f5%2Cc00402%2Cc00403%2Cc0040d%2Cc0040e%2Cc00414%2Cc0041d%2Cc0042e%2Cc0042f%2Cc0047a%2Cc0065f%2Cc00686%2Cc0068d%2Cc00727%2Cc0077b%2Cc00014%2Cc007eb%2Cc007f0%2Cc007f2%2Cc00017%2Cc00c4f%2Cc00d1c%2Cc00f80%2Cc00f90%2Cc00f91%2Cc00f94%2Cc00f9c%2Cc00004%2Cc00fa2%2Cc00fab%2Cc00fae%2Cc00faf%2Cc00fb0%2Cc00fb1%2Cc00fb3%2Cc00fb7%2Cc00fbe%2Cc001b3%2Cc01121%2Cc01124%2Cc011f3%2Cc01214%2Cc0146c%2Cc0146f%2Cc0161b%2Cc0162e%2Cc0163d%2Cc0164c%2Cc016b0%2Cc0170a%2Cc0174f%2Cc017de%2Cc017df%2Cc01806%2Cc01841%2Cc01845%2Cc01868%2Cc018a0%2Cc01923%2Cc0192b%2Cc0196f%2Cc01970%2Cc01971%2Cc01992%2Cc01a44%2Cc01a45%2Cc01a49%2Cc01a4a%2Cc01a4b%2Cc01a4c%2Cc01a4d%2Cc01a4e%2Cc01a4f%2Cc01a9e%2Cc01b1f%2Cc01be6%2Cc01bfe%2Cc01c37%2Cc01c60%2Cc002fa%2Cc0036c%2Cc0036f%2Cc00370%2Cc00371%2Cc00372%2Cc00373%2Cc00379%2Cc0037a%2Cc0037d%2Cc00390%2Cc00393%2Cc00394%2Cc00399%2C15c0002%2C2dc1e9f%2C7b80001%2C7b8000c%2C7b80010%2C7b80018%2C7b80035%2C7b80037%2C7b80038%2C7b80039%2C7b80281%2C7b80286%2C7b80288%2C7b80289%2C7b8028a%2C7b8028d%2C7b80290%2C7b80292%2C7b80293%2C7b80294%2C7b80295%2C7b80296%2C7b80297%2C7b80298%2C7b8029a%2C7b80043%2C7b802a1%2C7b802a2%2C7b802a5%2C7b802a6%2C7b802b7%2C7b802b8%2C7b802bb%2C7b802c9%2C7b802d9%2C7b802da%2C7b802db%2C7b802de%2C7b802e7%2C7b802e8%2C7b802e9%2C7b802f4%2C7b802f6%2C7b802fc%2C7b80308%2C7b80329%2C112800df%2C1128015c%2C112801a2%2C112801a4%2C112801ba%2C11280006%2C1f140000%2Cffe002e9&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8850 4450 60  0001 C CNN "Others"
-	1    8850 4450
+P 8850 4200
+F 0 "U407" H 8550 4750 60  0000 C CNN
+F 1 "PAM2841" H 9050 4750 60  0000 C CNN
+F 2 "" H 8900 4050 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/PAM2841.pdf" H 8900 4050 60  0001 C CNN
+F 4 "Diodes Inc" H 8850 4200 60  0001 C CNN "MFG Name"
+F 5 "PAM2841GR" H 8850 4200 60  0001 C CNN "MFG Part Num"
+F 6 "621-PAM2841GR" H 8850 4200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Diodes-Incorporated/PAM2841GR?qs=sGAEpiMZZMsE420DPIasPhwbUD6mTFil6SfLDlfAyjU%3d" H 8850 4200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 8850 4200 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-led-drivers/745?FV=c003f1%2Cc003f2%2Cc003f3%2Cc003f4%2Cc003f5%2Cc00402%2Cc00403%2Cc0040d%2Cc0040e%2Cc00414%2Cc0041d%2Cc0042e%2Cc0042f%2Cc0047a%2Cc0065f%2Cc00686%2Cc0068d%2Cc00727%2Cc0077b%2Cc00014%2Cc007eb%2Cc007f0%2Cc007f2%2Cc00017%2Cc00c4f%2Cc00d1c%2Cc00f80%2Cc00f90%2Cc00f91%2Cc00f94%2Cc00f9c%2Cc00004%2Cc00fa2%2Cc00fab%2Cc00fae%2Cc00faf%2Cc00fb0%2Cc00fb1%2Cc00fb3%2Cc00fb7%2Cc00fbe%2Cc001b3%2Cc01121%2Cc01124%2Cc011f3%2Cc01214%2Cc0146c%2Cc0146f%2Cc0161b%2Cc0162e%2Cc0163d%2Cc0164c%2Cc016b0%2Cc0170a%2Cc0174f%2Cc017de%2Cc017df%2Cc01806%2Cc01841%2Cc01845%2Cc01868%2Cc018a0%2Cc01923%2Cc0192b%2Cc0196f%2Cc01970%2Cc01971%2Cc01992%2Cc01a44%2Cc01a45%2Cc01a49%2Cc01a4a%2Cc01a4b%2Cc01a4c%2Cc01a4d%2Cc01a4e%2Cc01a4f%2Cc01a9e%2Cc01b1f%2Cc01be6%2Cc01bfe%2Cc01c37%2Cc01c60%2Cc002fa%2Cc0036c%2Cc0036f%2Cc00370%2Cc00371%2Cc00372%2Cc00373%2Cc00379%2Cc0037a%2Cc0037d%2Cc00390%2Cc00393%2Cc00394%2Cc00399%2C15c0002%2C2dc1e9f%2C7b80001%2C7b8000c%2C7b80010%2C7b80018%2C7b80035%2C7b80037%2C7b80038%2C7b80039%2C7b80281%2C7b80286%2C7b80288%2C7b80289%2C7b8028a%2C7b8028d%2C7b80290%2C7b80292%2C7b80293%2C7b80294%2C7b80295%2C7b80296%2C7b80297%2C7b80298%2C7b8029a%2C7b80043%2C7b802a1%2C7b802a2%2C7b802a5%2C7b802a6%2C7b802b7%2C7b802b8%2C7b802bb%2C7b802c9%2C7b802d9%2C7b802da%2C7b802db%2C7b802de%2C7b802e7%2C7b802e8%2C7b802e9%2C7b802f4%2C7b802f6%2C7b802fc%2C7b80308%2C7b80329%2C112800df%2C1128015c%2C112801a2%2C112801a4%2C112801ba%2C11280006%2C1f140000%2Cffe002e9&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 8850 4200 60  0001 C CNN "Others"
+	1    8850 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C456
 U 1 1 5B19DCF4
-P 7750 3900
-F 0 "C456" H 7775 4000 50  0000 L CNN
-F 1 "10uF" H 7775 3800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7788 3750 50  0001 C CNN
-F 3 "" H 7750 3900 50  0001 C CNN
-	1    7750 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C457
-U 1 1 5B19DE3D
-P 7750 4500
-F 0 "C457" H 7775 4600 50  0000 L CNN
-F 1 "1uF" H 7775 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7788 4350 50  0001 C CNN
-F 3 "" H 7750 4500 50  0001 C CNN
-	1    7750 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR0110
-U 1 1 5B19DF14
-P 7750 4100
-F 0 "#PWR0110" H 7750 3850 50  0001 C CNN
-F 1 "GND" H 7750 3950 50  0000 C CNN
-F 2 "" H 7750 4100 50  0001 C CNN
-F 3 "" H 7750 4100 50  0001 C CNN
-	1    7750 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR0111
-U 1 1 5B19FE2B
-P 7750 4700
-F 0 "#PWR0111" H 7750 4450 50  0001 C CNN
-F 1 "GND" H 7750 4550 50  0000 C CNN
-F 2 "" H 7750 4700 50  0001 C CNN
-F 3 "" H 7750 4700 50  0001 C CNN
-	1    7750 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L VBAT_REG #PWR0112
-U 1 1 5B1A0ED2
 P 7750 3650
-F 0 "#PWR0112" H 7750 3500 50  0001 C CNN
-F 1 "VBAT_REG" H 7750 3790 50  0000 C CNN
-F 2 "" H 7750 3650 50  0001 C CNN
+F 0 "C456" H 7775 3750 50  0000 L CNN
+F 1 "10uF" H 7775 3550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7788 3500 50  0001 C CNN
 F 3 "" H 7750 3650 50  0001 C CNN
 	1    7750 3650
 	1    0    0    -1  
 $EndComp
 $Comp
+L C C457
+U 1 1 5B19DE3D
+P 7750 4250
+F 0 "C457" H 7775 4350 50  0000 L CNN
+F 1 "1uF" H 7775 4150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7788 4100 50  0001 C CNN
+F 3 "" H 7750 4250 50  0001 C CNN
+	1    7750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0110
+U 1 1 5B19DF14
+P 7750 3850
+F 0 "#PWR0110" H 7750 3600 50  0001 C CNN
+F 1 "GND" H 7750 3700 50  0000 C CNN
+F 2 "" H 7750 3850 50  0001 C CNN
+F 3 "" H 7750 3850 50  0001 C CNN
+	1    7750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0111
+U 1 1 5B19FE2B
+P 7750 4450
+F 0 "#PWR0111" H 7750 4200 50  0001 C CNN
+F 1 "GND" H 7750 4300 50  0000 C CNN
+F 2 "" H 7750 4450 50  0001 C CNN
+F 3 "" H 7750 4450 50  0001 C CNN
+	1    7750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBAT_REG #PWR0112
+U 1 1 5B1A0ED2
+P 7750 3400
+F 0 "#PWR0112" H 7750 3250 50  0001 C CNN
+F 1 "VBAT_REG" H 7750 3540 50  0000 C CNN
+F 2 "" H 7750 3400 50  0001 C CNN
+F 3 "" H 7750 3400 50  0001 C CNN
+	1    7750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
 L L L403
 U 1 1 5B1A2374
-P 8850 3700
-F 0 "L403" V 8925 3700 50  0000 C CNN
-F 1 "22uH" V 8800 3700 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:LQH32CN220K" H 8850 3700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0039.pdf" H 8850 3700 50  0001 C CNN
-F 4 "Murata" V 8850 3700 60  0001 C CNN "MFG Name"
-F 5 "LQH32CN220K" V 8850 3700 60  0001 C CNN "MFG Part Num"
-F 6 "LQH32CN220K23L" V 8850 3700 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/lqh32cn220k23l/murata-manufacturing" V 8850 3700 60  0001 C CNN "Distrib Link"
-F 8 "10%" V 8850 3700 60  0001 C CNN "Tolerance"
-F 9 "https://www.arrow.com/en/products/lqh32cn220k53l/murata-manufacturing" V 8850 3700 60  0001 C CNN "Others"
-	1    8850 3700
+P 8850 3450
+F 0 "L403" V 8925 3450 50  0000 C CNN
+F 1 "22uH" V 8800 3450 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LQH32CN220K" H 8850 3450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0039.pdf" H 8850 3450 50  0001 C CNN
+F 4 "Murata" V 8850 3450 60  0001 C CNN "MFG Name"
+F 5 "LQH32CN220K" V 8850 3450 60  0001 C CNN "MFG Part Num"
+F 6 "LQH32CN220K23L" V 8850 3450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/lqh32cn220k23l/murata-manufacturing" V 8850 3450 60  0001 C CNN "Distrib Link"
+F 8 "10%" V 8850 3450 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/lqh32cn220k53l/murata-manufacturing" V 8850 3450 60  0001 C CNN "Others"
+	1    8850 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L D_Schottky_ALT D401
 U 1 1 5B1A4D0A
-P 9800 3700
-F 0 "D401" H 9800 3800 50  0000 C CNN
-F 1 "SS14" H 9800 3600 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:DO-214AC" H 9800 3700 50  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/SS/SS12.pdf" H 9800 3700 50  0001 C CNN
-F 4 "ON Semiconductor" H 9800 3700 60  0001 C CNN "MFG Name"
-F 5 "SS14" H 9800 3700 60  0001 C CNN "MFG Part Num"
-F 6 "SS14CT-ND" H 9800 3700 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729" H 9800 3700 60  0001 C CNN "Distrib Link"
-F 8 "-" H 9800 3700 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=SS14&start=0" H 9800 3700 60  0001 C CNN "Others"
-	1    9800 3700
+P 9800 3450
+F 0 "D401" H 9800 3550 50  0000 C CNN
+F 1 "SS14" H 9800 3350 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:DO-214AC" H 9800 3450 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/SS/SS12.pdf" H 9800 3450 50  0001 C CNN
+F 4 "ON Semiconductor" H 9800 3450 60  0001 C CNN "MFG Name"
+F 5 "SS14" H 9800 3450 60  0001 C CNN "MFG Part Num"
+F 6 "SS14CT-ND" H 9800 3450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729" H 9800 3450 60  0001 C CNN "Distrib Link"
+F 8 "-" H 9800 3450 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=SS14&start=0" H 9800 3450 60  0001 C CNN "Others"
+	1    9800 3450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R416
 U 1 1 5B1A53A5
-P 10100 4000
-F 0 "R416" H 10250 4050 50  0000 C CNN
-F 1 "910k" H 10250 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10030 4000 50  0001 C CNN
-F 3 "" H 10100 4000 50  0001 C CNN
-	1    10100 4000
+P 10100 3750
+F 0 "R416" H 10250 3800 50  0000 C CNN
+F 1 "910k" H 10250 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10030 3750 50  0001 C CNN
+F 3 "" H 10100 3750 50  0001 C CNN
+	1    10100 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R417
 U 1 1 5B1A5A2A
-P 10100 4650
-F 0 "R417" H 10250 4700 50  0000 C CNN
-F 1 "30k" H 10225 4600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10030 4650 50  0001 C CNN
-F 3 "" H 10100 4650 50  0001 C CNN
-	1    10100 4650
+P 10100 4400
+F 0 "R417" H 10250 4450 50  0000 C CNN
+F 1 "30k" H 10225 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10030 4400 50  0001 C CNN
+F 3 "" H 10100 4400 50  0001 C CNN
+	1    10100 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C460
 U 1 1 5B1A5C1F
-P 10500 4000
-F 0 "C460" H 10525 4100 50  0000 L CNN
-F 1 "1uF" H 10525 3900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10538 3850 50  0001 C CNN
-F 3 "" H 10500 4000 50  0001 C CNN
-	1    10500 4000
+P 10500 3750
+F 0 "C460" H 10525 3850 50  0000 L CNN
+F 1 "1uF" H 10525 3650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10538 3600 50  0001 C CNN
+F 3 "" H 10500 3750 50  0001 C CNN
+	1    10500 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0113
 U 1 1 5B1A5CB0
-P 10500 4200
-F 0 "#PWR0113" H 10500 3950 50  0001 C CNN
-F 1 "GND" H 10500 4050 50  0000 C CNN
-F 2 "" H 10500 4200 50  0001 C CNN
-F 3 "" H 10500 4200 50  0001 C CNN
-	1    10500 4200
+P 10500 3950
+F 0 "#PWR0113" H 10500 3700 50  0001 C CNN
+F 1 "GND" H 10500 3800 50  0000 C CNN
+F 2 "" H 10500 3950 50  0001 C CNN
+F 3 "" H 10500 3950 50  0001 C CNN
+	1    10500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0114
 U 1 1 5B1A6439
-P 10100 4850
-F 0 "#PWR0114" H 10100 4600 50  0001 C CNN
-F 1 "GND" H 10100 4700 50  0000 C CNN
-F 2 "" H 10100 4850 50  0001 C CNN
-F 3 "" H 10100 4850 50  0001 C CNN
-	1    10100 4850
+P 10100 4600
+F 0 "#PWR0114" H 10100 4350 50  0001 C CNN
+F 1 "GND" H 10100 4450 50  0000 C CNN
+F 2 "" H 10100 4600 50  0001 C CNN
+F 3 "" H 10100 4600 50  0001 C CNN
+	1    10100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0115
 U 1 1 5B1A64FF
-P 8850 5200
-F 0 "#PWR0115" H 8850 4950 50  0001 C CNN
-F 1 "GND" H 8850 5050 50  0000 C CNN
-F 2 "" H 8850 5200 50  0001 C CNN
-F 3 "" H 8850 5200 50  0001 C CNN
-	1    8850 5200
+P 8850 4950
+F 0 "#PWR0115" H 8850 4700 50  0001 C CNN
+F 1 "GND" H 8850 4800 50  0000 C CNN
+F 2 "" H 8850 4950 50  0001 C CNN
+F 3 "" H 8850 4950 50  0001 C CNN
+	1    8850 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C458
 U 1 1 5B1A7173
-P 8200 5000
-F 0 "C458" H 8225 5100 50  0000 L CNN
-F 1 "100nF" H 8225 4900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8238 4850 50  0001 C CNN
-F 3 "" H 8200 5000 50  0001 C CNN
-	1    8200 5000
+P 8200 4750
+F 0 "C458" H 8225 4850 50  0000 L CNN
+F 1 "100nF" H 8225 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8238 4600 50  0001 C CNN
+F 3 "" H 8200 4750 50  0001 C CNN
+	1    8200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0116
 U 1 1 5B1A7330
-P 8200 5200
-F 0 "#PWR0116" H 8200 4950 50  0001 C CNN
-F 1 "GND" H 8200 5050 50  0000 C CNN
-F 2 "" H 8200 5200 50  0001 C CNN
-F 3 "" H 8200 5200 50  0001 C CNN
-	1    8200 5200
+P 8200 4950
+F 0 "#PWR0116" H 8200 4700 50  0001 C CNN
+F 1 "GND" H 8200 4800 50  0000 C CNN
+F 2 "" H 8200 4950 50  0001 C CNN
+F 3 "" H 8200 4950 50  0001 C CNN
+	1    8200 4950
 	1    0    0    -1  
 $EndComp
-Text HLabel 9650 4550 2    60   Input ~ 0
+Text HLabel 9650 4300 2    60   Input ~ 0
 LEDK
 $Comp
 L R R415
 U 1 1 5B1AB6C8
-P 9600 4750
-F 0 "R415" H 9750 4800 50  0000 C CNN
-F 1 "5.1" H 9725 4700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9530 4750 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 9600 4750 50  0001 C CNN
-F 4 "Yageo" H 9600 4750 60  0001 C CNN "MFG Name"
-F 5 "RT0603DRE075R1L" H 9600 4750 60  0001 C CNN "MFG Part Num"
-F 6 "603-RT0603DRE075R1L" H 9600 4750 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Yageo/RT0603DRE075R1L?qs=%2fha2pyFaduht7PCjER6AutY0cwRaA5v8%252bIKbr7x%252bqtcf2D6zoEEfG7Yq%2fpVpDtKT&utm_source=octopart&utm_medium=aggregator&utm_campaign=603-RT0603DRE075R1L&utm_content=Yageo" H 9600 4750 60  0001 C CNN "Distrib Link"
-F 8 "0.5%" H 9600 4750 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv3=380&pv3=370&pv3=377&pv3=355&FV=c0001%2Cc0163%2Cc0172%2Cc0179%2Cc017c%2C400005%2C1f140000%2Cmu5.1+Ohms%7C2085%2Cffe00034&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 9600 4750 60  0001 C CNN "Others"
-	1    9600 4750
+P 9600 4500
+F 0 "R415" H 9750 4550 50  0000 C CNN
+F 1 "5.1" H 9725 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9530 4500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 9600 4500 50  0001 C CNN
+F 4 "Yageo" H 9600 4500 60  0001 C CNN "MFG Name"
+F 5 "RT0603DRE075R1L" H 9600 4500 60  0001 C CNN "MFG Part Num"
+F 6 "603-RT0603DRE075R1L" H 9600 4500 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Yageo/RT0603DRE075R1L?qs=%2fha2pyFaduht7PCjER6AutY0cwRaA5v8%252bIKbr7x%252bqtcf2D6zoEEfG7Yq%2fpVpDtKT&utm_source=octopart&utm_medium=aggregator&utm_campaign=603-RT0603DRE075R1L&utm_content=Yageo" H 9600 4500 60  0001 C CNN "Distrib Link"
+F 8 "0.5%" H 9600 4500 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv3=380&pv3=370&pv3=377&pv3=355&FV=c0001%2Cc0163%2Cc0172%2Cc0179%2Cc017c%2C400005%2C1f140000%2Cmu5.1+Ohms%7C2085%2Cffe00034&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 9600 4500 60  0001 C CNN "Others"
+	1    9600 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0117
 U 1 1 5B1ABBC5
-P 9600 4950
-F 0 "#PWR0117" H 9600 4700 50  0001 C CNN
-F 1 "GND" H 9600 4800 50  0000 C CNN
-F 2 "" H 9600 4950 50  0001 C CNN
-F 3 "" H 9600 4950 50  0001 C CNN
-	1    9600 4950
+P 9600 4700
+F 0 "#PWR0117" H 9600 4450 50  0001 C CNN
+F 1 "GND" H 9600 4550 50  0000 C CNN
+F 2 "" H 9600 4700 50  0001 C CNN
+F 3 "" H 9600 4700 50  0001 C CNN
+	1    9600 4700
 	1    0    0    -1  
 $EndComp
-Text HLabel 8200 4550 0    60   Input ~ 0
+Text HLabel 8200 4300 0    60   Input ~ 0
 PWM
 $Comp
 L 22V4_P #PWR0118
 U 1 1 5B23B5C7
-P 10500 3650
-F 0 "#PWR0118" H 10500 3500 50  0001 C CNN
-F 1 "22V4_P" H 10500 3800 50  0000 C CNN
-F 2 "" H 10500 3650 50  0001 C CNN
-F 3 "" H 10500 3650 50  0001 C CNN
-	1    10500 3650
+P 10500 3400
+F 0 "#PWR0118" H 10500 3250 50  0001 C CNN
+F 1 "22V4_P" H 10500 3550 50  0000 C CNN
+F 2 "" H 10500 3400 50  0001 C CNN
+F 3 "" H 10500 3400 50  0001 C CNN
+	1    10500 3400
 	1    0    0    -1  
 $EndComp
-Text Notes 7650 5600 0    60   ~ 0
+Text Notes 7650 5350 0    60   ~ 0
 Optional:\nif PWR_EN == LOW\nset PWM = LOW (0% duty)
-Text Notes 9650 4950 0    39   ~ 0
+Text Notes 9650 4700 0    39   ~ 0
 I_O=40mA
 $Comp
 L PWR_FLAG #FLG0119
 U 1 1 5B24D241
-P 10100 3650
-F 0 "#FLG0119" H 10100 3725 50  0001 C CNN
-F 1 "PWR_FLAG" H 10100 3800 50  0000 C CNN
-F 2 "" H 10100 3650 50  0001 C CNN
-F 3 "" H 10100 3650 50  0001 C CNN
-	1    10100 3650
+P 10100 3400
+F 0 "#FLG0119" H 10100 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 10100 3550 50  0000 C CNN
+F 2 "" H 10100 3400 50  0001 C CNN
+F 3 "" H 10100 3400 50  0001 C CNN
+	1    10100 3400
 	1    0    0    -1  
 $EndComp
-Text Notes 9150 5550 0    60   ~ 0
+Text Notes 9150 5300 0    60   ~ 0
 Reference:\nhttps://www.diodes.com/assets/\nEvaluation-Boards/\nPAM2841-User-Guide.pdf
-Text Notes 9500 4300 0    60   ~ 0
+Text Notes 9500 4050 0    60   ~ 0
 OVP@~~37.6V
-Text Notes 9150 5625 0    39   ~ 0
+Text Notes 9150 5375 0    39   ~ 0
 (brochure lists backlight as an application)
 $Comp
 L C C444
@@ -1250,23 +1206,23 @@ F 3 "" H 5150 6400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 1500 9850 1600
+	9900 1250 9900 1350
 Wire Wire Line
 	3800 1300 3800 1350
 Wire Wire Line
-	9650 1550 10100 1550
-Connection ~ 10450 1550
+	9700 1300 10150 1300
+Connection ~ 10500 1300
 Wire Wire Line
-	10050 1350 10450 1350
+	10100 1100 10500 1100
 Wire Wire Line
-	10300 1300 10300 1350
+	10350 1050 10350 1100
 Wire Wire Line
-	10400 1550 10500 1550
-Connection ~ 10050 1550
+	10450 1300 10550 1300
+Connection ~ 10100 1300
 Wire Wire Line
-	10050 1350 10050 1550
+	10100 1100 10100 1300
 Wire Wire Line
-	10200 1300 10200 1350
+	10250 1050 10250 1100
 Connection ~ 7000 3750
 Wire Wire Line
 	6600 3550 7000 3550
@@ -1364,17 +1320,17 @@ Wire Wire Line
 Wire Wire Line
 	1450 4050 1400 4050
 Wire Wire Line
-	7750 2150 9850 2150
-Connection ~ 8800 2150
+	7800 1900 9900 1900
+Connection ~ 8850 1900
 Wire Wire Line
-	8800 2100 8800 2200
+	8850 1850 8850 1950
 Wire Wire Line
-	9350 1550 9300 1550
-Connection ~ 9700 1550
+	9400 1300 9350 1300
+Connection ~ 9750 1300
 Wire Wire Line
-	9700 1750 9700 1550
+	9750 1500 9750 1300
 Wire Wire Line
-	9300 1750 9700 1750
+	9350 1500 9750 1500
 Wire Notes Line
 	7450 5400 7450 3000
 Wire Wire Line
@@ -1438,21 +1394,21 @@ Wire Wire Line
 Wire Wire Line
 	2600 4850 2600 4900
 Wire Notes Line
-	10900 850  7500 850 
+	11000 550  7500 550 
 Wire Notes Line
-	10900 2950 10900 850 
+	11000 2700 11000 550 
 Wire Notes Line
-	7500 2950 10900 2950
+	7500 2700 11000 2700
 Wire Notes Line
-	7500 850  7500 2950
-Connection ~ 9850 1550
-Connection ~ 7750 1550
+	7500 550  7500 2700
+Connection ~ 9900 1300
+Connection ~ 7800 1300
 Wire Wire Line
-	7750 1500 7750 1650
+	7800 1250 7800 1400
 Wire Wire Line
-	9850 2150 9850 1900
+	9900 1900 9900 1650
 Wire Wire Line
-	7750 1950 7750 2150
+	7800 1700 7800 1900
 Wire Notes Line
 	7450 550  7450 2950
 Wire Notes Line
@@ -1503,10 +1459,10 @@ Connection ~ 5200 3450
 Connection ~ 5100 3450
 Connection ~ 6850 3550
 Connection ~ 6750 3550
-Connection ~ 10300 1350
-Connection ~ 10200 1350
+Connection ~ 10350 1100
+Connection ~ 10250 1100
 Wire Wire Line
-	10450 1350 10450 1550
+	10500 1100 10500 1300
 Wire Wire Line
 	5300 3650 5400 3650
 Wire Wire Line
@@ -1539,87 +1495,87 @@ Wire Wire Line
 	1450 1400 1450 1300
 Connection ~ 1450 1300
 Wire Wire Line
-	7750 1550 8300 1550
+	7800 1300 8350 1300
 Wire Wire Line
-	7900 1750 8300 1750
+	7950 1500 8350 1500
 Wire Wire Line
 	6600 3550 6600 3950
 Wire Wire Line
 	5000 3650 4950 3650
 Wire Wire Line
-	8200 4100 8200 4050
+	8200 3850 8200 3800
 Wire Wire Line
-	8200 4050 8250 4050
+	8200 3800 8250 3800
+Wire Wire Line
+	7750 3850 7750 3800
 Wire Wire Line
 	7750 4100 7750 4050
+Connection ~ 7750 4050
 Wire Wire Line
-	7750 4350 7750 4300
-Connection ~ 7750 4300
+	7750 4450 7750 4400
 Wire Wire Line
-	7750 4700 7750 4650
+	7750 3400 7750 3500
+Connection ~ 7750 3450
 Wire Wire Line
-	7750 3650 7750 3750
-Connection ~ 7750 3700
+	9000 3450 9650 3450
 Wire Wire Line
-	9000 3700 9650 3700
+	9500 3450 9500 3800
 Wire Wire Line
-	9500 3700 9500 4050
+	9500 3800 9450 3800
+Connection ~ 9500 3450
 Wire Wire Line
-	9500 4050 9450 4050
-Connection ~ 9500 3700
+	10100 3900 10100 4250
 Wire Wire Line
-	10100 4150 10100 4500
+	10500 3950 10500 3900
 Wire Wire Line
-	10500 4200 10500 4150
+	8850 4850 8850 4950
 Wire Wire Line
-	8850 5100 8850 5200
+	9450 4550 9500 4550
 Wire Wire Line
-	9450 4800 9500 4800
+	9500 4550 9500 4900
 Wire Wire Line
-	9500 4800 9500 5150
+	9500 4900 8850 4900
+Connection ~ 8850 4900
 Wire Wire Line
-	9500 5150 8850 5150
-Connection ~ 8850 5150
+	8250 4550 8200 4550
 Wire Wire Line
-	8250 4800 8200 4800
+	8200 4550 8200 4600
 Wire Wire Line
-	8200 4800 8200 4850
+	8200 4950 8200 4900
 Wire Wire Line
-	8200 5200 8200 5150
+	9450 4050 10100 4050
+Connection ~ 10100 4050
 Wire Wire Line
-	9450 4300 10100 4300
-Connection ~ 10100 4300
+	10500 3400 10500 3600
 Wire Wire Line
-	10500 3650 10500 3850
+	10100 3400 10100 3600
+Connection ~ 10100 3450
 Wire Wire Line
-	10100 3650 10100 3850
-Connection ~ 10100 3700
+	10100 4550 10100 4600
 Wire Wire Line
-	10100 4800 10100 4850
+	9450 4300 9650 4300
 Wire Wire Line
-	9450 4550 9650 4550
+	9600 4700 9600 4650
 Wire Wire Line
-	9600 4950 9600 4900
+	9600 4350 9600 4300
+Connection ~ 9600 4300
 Wire Wire Line
-	9600 4600 9600 4550
-Connection ~ 9600 4550
+	7600 4050 8250 4050
 Wire Wire Line
-	7600 4300 8250 4300
+	7600 3450 8700 3450
 Wire Wire Line
-	7600 3700 8700 3700
+	7600 4050 7600 3450
 Wire Wire Line
-	7600 4300 7600 3700
-Wire Wire Line
-	8200 4550 8250 4550
-Connection ~ 10500 3700
+	8200 4300 8250 4300
+Connection ~ 10500 3450
 Wire Notes Line
-	7500 3000 7500 5650
+	7500 2750 7500 5400
 Wire Notes Line
-	7500 5650 11000 5650
+	7500 5400 11000 5400
 Wire Notes Line
-	11000 5650 11000 3000
+	11000 5400 11000 2750
 Wire Notes Line
-	11000 3000 7500 3000
+	11000 2750 7500 2750
 Wire Wire Line
 	5550 6200 5500 6200
 Wire Wire Line
@@ -1724,10 +1680,10 @@ Wire Wire Line
 	6150 6100 6300 6100
 Wire Wire Line
 	6250 6050 6250 6150
-Text HLabel 10550 3700 2    60   Output ~ 0
+Text HLabel 10550 3450 2    60   Output ~ 0
 22V4_P
 Wire Wire Line
-	9950 3700 10550 3700
+	9950 3450 10550 3450
 Text Notes 4650 5800 0    236  ~ 47
 2.8V/150mA
 Wire Notes Line
@@ -1738,7 +1694,7 @@ Wire Notes Line
 	6900 6850 6900 5450
 Wire Notes Line
 	6900 5450 4600 5450
-Text Notes 10100 2125 0    39   ~ 0
+Text Notes 10150 1875 0    39   ~ 0
 Worst-case current draw:\n Camera =140mA\n USB Switch=113mA\n Audio Codec=12mA\n Level Shifters=1.5mA\n Display=?mA\nRemaining≅333.5mA
 Text Notes 6350 6025 0    60   ~ 0
 0.5V drop
@@ -2608,4 +2564,72 @@ Text Notes 4400 2400 0    60   ~ 0
 AP22814: Ilimit=3.45A\nAP22804: Ilimit=3.00A (drop-in)
 Text Notes 4450 5050 0    60   ~ 0
 AP22814: Ilimit=3.45A\nAP22804: Ilimit=3.00A (drop-in)
+$Comp
+L Conn_01x02 JP401
+U 1 1 5B32BBF9
+P 4700 850
+F 0 "JP401" V 4800 800 50  0000 C CNN
+F 1 "NC" V 4600 650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 4700 850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf" H 4700 850 50  0001 C CNN
+F 4 "Samtec" V 4700 850 60  0001 C CNN "MFG Name"
+F 5 "TMM-102-03-T-S" V 4700 850 60  0001 C CNN "MFG Part Num"
+F 6 "SAM8977-ND" V 4700 850 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206" V 4700 850 60  0001 C CNN "Distrib Link"
+F 8 "-" V 4700 850 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 4700 850 60  0001 C CNN "Others"
+	1    4700 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 JP402
+U 1 1 5B32BE16
+P 5100 3200
+F 0 "JP402" V 5200 3150 50  0000 C CNN
+F 1 "NC" V 5000 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5100 3200 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf" H 5100 3200 50  0001 C CNN
+F 4 "Samtec" V 5100 3200 60  0001 C CNN "MFG Name"
+F 5 "TMM-102-03-T-S" V 5100 3200 60  0001 C CNN "MFG Part Num"
+F 6 "SAM8977-ND" V 5100 3200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206" V 5100 3200 60  0001 C CNN "Distrib Link"
+F 8 "-" V 5100 3200 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 5100 3200 60  0001 C CNN "Others"
+	1    5100 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 JP403
+U 1 1 5B32BFC9
+P 6750 3300
+F 0 "JP403" V 6850 3250 50  0000 C CNN
+F 1 "NC" V 6650 3100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 6750 3300 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf" H 6750 3300 50  0001 C CNN
+F 4 "Samtec" V 6750 3300 60  0001 C CNN "MFG Name"
+F 5 "TMM-102-03-T-S" V 6750 3300 60  0001 C CNN "MFG Part Num"
+F 6 "SAM8977-ND" V 6750 3300 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206" V 6750 3300 60  0001 C CNN "Distrib Link"
+F 8 "-" V 6750 3300 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 6750 3300 60  0001 C CNN "Others"
+	1    6750 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02 JP404
+U 1 1 5B32C178
+P 10250 850
+F 0 "JP404" V 10350 800 50  0000 C CNN
+F 1 "NC" V 10150 650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 10250 850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf" H 10250 850 50  0001 C CNN
+F 4 "Samtec" V 10250 850 60  0001 C CNN "MFG Name"
+F 5 "TMM-102-03-T-S" V 10250 850 60  0001 C CNN "MFG Part Num"
+F 6 "SAM8977-ND" V 10250 850 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206" V 10250 850 60  0001 C CNN "Distrib Link"
+F 8 "-" V 10250 850 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 10250 850 60  0001 C CNN "Others"
+	1    10250 850 
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

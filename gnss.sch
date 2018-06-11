@@ -48,17 +48,17 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L MAX-M8 U2301
+L MAX-8 U2301
 U 1 1 5B0DFDBF
 P 5700 3700
 F 0 "U2301" H 5400 4550 60  0000 C CNN
-F 1 "MAX-M8Q" H 5950 4550 60  0000 C CNN
+F 1 "MAX-8Q" H 5950 4550 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:MAX-M8" H 6550 4050 60  0001 C CNN
-F 3 "https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf" H 6550 4050 60  0001 C CNN
+F 3 "https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf" H 6550 4050 60  0001 C CNN
 F 4 "U-Blox" H 5700 3700 60  0001 C CNN "MFG Name"
-F 5 "MAX-M8Q" H 5700 3700 60  0001 C CNN "MFG Part Num"
-F 6 "MAX-M8Q" H 5700 3700 60  0001 C CNN "Distrib PN"
-F 7 "https://www.u-blox.com/en/product/max-m8-series" H 5700 3700 60  0001 C CNN "Distrib Link"
+F 5 "MAX-8Q" H 5700 3700 60  0001 C CNN "MFG Part Num"
+F 6 "MAX-8Q" H 5700 3700 60  0001 C CNN "Distrib PN"
+F 7 "https://www.u-blox.com/en/product/max-8-series" H 5700 3700 60  0001 C CNN "Distrib Link"
 F 8 "-" H 5700 3700 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/product-detail/en/u-blox-america-inc/MAX-M8Q-0/672-1003-1-ND/6150666" H 5700 3700 60  0001 C CNN "Others"
 	1    5700 3700
@@ -221,12 +221,12 @@ L Antenna_Chip AE2301
 U 1 1 5B123EED
 P 7550 2750
 F 0 "AE2301" H 7900 2900 50  0000 R CNN
-F 1 "ACM4‐5036‐A1‐CC‐S" H 8350 2800 50  0000 R CNN
+F 1 "ACM4-5036-A1-CC-S" H 8500 2800 50  0000 R CNN
 F 2 "" H 7550 2850 50  0001 C CNN
 F 3 "https://www.endrich.com/fm/2/Application%20Note%20no.542665.pdf" H 7550 2850 50  0001 C CNN
 F 4 "INPAQ" H 7550 2750 60  0001 C CNN "MFG Name"
-F 5 "ACM4‐5036‐A1‐CC‐S" H 7550 2750 60  0001 C CNN "MFG Part Num"
-F 6 "ACM4‐5036‐A1‐CC‐S" H 7550 2750 60  0001 C CNN "Distrib PN"
+F 5 "ACM4-5036-A1-CC-S" H 7550 2750 60  0001 C CNN "MFG Part Num"
+F 6 "ACM4-5036-A1-CC-S" H 7550 2750 60  0001 C CNN "Distrib PN"
 F 7 "https://www.endrich.com/antennen_nfc_wpc/acm4_5036_a1_cc_s" H 7550 2750 60  0001 C CNN "Distrib Link"
 F 8 "-" H 7550 2750 60  0001 C CNN "Tolerance"
 F 9 "https://www.everythingrf.com/products/gps-gnss-antennas/inpaq-technology-co-ltd/666-329-acm4-5036-a1-cc-s" H 7550 2750 60  0001 C CNN "Others"
