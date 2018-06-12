@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 17 24
-Title "librem5 development kit"
+Title "Librem5 development kit"
 Date "2018-06-11"
-Rev "v01.1"
+Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -212,23 +212,23 @@ NoConn ~ 4050 4550
 NoConn ~ 4050 4700
 NoConn ~ 4050 4800
 $Comp
-L TEST_1P J1701
+L TEST_1P TP1701
 U 1 1 5AF22D8A
 P 750 5850
-F 0 "J1701" H 750 6120 50  0000 C CNN
+F 0 "TP1701" H 750 6120 50  0000 C CNN
 F 1 "TEST_1P" H 750 6050 50  0000 C CNN
-F 2 "" H 950 5850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 950 5850 50  0001 C CNN
 F 3 "" H 950 5850 50  0001 C CNN
 	1    750  5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P J1702
+L TEST_1P TP1702
 U 1 1 5AF22DDD
 P 1050 5750
-F 0 "J1702" H 1050 6020 50  0000 C CNN
+F 0 "TP1702" H 1050 6020 50  0000 C CNN
 F 1 "TEST_1P" H 1050 5950 50  0000 C CNN
-F 2 "" H 1250 5750 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1250 5750 50  0001 C CNN
 F 3 "" H 1250 5750 50  0001 C CNN
 	1    1050 5750
 	1    0    0    -1  

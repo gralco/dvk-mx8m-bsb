@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 24
-Title "librem5 development kit"
+Title "Librem5 development kit"
 Date "2018-06-11"
-Rev "v01.1"
+Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -540,7 +540,7 @@ F 3 "" H 6700 3850 50  0001 C CNN
 $EndComp
 $Bitmap
 Pos 2175 1950
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 20 00 00 01 90 08 02 00 00 00 D9 47 93 
 63 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC BD 7B 7C 54 D5 
@@ -2018,8 +2018,14 @@ U 1 1 5B0E413B
 P 9500 2150
 F 0 "JP301" V 9600 2100 50  0000 C CNN
 F 1 "NC" V 9400 1950 50  0000 C CNN
-F 2 "" H 9500 2150 50  0001 C CNN
-F 3 "" H 9500 2150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9500 2150 50  0001 C CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0015381026_ACCESSORIES.pdf" H 9500 2150 50  0001 C CNN
+F 4 "Molex" V 9500 2150 60  0001 C CNN "MFG Name"
+F 5 "0022284020" V 9500 2150 60  0001 C CNN "MFG Part Num"
+F 6 "WM50014-02-ND" V 9500 2150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/molex-llc/0022284020/WM50014-02-ND/313787" V 9500 2150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9500 2150 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/0015381026/molex" V 9500 2150 60  0001 C CNN "Others"
 	1    9500 2150
 	0    -1   -1   0   
 $EndComp

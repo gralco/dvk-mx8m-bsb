@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 24
-Title "librem5 development kit"
+Title "Librem5 development kit"
 Date "2018-06-11"
-Rev "v01.1"
+Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -54,7 +54,7 @@ U 1 1 5AD052A0
 P 6150 3550
 F 0 "J801" H 6200 3850 50  0000 C CNN
 F 1 "NC" H 6200 3250 50  0000 C CNN
-F 2 "" H 6150 3550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 6150 3550 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/GRPB_%20_2VWQS-RC%2010958-C.pdf" H 6150 3550 50  0001 C CNN
 F 4 "Sullins" H 6150 3550 60  0001 C CNN "MFG Name"
 F 5 "GRPB052VWQS-RC" H 6150 3550 60  0001 C CNN "MFG Part Num"

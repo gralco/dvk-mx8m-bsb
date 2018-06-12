@@ -1,4 +1,4 @@
-update=Mo 11 Jun 2018 17:09:52 CEST
+update=Mon 11 Jun 2018 10:19:43 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,7 +60,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=dvk-mx8m-bsb
-LibName34=emcr_mx8m
 [schematic_editor]
 version=1
 PageLayoutDescrFile=Purism_landscape.kicad_wks
@@ -73,3 +70,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1

@@ -114,8 +114,12 @@ $CMP MA8627
 D USB 2.0 High Speed 3-Port Hub with SD Reader Controller
 $ENDCMP
 #
+$CMP MAX-8
+D GNSS Module
+$ENDCMP
+#
 $CMP MAX-M8
-D Concurrent GNSS Module
+D GNSS Module
 $ENDCMP
 #
 $CMP MIC2876
@@ -148,11 +152,6 @@ $CMP Micro_SD_Card_Det_Hirose_DM3AT
 D Micro SD Card Socket with card detection pins
 K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
-$ENDCMP
-#
-$CMP Motor_DC
-D DC Motor
-K DC Motor
 $ENDCMP
 #
 $CMP Motor_Haptic

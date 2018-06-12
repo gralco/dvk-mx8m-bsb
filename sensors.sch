@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 20 24
-Title "librem5 development kit"
+Title "Librem5 development kit"
 Date "2018-06-11"
-Rev "v01.1"
+Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -380,7 +380,7 @@ Text Notes 6050 3500 0    60   ~ 0
 SDO_A/G Address\n     1      0x6B\n     0      0x6A
 $Bitmap
 Pos 7450 5900
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 77 00 00 01 45 08 02 00 00 00 C0 7C 83 
 CE 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -3589,7 +3589,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 10050 5900
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 A2 00 00 01 63 08 02 00 00 00 69 3F FE 
 28 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 

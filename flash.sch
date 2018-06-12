@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 21 24
-Title "librem5 development kit"
+Title "Librem5 development kit"
 Date "2018-06-11"
-Rev "v01.1"
+Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -244,6 +244,4 @@ F 3 "" H 4950 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 4300 4950 4250
-Text Notes 4500 4200 0    60   ~ 0
-0805
 $EndSCHEMATC
