@@ -5943,9 +5943,9 @@ $EndComp
 Text Label 5150 4650 0    60   ~ 0
 ~Full_Card_Power_Off
 Text Label 7600 4500 2    60   ~ 0
-USB_D-
+WWAN_DN
 Text Label 7600 4600 2    60   ~ 0
-USB_D+
+WWAN_DP
 Text Label 7600 3800 2    60   ~ 0
 ~WoWWAN_1V8
 Text Label 7600 1600 2    60   ~ 0
@@ -6272,9 +6272,9 @@ Open = ON\nClosed = OFF
 Text HLabel 2650 6250 2    60   Input ~ 0
 DPR
 Text HLabel 7650 4600 2    60   BiDi ~ 0
-USB_D+
+WWAN_DP
 Text HLabel 7650 4500 2    60   BiDi ~ 0
-USB_D-
+WWAN_DN
 Text HLabel 5950 6700 2    60   BiDi ~ 0
 PCM_SYNC/I2S_FSC
 Text HLabel 5950 6500 2    60   BiDi ~ 0

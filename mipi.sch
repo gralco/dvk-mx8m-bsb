@@ -118,37 +118,37 @@ Wire Wire Line
 Wire Wire Line
 	4500 2050 4550 2050
 Text HLabel 4550 2050 2    60   Input ~ 0
-DSI_DP0
+DSI_D0P
 Text HLabel 4550 2250 2    60   Input ~ 0
-DSI_DP1
+DSI_D1P
 Text HLabel 4550 2450 2    60   Input ~ 0
-DSI_DP2
+DSI_D2P
 Text HLabel 4550 2650 2    60   Input ~ 0
-DSI_DP3
+DSI_D3P
 Text HLabel 4550 2150 2    60   Input ~ 0
-DSI_DN0
+DSI_D0N
 Text HLabel 4550 2350 2    60   Input ~ 0
-DSI_DN1
+DSI_D1N
 Text HLabel 4550 2550 2    60   Input ~ 0
-DSI_DN2
+DSI_D2N
 Text HLabel 4550 2750 2    60   Input ~ 0
-DSI_DN3
+DSI_D3N
 Text HLabel 4550 4250 2    60   Output ~ 0
-CSI_P1_DP0
+CSI_P1_D0P
 Text HLabel 4550 4450 2    60   Output ~ 0
-CSI_P1_DP1
+CSI_P1_D1P
 Text HLabel 4550 4650 2    60   Output ~ 0
-CSI_P1_DP2
+CSI_P1_D2P
 Text HLabel 4550 4850 2    60   Output ~ 0
-CSI_P1_DP3
+CSI_P1_D3P
 Text HLabel 4550 4350 2    60   Output ~ 0
-CSI_P1_DN0
+CSI_P1_D0N
 Text HLabel 4550 4550 2    60   Output ~ 0
-CSI_P1_DN1
+CSI_P1_D1N
 Text HLabel 4550 4750 2    60   Output ~ 0
-CSI_P1_DN2
+CSI_P1_D2N
 Text HLabel 4550 4950 2    60   Output ~ 0
-CSI_P1_DN3
+CSI_P1_D3N
 Text HLabel 4550 2850 2    60   Input ~ 0
 DSI_CKP
 Text HLabel 4550 2950 2    60   Input ~ 0

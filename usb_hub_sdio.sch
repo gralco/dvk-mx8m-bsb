@@ -100,13 +100,13 @@ $EndComp
 Text Notes 3450 2900 0    60   ~ 0
 Always Host
 Text HLabel 7050 4350 2    60   BiDi ~ 0
-USB_WWAN_DP
+WWAN_DP
 Text HLabel 7050 4450 2    60   BiDi ~ 0
-USB_WWAN_DM
+WWAN_DN
 Text HLabel 7050 4150 2    60   BiDi ~ 0
-USB_WLAN_DP
+WLAN_DP
 Text HLabel 7050 4250 2    60   BiDi ~ 0
-USB_WLAN_DM
+WLAN_DN
 Text HLabel 4350 4150 0    60   Output ~ 0
 uSD_CLK
 Text HLabel 4350 4650 0    60   BiDi ~ 0
@@ -220,7 +220,7 @@ DM0
 Text HLabel 7050 4550 2    60   BiDi ~ 0
 SMARTCARD_DP
 Text HLabel 7050 4650 2    60   BiDi ~ 0
-SMARTCARD_DM
+SMARTCARD_DN
 Text Notes 7950 4550 0    60   ~ 0
 Can be swapped arround depending on layout
 $Comp

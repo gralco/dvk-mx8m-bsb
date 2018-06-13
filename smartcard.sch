@@ -52,7 +52,7 @@ Reference:\nhttp://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO
 Text HLabel 4800 2300 0    60   BiDi ~ 0
 SMARTCARD_DP
 Text HLabel 4800 2400 0    60   BiDi ~ 0
-SMARTCARD_DM
+SMARTCARD_DN
 $Comp
 L 5V_P #PWR0360
 U 1 1 5B1F0A54

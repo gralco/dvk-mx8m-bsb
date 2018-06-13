@@ -214,21 +214,21 @@ HDMI_AUXP
 Text HLabel 1200 2000 0    60   Output ~ 0
 HDMI_AUXN
 Text HLabel 1200 2150 0    60   Input ~ 0
-HDMI_TXP0
+HDMI_TX0P
 Text HLabel 1200 2250 0    60   Input ~ 0
-HDMI_TXN0
+HDMI_TX0N
 Text HLabel 1200 2400 0    60   Input ~ 0
 HDMI_CLKP
 Text HLabel 1200 2500 0    60   Input ~ 0
 HDMI_CLKN
 Text HLabel 1200 3850 0    60   Input ~ 0
-HDMI_TXP2
+HDMI_TX2P
 Text HLabel 1200 3950 0    60   Input ~ 0
-HDMI_TXN2
+HDMI_TX2N
 Text HLabel 1200 4100 0    60   Input ~ 0
-HDMI_TXP1
+HDMI_TX1P
 Text HLabel 1200 4200 0    60   Input ~ 0
-HDMI_TXN1
+HDMI_TX1N
 $Comp
 L GND #PWR0332
 U 1 1 5B08911B
@@ -312,17 +312,17 @@ HDMI_HPD
 Text Label 6850 3700 0    60   ~ 0
 HDMI_Utility
 Text Label 6850 2400 0    60   ~ 0
-HDMI_TXP2_CN
+HDMI_TX2P_CN
 Text Label 6850 2600 0    60   ~ 0
-HDMI_TXN2_CN
+HDMI_TX2N_CN
 Text Label 6850 2700 0    60   ~ 0
-HDMI_TXP1_CN
+HDMI_TX1P_CN
 Text Label 6850 2900 0    60   ~ 0
-HDMI_TXN1_CN
+HDMI_TX1N_CN
 Text Label 6850 3000 0    60   ~ 0
-HDMI_TXP0_CN
+HDMI_TX0P_CN
 Text Label 6850 3200 0    60   ~ 0
-HDMI_TXN0_CN
+HDMI_TX0N_CN
 Text Label 6850 3300 0    60   ~ 0
 HDMI_CLKP_CN
 Text Label 6850 3500 0    60   ~ 0
@@ -427,21 +427,21 @@ HDMI_Utility
 Text Label 5400 2000 2    60   ~ 0
 HDMI_HPD
 Text Label 5400 2150 2    60   ~ 0
-HDMI_TXP0_CN
+HDMI_TX0P_CN
 Text Label 5400 2250 2    60   ~ 0
-HDMI_TXN0_CN
+HDMI_TX0N_CN
 Text Label 5400 2400 2    60   ~ 0
 HDMI_CLKP_CN
 Text Label 5400 2500 2    60   ~ 0
 HDMI_CLKN_CN
 Text Label 5400 3850 2    60   ~ 0
-HDMI_TXP2_CN
+HDMI_TX2P_CN
 Text Label 5400 3950 2    60   ~ 0
-HDMI_TXN2_CN
+HDMI_TX2N_CN
 Text Label 5400 4100 2    60   ~ 0
-HDMI_TXP1_CN
+HDMI_TX1P_CN
 Text Label 5400 4200 2    60   ~ 0
-HDMI_TXN1_CN
+HDMI_TX1N_CN
 Text Notes 10000 2000 0    39   ~ 0
 SMD Micro-HDMI Type D Alternative:\n0467650301
 $Comp
