@@ -1,4 +1,4 @@
-update=Wed 13 Jun 2018 04:24:12 PM EDT
+update=Wed 13 Jun 2018 04:35:34 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,7 +62,7 @@ LibName32=valves
 LibName33=dvk-mx8m-bsb
 [schematic_editor]
 version=1
-PageLayoutDescrFile=Purism_landscape.kicad_wks
+PageLayoutDescrFile=purism_landscape.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
