@@ -1,4 +1,4 @@
-update=Mi 13 Jun 2018 15:00:44 CEST
+update=Wed 13 Jun 2018 03:07:59 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,8 +60,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=dvk-mx8m-bsb
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=Purism_landscape.kicad_wks
@@ -72,3 +70,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1

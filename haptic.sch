@@ -38,7 +38,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 24 24
-Title "Librem5 development kit"
+Title "Haptic/Vibration Motor"
 Date "2018-06-11"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
@@ -48,10 +48,10 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0265
+L GND #PWR0376
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0265" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0376" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -78,10 +78,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0266
+L 3V3_P #PWR0377
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0266" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0377" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -213,4 +213,6 @@ F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H
 	1    6050 4000
 	-1   0    0    1   
 $EndComp
+Text Notes 4550 1800 0    236  ~ 47
+Haptic Motor
 $EndSCHEMATC

@@ -38,7 +38,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 24
-Title "Librem5 development kit"
+Title "USB Type C"
 Date "2018-06-11"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
@@ -1672,4 +1672,6 @@ F 3 "" H 6750 2700 50  0001 C CNN
 	1    6750 2700
 	1    0    0    -1  
 $EndComp
+Text Notes 8800 1500 0    236  ~ 47
+USB-C
 $EndSCHEMATC
