@@ -32,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dvk-mx8m-bsb
-LIBS:emcr_mx8m
 LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END

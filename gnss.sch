@@ -32,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dvk-mx8m-bsb
-LIBS:emcr_mx8m
 LIBS:dvk-mx8m-bsb-cache
 EELAYER 25 0
 EELAYER END
@@ -66,7 +65,7 @@ F 9 "https://www.digikey.com/product-detail/en/u-blox-america-inc/MAX-M8Q-0/672-
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0262
+L GND #PWR0380
 U 1 1 5B0E0D78
 P 4750 4700
 F 0 "#PWR0380" H 4750 4450 50  0001 C CNN
@@ -89,7 +88,7 @@ Reference:\nhttps://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareInte
 Text Notes 8000 2200 0    60   ~ 0
 3.4dBic
 $Comp
-L 3V3 #PWR0263
+L 3V3 #PWR0381
 U 1 1 5B0E6D0E
 P 3850 3200
 F 0 "#PWR0381" H 3850 3050 50  0001 C CNN
@@ -121,7 +120,7 @@ F 3 "" H 3850 3750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0264
+L GND #PWR0382
 U 1 1 5B0EDAF7
 P 3850 4000
 F 0 "#PWR0382" H 3850 3750 50  0001 C CNN
@@ -233,7 +232,7 @@ F 9 "https://www.everythingrf.com/products/gps-gnss-antennas/inpaq-technology-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0265
+L GND #PWR0383
 U 1 1 5B12431F
 P 7950 2350
 F 0 "#PWR0383" H 7950 2100 50  0001 C CNN
@@ -267,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 3850 6900 3800
 $Comp
-L GND #PWR0266
+L GND #PWR0384
 U 1 1 5B103EA0
 P 6900 3850
 F 0 "#PWR0384" H 6900 3600 50  0001 C CNN
