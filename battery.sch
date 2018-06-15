@@ -428,13 +428,13 @@ F 9 "https://octopart.com/search?q=ESD9X5.0ST5G&start=0" V 7250 2800 60  0001 C 
 	1    7250 2800
 	0    -1   1    0   
 $EndComp
-Text HLabel 5600 4050 2    60   Input ~ 0
+Text HLabel 5600 4150 2    60   Input ~ 0
 ONOFF
 Text Notes 7850 4550 0    60   ~ 0
 may want to include BQ29705 protection as in:\nhttp://www.ti.com/lit/ug/tiducl1/tiducl1.pdf\nschematic: http://www.ti.com/lit/df/tidrp70/tidrp70.pdf\n(PTC may be good enough)
 Text Notes 7850 3900 0    60   ~ 0
 VBAT(ovp_default)=REG06[7:2]=4.208V (reduce to 4.192V [010110])\nWorst Case:\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nBQ29705 provides 4.425V as OVP!
-Text Notes 4300 5200 0    60   ~ 0
+Text Notes 4300 5250 0    60   ~ 0
 BC1.2 is not mandated by PD spec\nICO used to determine max current\nAlso negotiated from CC pins (I2C)
 Text Notes 7225 2350 0    60   ~ 0
 3.5~~4.25V
@@ -2148,7 +2148,7 @@ Wire Wire Line
 	7250 2650 7250 2600
 Connection ~ 7250 2600
 Wire Wire Line
-	5600 4050 5550 4050
+	5600 4150 5550 4150
 Wire Wire Line
 	7250 3000 7850 3000
 Connection ~ 7450 3000
@@ -2166,8 +2166,6 @@ Wire Wire Line
 Connection ~ 6700 3900
 Wire Wire Line
 	5550 4650 5600 4650
-Wire Wire Line
-	5600 4650 5600 4850
 Connection ~ 5900 4850
 Wire Wire Line
 	5550 2700 5600 2700
@@ -2572,16 +2570,32 @@ L R R310
 U 1 1 5B30501E
 P 9950 3150
 F 0 "R310" H 10100 3200 50  0000 C CNN
-F 1 "2.21k" H 10100 3100 50  0000 C CNN
+F 1 "1k" H 10100 3100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9880 3150 50  0001 C CNN
 F 3 "" H 9950 3150 50  0001 C CNN
 	1    9950 3150
 	-1   0    0    -1  
 $EndComp
 Text Notes 10025 3075 0    60   ~ 0
-0.18mA~~0.95mA
-Text Notes 9700 3350 0    60   ~ 0
-1%
+0.4mA~~2.4mA
 Text Notes 7500 3100 0    60   ~ 0
 Vf(max)=1.1V
+Wire Wire Line
+	5550 3650 5600 3650
+Wire Wire Line
+	5600 3650 5600 3750
+Connection ~ 5600 3750
+Wire Wire Line
+	5550 4000 5600 4000
+Wire Wire Line
+	5600 4000 5600 3900
+Connection ~ 5600 3900
+Wire Wire Line
+	5550 4550 5600 4550
+Connection ~ 5600 4650
+Wire Wire Line
+	5600 4950 5050 4950
+Connection ~ 5600 4850
+Wire Wire Line
+	5600 4550 5600 4950
 $EndSCHEMATC
