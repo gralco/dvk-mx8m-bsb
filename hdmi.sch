@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 19 24
 Title "HDMI"
-Date "2018-06-11"
+Date "2018-06-14"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -131,10 +131,10 @@ F 3 "" H 3500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0329
+L 1V8_P #PWR1901
 U 1 1 5B01672B
 P 750 3350
-F 0 "#PWR0329" H 750 3200 50  0001 C CNN
+F 0 "#PWR1901" H 750 3200 50  0001 C CNN
 F 1 "1V8_P" H 750 3490 50  0000 C CNN
 F 2 "" H 750 3350 50  0001 C CNN
 F 3 "" H 750 3350 50  0001 C CNN
@@ -186,10 +186,10 @@ F 3 "" H 3500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0330
+L 1V8_P #PWR1902
 U 1 1 5B019D66
 P 750 5050
-F 0 "#PWR0330" H 750 4900 50  0001 C CNN
+F 0 "#PWR1902" H 750 4900 50  0001 C CNN
 F 1 "1V8_P" H 750 5190 50  0000 C CNN
 F 2 "" H 750 5050 50  0001 C CNN
 F 3 "" H 750 5050 50  0001 C CNN
@@ -199,10 +199,10 @@ $EndComp
 Text Notes 850  2750 0    60   ~ 0
 ±1%!!!
 $Comp
-L GND #PWR0331
+L GND #PWR1903
 U 1 1 5B081BE1
 P 4150 3400
-F 0 "#PWR0331" H 4150 3150 50  0001 C CNN
+F 0 "#PWR1903" H 4150 3150 50  0001 C CNN
 F 1 "GND" H 4150 3250 50  0000 C CNN
 F 2 "" H 4150 3400 50  0001 C CNN
 F 3 "" H 4150 3400 50  0001 C CNN
@@ -230,10 +230,10 @@ HDMI_TX1P
 Text HLabel 1200 4200 0    60   Input ~ 0
 HDMI_TX1N
 $Comp
-L GND #PWR0332
+L GND #PWR1904
 U 1 1 5B08911B
 P 4150 5100
-F 0 "#PWR0332" H 4150 4850 50  0001 C CNN
+F 0 "#PWR1904" H 4150 4850 50  0001 C CNN
 F 1 "GND" H 4150 4950 50  0000 C CNN
 F 2 "" H 4150 5100 50  0001 C CNN
 F 3 "" H 4150 5100 50  0001 C CNN
@@ -264,10 +264,10 @@ Text Notes 650  1800 0    60   ~ 0
 Text Notes 3400 1650 0    60   ~ 0
 Layout Note:\nMay need swap some signals\ndue to micro-HDMI pinout diff\ndepending on pin location/routing
 $Comp
-L GND #PWR0333
+L GND #PWR1908
 U 1 1 5AF69B9C
 P 9200 4900
-F 0 "#PWR0333" H 9200 4650 50  0001 C CNN
+F 0 "#PWR1908" H 9200 4650 50  0001 C CNN
 F 1 "GND" H 9200 4750 50  0000 C CNN
 F 2 "" H 9200 4900 50  0001 C CNN
 F 3 "" H 9200 4900 50  0001 C CNN
@@ -368,10 +368,10 @@ F 3 "" H 6250 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0334
+L GND #PWR1906
 U 1 1 5AFABCE1
 P 6150 2400
-F 0 "#PWR0334" H 6150 2150 50  0001 C CNN
+F 0 "#PWR1906" H 6150 2150 50  0001 C CNN
 F 1 "GND" H 6150 2250 50  0000 C CNN
 F 2 "" H 6150 2400 50  0001 C CNN
 F 3 "" H 6150 2400 50  0001 C CNN
@@ -412,10 +412,10 @@ F 3 "" H 9200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0335
+L 3V3_P #PWR1907
 U 1 1 5AFBD440
 P 9200 1650
-F 0 "#PWR0335" H 9200 1500 50  0001 C CNN
+F 0 "#PWR1907" H 9200 1500 50  0001 C CNN
 F 1 "3V3_P" H 9200 1790 50  0000 C CNN
 F 2 "" H 9200 1650 50  0001 C CNN
 F 3 "" H 9200 1650 50  0001 C CNN
@@ -461,10 +461,10 @@ F 8 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-c
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5V_P #PWR0336
+L 5V_P #PWR1905
 U 1 1 5B3E4E0C
 P 6050 1800
-F 0 "#PWR0336" H 6050 1650 50  0001 C CNN
+F 0 "#PWR1905" H 6050 1650 50  0001 C CNN
 F 1 "5V_P" H 6050 1940 50  0000 C CNN
 F 2 "" H 6050 1800 50  0001 C CNN
 F 3 "" H 6050 1800 50  0001 C CNN
@@ -591,25 +591,8 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9200 4650 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1903
-U 1 1 5B1A7CAB
-P 1150 4800
-F 0 "Q1903" H 800 5000 50  0000 L CNN
-F 1 "NX3020NAKS" H 600 4900 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:6-TSSOP" H 1350 4900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf" H 1150 4800 50  0001 C CNN
-F 4 "NXP" H 1150 4800 60  0001 C CNN "MFG Name"
-F 5 "NX3020NAKS" H 1150 4800 60  0001 C CNN "MFG Part Num"
-F 6 "NX3020NAKS,115" H 1150 4800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/nx3020naks115/nexperia" H 1150 4800 60  0001 C CNN "Distrib Link"
-F 8 "-" H 1150 4800 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1150 4800 60  0001 C CNN "Others"
-	1    1150 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Q_NMOS_DUAL Q1901
-U 2 1 5B1A8769
+U 2 1 5B1A7CAB
 P 1900 3100
 F 0 "Q1901" H 1550 3300 50  0000 L CNN
 F 1 "NX3020NAKS" H 1350 3200 50  0000 L CNN
@@ -626,7 +609,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1900 3100 60  0001 C CN
 $EndComp
 $Comp
 L Q_NMOS_DUAL Q1902
-U 1 1 5B1A87F5
+U 1 1 5B1A8769
 P 2650 3100
 F 0 "Q1902" H 2300 3300 50  0000 L CNN
 F 1 "NX3020NAKS" H 2100 3200 50  0000 L CNN
@@ -642,8 +625,42 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 2650 3100 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Q_NMOS_DUAL Q1903
+U 1 1 5B1A87F5
+P 1150 4800
+F 0 "Q1903" H 800 5000 50  0000 L CNN
+F 1 "NX3020NAKS" H 600 4900 50  0000 L CNN
+F 2 "dvk-mx8m-bsb:6-TSSOP" H 1350 4900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf" H 1150 4800 50  0001 C CNN
+F 4 "NXP" H 1150 4800 60  0001 C CNN "MFG Name"
+F 5 "NX3020NAKS" H 1150 4800 60  0001 C CNN "MFG Part Num"
+F 6 "NX3020NAKS,115" H 1150 4800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/nx3020naks115/nexperia" H 1150 4800 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1150 4800 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1150 4800 60  0001 C CNN "Others"
+	1    1150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_DUAL Q1904
+U 1 1 5B1A8AD3
+P 2650 4800
+F 0 "Q1904" H 2300 5000 50  0000 L CNN
+F 1 "NX3020NAKS" H 2100 4900 50  0000 L CNN
+F 2 "dvk-mx8m-bsb:6-TSSOP" H 2850 4900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf" H 2650 4800 50  0001 C CNN
+F 4 "NXP" H 2650 4800 60  0001 C CNN "MFG Name"
+F 5 "NX3020NAKS" H 2650 4800 60  0001 C CNN "MFG Part Num"
+F 6 "NX3020NAKS,115" H 2650 4800 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/nx3020naks115/nexperia" H 2650 4800 60  0001 C CNN "Distrib Link"
+F 8 "-" H 2650 4800 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 2650 4800 60  0001 C CNN "Others"
+	1    2650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
 L Q_NMOS_DUAL Q1902
-U 2 1 5B1A8AD3
+U 2 1 5B1A9D21
 P 3400 3100
 F 0 "Q1902" H 3050 3300 50  0000 L CNN
 F 1 "NX3020NAKS" H 2850 3200 50  0000 L CNN
@@ -660,7 +677,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 3400 3100 60  0001 C CN
 $EndComp
 $Comp
 L Q_NMOS_DUAL Q1903
-U 2 1 5B1A9D21
+U 2 1 5B1A9DC4
 P 1900 4800
 F 0 "Q1903" H 1550 5000 50  0000 L CNN
 F 1 "NX3020NAKS" H 1350 4900 50  0000 L CNN
@@ -673,23 +690,6 @@ F 7 "https://www.arrow.com/en/products/nx3020naks115/nexperia" H 1900 4800 60  0
 F 8 "-" H 1900 4800 60  0001 C CNN "Tolerance"
 F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1900 4800 60  0001 C CNN "Others"
 	2    1900 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NMOS_DUAL Q1904
-U 1 1 5B1A9DC4
-P 2650 4800
-F 0 "Q1904" H 2300 5000 50  0000 L CNN
-F 1 "NX3020NAKS" H 2100 4900 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:6-TSSOP" H 2850 4900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf" H 2650 4800 50  0001 C CNN
-F 4 "NXP" H 2650 4800 60  0001 C CNN "MFG Name"
-F 5 "NX3020NAKS" H 2650 4800 60  0001 C CNN "MFG Part Num"
-F 6 "NX3020NAKS,115" H 2650 4800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/nx3020naks115/nexperia" H 2650 4800 60  0001 C CNN "Distrib Link"
-F 8 "-" H 2650 4800 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 2650 4800 60  0001 C CNN "Others"
-	1    2650 4800
 	1    0    0    -1  
 $EndComp
 $Comp
