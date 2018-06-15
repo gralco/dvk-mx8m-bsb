@@ -1997,7 +1997,7 @@ F 1 "AS01608MS-SP9" H 6900 2400 50  0000 R CNN
 F 2 "dvk-mx8m-bsb:Speaker_flat_15x11x4mm" H 6600 2000 50  0001 C CNN
 F 3 "http://www.puiaudio.com/pdf/AS01508MS-SP11-WP-R.pdf" H 6590 2150 50  0001 C CNN
 F 4 "PUI Audio" H 6600 2200 60  0001 C CNN "MFG Name"
-F 5 "AS01508MS-SP11-WP-R" H 6600 2200 60  0001 C CNN "MFG Part  Num"
+F 5 "AS01508MS-SP11-WP-R" H 6600 2200 60  0001 C CNN "MFG Part Num"
 F 6 "668-1613-ND" H 6600 2200 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/pui-audio-inc/AS01508MS-SP11-WP-R/668-1613-ND/8021804" H 6600 2200 60  0001 C CNN "Distrib Link"
 F 8 "15%" H 6600 2200 60  0001 C CNN "Tolerance"

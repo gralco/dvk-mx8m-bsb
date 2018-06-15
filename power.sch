@@ -275,7 +275,7 @@ F 0 "C412" H 2025 4250 50  0000 L CNN
 F 1 "4.7uF" H 2025 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2038 4000 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BJ475KA-T&fileName=LMK107BJ475KA-T_SS&mode=specSheetDownload" H 2000 4150 50  0001 C CNN
-F 4 "Taiyo Yuden" H 2000 4150 60  0001 C CNN "Distrib Name"
+F 4 "Taiyo Yuden" H 2000 4150 60  0001 C CNN "MFG Name"
 F 5 "LMK107BJ475KA-T" H 2000 4150 60  0001 C CNN "MFG Part Num"
 F 6 "587-1441-1-ND" H 2000 4150 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BJ475KA-T/587-1441-1-ND/1004072" H 2000 4150 60  0001 C CNN "Distrib Link"
@@ -374,7 +374,7 @@ F 0 "C408" H 1725 4250 50  0000 L CNN
 F 1 "1uF" H 1725 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1738 4000 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A105KA61-01.pdf" H 1700 4150 50  0001 C CNN
-F 4 "Murata" H 1700 4150 60  0001 C CNN "Distrib Name"
+F 4 "Murata" H 1700 4150 60  0001 C CNN "MFG Name"
 F 5 "GRM188R61A105KA61D" H 1700 4150 60  0001 C CNN "MFG Part Num"
 F 6 "490-1543-1-ND" H 1700 4150 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A105KA61D/490-1543-1-ND/587782" H 1700 4150 60  0001 C CNN "Distrib Link"
@@ -444,7 +444,7 @@ F 0 "C457" H 7825 1650 50  0000 L CNN
 F 1 "4.7uF" H 7825 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7838 1400 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BJ475KA-T&fileName=LMK107BJ475KA-T_SS&mode=specSheetDownload" H 7800 1550 50  0001 C CNN
-F 4 "Taiyo Yuden" H 7800 1550 60  0001 C CNN "Distrib Name"
+F 4 "Taiyo Yuden" H 7800 1550 60  0001 C CNN "MFG Name"
 F 5 "LMK107BJ475KA-T" H 7800 1550 60  0001 C CNN "MFG Part Num"
 F 6 "587-1441-1-ND" H 7800 1550 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BJ475KA-T/587-1441-1-ND/1004072" H 7800 1550 60  0001 C CNN "Distrib Link"

@@ -6195,7 +6195,7 @@ F 0 "J1504" H 6600 1025 50  0000 C CNN
 F 1 "Key_B" H 6600 1100 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:MDT180BXX" H 6550 3100 50  0001 C CNN
 F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/CMDT180XXX001.pdf" H 6550 3100 50  0001 C CNN
-F 4 "Amphenol" H 6550 3100 60  0001 C CNN "MFG Nane"
+F 4 "Amphenol" H 6550 3100 60  0001 C CNN "MFG Name"
 F 5 "MDT180B03001" H 6550 3100 60  0001 C CNN "MFG Part Num"
 F 6 "MDT180B03001CT-ND" H 6550 3100 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT180B03001/MDT180B03001CT-ND/5810395" H 6550 3100 60  0001 C CNN "Distrib Link"

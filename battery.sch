@@ -391,7 +391,7 @@ F 0 "FB301" V 6675 2600 50  0000 C CNN
 F 1 "HI1206T500R" V 6750 2600 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:FER-1206" V 6830 2600 50  0001 C CNN
 F 3 "http://assets.lairdtech.com/home/brandworld/files/HI1206T500R-10.pdf" H 6900 2600 50  0001 C CNN
-F 4 "Laird" V 6900 2600 60  0001 C CNN "Laird"
+F 4 "Laird" V 6900 2600 60  0001 C CNN "MFG Name"
 F 5 "HI1206T500R-10" V 6900 2600 60  0001 C CNN "MFG Part Num"
 F 6 "875-HI1206T500R-10" V 6900 2600 60  0001 C CNN "Distrib PN"
 F 7 "https://www.mouser.com/ProductDetail/Laird/HI1206T500R-10?qs=%2fha2pyFadugcmOq%2fcv7OLZeM%2fc1By05gbf2XwEMDzV4zBFQuJrblng%3d%3d" V 6900 2600 60  0001 C CNN "Distrib Link"

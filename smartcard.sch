@@ -219,7 +219,7 @@ P 5650 3400
 F 0 "U2101" H 5175 4650 60  0000 C CNN
 F 1 "SEC1110" H 6050 4650 60  0000 C CNN
 F 2 "" H 5650 3700 60  0001 C CNN
-F 3 "" H 5650 3700 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00001561C.pdf" H 5650 3700 60  0001 C CNN
 	1    5650 3400
 	1    0    0    -1  
 $EndComp
