@@ -1297,8 +1297,6 @@ CC2
 Wire Wire Line
 	9300 5750 9300 5700
 Connection ~ 9300 5750
-Wire Wire Line
-	9850 5700 9850 5800
 Connection ~ 9850 5750
 Wire Wire Line
 	9950 4050 9100 4050
@@ -1349,17 +1347,6 @@ F 3 "" H 750 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 750  5300
-$Comp
-L PWR_FLAG #FLG038
-U 1 1 5B0A460D
-P 9850 5800
-F 0 "#FLG038" H 9850 5875 50  0001 C CNN
-F 1 "PWR_FLAG" H 9850 5950 50  0000 C CNN
-F 2 "" H 9850 5800 50  0001 C CNN
-F 3 "" H 9850 5800 50  0001 C CNN
-	1    9850 5800
-	-1   0    0    1   
-$EndComp
 $Comp
 L Polyfuse F201
 U 1 1 5AE32200
@@ -1710,4 +1697,6 @@ Wire Wire Line
 	10850 5650 10850 6150
 Connection ~ 10850 5900
 Connection ~ 10250 6150
+Wire Wire Line
+	9850 5700 9850 5750
 $EndSCHEMATC
