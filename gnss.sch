@@ -70,17 +70,6 @@ Text Notes 3150 5150 0    60   ~ 0
 References:\nhttps://www.u-blox.com/sites/default/files/MAX-M8_HardwareIntegrationManual_%28UBX-13004876%29.pdf\nhttps://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf
 Text Notes 8050 2200 0    60   ~ 0
 3.4dBic
-$Comp
-L 3V3 #PWR0369
-U 1 1 5B0E6D0E
-P 3900 3200
-F 0 "#PWR0369" H 3900 3050 50  0001 C CNN
-F 1 "3V3" H 3900 3340 50  0000 C CNN
-F 2 "" H 3900 3200 50  0001 C CNN
-F 3 "" H 3900 3200 50  0001 C CNN
-	1    3900 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 3550 4850 3550
 Wire Wire Line
@@ -388,6 +377,17 @@ F 7 "https://www.u-blox.com/en/product/max-m8-series" H 5500 3950 60  0001 C CNN
 F 8 "-" H 5500 3950 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/product-detail/en/u-blox-america-inc/MAX-M8Q-0/672-1003-1-ND/6150666" H 5500 3950 60  0001 C CNN "Others"
 	1    5500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3_P #PWR?
+U 1 1 5B259E98
+P 3900 3200
+F 0 "#PWR?" H 3900 3050 50  0001 C CNN
+F 1 "3V3_P" H 3900 3340 50  0000 C CNN
+F 2 "" H 3900 3200 50  0001 C CNN
+F 3 "" H 3900 3200 50  0001 C CNN
+	1    3900 3200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
