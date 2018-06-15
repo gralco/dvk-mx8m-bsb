@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 24
+Sheet 23 24
 Title "Haptic/Vibration Motor"
 Date "2018-06-14"
 Rev "v0.1.0"
@@ -48,10 +48,10 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR2402
+L GND #PWR0349
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR2402" H 6050 4050 50  0001 C CNN
+F 0 "#PWR0349" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
@@ -61,10 +61,10 @@ $EndComp
 Text Notes 6550 3800 0    60   ~ 0
 When the motor is off\nboth terminals are at GND
 $Comp
-L Q_PMOS_GSD Q2401
+L Q_PMOS_GSD Q2301
 U 1 1 5AFD137F
 P 5950 3400
-F 0 "Q2401" H 6150 3350 50  0000 L CNN
+F 0 "Q2301" H 6150 3350 50  0000 L CNN
 F 1 "DMG2301L" H 6150 3450 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6150 3500 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 5950 3400 50  0001 C CNN
@@ -78,10 +78,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR2401
+L 3V3_P #PWR0350
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR2401" H 6050 2800 50  0001 C CNN
+F 0 "#PWR0350" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -89,10 +89,10 @@ F 3 "" H 6050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2401
+L R R2301
 U 1 1 5AFD2E14
 P 5350 3200
-F 0 "R2401" H 5525 3250 50  0000 C CNN
+F 0 "R2301" H 5525 3250 50  0000 C CNN
 F 1 "100k" H 5500 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5280 3200 50  0001 C CNN
 F 3 "" H 5350 3200 50  0001 C CNN
@@ -102,10 +102,10 @@ $EndComp
 Text HLabel 5300 3400 0    60   Input ~ 0
 HAPTIC
 $Comp
-L D_Schottky_ALT D2401
+L D_Schottky_ALT D2301
 U 1 1 5AFD563E
 P 5250 3950
-F 0 "D2401" V 5200 3750 50  0000 C CNN
+F 0 "D2301" V 5200 3750 50  0000 C CNN
 F 1 "DB2J209" V 5300 3700 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 5250 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5250 3950 50  0001 C CNN
@@ -119,10 +119,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2402
+L R R2302
 U 1 1 5AFFD30C
 P 5550 3400
-F 0 "R2402" V 5450 3400 50  0000 C CNN
+F 0 "R2302" V 5450 3400 50  0000 C CNN
 F 1 "100" V 5650 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5480 3400 50  0001 C CNN
 F 3 "" H 5550 3400 50  0001 C CNN
@@ -130,10 +130,10 @@ F 3 "" H 5550 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2401
+L C C2301
 U 1 1 5B0285ED
 P 5650 3950
-F 0 "C2401" H 5675 4050 50  0000 L CNN
+F 0 "C2301" H 5675 4050 50  0000 L CNN
 F 1 "100nF" H 5675 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5688 3800 50  0001 C CNN
 F 3 "" H 5650 3950 50  0001 C CNN
@@ -197,10 +197,10 @@ Motor PN:\nBY0820Z021L20
 Text Notes 6550 4450 0    60   ~ 0
 Metal housing is floating\n(not connected to either pin)\n⇒ could connect housing to GND
 $Comp
-L Motor_Haptic M2401
+L Motor_Haptic M2301
 U 1 1 5B40BABE
 P 6050 4000
-F 0 "M2401" H 5700 3800 50  0000 L CNN
+F 0 "M2301" H 5700 3800 50  0000 L CNN
 F 1 "Motor" H 5750 4100 50  0000 L TNN
 F 2 "dvk-mx8m-bsb:BY0820Z021L20" H 6050 3965 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf" H 6050 3965 50  0001 C CNN
