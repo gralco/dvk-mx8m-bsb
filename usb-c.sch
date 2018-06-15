@@ -770,7 +770,7 @@ L C C216
 U 1 1 5AF9B88F
 P 10600 5900
 F 0 "C216" V 10650 5950 50  0000 L CNN
-F 1 "1nF" V 10650 5700 50  0000 L CNN
+F 1 "NC" V 10650 5700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10638 5750 50  0001 C CNN
 F 3 "" H 10600 5900 50  0001 C CNN
 	1    10600 5900
@@ -1251,32 +1251,28 @@ Wire Wire Line
 	10450 5650 10450 5750
 Connection ~ 10450 5750
 Wire Wire Line
-	10850 5650 10850 6200
-Wire Wire Line
 	10850 6150 10750 6150
 $Comp
 L GND #PWR036
 U 1 1 5AFA9EDB
-P 10850 6200
-F 0 "#PWR036" H 10850 5950 50  0001 C CNN
-F 1 "GND" H 10850 6050 50  0000 C CNN
-F 2 "" H 10850 6200 50  0001 C CNN
-F 3 "" H 10850 6200 50  0001 C CNN
-	1    10850 6200
+P 10250 6200
+F 0 "#PWR036" H 10250 5950 50  0001 C CNN
+F 1 "GND" H 10250 6050 50  0000 C CNN
+F 2 "" H 10250 6200 50  0001 C CNN
+F 3 "" H 10250 6200 50  0001 C CNN
+	1    10250 6200
 	1    0    0    -1  
 $EndComp
-Connection ~ 10850 6150
 Wire Wire Line
 	10250 6150 10450 6150
 Wire Wire Line
-	10250 5750 10250 6150
+	10250 5750 10250 6200
 Connection ~ 10250 5750
 Wire Wire Line
 	10450 5900 10250 5900
 Connection ~ 10250 5900
 Wire Wire Line
 	10750 5900 10850 5900
-Connection ~ 10850 5900
 Wire Wire Line
 	10550 5650 10550 5750
 Connection ~ 10550 5750
@@ -1710,4 +1706,8 @@ Text Notes 7100 4950 0    39   ~ 0
 RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
 Text Notes 7150 6550 0    39   ~ 0
 TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
+Wire Wire Line
+	10850 5650 10850 6150
+Connection ~ 10850 5900
+Connection ~ 10250 6150
 $EndSCHEMATC
