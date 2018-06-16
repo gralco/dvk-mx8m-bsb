@@ -287,12 +287,12 @@ $EndComp
 $Comp
 L GND #PWR052
 U 1 1 5AE37872
-P 6100 4900
-F 0 "#PWR052" H 6100 4650 50  0001 C CNN
-F 1 "GND" H 6100 4750 50  0000 C CNN
-F 2 "" H 6100 4900 50  0001 C CNN
-F 3 "" H 6100 4900 50  0001 C CNN
-	1    6100 4900
+P 6100 5050
+F 0 "#PWR052" H 6100 4800 50  0001 C CNN
+F 1 "GND" H 6100 4900 50  0000 C CNN
+F 2 "" H 6100 5050 50  0001 C CNN
+F 3 "" H 6100 5050 50  0001 C CNN
+	1    6100 5050
 	1    0    0    -1  
 $EndComp
 Text Label 6550 4150 2    60   ~ 0
@@ -434,7 +434,7 @@ Text Notes 7850 4550 0    60   ~ 0
 may want to include BQ29705 protection as in:\nhttp://www.ti.com/lit/ug/tiducl1/tiducl1.pdf\nschematic: http://www.ti.com/lit/df/tidrp70/tidrp70.pdf\n(PTC may be good enough)
 Text Notes 7850 3900 0    60   ~ 0
 VBAT(ovp_default)=REG06[7:2]=4.208V (reduce to 4.192V [010110])\nWorst Case:\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nBQ29705 provides 4.425V as OVP!
-Text Notes 4300 5250 0    60   ~ 0
+Text Notes 4300 5300 0    60   ~ 0
 BC1.2 is not mandated by PD spec\nICO used to determine max current\nAlso negotiated from CC pins (I2C)
 Text Notes 7225 2350 0    60   ~ 0
 3.5~~4.25V
@@ -470,7 +470,7 @@ U 1 1 5AF31C9D
 P 5050 3600
 F 0 "U301" H 4850 4750 60  0000 C CNN
 F 1 "BQ25896" H 5200 4750 60  0000 C CNN
-F 2 "" H 5150 3800 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:BQ25896" H 5150 3800 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/bq25896.pdf" H 5150 3800 60  0001 C CNN
 F 4 "Texas Instruments" H 5050 3600 60  0001 C CNN "MFG Name"
 F 5 "BQ25896" H 5050 3600 60  0001 C CNN "MFG Part Num"
@@ -2081,14 +2081,12 @@ Wire Wire Line
 Connection ~ 6350 2600
 Connection ~ 6550 2600
 Wire Wire Line
-	5900 4750 5900 4850
+	5900 4750 5900 5000
 Wire Wire Line
-	5600 4850 6300 4850
+	6300 5000 6300 4800
 Wire Wire Line
-	6300 4850 6300 4800
-Wire Wire Line
-	6100 4900 6100 4850
-Connection ~ 6100 4850
+	6100 5050 6100 5000
+Connection ~ 6100 5000
 Wire Wire Line
 	5550 4350 6300 4350
 Wire Wire Line
@@ -2166,7 +2164,7 @@ Wire Wire Line
 Connection ~ 6700 3900
 Wire Wire Line
 	5550 4650 5600 4650
-Connection ~ 5900 4850
+Connection ~ 5900 5000
 Wire Wire Line
 	5550 2700 5600 2700
 Wire Wire Line
@@ -2594,8 +2592,10 @@ Wire Wire Line
 	5550 4550 5600 4550
 Connection ~ 5600 4650
 Wire Wire Line
-	5600 4950 5050 4950
-Connection ~ 5600 4850
+	5050 4950 5050 5000
 Wire Wire Line
-	5600 4550 5600 4950
+	5050 5000 6300 5000
+Wire Wire Line
+	5600 4550 5600 5000
+Connection ~ 5600 5000
 $EndSCHEMATC

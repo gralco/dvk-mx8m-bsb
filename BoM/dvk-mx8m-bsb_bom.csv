@@ -15,10 +15,10 @@ R102,2.2k,Resistors_SMD:R_0603,,,,,,,
 R107,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 C108,100nF,Capacitors_SMD:C_0603,,,,,,,
 C107,100nF,Capacitors_SMD:C_0603,,,,,,,
-P1,IMX8M-SOM1,,,,,,,,
-P2,IMX8M-SOM2,,,,,,,,
-P3,IMX8M-SOM3,,,,,,,,
-P4,IMX8M-SOM4,,,,,,,,
+P1,IMX8M-SOM1,dvk-mx8m-bsb:EmCr_SOM_IMX8M_Master,,,,,,,
+P2,IMX8M-SOM2,dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave,,,,,,,
+P3,IMX8M-SOM3,dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave,,,,,,,
+P4,IMX8M-SOM4,dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave,,,,,,,
 C204,2.2uF,Capacitors_SMD:C_0603,,,,,,,
 C203,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C205,4.7uF,Capacitors_SMD:C_0603,,,,,,,
@@ -62,7 +62,7 @@ R221,19.6k,Resistors_SMD:R_0603,,,,,,,
 R219,NC,Resistors_SMD:R_0603,,,,,,,
 U204,PCMF3HDMI2SZ,dvk-mx8m-bsb:PCMF3HDMI2S,https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf,,,,,,
 U205,PCMF2HDMI2SZ,dvk-mx8m-bsb:PCMF2HDMI2S,https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf,,,,,,
-C216,1nF,Capacitors_SMD:C_0603,,,,,,,
+C216,NC,Capacitors_SMD:C_0603,,,,,,,
 R226,0,Resistors_SMD:R_0603,,,,,,,
 D202,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
 F201,nanoSMD400LR,dvk-mx8m-bsb:LittleFuse_1206,http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lowrhosmd_datasheet.pdf.pdf,Littelfuse,nanoSMD400LR,NANOSMD400LR-C-2,https://www.arrow.com/en/products/nanosmd400lr-c-2/littelfuse,-,https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses/150?k=&pkeyword=&pv2074=u1+mOhms&pv2074=u1.5+mOhms&pv2074=u4+mOhms&pv2075=u10+mOhms&FV=1140003%2Cmu4.5A%7C682%2Cmu4A%7C682%2Cmu5.5A%7C682%2Cmu5A%7C682%2Cmu6.5A%7C682%2Cmu6A%7C682%2Cmu7.5A%7C682%2Cmu7A%7C682%2Cab80001%2Cab8000a%2Cab8000b%2Cab8000c%2Cab80011%2Cab80012%2Cab800b6%2Cab80013%2Cab80002%2Cab80015%2Cab80017%2Cab800f4%2Cab800f5%2Cab800f7%2Cab800f8%2Cab800fa%2Cab800fe%2Cab80104%2Cab80106%2Cab8001b%2Cab80003%2Cab80004%2Cab8002c%2Cab80005%2Cab80007%2Cab80049%2Cab8004a%2Cab80009%2C1f140000%2Cffe00096%2Cmu8A%7C683&quantity=0&ColumnSort=1000011&page=1&pageSize=500
@@ -72,8 +72,8 @@ D201,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/d
 C213,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C201,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 D204,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
-D205,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
-D206,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
+D205,NC,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
+D206,NC,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
 BT301,18650,dvk-mx8m-bsb:BH18650,https://www.tme.eu/en/Document/8fa81c4c5d128169ded6af3ed3867ae3/BHC-18650-1P.pdf,COMF,BHC-18650-1P,BHC-18650-1P,https://www.tme.eu/en/details/bhc-18650-1p/batteries-holders/comf/,-,http://www.sierraic.com/BHC186501P
 C301,1uF,Capacitors_SMD:C_0603,,,,,,,
 C302,8.2uF,Capacitors_SMD:C_0603,,,,,,,
@@ -92,7 +92,7 @@ R301,2.21k,Resistors_SMD:R_0603,,,,,,,
 D301,GREEN,dvk-mx8m-bsb:LTST-C190GKT,https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf,Lite-On,LTST-C190GKT,LTST-C190GKT,https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology,-,https://octopart.com/search?q=LTST-C190GKT&start=0
 FB301,HI1206T500R,dvk-mx8m-bsb:FER-1206,http://assets.lairdtech.com/home/brandworld/files/HI1206T500R-10.pdf,Laird,HI1206T500R-10,875-HI1206T500R-10,https://www.mouser.com/ProductDetail/Laird/HI1206T500R-10?qs=%2fha2pyFadugcmOq%2fcv7OLZeM%2fc1By05gbf2XwEMDzV4zBFQuJrblng%3d%3d,38Ω-63Ω,https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=400005%2C400006%2C400007%2C4002ca%2C400008%2C5400dc%2C540040%2C1140003%2C1e0c000b%2C1e0c0014%2C1e0c0019%2C1e0c001a%2C1e0c001b%2C1e0c001c%2C1e0c001d%2C1e0c001e%2C1e0c001f%2C1e0c0020%2C1e0c0023%2C1e0c0024%2C1e0c0025%2C1e0c0027%2C1e0c0028%2C1e0c0029%2C1e0c002a%2C1e0c0043%2C1e0c005f%2C1e0c0060%2C1e0c0061%2C1e100070%2C1e10009c%2C1e10009d%2C1e10001f%2C1e100020%2C1e100029%2C1e10002b%2C1e100031%2C1e100052%2C1f140000%2Cffe00349%2Cmu120+Ohms+%40+100MHz%7C2280%2Cmu50+Ohms+%40+100MHz%7C2280%2Cmu80+Ohms+%40+100MHz%7C2280&quantity=&ColumnSort=1000011&page=1&pageSize=500
 D303,ESD9X5.0,dvk-mx8m-bsb:SOD-923,http://www.onsemi.com/pub/Collateral/ESD9X3.3ST5G-D.PDF,ON Semi,ESD9X5.0ST5G, ESD9X5.0ST5G,https://www.arrow.com/en/products/esd9x5.0st5g/on-semiconductor,-,https://octopart.com/search?q=ESD9X5.0ST5G&start=0
-U301,BQ25896,,http://www.ti.com/lit/ds/symlink/bq25896.pdf,Texas Instruments,BQ25896,BQ25896RTWT,https://store.ti.com/BQ25896RTWT.aspx,-,https://octopart.com/search?q=BQ25896&start=0
+U301,BQ25896,dvk-mx8m-bsb:BQ25896,http://www.ti.com/lit/ds/symlink/bq25896.pdf,Texas Instruments,BQ25896,BQ25896RTWT,https://store.ti.com/BQ25896RTWT.aspx,-,https://octopart.com/search?q=BQ25896&start=0
 R309,NC,Resistors_SMD:R_2512,https://riedon.com/media/pdf/CSR.pdf,Riedon,CSR2512A0R025F,696-1666-1-ND,https://www.digikey.com/product-detail/en/riedon/CSR2512A0R025F/696-1666-1-ND/5723654,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0172%2Cc002a%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c06f9%2C142c0787%2C142c08f2%2C142c0b45%2C142c0ce1%2C142c10bd&quantity=&ColumnSort=1000011&page=1&pageSize=500
 JP301,NC,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,https://www.molex.com/webdocs/datasheets/pdf/en-us/0015381026_ACCESSORIES.pdf,Molex,22284020,WM50014-02-ND,https://www.digikey.com/product-detail/en/molex-llc/0022284020/WM50014-02-ND/313787,-,https://www.arrow.com/en/products/0015381026/molex
 C310,22uF,Capacitors_SMD:C_0805,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf,Murata,GRM219R61C226ME15L,490-9952-1-ND,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
@@ -109,7 +109,7 @@ Q301,2SK3018,dvk-mx8m-bsb:2SK3018,http://www.mccsemi.com/up_pdf/2SK3018(SOT-323)
 R303,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 D302,GREEN,dvk-mx8m-bsb:LTST-C190GKT,https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf,Lite-On,LTST-C190GKT,LTST-C190GKT,https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology,-,https://octopart.com/search?q=LTST-C190GKT&start=0
 D304,GREEN,dvk-mx8m-bsb:LTST-C190GKT,https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf,Lite-On,LTST-C190GKT,LTST-C190GKT,https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology,-,https://octopart.com/search?q=LTST-C190GKT&start=0
-R310,2.21k,Resistors_SMD:R_0603,,,,,,,
+R310,1k,Resistors_SMD:R_0603,,,,,,,
 L402,2.2uH,dvk-mx8m-bsb:XAL5030-222,https://www.coilcraft.com/pdfs/xal50xx.pdf,Coilcraft,XAL5030-222,994-XAL5030-222MEB,https://www.mouser.com/ProductDetail/Coilcraft/XAL5030-222MEB?qs=sGAEpiMZZMsg%252by3WlYCkU2kWFds1hA9DNQaFKMACSb4%3d,20%,https://www.coilcraft.com/apps/finder/finder.cfm?mfc=Richtek&apl=2%20uH&IC=RT8070&desc=Step-down%20converter
 R406,75k,Resistors_SMD:R_0603,,,,,,,
 R407,24k,Resistors_SMD:R_0603,,,,,,,
@@ -497,122 +497,122 @@ FB1701,BLM18PG121SN1D,dvk-mx8m-bsb:FER-0603,https://www.murata.com/en-us/product
 FB1702,BLM18PG121SN1D,dvk-mx8m-bsb:FER-0603,https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf,Murata,BLM18PG121SN1D,490-1037-1-ND,https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485,25%,https://octopart.com/search?q=BLM18PG121SN1D&start=0
 FB1703,BLM18PG121SN1D,dvk-mx8m-bsb:FER-0603,https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf,Murata,BLM18PG121SN1D,490-1037-1-ND,https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485,25%,https://octopart.com/search?q=BLM18PG121SN1D&start=0
 D1702,GREEN,dvk-mx8m-bsb:LTST-C190GKT,https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf,Lite-On,LTST-C190GKT,LTST-C190GKT,https://www.arrow.com/en/products/ltst-c190gkt/lite-on-technology,-,https://octopart.com/search?q=LTST-C190GKT&start=0
-U1801,PCMF3HDMI2SZ,dvk-mx8m-bsb:PCMF3HDMI2S,https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf,,,,,,
-U1802,PCMF2HDMI2SZ,dvk-mx8m-bsb:PCMF2HDMI2S,https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf,,,,,,
-Q1801,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
-R1801,604,Resistors_SMD:R_0603,,,,,,,
-R1803,604,Resistors_SMD:R_0603,,,,,,,
-R1805,604,Resistors_SMD:R_0603,,,,,,,
-R1807,604,Resistors_SMD:R_0603,,,,,,,
-R1802,604,Resistors_SMD:R_0603,,,,,,,
-R1804,604,Resistors_SMD:R_0603,,,,,,,
-R1806,604,Resistors_SMD:R_0603,,,,,,,
-R1808,604,Resistors_SMD:R_0603,,,,,,,
-F1801,PICOSMDC035S-2,dvk-mx8m-bsb:Fuse_SMD0805_Reflow,http://m.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_picosmdc035s_2_product_specification.pdf.pdf,Littlefuse,PICOSMDC035S-2,PICOSMDC035S-2,https://www.arrow.com/en/products/picosmdc035s-2/littelfuse,-,https://octopart.com/search?q=PICOSMDC035S&start=0
-C1805,1nF,Capacitors_SMD:C_0603,,,,,,,
-R1814,0,Resistors_SMD:R_0603,,,,,,,
-R1813,1M,Resistors_SMD:R_0603,,,,,,,
-R1809,NC,Resistors_SMD:R_0603,,,,,,,
-C1804,100nF,Capacitors_SMD:C_0603,,,,,,,
-R1810,1.5k,Resistors_SMD:R_0603,,,,,,,
-R1811,1.5k,Resistors_SMD:R_0603,,,,,,,
-R1812,1.5k,Resistors_SMD:R_0603,,,,,,,
-J1801,Mini-HDMI,dvk-mx8m-bsb:HDMI_Mini_Female_2001-1-2-21-00-BK,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,,2001-1-2-21-00-BK,1175-1704-1-ND,https://www.digikey.com/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013,-,https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?FV=ffe00138%2C7008fd%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500
+J1803,Key_E,dvk-mx8m-bsb:MDT180EXX,https://www.amphenolcanada.com/ProductSearch/drawings/AC/CMDT180XXX001.pdf,Amphenol,MDT180E03001,MDT180E03001CT-ND,https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT180E03001/MDT180E03001CT-ND/5810396,-,https://octopart.com/search?q=MDT180E03001&start=0
+C1818,100nF,Capacitors_SMD:C_0603,,,,,,,
+R1807,100k,Resistors_SMD:R_0603,,,,,,,
+R1805,100k,Resistors_SMD:R_0603,,,,,,,
+U1803,74AUP2G08,,http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf,Texas Instruments,SN74AUP2G08DCUR,296-32271-1-ND,https://store.ti.com/SN74AUP2G08DCUR.aspx,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?k=74AUP2G08
+U1802,NTB0104GU12,Housings_DFN_QFN:Texas_R_PUQFN-N12,https://www.nxp.com/docs/en/data-sheet/NTB0104.pdf,NXP,"NTB0104GU12,115",568-5204-1-ND,,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-translators-level-shifters/732?FV=a40148%2C700000e%2C700008e%2C7000097%2C70000fa%2C7000135%2C1b880002%2C1de0000a%2C1f140000%2Cii1%7C2094%2Cffe002dc%2C402f84%2C40331c%2C40346e%2C403579%2C403621%2C40373a%2C403b27%2C400e8c&quantity=&ColumnSort=1000011&page=1&pageSize=500
+C1807,10nF,Capacitors_SMD:C_0603,,,,,,,
+C1808,1uF,Capacitors_SMD:C_0603,,,,,,,
+C1806,10nF,Capacitors_SMD:C_0603,,,,,,,
+C1805,1uF,Capacitors_SMD:C_0603,,,,,,,
+U1801,NTB0104GU12,Housings_DFN_QFN:Texas_R_PUQFN-N12,https://www.nxp.com/docs/en/data-sheet/NTB0104.pdf,NXP,"NTB0104GU12,115",568-5204-1-ND,,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-translators-level-shifters/732?FV=a40148%2C700000e%2C700008e%2C7000097%2C70000fa%2C7000135%2C1b880002%2C1de0000a%2C1f140000%2Cii1%7C2094%2Cffe002dc%2C402f84%2C40331c%2C40346e%2C403579%2C403621%2C40373a%2C403b27%2C400e8c&quantity=&ColumnSort=1000011&page=1&pageSize=500
+C1803,10nF,Capacitors_SMD:C_0603,,,,,,,
+C1804,1uF,Capacitors_SMD:C_0603,,,,,,,
+C1802,10nF,Capacitors_SMD:C_0603,,,,,,,
+C1801,1uF,Capacitors_SMD:C_0603,,,,,,,
+D1803,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
+R1802,NC,Resistors_SMD:R_1206,https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf,Panasonic,ERJ-8CWFR025V,P0.025BVCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8CWFR025V/P0.025BVCT-ND/4927045,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv1291=2471&FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80006%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0165%2Cc0172%2Cc0179%2Cc017c%2Cc002a%2Cc01af%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c09a7%2C142c1cdb&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+R1801,100k,Resistors_SMD:R_0603,,,,,,,
+R1803,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
+R1804,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
+R1806,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
+D1802,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
 D1801,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
-D1805,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
-C1803,22uF,Capacitors_SMD:C_0805,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf,Murata,GRM219R61C226ME15L,490-9952-1-ND,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-D1802,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
-D1803,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
-D1804,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
-D1806,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
-Q1802,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
-Q1803,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
-Q1804,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
-C1801,1uF,,,,,,,,
-C1802,1uF,,,,,,,,
-C1902,2.2uF,Capacitors_SMD:C_0603,,,,,,,
-C1901,470nF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-U1901,VCNL4040,,http://www.vishay.com/docs/84274/vcnl4040.pdf,Vishay,VCNL4040M3OE-H5,VCNL4040M3OE-H5,EBV,-,https://octopart.com/search?q=VCNL4040&start=0
-R1901,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
-R1902,0,Resistors_SMD:R_0603,,,,,,,
-U1902,LSM9DS1,Housings_LGA:LGA-24L_3x3.5mm_Pitch0.43mm,http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf,STMicroelectronics,LSM9DS1,LSM9DS1TR,EBV,-,https://octopart.com/search?q=LSM9DS1&start=0
-C1906,100nF,Capacitors_SMD:C_0603,,,,,,,
-C1907,100nF,Capacitors_SMD:C_0603,,,,,,,
-C1905,10uF,Capacitors_SMD:C_0603,,,,,,,
+Q1801,2SK3018,dvk-mx8m-bsb:2SK3018,http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf,Micro Commercial Co,2SK3018-TP,833-2SK3018-TP,https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d,-,https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131
+Q1802,2SK3018,dvk-mx8m-bsb:2SK3018,http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf,Micro Commercial Co,2SK3018-TP,833-2SK3018-TP,https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d,-,https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131
+C1815,100nF,Capacitors_SMD:C_0603,,,,,,,
+SW1801,WLAN_HKS,dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN,https://www.ckswitches.com/media/1422/js.pdf,C&K,JS202011JAQN,CKN10722CT-ND,https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636,-,https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500
+AE1801,Antenna,,,,,,,,
+AE1802,Antenna,,,,,,,,
+C1809,6.8pF,Capacitors_SMD:C_0603,,,,,,,
+C1810,8.2pF,Capacitors_SMD:C_0603,,,,,,,
+C1811,33pF,Capacitors_SMD:C_0603,,,,,,,
+C1812,39pF,Capacitors_SMD:C_0603,,,,,,,
+C1813,100nF,Capacitors_SMD:C_0603,,,,,,,
+C1814,1uF,Capacitors_SMD:C_0603,,,,,,,
+C1816,220uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow,http://www.vishay.com/docs/40002/293d.pdf,Vishay,293D227X9010D2TE3,293D227X9010D2TE3,https://www.arrow.com/en/products/293d227x9010d2te3/vishay,10%,https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?k=&pkeyword=&pv2079=u10V&pv2079=u15V&pv2079=u16V&pv2079=u20V&pv2079=u25V&pv2079=u30V&pv2079=u50V&pv2079=u60V&pv2079=u75V&pv2079=u100V&pv2079=u125V&FV=1f140000%2Cmu220%C2%B5F%7C2049%2Cffe0003b&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+C1817,220uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow,http://www.vishay.com/docs/40002/293d.pdf,Vishay,293D227X9010D2TE3,293D227X9010D2TE3,https://www.arrow.com/en/products/293d227x9010d2te3/vishay,10%,https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?k=&pkeyword=&pv2079=u10V&pv2079=u15V&pv2079=u16V&pv2079=u20V&pv2079=u25V&pv2079=u30V&pv2079=u50V&pv2079=u60V&pv2079=u75V&pv2079=u100V&pv2079=u125V&FV=1f140000%2Cmu220%C2%B5F%7C2049%2Cffe0003b&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+J1801,MHF4,dvk-mx8m-bsb:MHF4_20449-001E,https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf,Taoglas,RECE-20449-001E-01,960-RECE20449-001E01,https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D,-,https://octopart.com/search?q=20449-001E&start=0
+J1802,MHF4,dvk-mx8m-bsb:MHF4_20449-001E,https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf,Taoglas,RECE-20449-001E-01,960-RECE20449-001E01,https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D,-,https://octopart.com/search?q=20449-001E&start=0
+JP1801,NC,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm,http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf,Samtec,TMM-102-03-T-S,SAM8977-ND,https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206,-,https://www.arrow.com/en/products/2sn-bk-g/samtec
+U1901,PCMF3HDMI2SZ,dvk-mx8m-bsb:PCMF3HDMI2S,https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf,,,,,,
+U1902,PCMF2HDMI2SZ,dvk-mx8m-bsb:PCMF2HDMI2S,https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf,,,,,,
+Q1901,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
+R1901,604,Resistors_SMD:R_0603,,,,,,,
+R1903,604,Resistors_SMD:R_0603,,,,,,,
+R1905,604,Resistors_SMD:R_0603,,,,,,,
+R1907,604,Resistors_SMD:R_0603,,,,,,,
+R1902,604,Resistors_SMD:R_0603,,,,,,,
+R1904,604,Resistors_SMD:R_0603,,,,,,,
+R1906,604,Resistors_SMD:R_0603,,,,,,,
+R1908,604,Resistors_SMD:R_0603,,,,,,,
+F1901,PICOSMDC035S-2,dvk-mx8m-bsb:Fuse_SMD0805_Reflow,http://m.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_picosmdc035s_2_product_specification.pdf.pdf,Littlefuse,PICOSMDC035S-2,PICOSMDC035S-2,https://www.arrow.com/en/products/picosmdc035s-2/littelfuse,-,https://octopart.com/search?q=PICOSMDC035S&start=0
+C1905,1nF,Capacitors_SMD:C_0603,,,,,,,
+R1914,0,Resistors_SMD:R_0603,,,,,,,
+R1913,1M,Resistors_SMD:R_0603,,,,,,,
+R1909,NC,Resistors_SMD:R_0603,,,,,,,
 C1904,100nF,Capacitors_SMD:C_0603,,,,,,,
-C1903,10nF,Capacitors_SMD:C_0603,,,,,,,
-C1908,100nF,Capacitors_SMD:C_0603,,,,,,,
-U1903,74LVC1G332,,http://www.ti.com/lit/ds/symlink/sn74lvc1g332.pdf,Texas Instruments,SN74LVC1G332DCKR,SN74LVC1G332DCKR,https://store.ti.com/SN74LVC1G332DCKR.aspx?HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?FV=ffe002c1&quantity=&ColumnSort=1000011&page=1&k=1G332&pageSize=500
-U2001,MX25L1606E,Housings_DFN_QFN:DFN-S-8-1EP_6x5mm_Pitch1.27mm,"http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf",Macronix,MX25L1606EZNI-12G,MX25L1606EZNI-12G,https://www.arrow.com/en/products/mx25l1606ezni-12g/macronix-international?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=MX25L1606EZNI-12G&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart,-,https://www.digikey.com/products/en/integrated-circuits-ics/memory/774?k=&pkeyword=&pv1291=5519&pv1291=7498&pv1291=5520&pv1291=3298&pv1291=9457&pv1291=9363&pv1291=4953&pv1291=6332&pv1291=4954&FV=8e80066%2Cmu100MHz%7C800%2Cmu104MHz%7C800%2Cmu33MHz%7C800%2Cmu40MHz%7C800%2Cmu52MHz%7C800%2Cmu54MHz%7C800%2Cmu56MHz%7C800%2Cmu65MHz%7C800%2Cmu66MHz%7C800%2Cmu75MHz%7C800%2Cmu80MHz%7C800%2Cmu86MHz%7C800%2C1f140000%2Cffe00306%2C23805c6%2C23805ca%2C23805dd%2C23805e2%2C23805ed%2C2380617%2C2380618%2C238063c%2C238063f%2C2380641%2C238067c%2C238067d%2C2380692%2C2380694&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-C2001,100nF,Capacitors_SMD:C_0603,,,,,,,
-C2002,10nF,Capacitors_SMD:C_0603,,,,,,,
-R2001,100k,Resistors_SMD:R_0603,,,,,,,
-R2002,100k,Resistors_SMD:R_0603,,,,,,,
-R2003,NC,Resistors_SMD:R_0603,,,,,,,
-C2102,1uF,Capacitors_SMD:C_0603,,,,,,,
-C2104,1uF,Capacitors_SMD:C_0603,,,,,,,
-R2102,0,Resistors_SMD:R_0603,,,,,,,
-R2103,33,Resistors_SMD:R_0603,,,,,,,
-R2101,100k,Resistors_SMD:R_0603,,,,,,,
+R1910,1.5k,Resistors_SMD:R_0603,,,,,,,
+R1911,1.5k,Resistors_SMD:R_0603,,,,,,,
+R1912,1.5k,Resistors_SMD:R_0603,,,,,,,
+J1901,Mini-HDMI,dvk-mx8m-bsb:HDMI_Mini_Female_2001-1-2-21-00-BK,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,,2001-1-2-21-00-BK,1175-1704-1-ND,https://www.digikey.com/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013,-,https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?FV=ffe00138%2C7008fd%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500
+D1901,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
+D1905,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
+C1903,22uF,Capacitors_SMD:C_0805,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf,Murata,GRM219R61C226ME15L,490-9952-1-ND,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+D1902,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
+D1903,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
+D1904,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
+D1906,ESD5B5.0,dvk-mx8m-bsb:SOD-523_Case-502,http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF,ON Semiconductor,ESD5B5.0ST1G,10N9401,http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G,-,https://octopart.com/search?q=ESD5B5.0ST1G&start=0
+Q1903,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
+Q1902,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
+Q1904,NX3020NAKS,dvk-mx8m-bsb:6-TSSOP,https://assets.nexperia.com/documents/data-sheet/NX3020NAKS.pdf,NXP,NX3020NAKS,"NX3020NAKS,115",https://www.arrow.com/en/products/nx3020naks115/nexperia,-,https://octopart.com/search?q=NX3020NAKS&start=0
+C1901,1uF,Capacitors_SMD:C_0603,,,,,,,
+C1902,1uF,Capacitors_SMD:C_0603,,,,,,,
+C2002,2.2uF,Capacitors_SMD:C_0603,,,,,,,
+C2001,470nF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+U2001,VCNL4040,,http://www.vishay.com/docs/84274/vcnl4040.pdf,Vishay,VCNL4040M3OE-H5,VCNL4040M3OE-H5,EBV,-,https://octopart.com/search?q=VCNL4040&start=0
+R2001,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
+R2002,0,Resistors_SMD:R_0603,,,,,,,
+U2002,LSM9DS1,Housings_LGA:LGA-24L_3x3.5mm_Pitch0.43mm,http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf,STMicroelectronics,LSM9DS1,LSM9DS1TR,EBV,-,https://octopart.com/search?q=LSM9DS1&start=0
+C2006,100nF,Capacitors_SMD:C_0603,,,,,,,
+C2007,100nF,Capacitors_SMD:C_0603,,,,,,,
+C2005,10uF,Capacitors_SMD:C_0603,,,,,,,
+C2004,100nF,Capacitors_SMD:C_0603,,,,,,,
+C2003,10nF,Capacitors_SMD:C_0603,,,,,,,
+C2008,100nF,Capacitors_SMD:C_0603,,,,,,,
+U2003,74LVC1G332,,http://www.ti.com/lit/ds/symlink/sn74lvc1g332.pdf,Texas Instruments,SN74LVC1G332DCKR,SN74LVC1G332DCKR,https://store.ti.com/SN74LVC1G332DCKR.aspx?HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?FV=ffe002c1&quantity=&ColumnSort=1000011&page=1&k=1G332&pageSize=500
+U2101,MX25L1606E,Housings_DFN_QFN:DFN-S-8-1EP_6x5mm_Pitch1.27mm,"http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf",Macronix,MX25L1606EZNI-12G,MX25L1606EZNI-12G,https://www.arrow.com/en/products/mx25l1606ezni-12g/macronix-international?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=MX25L1606EZNI-12G&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart,-,https://www.digikey.com/products/en/integrated-circuits-ics/memory/774?k=&pkeyword=&pv1291=5519&pv1291=7498&pv1291=5520&pv1291=3298&pv1291=9457&pv1291=9363&pv1291=4953&pv1291=6332&pv1291=4954&FV=8e80066%2Cmu100MHz%7C800%2Cmu104MHz%7C800%2Cmu33MHz%7C800%2Cmu40MHz%7C800%2Cmu52MHz%7C800%2Cmu54MHz%7C800%2Cmu56MHz%7C800%2Cmu65MHz%7C800%2Cmu66MHz%7C800%2Cmu75MHz%7C800%2Cmu80MHz%7C800%2Cmu86MHz%7C800%2C1f140000%2Cffe00306%2C23805c6%2C23805ca%2C23805dd%2C23805e2%2C23805ed%2C2380617%2C2380618%2C238063c%2C238063f%2C2380641%2C238067c%2C238067d%2C2380692%2C2380694&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C2101,100nF,Capacitors_SMD:C_0603,,,,,,,
-C2103,1uF,Capacitors_SMD:C_0603,,,,,,,
-U2101,SEC1110,,http://ww1.microchip.com/downloads/en/DeviceDoc/00001561C.pdf,,,,,,
-J2101,Smart_Card,dvk-mx8m-bsb:Conn_Amphenol_SIMcard_10100271,https://www.amphenolcanada.com/productsearch/drawings/ac/1010027182.pdf,Amphenol,1010027182,1010027182,https://www.onlinecomponents.com/amphenol-commercial-products-1010027182.html?p=48410341&utm_source=octopart&utm_medium=inventoryrefferal&utm_campaign=octopart&ref=OctopartFeed,-,https://octopart.com/search?q=1010027182&start=0
+C2102,10nF,Capacitors_SMD:C_0603,,,,,,,
+R2101,100k,Resistors_SMD:R_0603,,,,,,,
+R2102,100k,Resistors_SMD:R_0603,,,,,,,
+R2103,NC,Resistors_SMD:R_0603,,,,,,,
+C2202,1uF,Capacitors_SMD:C_0603,,,,,,,
+C2204,1uF,Capacitors_SMD:C_0603,,,,,,,
+R2202,0,Resistors_SMD:R_0603,,,,,,,
+R2203,33,Resistors_SMD:R_0603,,,,,,,
+R2201,100k,Resistors_SMD:R_0603,,,,,,,
 C2201,100nF,Capacitors_SMD:C_0603,,,,,,,
-C2202,10nF,Capacitors_SMD:C_0603,,,,,,,
-C2203,1nF,Capacitors_SMD:C_0603,,,,,,,
-C2204,100pF,Capacitors_SMD:C_0603,,,,,,,
-AE2201,ACM4-5036-A1-CC-S,dvk-mx8m-bsb:ACM4-5036-A1-CC-S,https://cloud.puri.sm/s/Xi64aJqKKKscxsZ,INPAQ,ACM4-5036-A1-CC-S,ACM4-5036-A1-CC-S,https://www.endrich.com/antennen_nfc_wpc/acm4_5036_a1_cc_s,-,https://www.everythingrf.com/products/gps-gnss-antennas/inpaq-technology-co-ltd/666-329-acm4-5036-a1-cc-s
-L2201,NC,Inductors_SMD:L_0603,,,,,,,
-C2205,NC,Capacitors_SMD:C_0603,,,,,,,
-R2201,NC,Resistors_SMD:R_0603,,,,,,,
-L2202,NC,Inductors_SMD:L_0603,,,,,,,
-C2206,NC,Capacitors_SMD:C_0603,,,,,,,
-C2207,NC,Capacitors_SMD:C_0603,,,,,,,
-U2201,MAX-M8Q,dvk-mx8m-bsb:MAX-M8,https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf,U-Blox,MAX-M8Q,MAX-M8Q,https://www.u-blox.com/en/product/max-m8-series,-,https://www.digikey.com/product-detail/en/u-blox-america-inc/MAX-M8Q-0/672-1003-1-ND/6150666
-Q2301,DMG2301L,TO_SOT_Packages_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/DMG2301L.pdf,Diodes Inc,DMG2301L-7,621-DMG2301L-7,https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMG2301L-7?qs=sGAEpiMZZMshyDBzk1%2fWi7D7EaJfF%252bz4L6K6mPI5IG5tw42rmqyxiA%3d%3d,-,https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278
-R2301,100k,Resistors_SMD:R_0603,,,,,,,
-D2301,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
-R2302,100,Resistors_SMD:R_0603,,,,,,,
+C2203,1uF,Capacitors_SMD:C_0603,,,,,,,
+U2201,SEC1110,,http://ww1.microchip.com/downloads/en/DeviceDoc/00001561C.pdf,,,,,,
+J2201,Smart_Card,dvk-mx8m-bsb:Conn_Amphenol_SIMcard_10100271,https://www.amphenolcanada.com/productsearch/drawings/ac/1010027182.pdf,Amphenol,1010027182,1010027182,https://www.onlinecomponents.com/amphenol-commercial-products-1010027182.html?p=48410341&utm_source=octopart&utm_medium=inventoryrefferal&utm_campaign=octopart&ref=OctopartFeed,-,https://octopart.com/search?q=1010027182&start=0
 C2301,100nF,Capacitors_SMD:C_0603,,,,,,,
-M2301,Motor,dvk-mx8m-bsb:BY0820Z021L20,https://www.molex.com/pdm_docs/sd/530480210_sd.pdf,Molex,530480210,530480210,https://www.arrow.com/en/products/0530480210/molex,-,https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html
-J2403,Key_E,dvk-mx8m-bsb:MDT180EXX,https://www.amphenolcanada.com/ProductSearch/drawings/AC/CMDT180XXX001.pdf,Amphenol,MDT180E03001,MDT180E03001CT-ND,https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT180E03001/MDT180E03001CT-ND/5810396,-,https://octopart.com/search?q=MDT180E03001&start=0
-C2418,100nF,Capacitors_SMD:C_0603,,,,,,,
-R2407,100k,Resistors_SMD:R_0603,,,,,,,
-R2405,100k,Resistors_SMD:R_0603,,,,,,,
-U2403,74AUP2G08,,http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf,Texas Instruments,SN74AUP2G08DCUR,296-32271-1-ND,https://store.ti.com/SN74AUP2G08DCUR.aspx,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?k=74AUP2G08
-U2402,NTB0104GU12,Housings_DFN_QFN:Texas_R_PUQFN-N12,https://www.nxp.com/docs/en/data-sheet/NTB0104.pdf,NXP,"NTB0104GU12,115",568-5204-1-ND,,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-translators-level-shifters/732?FV=a40148%2C700000e%2C700008e%2C7000097%2C70000fa%2C7000135%2C1b880002%2C1de0000a%2C1f140000%2Cii1%7C2094%2Cffe002dc%2C402f84%2C40331c%2C40346e%2C403579%2C403621%2C40373a%2C403b27%2C400e8c&quantity=&ColumnSort=1000011&page=1&pageSize=500
-C2407,10nF,Capacitors_SMD:C_0603,,,,,,,
-C2408,1uF,Capacitors_SMD:C_0603,,,,,,,
-C2406,10nF,Capacitors_SMD:C_0603,,,,,,,
-C2405,1uF,Capacitors_SMD:C_0603,,,,,,,
-U2401,NTB0104GU12,Housings_DFN_QFN:Texas_R_PUQFN-N12,https://www.nxp.com/docs/en/data-sheet/NTB0104.pdf,NXP,"NTB0104GU12,115",568-5204-1-ND,,-,https://www.digikey.com/products/en/integrated-circuits-ics/logic-translators-level-shifters/732?FV=a40148%2C700000e%2C700008e%2C7000097%2C70000fa%2C7000135%2C1b880002%2C1de0000a%2C1f140000%2Cii1%7C2094%2Cffe002dc%2C402f84%2C40331c%2C40346e%2C403579%2C403621%2C40373a%2C403b27%2C400e8c&quantity=&ColumnSort=1000011&page=1&pageSize=500
-C2403,10nF,Capacitors_SMD:C_0603,,,,,,,
-C2404,1uF,Capacitors_SMD:C_0603,,,,,,,
-C2402,10nF,Capacitors_SMD:C_0603,,,,,,,
-C2401,1uF,Capacitors_SMD:C_0603,,,,,,,
-D2403,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
-R2402,NC,Resistors_SMD:R_1206,https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf,Panasonic,ERJ-8CWFR025V,P0.025BVCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8CWFR025V/P0.025BVCT-ND/4927045,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv1291=2471&FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80006%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0165%2Cc0172%2Cc0179%2Cc017c%2Cc002a%2Cc01af%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c09a7%2C142c1cdb&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+C2302,10nF,Capacitors_SMD:C_0603,,,,,,,
+C2303,1nF,Capacitors_SMD:C_0603,,,,,,,
+C2304,100pF,Capacitors_SMD:C_0603,,,,,,,
+AE2301,ACM4-5036-A1-CC-S,dvk-mx8m-bsb:ACM4-5036-A1-CC-S,https://cloud.puri.sm/s/Xi64aJqKKKscxsZ,INPAQ,ACM4-5036-A1-CC-S,ACM4-5036-A1-CC-S,https://www.endrich.com/antennen_nfc_wpc/acm4_5036_a1_cc_s,-,https://www.everythingrf.com/products/gps-gnss-antennas/inpaq-technology-co-ltd/666-329-acm4-5036-a1-cc-s
+L2301,NC,Inductors_SMD:L_0603,,,,,,,
+C2305,NC,Capacitors_SMD:C_0603,,,,,,,
+R2301,NC,Resistors_SMD:R_0603,,,,,,,
+L2302,NC,Inductors_SMD:L_0603,,,,,,,
+C2306,NC,Capacitors_SMD:C_0603,,,,,,,
+C2307,NC,Capacitors_SMD:C_0603,,,,,,,
+U2301,MAX-M8Q,dvk-mx8m-bsb:MAX-M8,https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf,U-Blox,MAX-M8Q,MAX-M8Q,https://www.u-blox.com/en/product/max-m8-series,-,https://www.digikey.com/product-detail/en/u-blox-america-inc/MAX-M8Q-0/672-1003-1-ND/6150666
+Q2401,DMG2301L,TO_SOT_Packages_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/DMG2301L.pdf,Diodes Inc,DMG2301L-7,621-DMG2301L-7,https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMG2301L-7?qs=sGAEpiMZZMshyDBzk1%2fWi7D7EaJfF%252bz4L6K6mPI5IG5tw42rmqyxiA%3d%3d,-,https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278
 R2401,100k,Resistors_SMD:R_0603,,,,,,,
-R2403,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
-R2404,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
-R2406,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
-D2402,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
 D2401,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280
-Q2401,2SK3018,dvk-mx8m-bsb:2SK3018,http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf,Micro Commercial Co,2SK3018-TP,833-2SK3018-TP,https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d,-,https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131
-Q2402,2SK3018,dvk-mx8m-bsb:2SK3018,http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf,Micro Commercial Co,2SK3018-TP,833-2SK3018-TP,https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d,-,https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131
-C2415,100nF,Capacitors_SMD:C_0603,,,,,,,
-SW2401,WLAN_HKS,dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN,https://www.ckswitches.com/media/1422/js.pdf,C&K,JS202011JAQN,CKN10722CT-ND,https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636,-,https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500
-AE2401,Antenna,,,,,,,,
-AE2402,Antenna,,,,,,,,
-C2409,6.8pF,Capacitors_SMD:C_0603,,,,,,,
-C2410,8.2pF,Capacitors_SMD:C_0603,,,,,,,
-C2411,33pF,Capacitors_SMD:C_0603,,,,,,,
-C2412,39pF,Capacitors_SMD:C_0603,,,,,,,
-C2413,100nF,Capacitors_SMD:C_0603,,,,,,,
-C2414,1uF,Capacitors_SMD:C_0603,,,,,,,
-C2416,220uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow,http://www.vishay.com/docs/40002/293d.pdf,Vishay,293D227X9010D2TE3,293D227X9010D2TE3,https://www.arrow.com/en/products/293d227x9010d2te3/vishay,10%,https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?k=&pkeyword=&pv2079=u10V&pv2079=u15V&pv2079=u16V&pv2079=u20V&pv2079=u25V&pv2079=u30V&pv2079=u50V&pv2079=u60V&pv2079=u75V&pv2079=u100V&pv2079=u125V&FV=1f140000%2Cmu220%C2%B5F%7C2049%2Cffe0003b&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-C2417,220uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow,http://www.vishay.com/docs/40002/293d.pdf,Vishay,293D227X9010D2TE3,293D227X9010D2TE3,https://www.arrow.com/en/products/293d227x9010d2te3/vishay,10%,https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?k=&pkeyword=&pv2079=u10V&pv2079=u15V&pv2079=u16V&pv2079=u20V&pv2079=u25V&pv2079=u30V&pv2079=u50V&pv2079=u60V&pv2079=u75V&pv2079=u100V&pv2079=u125V&FV=1f140000%2Cmu220%C2%B5F%7C2049%2Cffe0003b&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-J2401,MHF4,dvk-mx8m-bsb:MHF4_20449-001E,https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf,Taoglas,RECE-20449-001E-01,960-RECE20449-001E01,https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D,-,https://octopart.com/search?q=20449-001E&start=0
-J2402,MHF4,dvk-mx8m-bsb:MHF4_20449-001E,https://www.taoglas.com/wp-content/uploads/2016/04/RECE.20449.001E.01.pdf,Taoglas,RECE-20449-001E-01,960-RECE20449-001E01,https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=60YbxKv0rtCt8UzaWSJTyg%3D%3D,-,https://octopart.com/search?q=20449-001E&start=0
-JP2401,NC,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm,http://suddendocs.samtec.com/testreports/440550_report_rev_1_qua.pdf,Samtec,TMM-102-03-T-S,SAM8977-ND,https://www.digikey.com/product-detail/en/samtec-inc/TMM-102-03-T-S/SAM8977-ND/2345206,-,https://www.arrow.com/en/products/2sn-bk-g/samtec
+R2402,100,Resistors_SMD:R_0603,,,,,,,
+C2401,100nF,Capacitors_SMD:C_0603,,,,,,,
+M2401,Motor,dvk-mx8m-bsb:BY0820Z021L20,https://www.molex.com/pdm_docs/sd/530480210_sd.pdf,Molex,530480210,530480210,https://www.arrow.com/en/products/0530480210/molex,-,https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html
