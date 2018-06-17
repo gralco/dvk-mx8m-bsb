@@ -170,10 +170,10 @@ I2C1_SDA
 Text HLabel 8100 4250 2    60   Input ~ 0
 I2C1_SCL
 $Comp
-L 1V8_P #PWR0178
+L 1V8_P #PWR1101
 U 1 1 5B1803EF
 P 7600 2850
-F 0 "#PWR0178" H 7600 2700 50  0001 C CNN
+F 0 "#PWR1101" H 7600 2700 50  0001 C CNN
 F 1 "1V8_P" H 7600 2990 50  0000 C CNN
 F 2 "" H 7600 2850 50  0001 C CNN
 F 3 "" H 7600 2850 50  0001 C CNN
@@ -181,10 +181,10 @@ F 3 "" H 7600 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0179
+L 1V8_P #PWR1102
 U 1 1 5B180400
 P 7600 3800
-F 0 "#PWR0179" H 7600 3650 50  0001 C CNN
+F 0 "#PWR1102" H 7600 3650 50  0001 C CNN
 F 1 "1V8_P" H 7600 3940 50  0000 C CNN
 F 2 "" H 7600 3800 50  0001 C CNN
 F 3 "" H 7600 3800 50  0001 C CNN
@@ -294,40 +294,6 @@ Wire Wire Line
 	4500 3400 4550 3400
 Wire Wire Line
 	4500 3550 4550 3550
-$Comp
-L Q_NMOS_GSD Q1102
-U 1 1 5B58BACE
-P 7850 4150
-F 0 "Q1102" V 8075 4025 50  0000 L CNN
-F 1 "2SK3018" V 8150 3975 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:2SK3018" H 8050 4250 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 7850 4150 50  0001 C CNN
-F 4 "Micro Commercial Co" V 7850 4150 60  0001 C CNN "MFG Name"
-F 5 "2SK3018-TP" V 7850 4150 60  0001 C CNN "MFG Part Num"
-F 6 "833-2SK3018-TP" V 7850 4150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 7850 4150 60  0001 C CNN "Distrib Link"
-F 8 "-" V 7850 4150 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 7850 4150 60  0001 C CNN "Others"
-	1    7850 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Q_NMOS_GSD Q1101
-U 1 1 5B58FE44
-P 7850 3200
-F 0 "Q1101" V 8075 3075 50  0000 L CNN
-F 1 "2SK3018" V 8150 3025 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:2SK3018" H 8050 3300 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/2SK3018(SOT-323).pdf" H 7850 3200 50  0001 C CNN
-F 4 "Micro Commercial Co" V 7850 3200 60  0001 C CNN "MFG Name"
-F 5 "2SK3018-TP" V 7850 3200 60  0001 C CNN "MFG Part Num"
-F 6 "833-2SK3018-TP" V 7850 3200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/2SK3018-TP?qs=sGAEpiMZZMtI26rxh1qzjnDHXOVLFYvgyLpQIEHdJp0%3d" V 7850 3200 60  0001 C CNN "Distrib Link"
-F 8 "-" V 7850 3200 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/product-detail/en/micro-commercial-co/2SK3018-TP/2SK3018-TPMSCT-ND/6616131" V 7850 3200 60  0001 C CNN "Others"
-	1    7850 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4500 5250 4550 5250
 Text HLabel 4550 5250 2    60   Input ~ 0
@@ -351,13 +317,47 @@ Entry Wire Line
 Wire Bus Line
 	5250 3800 5250 5950
 Wire Bus Line
-	5250 5950 6850 5950
+	6850 5950 5250 5950
 Wire Bus Line
-	6850 5950 6850 3400
+	6850 3400 6850 5950
 Entry Wire Line
 	6950 3300 6850 3400
 Entry Wire Line
 	6950 4250 6850 4350
 Text Notes 5600 1500 0    236  ~ 47
 MIPI
+$Comp
+L Q_NMOS_GSD Q1102
+U 1 1 5B2D5EAE
+P 7850 4150
+F 0 "Q1102" V 8075 4025 50  0000 L CNN
+F 1 "FDV301N" V 8150 3975 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8050 4250 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 7850 4150 50  0001 C CNN
+F 4 "ON Semiconductor" V 7850 4150 60  0001 C CNN "MFG Name"
+F 5 "FDV301N" V 7850 4150 60  0001 C CNN "MFG Part Num"
+F 6 "FDV301N" V 7850 4150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/fdv301n/smd-n-channel-transistors/on-semiconductor-fairchild/" V 7850 4150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7850 4150 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 7850 4150 60  0001 C CNN "Others"
+	1    7850 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_GSD Q1101
+U 1 1 5B2D7A3D
+P 7850 3200
+F 0 "Q1101" V 8075 3075 50  0000 L CNN
+F 1 "FDV301N" V 8150 3025 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8050 3300 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 7850 3200 50  0001 C CNN
+F 4 "ON Semiconductor" V 7850 3200 60  0001 C CNN "MFG Name"
+F 5 "FDV301N" V 7850 3200 60  0001 C CNN "MFG Part Num"
+F 6 "FDV301N" V 7850 3200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/fdv301n/smd-n-channel-transistors/on-semiconductor-fairchild/" V 7850 3200 60  0001 C CNN "Distrib Link"
+F 8 "-" V 7850 3200 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 7850 3200 60  0001 C CNN "Others"
+	1    7850 3200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
