@@ -87,4 +87,9 @@
   (pad 78 smd rect (at -7.4 -1.54) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 79 smd rect (at -7.8 1.54 180) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 80 smd rect (at -7.8 -1.54) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
+  (model /home/ekuzmenko/dvk-mx8m-bsb/packages3d/SoM-connector.wrl
+    (at (xyz -1.693228 0.179197 0.21348))
+    (scale (xyz 0.39375 0.39375 0.39375))
+    (rotate (xyz 0 0 90))
+  )
 )

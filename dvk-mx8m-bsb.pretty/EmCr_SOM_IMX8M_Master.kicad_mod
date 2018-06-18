@@ -1,4 +1,4 @@
-(module EmCr_SOM_IMX8M_Master (layer F.Cu) (tedit 5B23E261)
+(module EmCr_SOM_IMX8M_Master (layer F.Cu) (tedit 5B2737CD)
   (attr smd)
   (fp_text reference EmCr_SOM_IMX8M_Master (at 0 -2.77) (layer F.SilkS)
     (effects (font (size 0.481943 0.481943) (thickness 0.05)))
@@ -194,4 +194,9 @@
   (pad MH2 thru_hole circle (at -39.8 -1.36 270) (size 3 3) (drill 2.1) (layers *.Cu *.Mask))
   (pad MH3 thru_hole circle (at 13.8 72.24 270) (size 3 3) (drill 2.1) (layers *.Cu *.Mask))
   (pad MH4 thru_hole circle (at -38 72.24 270) (size 3 3) (drill 2.1) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/packages3d/SoM.wrl
+    (at (xyz -1.693228 0.1791969 0.21348))
+    (scale (xyz 0.39375 0.39375 0.39375))
+    (rotate (xyz 0 0 90))
+  )
 )
