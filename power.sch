@@ -1635,12 +1635,12 @@ U 1 1 5B3887C4
 P 5850 6200
 F 0 "U403" H 5750 6425 50  0000 C CNN
 F 1 "MIC5365-2.8" H 5275 5950 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:MIC5365-2.85YC5" H 5850 6525 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:MIC5365-2.8YD5" H 5850 6525 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf" H 5850 6200 50  0001 C CNN
 F 4 "Microchip" H 5850 6200 60  0001 C CNN "MFG Name"
-F 5 "MIC5365-2.85YC5-TR" H 5850 6200 60  0001 C CNN "MFG Part Num"
+F 5 "MIC5365-2.8YD5" H 5850 6200 60  0001 C CNN "MFG Part Num"
 F 6 "1611-MIC5365-2.85YC5-CT-ND" H 5850 6200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/products/en?keywords=1611-MIC5365-2.85YC5-CT-ND" H 5850 6200 60  0001 C CNN "Distrib Link"
+F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5365-2.8YD5-TR/1611-MIC5365-2.8YD5-CT-ND/5700550" H 5850 6200 60  0001 C CNN "Distrib Link"
 F 8 "-" H 5850 6200 60  0001 C CNN "Tolerance"
 F 9 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5850 6200 60  0001 C CNN "Others"
 	1    5850 6200
