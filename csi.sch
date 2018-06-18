@@ -51,7 +51,7 @@ Text Notes 1050 950  0    60   ~ 0
 Using Internal DVDD 1.5V Regulator:
 $Bitmap
 Pos 2000 1200
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 39 00 00 00 65 08 02 00 00 00 E1 D4 BA 
 5F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED DD 67 40 13 49 
@@ -591,7 +591,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 2050 1950
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 A9 00 00 02 51 08 02 00 00 00 28 0B 66 
 24 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 75 5C 14 4B 
@@ -2857,7 +2857,7 @@ Text Notes 500  5150 0    60   ~ 0
 2.7 POWER UP SEQUENCE\nBased on the system power configuration (1.8V or 2.8V for I/O power, using external\nDVDD or internal DVDD, requiring access to the I2C during power up period or not),\nthe power up sequence will differ. If 1.8V is used for I/O power, using the internal\nDVDD is preferred. If 2.8V is used for I/O power, due to a high voltage drop at the\ninternal DVDD regulator, there is a potential heat issue. Hence, for a 2.8V power\nsystem, OmniVision recommends using an external DVDD source. Due to the higher power\ndown current when using an external DVDD source, OmniVision strongly recommends\ncutting off all powers, including the external DVDD, when the sensor is not in use\nin the case of 2.8V I/O and external\nDVDD.\n2.7.1 POWER UP WITH INTERNAL DVDD\nFor powering up with the internal DVDD and I2C access during the power ON period, the\nfollowing conditions must occur:\n1. when DOVDD and AVDD are turned ON, make sure DOVDD becomes stable before AVDD becomes stable\n2. PWDN is active high with an asynchronized design (does not need clock)\n3. PWDN pin tied to digital ground if it is not controlled.\n4. if PWDN pin is controlled as below, for PWDN to go low, power must first become stable\n(AVDD to PWDN ≥ 5 ms)\n5. RESETB is active low with an asynchronized design\n6. master clock XVCLK should provide at least 1 ms before host accesses the sensor’s registers\n7. host can access I2C bus (if shared) during entire period. 20ms after RESETB goes high,\nhost can access the sensor's registers to initialize sensor
 $Bitmap
 Pos 2050 6450
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 7D 00 00 03 05 08 02 00 00 00 4F 99 08 
 42 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 67 58 14 57 
@@ -6298,7 +6298,7 @@ U 1 1 5B196213
 P 8000 3850
 F 0 "U1301" H 8000 3900 50  0000 C CNN
 F 1 "74LVC1G32" H 8000 3800 50  0000 C CNN
-F 2 "" H 8000 3850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 8000 3850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf" H 8000 3850 50  0001 C CNN
 F 4 "NXP" H 8000 3850 60  0001 C CNN "MFG Name"
 F 5 "74LVC1G32GW,125" H 8000 3850 60  0001 C CNN "MFG Part Num"
