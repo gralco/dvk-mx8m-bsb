@@ -262,23 +262,6 @@ Ihold=4A\nItrip=8A
 Text Notes 750  750  0    118  ~ 24
 USB-C TCPC - Config Channel (CC) and PD Role Controller
 $Comp
-L USB_C_Receptacle J201
-U 1 1 5AE939ED
-P 10550 4050
-F 0 "J201" H 10750 5500 50  0000 L CNN
-F 1 "USB_C_Receptacle" H 10700 5500 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:USB_C_Receptacle" H 10700 4050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/18/Amphenol_03192018_12401598E4_2A-1313897.pdf" H 10700 4050 50  0001 C CNN
-F 4 "Amphenol" H 10550 4050 60  0001 C CNN "MFG Name"
-F 5 "12401598E4#2A" H 10550 4050 60  0001 C CNN "MFG Part Num"
-F 6 "523-12401598E4#2A" H 10550 4050 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/12401598E42A?qs=sGAEpiMZZMulM8LPOQ%252byk%252bquSaH2WQ%2flVj70qO6U3QOxNt%2fSK0YysQ%3d%3d" H 10550 4050 60  0001 C CNN "Distrib Link"
-F 8 "-" H 10550 4050 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?k=&pkeyword=&pv29=10&FV=700b08%2C1f140000%2Cffe00138&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 10550 4050 60  0001 C CNN "Others"
-	1    10550 4050
-	-1   0    0    -1  
-$EndComp
-$Comp
 L PTN36043BXZ U202
 U 1 1 5AECBE93
 P 3150 6000
@@ -768,23 +751,23 @@ CC2
 $Comp
 L C C216
 U 1 1 5AF9B88F
-P 10600 5900
-F 0 "C216" V 10650 5950 50  0000 L CNN
-F 1 "NC" V 10650 5700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10638 5750 50  0001 C CNN
-F 3 "" H 10600 5900 50  0001 C CNN
-	1    10600 5900
+P 10350 6100
+F 0 "C216" V 10400 6150 50  0000 L CNN
+F 1 "NC" V 10400 5900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10388 5950 50  0001 C CNN
+F 3 "" H 10350 6100 50  0001 C CNN
+	1    10350 6100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R226
 U 1 1 5AF9C7FE
-P 10600 6150
-F 0 "R226" V 10680 6150 50  0000 C CNN
-F 1 "0" V 10500 6150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10530 6150 50  0001 C CNN
-F 3 "" H 10600 6150 50  0001 C CNN
-	1    10600 6150
+P 10350 6350
+F 0 "R226" V 10430 6350 50  0000 C CNN
+F 1 "0" V 10250 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10280 6350 50  0001 C CNN
+F 3 "" H 10350 6350 50  0001 C CNN
+	1    10350 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -809,16 +792,26 @@ Wire Wire Line
 Wire Wire Line
 	4450 2150 4800 2150
 Wire Wire Line
-	3800 2150 4150 2150
+	3800 2150 3900 2150
+Wire Wire Line
+	3900 2150 4150 2150
 Wire Wire Line
 	4150 2250 3900 2250
 Wire Wire Line
 	3900 2250 3900 2150
 Connection ~ 3900 2150
 Wire Wire Line
-	3800 2550 4150 2550
+	3800 2550 3900 2550
 Wire Wire Line
-	3800 2650 4150 2650
+	3900 2550 4100 2550
+Wire Wire Line
+	4100 2550 4150 2550
+Wire Wire Line
+	3800 2650 3850 2650
+Wire Wire Line
+	3850 2650 4100 2650
+Wire Wire Line
+	4100 2650 4150 2650
 Wire Wire Line
 	4150 2900 3900 2900
 Wire Wire Line
@@ -832,7 +825,9 @@ Connection ~ 3850 2650
 Wire Wire Line
 	4450 2900 4700 2900
 Wire Wire Line
-	4700 2850 4700 3100
+	4700 2850 4700 2900
+Wire Wire Line
+	4700 2900 4700 3100
 Wire Wire Line
 	4700 3100 4450 3100
 Connection ~ 4700 2900
@@ -843,11 +838,21 @@ Wire Wire Line
 Wire Wire Line
 	1800 1500 1400 1500
 Wire Wire Line
-	650  1350 1800 1350
+	650  1350 1550 1350
+Wire Wire Line
+	1550 1350 1800 1350
 Wire Wire Line
 	1100 1200 900  1200
 Wire Wire Line
-	900  1200 900  2700
+	900  1200 900  1500
+Wire Wire Line
+	900  1500 900  1800
+Wire Wire Line
+	900  1800 900  2350
+Wire Wire Line
+	900  2350 900  2650
+Wire Wire Line
+	900  2650 900  2700
 Wire Wire Line
 	1800 2650 900  2650
 Connection ~ 900  2650
@@ -866,13 +871,17 @@ Wire Wire Line
 	1550 1200 1550 1350
 Connection ~ 1550 1350
 Wire Wire Line
-	650  1650 1800 1650
+	650  1650 1550 1650
+Wire Wire Line
+	1550 1650 1800 1650
 Wire Wire Line
 	1800 2000 650  2000
 Wire Wire Line
 	1800 2100 650  2100
 Wire Wire Line
-	650  2500 1800 2500
+	650  2500 1550 2500
+Wire Wire Line
+	1550 2500 1800 2500
 Wire Wire Line
 	650  2500 650  2450
 Wire Wire Line
@@ -894,11 +903,17 @@ Wire Wire Line
 Wire Wire Line
 	2950 900  3400 900 
 Wire Wire Line
-	4450 2550 4850 2550
+	4450 2550 4500 2550
 Wire Wire Line
-	4450 2650 4850 2650
+	4500 2550 4850 2550
 Wire Wire Line
-	3800 2350 4850 2350
+	4450 2650 4500 2650
+Wire Wire Line
+	4500 2650 4850 2650
+Wire Wire Line
+	3800 2350 3900 2350
+Wire Wire Line
+	3900 2350 4850 2350
 Wire Wire Line
 	4150 2450 3900 2450
 Wire Wire Line
@@ -907,7 +922,9 @@ Connection ~ 3900 2350
 Wire Wire Line
 	3800 2050 4800 2050
 Wire Wire Line
-	3800 1650 4800 1650
+	3800 1650 3900 1650
+Wire Wire Line
+	3900 1650 4800 1650
 Wire Wire Line
 	3800 1800 4800 1800
 Wire Wire Line
@@ -915,7 +932,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 1500 4800 1500
 Wire Wire Line
-	3900 1300 3900 1650
+	3900 1300 3900 1500
+Wire Wire Line
+	3900 1500 3900 1650
 Wire Wire Line
 	3900 1300 4000 1300
 Connection ~ 3900 1650
@@ -953,27 +972,41 @@ Wire Wire Line
 Wire Wire Line
 	1100 5600 1100 5550
 Wire Wire Line
-	800  5600 1100 5600
+	800  5600 950  5600
+Wire Wire Line
+	950  5600 1100 5600
 Wire Wire Line
 	800  5600 800  5550
 Wire Wire Line
 	950  5650 950  5600
 Connection ~ 950  5600
 Wire Wire Line
-	800  5200 2250 5200
+	800  5200 1100 5200
 Wire Wire Line
-	800  5150 800  5250
+	1100 5200 2250 5200
+Wire Wire Line
+	800  5150 800  5200
+Wire Wire Line
+	800  5200 800  5250
 Wire Wire Line
 	1100 5250 1100 5200
 Connection ~ 1100 5200
 Wire Wire Line
-	1250 6400 2250 6400
+	1250 6400 2200 6400
 Wire Wire Line
-	1250 6500 2250 6500
+	2200 6400 2250 6400
 Wire Wire Line
-	1250 6600 2250 6600
+	1250 6500 1850 6500
 Wire Wire Line
-	1250 6700 2250 6700
+	1850 6500 2250 6500
+Wire Wire Line
+	1250 6600 1650 6600
+Wire Wire Line
+	1650 6600 2250 6600
+Wire Wire Line
+	1250 6700 1300 6700
+Wire Wire Line
+	1300 6700 2250 6700
 Wire Wire Line
 	1300 6750 1300 6700
 Connection ~ 1300 6700
@@ -989,7 +1022,13 @@ Connection ~ 2200 6400
 Wire Wire Line
 	1300 7050 1300 7100
 Wire Wire Line
-	1300 7100 2200 7100
+	1300 7100 1650 7100
+Wire Wire Line
+	1650 7100 1750 7100
+Wire Wire Line
+	1750 7100 1850 7100
+Wire Wire Line
+	1850 7100 2200 7100
 Wire Wire Line
 	2200 7100 2200 7050
 Wire Wire Line
@@ -1002,7 +1041,9 @@ Wire Wire Line
 	1750 7150 1750 7100
 Connection ~ 1750 7100
 Wire Wire Line
-	2150 6200 2250 6200
+	2150 6200 2200 6200
+Wire Wire Line
+	2200 6200 2250 6200
 Wire Wire Line
 	1250 6300 2200 6300
 Wire Wire Line
@@ -1011,7 +1052,15 @@ Connection ~ 2200 6200
 Wire Wire Line
 	700  6700 950  6700
 Wire Wire Line
-	700  6250 700  6700
+	700  6250 700  6300
+Wire Wire Line
+	700  6300 700  6400
+Wire Wire Line
+	700  6400 700  6500
+Wire Wire Line
+	700  6500 700  6600
+Wire Wire Line
+	700  6600 700  6700
 Wire Wire Line
 	950  6300 700  6300
 Connection ~ 700  6300
@@ -1097,24 +1146,46 @@ Wire Wire Line
 Wire Wire Line
 	9900 3050 9950 3050
 Wire Wire Line
-	9900 2700 9900 3050
+	9900 2700 9900 2750
 Wire Wire Line
-	8000 2750 9350 2750
+	9900 2750 9900 2850
+Wire Wire Line
+	9900 2850 9900 2950
+Wire Wire Line
+	9900 2950 9900 3050
+Wire Wire Line
+	8000 2750 8200 2750
+Wire Wire Line
+	8200 2750 8500 2750
+Wire Wire Line
+	8500 2750 8800 2750
+Wire Wire Line
+	8800 2750 9100 2750
+Wire Wire Line
+	9100 2750 9350 2750
 Wire Wire Line
 	8000 2750 8000 2800
 Wire Wire Line
 	7650 2750 7650 2800
 Wire Wire Line
-	6300 2750 7650 2750
+	6300 2750 6750 2750
+Wire Wire Line
+	6750 2750 7650 2750
 Wire Wire Line
 	6300 2750 6300 2800
 Wire Wire Line
-	6750 2700 6750 2950
+	6750 2700 6750 2750
+Wire Wire Line
+	6750 2750 6750 2950
 Connection ~ 6750 2750
 Wire Wire Line
-	8000 3100 8000 3400
+	8000 3100 8000 3350
 Wire Wire Line
-	7650 3100 7650 3400
+	8000 3350 8000 3400
+Wire Wire Line
+	7650 3100 7650 3150
+Wire Wire Line
+	7650 3150 7650 3400
 Wire Wire Line
 	6950 3150 7650 3150
 Connection ~ 7650 3150
@@ -1124,19 +1195,29 @@ Connection ~ 8000 3350
 Wire Wire Line
 	6300 3700 6300 3750
 Wire Wire Line
-	6300 3750 8000 3750
+	6300 3750 6750 3750
+Wire Wire Line
+	6750 3750 7650 3750
+Wire Wire Line
+	7650 3750 8000 3750
 Wire Wire Line
 	8000 3750 8000 3700
 Wire Wire Line
 	7650 3700 7650 3750
 Connection ~ 7650 3750
 Wire Wire Line
-	6750 3550 6750 3800
+	6750 3550 6750 3750
+Wire Wire Line
+	6750 3750 6750 3800
 Connection ~ 6750 3750
 Wire Wire Line
-	6300 3100 6300 3400
+	6300 3100 6300 3250
 Wire Wire Line
-	5700 3250 6350 3250
+	6300 3250 6300 3400
+Wire Wire Line
+	5700 3250 6300 3250
+Wire Wire Line
+	6300 3250 6350 3250
 Connection ~ 6300 3250
 Wire Wire Line
 	5700 3400 5750 3400
@@ -1145,19 +1226,29 @@ Wire Wire Line
 Wire Wire Line
 	6100 3400 6100 3450
 Wire Wire Line
-	9100 2300 9100 2800
+	9100 2300 9100 2350
+Wire Wire Line
+	9100 2350 9100 2750
+Wire Wire Line
+	9100 2750 9100 2800
 Connection ~ 9100 2750
 Wire Wire Line
 	8200 3100 8200 3150
 Wire Wire Line
-	8200 3150 9100 3150
+	8200 3150 8500 3150
+Wire Wire Line
+	8500 3150 8800 3150
+Wire Wire Line
+	8800 3150 9100 3150
 Wire Wire Line
 	9100 3150 9100 3100
 Wire Wire Line
 	8500 3100 8500 3150
 Connection ~ 8500 3150
 Wire Wire Line
-	8800 3100 8800 3200
+	8800 3100 8800 3150
+Wire Wire Line
+	8800 3150 8800 3200
 Connection ~ 8800 3150
 Wire Wire Line
 	8200 2800 8200 2750
@@ -1166,12 +1257,16 @@ Wire Wire Line
 	8500 2800 8500 2750
 Connection ~ 8500 2750
 Wire Wire Line
-	8800 2700 8800 2800
+	8800 2700 8800 2750
+Wire Wire Line
+	8800 2750 8800 2800
 Connection ~ 8800 2750
 Wire Wire Line
 	6650 6600 6650 6650
 Wire Wire Line
-	6650 6650 6750 6650
+	6650 6650 6700 6650
+Wire Wire Line
+	6700 6650 6750 6650
 Wire Wire Line
 	6750 6650 6750 6600
 Wire Wire Line
@@ -1180,11 +1275,15 @@ Connection ~ 6700 6650
 Wire Wire Line
 	6600 4900 6600 4850
 Wire Wire Line
-	6600 4850 6800 4850
+	6600 4850 6700 4850
+Wire Wire Line
+	6700 4850 6800 4850
 Wire Wire Line
 	6800 4850 6800 4900
 Wire Wire Line
-	6700 4800 6700 4900
+	6700 4800 6700 4850
+Wire Wire Line
+	6700 4850 6700 4900
 Connection ~ 6700 4850
 Wire Wire Line
 	7200 5550 8050 5550
@@ -1207,7 +1306,9 @@ Wire Wire Line
 Wire Wire Line
 	7200 6200 8050 6200
 Wire Wire Line
-	9650 2750 9950 2750
+	9650 2750 9900 2750
+Wire Wire Line
+	9900 2750 9950 2750
 Connection ~ 9900 2750
 Wire Wire Line
 	9950 2850 9900 2850
@@ -1216,9 +1317,13 @@ Wire Wire Line
 	9950 2950 9900 2950
 Connection ~ 9900 2950
 Wire Wire Line
-	9100 3650 9950 3650
+	9100 3650 9900 3650
 Wire Wire Line
-	9100 3850 9950 3850
+	9900 3650 9950 3650
+Wire Wire Line
+	9100 3850 9900 3850
+Wire Wire Line
+	9900 3850 9950 3850
 Wire Wire Line
 	9950 3750 9900 3750
 Wire Wire Line
@@ -1244,41 +1349,61 @@ Wire Wire Line
 Wire Wire Line
 	8750 5700 8750 5750
 Wire Wire Line
-	8750 5750 10750 5750
+	8750 5750 9300 5750
 Wire Wire Line
-	10750 5750 10750 5650
+	9300 5750 9500 5750
 Wire Wire Line
-	10450 5650 10450 5750
-Connection ~ 10450 5750
+	9500 5750 9850 5750
 Wire Wire Line
-	10850 6150 10750 6150
+	9850 5750 10000 5750
+Wire Wire Line
+	10000 5950 10200 5950
+Wire Wire Line
+	10200 5950 10300 5950
+Wire Wire Line
+	10300 5950 10400 5950
+Wire Wire Line
+	10400 5950 10500 5950
+Wire Wire Line
+	10500 5950 10500 5850
+Wire Wire Line
+	10200 5850 10200 5950
+Connection ~ 10200 5950
+Wire Wire Line
+	10600 6350 10500 6350
 $Comp
 L GND #PWR036
 U 1 1 5AFA9EDB
-P 10250 6200
-F 0 "#PWR036" H 10250 5950 50  0001 C CNN
-F 1 "GND" H 10250 6050 50  0000 C CNN
-F 2 "" H 10250 6200 50  0001 C CNN
-F 3 "" H 10250 6200 50  0001 C CNN
-	1    10250 6200
+P 10000 6400
+F 0 "#PWR036" H 10000 6150 50  0001 C CNN
+F 1 "GND" H 10000 6250 50  0000 C CNN
+F 2 "" H 10000 6400 50  0001 C CNN
+F 3 "" H 10000 6400 50  0001 C CNN
+	1    10000 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 6150 10450 6150
+	10000 6350 10200 6350
 Wire Wire Line
-	10250 5750 10250 6200
-Connection ~ 10250 5750
+	10000 5750 10000 5950
 Wire Wire Line
-	10450 5900 10250 5900
-Connection ~ 10250 5900
+	10000 5950 10000 6100
 Wire Wire Line
-	10750 5900 10850 5900
+	10000 6100 10000 6350
 Wire Wire Line
-	10550 5650 10550 5750
-Connection ~ 10550 5750
+	10000 6350 10000 6400
+Connection ~ 10000 5950
 Wire Wire Line
-	10650 5650 10650 5750
-Connection ~ 10650 5750
+	10200 6100 10000 6100
+Connection ~ 10000 6100
+Wire Wire Line
+	10500 6100 10600 6100
+Wire Wire Line
+	10300 5850 10300 5950
+Connection ~ 10300 5950
+Wire Wire Line
+	10400 5850 10400 5950
+Connection ~ 10400 5950
 Wire Wire Line
 	8750 5400 8750 5350
 Wire Wire Line
@@ -1438,7 +1563,9 @@ Connection ~ 9100 2350
 Text GLabel 9050 2350 0    60   Output ~ 0
 VBUS
 Wire Wire Line
-	9050 2350 9150 2350
+	9050 2350 9100 2350
+Wire Wire Line
+	9100 2350 9150 2350
 $Comp
 L 3V3 #PWR042
 U 1 1 5B39F466
@@ -1694,9 +1821,47 @@ RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. L
 Text Notes 7200 6450 0    39   ~ 0
 TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
 Wire Wire Line
-	10850 5650 10850 6150
-Connection ~ 10850 5900
-Connection ~ 10250 6150
+	10600 5850 10600 5950
 Wire Wire Line
-	9850 5700 9850 5750
+	10600 5950 10600 6100
+Wire Wire Line
+	10600 6100 10600 6350
+Connection ~ 10600 6100
+Connection ~ 10000 6350
+Wire Wire Line
+	9850 5750 9850 5700
+Wire Wire Line
+	10600 5950 10700 5950
+Wire Wire Line
+	10700 5950 10800 5950
+Wire Wire Line
+	10800 5950 10900 5950
+Wire Wire Line
+	10900 5950 10900 5850
+Connection ~ 10600 5950
+Wire Wire Line
+	10800 5950 10800 5850
+Connection ~ 10800 5950
+Wire Wire Line
+	10700 5950 10700 5850
+Connection ~ 10700 5950
+$Comp
+L USB_C_Receptacle-RESCUE-dvk-mx8m-bsb J201
+U 1 1 5AE939ED
+P 10550 4050
+AR Path="/5AE939ED" Ref="J201"  Part="1" 
+AR Path="/5ACF2B88/5AE939ED" Ref="J201"  Part="1" 
+F 0 "J201" H 10750 5500 50  0000 L CNN
+F 1 "USB_C_Receptacle" H 10700 5500 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:USB_C_Receptacle" H 10700 4050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/18/Amphenol_03192018_12401598E4_2A-1313897.pdf" H 10700 4050 50  0001 C CNN
+F 4 "Amphenol" H 10550 4050 60  0001 C CNN "MFG Name"
+F 5 "12401598E4#2A" H 10550 4050 60  0001 C CNN "MFG Part Num"
+F 6 "523-12401598E4#2A" H 10550 4050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/12401598E42A?qs=sGAEpiMZZMulM8LPOQ%252byk%252bquSaH2WQ%2flVj70qO6U3QOxNt%2fSK0YysQ%3d%3d" H 10550 4050 60  0001 C CNN "Distrib Link"
+F 8 "-" H 10550 4050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?k=&pkeyword=&pv29=10&FV=700b08%2C1f140000%2Cffe00138&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 10550 4050 60  0001 C CNN "Others"
+	1    10550 4050
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
