@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name dvk-mx8m-bsb)(type KiCad)(uri "$(KIPRJMOD)/dvk-mx8m-bsb.pretty")(options "")(descr DVK-DART-MX8M))
-  (lib (name SGTL5000XNLA3R2)(type Legacy)(uri /home/ekuzmenko/Downloads/SGTL5000XNLA3R2/SGTL5000XNLA3R2.mod)(options "")(descr ""))
 )
