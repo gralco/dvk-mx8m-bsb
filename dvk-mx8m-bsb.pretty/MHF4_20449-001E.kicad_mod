@@ -1,10 +1,10 @@
-(module MHF4_20449-001E (layer F.Cu) (tedit 5AABE104)
+(module MHF4_20449-001E (layer F.Cu) (tedit 5B2970E2)
   (solder_mask_margin 0.000001)
   (attr smd)
-  (fp_text reference ANT1 (at 0 5) (layer F.SilkS) hide
+  (fp_text reference REF** (at 0 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Conn_Coaxial (at 0 -5) (layer F.Fab)
+  (fp_text value MHF4 (at 0 2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1 -0.9) (end 0.5 -1.4) (layer F.SilkS) (width 0.12))
