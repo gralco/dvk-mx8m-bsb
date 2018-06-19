@@ -206,7 +206,7 @@ U 1 1 5B157B00
 P 8150 3700
 F 0 "U2002" H 7550 4550 50  0000 L CNN
 F 1 "LSM9DS1" H 7550 4450 50  0000 L CNN
-F 2 "Housings_LGA:LGA-24L_3x3.5mm_Pitch0.43mm" H 9650 4450 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:LSM9DS1" H 9650 4450 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" H 8150 3800 50  0001 C CNN
 F 4 "STMicroelectronics" H 8150 3700 60  0001 C CNN "MFG Name"
 F 5 "LSM9DS1" H 8150 3700 60  0001 C CNN "MFG Part Num"
