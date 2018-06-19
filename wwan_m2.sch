@@ -62,7 +62,7 @@ NoConn ~ 6750 2300
 NoConn ~ 6750 2200
 $Bitmap
 Pos 9850 3950
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 67 00 00 01 A6 08 02 00 00 00 B6 8C B4 
 CA 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -3016,7 +3016,7 @@ Text Notes 10900 3450 0    60   ~ 0
 State
 $Bitmap
 Pos 9850 2600
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 54 00 00 01 69 08 02 00 00 00 D5 F6 21 
 90 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -6019,38 +6019,38 @@ Text Notes 800  4800 0    60   ~ 0
                 SIM_DETECT:\n Sierra, Huawei, and Telit are Active High\nSimCom and Gemalto needs to be inverted!\n  "When SIM is present, SIM_DET is high"\nSIM_DET needs to open when card inserted!
 Text Notes 3050 3100 0    60   ~ 0
 Standards:\n3GPP TS 51.010-1\nISO/IEC 7816
-Text Notes 1400 4050 0    60   ~ 0
+Text Notes 1400 2850 0    60   ~ 0
 UIM-CLK up to 5MHz
 $Comp
 L SIM_Card_Det J1503
 U 1 1 5AD7A3DC
-P 2050 3450
-F 0 "J1503" H 1875 3850 50  0000 R CNN
-F 1 "Mini_SIM_Card" H 2650 3850 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:JAE_SF56" H 2050 3800 50  0001 C CNN
-F 3 "http://www.jae.com/z-en/pdf_download_exec.cfm?param=MB-0256-2E_SF56.pdf" H 2000 3450 50  0001 C CNN
-F 4 "JAE" H 2050 3450 60  0001 C CNN "MFG Name"
-F 5 "SF56S006V4BR2000" H 2050 3450 60  0001 C CNN "MFG Part Num"
-F 6 "670-2834-1-ND" H 2050 3450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/jae-electronics/SF56S006V4BR2000/670-2834-1-ND/5280152" H 2050 3450 60  0001 C CNN "Distrib Link"
-F 8 "-" H 2050 3450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/connectors-interconnects/memory-connectors-pc-card-sockets/414?FV=85c0073%2C85c0082%2C85c0084%2C85c0086%2C85c0052%2C1f140000%2Cffe0019e%2C160001a%2C16002bf%2C160035d&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 2050 3450 60  0001 C CNN "Others"
-	1    2050 3450
+P 1950 3450
+F 0 "J1503" H 1775 3850 50  0000 R CNN
+F 1 "Mini_SIM_Card" H 2550 3850 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:JAE_SF56" H 1950 3800 50  0001 C CNN
+F 3 "http://www.jae.com/z-en/pdf_download_exec.cfm?param=MB-0256-2E_SF56.pdf" H 1900 3450 50  0001 C CNN
+F 4 "JAE" H 1950 3450 60  0001 C CNN "MFG Name"
+F 5 "SF56S006V4BR2000" H 1950 3450 60  0001 C CNN "MFG Part Num"
+F 6 "670-2834-1-ND" H 1950 3450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/jae-electronics/SF56S006V4BR2000/670-2834-1-ND/5280152" H 1950 3450 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1950 3450 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/connectors-interconnects/memory-connectors-pc-card-sockets/414?FV=85c0073%2C85c0082%2C85c0084%2C85c0086%2C85c0052%2C1f140000%2Cffe0019e%2C160001a%2C16002bf%2C160035d&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 1950 3450 60  0001 C CNN "Others"
+	1    1950 3450
 	-1   0    0    -1  
 $EndComp
-Text Notes 1300 3900 0    60   ~ 0
+Text Notes 1350 2950 0    60   ~ 0
 <10cm away from module!
-Text Notes 1350 3800 0    60   ~ 0
-DET is normally closed!
+Text Notes 1300 3300 2    60   ~ 0
+DET is normally \nclosed!
 $Comp
 L GND #PWR0227
 U 1 1 5AD7CB0F
-P 1300 3250
-F 0 "#PWR0227" H 1300 3000 50  0001 C CNN
-F 1 "GND" H 1300 3100 50  0000 C CNN
-F 2 "" H 1300 3250 50  0001 C CNN
-F 3 "" H 1300 3250 50  0001 C CNN
-	1    1300 3250
+P 1650 4000
+F 0 "#PWR0227" H 1650 3750 50  0001 C CNN
+F 1 "GND" H 1650 3850 50  0000 C CNN
+F 2 "" H 1650 4000 50  0001 C CNN
+F 3 "" H 1650 4000 50  0001 C CNN
+	1    1650 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6935,17 +6935,13 @@ Wire Wire Line
 Wire Wire Line
 	2650 3450 2650 3700
 Wire Wire Line
-	650  3450 1350 3450
-Wire Wire Line
-	1350 3200 1300 3200
-Wire Wire Line
-	1300 3200 1300 3250
+	650  3450 1150 3450
 Wire Wire Line
 	6250 3250 4550 3250
 Wire Wire Line
-	4550 3250 4550 3650
+	4550 3650 4550 3250
 Wire Wire Line
-	4550 3650 2550 3650
+	2550 3650 4550 3650
 Wire Wire Line
 	4500 3450 4500 3250
 Wire Wire Line
@@ -7406,4 +7402,20 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 2350 7100 60 
 	1    2350 7100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2050 3950 2050 3900
+Wire Wire Line
+	1650 3950 2050 3950
+Wire Wire Line
+	1650 3900 1650 4000
+Connection ~ 1650 3950
+Wire Wire Line
+	1750 3950 1750 3900
+Connection ~ 1750 3950
+Wire Wire Line
+	1850 3950 1850 3900
+Connection ~ 1850 3950
+Wire Wire Line
+	1950 3950 1950 3900
+Connection ~ 1950 3950
 $EndSCHEMATC
