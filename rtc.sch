@@ -66,7 +66,7 @@ U 1 1 5AC5BD52
 P 5000 3250
 F 0 "U601" H 4900 3500 60  0000 C CNN
 F 1 "RV-4162-C7" H 5000 3000 60  0000 C CNN
-F 2 "" H 5100 3000 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:RV-4162-C7" H 5100 3000 60  0001 C CNN
 F 3 "http://www.microcrystal.com/images/_Product-Documentation/02_Oscillator_&_RTC_Modules/01_Datasheet/RV-4162-C7.pdf" H 5100 3000 60  0001 C CNN
 F 4 "Micro Crystal" H 5000 3250 60  0001 C CNN "MFG Name"
 F 5 "RV-4162-C7" H 5000 3250 60  0001 C CNN "MFG Part Num"
