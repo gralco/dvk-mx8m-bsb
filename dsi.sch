@@ -294,7 +294,7 @@ F 3 "" H 8700 5000 50  0001 C CNN
 	1    8700 5000
 	1    0    0    -1  
 $EndComp
-Text HLabel 9350 4950 0    60   Input ~ 0
+Text HLabel 9350 4950 0    60   Output ~ 0
 LCD_LEDK
 Wire Wire Line
 	8250 5050 9450 5050
