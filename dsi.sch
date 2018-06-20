@@ -47,602 +47,602 @@ Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
-Text HLabel 9350 4450 0    60   Input ~ 0
+Text HLabel 8650 4450 0    60   Input ~ 0
 D2P
-Text HLabel 9350 4550 0    60   Input ~ 0
+Text HLabel 8650 4550 0    60   Input ~ 0
 D2N
-Text HLabel 9350 3550 0    60   Input ~ 0
+Text HLabel 8650 3550 0    60   Input ~ 0
 D1P
-Text HLabel 9350 3650 0    60   Input ~ 0
+Text HLabel 8650 3650 0    60   Input ~ 0
 D1N
-Text HLabel 9350 3850 0    60   Input ~ 0
+Text HLabel 8650 3850 0    60   Input ~ 0
 CLKP
-Text HLabel 9350 3950 0    60   Input ~ 0
+Text HLabel 8650 3950 0    60   Input ~ 0
 CLKN
-Text HLabel 9350 4150 0    60   Input ~ 0
+Text HLabel 8650 4150 0    60   Input ~ 0
 D0P
-Text HLabel 9350 4250 0    60   Input ~ 0
+Text HLabel 8650 4250 0    60   Input ~ 0
 D0N
-Text HLabel 9350 3250 0    60   Input ~ 0
+Text HLabel 8650 3250 0    60   Input ~ 0
 D3P
-Text HLabel 9350 3350 0    60   Input ~ 0
+Text HLabel 8650 3350 0    60   Input ~ 0
 D3N
-Text HLabel 5900 3500 0    60   BiDi ~ 0
+Text HLabel 5550 3500 0    60   BiDi ~ 0
 I2C1_SDA_1V8
-Text HLabel 5900 3400 0    60   Input ~ 0
+Text HLabel 5550 3400 0    60   Input ~ 0
 I2C1_SCL_1V8
-Text HLabel 3950 3600 0    60   Output ~ 0
+Text HLabel 3600 3600 0    60   Output ~ 0
 CAPTOUCH_~INT
-Text HLabel 2050 3700 0    60   Input ~ 0
+Text HLabel 1700 3700 0    60   Input ~ 0
 CAPTOUCH_~RST
 Wire Wire Line
-	4800 3600 6000 3600
+	4450 3600 5650 3600
 Wire Wire Line
-	2900 3700 6000 3700
+	2550 3700 5650 3700
 Wire Wire Line
-	2950 3700 2950 3650
-Connection ~ 2950 3700
+	2600 3700 2600 3650
+Connection ~ 2600 3700
 Wire Wire Line
-	2700 3250 2700 3400
+	2350 3250 2350 3400
 Wire Wire Line
-	2950 3350 2950 3300
+	2600 3350 2600 3300
 Wire Wire Line
-	2950 3300 2700 3300
-Connection ~ 2700 3300
+	2600 3300 2350 3300
+Connection ~ 2350 3300
 Wire Wire Line
-	2050 3700 2500 3700
+	1700 3700 2150 3700
 Wire Wire Line
-	2100 3700 2100 3650
+	1750 3700 1750 3650
 Wire Wire Line
-	2100 3350 2100 3250
+	1750 3350 1750 3250
 Wire Wire Line
-	4850 3600 4850 3550
-Connection ~ 4850 3600
+	4500 3600 4500 3550
+Connection ~ 4500 3600
 Wire Wire Line
-	4850 3150 4850 3250
+	4500 3150 4500 3250
 Wire Wire Line
-	4850 3200 4600 3200
+	4500 3200 4250 3200
 Wire Wire Line
-	4600 3200 4600 3300
-Connection ~ 4850 3200
+	4250 3200 4250 3300
+Connection ~ 4500 3200
 Wire Wire Line
-	3950 3600 4400 3600
+	3600 3600 4050 3600
 Wire Wire Line
-	4000 3600 4000 3550
+	3650 3600 3650 3550
 Wire Wire Line
-	4000 3250 4000 3150
-Connection ~ 4000 3600
-Connection ~ 2100 3700
-Text Notes 7350 1550 0    60   ~ 0
+	3650 3250 3650 3150
+Connection ~ 3650 3600
+Connection ~ 1750 3700
+Text Notes 6650 1550 0    60   ~ 0
 Note:\nNo power-up sequence is\ngiven in the spec sheet
 $Comp
-L 3V3_P #PWR1203
+L 3V3_P #PWR0181
 U 1 1 5AEA3227
-P 4000 3150
-F 0 "#PWR1203" H 4000 3000 50  0001 C CNN
-F 1 "3V3_P" H 4000 3290 50  0000 C CNN
-F 2 "" H 4000 3150 50  0001 C CNN
-F 3 "" H 4000 3150 50  0001 C CNN
-	1    4000 3150
+P 3650 3150
+F 0 "#PWR0181" H 3650 3000 50  0001 C CNN
+F 1 "3V3_P" H 3650 3290 50  0000 C CNN
+F 2 "" H 3650 3150 50  0001 C CNN
+F 3 "" H 3650 3150 50  0001 C CNN
+	1    3650 3150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR1201
+L 3V3_P #PWR0182
 U 1 1 5AEA329B
-P 2100 3250
-F 0 "#PWR1201" H 2100 3100 50  0001 C CNN
-F 1 "3V3_P" H 2100 3390 50  0000 C CNN
-F 2 "" H 2100 3250 50  0001 C CNN
-F 3 "" H 2100 3250 50  0001 C CNN
-	1    2100 3250
+P 1750 3250
+F 0 "#PWR0182" H 1750 3100 50  0001 C CNN
+F 1 "3V3_P" H 1750 3390 50  0000 C CNN
+F 2 "" H 1750 3250 50  0001 C CNN
+F 3 "" H 1750 3250 50  0001 C CNN
+	1    1750 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR1202
+L 1V8_P #PWR0183
 U 1 1 5AEDE2F3
-P 2700 3250
-F 0 "#PWR1202" H 2700 3100 50  0001 C CNN
-F 1 "1V8_P" H 2700 3390 50  0000 C CNN
-F 2 "" H 2700 3250 50  0001 C CNN
-F 3 "" H 2700 3250 50  0001 C CNN
-	1    2700 3250
+P 2350 3250
+F 0 "#PWR0183" H 2350 3100 50  0001 C CNN
+F 1 "1V8_P" H 2350 3390 50  0000 C CNN
+F 2 "" H 2350 3250 50  0001 C CNN
+F 3 "" H 2350 3250 50  0001 C CNN
+	1    2350 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R1202
 U 1 1 5B323584
-P 2950 3500
-F 0 "R1202" H 3125 3550 50  0000 C CNN
-F 1 "10k" H 3075 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2880 3500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2950 3500 50  0001 C CNN
-F 4 "Stackpole" H 2950 3500 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 2950 3500 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 2950 3500 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 2950 3500 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 2950 3500 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 2950 3500 60  0001 C CNN "Others"
-	1    2950 3500
+P 2600 3500
+F 0 "R1202" H 2775 3550 50  0000 C CNN
+F 1 "10k" H 2725 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2530 3500 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2600 3500 50  0001 C CNN
+F 4 "Stackpole" H 2600 3500 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 2600 3500 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 2600 3500 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 2600 3500 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 2600 3500 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 2600 3500 60  0001 C CNN "Others"
+	1    2600 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1201
 U 1 1 5B3235E0
-P 2100 3500
-F 0 "R1201" H 2275 3550 50  0000 C CNN
-F 1 "10k" H 2225 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2030 3500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2100 3500 50  0001 C CNN
-F 4 "Stackpole" H 2100 3500 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 2100 3500 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 2100 3500 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 2100 3500 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 2100 3500 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 2100 3500 60  0001 C CNN "Others"
-	1    2100 3500
+P 1750 3500
+F 0 "R1201" H 1925 3550 50  0000 C CNN
+F 1 "10k" H 1875 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1680 3500 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1750 3500 50  0001 C CNN
+F 4 "Stackpole" H 1750 3500 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 1750 3500 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 1750 3500 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 1750 3500 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 1750 3500 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 1750 3500 60  0001 C CNN "Others"
+	1    1750 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R1203
 U 1 1 5B32362A
-P 4000 3400
-F 0 "R1203" H 4175 3450 50  0000 C CNN
-F 1 "10k" H 4125 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3930 3400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4000 3400 50  0001 C CNN
-F 4 "Stackpole" H 4000 3400 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 4000 3400 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 4000 3400 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4000 3400 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 4000 3400 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4000 3400 60  0001 C CNN "Others"
-	1    4000 3400
+P 3650 3400
+F 0 "R1203" H 3825 3450 50  0000 C CNN
+F 1 "10k" H 3775 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3580 3400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3650 3400 50  0001 C CNN
+F 4 "Stackpole" H 3650 3400 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 3650 3400 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 3650 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 3650 3400 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 3650 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 3650 3400 60  0001 C CNN "Others"
+	1    3650 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R1204
 U 1 1 5B3236A9
-P 4850 3400
-F 0 "R1204" H 5025 3450 50  0000 C CNN
-F 1 "10k" H 4975 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4780 3400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4850 3400 50  0001 C CNN
-F 4 "Stackpole" H 4850 3400 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 4850 3400 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 4850 3400 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4850 3400 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 4850 3400 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4850 3400 60  0001 C CNN "Others"
-	1    4850 3400
+P 4500 3400
+F 0 "R1204" H 4675 3450 50  0000 C CNN
+F 1 "10k" H 4625 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4430 3400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4500 3400 50  0001 C CNN
+F 4 "Stackpole" H 4500 3400 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 4500 3400 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 4500 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4500 3400 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 4500 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4500 3400 60  0001 C CNN "Others"
+	1    4500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR1204
+L 1V8_P #PWR0184
 U 1 1 5B300B10
-P 4850 3150
-F 0 "#PWR1204" H 4850 3000 50  0001 C CNN
-F 1 "1V8_P" H 4850 3290 50  0000 C CNN
-F 2 "" H 4850 3150 50  0001 C CNN
-F 3 "" H 4850 3150 50  0001 C CNN
-	1    4850 3150
+P 4500 3150
+F 0 "#PWR0184" H 4500 3000 50  0001 C CNN
+F 1 "1V8_P" H 4500 3290 50  0000 C CNN
+F 2 "" H 4500 3150 50  0001 C CNN
+F 3 "" H 4500 3150 50  0001 C CNN
+	1    4500 3150
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x39 J1202
 U 1 1 5B314440
-P 9650 3150
-F 0 "J1202" H 9650 5150 50  0000 C CNN
-F 1 "LCD" H 9650 1150 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Conn_Hirose_FPC_39x0_3" H 9650 3150 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/FH26-39S-0.3SHW%2805%29/category/Drawing%20(2D)/doc_file_id/42931/?file_category_id=6&item_id=05800201105&is_series=" H 9650 3150 50  0001 C CNN
-F 4 "Hirose" H 9650 3150 60  0001 C CNN "MFG Name"
-F 5 "FH26-39S-0.3SHW" H 9650 3150 60  0001 C CNN "MFG Part Num"
-F 6 "FH26-39S-0.3SHW(05)" H 9650 3150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/fh26-39s-0.3shw-05/hirose-electric?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=FH26-39S-0.3SHW%2805%29&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart" H 9650 3150 60  0001 C CNN "Distrib Link"
-F 8 "-" H 9650 3150 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=FH26-39s-0.3shw&start=0" H 9650 3150 60  0001 C CNN "Others"
-	1    9650 3150
+P 8950 3150
+F 0 "J1202" H 8950 5150 50  0000 C CNN
+F 1 "LCD" H 8950 1150 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Conn_Hirose_FPC_39x0_3" H 8950 3150 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/FH26-39S-0.3SHW%2805%29/category/Drawing%20(2D)/doc_file_id/42931/?file_category_id=6&item_id=05800201105&is_series=" H 8950 3150 50  0001 C CNN
+F 4 "Hirose" H 8950 3150 60  0001 C CNN "MFG Name"
+F 5 "FH26-39S-0.3SHW" H 8950 3150 60  0001 C CNN "MFG Part Num"
+F 6 "FH26-39S-0.3SHW(05)" H 8950 3150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/fh26-39s-0.3shw-05/hirose-electric?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=FH26-39S-0.3SHW%2805%29&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart" H 8950 3150 60  0001 C CNN "Distrib Link"
+F 8 "-" H 8950 3150 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=FH26-39s-0.3shw&start=0" H 8950 3150 60  0001 C CNN "Others"
+	1    8950 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1214
+L GND #PWR0185
 U 1 1 5B314AC6
-P 9400 5100
-F 0 "#PWR1214" H 9400 4850 50  0001 C CNN
-F 1 "GND" H 9400 4950 50  0000 C CNN
-F 2 "" H 9400 5100 50  0001 C CNN
-F 3 "" H 9400 5100 50  0001 C CNN
-	1    9400 5100
+P 8700 5100
+F 0 "#PWR0185" H 8700 4850 50  0001 C CNN
+F 1 "GND" H 8700 4950 50  0000 C CNN
+F 2 "" H 8700 5100 50  0001 C CNN
+F 3 "" H 8700 5100 50  0001 C CNN
+	1    8700 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 2050 9400 2050
+	8750 2050 8700 2050
 Wire Wire Line
-	9400 2050 9400 5100
+	8700 2050 8700 5100
 Wire Wire Line
-	9450 3150 9400 3150
-Connection ~ 9400 3150
+	8750 3150 8700 3150
+Connection ~ 8700 3150
 Wire Wire Line
-	9450 3450 9400 3450
-Connection ~ 9400 3450
+	8750 3450 8700 3450
+Connection ~ 8700 3450
 Wire Wire Line
-	9450 3750 9400 3750
-Connection ~ 9400 3750
+	8750 3750 8700 3750
+Connection ~ 8700 3750
 Wire Wire Line
-	9450 4050 9400 4050
-Connection ~ 9400 4050
+	8750 4050 8700 4050
+Connection ~ 8700 4050
 Wire Wire Line
-	9450 4350 9400 4350
-Connection ~ 9400 4350
+	8750 4350 8700 4350
+Connection ~ 8700 4350
 Wire Wire Line
-	9450 4650 9400 4650
-Connection ~ 9400 4650
-NoConn ~ 9450 1250
-NoConn ~ 9450 2350
-NoConn ~ 9450 2650
-NoConn ~ 9450 2750
-NoConn ~ 9450 4750
-NoConn ~ 9450 4850
+	8750 4650 8700 4650
+Connection ~ 8700 4650
+NoConn ~ 8750 1250
+NoConn ~ 8750 2350
+NoConn ~ 8750 2650
+NoConn ~ 8750 2750
+NoConn ~ 8750 4750
+NoConn ~ 8750 4850
 $Comp
-L 22V4_P #PWR1212
+L 22V4_P #PWR0186
 U 1 1 5B3239F0
-P 8700 5000
-F 0 "#PWR1212" H 8700 4850 50  0001 C CNN
-F 1 "22V4_P" H 8700 5140 50  0000 C CNN
-F 2 "" H 8700 5000 50  0001 C CNN
-F 3 "" H 8700 5000 50  0001 C CNN
-	1    8700 5000
+P 8000 5000
+F 0 "#PWR0186" H 8000 4850 50  0001 C CNN
+F 1 "22V4_P" H 8000 5140 50  0000 C CNN
+F 2 "" H 8000 5000 50  0001 C CNN
+F 3 "" H 8000 5000 50  0001 C CNN
+	1    8000 5000
 	1    0    0    -1  
 $EndComp
-Text HLabel 9350 4950 0    60   Output ~ 0
+Text HLabel 8650 4950 0    60   Output ~ 0
 LCD_LEDK
 Wire Wire Line
-	8250 5050 9450 5050
+	7550 5050 8750 5050
 Wire Wire Line
-	9350 4950 9450 4950
-NoConn ~ 9450 1650
-NoConn ~ 9450 1750
-NoConn ~ 9450 1850
-NoConn ~ 9450 1950
-NoConn ~ 9450 2150
-NoConn ~ 9450 2250
-NoConn ~ 9450 1350
-NoConn ~ 9450 1450
-NoConn ~ 9450 1550
-NoConn ~ 9450 3050
-NoConn ~ 9450 2950
+	8650 4950 8750 4950
+NoConn ~ 8750 1650
+NoConn ~ 8750 1750
+NoConn ~ 8750 1850
+NoConn ~ 8750 1950
+NoConn ~ 8750 2150
+NoConn ~ 8750 2250
+NoConn ~ 8750 1350
+NoConn ~ 8750 1450
+NoConn ~ 8750 1550
+NoConn ~ 8750 3050
+NoConn ~ 8750 2950
 $Comp
-L 1V8_P #PWR1208
+L 1V8_P #PWR0187
 U 1 1 5B328FC1
-P 7900 2400
-F 0 "#PWR1208" H 7900 2250 50  0001 C CNN
-F 1 "1V8_P" H 7900 2540 50  0000 C CNN
-F 2 "" H 7900 2400 50  0001 C CNN
-F 3 "" H 7900 2400 50  0001 C CNN
-	1    7900 2400
+P 7200 2400
+F 0 "#PWR0187" H 7200 2250 50  0001 C CNN
+F 1 "1V8_P" H 7200 2540 50  0000 C CNN
+F 2 "" H 7200 2400 50  0001 C CNN
+F 3 "" H 7200 2400 50  0001 C CNN
+	1    7200 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1202
 U 1 1 5B32A2B5
-P 7450 2750
-F 0 "C1202" H 7475 2850 50  0000 L CNN
-F 1 "100nF" H 7475 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7488 2600 50  0001 C CNN
-F 3 "" H 7450 2750 50  0001 C CNN
-	1    7450 2750
+P 6750 2750
+F 0 "C1202" H 6775 2850 50  0000 L CNN
+F 1 "100nF" H 6775 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6788 2600 50  0001 C CNN
+F 3 "" H 6750 2750 50  0001 C CNN
+	1    6750 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1209
+L GND #PWR0188
 U 1 1 5B32A2F2
-P 7900 3000
-F 0 "#PWR1209" H 7900 2750 50  0001 C CNN
-F 1 "GND" H 7900 2850 50  0000 C CNN
-F 2 "" H 7900 3000 50  0001 C CNN
-F 3 "" H 7900 3000 50  0001 C CNN
-	1    7900 3000
+P 7200 3000
+F 0 "#PWR0188" H 7200 2750 50  0001 C CNN
+F 1 "GND" H 7200 2850 50  0000 C CNN
+F 2 "" H 7200 3000 50  0001 C CNN
+F 3 "" H 7200 3000 50  0001 C CNN
+	1    7200 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 9350 2850 0    60   Input ~ 0
+Text HLabel 8650 2850 0    60   Input ~ 0
 LCD_~RESET
 Wire Wire Line
-	9350 2850 9450 2850
+	8650 2850 8750 2850
 Wire Wire Line
-	9350 3250 9450 3250
+	8650 3250 8750 3250
 Wire Wire Line
-	9350 3350 9450 3350
+	8650 3350 8750 3350
 Wire Wire Line
-	9350 3550 9450 3550
+	8650 3550 8750 3550
 Wire Wire Line
-	9350 3650 9450 3650
+	8650 3650 8750 3650
 Wire Wire Line
-	9350 3850 9450 3850
+	8650 3850 8750 3850
 Wire Wire Line
-	9350 3950 9450 3950
+	8650 3950 8750 3950
 Wire Wire Line
-	9350 4150 9450 4150
+	8650 4150 8750 4150
 Wire Wire Line
-	9350 4250 9450 4250
+	8650 4250 8750 4250
 Wire Wire Line
-	9350 4450 9450 4450
+	8650 4450 8750 4450
 Wire Wire Line
-	9350 4550 9450 4550
+	8650 4550 8750 4550
 $Comp
-L 2V8_P #PWR1210
+L 2V8_P #PWR0189
 U 1 1 5B3FFD6E
-P 8700 2400
-F 0 "#PWR1210" H 8700 2250 50  0001 C CNN
-F 1 "2V8_P" H 8700 2540 50  0000 C CNN
-F 2 "" H 8700 2400 50  0001 C CNN
-F 3 "" H 8700 2400 50  0001 C CNN
-	1    8700 2400
+P 8000 2400
+F 0 "#PWR0189" H 8000 2250 50  0001 C CNN
+F 1 "2V8_P" H 8000 2540 50  0000 C CNN
+F 2 "" H 8000 2400 50  0001 C CNN
+F 3 "" H 8000 2400 50  0001 C CNN
+	1    8000 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1208
 U 1 1 5B3FFDB6
-P 8700 2750
-F 0 "C1208" H 8725 2850 50  0000 L CNN
-F 1 "100nF" H 8725 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8738 2600 50  0001 C CNN
-F 3 "" H 8700 2750 50  0001 C CNN
-	1    8700 2750
+P 8000 2750
+F 0 "C1208" H 8025 2850 50  0000 L CNN
+F 1 "100nF" H 8025 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8038 2600 50  0001 C CNN
+F 3 "" H 8000 2750 50  0001 C CNN
+	1    8000 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1211
+L GND #PWR0190
 U 1 1 5B3FFE19
-P 8700 2950
-F 0 "#PWR1211" H 8700 2700 50  0001 C CNN
-F 1 "GND" H 8700 2800 50  0000 C CNN
-F 2 "" H 8700 2950 50  0001 C CNN
-F 3 "" H 8700 2950 50  0001 C CNN
-	1    8700 2950
+P 8000 2950
+F 0 "#PWR0190" H 8000 2700 50  0001 C CNN
+F 1 "GND" H 8000 2800 50  0000 C CNN
+F 2 "" H 8000 2950 50  0001 C CNN
+F 3 "" H 8000 2950 50  0001 C CNN
+	1    8000 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2950 8700 2900
+	8000 2950 8000 2900
 Wire Wire Line
-	8700 2400 8700 2600
+	8000 2400 8000 2600
 Wire Wire Line
-	9450 2550 8700 2550
-Connection ~ 8700 2550
+	8750 2550 8000 2550
+Connection ~ 8000 2550
 $Comp
 L Conn_01x06 J1201
 U 1 1 5B445B35
-P 6200 3600
-F 0 "J1201" H 6200 3900 50  0000 C CNN
-F 1 "Touch" H 6200 3200 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:FH34SRJ-6S-0.5SH" H 6200 3600 50  0001 C CNN
-F 3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH34SRJ-6S-0.5SH(50)" H 6200 3600 50  0001 C CNN
-F 4 "Hirose Electric" H 6200 3600 60  0001 C CNN "MFG Name"
-F 5 "FH34SRJ-6S-0.5SH(50)" H 6200 3600 60  0001 C CNN "MFG Part Num"
-F 6 "H125773CT-ND" H 6200 3600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/FH34SRJ-6S-0.5SH-50/H125773CT-ND/8594852" H 6200 3600 60  0001 C CNN "Distrib Link"
-F 8 "-" H 6200 3600 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-6S-05SH50?qs=vnk2wBG9e15jF3vv7p0sbw%3D%3D" H 6200 3600 60  0001 C CNN "Others"
-	1    6200 3600
+P 5850 3600
+F 0 "J1201" H 5850 3900 50  0000 C CNN
+F 1 "Touch" H 5850 3200 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:FH34SRJ-6S-0.5SH" H 5850 3600 50  0001 C CNN
+F 3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH34SRJ-6S-0.5SH(50)" H 5850 3600 50  0001 C CNN
+F 4 "Hirose Electric" H 5850 3600 60  0001 C CNN "MFG Name"
+F 5 "FH34SRJ-6S-0.5SH(50)" H 5850 3600 60  0001 C CNN "MFG Part Num"
+F 6 "H125773CT-ND" H 5850 3600 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/FH34SRJ-6S-0.5SH-50/H125773CT-ND/8594852" H 5850 3600 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5850 3600 60  0001 C CNN "Tolerance"
+F 9 "https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-6S-05SH50?qs=vnk2wBG9e15jF3vv7p0sbw%3D%3D" H 5850 3600 60  0001 C CNN "Others"
+	1    5850 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3400 6000 3400
+	5550 3400 5650 3400
 Wire Wire Line
-	5900 3500 6000 3500
+	5550 3500 5650 3500
 $Comp
-L GND #PWR1207
+L GND #PWR0191
 U 1 1 5B449295
-P 5950 3950
-F 0 "#PWR1207" H 5950 3700 50  0001 C CNN
-F 1 "GND" H 5950 3800 50  0000 C CNN
-F 2 "" H 5950 3950 50  0001 C CNN
-F 3 "" H 5950 3950 50  0001 C CNN
-	1    5950 3950
+P 5600 3950
+F 0 "#PWR0191" H 5600 3700 50  0001 C CNN
+F 1 "GND" H 5600 3800 50  0000 C CNN
+F 2 "" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	1    5600 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 3950 5950 3900
+	5600 3950 5600 3900
 Wire Wire Line
-	5950 3900 6000 3900
+	5600 3900 5650 3900
 Wire Wire Line
-	5950 3800 6000 3800
+	5600 3800 5650 3800
 Wire Wire Line
-	5950 2700 5950 3800
+	5600 2700 5600 3800
 $Comp
-L 2V8_P #PWR1206
+L 2V8_P #PWR0192
 U 1 1 5B449772
-P 5950 2700
-F 0 "#PWR1206" H 5950 2550 50  0001 C CNN
-F 1 "2V8_P" H 5950 2840 50  0000 C CNN
-F 2 "" H 5950 2700 50  0001 C CNN
-F 3 "" H 5950 2700 50  0001 C CNN
-	1    5950 2700
+P 5600 2700
+F 0 "#PWR0192" H 5600 2550 50  0001 C CNN
+F 1 "2V8_P" H 5600 2840 50  0000 C CNN
+F 2 "" H 5600 2700 50  0001 C CNN
+F 3 "" H 5600 2700 50  0001 C CNN
+	1    5600 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1201
 U 1 1 5B44A018
-P 5800 2950
-F 0 "C1201" H 5825 3050 50  0000 L CNN
-F 1 "100nF" H 5825 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5838 2800 50  0001 C CNN
-F 3 "" H 5800 2950 50  0001 C CNN
-	1    5800 2950
+P 5450 2950
+F 0 "C1201" H 5475 3050 50  0000 L CNN
+F 1 "100nF" H 5475 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5488 2800 50  0001 C CNN
+F 3 "" H 5450 2950 50  0001 C CNN
+	1    5450 2950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1205
+L GND #PWR0193
 U 1 1 5B44A063
-P 5800 3150
-F 0 "#PWR1205" H 5800 2900 50  0001 C CNN
-F 1 "GND" H 5800 3000 50  0000 C CNN
-F 2 "" H 5800 3150 50  0001 C CNN
-F 3 "" H 5800 3150 50  0001 C CNN
-	1    5800 3150
+P 5450 3150
+F 0 "#PWR0193" H 5450 2900 50  0001 C CNN
+F 1 "GND" H 5450 3000 50  0000 C CNN
+F 2 "" H 5450 3150 50  0001 C CNN
+F 3 "" H 5450 3150 50  0001 C CNN
+	1    5450 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 2800 5800 2750
+	5450 2800 5450 2750
 Wire Wire Line
-	5800 2750 5950 2750
-Connection ~ 5950 2750
+	5450 2750 5600 2750
+Connection ~ 5600 2750
 Wire Wire Line
-	5800 3150 5800 3100
+	5450 3150 5450 3100
 $Comp
 L C C1206
 U 1 1 5B44F3BF
-P 8350 2750
-F 0 "C1206" H 8375 2850 50  0000 L CNN
-F 1 "100pF" H 8375 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8388 2600 50  0001 C CNN
-F 3 "" H 8350 2750 50  0001 C CNN
-	1    8350 2750
+P 7650 2750
+F 0 "C1206" H 7675 2850 50  0000 L CNN
+F 1 "100pF" H 7675 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7688 2600 50  0001 C CNN
+F 3 "" H 7650 2750 50  0001 C CNN
+	1    7650 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L C C1204
 U 1 1 5B44F3C6
-P 8050 2750
-F 0 "C1204" H 8075 2850 50  0000 L CNN
-F 1 "1nF" H 8075 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8088 2600 50  0001 C CNN
-F 3 "" H 8050 2750 50  0001 C CNN
-	1    8050 2750
+P 7350 2750
+F 0 "C1204" H 7375 2850 50  0000 L CNN
+F 1 "1nF" H 7375 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7388 2600 50  0001 C CNN
+F 3 "" H 7350 2750 50  0001 C CNN
+	1    7350 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L C C1203
 U 1 1 5B44F3CD
-P 7750 2750
-F 0 "C1203" H 7775 2850 50  0000 L CNN
-F 1 "10nF" H 7775 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7788 2600 50  0001 C CNN
-F 3 "" H 7750 2750 50  0001 C CNN
-	1    7750 2750
+P 7050 2750
+F 0 "C1203" H 7075 2850 50  0000 L CNN
+F 1 "10nF" H 7075 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7088 2600 50  0001 C CNN
+F 3 "" H 7050 2750 50  0001 C CNN
+	1    7050 2750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2450 9450 2450
+	6750 2450 8750 2450
 Wire Wire Line
-	7450 2450 7450 2600
+	6750 2450 6750 2600
 Wire Wire Line
-	7750 2600 7750 2450
-Connection ~ 7750 2450
+	7050 2600 7050 2450
+Connection ~ 7050 2450
 Wire Wire Line
-	8050 2600 8050 2450
-Connection ~ 8050 2450
+	7350 2600 7350 2450
+Connection ~ 7350 2450
 Wire Wire Line
-	8350 2600 8350 2450
-Connection ~ 8350 2450
+	7650 2600 7650 2450
+Connection ~ 7650 2450
 Wire Wire Line
-	7450 2900 7450 2950
+	6750 2900 6750 2950
 Wire Wire Line
-	7450 2950 8350 2950
+	6750 2950 7650 2950
 Wire Wire Line
-	8350 2950 8350 2900
+	7650 2950 7650 2900
 Wire Wire Line
-	7750 2900 7750 2950
-Connection ~ 7750 2950
+	7050 2900 7050 2950
+Connection ~ 7050 2950
 Wire Wire Line
-	8050 2900 8050 2950
-Connection ~ 8050 2950
+	7350 2900 7350 2950
+Connection ~ 7350 2950
 Wire Wire Line
-	7900 3000 7900 2950
-Connection ~ 7900 2950
+	7200 3000 7200 2950
+Connection ~ 7200 2950
 Wire Wire Line
-	7900 2400 7900 2450
-Connection ~ 7900 2450
+	7200 2400 7200 2450
+Connection ~ 7200 2450
 $Comp
 L C C1205
 U 1 1 5B452925
-P 8250 5350
-F 0 "C1205" H 8275 5450 50  0000 L CNN
-F 1 "100nF" H 8275 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8288 5200 50  0001 C CNN
-F 3 "" H 8250 5350 50  0001 C CNN
-	1    8250 5350
+P 7550 5350
+F 0 "C1205" H 7575 5450 50  0000 L CNN
+F 1 "100nF" H 7575 5250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7588 5200 50  0001 C CNN
+F 3 "" H 7550 5350 50  0001 C CNN
+	1    7550 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1213
+L GND #PWR0194
 U 1 1 5B45292C
-P 8700 5600
-F 0 "#PWR1213" H 8700 5350 50  0001 C CNN
-F 1 "GND" H 8700 5450 50  0000 C CNN
-F 2 "" H 8700 5600 50  0001 C CNN
-F 3 "" H 8700 5600 50  0001 C CNN
-	1    8700 5600
+P 8000 5600
+F 0 "#PWR0194" H 8000 5350 50  0001 C CNN
+F 1 "GND" H 8000 5450 50  0000 C CNN
+F 2 "" H 8000 5600 50  0001 C CNN
+F 3 "" H 8000 5600 50  0001 C CNN
+	1    8000 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1210
 U 1 1 5B452932
-P 9150 5350
-F 0 "C1210" H 9175 5450 50  0000 L CNN
-F 1 "100pF" H 9175 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9188 5200 50  0001 C CNN
-F 3 "" H 9150 5350 50  0001 C CNN
-	1    9150 5350
+P 8450 5350
+F 0 "C1210" H 8475 5450 50  0000 L CNN
+F 1 "100pF" H 8475 5250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8488 5200 50  0001 C CNN
+F 3 "" H 8450 5350 50  0001 C CNN
+	1    8450 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L C C1209
 U 1 1 5B452939
-P 8850 5350
-F 0 "C1209" H 8875 5450 50  0000 L CNN
-F 1 "1nF" H 8875 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8888 5200 50  0001 C CNN
-F 3 "" H 8850 5350 50  0001 C CNN
-	1    8850 5350
+P 8150 5350
+F 0 "C1209" H 8175 5450 50  0000 L CNN
+F 1 "1nF" H 8175 5250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8188 5200 50  0001 C CNN
+F 3 "" H 8150 5350 50  0001 C CNN
+	1    8150 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L C C1207
 U 1 1 5B452940
-P 8550 5350
-F 0 "C1207" H 8575 5450 50  0000 L CNN
-F 1 "10nF" H 8575 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8588 5200 50  0001 C CNN
-F 3 "" H 8550 5350 50  0001 C CNN
-	1    8550 5350
+P 7850 5350
+F 0 "C1207" H 7875 5450 50  0000 L CNN
+F 1 "10nF" H 7875 5250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7888 5200 50  0001 C CNN
+F 3 "" H 7850 5350 50  0001 C CNN
+	1    7850 5350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 5050 8250 5200
+	7550 5050 7550 5200
 Wire Wire Line
-	8550 5200 8550 5050
+	7850 5200 7850 5050
 Wire Wire Line
-	8850 5200 8850 5050
+	8150 5200 8150 5050
 Wire Wire Line
-	9150 5200 9150 5050
+	8450 5200 8450 5050
 Wire Wire Line
-	8250 5500 8250 5550
+	7550 5500 7550 5550
 Wire Wire Line
-	8250 5550 9150 5550
+	7550 5550 8450 5550
 Wire Wire Line
-	9150 5550 9150 5500
+	8450 5550 8450 5500
 Wire Wire Line
-	8550 5500 8550 5550
-Connection ~ 8550 5550
+	7850 5500 7850 5550
+Connection ~ 7850 5550
 Wire Wire Line
-	8850 5500 8850 5550
-Connection ~ 8850 5550
+	8150 5500 8150 5550
+Connection ~ 8150 5550
 Wire Wire Line
-	8700 5600 8700 5550
-Connection ~ 8700 5550
-Connection ~ 8550 5050
-Connection ~ 8850 5050
-Connection ~ 9150 5050
+	8000 5600 8000 5550
+Connection ~ 8000 5550
+Connection ~ 7850 5050
+Connection ~ 8150 5050
+Connection ~ 8450 5050
 Wire Wire Line
-	8700 5000 8700 5050
-Connection ~ 8700 5050
-Text Notes 8650 1050 0    60   ~ 0
+	8000 5000 8000 5050
+Connection ~ 8000 5050
+Text Notes 7950 1050 0    60   ~ 0
                  LCD PN:\nShenzhen Jinghong Electronics Co., Ltd.\n              JH057N00900
-Text Notes 5300 2450 0    60   ~ 0
+Text Notes 4950 2450 0    60   ~ 0
 Cap-Touch Controller IC PN:\n      Goodix GT5688
 $Bitmap
-Pos 10000 5700
-Scale 1.000000
+Pos 9300 5700
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 71 00 00 00 44 08 02 00 00 00 F8 25 92 
 59 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED 9D 79 5C 13 D7 
@@ -945,18 +945,18 @@ B8 9C 39 73 66 C8 36 6D C9 25 38 8E 27 25 25 59 5B 5B 77 77 77 77 74 74 2C 5C B8
 EndData
 $EndBitmap
 Wire Notes Line
-	9350 5450 9350 5850
+	8650 5450 8650 5850
 Wire Notes Line
-	9350 5850 10650 5850
+	8650 5850 9950 5850
 Wire Notes Line
-	10650 5850 10650 5450
+	9950 5850 9950 5450
 Wire Notes Line
-	10650 5450 9350 5450
-Text Notes 9650 5550 0    60   ~ 0
+	9950 5450 8650 5450
+Text Notes 8950 5550 0    60   ~ 0
 Backlight Array:
 $Bitmap
-Pos 5200 4500
-Scale 1.000000
+Pos 4850 4500
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 C1 00 00 00 F5 08 02 00 00 00 66 CB 06 
 70 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED 9D 79 5C CC DB 
@@ -1409,8 +1409,8 @@ BF BF FF 40 7D 4B DE 5C 1C 8F E1 F2 FF 0C D9 40 28 6C 6C D2 69 00 00 00 00 49 45
 EndData
 $EndBitmap
 $Bitmap
-Pos 5350 5175
-Scale 1.000000
+Pos 5000 5175
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 5C 00 00 00 67 08 02 00 00 00 02 30 B2 
 61 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 0C 4A 49 44 41 54 78 9C ED 5D 6F 6C 53 55 
@@ -1516,8 +1516,8 @@ C4 17 52 86 9B 7E 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Bitmap
-Pos 5000 5150
-Scale 1.000000
+Pos 4650 5150
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 4D 00 00 00 5B 08 02 00 00 00 B9 E4 9F 
 61 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 14 AA 49 44 41 54 78 9C CD 5C 79 50 53 D7 
@@ -1689,23 +1689,23 @@ C9 E5 72 55 2A 95 BD BD FD A8 51 A3 DE A7 65 3D 8B 0F E6 A5 F4 8E F1 41 E4 61 BC
 52 58 07 F0 DE 04 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 4850 5000 0    60   ~ 0
+Text Notes 4500 5000 0    60   ~ 0
 Front:
-Text Notes 5250 5000 0    60   ~ 0
+Text Notes 4900 5000 0    60   ~ 0
 Back:
-Text Notes 4850 4075 0    60   ~ 0
+Text Notes 4500 4075 0    60   ~ 0
 Cap-Touch FPC:
 Wire Notes Line
-	4800 3950 4800 5350
+	4450 3950 4450 5350
 Wire Notes Line
-	4800 5350 5650 5350
+	4450 5350 5300 5350
 Wire Notes Line
-	5650 5350 5650 3950
+	5300 5350 5300 3950
 Wire Notes Line
-	5650 3950 4800 3950
+	5300 3950 4450 3950
 $Bitmap
-Pos 10100 5000
-Scale 1.000000
+Pos 9400 5000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 46 00 00 00 99 08 02 00 00 00 1D 24 DB 
 29 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 0C 2E 49 44 41 54 78 9C ED 5C 5B 4C 13 CD 
@@ -1810,8 +1810,8 @@ E0 7F 19 28 2E 64 3A 3E 0F 15 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Bitmap
-Pos 10500 5000
-Scale 1.000000
+Pos 9800 5000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 5A 00 00 00 96 08 02 00 00 00 D1 E0 08 
 9A 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 1E 16 49 44 41 54 78 9C ED 7D 79 58 94 47 
@@ -2058,33 +2058,33 @@ C4 D2 D2 12 4E 53 BE 79 F3 E6 D8 B1 63 12 29 5F CA E0 20 94 99 99 E9 EE EE AE A8
 31 38 06 D0 18 1C 03 E8 FF 00 9C FF FC 57 37 4C B1 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 10000 4750 0    60   ~ 0
+Text Notes 9300 4750 0    60   ~ 0
 Front:
-Text Notes 10350 4750 0    60   ~ 0
+Text Notes 9650 4750 0    60   ~ 0
 Back:
-Text Notes 10100 4650 0    60   ~ 0
+Text Notes 9400 4650 0    60   ~ 0
 DSI FPC:
 Wire Notes Line
-	9950 4550 9950 5250
+	9250 4550 9250 5250
 Wire Notes Line
-	9950 5250 10650 5250
+	9250 5250 9950 5250
 Wire Notes Line
-	10650 5250 10650 4550
+	9950 5250 9950 4550
 Wire Notes Line
-	10650 4550 9950 4550
-Text Notes 8000 4700 0    60   ~ 0
+	9950 4550 9250 4550
+Text Notes 7300 4700 0    60   ~ 0
 100Ω Differential Impedance
-Text Notes 6000 2900 0    60   ~ 0
+Text Notes 5650 2900 0    60   ~ 0
 ??mA
-Text Notes 6000 3050 0    39   ~ 0
+Text Notes 5650 3050 0    39   ~ 0
 (>100mA available\n for <155mV dropout)
-Text Notes 1300 4450 0    60   ~ 0
+Text Notes 950  4450 0    60   ~ 0
            The upper 7 bits are the address,\n       and bit 0 is used to select read or write.\nGT5688 has two slave device addresses to choose from:
-Text Notes 1600 5200 0    60   ~ 0
+Text Notes 1250 5200 0    60   ~ 0
 Every time you power on or reset, you need\nto use the INT pin to set the I2C address:
 $Bitmap
-Pos 2600 4650
-Scale 1.000000
+Pos 2250 4650
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 F9 00 00 00 53 08 02 00 00 00 13 24 E9 
 8F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -2344,11 +2344,11 @@ BF 7E 6D F8 BD 9D 36 E8 27 1F 81 40 20 10 08 EB 05 03 00 7C F9 E5 97 69 69 69 96
 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 5350 1950 0    60   ~ 0
+Text Notes 5000 1950 0    60   ~ 0
 7-bit Slave Address: 0x5D\n       (1011 101x)
 $Bitmap
-Pos 2500 5800
-Scale 1.000000
+Pos 2150 5800
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 E8 00 00 01 4B 08 02 00 00 00 0B 58 EE 
 1A 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -3585,58 +3585,69 @@ A6 A6 9E 3F 7F 3E 21 21 C1 9A 0F 5A 58 58 B8 79 F3 E6 A5 4B 97 5A F3 41 AD 0F BB
 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 5750 2200 0    60   ~ 0
+Text Notes 5400 2200 0    60   ~ 0
 Read: 0xBB\nWrite: 0xBA
-Text Notes 1550 4700 0    60   ~ 0
+Text Notes 1200 4700 0    60   ~ 0
 LOW
 Wire Notes Line
-	1760 4790 1550 4790
+	1410 4790 1200 4790
 Wire Notes Line
-	1550 4790 1550 4520
+	1200 4790 1200 4520
 Wire Notes Line
-	1760 4700 1550 4700
+	1410 4700 1200 4700
 Wire Notes Line
-	1550 4520 1760 4520
+	1200 4520 1410 4520
 Wire Notes Line
-	1760 4610 1550 4610
-Text Notes 1550 4600 0    60   ~ 0
+	1410 4610 1200 4610
+Text Notes 1200 4600 0    60   ~ 0
 INT
-Text Notes 1550 4790 0    60   ~ 0
+Text Notes 1200 4790 0    60   ~ 0
 HIGH
-Text Notes 2950 1050 0    236  ~ 47
+Text Notes 1650 1000 0    236  ~ 47
 Display & Touch Controller
 $Comp
 L Q_NMOS_GSD Q1202
 U 1 1 5B2E270A
-P 4600 3500
-F 0 "Q1202" V 4550 3650 50  0000 L CNN
-F 1 "FDV301N" V 4650 3650 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:FDV301N" H 4800 3600 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 4600 3500 50  0001 C CNN
-F 4 "ON Semiconductor" V 4600 3500 60  0001 C CNN "MFG Name"
-F 5 "FDV301N" V 4600 3500 60  0001 C CNN "MFG Part Num"
-F 6 "FDV301N" V 4600 3500 60  0001 C CNN "Distrib PN"
-F 7 "https://www.tme.eu/en/details/fdv301n/smd-n-channel-transistors/on-semiconductor-fairchild/" V 4600 3500 60  0001 C CNN "Distrib Link"
-F 8 "-" V 4600 3500 60  0001 C CNN "Tolerance"
-F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 4600 3500 60  0001 C CNN "Others"
-	1    4600 3500
+P 4250 3500
+F 0 "Q1202" V 4200 3650 50  0000 L CNN
+F 1 "FDV301N" V 4300 3650 50  0000 L CNN
+F 2 "dvk-mx8m-bsb:FDV301N" H 4450 3600 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 4250 3500 50  0001 C CNN
+F 4 "ON Semiconductor" V 4250 3500 60  0001 C CNN "MFG Name"
+F 5 "FDV301N" V 4250 3500 60  0001 C CNN "MFG Part Num"
+F 6 "FDV301N" V 4250 3500 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/fdv301n/smd-n-channel-transistors/on-semiconductor-fairchild/" V 4250 3500 60  0001 C CNN "Distrib Link"
+F 8 "-" V 4250 3500 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 4250 3500 60  0001 C CNN "Others"
+	1    4250 3500
 	0    -1   1    0   
 $EndComp
 $Comp
 L Q_NMOS_GSD Q1201
 U 1 1 5B2E3533
-P 2700 3600
-F 0 "Q1201" V 2650 3750 50  0000 L CNN
-F 1 "FDV301N" V 2750 3750 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:FDV301N" H 2900 3700 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 2700 3600 50  0001 C CNN
-F 4 "ON Semiconductor" V 2700 3600 60  0001 C CNN "MFG Name"
-F 5 "FDV301N" V 2700 3600 60  0001 C CNN "MFG Part Num"
-F 6 "FDV301N" V 2700 3600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.tme.eu/en/details/fdv301n/smd-n-channel-transistors/on-semiconductor-fairchild/" V 2700 3600 60  0001 C CNN "Distrib Link"
-F 8 "-" V 2700 3600 60  0001 C CNN "Tolerance"
-F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 2700 3600 60  0001 C CNN "Others"
-	1    2700 3600
+P 2350 3600
+F 0 "Q1201" V 2300 3750 50  0000 L CNN
+F 1 "FDV301N" V 2400 3750 50  0000 L CNN
+F 2 "dvk-mx8m-bsb:FDV301N" H 2550 3700 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FDV301N-D.PDF" H 2350 3600 50  0001 C CNN
+F 4 "ON Semiconductor" V 2350 3600 60  0001 C CNN "MFG Name"
+F 5 "FDV301N" V 2350 3600 60  0001 C CNN "MFG Part Num"
+F 6 "FDV301N" V 2350 3600 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/fdv301n/smd-n-channel-transistors/on-semiconductor-fairchild/" V 2350 3600 60  0001 C CNN "Distrib Link"
+F 8 "-" V 2350 3600 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 2350 3600 60  0001 C CNN "Others"
+	1    2350 3600
 	0    -1   1    0   
+$EndComp
+$Comp
+L Display_JH057N00900 DISP1201
+U 1 1 5B2C05F7
+P 10550 2500
+F 0 "DISP1201" H 10550 3500 60  0000 C CNN
+F 1 "Display_JH057N00900" H 10550 3700 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:JH057N00900" H 14900 5700 60  0001 C CNN
+F 3 "" H 14900 5700 60  0001 C CNN
+	1    10550 2500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
