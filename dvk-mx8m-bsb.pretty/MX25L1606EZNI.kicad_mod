@@ -1,5 +1,5 @@
 (module MX25L1606EZNI (layer F.Cu) (tedit 5B28001B)
-  (descr "Page 4 http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf, http://www.macronix.com/Lists/ApplicationNote/Attachments/1886/AN182V1-209mil%208-SOP%20and%206x5mm%208-WSON%20Dual%20Layout%20Guide.pdf")
+  (descr "Page 56 http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf, http://www.macronix.com/Lists/ApplicationNote/Attachments/1886/AN182V1-209mil%208-SOP%20and%206x5mm%208-WSON%20Dual%20Layout%20Guide.pdf")
   (tags MX25L1606EZNI)
   (attr smd)
   (fp_text reference REF** (at 0 -3.575) (layer F.SilkS)
