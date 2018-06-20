@@ -1,4 +1,4 @@
-(module MX25L1606EZNI (layer F.Cu) (tedit 5B28001B)
+(module MX25L1606EZNI (layer F.Cu) (tedit 5B29F3C2)
   (descr "Page 56 http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf, http://www.macronix.com/Lists/ApplicationNote/Attachments/1886/AN182V1-209mil%208-SOP%20and%206x5mm%208-WSON%20Dual%20Layout%20Guide.pdf")
   (tags MX25L1606EZNI)
   (attr smd)
@@ -8,6 +8,7 @@
   (fp_text value MX25L1606EZNI (at 0 3.575) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_circle (center -3.75 -1.905) (end -3.75 -1.83) (layer F.SilkS) (width 0.15))
   (fp_line (start -2 -2.5) (end 3 -2.5) (layer F.Fab) (width 0.15))
   (fp_line (start 3 -2.5) (end 3 2.5) (layer F.Fab) (width 0.15))
   (fp_line (start 3 2.5) (end -3 2.5) (layer F.Fab) (width 0.15))
