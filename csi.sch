@@ -6298,12 +6298,12 @@ U 1 1 5B196213
 P 8000 3850
 F 0 "U1301" H 8000 3900 50  0000 C CNN
 F 1 "74LVC1G32" H 8000 3800 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:74LVC1G32GW" H 8000 3850 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:74LVC1G32GF" H 8000 3850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G32_Q100.pdf" H 8000 3850 50  0001 C CNN
 F 4 "NXP" H 8000 3850 60  0001 C CNN "MFG Name"
-F 5 "74LVC1G32GW-Q100H" H 8000 3850 60  0001 C CNN "MFG Part Num"
-F 6 "771-74LVC1G32GWQ100H" H 8000 3850 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Nexperia/74LVC1G32GW-Q100H?qs=sGAEpiMZZMtMa9lbYwD6ZO2Xn%2ft0vS0wafWeV%2fAqid8%3d" H 8000 3850 60  0001 C CNN "Distrib Link"
+F 5 "74LVC1G32GF" H 8000 3850 60  0001 C CNN "MFG Part Num"
+F 6 "74LVC1G32GF/S505125" H 8000 3850 60  0001 C CNN "Distrib PN"
+F 7 "https://www.rocelec.com/part/nexnxp74lvc1g32gf-s505125" H 8000 3850 60  0001 C CNN "Distrib Link"
 F 8 "-" H 8000 3850 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?FV=ffe002c1&quantity=&ColumnSort=1000011&page=1&k=1g32&pageSize=500" H 8000 3850 60  0001 C CNN "Others"
 	1    8000 3850

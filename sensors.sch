@@ -5190,14 +5190,14 @@ U 1 1 5B38F34D
 P 9900 2700
 F 0 "U2003" H 9900 2750 50  0000 C CNN
 F 1 "74LVC1G332" H 9930 2690 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SN74LVC1G332DCKR" H 9900 2700 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:74LVC1G332DCKR" H 9900 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g332.pdf" H 9900 2700 50  0001 C CNN
 F 4 "Texas Instruments" H 9900 2700 60  0001 C CNN "MFG Name"
 F 5 "SN74LVC1G332DCKR" H 9900 2700 60  0001 C CNN "MFG Part Num"
 F 6 "SN74LVC1G332DCKR" H 9900 2700 60  0001 C CNN "Distrib PN"
-F 7 "https://store.ti.com/SN74LVC1G332DCKR.aspx?HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe" H 9900 2700 60  0001 C CNN "Distrib Link"
+F 7 "https://www.rocelec.com/part/textissn74lvc1g332dckr" H 9900 2700 60  0001 C CNN "Distrib Link"
 F 8 "-" H 9900 2700 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?FV=ffe002c1&quantity=&ColumnSort=1000011&page=1&k=1G332&pageSize=500" H 9900 2700 60  0001 C CNN "Others"
+F 9 "https://store.ti.com/SN74LVC1G332DCKR.aspx" H 9900 2700 60  0001 C CNN "Others"
 	1    9900 2700
 	1    0    0    -1  
 $EndComp

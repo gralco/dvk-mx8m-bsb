@@ -804,7 +804,7 @@ L R R1505
 U 1 1 5B30C2F2
 P 8800 1550
 F 0 "R1505" H 8975 1600 50  0000 C CNN
-F 1 "10k" H 8925 1500 50  0000 C CNN
+F 1 "100k" H 8950 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8730 1550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8800 1550 50  0001 C CNN
 F 4 "Stackpole" H 8800 1550 60  0001 C CNN "MFG Name"
@@ -821,7 +821,7 @@ L R R1504
 U 1 1 5B30C2FF
 P 8450 1750
 F 0 "R1504" V 8525 1750 50  0000 C CNN
-F 1 "10k" V 8350 1750 50  0000 C CNN
+F 1 "100k" V 8350 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8380 1750 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8450 1750 50  0001 C CNN
 F 4 "Stackpole" H 8450 1750 60  0001 C CNN "MFG Name"
@@ -884,12 +884,12 @@ U 1 1 5B3246C1
 P 6850 2100
 F 0 "U1503" H 6850 2150 50  0000 C CNN
 F 1 "74LVC1G08" H 6850 2050 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:74LVC1G08" H 6850 2100 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:74LVC1G08GF" H 6850 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf" H 6850 2100 50  0001 C CNN
 F 4 "NXP" H 6850 2100 60  0001 C CNN "MFG Name"
-F 5 "74LVC1G08GV,125" H 6850 2100 60  0001 C CNN "MFG Part Num"
-F 6 "74LVC1G08GV125" H 6850 2100 60  0001 C CNN "DIstrib PN"
-F 7 "https://www.rocelec.com/part/nexnxp74lvc1g08gv125" H 6850 2100 60  0001 C CNN "Distrib Link"
+F 5 "74LVC1G08GF" H 6850 2100 60  0001 C CNN "MFG Part Num"
+F 6 "74LVC1G08GF/S505125" H 6850 2100 60  0001 C CNN "DIstrib PN"
+F 7 "https://www.rocelec.com/part/nexnxp74lvc1g08gf-s505125" H 6850 2100 60  0001 C CNN "Distrib Link"
 F 8 "-" H 6850 2100 60  0001 C CNN "Tolerance"
 F 9 "https://octopart.com/search?q=74LVC1G08GV%2C125&oq=74LVC1G08GV%2C125&start=0" H 6850 2100 60  0001 C CNN "Others"
 	1    6850 2100
@@ -1114,12 +1114,12 @@ Wire Wire Line
 Wire Wire Line
 	6900 5250 6900 5350
 Wire Wire Line
-	9550 5350 6900 5350
+	6900 5350 9550 5350
 Wire Wire Line
-	9550 3800 9550 5350
+	9550 5350 9550 3800
 Connection ~ 7000 4350
 Wire Wire Line
-	7250 4150 7250 5300
+	7250 5300 7250 4150
 Connection ~ 7250 4150
 Connection ~ 6900 4250
 Wire Wire Line
@@ -1543,4 +1543,8 @@ Wire Wire Line
 	8300 4950 8300 4900
 Wire Wire Line
 	8100 4900 8100 5000
+Text Notes 8350 3850 0    60   ~ 0
+Input pins are\ninterchangeable
+Text Notes 6300 1850 0    60   ~ 0
+Input pins are\ninterchangeable
 $EndSCHEMATC
