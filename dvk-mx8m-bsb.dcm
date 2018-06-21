@@ -40,6 +40,11 @@ D Dual And2
 K TTL and2
 $ENDCMP
 #
+$CMP 74LVC1G08
+D Single And2
+K TTL and2
+$ENDCMP
+#
 $CMP 74LVC1G32
 D Single Or 2 inputs
 K TTL Or2

@@ -237,20 +237,19 @@ F5 "GP_LED1" I R 1450 8750 60
 F6 "SYS_~RST" O R 1450 8600 60 
 $EndSheet
 $Sheet
-S 13000 3700 1050 2200
+S 13000 3950 1050 1950
 U 5ACD5EDE
-F0 "WWAN M.2" 60
-F1 "wwan_m2.sch" 60
-F2 "~WoWWAN" O R 14050 3800 60 
+F0 "WWAN mPCIe" 60
+F1 "wwan_mpcie.sch" 60
+F2 "~WoWWAN" O R 14050 4050 60 
 F3 "WWAN_DP" B L 13000 5700 60 
 F4 "WWAN_DN" B L 13000 5800 60 
-F5 "~W_DISABLE1" I R 14050 4050 60 
-F6 "~RESET" I R 14050 4300 60 
+F5 "~W_DISABLE1" I R 14050 4300 60 
+F6 "~RESET" I R 14050 4550 60 
 F7 "PCM_SYNC/I2S_FSC" B R 14050 5050 60 
 F8 "PCM_CLK/I2S_SCK" B R 14050 4800 60 
 F9 "PCM_IN/I2S_IN" I R 14050 5300 60 
 F10 "PCM_OUT/I2S_OUT" O R 14050 5550 60 
-F11 "DPR" I R 14050 4550 60 
 $EndSheet
 $Sheet
 S 11350 3700 1100 900 
@@ -369,11 +368,11 @@ Text Label 8250 4350 0    60   ~ 0
 SAI1_RXD2(GPIO4_IO04)
 Text Label 8250 4000 0    60   ~ 0
 SAI1_RXD4(GPIO4_IO06)
-Text Label 8250 7200 0    60   ~ 0
+Text Label 8250 7150 0    60   ~ 0
 SAI1_TXD1(GPIO4_IO13)
-Text Label 8250 6700 0    60   ~ 0
+Text Label 8250 6650 0    60   ~ 0
 SAI1_RXD5(GPIO4_IO07)
-Text Label 8250 7600 0    60   ~ 0
+Text Label 8250 7550 0    60   ~ 0
 SAI1_TXD3(GPIO4_IO15)
 Text Label 8250 4100 0    60   ~ 0
 SAI1_RXD3(GPIO4_IO05)
@@ -381,19 +380,19 @@ Text Label 8250 4650 0    60   ~ 0
 SAI1_RXD6(GPIO4_IO08)
 Text Label 10450 5300 3    60   ~ 0
 SAI1_RXD7(GPIO4_IO09)
-Text Label 8250 6850 0    60   ~ 0
+Text Label 8250 6800 0    60   ~ 0
 SAI1_TXD0(GPIO4_IO12)
-Text Label 8250 7700 0    60   ~ 0
+Text Label 8250 7650 0    60   ~ 0
 SAI1_TXD4(GPIO4_IO16)
-Text Label 8250 7850 0    60   ~ 0
+Text Label 8250 7800 0    60   ~ 0
 SAI1_TXD7(GPIO4_IO19)
 Text Label 2550 8450 2    60   ~ 0
 ONOFF
-Text Label 8250 6950 0    60   ~ 0
+Text Label 8250 6900 0    60   ~ 0
 ONOFF
-Text Label 8250 7500 0    60   ~ 0
+Text Label 8250 7450 0    60   ~ 0
 I2C1_SDA
-Text Label 8250 7400 0    60   ~ 0
+Text Label 8250 7350 0    60   ~ 0
 I2C1_SCL
 Text Label 8250 2300 0    60   ~ 0
 DSI_BL_PWM
@@ -401,15 +400,13 @@ Text Label 2550 7650 2    60   ~ 0
 CAPTOUCH_~INT
 Text Label 2550 7750 2    60   ~ 0
 SAI1_RXD3(GPIO4_IO05)
-Text Label 15150 4550 2    60   ~ 0
-DPR
-Text Label 15150 4050 2    60   ~ 0
-~WWAN_DISABLE
 Text Label 15150 4300 2    60   ~ 0
+~WWAN_DISABLE
+Text Label 15150 4550 2    60   ~ 0
 WWAN_~RESET
-Text Notes 15150 4150 2    60   ~ 0
+Text Notes 15150 4400 2    60   ~ 0
 GPIO3_IO04
-Text Label 15150 3800 2    60   ~ 0
+Text Label 15150 4050 2    60   ~ 0
 ~WoWWAN
 Text Label 8250 3450 0    60   ~ 0
 HP_DET
@@ -485,7 +482,7 @@ Text Label 11300 4100 2    60   ~ 0
 BTN2
 Text Label 2550 8600 2    60   ~ 0
 SYS_~RST
-Text Label 8250 7300 0    60   ~ 0
+Text Label 8250 7250 0    60   ~ 0
 SYS_~RST
 $Comp
 L TEST_1P TP101
@@ -710,14 +707,14 @@ F 3 "" H 7900 9850 50  0001 C CNN
 	1    7900 9850
 	1    0    0    -1  
 $EndComp
-Text Label 8250 6600 0    60   ~ 0
+Text Label 8250 6550 0    60   ~ 0
 HAPTIC
 Text Label 7450 10650 2    60   ~ 0
 HAPTIC
 Text Notes 15200 1150 0    60   ~ 12
 Alternate \nFunctions:
 Text Notes 4000 9550 0    60   ~ 0
-Spare GPIO:\nGPIO1_IO05 (was CSI_P2_PWDN)\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
+Spare GPIO:\nGPIO1_IO05 (was CSI_P2_PWDN)\nGPIO5_IO03 (was PWM3)\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
 Text Label 8250 3600 0    60   ~ 0
 PROX_~INT
 Text Notes 4000 10600 0    60   ~ 0
@@ -898,13 +895,9 @@ Text Label 7450 10050 2    60   ~ 0
 UART3_RXD
 Text Label 7450 10150 2    60   ~ 0
 UART3_TXD
-Text Notes 15175 4650 2    60   ~ 0
-GPIO5_IO03 (was PWM3)
-Text Label 8250 6500 0    60   ~ 0
-DPR
-Text Notes 15150 3900 2    60   ~ 0
+Text Notes 15150 4150 2    60   ~ 0
 GPIO3_IO08
-Text Notes 15150 4400 2    60   ~ 0
+Text Notes 15150 4650 2    60   ~ 0
 GPIO3_IO09
 Text Label 10650 6700 2    60   ~ 0
 ~IRQ
@@ -922,7 +915,7 @@ Text Label 6950 3450 2    60   ~ 0
 WLAN_DN
 Text Label 7700 1650 0    60   ~ 0
 POR_B
-Text Label 8250 8250 0    60   ~ 0
+Text Label 8250 8200 0    60   ~ 0
 POR_B
 Text Label 8250 4550 0    60   ~ 0
 SAI2_RXD
@@ -994,9 +987,9 @@ F 3 "" H 15800 8850 50  0001 C CNN
 $EndComp
 Text Label 10750 5050 0    60   ~ 0
 ECSPI1_MOSI
-Text Label 8250 9050 0    60   ~ 0
+Text Label 8250 9000 0    60   ~ 0
 ECSPI1_MISO
-Text Label 8250 8700 0    60   ~ 0
+Text Label 8250 8650 0    60   ~ 0
 ECSPI1_MOSI
 Text Label 4700 3850 2    60   ~ 0
 ~WWAN_DISABLE
@@ -1030,9 +1023,9 @@ Text Label 6950 3800 2    60   ~ 0
 UART4_RTS
 Text Label 6950 3900 2    60   ~ 0
 UART4_CTS
-Text Label 8250 9150 0    60   ~ 0
+Text Label 8250 9100 0    60   ~ 0
 UART4_RTS
-Text Label 8250 8800 0    60   ~ 0
+Text Label 8250 8750 0    60   ~ 0
 UART4_CTS
 Text Label 10850 7450 2    60   ~ 0
 UART4_RXD
@@ -1040,17 +1033,17 @@ Text Label 6950 4050 2    60   ~ 0
 ~WIFI_DISABLE
 Text Label 6950 4150 2    60   ~ 0
 ~BT_DISABLE
-Text Label 8250 8050 0    60   ~ 0
+Text Label 8250 8000 0    60   ~ 0
 ~BT_DISABLE
-Text Label 8250 8900 0    60   ~ 0
+Text Label 8250 8850 0    60   ~ 0
 UART3_RXD
-Text Label 8250 8150 0    60   ~ 0
+Text Label 8250 8100 0    60   ~ 0
 SAI1_TXD5(GPIO4_IO17)
-Text Label 8250 8500 0    60   ~ 0
+Text Label 8250 8450 0    60   ~ 0
 SAI1_TXD2(GPIO4_IO14)
-Text Label 8250 8600 0    60   ~ 0
+Text Label 8250 8550 0    60   ~ 0
 SAI1_TXD6(GPIO4_IO18)
-Text Label 8250 7950 0    60   ~ 0
+Text Label 8250 7900 0    60   ~ 0
 UART3_TXD
 Text Label 2000 3600 2    60   ~ 0
 IMU_INT
@@ -1074,7 +1067,7 @@ Text Label 6950 2200 2    60   ~ 0
 ENET_~INT
 Text Label 10850 7000 2    60   ~ 0
 UART4_TXD
-Text Label 8250 7050 0    60   ~ 0
+Text Label 8250 7000 0    60   ~ 0
 I2C2_SDA
 $Comp
 L 3V3_OUT #PWR016
@@ -1181,7 +1174,7 @@ NoConn ~ 8100 7000
 NoConn ~ 8100 7100
 NoConn ~ 8100 7200
 NoConn ~ 8100 7300
-NoConn ~ 8100 7400
+NoConn ~ 8100 6500
 NoConn ~ 8100 7550
 NoConn ~ 8100 7650
 NoConn ~ 8100 7750
@@ -1207,7 +1200,7 @@ Text Notes 1500 5050 0    60   ~ 0
 GPIO1_IO12\n(was IR_CAP)
 Text Notes 1500 3500 0    60   ~ 0
 GPIO3_IO19\n(was LED1)
-Text Notes 8600 6600 0    60   ~ 0
+Text Notes 8600 6550 0    60   ~ 0
 GPIO5_IO04
 Text Notes 8030 7532 0    39   ~ 0
 PWM4
@@ -1583,7 +1576,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 5250 6300 5300
 Wire Wire Line
-	9350 7050 8250 7050
+	9350 7000 8250 7000
 Wire Wire Line
 	6300 4400 7800 4400
 Wire Wire Line
@@ -1627,7 +1620,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 9600 6900 9600
 Wire Wire Line
-	8200 8400 8200 9500
+	8200 8350 8200 9500
 Wire Wire Line
 	10250 6550 10650 6550
 Wire Wire Line
@@ -1994,19 +1987,19 @@ Wire Wire Line
 Wire Wire Line
 	1450 1150 2850 1150
 Wire Wire Line
-	8250 7950 9350 7950
+	8250 7900 9350 7900
 Wire Wire Line
-	9350 8600 8250 8600
+	9350 8550 8250 8550
 Wire Wire Line
-	9350 8500 8250 8500
+	9350 8450 8250 8450
 Wire Wire Line
-	8200 8400 9350 8400
+	8200 8350 9350 8350
 Wire Wire Line
-	9350 8150 8250 8150
+	9350 8100 8250 8100
 Wire Wire Line
-	9350 8900 8250 8900
+	9350 8850 8250 8850
 Wire Wire Line
-	9350 8050 8250 8050
+	9350 8000 8250 8000
 Wire Wire Line
 	6300 4150 6950 4150
 Wire Wire Line
@@ -2014,9 +2007,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 8150 11350 8150
 Wire Wire Line
-	9350 8800 8250 8800
+	9350 8750 8250 8750
 Wire Wire Line
-	9350 9150 8250 9150
+	9350 9100 8250 9100
 Wire Wire Line
 	6300 3900 6950 3900
 Wire Wire Line
@@ -2054,9 +2047,9 @@ Wire Wire Line
 Wire Wire Line
 	10700 6850 10250 6850
 Wire Wire Line
-	9350 8700 8250 8700
+	9350 8650 8250 8650
 Wire Wire Line
-	9350 9050 8250 9050
+	9350 9000 8250 9000
 Wire Wire Line
 	10950 5150 11350 5150
 Wire Wire Line
@@ -2110,7 +2103,7 @@ Wire Wire Line
 Wire Wire Line
 	12450 6050 12950 6050
 Wire Wire Line
-	8250 8250 9350 8250
+	8250 8200 9350 8200
 Wire Wire Line
 	8050 1650 7700 1650
 Wire Wire Line
@@ -2208,11 +2201,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 4650 8250 4650
 Wire Wire Line
-	9350 6850 8250 6850
+	9350 6800 8250 6800
 Wire Wire Line
-	9350 7700 8250 7700
+	9350 7650 8250 7650
 Wire Wire Line
-	9350 7850 8250 7850
+	9350 7800 8250 7800
 Wire Wire Line
 	10250 3150 11300 3150
 Wire Wire Line
@@ -2222,11 +2215,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 4000 8250 4000
 Wire Wire Line
-	9350 7200 8250 7200
+	9350 7150 8250 7150
 Wire Wire Line
-	9350 6700 8250 6700
+	9350 6650 8250 6650
 Wire Wire Line
-	9350 7600 8250 7600
+	9350 7550 8250 7550
 Wire Wire Line
 	1450 8200 2550 8200
 Wire Wire Line
@@ -2236,11 +2229,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 8750 2550 8750
 Wire Wire Line
-	9350 6950 8250 6950
+	9350 6900 8250 6900
 Wire Wire Line
-	9350 7500 8250 7500
+	9350 7450 8250 7450
 Wire Wire Line
-	9350 7400 8250 7400
+	9350 7350 8250 7350
 Wire Wire Line
 	1450 7650 2550 7650
 Wire Wire Line
@@ -2248,9 +2241,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 2300 8250 2300
 Wire Wire Line
-	14050 4550 15150 4550
-Wire Wire Line
-	14050 3800 15150 3800
+	14050 4050 15150 4050
 Wire Wire Line
 	14050 4800 15150 4800
 Wire Wire Line
@@ -2260,9 +2251,9 @@ Wire Wire Line
 Wire Wire Line
 	14050 5550 15150 5550
 Wire Wire Line
-	14050 4050 15150 4050
-Wire Wire Line
 	14050 4300 15150 4300
+Wire Wire Line
+	14050 4550 15150 4550
 Wire Wire Line
 	9350 3450 8250 3450
 Wire Wire Line
@@ -2274,7 +2265,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 8600 2550 8600
 Wire Wire Line
-	9350 7300 8250 7300
+	9350 7250 8250 7250
 Wire Wire Line
 	8200 2400 9350 2400
 Wire Wire Line
@@ -2300,9 +2291,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 3800 8250 3800
 Wire Wire Line
-	9350 6500 8250 6500
-Wire Wire Line
-	9350 6600 8250 6600
+	9350 6550 8250 6550
 Wire Wire Line
 	10250 6700 10650 6700
 Wire Wire Line
@@ -2361,7 +2350,7 @@ Wire Wire Line
 	10250 7700 11350 7700
 Wire Wire Line
 	14650 7850 14650 8150
-Text Label 8250 8400 0    60   ~ 0
+Text Label 8250 8350 0    60   ~ 0
 UART1_RXD
 Text Label 8250 9600 0    60   ~ 0
 UART1_TXD
@@ -2392,52 +2381,6 @@ Wire Wire Line
 	7150 5150 7150 5100
 Wire Wire Line
 	7450 5250 7450 5300
-$Comp
-L IMX8M-SOM1 P1
-U 1 1 5B6A6CBA
-P 6550 5750
-F 0 "P1" H 3300 10550 50  0000 C CNN
-F 1 "IMX8M-SOM1" H 3300 10450 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Master" H 3100 9250 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DF40/category/Catalog/doc_file_id/31649/?file_category_id=4&item_id=22&is_series=1" H 3100 9250 50  0001 C CNN
-F 4 "DF40HC(4.0)-80DS-0.4V(51)" H 6550 5750 60  0001 C CNN "MFG Part Num"
-F 5 "MFG Name" H 6550 5750 60  0001 C CNN "Hirose"
-	1    6550 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L IMX8M-SOM2 P2
-U 1 1 5B6A8923
-P 6550 5600
-F 0 "P2" H 3300 5000 60  0000 C CNN
-F 1 "IMX8M-SOM2" H 3300 4900 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" V 6050 3550 60  0001 C CNN
-F 3 "" V 6050 3550 60  0001 C CNN
-	1    6550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L IMX8M-SOM3 P3
-U 1 1 5B6A8EA0
-P 6550 5500
-F 0 "P3" H 9800 10050 60  0000 C CNN
-F 1 "IMX8M-SOM3" H 9800 9950 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" H 9750 7800 60  0001 C CNN
-F 3 "" H 9750 7800 60  0001 C CNN
-	1    6550 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L IMX8M-SOM4 P4
-U 1 1 5B6B03B3
-P 6550 5500
-F 0 "P4" H 9800 4800 60  0000 C CNN
-F 1 "IMX8M-SOM4" H 9800 4700 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" H 9850 2850 60  0001 C CNN
-F 3 "" H 9850 2850 60  0001 C CNN
-	1    6550 5500
-	1    0    0    -1  
-$EndComp
 Text Label 10850 7150 2    60   ~ 0
 ECSPI1_SCLK
 Text Label 10850 7300 2    60   ~ 0
@@ -2454,11 +2397,60 @@ $Comp
 L EmC_SoM #MOD023
 U 1 1 5B2B79D3
 P 2000 9900
-F 0 "#MOD023" H 2000 10100 60  0000 C CNN
+F 0 "#MOD023" H 2000 10100 60  0001 C CNN
 F 1 "EmC_SoM" H 2000 10000 60  0000 C CNN
 F 2 "" H 2000 9800 60  0001 C CNN
 F 3 "https://emcraft.com/component/jdownloads/view.download/153/1141" H 2000 9800 60  0001 C CNN
 	1    2000 9900
+	1    0    0    -1  
+$EndComp
+Text Notes 8025 7425 0    39   ~ 0
+PWM3
+NoConn ~ 8100 7450
+$Comp
+L IMX8M-SOM1 P1
+U 1 1 5B3A3284
+P 6550 5750
+F 0 "P1" H 3300 10550 50  0000 C CNN
+F 1 "IMX8M-SOM1" H 3300 10450 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Master" H 3100 9250 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DF40/category/Catalog/doc_file_id/31649/?file_category_id=4&item_id=22&is_series=1" H 3100 9250 50  0001 C CNN
+F 4 "Hirose" H 6550 5750 60  0001 C CNN "MFG Name"
+F 5 "DF40HC(4.0)-80DS-0.4V(51)" H 6550 5750 60  0001 C CNN "MFG Part Num"
+	1    6550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IMX8M-SOM2 P2
+U 1 1 5B3A3F36
+P 6550 5600
+F 0 "P2" H 3300 5000 60  0000 C CNN
+F 1 "IMX8M-SOM2" H 3300 4900 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" V 6050 3550 60  0001 C CNN
+F 3 "" V 6050 3550 60  0001 C CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L IMX8M-SOM3 P3
+U 1 1 5B3A4485
+P 6550 5500
+F 0 "P3" H 9800 10050 60  0000 C CNN
+F 1 "IMX8M-SOM3" H 9800 9950 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" H 9750 7800 60  0001 C CNN
+F 3 "" H 9750 7800 60  0001 C CNN
+	1    6550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IMX8M-SOM4 P4
+U 1 1 5B3A49E4
+P 6550 5500
+F 0 "P4" H 9800 4800 60  0000 C CNN
+F 1 "IMX8M-SOM4" H 9800 4700 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" H 9850 2850 60  0001 C CNN
+F 3 "" H 9850 2850 60  0001 C CNN
+	1    6550 5500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

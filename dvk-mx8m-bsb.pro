@@ -1,4 +1,4 @@
-update=Di 19 Jun 2018 14:44:55 CEST
+update=Thu 21 Jun 2018 02:47:16 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -14,8 +14,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=purism_portrait.kicad_wks
@@ -72,3 +70,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=dvk-mx8m-bsb
+[general]
+version=1
