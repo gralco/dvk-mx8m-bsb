@@ -1821,9 +1821,9 @@ L Antenna AE1801
 U 1 1 5B1205E3
 P 1700 1800
 F 0 "AE1801" H 1625 1850 50  0000 R CNN
-F 1 "Antenna" H 1625 1775 50  0000 R CNN
+F 1 "FR05-S1-NO-1-004" H 1625 1775 50  0000 R CNN
 F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 1700 1800 50  0001 C CNN
-F 3 "" H 1700 1800 50  0001 C CNN
+F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1700 1800 50  0001 C CNN
 	1    1700 1800
 	1    0    0    -1  
 $EndComp
@@ -1849,9 +1849,9 @@ L Antenna AE1802
 U 1 1 5B1206BA
 P 1700 2650
 F 0 "AE1802" H 1625 2700 50  0000 R CNN
-F 1 "Antenna" H 1625 2625 50  0000 R CNN
+F 1 "FR05-S1-NO-1-004" H 1625 2625 50  0000 R CNN
 F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 1700 2650 50  0001 C CNN
-F 3 "" H 1700 2650 50  0001 C CNN
+F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1700 2650 50  0001 C CNN
 	1    1700 2650
 	1    0    0    -1  
 $EndComp
