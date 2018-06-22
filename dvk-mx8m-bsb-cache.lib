@@ -556,6 +556,20 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Coax_cable_ufl_ufl
+#
+DEF Coax_cable_ufl_ufl CBL 0 40 Y Y 1 F N
+F0 "CBL" -475 125 60 H V C CNN
+F1 "Coax_cable_ufl_ufl" 200 125 60 H V C CNN
+F2 "" 200 0 60 H I C CNN
+F3 "" 200 0 60 H I C CNN
+DRAW
+T 0 -775 0 60 0 0 0 u.FL Normal 0 C C
+T 0 775 0 60 0 0 0 u.FL Normal 0 C C
+P 9 0 0 0 -875 175 -875 -50 -675 -50 -675 75 675 75 675 -50 875 -50 875 175 -875 175 f
+ENDDRAW
+ENDDEF
+#
 # Conn_01x02
 #
 DEF Conn_01x02 J 0 40 Y N 1 F N
@@ -997,7 +1011,7 @@ ENDDEF
 #
 # EmC_SoM
 #
-DEF EmC_SoM MOD 0 0 N N 1 F P
+DEF EmC_SoM MOD 0 0 N N 1 F N
 F0 "MOD" 0 200 60 H V C CNN
 F1 "EmC_SoM" 0 100 60 H V C CNN
 F2 "" 0 -100 60 H I C CNN

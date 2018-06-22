@@ -141,7 +141,7 @@ Text Notes 8550 1800 0    60   ~ 0
 6.2 M.2 Signal Directions
 $Bitmap
 Pos 9300 2400
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 9A 00 00 00 E2 08 02 00 00 00 F8 62 96 
 2C 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
@@ -1806,59 +1806,59 @@ NoConn ~ 19750 8050
 $Comp
 L GND #PWR0335
 U 1 1 5B1205DC
-P 1900 2300
-F 0 "#PWR0335" H 1900 2050 50  0001 C CNN
-F 1 "GND" H 1900 2150 50  0000 C CNN
-F 2 "" H 1900 2300 50  0001 C CNN
-F 3 "" H 1900 2300 50  0001 C CNN
-	1    1900 2300
+P 1900 3700
+F 0 "#PWR0335" H 1900 3450 50  0001 C CNN
+F 1 "GND" H 1900 3550 50  0000 C CNN
+F 2 "" H 1900 3700 50  0001 C CNN
+F 3 "" H 1900 3700 50  0001 C CNN
+	1    1900 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 2250 1900 2300
+	1900 3650 1900 3700
 $Comp
 L Antenna AE1801
 U 1 1 5B1205E3
-P 1700 1800
-F 0 "AE1801" H 1625 1850 50  0000 R CNN
-F 1 "FR05-S1-NO-1-004" H 1625 1775 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 1700 1800 50  0001 C CNN
-F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1700 1800 50  0001 C CNN
-	1    1700 1800
+P 1550 3200
+F 0 "AE1801" H 1475 3250 50  0000 R CNN
+F 1 "FR05-S1-NO-1-004" H 1475 3175 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 1550 3200 50  0001 C CNN
+F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1550 3200 50  0001 C CNN
+	1    1550 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2050 1700 2050
+	1750 3450 1550 3450
 Wire Wire Line
-	1700 2050 1700 2000
+	1550 3450 1550 3400
 $Comp
 L GND #PWR0336
 U 1 1 5B1206B3
-P 1900 3150
-F 0 "#PWR0336" H 1900 2900 50  0001 C CNN
-F 1 "GND" H 1900 3000 50  0000 C CNN
-F 2 "" H 1900 3150 50  0001 C CNN
-F 3 "" H 1900 3150 50  0001 C CNN
-	1    1900 3150
+P 1900 5150
+F 0 "#PWR0336" H 1900 4900 50  0001 C CNN
+F 1 "GND" H 1900 5000 50  0000 C CNN
+F 2 "" H 1900 5150 50  0001 C CNN
+F 3 "" H 1900 5150 50  0001 C CNN
+	1    1900 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3100 1900 3150
+	1900 5100 1900 5150
 $Comp
 L Antenna AE1802
 U 1 1 5B1206BA
-P 1700 2650
-F 0 "AE1802" H 1625 2700 50  0000 R CNN
-F 1 "FR05-S1-NO-1-004" H 1625 2625 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 1700 2650 50  0001 C CNN
-F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1700 2650 50  0001 C CNN
-	1    1700 2650
+P 1550 4650
+F 0 "AE1802" H 1475 4700 50  0000 R CNN
+F 1 "FR05-S1-NO-1-004" H 1475 4625 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 1550 4650 50  0001 C CNN
+F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1550 4650 50  0001 C CNN
+	1    1550 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2900 1700 2900
+	1750 4900 1550 4900
 Wire Wire Line
-	1700 2900 1700 2850
+	1550 4900 1550 4850
 Text Notes 1000 7300 0    60   ~ 0
 RS9116 does not\nuse RTX & CTS
 $Comp
@@ -1963,25 +1963,25 @@ Connection ~ 6800 1400
 Wire Wire Line
 	6550 1400 6550 1300
 Wire Wire Line
-	8050 1000 8050 950 
+	8050 950  8050 1000
 Connection ~ 8050 950 
 Wire Wire Line
-	7800 1000 7800 950 
+	7800 950  7800 1000
 Connection ~ 7800 950 
 Wire Wire Line
-	7550 1000 7550 950 
+	7550 950  7550 1000
 Connection ~ 7550 950 
 Wire Wire Line
-	7300 1000 7300 950 
+	7300 950  7300 1000
 Connection ~ 7300 950 
 Wire Wire Line
-	7050 1000 7050 950 
+	7050 950  7050 1000
 Connection ~ 7050 950 
 Wire Wire Line
-	6800 1000 6800 950 
+	6800 950  6800 1000
 Connection ~ 6800 950 
 Wire Wire Line
-	6550 1000 6550 950 
+	6550 950  6550 1000
 Connection ~ 6550 950 
 Connection ~ 8300 1400
 Wire Wire Line
@@ -1994,18 +1994,18 @@ M.2 Key E
 $Comp
 L Conn_Coaxial J1801
 U 1 1 5B6AA251
-P 1900 2050
-F 0 "J1801" H 1910 2170 50  0000 C CNN
-F 1 "u.FL" H 2100 2050 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1900 2050 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1900 2050 50  0001 C CNN
-F 4 "Linx" H 1900 2050 60  0001 C CNN "MFG Name"
-F 5 "CONUFL001-SMD-T" H 1900 2050 60  0001 C CNN "MFG Part Num"
-F 6 "712-CONUFL001-SMD-T" H 1900 2050 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1900 2050 60  0001 C CNN "Distrib Link"
-F 8 "-" H 1900 2050 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1900 2050 60  0001 C CNN "Others"
-	1    1900 2050
+P 1900 3450
+F 0 "J1801" H 1910 3570 50  0000 C CNN
+F 1 "u.FL" H 2100 3450 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1900 3450 50  0001 C CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1900 3450 50  0001 C CNN
+F 4 "Linx" H 1900 3450 60  0001 C CNN "MFG Name"
+F 5 "CONUFL001-SMD-T" H 1900 3450 60  0001 C CNN "MFG Part Num"
+F 6 "712-CONUFL001-SMD-T" H 1900 3450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1900 3450 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1900 3450 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1900 3450 60  0001 C CNN "Others"
+	1    1900 3450
 	1    0    0    -1  
 $EndComp
 Text Notes 8250 3350 0    60   ~ 0
@@ -2070,18 +2070,18 @@ $EndComp
 $Comp
 L Conn_Coaxial J1802
 U 1 1 5B29F847
-P 1900 2900
-F 0 "J1802" H 1910 3020 50  0000 C CNN
-F 1 "u.FL" H 2100 2900 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1900 2900 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1900 2900 50  0001 C CNN
-F 4 "Linx" H 1900 2900 60  0001 C CNN "MFG Name"
-F 5 "CONUFL001-SMD-T" H 1900 2900 60  0001 C CNN "MFG Part Num"
-F 6 "712-CONUFL001-SMD-T" H 1900 2900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1900 2900 60  0001 C CNN "Distrib Link"
-F 8 "-" H 1900 2900 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1900 2900 60  0001 C CNN "Others"
-	1    1900 2900
+P 1900 4900
+F 0 "J1802" H 1910 5020 50  0000 C CNN
+F 1 "u.FL" H 2100 4900 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1900 4900 50  0001 C CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1900 4900 50  0001 C CNN
+F 4 "Linx" H 1900 4900 60  0001 C CNN "MFG Name"
+F 5 "CONUFL001-SMD-T" H 1900 4900 60  0001 C CNN "MFG Part Num"
+F 6 "712-CONUFL001-SMD-T" H 1900 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1900 4900 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1900 4900 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1900 4900 60  0001 C CNN "Others"
+	1    1900 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2104,12 +2104,12 @@ $EndComp
 $Comp
 L WifiBTCard MOD1801
 U 1 1 5B2AC34E
-P 3350 4100
-F 0 "MOD1801" H 3350 4450 60  0000 C CNN
-F 1 "WifiBTCard" H 3350 4350 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:M2Card_E_2230" H 3350 4050 60  0001 C CNN
-F 3 "http://www.redpinesignals.com/pdfs/RS9116_Connectivity_Product_Brief.pdf" H 3350 4050 60  0001 C CNN
-	1    3350 4100
+P 4000 3850
+F 0 "MOD1801" H 4000 4200 60  0000 C CNN
+F 1 "WifiBTCard" H 4000 4100 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:M2Card_E_2230" H 4000 3800 60  0001 C CNN
+F 3 "http://www.redpinesignals.com/pdfs/RS9116_Connectivity_Product_Brief.pdf" H 4000 3800 60  0001 C CNN
+	1    4000 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2127,6 +2127,28 @@ F 7 "https://www.tme.eu/en/details/eeefpa221xap/smd-low-imp-electrolytic-capacit
 F 8 "20%" H 8300 1150 60  0001 C CNN "Tolerance"
 F 9 "http://uk.farnell.com/panasonic-electronic-components/eeefpa221xap/cap-alu-elec-220uf-10v-smd/dp/1539464" H 8300 1150 60  0001 C CNN "Others"
 	1    8300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Coax_cable_ufl_ufl CBL1801
+U 1 1 5B2D8415
+P 2700 3150
+F 0 "CBL1801" H 2025 3275 60  0000 C CNN
+F 1 "Coax_cable_ufl_ufl" H 2900 3275 60  0000 C CNN
+F 2 "" H 2700 3150 60  0001 C CNN
+F 3 "" H 2700 3150 60  0001 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Coax_cable_ufl_ufl CBL1802
+U 1 1 5B2D8870
+P 2700 4600
+F 0 "CBL1802" H 2025 4725 60  0000 C CNN
+F 1 "Coax_cable_ufl_ufl" H 2900 4725 60  0000 C CNN
+F 2 "" H 2700 4600 60  0001 C CNN
+F 3 "" H 2700 4600 60  0001 C CNN
+	1    2700 4600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
