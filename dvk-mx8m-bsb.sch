@@ -2393,17 +2393,6 @@ Wire Wire Line
 	3750 6650 4400 6650
 Wire Wire Line
 	3750 6750 4400 6750
-$Comp
-L EmC_SoM #MOD023
-U 1 1 5B2B79D3
-P 1650 10000
-F 0 "#MOD023" H 1650 10200 60  0001 C CNN
-F 1 "EmC_SoM" H 1650 10100 60  0000 C CNN
-F 2 "" H 1650 9900 60  0001 C CNN
-F 3 "https://emcraft.com/component/jdownloads/view.download/153/1141" H 1650 9900 60  0001 C CNN
-	1    1650 10000
-	1    0    0    -1  
-$EndComp
 Text Notes 8025 7425 0    39   ~ 0
 PWM3
 NoConn ~ 8100 7450
@@ -2413,7 +2402,7 @@ U 1 1 5B3A3284
 P 6550 5750
 F 0 "P1" H 3300 10550 50  0000 C CNN
 F 1 "IMX8M-SOM1" H 3300 10450 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Master" H 3100 9250 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Connector" H 3100 9250 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DF40/category/Catalog/doc_file_id/31649/?file_category_id=4&item_id=22&is_series=1" H 3100 9250 50  0001 C CNN
 F 4 "Hirose" H 6550 5750 60  0001 C CNN "MFG Name"
 F 5 "DF40HC(4.0)-80DS-0.4V(51)" H 6550 5750 60  0001 C CNN "MFG Part Num"
@@ -2426,7 +2415,7 @@ U 1 1 5B3A3F36
 P 6550 5600
 F 0 "P2" H 3300 5000 60  0000 C CNN
 F 1 "IMX8M-SOM2" H 3300 4900 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" V 6050 3550 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Connector" V 6050 3550 60  0001 C CNN
 F 3 "" V 6050 3550 60  0001 C CNN
 	1    6550 5600
 	1    0    0    -1  
@@ -2437,7 +2426,7 @@ U 1 1 5B3A4485
 P 6550 5500
 F 0 "P3" H 9800 10050 60  0000 C CNN
 F 1 "IMX8M-SOM3" H 9800 9950 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" H 9750 7800 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Connector" H 9750 7800 60  0001 C CNN
 F 3 "" H 9750 7800 60  0001 C CNN
 	1    6550 5500
 	1    0    0    -1  
@@ -2448,7 +2437,7 @@ U 1 1 5B3A49E4
 P 6550 5500
 F 0 "P4" H 9800 4800 60  0000 C CNN
 F 1 "IMX8M-SOM4" H 9800 4700 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Slave" H 9850 2850 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Connector" H 9850 2850 60  0001 C CNN
 F 3 "" H 9850 2850 60  0001 C CNN
 	1    6550 5500
 	1    0    0    -1  
@@ -2580,6 +2569,17 @@ F 1 "Fiducial" H 1300 10800 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:Fiducial" H 1300 10700 60  0001 C CNN
 F 3 "" H 1300 10700 60  0001 C CNN
 	1    1300 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EmC_SoM MOD101
+U 1 1 5B2D28EC
+P 1650 10000
+F 0 "MOD101" H 1650 10200 60  0000 C CNN
+F 1 "EmC_SoM" H 1650 10100 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Outline" H 1650 9900 60  0001 C CNN
+F 3 "https://emcraft.com/component/jdownloads/view.download/153/1141" H 1650 9900 60  0001 C CNN
+	1    1650 10000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

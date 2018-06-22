@@ -1,6 +1,6 @@
-(module EmCr_SOM_IMX8M_Slave (layer F.Cu) (tedit 5B23E27D)
+(module EmCr_SOM_IMX8M_Connector (layer F.Cu) (tedit 5B2CFF47)
   (attr smd)
-  (fp_text reference EmCr_SOM_IMX8M_Slave (at 0 -2.77) (layer F.SilkS)
+  (fp_text reference EmCr_SOM_IMX8M_Connector (at 0 -2.77) (layer F.SilkS)
     (effects (font (size 0.481943 0.481943) (thickness 0.05)))
   )
   (fp_text value VAL** (at 0 2.9 180) (layer F.SilkS)
