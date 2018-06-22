@@ -51,7 +51,7 @@ Text Notes 1050 950  0    60   ~ 0
 Using Internal DVDD 1.5V Regulator:
 $Bitmap
 Pos 2000 1200
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 39 00 00 00 65 08 02 00 00 00 E1 D4 BA 
 5F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C ED DD 67 40 13 49 
@@ -591,7 +591,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 2050 1950
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 A9 00 00 02 51 08 02 00 00 00 28 0B 66 
 24 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 75 5C 14 4B 
@@ -2857,7 +2857,7 @@ Text Notes 500  5150 0    60   ~ 0
 2.7 POWER UP SEQUENCE\nBased on the system power configuration (1.8V or 2.8V for I/O power, using external\nDVDD or internal DVDD, requiring access to the I2C during power up period or not),\nthe power up sequence will differ. If 1.8V is used for I/O power, using the internal\nDVDD is preferred. If 2.8V is used for I/O power, due to a high voltage drop at the\ninternal DVDD regulator, there is a potential heat issue. Hence, for a 2.8V power\nsystem, OmniVision recommends using an external DVDD source. Due to the higher power\ndown current when using an external DVDD source, OmniVision strongly recommends\ncutting off all powers, including the external DVDD, when the sensor is not in use\nin the case of 2.8V I/O and external\nDVDD.\n2.7.1 POWER UP WITH INTERNAL DVDD\nFor powering up with the internal DVDD and I2C access during the power ON period, the\nfollowing conditions must occur:\n1. when DOVDD and AVDD are turned ON, make sure DOVDD becomes stable before AVDD becomes stable\n2. PWDN is active high with an asynchronized design (does not need clock)\n3. PWDN pin tied to digital ground if it is not controlled.\n4. if PWDN pin is controlled as below, for PWDN to go low, power must first become stable\n(AVDD to PWDN ≥ 5 ms)\n5. RESETB is active low with an asynchronized design\n6. master clock XVCLK should provide at least 1 ms before host accesses the sensor’s registers\n7. host can access I2C bus (if shared) during entire period. 20ms after RESETB goes high,\nhost can access the sensor's registers to initialize sensor
 $Bitmap
 Pos 2050 6450
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 7D 00 00 03 05 08 02 00 00 00 4F 99 08 
 42 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 67 58 14 57 
@@ -6199,10 +6199,10 @@ F 3 "" H 6400 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0195
+L GND #PWR0199
 U 1 1 5B1EAF19
 P 6800 4350
-F 0 "#PWR0195" H 6800 4100 50  0001 C CNN
+F 0 "#PWR0199" H 6800 4100 50  0001 C CNN
 F 1 "GND" H 6800 4200 50  0000 C CNN
 F 2 "" H 6800 4350 50  0001 C CNN
 F 3 "" H 6800 4350 50  0001 C CNN
@@ -6249,10 +6249,10 @@ F 3 "" H 6600 3950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L 1V8_P #PWR0196
+L 1V8_P #PWR0200
 U 1 1 5B1DBE6F
 P 6300 3450
-F 0 "#PWR0196" H 6300 3300 50  0001 C CNN
+F 0 "#PWR0200" H 6300 3300 50  0001 C CNN
 F 1 "1V8_P" H 6300 3590 50  0000 C CNN
 F 2 "" H 6300 3450 50  0001 C CNN
 F 3 "" H 6300 3450 50  0001 C CNN
@@ -6260,10 +6260,10 @@ F 3 "" H 6300 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0197
+L GND #PWR0201
 U 1 1 5B1A278C
 P 7650 3450
-F 0 "#PWR0197" H 7650 3200 50  0001 C CNN
+F 0 "#PWR0201" H 7650 3200 50  0001 C CNN
 F 1 "GND" H 7650 3300 50  0000 C CNN
 F 2 "" H 7650 3450 50  0001 C CNN
 F 3 "" H 7650 3450 50  0001 C CNN
@@ -6282,10 +6282,10 @@ F 3 "" H 7650 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0198
+L GND #PWR0202
 U 1 1 5B1964B5
 P 7800 4100
-F 0 "#PWR0198" H 7800 3850 50  0001 C CNN
+F 0 "#PWR0202" H 7800 3850 50  0001 C CNN
 F 1 "GND" H 7800 3950 50  0000 C CNN
 F 2 "" H 7800 4100 50  0001 C CNN
 F 3 "" H 7800 4100 50  0001 C CNN
@@ -6298,12 +6298,12 @@ U 1 1 5B196213
 P 8000 3850
 F 0 "U1301" H 8000 3900 50  0000 C CNN
 F 1 "74LVC1G32" H 8000 3800 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:74LVC1G32GW" H 8000 3850 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:74LVC1G32GF" H 8000 3850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G32_Q100.pdf" H 8000 3850 50  0001 C CNN
 F 4 "NXP" H 8000 3850 60  0001 C CNN "MFG Name"
-F 5 "74LVC1G32GW-Q100H" H 8000 3850 60  0001 C CNN "MFG Part Num"
-F 6 "771-74LVC1G32GWQ100H" H 8000 3850 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Nexperia/74LVC1G32GW-Q100H?qs=sGAEpiMZZMtMa9lbYwD6ZO2Xn%2ft0vS0wafWeV%2fAqid8%3d" H 8000 3850 60  0001 C CNN "Distrib Link"
+F 5 "74LVC1G32GF" H 8000 3850 60  0001 C CNN "MFG Part Num"
+F 6 "74LVC1G32GF/S505125" H 8000 3850 60  0001 C CNN "Distrib PN"
+F 7 "https://www.rocelec.com/part/nexnxp74lvc1g32gf-s505125" H 8000 3850 60  0001 C CNN "Distrib Link"
 F 8 "-" H 8000 3850 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-gates-and-inverters/705?FV=ffe002c1&quantity=&ColumnSort=1000011&page=1&k=1g32&pageSize=500" H 8000 3850 60  0001 C CNN "Others"
 	1    8000 3850
@@ -6337,10 +6337,10 @@ $EndComp
 Text HLabel 10750 3650 2    60   Input ~ 0
 CLKO1
 $Comp
-L 1V8_P #PWR0199
+L 1V8_P #PWR0203
 U 1 1 5B105CDE
 P 10350 3250
-F 0 "#PWR0199" H 10350 3100 50  0001 C CNN
+F 0 "#PWR0203" H 10350 3100 50  0001 C CNN
 F 1 "1V8_P" H 10350 3390 50  0000 C CNN
 F 2 "" H 10350 3250 50  0001 C CNN
 F 3 "" H 10350 3250 50  0001 C CNN
@@ -6411,10 +6411,10 @@ F 3 "" H 10000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0200
+L 1V8_P #PWR0204
 U 1 1 5B0F8E1D
 P 9800 2600
-F 0 "#PWR0200" H 9800 2450 50  0001 C CNN
+F 0 "#PWR0204" H 9800 2450 50  0001 C CNN
 F 1 "1V8_P" H 9800 2740 50  0000 C CNN
 F 2 "" H 9800 2600 50  0001 C CNN
 F 3 "" H 9800 2600 50  0001 C CNN
@@ -6446,10 +6446,10 @@ C0_N
 Text HLabel 9800 3450 2    60   Output ~ 0
 C0_P
 $Comp
-L 1V8_P #PWR0201
+L 1V8_P #PWR0205
 U 1 1 5B19049B
 P 7800 3000
-F 0 "#PWR0201" H 7800 2850 50  0001 C CNN
+F 0 "#PWR0205" H 7800 2850 50  0001 C CNN
 F 1 "1V8_P" H 7800 3140 50  0000 C CNN
 F 2 "" H 7800 3000 50  0001 C CNN
 F 3 "" H 7800 3000 50  0001 C CNN
@@ -6457,10 +6457,10 @@ F 3 "" H 7800 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2V8_P #PWR0202
+L 2V8_P #PWR0206
 U 1 1 5B2B0429
 P 8900 2600
-F 0 "#PWR0202" H 8900 2450 50  0001 C CNN
+F 0 "#PWR0206" H 8900 2450 50  0001 C CNN
 F 1 "2V8_P" H 8900 2740 50  0000 C CNN
 F 2 "" H 8900 2600 50  0001 C CNN
 F 3 "" H 8900 2600 50  0001 C CNN
@@ -6523,8 +6523,8 @@ $Comp
 L Conn_02x15_Counter_Clockwise J1301
 U 1 1 5B11E3C0
 P 9400 3350
-F 0 "J1301" H 9450 4150 50  0000 C CNN
-F 1 "OV5640" H 9450 2550 50  0000 C CNN
+F 0 "J1301" H 9450 4225 50  0000 C CNN
+F 1 "OV5640" H 9450 4150 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:Conn_Pan_AXT630124" H 9400 3350 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/cdn/e/control/connector/base-fpc/catalog/con_eng_f4s.pdf" H 9400 3350 50  0001 C CNN
 F 4 "Panasonic" H 9400 3350 60  0001 C CNN "MFG Name"
@@ -6538,10 +6538,10 @@ F 9 "https://octopart.com/search?q=AXT630124&start=0" H 9400 3350 60  0001 C CNN
 $EndComp
 NoConn ~ 9200 2650
 $Comp
-L GND #PWR0203
+L GND #PWR0207
 U 1 1 5B11F1A4
 P 9150 4100
-F 0 "#PWR0203" H 9150 3850 50  0001 C CNN
+F 0 "#PWR0207" H 9150 3850 50  0001 C CNN
 F 1 "GND" H 9150 3950 50  0000 C CNN
 F 2 "" H 9150 4100 50  0001 C CNN
 F 3 "" H 9150 4100 50  0001 C CNN
@@ -6550,10 +6550,10 @@ F 3 "" H 9150 4100 50  0001 C CNN
 $EndComp
 NoConn ~ 9200 3550
 $Comp
-L GND #PWR0204
+L GND #PWR0208
 U 1 1 5B11FD52
 P 9750 4100
-F 0 "#PWR0204" H 9750 3850 50  0001 C CNN
+F 0 "#PWR0208" H 9750 3850 50  0001 C CNN
 F 1 "GND" H 9750 3950 50  0000 C CNN
 F 2 "" H 9750 4100 50  0001 C CNN
 F 3 "" H 9750 4100 50  0001 C CNN
@@ -6729,10 +6729,10 @@ Wire Wire Line
 Wire Wire Line
 	9800 2600 9800 2850
 $Comp
-L GND #PWR0205
+L GND #PWR0209
 U 1 1 5B164232
 P 6400 4350
-F 0 "#PWR0205" H 6400 4100 50  0001 C CNN
+F 0 "#PWR0209" H 6400 4100 50  0001 C CNN
 F 1 "GND" H 6400 4200 50  0000 C CNN
 F 2 "" H 6400 4350 50  0001 C CNN
 F 3 "" H 6400 4350 50  0001 C CNN
@@ -6763,12 +6763,12 @@ Camera
 $Comp
 L OV5640_Camera CAM1301
 U 1 1 5B2ACE32
-P 6550 5700
-F 0 "CAM1301" H 6550 6150 60  0000 C CNN
-F 1 "OV5640_Camera" H 6550 5250 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Camera_CO8725-B5SA-E" H 10200 6050 60  0001 C CNN
-F 3 "http://www.trulyamerica.com/products/compact-camera-module/#" H 10200 6050 60  0001 C CNN
-	1    6550 5700
-	1    0    0    -1  
+P 8800 5850
+F 0 "CAM1301" H 8800 6300 60  0000 C CNN
+F 1 "OV5640_Camera" H 8800 5400 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Camera_CO8725-B5SA-E" H 12450 6200 60  0001 C CNN
+F 3 "http://www.trulyamerica.com/products/compact-camera-module/#" H 12450 6200 60  0001 C CNN
+	1    8800 5850
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

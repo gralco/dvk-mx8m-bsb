@@ -40,6 +40,11 @@ D Dual And2
 K TTL and2
 $ENDCMP
 #
+$CMP 74LVC1G08
+D Single And2
+K TTL and2
+$ENDCMP
+#
 $CMP 74LVC1G32
 D Single Or 2 inputs
 K TTL Or2
@@ -49,6 +54,11 @@ $CMP 74LVC1G332
 D 3-input OR Gate
 K 3 input OR
 F http://www.ti.com/lit/ds/symlink/sn74lvc1g332.pdf
+$ENDCMP
+#
+$CMP 74LVC1G86
+D Single Gate XOR 2 inputs
+K TTL XOR2
 $ENDCMP
 #
 $CMP 74LVC2G241
