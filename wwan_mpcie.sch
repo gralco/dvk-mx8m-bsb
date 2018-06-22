@@ -649,7 +649,7 @@ F 1 "MPCIE-Socket" H 4050 1750 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:mpcie-socket" H 4050 2300 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F8-1773459-7_EXPRESS_MINI_CARD_QRG%7F0816%7Fpdf%7FEnglish%7FENG_DS_8-1773459-7_EXPRESS_MINI_CARD_QRG_0816.pdf%7F2041119-1" H 4050 2300 60  0001 C CNN
 F 4 "TE Connectivity" H 3950 3300 60  0001 C CNN "MFG Name"
-F 5 "2041119-1" H 3950 3300 60  0001 C CNN "MFG Part Number"
+F 5 "2041119-1" H 3950 3300 60  0001 C CNN "MFG Part Num"
 F 6 "571-2041119-1" H 3950 3300 60  0001 C CNN "Distrib PN"
 F 7 "https://www2.mouser.com/ProductDetail/TE-Connectivity/2041119-1?qs=%252bD5sUuPmlApmv1YR%252baSc%252bw%3D%3D" H 3950 3300 60  0001 C CNN "Distrib Link"
 	1    3950 3300
@@ -688,23 +688,23 @@ Text HLabel 5100 3650 2    60   Input ~ 0
 $Comp
 L C C1519
 U 1 1 5B2EEC7F
-P 7300 1500
-F 0 "C1519" H 7325 1600 50  0000 L CNN
-F 1 "100nF" H 7325 1400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7338 1350 50  0001 C CNN
-F 3 "" H 7300 1500 50  0001 C CNN
-	1    7300 1500
+P 7250 1500
+F 0 "C1519" H 7275 1600 50  0000 L CNN
+F 1 "100nF" H 7275 1400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7288 1350 50  0001 C CNN
+F 3 "" H 7250 1500 50  0001 C CNN
+	1    7250 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0244
 U 1 1 5B2EFB80
-P 7300 1700
-F 0 "#PWR0244" H 7300 1450 50  0001 C CNN
-F 1 "GND" H 7300 1550 50  0000 C CNN
-F 2 "" H 7300 1700 50  0001 C CNN
-F 3 "" H 7300 1700 50  0001 C CNN
-	1    7300 1700
+P 7250 1700
+F 0 "#PWR0244" H 7250 1450 50  0001 C CNN
+F 1 "GND" H 7250 1550 50  0000 C CNN
+F 2 "" H 7250 1700 50  0001 C CNN
+F 3 "" H 7250 1700 50  0001 C CNN
+	1    7250 1700
 	1    0    0    -1  
 $EndComp
 Text Notes 4725 3190 0    60   ~ 0
@@ -735,105 +735,105 @@ NoConn ~ 4600 3150
 $Comp
 L C C1520
 U 1 1 5B30C2BF
-P 8200 1950
-F 0 "C1520" H 8225 2050 50  0000 L CNN
-F 1 "1uF" H 8225 1850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8238 1800 50  0001 C CNN
-F 3 "" H 8200 1950 50  0001 C CNN
-	1    8200 1950
+P 8150 1950
+F 0 "C1520" H 8175 2050 50  0000 L CNN
+F 1 "1uF" H 8175 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8188 1800 50  0001 C CNN
+F 3 "" H 8150 1950 50  0001 C CNN
+	1    8150 1950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0245
 U 1 1 5B30C2C6
-P 8200 2250
-F 0 "#PWR0245" H 8200 2000 50  0001 C CNN
-F 1 "GND" H 8200 2100 50  0000 C CNN
-F 2 "" H 8200 2250 50  0001 C CNN
-F 3 "" H 8200 2250 50  0001 C CNN
-	1    8200 2250
+P 8150 2250
+F 0 "#PWR0245" H 8150 2000 50  0001 C CNN
+F 1 "GND" H 8150 2100 50  0000 C CNN
+F 2 "" H 8150 2250 50  0001 C CNN
+F 3 "" H 8150 2250 50  0001 C CNN
+	1    8150 2250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0246
 U 1 1 5B30C2CC
-P 8900 2250
-F 0 "#PWR0246" H 8900 2000 50  0001 C CNN
-F 1 "GND" H 8900 2100 50  0000 C CNN
-F 2 "" H 8900 2250 50  0001 C CNN
-F 3 "" H 8900 2250 50  0001 C CNN
-	1    8900 2250
+P 8850 2250
+F 0 "#PWR0246" H 8850 2000 50  0001 C CNN
+F 1 "GND" H 8850 2100 50  0000 C CNN
+F 2 "" H 8850 2250 50  0001 C CNN
+F 3 "" H 8850 2250 50  0001 C CNN
+	1    8850 2250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L D_Schottky_ALT D1502
 U 1 1 5B30C2D8
-P 8450 1450
-F 0 "D1502" H 8450 1360 50  0000 C CNN
-F 1 "DB2J209" H 8450 1550 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 8450 1450 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 8450 1450 50  0001 C CNN
-F 4 "Panasonic" V 8450 1450 60  0001 C CNN "MFG Name"
-F 5 "DB2J20900L" V 8450 1450 60  0001 C CNN "MFG Part Num"
-F 6 "667-DB2J20900L" V 8450 1450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 8450 1450 60  0001 C CNN "Distrib Link"
-F 8 "-" V 8450 1450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 8450 1450 60  0001 C CNN "Others"
-	1    8450 1450
+P 8400 1450
+F 0 "D1502" H 8400 1360 50  0000 C CNN
+F 1 "DB2J209" H 8400 1550 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 8400 1450 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 8400 1450 50  0001 C CNN
+F 4 "Panasonic" V 8400 1450 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 8400 1450 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 8400 1450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 8400 1450 60  0001 C CNN "Distrib Link"
+F 8 "-" V 8400 1450 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 8400 1450 60  0001 C CNN "Others"
+	1    8400 1450
 	1    0    0    1   
 $EndComp
 $Comp
 L SW_DPDT_x2 SW1501
 U 1 1 5B30C2E5
-P 8900 2000
-F 0 "SW1501" V 8950 2350 50  0000 C CNN
-F 1 "WWAN_HKS" V 8850 2350 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 8900 2000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 8900 2000 50  0001 C CNN
-F 4 "C&K" V 8900 2000 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 8900 2000 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 8900 2000 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 8900 2000 60  0001 C CNN "Distrib Link"
-F 8 "-" V 8900 2000 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 8900 2000 60  0001 C CNN "Others"
-	1    8900 2000
+P 8850 2000
+F 0 "SW1501" V 8900 2350 50  0000 C CNN
+F 1 "WWAN_HKS" V 8800 2350 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 8850 2000 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 8850 2000 50  0001 C CNN
+F 4 "C&K" V 8850 2000 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 8850 2000 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 8850 2000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 8850 2000 60  0001 C CNN "Distrib Link"
+F 8 "-" V 8850 2000 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 8850 2000 60  0001 C CNN "Others"
+	1    8850 2000
 	0    1    -1   0   
 $EndComp
 $Comp
 L R R1505
 U 1 1 5B30C2F2
-P 8800 1550
-F 0 "R1505" H 8975 1600 50  0000 C CNN
-F 1 "100k" H 8950 1500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8730 1550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8800 1550 50  0001 C CNN
-F 4 "Stackpole" H 8800 1550 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 8800 1550 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 8800 1550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8800 1550 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 8800 1550 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8800 1550 60  0001 C CNN "Others"
-	1    8800 1550
+P 8750 1550
+F 0 "R1505" H 8925 1600 50  0000 C CNN
+F 1 "100k" H 8900 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8680 1550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8750 1550 50  0001 C CNN
+F 4 "Stackpole" H 8750 1550 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 8750 1550 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 8750 1550 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8750 1550 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 8750 1550 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8750 1550 60  0001 C CNN "Others"
+	1    8750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1504
 U 1 1 5B30C2FF
-P 8450 1750
-F 0 "R1504" V 8525 1750 50  0000 C CNN
-F 1 "100k" V 8350 1750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8380 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8450 1750 50  0001 C CNN
-F 4 "Stackpole" H 8450 1750 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 8450 1750 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 8450 1750 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8450 1750 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 8450 1750 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8450 1750 60  0001 C CNN "Others"
-	1    8450 1750
+P 8400 1750
+F 0 "R1504" V 8475 1750 50  0000 C CNN
+F 1 "100k" V 8300 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8330 1750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8400 1750 50  0001 C CNN
+F 4 "Stackpole" H 8400 1750 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 8400 1750 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 8400 1750 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8400 1750 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 8400 1750 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8400 1750 60  0001 C CNN "Others"
+	1    8400 1750
 	0    -1   -1   0   
 $EndComp
-Text HLabel 7500 2200 2    60   Input ~ 0
+Text HLabel 7450 2200 2    60   Input ~ 0
 ~W_DISABLE1
 Text Label 5550 2850 2    60   ~ 0
 WWAN_DN
@@ -860,39 +860,39 @@ Text Label 4750 4050 0    60   ~ 0
 $Comp
 L SW_DPDT_x2 SW1501
 U 2 1 5B321B85
-P 9650 2000
-F 0 "SW1501" V 9700 1700 50  0000 C CNN
-F 1 "WWAN_HKS" V 9600 1700 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 9650 2000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 9650 2000 50  0001 C CNN
-F 4 "C&K" V 9650 2000 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 9650 2000 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 9650 2000 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 9650 2000 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9650 2000 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 9650 2000 60  0001 C CNN "Others"
-	2    9650 2000
-	0    -1   -1   0   
+P 9600 2000
+F 0 "SW1501" V 9650 2350 50  0000 C CNN
+F 1 "WWAN_HKS" V 9550 2350 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 9600 2000 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 9600 2000 50  0001 C CNN
+F 4 "C&K" V 9600 2000 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 9600 2000 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 9600 2000 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 9600 2000 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9600 2000 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 9600 2000 60  0001 C CNN "Others"
+	2    9600 2000
+	0    1    -1   0   
 $EndComp
-NoConn ~ 9550 1800
-NoConn ~ 9750 1800
-NoConn ~ 9650 2200
-NoConn ~ 9000 1800
+NoConn ~ 9500 1800
+NoConn ~ 9700 1800
+NoConn ~ 9600 2200
+NoConn ~ 8950 1800
 $Comp
 L 74LVC1G08 U1503
 U 1 1 5B3246C1
-P 6850 2100
-F 0 "U1503" H 6850 2150 50  0000 C CNN
-F 1 "74LVC1G08" H 6850 2050 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:74LVC1G08GF" H 6850 2100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf" H 6850 2100 50  0001 C CNN
-F 4 "NXP" H 6850 2100 60  0001 C CNN "MFG Name"
-F 5 "74LVC1G08GF" H 6850 2100 60  0001 C CNN "MFG Part Num"
-F 6 "74LVC1G08GF/S505125" H 6850 2100 60  0001 C CNN "DIstrib PN"
-F 7 "https://www.rocelec.com/part/nexnxp74lvc1g08gf-s505125" H 6850 2100 60  0001 C CNN "Distrib Link"
-F 8 "-" H 6850 2100 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=74LVC1G08GV%2C125&oq=74LVC1G08GV%2C125&start=0" H 6850 2100 60  0001 C CNN "Others"
-	1    6850 2100
+P 6800 2100
+F 0 "U1503" H 6800 2150 50  0000 C CNN
+F 1 "74LVC1G08" H 6800 2050 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:74LVC1G08GF" H 6800 2100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf" H 6800 2100 50  0001 C CNN
+F 4 "NXP" H 6800 2100 60  0001 C CNN "MFG Name"
+F 5 "74LVC1G08GF" H 6800 2100 60  0001 C CNN "MFG Part Num"
+F 6 "74LVC1G08GF/S505125" H 6800 2100 60  0001 C CNN "DIstrib PN"
+F 7 "https://www.rocelec.com/part/nexnxp74lvc1g08gf-s505125" H 6800 2100 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6800 2100 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=74LVC1G08GV%2C125&oq=74LVC1G08GV%2C125&start=0" H 6800 2100 60  0001 C CNN "Others"
+	1    6800 2100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -948,17 +948,17 @@ F 9 "http://uk.farnell.com/panasonic-electronic-components/eeefpa221xap/cap-alu-
 $EndComp
 Text Notes 2150 2350 0    60   ~ 0
 IN/OUT of\nthe SoC
-Text Notes 9150 1700 0    60   ~ 0
+Text Notes 9100 1700 0    60   ~ 0
 Open = ON\nClosed = OFF
 $Comp
 L 1V8_P #PWR0247
 U 1 1 5B3CF7AD
-P 7050 1250
-F 0 "#PWR0247" H 7050 1100 50  0001 C CNN
-F 1 "1V8_P" H 7050 1390 50  0000 C CNN
-F 2 "" H 7050 1250 50  0001 C CNN
-F 3 "" H 7050 1250 50  0001 C CNN
-	1    7050 1250
+P 7000 1250
+F 0 "#PWR0247" H 7000 1100 50  0001 C CNN
+F 1 "1V8_P" H 7000 1390 50  0000 C CNN
+F 2 "" H 7000 1250 50  0001 C CNN
+F 3 "" H 7000 1250 50  0001 C CNN
+	1    7000 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1070,12 +1070,12 @@ $EndComp
 $Comp
 L 1V8_P #PWR0252
 U 1 1 5B2CF13B
-P 8800 1350
-F 0 "#PWR0252" H 8800 1200 50  0001 C CNN
-F 1 "1V8_P" H 8800 1490 50  0000 C CNN
-F 2 "" H 8800 1350 50  0001 C CNN
-F 3 "" H 8800 1350 50  0001 C CNN
-	1    8800 1350
+P 8750 1350
+F 0 "#PWR0252" H 8750 1200 50  0001 C CNN
+F 1 "1V8_P" H 8750 1490 50  0000 C CNN
+F 2 "" H 8750 1350 50  0001 C CNN
+F 3 "" H 8750 1350 50  0001 C CNN
+	1    8750 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1083,7 +1083,7 @@ L R R1507
 U 1 1 5B2D270A
 P 7950 3600
 F 0 "R1507" V 8030 3600 50  0000 C CNN
-F 1 "NC" V 7950 3600 50  0000 C CNN
+F 1 "NC" V 7850 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7880 3600 50  0001 C CNN
 F 3 "" H 7950 3600 50  0001 C CNN
 	1    7950 3600
@@ -1130,7 +1130,7 @@ F 3 "" H 8150 3650 50  0001 C CNN
 $EndComp
 Text Notes 8300 3850 0    60   ~ 0
 Input pins are\ninterchangeable
-Text Notes 6300 1850 0    60   ~ 0
+Text Notes 6250 1850 0    60   ~ 0
 Input pins are\ninterchangeable
 Wire Wire Line
 	7750 3600 7800 3600
@@ -1139,33 +1139,63 @@ Wire Wire Line
 Wire Wire Line
 	8100 3600 8150 3600
 Wire Wire Line
-	7750 3550 7750 3650
+	7750 3550 7750 3600
+Wire Wire Line
+	7750 3600 7750 3650
 Wire Wire Line
 	7750 3650 7700 3650
 Wire Wire Line
-	8050 4900 8050 5000
+	8050 4900 8050 4950
+Wire Wire Line
+	8050 4950 8050 5000
 Wire Wire Line
 	8250 4950 8250 4900
 Wire Wire Line
-	7850 4950 8250 4950
+	7850 4950 7950 4950
+Wire Wire Line
+	7950 4950 8050 4950
+Wire Wire Line
+	8050 4950 8150 4950
+Wire Wire Line
+	8150 4950 8250 4950
 Wire Wire Line
 	6450 3750 6500 3750
 Wire Wire Line
 	6450 4050 6450 3750
 Wire Wire Line
-	7300 1300 7300 1350
+	7250 1300 7250 1350
 Wire Wire Line
-	7050 1300 7300 1300
+	7000 1300 7250 1300
 Connection ~ 3200 2650
 Connection ~ 3200 1500
 Wire Wire Line
-	1000 1500 3200 1500
+	1000 1500 1250 1500
 Wire Wire Line
-	3200 1450 3200 2750
+	1250 1500 1500 1500
+Wire Wire Line
+	1500 1500 1750 1500
+Wire Wire Line
+	1750 1500 2000 1500
+Wire Wire Line
+	2000 1500 2250 1500
+Wire Wire Line
+	2250 1500 2500 1500
+Wire Wire Line
+	2500 1500 2750 1500
+Wire Wire Line
+	2750 1500 3000 1500
+Wire Wire Line
+	3000 1500 3200 1500
+Wire Wire Line
+	3200 1450 3200 1500
+Wire Wire Line
+	3200 1500 3200 2650
+Wire Wire Line
+	3200 2650 3200 2750
 Wire Wire Line
 	6150 2100 6150 3750
 Wire Wire Line
-	6250 2100 6150 2100
+	6200 2100 6150 2100
 Connection ~ 7750 3600
 Wire Wire Line
 	6450 4300 6450 4350
@@ -1176,13 +1206,17 @@ Wire Wire Line
 Wire Wire Line
 	6500 4350 6500 4150
 Wire Wire Line
-	6500 4650 6500 4800
+	6500 4650 6500 4700
+Wire Wire Line
+	6500 4700 6500 4800
 Wire Wire Line
 	7750 3250 7750 3200
 Connection ~ 1250 1500
 Connection ~ 7050 4700
 Wire Wire Line
-	7050 4650 7050 4750
+	7050 4650 7050 4700
+Wire Wire Line
+	7050 4700 7050 4750
 Wire Wire Line
 	7350 4650 7050 4650
 Connection ~ 5600 4450
@@ -1192,12 +1226,14 @@ Wire Wire Line
 Wire Wire Line
 	6750 3100 6750 3050
 Wire Wire Line
-	7250 3000 7250 3550
+	7250 3000 7250 3050
+Wire Wire Line
+	7250 3050 7250 3550
 Wire Wire Line
 	6750 3450 6750 3400
-Connection ~ 7050 1300
+Connection ~ 7000 1300
 Wire Wire Line
-	7450 2000 7500 2000
+	7400 2000 7450 2000
 Connection ~ 9500 3850
 Wire Wire Line
 	7700 3850 9500 3850
@@ -1205,7 +1241,7 @@ Wire Wire Line
 	9500 3500 9500 3450
 Connection ~ 9500 4450
 Wire Wire Line
-	7500 2000 7500 1750
+	7450 2000 7450 1750
 Wire Wire Line
 	5500 4150 4600 4150
 Wire Wire Line
@@ -1220,13 +1256,29 @@ Wire Wire Line
 	1000 1500 1000 1550
 Connection ~ 1000 1950
 Wire Wire Line
-	1000 1950 3000 1950
+	1000 1950 1250 1950
+Wire Wire Line
+	1250 1950 1500 1950
+Wire Wire Line
+	1500 1950 1750 1950
+Wire Wire Line
+	1750 1950 2000 1950
+Wire Wire Line
+	2000 1950 2250 1950
+Wire Wire Line
+	2250 1950 2500 1950
+Wire Wire Line
+	2500 1950 2750 1950
+Wire Wire Line
+	2750 1950 3000 1950
 Wire Wire Line
 	1250 1950 1250 1850
 Wire Wire Line
-	1000 1850 1000 2000
+	1000 1850 1000 1950
 Wire Wire Line
-	7500 2200 7450 2200
+	1000 1950 1000 2000
+Wire Wire Line
+	7450 2200 7400 2200
 Wire Wire Line
 	3300 2150 2650 2150
 Wire Wire Line
@@ -1240,28 +1292,36 @@ Wire Wire Line
 Wire Wire Line
 	4600 2950 5600 2950
 Wire Wire Line
-	8600 1750 8800 1750
+	8550 1750 8650 1750
 Wire Wire Line
-	8800 1700 8800 1800
+	8650 1750 8750 1750
 Wire Wire Line
-	8900 2200 8900 2250
-Connection ~ 8800 1750
+	8750 1700 8750 1750
 Wire Wire Line
-	8700 1450 8700 1750
+	8750 1750 8750 1800
 Wire Wire Line
-	8800 1350 8800 1400
+	8850 2200 8850 2250
+Connection ~ 8750 1750
 Wire Wire Line
-	8300 1450 8200 1450
-Connection ~ 8700 1750
+	8650 1450 8650 1750
 Wire Wire Line
-	8600 1450 8700 1450
+	8750 1350 8750 1400
 Wire Wire Line
-	8200 2250 8200 2100
-Connection ~ 8200 1750
+	8250 1450 8150 1450
+Connection ~ 8650 1750
 Wire Wire Line
-	8200 1450 8200 1800
+	8550 1450 8650 1450
 Wire Wire Line
-	7500 1750 8300 1750
+	8150 2250 8150 2100
+Connection ~ 8150 1750
+Wire Wire Line
+	8150 1450 8150 1750
+Wire Wire Line
+	8150 1750 8150 1800
+Wire Wire Line
+	7450 1750 8150 1750
+Wire Wire Line
+	8150 1750 8250 1750
 Wire Wire Line
 	4750 3650 4600 3650
 Wire Wire Line
@@ -1269,13 +1329,19 @@ Wire Wire Line
 Wire Wire Line
 	3300 4750 2600 4750
 Wire Wire Line
-	7300 1700 7300 1650
+	7250 1700 7250 1650
 Wire Wire Line
-	7050 1250 7050 1900
+	7000 1250 7000 1300
+Wire Wire Line
+	7000 1300 7000 1900
 Wire Wire Line
 	6150 3750 4600 3750
 Wire Wire Line
-	4700 2100 4700 4750
+	4700 2100 4700 2150
+Wire Wire Line
+	4700 2150 4700 3550
+Wire Wire Line
+	4700 3550 4700 4750
 Connection ~ 4700 3550
 Wire Wire Line
 	4700 4750 4600 4750
@@ -1304,7 +1370,17 @@ Connection ~ 4650 2750
 Wire Wire Line
 	4600 2750 4650 2750
 Wire Wire Line
-	4650 2250 4650 4800
+	4650 2250 4650 2750
+Wire Wire Line
+	4650 2750 4650 3050
+Wire Wire Line
+	4650 3050 4650 3450
+Wire Wire Line
+	4650 3450 4650 3850
+Wire Wire Line
+	4650 3850 4650 4650
+Wire Wire Line
+	4650 4650 4650 4800
 Wire Wire Line
 	4600 2250 4650 2250
 Connection ~ 3250 4350
@@ -1329,7 +1405,21 @@ Connection ~ 3250 2850
 Wire Wire Line
 	3300 2850 3250 2850
 Wire Wire Line
-	3250 2550 3250 4800
+	3250 2550 3250 2850
+Wire Wire Line
+	3250 2850 3250 2950
+Wire Wire Line
+	3250 2950 3250 3250
+Wire Wire Line
+	3250 3250 3250 3350
+Wire Wire Line
+	3250 3350 3250 3650
+Wire Wire Line
+	3250 3650 3250 4050
+Wire Wire Line
+	3250 4050 3250 4350
+Wire Wire Line
+	3250 4350 3250 4800
 Wire Wire Line
 	3300 2550 3250 2550
 Connection ~ 7950 4950
@@ -1347,19 +1437,25 @@ Wire Wire Line
 Wire Wire Line
 	2350 6400 2350 6500
 Wire Wire Line
-	2300 6850 2400 6850
+	2300 6850 2350 6850
+Wire Wire Line
+	2350 6850 2400 6850
 Connection ~ 1850 6450
 Wire Wire Line
 	2100 6450 1850 6450
 Wire Wire Line
 	2100 6550 2100 6450
 Wire Wire Line
-	1850 6400 1850 6500
+	1850 6400 1850 6450
+Wire Wire Line
+	1850 6450 1850 6500
 Connection ~ 1850 6850
 Wire Wire Line
 	1850 6800 1850 6850
 Wire Wire Line
-	1200 6850 1900 6850
+	1200 6850 1850 6850
+Wire Wire Line
+	1850 6850 1900 6850
 Connection ~ 1250 1950
 Connection ~ 3000 1500
 Wire Wire Line
@@ -1419,7 +1515,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 5650 4450 6000
 Wire Wire Line
-	4100 5600 4100 6200
+	4100 5600 4100 5650
+Wire Wire Line
+	4100 5650 4100 6200
 Wire Wire Line
 	4950 7000 5000 7000
 Wire Wire Line
@@ -1442,7 +1540,11 @@ Wire Wire Line
 Wire Wire Line
 	4550 7450 4550 7400
 Wire Wire Line
-	3600 5650 4450 5650
+	3600 5650 3900 5650
+Wire Wire Line
+	3900 5650 4100 5650
+Wire Wire Line
+	4100 5650 4450 5650
 Connection ~ 3900 5650
 Wire Wire Line
 	3600 5700 3600 5650
@@ -1452,7 +1554,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 6050 3600 6000
 Wire Wire Line
-	3600 6050 3900 6050
+	3600 6050 3750 6050
+Wire Wire Line
+	3750 6050 3900 6050
 Wire Wire Line
 	3900 6050 3900 6000
 Wire Wire Line
@@ -1467,16 +1571,24 @@ Wire Wire Line
 Wire Wire Line
 	5650 6050 5650 6000
 Wire Wire Line
-	5350 6050 5650 6050
+	5350 6050 5500 6050
+Wire Wire Line
+	5500 6050 5650 6050
 Wire Wire Line
 	5350 6050 5350 6000
 Connection ~ 5350 5650
 Wire Wire Line
-	4650 5650 5650 5650
+	4650 5650 5350 5650
 Wire Wire Line
-	5350 5600 5350 5700
+	5350 5650 5650 5650
 Wire Wire Line
-	5600 4150 5600 4800
+	5350 5600 5350 5650
+Wire Wire Line
+	5350 5650 5350 5700
+Wire Wire Line
+	5600 4150 5600 4450
+Wire Wire Line
+	5600 4450 5600 4800
 Connection ~ 5900 4150
 Wire Wire Line
 	5900 4150 5900 4800
@@ -1494,12 +1606,16 @@ Wire Wire Line
 Wire Wire Line
 	6950 4350 6950 4750
 Wire Wire Line
-	5500 4250 7350 4250
+	5500 4250 6850 4250
+Wire Wire Line
+	6850 4250 7350 4250
 Connection ~ 6200 4350
 Connection ~ 6500 4700
 Connection ~ 5900 5150
 Wire Wire Line
-	5900 5100 5900 5200
+	5900 5100 5900 5150
+Wire Wire Line
+	5900 5150 5900 5200
 Connection ~ 6200 5150
 Wire Wire Line
 	6200 5150 6200 5100
@@ -1518,7 +1634,11 @@ Wire Wire Line
 	7200 5300 7200 4150
 Connection ~ 6950 4350
 Wire Wire Line
-	9500 3800 9500 5350
+	9500 3800 9500 3850
+Wire Wire Line
+	9500 3850 9500 4450
+Wire Wire Line
+	9500 4450 9500 5350
 Wire Wire Line
 	9500 5350 6850 5350
 Wire Wire Line
@@ -1530,25 +1650,47 @@ Wire Wire Line
 Wire Wire Line
 	6950 5400 6950 5250
 Wire Wire Line
-	6550 4350 7350 4350
+	6550 4350 6950 4350
+Wire Wire Line
+	6950 4350 7350 4350
 Wire Wire Line
 	5300 4350 5300 4700
 Wire Wire Line
-	8750 4450 9500 4450
+	8750 4450 9350 4450
+Wire Wire Line
+	9350 4450 9500 4450
 Wire Wire Line
 	7300 4450 7300 4700
 Wire Wire Line
 	7350 4450 7300 4450
 Wire Wire Line
-	4600 4450 5600 4450
+	4600 4450 5200 4450
 Wire Wire Line
-	5600 4150 7350 4150
+	5200 4450 5600 4450
+Wire Wire Line
+	5600 4150 5900 4150
+Wire Wire Line
+	5900 4150 6500 4150
+Wire Wire Line
+	6500 4150 7200 4150
+Wire Wire Line
+	7200 4150 7350 4150
 Wire Wire Line
 	4600 4050 6450 4050
 Wire Wire Line
-	6450 4350 5400 4350
+	6450 4350 6200 4350
 Wire Wire Line
-	5300 4700 7050 4700
+	6200 4350 5400 4350
 Wire Wire Line
-	5200 5150 6500 5150
+	5300 4700 6500 4700
+Wire Wire Line
+	6500 4700 7050 4700
+Wire Wire Line
+	5200 5150 5600 5150
+Wire Wire Line
+	5600 5150 5900 5150
+Wire Wire Line
+	5900 5150 6200 5150
+Wire Wire Line
+	6200 5150 6500 5150
 $EndSCHEMATC

@@ -2416,4 +2416,8 @@ Text Notes 2300 4950 0    60   ~ 0
 Note:\nAll switches' pins\ncan be swapped\ne.g. 2<->3\n or 1<->3\n (+BOOT_MODE2)
 Text Notes 4250 1250 0    236  ~ 47
 Boot Config
+Wire Notes Line
+	7500 500  11200 500 
+Wire Notes Line
+	11200 500  11200 1800
 $EndSCHEMATC

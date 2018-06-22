@@ -1784,24 +1784,24 @@ $EndComp
 $Comp
 L SW_DPDT_x2 SW1801
 U 2 1 5B1221A9
-P 10650 4250
-F 0 "SW1801" V 10700 3900 50  0000 C CNN
-F 1 "WLAN_HKS" V 10600 3900 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 10650 4250 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 10650 4250 50  0001 C CNN
-F 4 "C&K" V 10650 4250 60  0001 C CNN "MFG Name"
-F 5 "JS202011JAQN" V 10650 4250 60  0001 C CNN "MFG Part Num"
-F 6 "CKN10722CT-ND" V 10650 4250 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 10650 4250 60  0001 C CNN "Distrib Link"
-F 8 "-" V 10650 4250 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 10650 4250 60  0001 C CNN "Others"
-	2    10650 4250
-	0    -1   -1   0   
+P 10600 4250
+F 0 "SW1801" V 10650 4600 50  0000 C CNN
+F 1 "WLAN_HKS" V 10550 4600 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN" H 10600 4250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 10600 4250 50  0001 C CNN
+F 4 "C&K" V 10600 4250 60  0001 C CNN "MFG Name"
+F 5 "JS202011JAQN" V 10600 4250 60  0001 C CNN "MFG Part Num"
+F 6 "CKN10722CT-ND" V 10600 4250 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/c-k/JS202011JAQN/CKN10722CT-ND/6137636" V 10600 4250 60  0001 C CNN "Distrib Link"
+F 8 "-" V 10600 4250 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%2Cffe000d5%2C1140003%2C1140160%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" V 10600 4250 60  0001 C CNN "Others"
+	2    10600 4250
+	0    1    -1   0   
 $EndComp
 NoConn ~ 9700 4050
-NoConn ~ 10550 4050
-NoConn ~ 10750 4050
-NoConn ~ 10650 4450
+NoConn ~ 10500 4050
+NoConn ~ 10700 4050
+NoConn ~ 10600 4450
 NoConn ~ 19750 8050
 $Comp
 L GND #PWR0331
