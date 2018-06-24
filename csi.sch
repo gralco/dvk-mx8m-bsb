@@ -6367,21 +6367,21 @@ $EndComp
 Text Notes 8325 3775 0    60   ~ 0
 V_IH(min)=1.26V
 $Comp
-L C C1307
+L C C1308
 U 1 1 5B0F9030
 P 10750 2850
-F 0 "C1307" H 10775 2950 50  0000 L CNN
-F 1 "100nF" H 10775 2750 50  0000 L CNN
+F 0 "C1308" H 10775 2950 50  0000 L CNN
+F 1 "4.7u" H 10775 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10788 2700 50  0001 C CNN
 F 3 "" H 10750 2850 50  0001 C CNN
 	1    10750 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1306
+L C C1307
 U 1 1 5B0F8FA9
 P 10500 2850
-F 0 "C1306" H 10500 2950 50  0000 L CNN
+F 0 "C1307" H 10500 2950 50  0000 L CNN
 F 1 "10nF" H 10525 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10538 2700 50  0001 C CNN
 F 3 "" H 10500 2850 50  0001 C CNN
@@ -6389,10 +6389,10 @@ F 3 "" H 10500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1305
+L C C1306
 U 1 1 5B0F8F0F
 P 10250 2850
-F 0 "C1305" H 10250 2950 50  0000 L CNN
+F 0 "C1306" H 10250 2950 50  0000 L CNN
 F 1 "1nF" H 10275 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10288 2700 50  0001 C CNN
 F 3 "" H 10250 2850 50  0001 C CNN
@@ -6400,10 +6400,10 @@ F 3 "" H 10250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1304
+L C C1305
 U 1 1 5B0F8E57
 P 10000 2850
-F 0 "C1304" H 10000 2950 50  0000 L CNN
+F 0 "C1305" H 10000 2950 50  0000 L CNN
 F 1 "100pF" H 10000 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10038 2700 50  0001 C CNN
 F 3 "" H 10000 2850 50  0001 C CNN
@@ -6468,17 +6468,17 @@ F 3 "" H 8900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1303
+L C C1304
 U 1 1 5B2B061C
 P 8900 2850
-F 0 "C1303" H 8925 2950 50  0000 L CNN
+F 0 "C1304" H 8925 2950 50  0000 L CNN
 F 1 "100nF" H 8925 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8938 2700 50  0001 C CNN
 F 3 "" H 8900 2850 50  0001 C CNN
 	1    8900 2850
 	-1   0    0    -1  
 $EndComp
-Text Notes 8650 2675 0    39   ~ 0
+Text Notes 8600 2625 0    39   ~ 0
  Max\n~~42mA
 Text Notes 8650 5100 0    60   ~ 0
 OV5640 CMOS Image Sensor Datasheet:\nhttps://cdn.sparkfun.com/datasheets/\nSensors/LightImaging/OV5640_datasheet.pdf
@@ -6681,8 +6681,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 2950 9150 2950
 Connection ~ 9150 2950
-Wire Wire Line
-	8900 3150 9200 3150
 Connection ~ 9150 3150
 Wire Wire Line
 	9150 3650 9200 3650
@@ -6719,8 +6717,6 @@ Wire Wire Line
 	9100 2850 9200 2850
 Wire Wire Line
 	9150 2750 9150 4100
-Wire Wire Line
-	8900 2650 9100 2650
 Wire Wire Line
 	9100 2650 9100 3050
 Connection ~ 8900 2650
@@ -6771,4 +6767,26 @@ F 3 "http://www.trulyamerica.com/products/compact-camera-module/#" H 12450 6200 
 	1    8800 5850
 	-1   0    0    -1  
 $EndComp
+$Comp
+L C C1303
+U 1 1 5B30A24C
+P 8600 2850
+F 0 "C1303" H 8625 2950 50  0000 L CNN
+F 1 "4.7uF" H 8625 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8638 2700 50  0001 C CNN
+F 3 "" H 8600 2850 50  0001 C CNN
+	1    8600 2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2700 8600 2650
+Wire Wire Line
+	8600 3000 8600 3150
+Connection ~ 8900 3150
+Wire Wire Line
+	8600 3150 9200 3150
+Wire Wire Line
+	8600 2650 9100 2650
+Text Notes 10000 2550 0    60   ~ 0
+TODO:\nChange clk01 lvl shifter?\nLevel shift to 2.8V?
 $EndSCHEMATC

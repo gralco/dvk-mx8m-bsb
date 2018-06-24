@@ -1952,7 +1952,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 4900 9000 3450
 Text Notes 9050 4900 0    60   ~ 0
-Ext-Mic enabled\nMIC_SEL=LOW
+Ext-Mic enabled\nMIC_SEL=HIGH
 Text Notes 5800 5050 0    60   ~ 0
 SW Mute Mic:\nMUTE_ADC=1
 Text Notes 9250 2725 0    60   ~ 0

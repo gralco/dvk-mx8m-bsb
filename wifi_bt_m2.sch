@@ -132,7 +132,7 @@ BT_UART_RTS
 Text HLabel 2700 7100 2    60   Input ~ 0
 BT_UART_CTS
 Text Notes 5200 700  0    60   ~ 0
-Module: Table 23\nSocket: Table 46
+Socket: Table 46\nModule: Table 23
 Text Notes 6100 2550 0    60   ~ 0
 SoC's RX\nModule's TX
 Text Notes 6100 2775 0    60   ~ 0

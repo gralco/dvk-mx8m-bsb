@@ -946,9 +946,6 @@ Wire Wire Line
 	1800 4900 1800 5600
 Connection ~ 1800 5600
 Wire Wire Line
-	3250 4900 3250 5300
-Connection ~ 3250 5300
-Wire Wire Line
 	1800 4600 1800 4550
 Wire Wire Line
 	1800 4550 2500 4550
@@ -1611,4 +1608,7 @@ F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 9850 4900 60  0001 C 
 	1    9850 4900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3250 4900 3250 5200
+Connection ~ 3250 5200
 $EndSCHEMATC
