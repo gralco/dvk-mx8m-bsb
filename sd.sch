@@ -847,40 +847,40 @@ Wire Wire Line
 	4650 4650 4650 4600
 Wire Wire Line
 	4250 3450 5650 3450
+Text Notes 5800 1900 0    236  ~ 47
+μSD
 $Comp
 L C C1002
-U 1 1 5B1961D2
+U 1 1 5B3619B2
 P 5800 2550
 F 0 "C1002" H 5825 2650 50  0000 L CNN
 F 1 "22uF" H 5825 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5838 2400 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 5800 2550 50  0001 C CNN
-F 4 "Murata" H 5800 2550 60  0001 C CNN "MFG Name"
-F 5 "GRM219R61C226ME15L" H 5800 2550 60  0001 C CNN "MFG Part Num"
-F 6 "490-9952-1-ND" H 5800 2550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 5800 2550 60  0001 C CNN "Distrib Link"
+F 2 "Capacitors_SMD:C_0603" H 5838 2400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 5800 2550 50  0001 C CNN
+F 4 "Samsung" H 5800 2550 60  0001 C CNN "MFG Name"
+F 5 "CL10A226MP8NUNE" H 5800 2550 60  0001 C CNN "MFG Part Num"
+F 6 "C86295" H 5800 2550 60  0001 C CNN "Distrib PN"
+F 7 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MP8NUNE_22uF-226-20-10V_C86295.html" H 5800 2550 60  0001 C CNN "Distrib Link"
 F 8 "20%" H 5800 2550 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 5800 2550 60  0001 C CNN "Others"
+F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_MuRata_ZRB18AR61A226ME01L_22uF-226-20-10V_C162690.html" H 5800 2550 60  0001 C CNN "Others"
 	1    5800 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1003
-U 1 1 5B1961EF
+U 1 1 5B3619FD
 P 6100 2550
 F 0 "C1003" H 6125 2650 50  0000 L CNN
 F 1 "22uF" H 6125 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6138 2400 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 6100 2550 50  0001 C CNN
-F 4 "Murata" H 6100 2550 60  0001 C CNN "MFG Name"
-F 5 "GRM219R61C226ME15L" H 6100 2550 60  0001 C CNN "MFG Part Num"
-F 6 "490-9952-1-ND" H 6100 2550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 6100 2550 60  0001 C CNN "Distrib Link"
+F 2 "Capacitors_SMD:C_0603" H 6138 2400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6100 2550 50  0001 C CNN
+F 4 "Samsung" H 6100 2550 60  0001 C CNN "MFG Name"
+F 5 "CL10A226MP8NUNE" H 6100 2550 60  0001 C CNN "MFG Part Num"
+F 6 "C86295" H 6100 2550 60  0001 C CNN "Distrib PN"
+F 7 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MP8NUNE_22uF-226-20-10V_C86295.html" H 6100 2550 60  0001 C CNN "Distrib Link"
 F 8 "20%" H 6100 2550 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 6100 2550 60  0001 C CNN "Others"
+F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_MuRata_ZRB18AR61A226ME01L_22uF-226-20-10V_C162690.html" H 6100 2550 60  0001 C CNN "Others"
 	1    6100 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 5800 1900 0    236  ~ 47
-μSD
 $EndSCHEMATC

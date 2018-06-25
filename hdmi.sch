@@ -506,23 +506,6 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1903
-U 1 1 5B197DE7
-P 6050 2150
-F 0 "C1903" H 6075 2250 50  0000 L CNN
-F 1 "22uF" H 6075 2050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 6088 2000 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 6050 2150 50  0001 C CNN
-F 4 "Murata" H 6050 2150 60  0001 C CNN "MFG Name"
-F 5 "GRM219R61C226ME15L" H 6050 2150 60  0001 C CNN "MFG Part Num"
-F 6 "490-9952-1-ND" H 6050 2150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM219R61C226ME15L/490-9952-1-ND/5026415" H 6050 2150 60  0001 C CNN "Distrib Link"
-F 8 "20%" H 6050 2150 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1989=0&FV=380014%2C380016%2C380004%2C380009%2C400006%2C440013%2Cmu22%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 6050 2150 60  0001 C CNN "Others"
-	1    6050 2150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L D_TVS_ALT D1902
 U 1 1 5B22D838
 P 7550 4650
@@ -1061,4 +1044,21 @@ Wire Wire Line
 	1900 1900 3650 1900
 Wire Wire Line
 	2400 2000 3650 2000
+$Comp
+L C C1903
+U 1 1 5B33D3B2
+P 6050 2150
+F 0 "C1903" H 6075 2250 50  0000 L CNN
+F 1 "22uF" H 6075 2050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6088 2000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6050 2150 50  0001 C CNN
+F 4 "Samsung" H 6050 2150 60  0001 C CNN "MFG Name"
+F 5 "CL10A226MP8NUNE" H 6050 2150 60  0001 C CNN "MFG Part Num"
+F 6 "C86295" H 6050 2150 60  0001 C CNN "Distrib PN"
+F 7 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MP8NUNE_22uF-226-20-10V_C86295.html" H 6050 2150 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 6050 2150 60  0001 C CNN "Tolerance"
+F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_MuRata_ZRB18AR61A226ME01L_22uF-226-20-10V_C162690.html" H 6050 2150 60  0001 C CNN "Others"
+	1    6050 2150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
