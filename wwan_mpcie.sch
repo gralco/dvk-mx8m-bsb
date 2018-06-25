@@ -435,7 +435,7 @@ U 1 1 5B119046
 P 950 2500
 F 0 "AE1501" H 875 2550 50  0000 R CNN
 F 1 "Antenna" H 875 2475 50  0000 R CNN
-F 2 "" H 950 2500 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 950 2500 50  0001 C CNN
 F 3 "" H 950 2500 50  0001 C CNN
 	1    950  2500
 	1    0    0    -1  
@@ -446,7 +446,7 @@ U 1 1 5B11916E
 P 950 4650
 F 0 "AE1502" H 875 4700 50  0000 R CNN
 F 1 "Antenna" H 875 4625 50  0000 R CNN
-F 2 "" H 950 4650 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 950 4650 50  0001 C CNN
 F 3 "" H 950 4650 50  0001 C CNN
 	1    950  4650
 	1    0    0    -1  
@@ -1443,7 +1443,7 @@ U 1 1 5B2DDE6A
 P 2050 2600
 F 0 "CBL1501" H 1575 2725 60  0000 C CNN
 F 1 "Coax_cable_ufl_ufl" H 2250 2725 60  0000 C CNN
-F 2 "" H 2250 2600 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2250 2600 60  0001 C CNN
 F 3 "" H 2250 2600 60  0001 C CNN
 	1    2050 2600
 	1    0    0    -1  
@@ -1454,7 +1454,7 @@ U 1 1 5B2DDEED
 P 2100 4750
 F 0 "CBL1502" H 1625 4875 60  0000 C CNN
 F 1 "Coax_cable_ufl_ufl" H 2300 4875 60  0000 C CNN
-F 2 "" H 2300 4750 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2300 4750 60  0001 C CNN
 F 3 "" H 2300 4750 60  0001 C CNN
 	1    2100 4750
 	1    0    0    -1  
@@ -1666,4 +1666,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 2150 7650 2150
 Connection ~ 6400 3700
+Text Notes 600  3600 0    60   ~ 0
+TODO:\nAssign antennae\nfootprints
 $EndSCHEMATC

@@ -2118,7 +2118,7 @@ U 1 1 5B2D8415
 P 2700 3150
 F 0 "CBL1801" H 2025 3275 60  0000 C CNN
 F 1 "Coax_cable_ufl_ufl" H 2900 3275 60  0000 C CNN
-F 2 "" H 2700 3150 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2700 3150 60  0001 C CNN
 F 3 "" H 2700 3150 60  0001 C CNN
 	1    2700 3150
 	1    0    0    -1  
@@ -2129,7 +2129,7 @@ U 1 1 5B2D8870
 P 2700 4600
 F 0 "CBL1802" H 2025 4725 60  0000 C CNN
 F 1 "Coax_cable_ufl_ufl" H 2900 4725 60  0000 C CNN
-F 2 "" H 2700 4600 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2700 4600 60  0001 C CNN
 F 3 "" H 2700 4600 60  0001 C CNN
 	1    2700 4600
 	1    0    0    -1  
@@ -2151,4 +2151,6 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 8300 1150 60 
 	1    8300 1150
 	1    0    0    -1  
 $EndComp
+Text Notes 1150 4200 0    60   ~ 0
+TODO:\nAssign antennae\nfootprints
 $EndSCHEMATC

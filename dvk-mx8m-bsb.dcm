@@ -111,6 +111,11 @@ $CMP FT440
 D IC REG BUCK 0.6A SYNC SOT23
 $ENDCMP
 #
+$CMP Haptic_Motor
+D DC Motor, alternative symbol
+K DC Motor
+$ENDCMP
+#
 $CMP IMX8M-SOM
 D EmCraft's i.MX8M System-on-Module
 F ~

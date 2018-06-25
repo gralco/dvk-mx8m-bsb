@@ -48,17 +48,17 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0384
+L GND #PWR2402
 U 1 1 5AFCF90B
 P 6050 4300
-F 0 "#PWR0384" H 6050 4050 50  0001 C CNN
+F 0 "#PWR2402" H 6050 4050 50  0001 C CNN
 F 1 "GND" H 6050 4150 50  0000 C CNN
 F 2 "" H 6050 4300 50  0001 C CNN
 F 3 "" H 6050 4300 50  0001 C CNN
 	1    6050 4300
 	1    0    0    -1  
 $EndComp
-Text Notes 6550 3800 0    60   ~ 0
+Text Notes 7000 3800 0    60   ~ 0
 When the motor is off\nboth terminals are at GND
 $Comp
 L Q_PMOS_GSD Q2401
@@ -78,10 +78,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0385
+L 3V3_P #PWR2401
 U 1 1 5AFD13E2
 P 6050 2950
-F 0 "#PWR0385" H 6050 2800 50  0001 C CNN
+F 0 "#PWR2401" H 6050 2800 50  0001 C CNN
 F 1 "3V3_P" H 6050 3090 50  0000 C CNN
 F 2 "" H 6050 2950 50  0001 C CNN
 F 3 "" H 6050 2950 50  0001 C CNN
@@ -142,7 +142,7 @@ F 3 "" H 5650 3950 50  0001 C CNN
 $EndComp
 Text Notes 4850 4500 0    60   ~ 0
 Cap will reduce dV/dt\neffectively less EMI
-Text Notes 6550 4150 0    60   ~ 0
+Text Notes 7000 4150 0    60   ~ 0
 Motor will have wire leads\nwith a 2-pin Molex or Boom Precision\nconnector installed (by request)!
 Text Notes 4900 3650 0    60   ~ 0
 0=ON\n1=OFF
@@ -154,10 +154,6 @@ Text Notes 3950 4900 0    60   ~ 0
 Cheaper Motor Connector:\nhttps://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html
 Text Notes 3650 3600 0    60   ~ 0
 Can MUX as either\nGPIO or PWM2\nswapping with LED
-Text Notes 3950 5250 0    60   ~ 0
-Motor Source:\nhttps://www.alibaba.com/product-detail/Coin-motor-vibration-dc-motor\ncellphone_1994583657.html?spm=a2700.8443308.0.0.5aa13e5f1wxHgs
-Text Notes 3950 5450 0    60   ~ 0
-Motor Datasheet:\nhttps://cloud.puri.sm/s/z8JR6DJ4KrJYzoW
 Wire Wire Line
 	6050 2950 6050 3200
 Wire Wire Line
@@ -168,9 +164,9 @@ Wire Wire Line
 	5350 3000 6050 3000
 Connection ~ 6050 3000
 Wire Wire Line
-	6050 3600 6050 3700
+	6050 3600 6050 3900
 Wire Wire Line
-	6050 4200 6050 4300
+	6050 4000 6050 4300
 Wire Wire Line
 	5250 3800 5250 3650
 Wire Wire Line
@@ -192,27 +188,46 @@ Wire Wire Line
 Connection ~ 5350 3400
 Wire Wire Line
 	5700 3400 5750 3400
-Text Notes 3950 5650 0    60   ~ 0
-Motor PN:\nBY0820Z021L20
-Text Notes 6550 4450 0    60   ~ 0
+Text Notes 7000 4450 0    60   ~ 0
 Metal housing is floating\n(not connected to either pin)\n⇒ could connect housing to GND
-$Comp
-L Motor_Haptic M2401
-U 1 1 5B40BABE
-P 6050 4000
-F 0 "M2401" H 5700 3800 50  0000 L CNN
-F 1 "Motor" H 5750 4100 50  0000 L TNN
-F 2 "dvk-mx8m-bsb:BY0820Z021L20" H 6050 3965 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf" H 6050 3965 50  0001 C CNN
-F 4 "Molex" H 6050 4000 60  0001 C CNN "MFG Name"
-F 5 "0530480210" H 6050 4000 60  0001 C CNN "MFG Part Num"
-F 6 "0530480210" H 6050 4000 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/0530480210/molex" H 6050 4000 60  0001 C CNN "Distrib Link"
-F 8 "-" H 6050 4000 60  0001 C CNN "Tolerance"
-F 9 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H 6050 4000 60  0001 C CNN "Others"
-	1    6050 4000
-	-1   0    0    1   
-$EndComp
 Text Notes 4550 1800 0    236  ~ 47
 Haptic Motor
+$Comp
+L Conn_01x02 J2401
+U 1 1 5B316276
+P 6300 4000
+F 0 "J2401" H 6300 3800 50  0000 C CNN
+F 1 "Conn_01x02" H 6300 4100 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:1.25T-1-2AW" H 6300 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Boom-Precision-Elec-1-25T-1-2AW_C10832.pdf" H 6300 4000 50  0001 C CNN
+F 4 "Boom Precision" H 6300 4000 60  0001 C CNN "MFG Name"
+F 5 "1.25T-1-2AW" H 6300 4000 60  0001 C CNN "MFG Part Num"
+F 6 "1.25T-1-2AW" H 6300 4000 60  0001 C CNN "Distrib PN"
+F 7 "https://lcsc.com/product-detail/1-25T-Connectors_1-25T-1-2AW_C10832.html" H 6300 4000 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6300 4000 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/0530480210/molex" H 6300 4000 60  0001 C CNN "Others"
+	1    6300 4000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6050 4000 6100 4000
+Wire Wire Line
+	6050 3900 6100 3900
+$Comp
+L Motor_Haptic M2401
+U 1 1 5B316C25
+P 6600 3950
+F 0 "M2401" H 6750 4000 50  0000 L CNN
+F 1 "Motor" H 6750 3900 50  0000 L TNN
+F 2 "dvk-mx8m-bsb:BY0820Z021L20" H 6600 3920 50  0001 C CNN
+F 3 "https://cloud.puri.sm/s/z8JR6DJ4KrJYzoW" H 6600 3920 50  0001 C CNN
+F 4 "Yichang Flourishing" H 6600 3950 60  0001 C CNN "MFG Name"
+F 5 "BY0820Z021L20" H 6600 3950 60  0001 C CNN "MFG Part Num"
+F 6 "BY0820L20" H 6600 3950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.alibaba.com/product-detail/Coin-motor-vibration-dc-motorcellphone_1994583657.html?spm=a2700.8443308.0.0.5aa13e5f1wxHgs" H 6600 3950 60  0001 C CNN "Distrib Link"
+F 8 "-" H 6600 3950 60  0001 C CNN "Tolerance"
+F 9 "http://nfpshop.com/product/nfp-coin-motor-c0834-free-wire/" H 6600 3950 60  0001 C CNN "Others"
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
