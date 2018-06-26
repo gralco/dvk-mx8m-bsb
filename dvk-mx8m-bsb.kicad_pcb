@@ -23463,7 +23463,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B3229B9)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5B32A4AC) (tstamp 5B3229B9)
     (at 539.299763 142.049999)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -23472,7 +23472,7 @@
     (fp_text reference R1718 (at 0 -1.45) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10k (at 0 1.5) (layer F.Fab)
+    (fp_text value 1.62k (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
