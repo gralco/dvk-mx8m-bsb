@@ -6577,8 +6577,6 @@ F 3 "" H 8250 2850 50  0001 C CNN
 	1    8250 2850
 	-1   0    0    -1  
 $EndComp
-Text Notes 9650 2550 0    60   ~ 0
-TODO:\nChange CLKO1 lvl shifter\nVIH(min)=1.26V
 $Comp
 L 3V3_P #PWR0209
 U 1 1 5B333E35
