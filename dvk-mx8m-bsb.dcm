@@ -282,6 +282,12 @@ K diode TVS
 F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
 $ENDCMP
 #
+$CMP TXB0101
+D 1-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0101.pdf
+$ENDCMP
+#
 $CMP USB_SS3_VBUS
 D power-flag symbol USB_SS3_VBUS
 K Power Flag Symbol

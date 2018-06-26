@@ -232,17 +232,6 @@ Text HLabel 6100 3300 2    60   Output ~ 0
 Wire Wire Line
 	5750 3300 6100 3300
 Connection ~ 6050 3300
-$Comp
-L 3V3_OUT #PWR0141
-U 1 1 5B6A7D4C
-P 6050 2900
-F 0 "#PWR0141" H 6050 2750 50  0001 C CNN
-F 1 "3V3_OUT" H 6050 3040 50  0000 C CNN
-F 2 "" H 6050 2900 50  0001 C CNN
-F 3 "" H 6050 2900 50  0001 C CNN
-	1    6050 2900
-	1    0    0    -1  
-$EndComp
 Text Notes 4400 2650 0    60   ~ 0
 7-bit Slave Address: 0x68\n       (1101 000x)
 Text Notes 4750 2900 0    60   ~ 0
@@ -272,4 +261,15 @@ Wire Wire Line
 	6900 3400 6650 3400
 Text Notes 4500 1700 0    236  ~ 47
 Real-Time Clock
+$Comp
+L 3V3_OUT #PWR0141
+U 1 1 5B6A7D4C
+P 6050 2900
+F 0 "#PWR0141" H 6050 2750 50  0001 C CNN
+F 1 "3V3_OUT" H 6050 3040 50  0000 C CNN
+F 2 "" H 6050 2900 50  0001 C CNN
+F 3 "" H 6050 2900 50  0001 C CNN
+	1    6050 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

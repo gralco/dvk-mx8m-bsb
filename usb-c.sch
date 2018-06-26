@@ -1714,4 +1714,10 @@ F 9 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-c
 	1    10550 4050
 	-1   0    0    -1  
 $EndComp
+Text Notes 8225 2825 0    39   ~ 0
+35V
+Text Notes 8525 2825 0    39   ~ 0
+35V
+Text Notes 8825 2825 0    39   ~ 0
+35V
 $EndSCHEMATC
