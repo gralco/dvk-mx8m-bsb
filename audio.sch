@@ -1769,15 +1769,15 @@ L D_Zener_ALT D1603
 U 1 1 5AF88A1E
 P 9650 3650
 F 0 "D1603" V 9600 3450 50  0000 C CNN
-F 1 "SZMM5Z3V3T1G" V 9700 3300 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9650 3650 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MM5Z2V4T1-D.PDF" H 9650 3650 50  0001 C CNN
-F 4 "ON Semi" V 9650 3650 60  0001 C CNN "MFG Name"
-F 5 "SZMM5Z3V3T1G" V 9650 3650 60  0001 C CNN "MFG Part Num"
-F 6 "SZMM5Z3V3T1GOSCT-ND" V 9650 3650 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/on-semiconductor/SZMM5Z3V3T1G/SZMM5Z3V3T1GOSCT-ND/5969236" V 9650 3650 60  0001 C CNN "Distrib Link"
+F 1 "MMSZ4688" V 9700 3375 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:MMSZ4688" H 9650 3650 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85773/mmsz4681.pdf" H 9650 3650 50  0001 C CNN
+F 4 "Vishay" V 9650 3650 60  0001 C CNN "MFG Name"
+F 5 "MMSZ4688-E3-08" V 9650 3650 60  0001 C CNN "MFG Part Num"
+F 6 "78-MMSZ4688-E3-08" V 9650 3650 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/MMSZ4688-E3-08?qs=sGAEpiMZZMtQ8nqTKtFS%2fGqv07jO8JlbsURGmBCmasw%3d" V 9650 3650 60  0001 C CNN "Distrib Link"
 F 8 "-" V 9650 3650 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-zener-single/287?k=&pkeyword=&pv69=3&FV=mu3.31V%7C920%2Cmu3.3V%7C920%2Cmu3.42V%7C920%2Cmu3.43V%7C920%2Cmu3.45V%7C920%2Cmu3.4V%7C920%2Cmu3.5V%7C920%2C1f140000%2Cmu1.1V+%40+100mA%7C2261%2Cmu1.1V+%40+200mA%7C2261%2Cmu1V+%40+100mA%7C2261%2Cmu1V+%40+10mA%7C2261%2Cmu1V+%40+200mA%7C2261%2Cmu1V+%40+50mA%7C2261%2Cmu900mV+%40+100mA%7C2261%2Cmu900mV+%40+10mA%7C2261%2Cmu950mV+%40+10mA%7C2261%2Cffe0011f&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 9650 3650 60  0001 C CNN "Others"
+F 9 "http://www.digipart.com/part/MMSZ4688-E3-08" V 9650 3650 60  0001 C CNN "Others"
 	1    9650 3650
 	0    1    1    0   
 $EndComp
@@ -1791,8 +1791,8 @@ Wire Wire Line
 Wire Wire Line
 	9750 3900 9750 3850
 Connection ~ 9750 3850
-Text Notes 9200 3950 0    60   ~ 0
-Vz=3.3V\nVf=0.9V
+Text Notes 9200 4025 0    60   ~ 0
+Vz=4.7V\nVr=3.0V\nVf=0.9V
 Wire Wire Line
 	9300 3150 9900 3150
 Wire Wire Line
