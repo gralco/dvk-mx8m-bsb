@@ -818,15 +818,15 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 $EndComp
 Text HLabel 8900 2250 2    60   Input ~ 0
 ~W_DISABLE1
-Text Label 6150 2850 2    60   ~ 0
-WWAN_DN
 Text Label 6150 2950 2    60   ~ 0
+WWAN_DN
+Text Label 6150 2850 2    60   ~ 0
 WWAN_DP
 Text Notes 5750 3100 0    39   ~ 0
 suspend/sleep can be woken\nby USB command or DTR (unused)
-Text HLabel 6200 2950 2    60   BiDi ~ 0
-WWAN_DP
 Text HLabel 6200 2850 2    60   BiDi ~ 0
+WWAN_DP
+Text HLabel 6200 2950 2    60   BiDi ~ 0
 WWAN_DN
 Text Notes 5750 2750 0    60   ~ 0
 90Ω Trace\nImpedance
@@ -1132,9 +1132,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 2450 3250 2450
 Wire Wire Line
-	5200 2850 6200 2850
-Wire Wire Line
 	5200 2950 6200 2950
+Wire Wire Line
+	5200 2850 6200 2850
 Wire Wire Line
 	10000 1800 10200 1800
 Wire Wire Line
