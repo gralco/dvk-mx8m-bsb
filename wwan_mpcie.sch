@@ -871,7 +871,7 @@ F 2 "dvk-mx8m-bsb:74LVC1G08GF" H 8250 2150 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf" H 8250 2150 50  0001 C CNN
 F 4 "NXP" H 8250 2150 60  0001 C CNN "MFG Name"
 F 5 "74LVC1G08GF" H 8250 2150 60  0001 C CNN "MFG Part Num"
-F 6 "74LVC1G08GF/S505125" H 8250 2150 60  0001 C CNN "DIstrib PN"
+F 6 "74LVC1G08GF/S505125" H 8250 2150 60  0001 C CNN "Distrib PN"
 F 7 "https://www.rocelec.com/part/nexnxp74lvc1g08gf-s505125" H 8250 2150 60  0001 C CNN "Distrib Link"
 F 8 "-" H 8250 2150 60  0001 C CNN "Tolerance"
 F 9 "https://octopart.com/search?q=74LVC1G08GV%2C125&oq=74LVC1G08GV%2C125&start=0" H 8250 2150 60  0001 C CNN "Others"
