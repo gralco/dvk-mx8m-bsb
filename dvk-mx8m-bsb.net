@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Wed 27 Jun 2018 09:25:53 PM EDT")
+    (date "Wed 27 Jun 2018 10:02:30 PM EDT")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2497,7 +2497,7 @@
       (sheetpath (names "/Boot Config/") (tstamps /5ACBD81C/))
       (tstamp 5B30BB41))
     (comp (ref SW501)
-      (value DPDT)
+      (value BOOT_SW)
       (footprint dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN)
       (datasheet https://www.ckswitches.com/media/1422/js.pdf)
       (fields
@@ -3388,7 +3388,7 @@
       (sheetpath (names /MIPI/CSI/) (tstamps /5B120FA9/5B12DFE7/))
       (tstamp 5B2B061C))
     (comp (ref SW1301)
-      (value DPDT)
+      (value MIC_CAM_HKS)
       (footprint dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN)
       (datasheet https://www.ckswitches.com/media/1422/js.pdf)
       (fields
