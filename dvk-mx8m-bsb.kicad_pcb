@@ -8228,7 +8228,7 @@
     (at 460.629763 206.479999)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
-    (path /5ABE7AA4/5B024BFA)
+    (path /5ABE7AA4/5B488D5A)
     (attr smd)
     (fp_text reference C1607 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -24097,7 +24097,7 @@
 
   (module dvk-mx8m-bsb:Tact_SW_side (layer F.Cu) (tedit 5B081DB1) (tstamp 5B322ACD)
     (at 542.473096 111.379999)
-    (path /5ACBE3AE/5ACC39A6)
+    (path /5ACBE3AE/5B49E70C)
     (fp_text reference SW1402 (at 0.5 -2.85) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -24146,7 +24146,7 @@
 
   (module dvk-mx8m-bsb:Tact_SW_side (layer F.Cu) (tedit 5B081DB1) (tstamp 5B322AD3)
     (at 550.063096 101.879999)
-    (path /5ACBE3AE/5AFE7AB5)
+    (path /5ACBE3AE/5B49E7A1)
     (fp_text reference SW1403 (at 0.5 -2.85) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -24195,7 +24195,7 @@
 
   (module dvk-mx8m-bsb:Tact_SW_side (layer F.Cu) (tedit 5B081DB1) (tstamp 5B322AD9)
     (at 550.063096 107.379999)
-    (path /5ACBE3AE/5ACC3AC2)
+    (path /5ACBE3AE/5B49EA09)
     (fp_text reference SW1404 (at 0.5 -2.85) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -27095,7 +27095,7 @@
     )
   )
 
-  (module dvk-mx8m-bsb:EmCr_SOM_IMX8M_Outline (layer F.Cu) (tedit 5B344CC2) (tstamp 5B32241C)
+  (module dvk-mx8m-bsb:EmCr_SOM_IMX8M_Outline (layer F.Cu) (tedit 5B346340) (tstamp 5B32241C)
     (at 105 148.5)
     (path /5B2D28EC)
     (attr smd)
