@@ -594,17 +594,6 @@ F14 "HDMI_DDC_SDA" B R 12450 3000 60
 F15 "HDMI_DDC_SCL" I R 12450 2900 60 
 $EndSheet
 $Comp
-L R R105
-U 1 1 5B0AE8F9
-P 7950 9950
-F 0 "R105" H 8100 10000 50  0000 C CNN
-F 1 "10k" H 8075 9900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7880 9950 50  0001 C CNN
-F 3 "" H 7950 9950 50  0001 C CNN
-	1    7950 9950
-	-1   0    0    -1  
-$EndComp
-$Comp
 L R R106
 U 1 1 5B0AEFCA
 P 7950 10350
@@ -2582,4 +2571,21 @@ Wire Wire Line
 	2150 4150 2350 4150
 Wire Wire Line
 	2150 4250 2450 4250
+$Comp
+L R R105
+U 1 1 5B425E35
+P 7950 9950
+F 0 "R105" H 8100 10000 50  0000 C CNN
+F 1 "10k" H 8075 9900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7880 9950 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7950 9950 50  0001 C CNN
+F 4 "Stackpole" H 7950 9950 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 7950 9950 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 7950 9950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 7950 9950 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 7950 9950 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 7950 9950 60  0001 C CNN "Others"
+	1    7950 9950
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
