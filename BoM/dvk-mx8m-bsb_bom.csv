@@ -119,7 +119,6 @@ C1802,10nF,Capacitors_SMD:C_0603,,,,,,,
 C2003,10nF,Capacitors_SMD:C_0603,,,,,,,
 C2102,10nF,Capacitors_SMD:C_0603,,,,,,,
 C2302,10nF,Capacitors_SMD:C_0603,,,,,,,
-C912,10pF,Capacitors_SMD:C_0603,,,,,,,
 C203,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C213,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C201,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
@@ -144,6 +143,7 @@ C2005,10uF,Capacitors_SMD:C_0603,,,,,,,
 C1607,150nF,Capacitors_SMD:C_0603,https://content.kemet.com/datasheets/KEM_T2054_T499_AUTO.pdf,KEMET,T499A154K035ATE19K,399-5067-1-ND,https://www.digikey.com/product-detail/en/kemet/T499A154K035ATE19K/399-5067-1-ND/1211817,10%,https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?k=&pkeyword=&pv724=247&pv724=551&pv724=544&pv724=272&pv724=471&pv724=1427&pv724=591&pv724=561&pv724=586&FV=1140003%2C1f140000%2Cmu0.15%C2%B5F%7C2049%2Cffe0003b&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C908,18pF,Capacitors_SMD:C_0603,,,,,,,
 C909,18pF,Capacitors_SMD:C_0603,,,,,,,
+C912,18pF,Capacitors_SMD:C_0603,,,,,,,
 C1508,18pF,Capacitors_SMD:C_0603,,,,,,,
 C1811,18pF,Capacitors_SMD:C_0603,,,,,,,
 C1204,1nF,Capacitors_SMD:C_0603,,,,,,,
@@ -177,6 +177,7 @@ C1801,1uF,Capacitors_SMD:C_0603,,,,,,,
 C1816,1uF,Capacitors_SMD:C_0603,,,,,,,
 C1901,1uF,Capacitors_SMD:C_0603,,,,,,,
 C1902,1uF,Capacitors_SMD:C_0603,,,,,,,
+C2001,1uF,Capacitors_SMD:C_0603,,,,,,,
 C2202,1uF,Capacitors_SMD:C_0603,,,,,,,
 C2204,1uF,Capacitors_SMD:C_0603,,,,,,,
 C2203,1uF,Capacitors_SMD:C_0603,,,,,,,
@@ -243,7 +244,6 @@ C457,4.7uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?pro
 C901,4.7uF,Capacitors_SMD:C_0603,,,,,,,
 C1309,4.7uF,Capacitors_SMD:C_0603,,,,,,,
 C1303,4.7uF,Capacitors_SMD:C_0603,,,,,,,
-C2001,470nF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C303,47nF,Capacitors_SMD:C_0603,,,,,,,
 C427,560pF,Capacitors_SMD:C_0603,,,,,,,
 C1510,6.8pF,Capacitors_SMD:C_0603,,,,,,,
