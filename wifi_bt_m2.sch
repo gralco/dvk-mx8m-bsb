@@ -885,10 +885,10 @@ F 3 "" H 7750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1818
+L C C1819
 U 1 1 5AF3C976
 P 9000 4250
-F 0 "C1818" H 9025 4350 50  0000 L CNN
+F 0 "C1819" H 9025 4350 50  0000 L CNN
 F 1 "100nF" H 9025 4150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9038 4100 50  0001 C CNN
 F 3 "" H 9000 4250 50  0001 C CNN
@@ -1886,31 +1886,20 @@ $EndComp
 $Comp
 L GND #PWR0337
 U 1 1 5B1DE1E8
-P 8300 1450
-F 0 "#PWR0337" H 8300 1200 50  0001 C CNN
-F 1 "GND" H 8300 1300 50  0000 C CNN
-F 2 "" H 8300 1450 50  0001 C CNN
-F 3 "" H 8300 1450 50  0001 C CNN
-	1    8300 1450
+P 8550 1400
+F 0 "#PWR0337" H 8550 1150 50  0001 C CNN
+F 1 "GND" H 8550 1250 50  0000 C CNN
+F 2 "" H 8550 1400 50  0001 C CNN
+F 3 "" H 8550 1400 50  0001 C CNN
+	1    8550 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1811
-U 1 1 5B1DE1EE
-P 7050 1150
-F 0 "C1811" H 7050 1250 50  0000 L CNN
-F 1 "33pF" H 7075 1050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7088 1000 50  0001 C CNN
-F 3 "" H 7050 1150 50  0001 C CNN
-	1    7050 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C1812
-U 1 1 5B1DE1F5
+U 1 1 5B1DE1EE
 P 7300 1150
 F 0 "C1812" H 7300 1250 50  0000 L CNN
-F 1 "39pF" H 7325 1050 50  0000 L CNN
+F 1 "33pF" H 7325 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7338 1000 50  0001 C CNN
 F 3 "" H 7300 1150 50  0001 C CNN
 	1    7300 1150
@@ -1918,10 +1907,10 @@ F 3 "" H 7300 1150 50  0001 C CNN
 $EndComp
 $Comp
 L C C1813
-U 1 1 5B1DE1FC
+U 1 1 5B1DE1F5
 P 7550 1150
 F 0 "C1813" H 7550 1250 50  0000 L CNN
-F 1 "100nF" H 7550 1050 50  0000 L CNN
+F 1 "39pF" H 7575 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7588 1000 50  0001 C CNN
 F 3 "" H 7550 1150 50  0001 C CNN
 	1    7550 1150
@@ -1929,39 +1918,53 @@ F 3 "" H 7550 1150 50  0001 C CNN
 $EndComp
 $Comp
 L C C1814
-U 1 1 5B1DE203
+U 1 1 5B1DE1FC
 P 7800 1150
-F 0 "C1814" H 7800 1300 50  0000 L CNN
-F 1 "1uF" H 7825 1050 50  0000 L CNN
+F 0 "C1814" H 7800 1250 50  0000 L CNN
+F 1 "100nF" H 7800 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7838 1000 50  0001 C CNN
 F 3 "" H 7800 1150 50  0001 C CNN
 	1    7800 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C1816
+U 1 1 5B1DE203
+P 8050 1150
+F 0 "C1816" H 8050 1300 50  0000 L CNN
+F 1 "1uF" H 8075 1050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8088 1000 50  0001 C CNN
+F 3 "" H 8050 1150 50  0001 C CNN
+	1    8050 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 950  8550 1000
+Wire Wire Line
+	8550 1300 8550 1400
+Wire Wire Line
+	8300 1350 8300 1300
+Connection ~ 8300 1350
+Wire Wire Line
+	8050 1350 8050 1300
+Connection ~ 8050 1350
+Wire Wire Line
+	7800 1350 7800 1300
+Connection ~ 7800 1350
+Wire Wire Line
+	7550 1350 7550 1300
+Connection ~ 7550 1350
+Wire Wire Line
+	7300 1350 7300 1300
+Connection ~ 7300 1350
+Wire Wire Line
+	6800 1300 6800 1350
+Connection ~ 6800 1350
+Wire Wire Line
+	6550 1350 6550 1300
 Wire Wire Line
 	8300 950  8300 1000
-Wire Wire Line
-	8300 1300 8300 1450
-Wire Wire Line
-	8050 1400 8050 1300
-Connection ~ 8050 1400
-Wire Wire Line
-	7800 1400 7800 1300
-Connection ~ 7800 1400
-Wire Wire Line
-	7550 1400 7550 1300
-Connection ~ 7550 1400
-Wire Wire Line
-	7300 1400 7300 1300
-Connection ~ 7300 1400
-Wire Wire Line
-	7050 1400 7050 1300
-Connection ~ 7050 1400
-Wire Wire Line
-	6800 1300 6800 1400
-Connection ~ 6800 1400
-Wire Wire Line
-	6550 1400 6550 1300
+Connection ~ 8300 950 
 Wire Wire Line
 	8050 950  8050 1000
 Connection ~ 8050 950 
@@ -1975,19 +1978,16 @@ Wire Wire Line
 	7300 950  7300 1000
 Connection ~ 7300 950 
 Wire Wire Line
-	7050 950  7050 1000
-Connection ~ 7050 950 
-Wire Wire Line
 	6800 950  6800 1000
 Connection ~ 6800 950 
 Wire Wire Line
 	6550 950  6550 1000
 Connection ~ 6550 950 
-Connection ~ 8300 1400
+Connection ~ 8550 1350
 Wire Wire Line
-	6550 1400 8300 1400
+	6550 1350 8550 1350
 Wire Wire Line
-	5950 950  8300 950 
+	5950 950  8550 950 
 Connection ~ 6100 950 
 Text Notes 5350 900  0    60   ~ 0
 M.2 Key E
@@ -2085,20 +2085,20 @@ F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1816
+L CP1 C1817
 U 1 1 5B300A38
-P 8050 1150
-F 0 "C1816" H 8050 1300 50  0000 L CNN
-F 1 "220uF" H 8050 1050 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 8050 1150 50  0001 C CNN
-F 3 "http://datasheets.avx.com/TPS.pdf" H 8050 1150 50  0001 C CNN
-F 4 "AVX" H 8050 1150 60  0001 C CNN "MFG Name"
-F 5 "TPSD227K010R0100" H 8050 1150 60  0001 C CNN "MFG Part Num"
-F 6 "TPSD227K010R0100" H 8050 1150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.tme.eu/en/details/tpsd227k010r010/smd-tantalum-capacitors/avx/tpsd227k010r0100/" H 8050 1150 60  0001 C CNN "Distrib Link"
-F 8 "10%" H 8050 1150 60  0001 C CNN "Tolerance"
-F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 8050 1150 60  0001 C CNN "Others"
-	1    8050 1150
+P 8300 1150
+F 0 "C1817" H 8300 1300 50  0000 L CNN
+F 1 "220uF" H 8300 1050 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 8300 1150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/TPS.pdf" H 8300 1150 50  0001 C CNN
+F 4 "AVX" H 8300 1150 60  0001 C CNN "MFG Name"
+F 5 "TPSD227K010R0100" H 8300 1150 60  0001 C CNN "MFG Part Num"
+F 6 "TPSD227K010R0100" H 8300 1150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/tpsd227k010r010/smd-tantalum-capacitors/avx/tpsd227k010r0100/" H 8300 1150 60  0001 C CNN "Distrib Link"
+F 8 "10%" H 8300 1150 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 8300 1150 60  0001 C CNN "Others"
+	1    8300 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2135,22 +2135,39 @@ F 3 "" H 2700 4600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1817
+L CP1 C1818
 U 1 1 5B2ED326
-P 8300 1150
-F 0 "C1817" H 8300 1250 50  0000 L CNN
-F 1 "220uF" H 8300 1050 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 8300 1150 50  0001 C CNN
-F 3 "http://datasheets.avx.com/TPS.pdf" H 8300 1150 50  0001 C CNN
-F 4 "AVX" H 8300 1150 60  0001 C CNN "MFG Name"
-F 5 "TPSD227K010R0100" H 8300 1150 60  0001 C CNN "MFG Part Num"
-F 6 "TPSD227K010R0100" H 8300 1150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.tme.eu/en/details/tpsd227k010r010/smd-tantalum-capacitors/avx/tpsd227k010r0100/" H 8300 1150 60  0001 C CNN "Distrib Link"
-F 8 "10%" H 8300 1150 60  0001 C CNN "Tolerance"
-F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 8300 1150 60  0001 C CNN "Others"
-	1    8300 1150
+P 8550 1150
+F 0 "C1818" H 8550 1250 50  0000 L CNN
+F 1 "220uF" H 8550 1050 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 8550 1150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/TPS.pdf" H 8550 1150 50  0001 C CNN
+F 4 "AVX" H 8550 1150 60  0001 C CNN "MFG Name"
+F 5 "TPSD227K010R0100" H 8550 1150 60  0001 C CNN "MFG Part Num"
+F 6 "TPSD227K010R0100" H 8550 1150 60  0001 C CNN "Distrib PN"
+F 7 "https://www.tme.eu/en/details/tpsd227k010r010/smd-tantalum-capacitors/avx/tpsd227k010r0100/" H 8550 1150 60  0001 C CNN "Distrib Link"
+F 8 "10%" H 8550 1150 60  0001 C CNN "Tolerance"
+F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 8550 1150 60  0001 C CNN "Others"
+	1    8550 1150
 	1    0    0    -1  
 $EndComp
 Text Notes 1150 4200 0    60   ~ 0
 TODO:\nAssign antennae\nfootprints
+$Comp
+L C C1811
+U 1 1 5B36D6D1
+P 7050 1150
+F 0 "C1811" H 7050 1250 50  0000 L CNN
+F 1 "18pF" H 7075 1050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7088 1000 50  0001 C CNN
+F 3 "" H 7050 1150 50  0001 C CNN
+	1    7050 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1300 7050 1350
+Connection ~ 7050 1350
+Wire Wire Line
+	7050 1000 7050 950 
+Connection ~ 7050 950 
 $EndSCHEMATC
