@@ -2147,24 +2147,7 @@ F 3 "" H 4750 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 1200 4750 1950
-$Comp
-L CP1 C1607
-U 1 1 5B024BFA
-P 3950 2150
-F 0 "C1607" V 4000 2200 50  0000 L CNN
-F 1 "150nF" V 4000 1850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3950 2150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_T2054_T499_AUTO.pdf" H 3950 2150 50  0001 C CNN
-F 4 "KEMET" V 3950 2150 60  0001 C CNN "MFG Name"
-F 5 "T499A154K035ATE19K" V 3950 2150 60  0001 C CNN "MFG Part Num"
-F 6 "399-5067-1-ND" V 3950 2150 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/kemet/T499A154K035ATE19K/399-5067-1-ND/1211817" V 3950 2150 60  0001 C CNN "Distrib Link"
-F 8 "10%" V 3950 2150 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?k=&pkeyword=&pv724=247&pv724=551&pv724=544&pv724=272&pv724=471&pv724=1427&pv724=591&pv724=561&pv724=586&FV=1140003%2C1f140000%2Cmu0.15%C2%B5F%7C2049%2Cffe0003b&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 3950 2150 60  0001 C CNN "Others"
-	1    3950 2150
-	0    1    -1   0   
-$EndComp
-Text Notes 3800 2350 0    60   ~ 0
+Text Notes 3750 2350 0    60   ~ 0
 fc=106Hz
 Text Notes 8350 6175 0    60   ~ 0
 -37dB=14.1254mV/Pa\n∴ mic produces 14.1254mVrms when exposed to a\n   1kHz tone of 94dB-SPL at the capsule\n   (or 19.98mV amplitude)
@@ -8966,4 +8949,21 @@ Text Notes 7250 6350 0    60   ~ 0
 Note:\nAll switches' pins\ncan be swapped\ne.g. 5<->4\n or 5<->6\n (+camera)
 Text Notes 4350 850  0    236  ~ 47
 Audio
+$Comp
+L C C1607
+U 1 1 5B488D5A
+P 3950 2150
+F 0 "C1607" V 3900 2200 50  0000 L CNN
+F 1 "150nF" V 3900 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3988 2000 50  0001 C CNN
+F 3 "https://www.byipcb.com/downloads/CL10B154KA8NNNC.pdf" H 3950 2150 50  0001 C CNN
+F 4 "Samsung" V 3950 2150 60  0001 C CNN "MFG Name"
+F 5 "CL10B154KA8NNNC" V 3950 2150 60  0001 C CNN "MFG Part Num"
+F 6 "C21118" V 3950 2150 60  0001 C CNN "Distrib PN"
+F 7 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B154KA8NNNC_150nF-154-10-25V_C21118.html" V 3950 2150 60  0001 C CNN "Distrib Link"
+F 8 "10%" V 3950 2150 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv17=19&pv17=5&FV=c0003%2C400005%2C1f140000%2Cmu0.15%C2%B5F%7C2049%2Cffe0003c%2C380014%2C380016%2C380020&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 3950 2150 60  0001 C CNN "Others"
+	1    3950 2150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

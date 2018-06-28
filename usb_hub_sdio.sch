@@ -902,10 +902,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 5600 6600 5600
 Wire Wire Line
-	6600 6450 6600 5600
+	6600 5600 6600 6450
 Connection ~ 6350 6450
 Wire Wire Line
-	5950 6450 6600 6450
+	6600 6450 5950 6450
 Connection ~ 6200 6450
 Text Notes 3650 1050 0    236  ~ 47
 USB Hub + SDIO Bridge
