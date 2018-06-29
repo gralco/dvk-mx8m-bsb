@@ -2406,7 +2406,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 3700 4900 60 
 	1    0    0    -1  
 $EndComp
 Text Notes 1600 3200 0    60   ~ 0
-Drawing ~~333.33mA,\nor consuming <1.2W,\nshould give close to\n10 hours going from\n100% to 0% charge
+Drawing ~~320mA,\nor consuming ≤1.152W,\nshould give close to\n10 hours going from\n100% to 0% charge
 Text Notes 4750 2300 0    60   ~ 0
 7-bit Slave Address: 0x6B\n       (1101 011x)
 Text Notes 4000 4150 0    60   ~ 0
