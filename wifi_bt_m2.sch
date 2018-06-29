@@ -48,9 +48,9 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 Text HLabel 5250 1400 0    60   BiDi ~ 0
-WLAN_DP
+WLAN_D_P
 Text HLabel 5250 1500 0    60   BiDi ~ 0
-WLAN_DN
+WLAN_D_N
 $Comp
 L GND #PWR0311
 U 1 1 5B01D9F9

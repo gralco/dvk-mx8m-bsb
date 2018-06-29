@@ -50,9 +50,9 @@ $EndDescr
 Text Notes 3600 5150 0    60   ~ 0
 Reference:\nhttp://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=EVB-SEC1110
 Text HLabel 4600 2500 0    60   BiDi ~ 0
-SMARTCARD_DP
+SMARTCARD_D_P
 Text HLabel 4600 2600 0    60   BiDi ~ 0
-SMARTCARD_DN
+SMARTCARD_D_N
 $Comp
 L 5V_P #PWR0370
 U 1 1 5B1F0A54

@@ -261,7 +261,7 @@ F 3 "https://www.coilcraft.com/pdfs/xal4000.pdf" H 2500 3600 50  0001 C CNN
 F 4 "Coilcraft" V 2500 3600 60  0001 C CNN "MFG Name"
 F 5 "XAL4020-102MEC" V 2500 3600 60  0001 C CNN "MFG Part Num"
 F 6 "994-XAL4020-102MEC" V 2500 3600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Coilcraft/XAL4020-102MEC?qs=zCSbvcPd3pbLq0M7ZKfPRA%3D%3D" V 2500 3600 60  0001 C CNN "Distrib Link"
+F 7 "https://www.mouser.com/ProductDetail/Coilcraft/XAL4020-102MEC?qs=zCSbvcPD3_PbLq0M7ZKfPRA%3D%3D" V 2500 3600 60  0001 C CNN "Distrib Link"
 F 8 "-" V 2500 3600 60  0001 C CNN "Tolerance"
 F 9 "https://www.mouser.com/ProductDetail/Coilcraft/XAL4020-102MEB?qs=sGAEpiMZZMsg%252by3WlYCkU2kWFds1hA9Dw%2fxz62COX58%3d" V 2500 3600 60  0001 C CNN "Others"
 	1    2500 3600
@@ -362,7 +362,7 @@ F 5 "GRM188R61A105KA61D" H 1700 4150 60  0001 C CNN "MFG Part Num"
 F 6 "490-1543-1-ND" H 1700 4150 60  0001 C CNN "Distrib PN"
 F 7 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A105KA61D/490-1543-1-ND/587782" H 1700 4150 60  0001 C CNN "Distrib Link"
 F 8 "-" H 1700 4150 60  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/productdetail/?qs=LlFn95tWfDgsujID1PD8Jw%3D%3D" H 1700 4150 60  0001 C CNN "Others"
+F 9 "https://www.mouser.com/productdetail/?qs=LlFn95tWfDgsujID1_PD8Jw%3D%3D" H 1700 4150 60  0001 C CNN "Others"
 	1    1700 4150
 	-1   0    0    -1  
 $EndComp

@@ -819,15 +819,15 @@ $EndComp
 Text HLabel 8900 2250 2    60   Input ~ 0
 ~W_DISABLE1
 Text Label 6150 2950 2    60   ~ 0
-WWAN_DN
+WWAN_D_N
 Text Label 6150 2850 2    60   ~ 0
-WWAN_DP
+WWAN_D_P
 Text Notes 5750 3100 0    39   ~ 0
 suspend/sleep can be woken\nby USB command or DTR (unused)
 Text HLabel 6200 2850 2    60   BiDi ~ 0
-WWAN_DP
+WWAN_D_P
 Text HLabel 6200 2950 2    60   BiDi ~ 0
-WWAN_DN
+WWAN_D_N
 Text Notes 5750 2750 0    60   ~ 0
 90Ω Trace\nImpedance
 Text Label 3250 2450 0    60   ~ 0

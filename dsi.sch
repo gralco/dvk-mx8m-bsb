@@ -48,25 +48,25 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 Text HLabel 8650 4450 0    60   Input ~ 0
-D2P
+D2_P
 Text HLabel 8650 4550 0    60   Input ~ 0
-D2N
+D2_N
 Text HLabel 8650 3550 0    60   Input ~ 0
-D1P
+D1_P
 Text HLabel 8650 3650 0    60   Input ~ 0
-D1N
+D1_N
 Text HLabel 8650 3850 0    60   Input ~ 0
-CLKP
+CLK_P
 Text HLabel 8650 3950 0    60   Input ~ 0
-CLKN
+CLK_N
 Text HLabel 8650 4150 0    60   Input ~ 0
-D0P
+D0_P
 Text HLabel 8650 4250 0    60   Input ~ 0
-D0N
+D0_N
 Text HLabel 8650 3250 0    60   Input ~ 0
-D3P
+D3_P
 Text HLabel 8650 3350 0    60   Input ~ 0
-D3N
+D3_N
 Text HLabel 5550 3500 0    60   BiDi ~ 0
 I2C1_SDA_1V8
 Text HLabel 5550 3400 0    60   Input ~ 0

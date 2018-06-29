@@ -81,9 +81,9 @@ F 3 "" H 6350 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text HLabel 4000 2550 0    60   BiDi ~ 0
-USB2_DN
+USB2_D_N
 Text HLabel 4000 2650 0    60   BiDi ~ 0
-USB2_DP
+USB2_D_P
 Text HLabel 4000 2800 0    60   Output ~ 0
 USB2_ID
 $Comp
@@ -100,13 +100,13 @@ $EndComp
 Text Notes 3400 2950 0    60   ~ 0
 Always Host
 Text HLabel 7000 4400 2    60   BiDi ~ 0
-WWAN_DP
+WWAN_D_P
 Text HLabel 7000 4500 2    60   BiDi ~ 0
-WWAN_DN
+WWAN_D_N
 Text HLabel 7000 4200 2    60   BiDi ~ 0
-WLAN_DP
+WLAN_D_P
 Text HLabel 7000 4300 2    60   BiDi ~ 0
-WLAN_DN
+WLAN_D_N
 Text HLabel 4300 4200 0    60   Output ~ 0
 uSD_CLK
 Text HLabel 4300 4700 0    60   BiDi ~ 0
@@ -218,9 +218,9 @@ DP0
 Text Label 7600 4100 2    60   ~ 0
 DM0
 Text HLabel 7000 4600 2    60   BiDi ~ 0
-SMARTCARD_DP
+SMARTCARD_D_P
 Text HLabel 7000 4700 2    60   BiDi ~ 0
-SMARTCARD_DN
+SMARTCARD_D_N
 Text Notes 7900 4600 0    60   ~ 0
 Can be swapped arround depending on layout
 $Comp

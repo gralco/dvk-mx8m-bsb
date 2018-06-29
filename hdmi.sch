@@ -210,25 +210,25 @@ F 3 "" H 4150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1200 1900 0    60   Output ~ 0
-HDMI_AUXP
+HDMI_AUX_P
 Text HLabel 1200 2000 0    60   Output ~ 0
-HDMI_AUXN
+HDMI_AUX_N
 Text HLabel 1200 2150 0    60   Input ~ 0
-HDMI_TX0P
+HDMI_TX0_P
 Text HLabel 1200 2250 0    60   Input ~ 0
-HDMI_TX0N
+HDMI_TX0_N
 Text HLabel 1200 2400 0    60   Input ~ 0
-HDMI_CLKP
+HDMI_CLK_P
 Text HLabel 1200 2500 0    60   Input ~ 0
-HDMI_CLKN
+HDMI_CLK_N
 Text HLabel 1200 3850 0    60   Input ~ 0
-HDMI_TX2P
+HDMI_TX2_P
 Text HLabel 1200 3950 0    60   Input ~ 0
-HDMI_TX2N
+HDMI_TX2_N
 Text HLabel 1200 4100 0    60   Input ~ 0
-HDMI_TX1P
+HDMI_TX1_P
 Text HLabel 1200 4200 0    60   Input ~ 0
-HDMI_TX1N
+HDMI_TX1_N
 $Comp
 L GND #PWR0341
 U 1 1 5B08911B
@@ -307,41 +307,41 @@ F 3 "" H 9600 4650 50  0001 C CNN
 	1    9600 4650
 	-1   0    0    1   
 $EndComp
-Text HLabel 6850 4200 0    60   Output ~ 0
+Text HLabel 6800 4200 0    60   Output ~ 0
 HDMI_HPD
-Text Label 6850 3700 0    60   ~ 0
+Text Label 6800 3700 0    60   ~ 0
 HDMI_Utility
-Text Label 6850 2400 0    60   ~ 0
-HDMI_TX2P_CN
-Text Label 6850 2600 0    60   ~ 0
-HDMI_TX2N_CN
-Text Label 6850 2700 0    60   ~ 0
-HDMI_TX1P_CN
-Text Label 6850 2900 0    60   ~ 0
-HDMI_TX1N_CN
-Text Label 6850 3000 0    60   ~ 0
-HDMI_TX0P_CN
-Text Label 6850 3200 0    60   ~ 0
-HDMI_TX0N_CN
-Text Label 6850 3300 0    60   ~ 0
-HDMI_CLKP_CN
-Text Label 6850 3500 0    60   ~ 0
-HDMI_CLKN_CN
-Text HLabel 6850 3600 0    60   BiDi ~ 0
+Text Label 6800 2400 0    60   ~ 0
+HDMI_CN_TX2_P
+Text Label 6800 2600 0    60   ~ 0
+HDMI_CN_TX2_N
+Text Label 6800 2700 0    60   ~ 0
+HDMI_CN_TX1_P
+Text Label 6800 2900 0    60   ~ 0
+HDMI_CN_TX1_N
+Text Label 6800 3000 0    60   ~ 0
+HDMI_CN_TX0_P
+Text Label 6800 3200 0    60   ~ 0
+HDMI_CN_TX0_N
+Text Label 6800 3300 0    60   ~ 0
+HDMI_CN_CLK_P
+Text Label 6800 3500 0    60   ~ 0
+HDMI_CN_CLK_N
+Text HLabel 6800 3600 0    60   BiDi ~ 0
 HDMI_CEC
-Text HLabel 6850 3800 0    60   Input ~ 0
+Text HLabel 6800 3800 0    60   Input ~ 0
 HDMI_DDC_SCL
-Text HLabel 6850 3900 0    60   BiDi ~ 0
+Text HLabel 6800 3900 0    60   BiDi ~ 0
 HDMI_DDC_SDA
-Text Label 6850 4100 0    60   ~ 0
+Text Label 6800 4100 0    60   ~ 0
 DCDC_5V_CN
-Text Label 6850 3600 0    60   ~ 0
+Text Label 6800 3600 0    60   ~ 0
 HDMI_CEC
-Text Label 6850 3800 0    60   ~ 0
+Text Label 6800 3800 0    60   ~ 0
 HDMI_DDC_SCL
-Text Label 6850 3900 0    60   ~ 0
+Text Label 6800 3900 0    60   ~ 0
 HDMI_DDC_SDA
-Text Label 6850 4200 0    60   ~ 0
+Text Label 6800 4200 0    60   ~ 0
 HDMI_HPD
 Text Notes 9300 4850 0    60   ~ 0
 ±1%!!!
@@ -427,21 +427,21 @@ HDMI_Utility
 Text Label 5400 2000 2    60   ~ 0
 HDMI_HPD
 Text Label 5400 2150 2    60   ~ 0
-HDMI_TX0P_CN
+HDMI_CN_TX0_P
 Text Label 5400 2250 2    60   ~ 0
-HDMI_TX0N_CN
+HDMI_CN_TX0_N
 Text Label 5400 2400 2    60   ~ 0
-HDMI_CLKP_CN
+HDMI_CN_CLK_P
 Text Label 5400 2500 2    60   ~ 0
-HDMI_CLKN_CN
+HDMI_CN_CLK_N
 Text Label 5400 3850 2    60   ~ 0
-HDMI_TX2P_CN
+HDMI_CN_TX2_P
 Text Label 5400 3950 2    60   ~ 0
-HDMI_TX2N_CN
+HDMI_CN_TX2_N
 Text Label 5400 4100 2    60   ~ 0
-HDMI_TX1P_CN
+HDMI_CN_TX1_P
 Text Label 5400 4200 2    60   ~ 0
-HDMI_TX1N_CN
+HDMI_CN_TX1_N
 Text Notes 10000 2000 0    39   ~ 0
 SMD Micro-HDMI Type D Alternative:\n0467650301
 $Comp
@@ -711,7 +711,7 @@ Text Notes 3250 5050 0    60   ~ 0
 Text Notes 1300 3700 0    60   ~ 0
 Dual N-Fet annotation\nmust follow text!
 Wire Wire Line
-	7550 4500 7550 1850
+	7550 1850 7550 4500
 Connection ~ 9600 4200
 Wire Wire Line
 	9600 4500 9600 4200
@@ -731,11 +731,11 @@ Connection ~ 10450 4450
 Wire Wire Line
 	10450 4400 10450 4450
 Wire Wire Line
-	10600 2150 10600 4450
+	10600 4450 10600 2150
 Wire Wire Line
-	10450 2150 10600 2150
+	10600 2150 10450 2150
 Wire Wire Line
-	10450 2200 10450 2150
+	10450 2150 10450 2200
 Wire Wire Line
 	4700 4200 5400 4200
 Wire Wire Line
@@ -795,44 +795,44 @@ Wire Wire Line
 	6050 1850 6500 1850
 Connection ~ 10200 4000
 Wire Wire Line
-	10250 4000 10200 4000
+	10200 4000 10250 4000
 Connection ~ 10200 3400
 Wire Wire Line
-	10250 3400 10200 3400
+	10200 3400 10250 3400
 Connection ~ 10200 3100
 Wire Wire Line
-	10250 3100 10200 3100
+	10200 3100 10250 3100
 Connection ~ 10200 2800
 Wire Wire Line
 	10250 2800 10200 2800
 Wire Wire Line
 	10250 2500 10200 2500
 Wire Wire Line
-	6850 3900 10250 3900
+	6800 3900 10250 3900
 Wire Wire Line
-	6850 3800 10250 3800
+	6800 3800 10250 3800
 Wire Wire Line
-	6850 3600 10250 3600
+	6800 3600 10250 3600
 Wire Wire Line
-	10250 3500 6850 3500
+	10250 3500 6800 3500
 Wire Wire Line
-	10250 3300 6850 3300
+	10250 3300 6800 3300
 Wire Wire Line
-	10250 3200 6850 3200
+	10250 3200 6800 3200
 Wire Wire Line
-	10250 3000 6850 3000
+	10250 3000 6800 3000
 Wire Wire Line
-	10250 2900 6850 2900
+	10250 2900 6800 2900
 Wire Wire Line
-	10250 2700 6850 2700
+	10250 2700 6800 2700
 Wire Wire Line
-	10250 2600 6850 2600
+	10250 2600 6800 2600
 Wire Wire Line
-	6850 2400 10250 2400
+	6800 2400 10250 2400
 Wire Wire Line
-	10250 3700 6850 3700
+	10250 3700 6800 3700
 Wire Wire Line
-	6850 4200 10250 4200
+	6800 4200 10250 4200
 Connection ~ 8100 4850
 Wire Wire Line
 	7550 4850 10200 4850
@@ -860,7 +860,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 4450 10000 4500
 Wire Wire Line
-	10600 4450 10000 4450
+	10000 4450 10600 4450
 Wire Wire Line
 	1250 3350 4250 3350
 Wire Wire Line
@@ -1004,11 +1004,11 @@ Wire Wire Line
 	1250 3300 1250 3350
 Connection ~ 7550 4100
 Wire Wire Line
-	6850 4100 10250 4100
+	6800 4100 10250 4100
 Wire Wire Line
-	8100 4500 8100 2350
+	8100 2350 8100 4500
 Wire Wire Line
-	9200 4500 9200 2350
+	9200 2350 9200 4500
 Connection ~ 8100 3900
 Connection ~ 8650 3800
 Connection ~ 9200 3600
