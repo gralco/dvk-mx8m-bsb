@@ -430,28 +430,6 @@ F 3 "" H 1300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Antenna AE1501
-U 1 1 5B119046
-P 950 2500
-F 0 "AE1501" H 875 2550 50  0000 R CNN
-F 1 "Antenna" H 875 2475 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 950 2500 50  0001 C CNN
-F 3 "" H 950 2500 50  0001 C CNN
-	1    950  2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Antenna AE1502
-U 1 1 5B11916E
-P 950 4650
-F 0 "AE1502" H 875 4700 50  0000 R CNN
-F 1 "Antenna" H 875 4625 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 950 4650 50  0001 C CNN
-F 3 "" H 950 4650 50  0001 C CNN
-	1    950  4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C1507
 U 1 1 5B18C1DE
 P 2850 1700
@@ -1670,4 +1648,52 @@ Text Notes 600  3600 0    60   ~ 0
 TODO:\nAssign antennae\nfootprints
 Text Notes 5510 3200 0    39   ~ 0
 internal pull-up
+$Comp
+L Antenna_Shield AE1501
+U 1 1 5B383934
+P 950 2500
+F 0 "AE1501" H 1300 2625 50  0000 R CNN
+F 1 "Antenna" H 1300 2550 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 950 2600 50  0001 C CNN
+F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 950 2600 50  0001 C CNN
+	1    950  2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Antenna_Shield AE1502
+U 1 1 5B385C8C
+P 950 4650
+F 0 "AE1502" H 1300 4775 50  0000 R CNN
+F 1 "Antenna" H 1300 4700 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 950 4750 50  0001 C CNN
+F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 950 4750 50  0001 C CNN
+	1    950  4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0258
+U 1 1 5B38604E
+P 850 4900
+F 0 "#PWR0258" H 850 4650 50  0001 C CNN
+F 1 "GND" H 850 4750 50  0000 C CNN
+F 2 "" H 850 4900 50  0001 C CNN
+F 3 "" H 850 4900 50  0001 C CNN
+	1    850  4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  4900 850  4850
+$Comp
+L GND #PWR0259
+U 1 1 5B3865C4
+P 850 2750
+F 0 "#PWR0259" H 850 2500 50  0001 C CNN
+F 1 "GND" H 850 2600 50  0000 C CNN
+F 2 "" H 850 2750 50  0001 C CNN
+F 3 "" H 850 2750 50  0001 C CNN
+	1    850  2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2750 850  2700
 $EndSCHEMATC

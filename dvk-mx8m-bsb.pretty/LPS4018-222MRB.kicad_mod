@@ -1,4 +1,4 @@
-(module LPS4018-222MRB (layer F.Cu) (tedit 5B1A0283)
+(module LPS4018-222MRB (layer F.Cu) (tedit 5B36FEFD)
   (descr "Inductor, Coilcraft, XAL5030-222, 3.9mmx3.9mm")
   (tags "inductor Coilcraft smd")
   (solder_mask_margin 0.1)
@@ -31,7 +31,7 @@
   (pad 2 smd rect (at 1.645 1.39 44.4838) (size 0.78492 0.78492) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.3375 -1.1625 45.7314) (size 0.830918 0.830918) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.3375 1.1625 314.2686) (size 0.830918 0.830918) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.3375 -1.1625 314.2686) (size 0.830918 0.830918) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 1.3375 -1.1625 314.2686) (size 0.830918 0.830918) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.3375 1.1625 45.7314) (size 0.830918 0.830918) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/sealed_inductor.wrl
     (at (xyz 0 0 0))
