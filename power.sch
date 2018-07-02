@@ -420,10 +420,10 @@ $EndComp
 Text Notes 8950 2400 0    60   ~ 0
 Buck instead of TLV70218 LDO\n  saving up to ~~100mW loss
 $Comp
-L C C457
+L C C458
 U 1 1 5ACDF173
 P 7800 1550
-F 0 "C457" H 7825 1650 50  0000 L CNN
+F 0 "C458" H 7825 1650 50  0000 L CNN
 F 1 "4.7uF" H 7825 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7838 1400 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BJ475KA-T&fileName=LMK107BJ475KA-T_SS&mode=specSheetDownload" H 7800 1550 50  0001 C CNN
@@ -589,10 +589,10 @@ F 3 "" H 4300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C452
+L C C453
 U 1 1 5B4026A2
 P 6750 4150
-F 0 "C452" H 6750 4250 50  0000 L CNN
+F 0 "C453" H 6750 4250 50  0000 L CNN
 F 1 "100nF" H 6750 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6788 4000 50  0001 C CNN
 F 3 "" H 6750 4150 50  0001 C CNN
@@ -776,10 +776,10 @@ F 3 "" H 1450 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C459
+L C C460
 U 1 1 5B1C4CAA
 P 9900 1500
-F 0 "C459" H 9925 1600 50  0000 L CNN
+F 0 "C460" H 9925 1600 50  0000 L CNN
 F 1 "22uF" H 9925 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9938 1350 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R61C226ME15-01.pdf" H 9900 1500 50  0001 C CNN
@@ -797,10 +797,10 @@ Power TCPC\nchip first
 Text Notes 1600 4800 0    60   ~ 0
 ~~30ms until\nEN is HIGH
 $Comp
-L R R412
+L R R413
 U 1 1 5B24C59F
 P 5150 3650
-F 0 "R412" V 5230 3650 50  0000 C CNN
+F 0 "R413" V 5230 3650 50  0000 C CNN
 F 1 "NC" V 5050 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 5080 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 5150 3650 50  0001 C CNN
@@ -886,10 +886,10 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-led-driver
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C455
+L C C456
 U 1 1 5B19DCF4
 P 7750 3650
-F 0 "C455" H 7775 3750 50  0000 L CNN
+F 0 "C456" H 7775 3750 50  0000 L CNN
 F 1 "10uF" H 7775 3550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7788 3500 50  0001 C CNN
 F 3 "" H 7750 3650 50  0001 C CNN
@@ -897,10 +897,10 @@ F 3 "" H 7750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C456
+L C C457
 U 1 1 5B19DE3D
 P 7750 4250
-F 0 "C456" H 7775 4350 50  0000 L CNN
+F 0 "C457" H 7775 4350 50  0000 L CNN
 F 1 "1uF" H 7775 4150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7788 4100 50  0001 C CNN
 F 3 "" H 7750 4250 50  0001 C CNN
@@ -997,10 +997,10 @@ F 3 "" H 10100 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C460
+L C C461
 U 1 1 5B1A5C1F
 P 10500 3750
-F 0 "C460" H 10525 3850 50  0000 L CNN
+F 0 "C461" H 10525 3850 50  0000 L CNN
 F 1 "1uF" H 10525 3650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10538 3600 50  0001 C CNN
 F 3 "" H 10500 3750 50  0001 C CNN
@@ -1041,10 +1041,10 @@ F 3 "" H 8850 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C458
+L C C459
 U 1 1 5B1A7173
 P 8200 4750
-F 0 "C458" H 8225 4850 50  0000 L CNN
+F 0 "C459" H 8225 4850 50  0000 L CNN
 F 1 "100nF" H 8225 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8238 4600 50  0001 C CNN
 F 3 "" H 8200 4750 50  0001 C CNN
@@ -1127,14 +1127,14 @@ OVP@~~37.6V
 Text Notes 9150 5375 0    39   ~ 0
 (brochure lists backlight as an application)
 $Comp
-L C C445
+L C C443
 U 1 1 5B37D653
-P 5150 6400
-F 0 "C445" H 5175 6500 50  0000 L CNN
-F 1 "1uF" H 5175 6300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5188 6250 50  0001 C CNN
-F 3 "" H 5150 6400 50  0001 C CNN
-	1    5150 6400
+P 4800 6400
+F 0 "C443" H 4825 6500 50  0000 L CNN
+F 1 "1uF" H 4825 6300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4838 6250 50  0001 C CNN
+F 3 "" H 4800 6400 50  0001 C CNN
+	1    4800 6400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1509,126 +1509,126 @@ Wire Notes Line
 Wire Notes Line
 	11000 2750 7500 2750
 Wire Wire Line
-	5550 6200 5500 6200
+	5150 6200 5600 6200
 Wire Wire Line
-	5550 6100 5150 6100
+	5600 6100 4800 6100
 $Comp
 L GND #PWR0112
 U 1 1 5B37DFCB
-P 5850 6650
-F 0 "#PWR0112" H 5850 6400 50  0001 C CNN
-F 1 "GND" H 5850 6500 50  0000 C CNN
-F 2 "" H 5850 6650 50  0001 C CNN
-F 3 "" H 5850 6650 50  0001 C CNN
-	1    5850 6650
+P 5900 6650
+F 0 "#PWR0112" H 5900 6400 50  0001 C CNN
+F 1 "GND" H 5900 6500 50  0000 C CNN
+F 2 "" H 5900 6650 50  0001 C CNN
+F 3 "" H 5900 6650 50  0001 C CNN
+	1    5900 6650
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C450
+L C C451
 U 1 1 5B37E46F
-P 6250 6300
-F 0 "C450" H 6275 6400 50  0000 L CNN
-F 1 "1uF" H 6275 6200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 6150 50  0001 C CNN
-F 3 "" H 6250 6300 50  0001 C CNN
-	1    6250 6300
+P 6300 6300
+F 0 "C451" H 6325 6400 50  0000 L CNN
+F 1 "1uF" H 6325 6200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6338 6150 50  0001 C CNN
+F 3 "" H 6300 6300 50  0001 C CNN
+	1    6300 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 6550 5150 6600
-Connection ~ 5850 6600
+	4800 6550 4800 6600
+Connection ~ 5900 6600
 Wire Wire Line
-	5850 6500 5850 6650
+	5900 6500 5900 6650
 Wire Wire Line
-	5150 6600 6250 6600
+	4800 6600 6300 6600
 Wire Wire Line
-	6250 6600 6250 6450
+	6300 6600 6300 6450
 Wire Wire Line
-	5150 6200 5200 6200
-Connection ~ 5150 6200
+	4800 6200 4850 6200
+Connection ~ 4800 6200
 $Comp
 L 3V3_P #PWR0113
 U 1 1 5B3810B3
-P 5150 6050
-F 0 "#PWR0113" H 5150 5900 50  0001 C CNN
-F 1 "3V3_P" H 5150 6190 50  0000 C CNN
-F 2 "" H 5150 6050 50  0001 C CNN
-F 3 "" H 5150 6050 50  0001 C CNN
-	1    5150 6050
+P 4800 6050
+F 0 "#PWR0113" H 4800 5900 50  0001 C CNN
+F 1 "3V3_P" H 4800 6190 50  0000 C CNN
+F 2 "" H 4800 6050 50  0001 C CNN
+F 3 "" H 4800 6050 50  0001 C CNN
+	1    4800 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 6050 5150 6250
-Connection ~ 5150 6100
-Connection ~ 6250 6100
+	4800 6050 4800 6250
+Connection ~ 4800 6100
+Connection ~ 6300 6100
 $Comp
 L MIC5365-2.8 U403
 U 1 1 5B3887C4
-P 5850 6200
-F 0 "U403" H 5750 6425 50  0000 C CNN
-F 1 "MIC5365-2.8" H 5275 5950 50  0000 L CNN
-F 2 "dvk-mx8m-bsb:MIC5365-2.8YD5" H 5850 6525 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf" H 5850 6200 50  0001 C CNN
-F 4 "Microchip" H 5850 6200 60  0001 C CNN "MFG Name"
-F 5 "MIC5365-2.8YD5" H 5850 6200 60  0001 C CNN "MFG Part Num"
-F 6 "1611-MIC5365-2.85YC5-CT-ND" H 5850 6200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5365-2.8YD5-TR/1611-MIC5365-2.8YD5-CT-ND/5700550" H 5850 6200 60  0001 C CNN "Distrib Link"
-F 8 "-" H 5850 6200 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5850 6200 60  0001 C CNN "Others"
-	1    5850 6200
+P 5900 6200
+F 0 "U403" H 5800 6425 50  0000 C CNN
+F 1 "MIC5365-2.8" H 5325 5960 50  0000 L CNN
+F 2 "dvk-mx8m-bsb:MIC5365-2.8YD5" H 5900 6525 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf" H 5900 6200 50  0001 C CNN
+F 4 "Microchip" H 5900 6200 60  0001 C CNN "MFG Name"
+F 5 "MIC5365-2.8YD5" H 5900 6200 60  0001 C CNN "MFG Part Num"
+F 6 "1611-MIC5365-2.85YC5-CT-ND" H 5900 6200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5365-2.8YD5-TR/1611-MIC5365-2.8YD5-CT-ND/5700550" H 5900 6200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5900 6200 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5900 6200 60  0001 C CNN "Others"
+	1    5900 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R413
+L R R412
 U 1 1 5B3B9540
-P 5350 6200
-F 0 "R413" V 5450 6200 50  0000 C CNN
-F 1 "10k" V 5350 6200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5280 6200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5350 6200 50  0001 C CNN
-F 4 "Stackpole" H 5350 6200 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 5350 6200 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 5350 6200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5350 6200 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 5350 6200 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5350 6200 60  0001 C CNN "Others"
-	1    5350 6200
+P 5000 6200
+F 0 "R412" V 5100 6200 50  0000 C CNN
+F 1 "10k" V 5000 6200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4930 6200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5000 6200 50  0001 C CNN
+F 4 "Stackpole" H 5000 6200 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 5000 6200 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 5000 6200 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 5000 6200 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 5000 6200 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 5000 6200 60  0001 C CNN "Others"
+	1    5000 6200
 	0    -1   1    0   
 $EndComp
 $Comp
 L 2V8_P #PWR0114
 U 1 1 5B3FE831
-P 6250 6050
-F 0 "#PWR0114" H 6250 5900 50  0001 C CNN
-F 1 "2V8_P" H 6250 6190 50  0000 C CNN
-F 2 "" H 6250 6050 50  0001 C CNN
-F 3 "" H 6250 6050 50  0001 C CNN
-	1    6250 6050
+P 6300 6050
+F 0 "#PWR0114" H 6300 5900 50  0001 C CNN
+F 1 "2V8_P" H 6300 6190 50  0000 C CNN
+F 2 "" H 6300 6050 50  0001 C CNN
+F 3 "" H 6300 6050 50  0001 C CNN
+	1    6300 6050
 	1    0    0    -1  
 $EndComp
-Text HLabel 6300 6100 2    60   Output ~ 0
+Text HLabel 6350 6100 2    60   Output ~ 0
 2V8_P
 Wire Wire Line
-	6150 6100 6300 6100
+	6200 6100 6350 6100
 Wire Wire Line
-	6250 6050 6250 6150
+	6300 6050 6300 6150
 Text HLabel 10550 3450 2    60   Output ~ 0
 22V4_P
 Wire Wire Line
 	9950 3450 10550 3450
-Text Notes 4650 5800 0    236  ~ 47
+Text Notes 4625 5800 0    236  ~ 47
 2.8V/150mA
 Wire Notes Line
-	4600 5450 4600 6850
+	4550 5450 4550 6850
 Wire Notes Line
-	4600 6850 6900 6850
+	4550 6850 6900 6850
 Wire Notes Line
 	6900 6850 6900 5450
 Wire Notes Line
-	6900 5450 4600 5450
+	6900 5450 4550 5450
 Text Notes 10150 1875 0    39   ~ 0
 Worst-case current draw:\n Camera =140mA\n USB Switch=113mA\n Audio Codec=12mA\n Level Shifters=1.5mA\n Display=?mA\nRemaining≅333.5mA
-Text Notes 6350 6025 0    60   ~ 0
+Text Notes 6400 6025 0    60   ~ 0
 0.5V drop
 $Comp
 L AP22814 U404
@@ -1652,10 +1652,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 1300 4600 1300
 $Comp
-L C C448
+L C C449
 U 1 1 5B2FDDC8
 P 5450 1500
-F 0 "C448" H 5475 1600 50  0000 L CNN
+F 0 "C449" H 5475 1600 50  0000 L CNN
 F 1 "1uF" H 5475 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5488 1350 50  0001 C CNN
 F 3 "" H 5450 1500 50  0001 C CNN
@@ -1666,10 +1666,10 @@ Wire Wire Line
 	4900 1300 5600 1300
 Connection ~ 4950 1100
 $Comp
-L C C451
+L C C452
 U 1 1 5B30B322
 P 6550 1500
-F 0 "C451" H 6575 1600 50  0000 L CNN
+F 0 "C452" H 6575 1600 50  0000 L CNN
 F 1 "100nF" H 6575 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6588 1350 50  0001 C CNN
 F 3 "" H 6550 1500 50  0001 C CNN
@@ -1677,10 +1677,10 @@ F 3 "" H 6550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C454
+L CP1 C455
 U 1 1 5B32F2D7
 P 7050 4150
-F 0 "C454" H 7075 4250 50  0000 L CNN
+F 0 "C455" H 7075 4250 50  0000 L CNN
 F 1 "220uF" H 7075 4050 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 7050 4150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TPS.pdf" H 7050 4150 50  0001 C CNN
@@ -1776,10 +1776,10 @@ Wire Wire Line
 	5350 4000 5350 3950
 Connection ~ 5350 3950
 $Comp
-L C C449
+L C C450
 U 1 1 5B36C0DB
 P 5600 4150
-F 0 "C449" H 5625 4250 50  0000 L CNN
+F 0 "C450" H 5625 4250 50  0000 L CNN
 F 1 "1uF" H 5625 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5638 4000 50  0001 C CNN
 F 3 "" H 5600 4150 50  0001 C CNN
@@ -2482,10 +2482,10 @@ $EndComp
 Text Notes 8500 6100 0    236  ~ 47
 Power
 $Comp
-L CP1 C453
+L CP1 C454
 U 1 1 5B300605
 P 6850 1500
-F 0 "C453" H 6875 1600 50  0000 L CNN
+F 0 "C454" H 6875 1600 50  0000 L CNN
 F 1 "220uF" H 6875 1400 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 6850 1500 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TPS.pdf" H 6850 1500 50  0001 C CNN
@@ -2533,10 +2533,10 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C444
+L C C445
 U 1 1 5B3311E4
 P 5100 4150
-F 0 "C444" H 5125 4250 50  0000 L CNN
+F 0 "C445" H 5125 4250 50  0000 L CNN
 F 1 "22uF" H 5125 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5138 4000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 5100 4150 50  0001 C CNN
@@ -2550,10 +2550,10 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C447
+L C C448
 U 1 1 5B331290
 P 5350 4150
-F 0 "C447" H 5375 4250 50  0000 L CNN
+F 0 "C448" H 5375 4250 50  0000 L CNN
 F 1 "22uF" H 5375 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5388 4000 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 5350 4150 50  0001 C CNN
@@ -2601,10 +2601,10 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C443
+L C C444
 U 1 1 5B3338D8
 P 4950 1500
-F 0 "C443" H 4975 1600 50  0000 L CNN
+F 0 "C444" H 4975 1600 50  0000 L CNN
 F 1 "22uF" H 4975 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4988 1350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 4950 1500 50  0001 C CNN
@@ -2634,4 +2634,21 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    5200 1500
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C447
+U 1 1 5B3FB4AF
+P 5200 6400
+F 0 "C447" H 5225 6500 50  0000 L CNN
+F 1 "1uF" H 5225 6300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5238 6250 50  0001 C CNN
+F 3 "" H 5200 6400 50  0001 C CNN
+	1    5200 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6550 5200 6600
+Connection ~ 5200 6600
+Wire Wire Line
+	5200 6250 5200 6200
+Connection ~ 5200 6200
 $EndSCHEMATC
