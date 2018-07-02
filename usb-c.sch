@@ -262,249 +262,234 @@ Ihold=4A\nItrip=8A
 Text Notes 750  750  0    118  ~ 24
 USB-C TCPC - Config Channel (CC) and PD Role Controller
 $Comp
-L PTN36043BXY U202
-U 1 1 5AECBE93
-P 3150 6000
-F 0 "U202" H 2550 6950 60  0000 C CNN
-F 1 "PTN36043BXY" H 3550 6950 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:PTN36043" H 3150 6150 60  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PTN36043.pdf" H 3150 6150 60  0001 C CNN
-	1    3150 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR031
 U 1 1 5AECC278
-P 2200 5350
-F 0 "#PWR031" H 2200 5100 50  0001 C CNN
-F 1 "GND" H 2200 5200 50  0000 C CNN
-F 2 "" H 2200 5350 50  0001 C CNN
-F 3 "" H 2200 5350 50  0001 C CNN
-	1    2200 5350
+P 2550 5100
+F 0 "#PWR031" H 2550 4850 50  0001 C CNN
+F 1 "GND" H 2550 4950 50  0000 C CNN
+F 2 "" H 2550 5100 50  0001 C CNN
+F 3 "" H 2550 5100 50  0001 C CNN
+	1    2550 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C207
 U 1 1 5AECE8FB
-P 2000 5800
-F 0 "C207" V 2050 5850 50  0000 L CNN
-F 1 "100nF" V 2050 5525 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2038 5650 50  0001 C CNN
-F 3 "" H 2000 5800 50  0001 C CNN
-	1    2000 5800
+P 1650 5550
+F 0 "C207" V 1700 5600 50  0000 L CNN
+F 1 "100nF" V 1700 5275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1688 5400 50  0001 C CNN
+F 3 "" H 1650 5550 50  0001 C CNN
+	1    1650 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C208
 U 1 1 5AECE985
-P 2000 6000
-F 0 "C208" V 2050 6050 50  0000 L CNN
-F 1 "100nF" V 2050 5725 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2038 5850 50  0001 C CNN
-F 3 "" H 2000 6000 50  0001 C CNN
-	1    2000 6000
+P 1650 5750
+F 0 "C208" V 1700 5800 50  0000 L CNN
+F 1 "100nF" V 1700 5475 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1688 5600 50  0001 C CNN
+F 3 "" H 1650 5750 50  0001 C CNN
+	1    1650 5750
 	0    -1   1    0   
 $EndComp
 $Comp
 L C C202
 U 1 1 5AED1DB6
-P 1100 5400
-F 0 "C202" H 1125 5500 50  0000 L CNN
-F 1 "100nF" H 1125 5300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1138 5250 50  0001 C CNN
-F 3 "" H 1100 5400 50  0001 C CNN
-	1    1100 5400
+P 2000 4750
+F 0 "C202" H 2025 4850 50  0000 L CNN
+F 1 "100nF" H 2025 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2038 4600 50  0001 C CNN
+F 3 "" H 2000 4750 50  0001 C CNN
+	1    2000 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR032
 U 1 1 5AED260D
-P 950 5650
-F 0 "#PWR032" H 950 5400 50  0001 C CNN
-F 1 "GND" H 950 5500 50  0000 C CNN
-F 2 "" H 950 5650 50  0001 C CNN
-F 3 "" H 950 5650 50  0001 C CNN
-	1    950  5650
+P 1850 5000
+F 0 "#PWR032" H 1850 4750 50  0001 C CNN
+F 1 "GND" H 1850 4850 50  0000 C CNN
+F 2 "" H 1850 5000 50  0001 C CNN
+F 3 "" H 1850 5000 50  0001 C CNN
+	1    1850 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R202
 U 1 1 5AED5D55
-P 1100 6400
-F 0 "R202" V 1150 6625 50  0000 C CNN
-F 1 "NC" V 1100 6400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 6400 50  0001 C CNN
-F 3 "" H 1100 6400 50  0001 C CNN
-	1    1100 6400
+P 1450 6150
+F 0 "R202" V 1500 6375 50  0000 C CNN
+F 1 "NC" V 1450 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 6150 50  0001 C CNN
+F 3 "" H 1450 6150 50  0001 C CNN
+	1    1450 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R203
 U 1 1 5AED67BD
-P 1100 6500
-F 0 "R203" V 1150 6725 50  0000 C CNN
-F 1 "NC" V 1100 6500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 6500 50  0001 C CNN
-F 3 "" H 1100 6500 50  0001 C CNN
-	1    1100 6500
+P 1450 6250
+F 0 "R203" V 1500 6475 50  0000 C CNN
+F 1 "NC" V 1450 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 6250 50  0001 C CNN
+F 3 "" H 1450 6250 50  0001 C CNN
+	1    1450 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R204
 U 1 1 5AED6845
-P 1100 6600
-F 0 "R204" V 1150 6825 50  0000 C CNN
-F 1 "NC" V 1100 6600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 6600 50  0001 C CNN
-F 3 "" H 1100 6600 50  0001 C CNN
-	1    1100 6600
+P 1450 6350
+F 0 "R204" V 1500 6575 50  0000 C CNN
+F 1 "NC" V 1450 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 6350 50  0001 C CNN
+F 3 "" H 1450 6350 50  0001 C CNN
+	1    1450 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R205
 U 1 1 5AED68D0
-P 1100 6700
-F 0 "R205" V 1150 6925 50  0000 C CNN
-F 1 "NC" V 1100 6700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 6700 50  0001 C CNN
-F 3 "" H 1100 6700 50  0001 C CNN
-	1    1100 6700
+P 1450 6450
+F 0 "R205" V 1500 6675 50  0000 C CNN
+F 1 "NC" V 1450 6450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 6450 50  0001 C CNN
+F 3 "" H 1450 6450 50  0001 C CNN
+	1    1450 6450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R206
 U 1 1 5AED69B2
-P 1300 6900
-F 0 "R206" H 1450 6950 50  0000 C CNN
-F 1 "4.7k" H 1425 6850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1230 6900 50  0001 C CNN
-F 3 "" H 1300 6900 50  0001 C CNN
-	1    1300 6900
+P 1650 6650
+F 0 "R206" H 1800 6700 50  0000 C CNN
+F 1 "4.7k" H 1775 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1580 6650 50  0001 C CNN
+F 3 "" H 1650 6650 50  0001 C CNN
+	1    1650 6650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R207
 U 1 1 5AED7972
-P 1600 6900
-F 0 "R207" H 1750 6950 50  0000 C CNN
-F 1 "4.7k" H 1725 6850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1530 6900 50  0001 C CNN
-F 3 "" H 1600 6900 50  0001 C CNN
-	1    1600 6900
+P 1950 6650
+F 0 "R207" H 2100 6700 50  0000 C CNN
+F 1 "4.7k" H 2075 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1880 6650 50  0001 C CNN
+F 3 "" H 1950 6650 50  0001 C CNN
+	1    1950 6650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L R R208
 U 1 1 5AED7E8E
-P 1900 6900
-F 0 "R208" H 2050 6950 50  0000 C CNN
-F 1 "4.7k" H 2025 6850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1830 6900 50  0001 C CNN
-F 3 "" H 1900 6900 50  0001 C CNN
-	1    1900 6900
+P 2250 6650
+F 0 "R208" H 2400 6700 50  0000 C CNN
+F 1 "4.7k" H 2375 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2180 6650 50  0001 C CNN
+F 3 "" H 2250 6650 50  0001 C CNN
+	1    2250 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R209
 U 1 1 5AED80E2
-P 2200 6900
-F 0 "R209" H 2350 6950 50  0000 C CNN
-F 1 "4.7k" H 2325 6850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2130 6900 50  0001 C CNN
-F 3 "" H 2200 6900 50  0001 C CNN
-	1    2200 6900
+P 2550 6650
+F 0 "R209" H 2700 6700 50  0000 C CNN
+F 1 "4.7k" H 2675 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2480 6650 50  0001 C CNN
+F 3 "" H 2550 6650 50  0001 C CNN
+	1    2550 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR033
 U 1 1 5AED9A25
-P 1750 7150
-F 0 "#PWR033" H 1750 6900 50  0001 C CNN
-F 1 "GND" H 1750 7000 50  0000 C CNN
-F 2 "" H 1750 7150 50  0001 C CNN
-F 3 "" H 1750 7150 50  0001 C CNN
-	1    1750 7150
+P 2100 6900
+F 0 "#PWR033" H 2100 6650 50  0001 C CNN
+F 1 "GND" H 2100 6750 50  0000 C CNN
+F 2 "" H 2100 6900 50  0001 C CNN
+F 3 "" H 2100 6900 50  0001 C CNN
+	1    2100 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R201
 U 1 1 5AEDAEEC
-P 1100 6300
-F 0 "R201" V 1150 6525 50  0000 C CNN
-F 1 "4.7k" V 1100 6300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 6300 50  0001 C CNN
-F 3 "" H 1100 6300 50  0001 C CNN
-	1    1100 6300
+P 1450 6050
+F 0 "R201" V 1500 6275 50  0000 C CNN
+F 1 "4.7k" V 1450 6050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 6050 50  0001 C CNN
+F 3 "" H 1450 6050 50  0001 C CNN
+	1    1450 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L 1V8_P #PWR034
 U 1 1 5AEE2251
-P 700 6250
-F 0 "#PWR034" H 700 6100 50  0001 C CNN
-F 1 "1V8_P" H 700 6390 50  0000 C CNN
-F 2 "" H 700 6250 50  0001 C CNN
-F 3 "" H 700 6250 50  0001 C CNN
-	1    700  6250
+P 1050 6000
+F 0 "#PWR034" H 1050 5850 50  0001 C CNN
+F 1 "1V8_P" H 1050 6140 50  0000 C CNN
+F 2 "" H 1050 6000 50  0001 C CNN
+F 3 "" H 1050 6000 50  0001 C CNN
+	1    1050 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C209
 U 1 1 5AEFF93F
-P 4400 5250
-F 0 "C209" V 4450 5300 50  0000 L CNN
-F 1 "100nF" V 4450 4975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4438 5100 50  0001 C CNN
-F 3 "" H 4400 5250 50  0001 C CNN
-	1    4400 5250
+P 5400 5000
+F 0 "C209" V 5450 5050 50  0000 L CNN
+F 1 "100nF" V 5450 4725 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5438 4850 50  0001 C CNN
+F 3 "" H 5400 5000 50  0001 C CNN
+	1    5400 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C210
 U 1 1 5AF01BEA
-P 4400 5450
-F 0 "C210" V 4450 5500 50  0000 L CNN
-F 1 "100nF" V 4450 5175 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4438 5300 50  0001 C CNN
-F 3 "" H 4400 5450 50  0001 C CNN
-	1    4400 5450
+P 5400 5200
+F 0 "C210" V 5450 5250 50  0000 L CNN
+F 1 "100nF" V 5450 4925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5438 5050 50  0001 C CNN
+F 3 "" H 5400 5200 50  0001 C CNN
+	1    5400 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C211
 U 1 1 5AF05DE3
-P 5000 5500
-F 0 "C211" V 5050 5550 50  0000 L CNN
-F 1 "100nF" V 5050 5225 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5038 5350 50  0001 C CNN
-F 3 "" H 5000 5500 50  0001 C CNN
-	1    5000 5500
+P 5400 5600
+F 0 "C211" V 5450 5650 50  0000 L CNN
+F 1 "100nF" V 5450 5325 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5438 5450 50  0001 C CNN
+F 3 "" H 5400 5600 50  0001 C CNN
+	1    5400 5600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C212
 U 1 1 5AF075D9
-P 5000 5700
-F 0 "C212" V 5050 5750 50  0000 L CNN
-F 1 "100nF" V 5050 5425 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5038 5550 50  0001 C CNN
-F 3 "" H 5000 5700 50  0001 C CNN
-	1    5000 5700
+P 5400 5850
+F 0 "C212" V 5450 5900 50  0000 L CNN
+F 1 "100nF" V 5450 5575 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5438 5700 50  0001 C CNN
+F 3 "" H 5400 5850 50  0001 C CNN
+	1    5400 5850
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1750 4850 0    60   BiDi ~ 0
-USB1_D_P
-Text HLabel 1750 4950 0    60   BiDi ~ 0
-USB1_D_N
-Text HLabel 1750 5550 0    60   Input ~ 0
+Text HLabel 1350 5300 0    60   Input ~ 0
 USB1_TX_P
-Text HLabel 1750 5650 0    60   Input ~ 0
+Text HLabel 1350 5400 0    60   Input ~ 0
 USB1_TX_N
-Text HLabel 1750 5850 0    60   Output ~ 0
+Text HLabel 1350 5600 0    60   Output ~ 0
 USB1_RX_P
-Text HLabel 1750 5950 0    60   Output ~ 0
+Text HLabel 1350 5700 0    60   Output ~ 0
 USB1_RX_N
-Text HLabel 1750 6200 0    60   Input ~ 0
+Text HLabel 2100 5950 0    60   Input ~ 0
 USB1_SS_SEL
 $Comp
 L D_Zener_ALT D203
@@ -668,66 +653,66 @@ $EndComp
 $Comp
 L PCMF3HDMI2SZ U204
 U 1 1 5AF89EFF
-P 6700 5350
-F 0 "U204" H 6400 4950 50  0000 C CNN
-F 1 "PCMF3HDMI2SZ" H 7100 4950 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:PCMF3HDMI2S" V 6575 5435 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 6575 5435 50  0001 C CNN
-	1    6700 5350
+P 7350 5100
+F 0 "U204" H 7050 4700 50  0000 C CNN
+F 1 "PCMF3HDMI2SZ" H 7750 4700 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:PCMF3HDMI2S" V 7225 5185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 7225 5185 50  0001 C CNN
+	1    7350 5100
 	1    0    0    1   
 $EndComp
 $Comp
 L PCMF2HDMI2SZ U205
 U 1 1 5AF8A4AD
-P 6700 6150
-F 0 "U205" H 6400 6550 50  0000 C CNN
-F 1 "PCMF2HDMI2SZ" H 6850 6550 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:PCMF2HDMI2S" V 6575 6235 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 6575 6235 50  0001 C CNN
-	1    6700 6150
+P 7350 5900
+F 0 "U205" H 7050 6300 50  0000 C CNN
+F 1 "PCMF2HDMI2SZ" H 7500 6300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:PCMF2HDMI2S" V 7225 5985 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 7225 5985 50  0001 C CNN
+	1    7350 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR038
 U 1 1 5AF8A55A
-P 6700 6700
-F 0 "#PWR038" H 6700 6450 50  0001 C CNN
-F 1 "GND" H 6700 6550 50  0000 C CNN
-F 2 "" H 6700 6700 50  0001 C CNN
-F 3 "" H 6700 6700 50  0001 C CNN
-	1    6700 6700
+P 7350 6450
+F 0 "#PWR038" H 7350 6200 50  0001 C CNN
+F 1 "GND" H 7350 6300 50  0000 C CNN
+F 2 "" H 7350 6450 50  0001 C CNN
+F 3 "" H 7350 6450 50  0001 C CNN
+	1    7350 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR039
 U 1 1 5AF8A8ED
-P 6700 4800
-F 0 "#PWR039" H 6700 4550 50  0001 C CNN
-F 1 "GND" H 6700 4650 50  0000 C CNN
-F 2 "" H 6700 4800 50  0001 C CNN
-F 3 "" H 6700 4800 50  0001 C CNN
-	1    6700 4800
+P 7350 4550
+F 0 "#PWR039" H 7350 4300 50  0001 C CNN
+F 1 "GND" H 7350 4400 50  0000 C CNN
+F 2 "" H 7350 4550 50  0001 C CNN
+F 3 "" H 7350 4550 50  0001 C CNN
+	1    7350 4550
 	-1   0    0    1   
 $EndComp
-Text Label 8050 5550 2    60   ~ 0
+Text Label 8700 5300 2    60   ~ 0
 USBC_CN_D_P
-Text Label 8050 5650 2    60   ~ 0
+Text Label 8700 5400 2    60   ~ 0
 USBC_CN_D_N
-Text Label 8050 5300 2    60   ~ 0
+Text Label 8700 5050 2    60   ~ 0
 USBC_CN_SSTX1_P
-Text Label 8050 5400 2    60   ~ 0
+Text Label 8700 5150 2    60   ~ 0
 USBC_CN_SSTX1_N
-Text Label 8050 5950 2    60   ~ 0
+Text Label 8700 5700 2    60   ~ 0
 USBC_CN_SSTX2_P
-Text Label 8050 5850 2    60   ~ 0
+Text Label 8700 5600 2    60   ~ 0
 USBC_CN_SSTX2_N
-Text Label 8050 5150 2    60   ~ 0
+Text Label 8700 4900 2    60   ~ 0
 USBC_CN_SSRX1_P
-Text Label 8050 5050 2    60   ~ 0
+Text Label 8700 4800 2    60   ~ 0
 USBC_CN_SSRX1_N
-Text Label 8050 6100 2    60   ~ 0
+Text Label 8700 5850 2    60   ~ 0
 USBC_CN_SSRX2_P
-Text Label 8050 6200 2    60   ~ 0
+Text Label 8700 5950 2    60   ~ 0
 USBC_CN_SSRX2_N
 Text Label 9100 3850 0    60   ~ 0
 USBC_CN_D_P
@@ -762,20 +747,423 @@ $EndComp
 $Comp
 L D_TVS_ALT D202
 U 1 1 5AF9EF91
-P 8750 5550
-F 0 "D202" V 8700 5375 50  0000 C CNN
-F 1 "ESD5B5.0" V 8800 5300 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 8750 5550 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 8750 5550 50  0001 C CNN
-F 4 "ON Semiconductor" V 8750 5550 60  0001 C CNN "MFG Name"
-F 5 "ESD5B5.0ST1G" V 8750 5550 60  0001 C CNN "MFG Part Num"
-F 6 "10N9401" V 8750 5550 60  0001 C CNN "Distrib PN"
-F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 8750 5550 60  0001 C CNN "Distrib Link"
-F 8 "-" V 8750 5550 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 8750 5550 60  0001 C CNN "Others"
-	1    8750 5550
+P 9450 6150
+F 0 "D202" V 9400 5975 50  0000 C CNN
+F 1 "ESD5B5.0" V 9500 5900 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9450 6150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9450 6150 50  0001 C CNN
+F 4 "ON Semiconductor" V 9450 6150 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9450 6150 60  0001 C CNN "MFG Part Num"
+F 6 "10N9401" V 9450 6150 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9450 6150 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9450 6150 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9450 6150 60  0001 C CNN "Others"
+	1    9450 6150
 	0    1    1    0   
 $EndComp
+$Comp
+L GND #PWR040
+U 1 1 5AFA9EDB
+P 10000 6400
+F 0 "#PWR040" H 10000 6150 50  0001 C CNN
+F 1 "GND" H 10000 6250 50  0000 C CNN
+F 2 "" H 10000 6400 50  0001 C CNN
+F 3 "" H 10000 6400 50  0001 C CNN
+	1    10000 6400
+	1    0    0    -1  
+$EndComp
+Text Label 9100 5250 0    60   ~ 0
+CC1
+Text Label 9250 5950 0    60   ~ 0
+CC2
+Text Label 9100 4050 0    60   ~ 0
+USBC_CN_SSRX1_N
+Text Label 9100 4150 0    60   ~ 0
+USBC_CN_SSRX1_P
+Text Label 9100 4350 0    60   ~ 0
+USBC_CN_SSTX1_N
+Text Label 9100 4450 0    60   ~ 0
+USBC_CN_SSTX1_P
+Text Label 9100 4650 0    60   ~ 0
+USBC_CN_SSRX2_N
+Text Label 9100 4750 0    60   ~ 0
+USBC_CN_SSRX2_P
+Text Label 9100 4950 0    60   ~ 0
+USBC_CN_SSTX2_N
+Text Label 9100 5050 0    60   ~ 0
+USBC_CN_SSTX2_P
+Text Notes 4850 2000 0    60   ~ 0
+Unused
+NoConn ~ 4800 1900
+$Comp
+L 1V8_P #PWR041
+U 1 1 5B02622C
+P 1700 4500
+F 0 "#PWR041" H 1700 4350 50  0001 C CNN
+F 1 "1V8_P" H 1700 4640 50  0000 C CNN
+F 2 "" H 1700 4500 50  0001 C CNN
+F 3 "" H 1700 4500 50  0001 C CNN
+	1    1700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Polyfuse F201
+U 1 1 5AE32200
+P 9500 2750
+F 0 "F201" V 9600 2750 50  0000 C CNN
+F 1 "nanoSMD400LR" V 9400 2750 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:LittleFuse_1206" H 9550 2550 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lowrhosmd_datasheet.pdf.pdf" H 9500 2750 50  0001 C CNN
+F 4 "Littelfuse" V 9500 2750 60  0001 C CNN "MFG Name"
+F 5 "nanoSMD400LR" V 9500 2750 60  0001 C CNN "MFG Part Num"
+F 6 "NANOSMD400LR-C-2" V 9500 2750 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/nanosmd400lr-c-2/littelfuse" V 9500 2750 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9500 2750 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses/150?k=&pkeyword=&pv2074=u1+mOhms&pv2074=u1.5+mOhms&pv2074=u4+mOhms&pv2075=u10+mOhms&FV=1140003%2Cmu4.5A%7C682%2Cmu4A%7C682%2Cmu5.5A%7C682%2Cmu5A%7C682%2Cmu6.5A%7C682%2Cmu6A%7C682%2Cmu7.5A%7C682%2Cmu7A%7C682%2Cab80001%2Cab8000a%2Cab8000b%2Cab8000c%2Cab80011%2Cab80012%2Cab800b6%2Cab80013%2Cab80002%2Cab80015%2Cab80017%2Cab800f4%2Cab800f5%2Cab800f7%2Cab800f8%2Cab800fa%2Cab800fe%2Cab80104%2Cab80106%2Cab8001b%2Cab80003%2Cab80004%2Cab8002c%2Cab80005%2Cab80007%2Cab80049%2Cab8004a%2Cab80009%2C1f140000%2Cffe00096%2Cmu8A%7C683&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 9500 2750 60  0001 C CNN "Others"
+	1    9500 2750
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3400 1000 2    60   Output ~ 0
+EN_SNK
+Text HLabel 3400 900  2    60   Output ~ 0
+EN_SRC
+Text Notes 6200 2500 0    60   ~ 0
+USB1_VBUS=5V when VBUS>4.31V
+$Comp
+L VBUS #PWR042
+U 1 1 5AF2D1E1
+P 9100 2300
+F 0 "#PWR042" H 9100 2150 50  0001 C CNN
+F 1 "VBUS" H 9100 2450 50  0000 C CNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "" H 9100 2300 50  0001 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG043
+U 1 1 5AF2D52F
+P 8800 2700
+F 0 "#FLG043" H 8800 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 8800 2850 50  0000 C CNN
+F 2 "" H 8800 2700 50  0001 C CNN
+F 3 "" H 8800 2700 50  0001 C CNN
+	1    8800 2700
+	1    0    0    -1  
+$EndComp
+Text Label 4800 2050 2    60   ~ 0
+ILIM_5V_VBUS
+NoConn ~ 4800 2050
+$Comp
+L VBUS #PWR044
+U 1 1 5AF6C71F
+P 650 1300
+F 0 "#PWR044" H 650 1150 50  0001 C CNN
+F 1 "VBUS" H 650 1450 50  0000 C CNN
+F 2 "" H 650 1300 50  0001 C CNN
+F 3 "" H 650 1300 50  0001 C CNN
+	1    650  1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4800 1800
+$Comp
+L PWR_FLAG #FLG045
+U 1 1 5AF77F57
+P 9900 2700
+F 0 "#FLG045" H 9900 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 2850 50  0000 C CNN
+F 2 "" H 9900 2700 50  0001 C CNN
+F 3 "" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 4900 1775 0    60   ~ 0
+       fast role swap is optional\nPTN5110 8.1.4 leaves it floating (good)!
+Text Notes 4850 2200 0    60   ~ 0
+Open-drain output\ntied with CHRG_~INT
+Text Notes 650  3550 0    60   ~ 0
+"Under dead battery operation, PTN5110 applies voltage clamps to both CC pins so that\n the system may receive power as a Sink. To support platforms with buck-boost\n configuration, PTN5110 asserts EN_SNK1 pin based on validity of VBUS voltage\n (facilitates 5 V VBUS sinking)."
+Text Notes 4925 4125 0    60   ~ 0
+Initialize as the UFP (device)\nread CC_STATUS to determine role\nuse Host Negotiation Protocol (HNP)\nto become an DFP (host)\n∴USB ID is effectively unused
+Text Notes 4925 4325 0    60   ~ 0
+⇒Legacy devices would "wait" for this\n⇒If CC initializes as UFP then no HNP needed
+Text Notes 5650 3550 0    60   ~ 0
+10k
+Text HLabel 9150 2350 2    60   Output ~ 0
+VBUS
+Text GLabel 9050 2350 0    60   Output ~ 0
+VBUS
+$Comp
+L 3V3 #PWR046
+U 1 1 5B39F466
+P 4800 1250
+F 0 "#PWR046" H 4800 1100 50  0001 C CNN
+F 1 "3V3" H 4800 1390 50  0000 C CNN
+F 2 "" H 4800 1250 50  0001 C CNN
+F 3 "" H 4800 1250 50  0001 C CNN
+	1    4800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR047
+U 1 1 5B39F890
+P 650 1600
+F 0 "#PWR047" H 650 1450 50  0001 C CNN
+F 1 "3V3" H 650 1740 50  0000 C CNN
+F 2 "" H 650 1600 50  0001 C CNN
+F 3 "" H 650 1600 50  0001 C CNN
+	1    650  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V_P #PWR048
+U 1 1 5B3E3D9A
+P 650 2450
+F 0 "#PWR048" H 650 2300 50  0001 C CNN
+F 1 "5V_P" H 650 2590 50  0000 C CNN
+F 2 "" H 650 2450 50  0001 C CNN
+F 3 "" H 650 2450 50  0001 C CNN
+	1    650  2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R210
+U 1 1 5B2F09F9
+P 4150 1300
+F 0 "R210" V 4300 1300 50  0000 C CNN
+F 1 "10k" V 4225 1300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4080 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4150 1300 50  0001 C CNN
+F 4 "Stackpole" H 4150 1300 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 4150 1300 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 4150 1300 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4150 1300 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 4150 1300 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4150 1300 60  0001 C CNN "Others"
+	1    4150 1300
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R214
+U 1 1 5B2F2DD5
+P 4300 2450
+F 0 "R214" V 4350 2200 50  0000 C CNN
+F 1 "10k" V 4300 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4230 2450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4300 2450 50  0001 C CNN
+F 4 "Stackpole" H 4300 2450 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 4300 2450 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 4300 2450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4300 2450 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 4300 2450 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4300 2450 60  0001 C CNN "Others"
+	1    4300 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L D_Schottky_ALT D201
+U 1 1 5B41CF31
+P 2350 5950
+F 0 "D201" H 2200 5900 50  0000 C CNN
+F 1 "DB2J209" H 2100 6025 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 2350 5950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 2350 5950 50  0001 C CNN
+F 4 "Panasonic" V 2350 5950 60  0001 C CNN "MFG Name"
+F 5 "DB2J20900L" V 2350 5950 60  0001 C CNN "MFG Part Num"
+F 6 "667-DB2J20900L" V 2350 5950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 2350 5950 60  0001 C CNN "Distrib Link"
+F 8 "-" V 2350 5950 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 2350 5950 60  0001 C CNN "Others"
+	1    2350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C213
+U 1 1 5B0AE4C1
+P 8200 2950
+F 0 "C213" H 8225 3050 50  0000 L CNN
+F 1 "10uF" H 8225 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8238 2800 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 8200 2950 50  0001 C CNN
+F 4 "Taiyo Yuden" V 8200 2950 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 8200 2950 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 8200 2950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 8200 2950 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 8200 2950 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 8200 2950 60  0001 C CNN "Others"
+	1    8200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C201
+U 1 1 5B0AF555
+P 1700 4750
+F 0 "C201" H 1500 4850 50  0000 L CNN
+F 1 "10uF" H 1500 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1738 4600 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1700 4750 50  0001 C CNN
+F 4 "Taiyo Yuden" V 1700 4750 60  0001 C CNN "MFG Name"
+F 5 "LMK107BBJ106MALT" V 1700 4750 60  0001 C CNN "MFG Part Num"
+F 6 "587-3258-1-ND" V 1700 4750 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 1700 4750 60  0001 C CNN "Distrib Link"
+F 8 "20%" V 1700 4750 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 1700 4750 60  0001 C CNN "Others"
+	1    1700 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 4850 2900 0    60   ~ 0
+7-Bit Slave Address: 0x52\n       (1010 010x)
+Text Notes 5500 2675 0    60   ~ 0
+Read: 0xA5\nWrite: 0xA4
+$Comp
+L D_TVS_ALT D204
+U 1 1 5B1E1397
+P 9300 5550
+F 0 "D204" V 9250 5375 50  0000 C CNN
+F 1 "ESD5B5.0" V 9350 5300 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9300 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9300 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 9300 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9300 5550 60  0001 C CNN "MFG Part Num"
+F 6 "10N9401" V 9300 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9300 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9300 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9300 5550 60  0001 C CNN "Others"
+	1    9300 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D205
+U 1 1 5B1E1464
+P 9500 5550
+F 0 "D205" V 9450 5375 50  0000 C CNN
+F 1 "NC" V 9550 5400 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9500 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9500 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 9500 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9500 5550 60  0001 C CNN "MFG Part Num"
+F 6 "10N9401" V 9500 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9500 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9500 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9500 5550 60  0001 C CNN "Others"
+	1    9500 5550
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS_ALT D206
+U 1 1 5B1E1575
+P 9850 5550
+F 0 "D206" V 9800 5375 50  0000 C CNN
+F 1 "NC" V 9900 5400 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9850 5550 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9850 5550 50  0001 C CNN
+F 4 "ON Semiconductor" V 9850 5550 60  0001 C CNN "MFG Name"
+F 5 "ESD5B5.0ST1G" V 9850 5550 60  0001 C CNN "MFG Part Num"
+F 6 "10N9401" V 9850 5550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9850 5550 60  0001 C CNN "Distrib Link"
+F 8 "-" V 9850 5550 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9850 5550 60  0001 C CNN "Others"
+	1    9850 5550
+	0    -1   1    0   
+$EndComp
+$Comp
+L 5V_SOM #PWR049
+U 1 1 5B1A8979
+P 6750 2700
+F 0 "#PWR049" H 6750 2550 50  0001 C CNN
+F 1 "5V_SOM" H 6750 2840 50  0000 C CNN
+F 2 "" H 6750 2700 50  0001 C CNN
+F 3 "" H 6750 2700 50  0001 C CNN
+	1    6750 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 1500 0    236  ~ 47
+USB-C
+Text Notes 7800 4600 0    39   ~ 0
+RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
+Text Notes 7850 6200 0    39   ~ 0
+TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
+$Comp
+L USB_C_Receptacle-RESCUE-dvk-mx8m-bsb J201
+U 1 1 5AE939ED
+P 10550 4050
+AR Path="/5AE939ED" Ref="J201"  Part="1" 
+AR Path="/5ACF2B88/5AE939ED" Ref="J201"  Part="1" 
+F 0 "J201" H 10750 5500 50  0000 L CNN
+F 1 "USB_C" H 10400 5500 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:USB_C_Receptacle" H 10700 4050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/18/Amphenol_03192018_12401598E4_2A-1313897.pdf" H 10700 4050 50  0001 C CNN
+F 4 "Amphenol" H 10550 4050 60  0001 C CNN "MFG Name"
+F 5 "12401598E4#2A" H 10550 4050 60  0001 C CNN "MFG Part Num"
+F 6 "523-12401598E4#2A" H 10550 4050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/12401598E42A?qs=sGAEpiMZZMulM8LPOQ%252byk%252bquSaH2WQ%2flVj70qO6U3QOxNt%2fSK0YysQ%3d%3d" H 10550 4050 60  0001 C CNN "Distrib Link"
+F 8 "-" H 10550 4050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?k=&pkeyword=&pv29=10&FV=700b08%2C1f140000%2Cffe00138&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 10550 4050 60  0001 C CNN "Others"
+	1    10550 4050
+	-1   0    0    -1  
+$EndComp
+Text Notes 8225 2825 0    39   ~ 0
+35V
+Text Notes 8525 2825 0    39   ~ 0
+35V
+Text Notes 8825 2825 0    39   ~ 0
+35V
+$Comp
+L R R220
+U 1 1 5B421944
+P 6300 2950
+F 0 "R220" H 6450 2900 50  0000 C CNN
+F 1 "10k" H 6425 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6230 2950 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6300 2950 50  0001 C CNN
+F 4 "Stackpole" H 6300 2950 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 6300 2950 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 6300 2950 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 6300 2950 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 6300 2950 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 6300 2950 60  0001 C CNN "Others"
+	1    6300 2950
+	1    0    0    1   
+$EndComp
+Text Label 5050 6300 0    60   ~ 0
+RX_CON_2_P
+Text Label 5050 6400 0    60   ~ 0
+RX_CON_2_N
+Text Label 5050 6100 0    60   ~ 0
+RX_CON_1_P
+Text Label 5050 6200 0    60   ~ 0
+RX_CON_1_N
+Text Label 5800 5050 0    60   ~ 0
+TX_CON_1C_P
+Text Label 5800 5150 0    60   ~ 0
+TX_CON_1C_N
+$Comp
+L PTN36043BXY U202
+U 1 1 5AECBE93
+P 3500 5750
+F 0 "U202" H 2900 6700 60  0000 C CNN
+F 1 "PTN36043BXY" H 3900 6700 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:PTN36043" H 3500 5900 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PTN36043.pdf" H 3500 5900 60  0001 C CNN
+	1    3500 5750
+	1    0    0    -1  
+$EndComp
+Text Label 5700 5850 0    60   ~ 0
+TX_CON_2C_N
+Text HLabel 1350 4200 0    60   BiDi ~ 0
+USB1_D_N
+Text HLabel 1350 4100 0    60   BiDi ~ 0
+USB1_D_P
+Text Label 4400 5050 0    60   ~ 0
+TX_CON_1_P
+Text Label 4400 5150 0    60   ~ 0
+TX_CON_1_N
+Text Label 4400 5300 0    60   ~ 0
+TX_CON_2_P
+Text Label 4400 5400 0    60   ~ 0
+TX_CON_2_N
+Text Label 5700 5600 0    60   ~ 0
+TX_CON_2C_P
 Wire Wire Line
 	4500 2250 4450 2250
 Wire Wire Line
@@ -903,169 +1291,131 @@ Wire Wire Line
 Wire Notes Line
 	500  500  6800 500 
 Wire Wire Line
-	2200 5350 2200 5300
+	2550 5100 2550 5050
 Wire Wire Line
-	2200 5300 2250 5300
+	2550 5050 2600 5050
 Wire Wire Line
-	2250 5850 2200 5850
+	2600 5600 1850 5600
 Wire Wire Line
-	2200 5850 2200 5800
+	1850 5600 1850 5550
 Wire Wire Line
-	2200 5800 2150 5800
+	1850 5550 1800 5550
 Wire Wire Line
-	2250 5950 2200 5950
+	2600 5700 1850 5700
 Wire Wire Line
-	2200 5950 2200 6000
+	1850 5700 1850 5750
 Wire Wire Line
-	2200 6000 2150 6000
+	1850 5750 1800 5750
 Wire Wire Line
-	2250 5550 1750 5550
+	2600 5300 1350 5300
 Wire Wire Line
-	2250 5650 1750 5650
+	2600 5400 1350 5400
 Wire Wire Line
-	1100 5600 1100 5550
+	2000 4950 2000 4900
 Wire Wire Line
-	800  5600 1100 5600
+	1700 4950 2000 4950
 Wire Wire Line
-	800  5600 800  5550
+	1700 4950 1700 4900
 Wire Wire Line
-	950  5650 950  5600
-Connection ~ 950  5600
+	1850 5000 1850 4950
+Connection ~ 1850 4950
 Wire Wire Line
-	800  5200 2250 5200
+	1700 4550 2600 4550
 Wire Wire Line
-	800  5150 800  5250
+	1700 4500 1700 4600
 Wire Wire Line
-	1100 5250 1100 5200
-Connection ~ 1100 5200
+	2000 4550 2000 4600
+Connection ~ 2000 4550
 Wire Wire Line
-	1250 6400 2250 6400
+	1600 6150 2600 6150
 Wire Wire Line
-	1250 6500 2250 6500
+	1600 6250 2600 6250
 Wire Wire Line
-	1250 6600 2250 6600
+	1600 6350 2600 6350
 Wire Wire Line
-	1250 6700 2250 6700
+	1600 6450 2600 6450
 Wire Wire Line
-	1300 6750 1300 6700
-Connection ~ 1300 6700
+	1650 6500 1650 6450
+Connection ~ 1650 6450
 Wire Wire Line
-	1600 6750 1600 6600
-Connection ~ 1600 6600
+	1950 6500 1950 6350
+Connection ~ 1950 6350
 Wire Wire Line
-	1900 6750 1900 6500
-Connection ~ 1900 6500
+	2250 6500 2250 6250
+Connection ~ 2250 6250
 Wire Wire Line
-	2200 6750 2200 6400
-Connection ~ 2200 6400
+	2550 6500 2550 6150
+Connection ~ 2550 6150
 Wire Wire Line
-	1300 7050 1300 7100
+	1650 6800 1650 6850
 Wire Wire Line
-	1300 7100 2200 7100
+	1650 6850 2550 6850
 Wire Wire Line
-	2200 7100 2200 7050
+	2550 6850 2550 6800
 Wire Wire Line
-	1600 7050 1600 7100
-Connection ~ 1600 7100
+	1950 6800 1950 6850
+Connection ~ 1950 6850
 Wire Wire Line
-	1900 7050 1900 7100
-Connection ~ 1900 7100
+	2250 6800 2250 6850
+Connection ~ 2250 6850
 Wire Wire Line
-	1750 7150 1750 7100
-Connection ~ 1750 7100
+	2100 6900 2100 6850
+Connection ~ 2100 6850
 Wire Wire Line
-	2150 6200 2250 6200
+	2500 5950 2600 5950
 Wire Wire Line
-	1250 6300 2200 6300
+	1600 6050 2550 6050
 Wire Wire Line
-	2200 6300 2200 6200
-Connection ~ 2200 6200
+	2550 6050 2550 5950
+Connection ~ 2550 5950
 Wire Wire Line
-	700  6700 950  6700
+	1050 6450 1300 6450
 Wire Wire Line
-	700  6250 700  6700
+	1050 6000 1050 6450
 Wire Wire Line
-	950  6300 700  6300
-Connection ~ 700  6300
-Connection ~ 700  6400
-Connection ~ 700  6500
-Connection ~ 700  6600
+	1300 6050 1050 6050
+Connection ~ 1050 6050
+Connection ~ 1050 6150
+Connection ~ 1050 6250
+Connection ~ 1050 6350
 Wire Wire Line
-	950  6400 700  6400
+	1300 6150 1050 6150
 Wire Wire Line
-	950  6500 700  6500
+	1300 6250 1050 6250
 Wire Wire Line
-	950  6600 700  6600
+	1300 6350 1050 6350
 Wire Wire Line
-	4250 5450 4100 5450
+	5100 5150 4400 5150
 Wire Wire Line
-	4100 5450 4100 5400
+	4400 5050 5100 5050
 Wire Wire Line
-	4100 5400 4050 5400
+	1500 5550 1450 5550
 Wire Wire Line
-	4050 5300 4100 5300
+	1450 5550 1450 5600
 Wire Wire Line
-	4100 5300 4100 5250
+	1450 5600 1350 5600
 Wire Wire Line
-	4100 5250 4250 5250
+	1500 5750 1450 5750
 Wire Wire Line
-	1850 5800 1800 5800
+	1450 5750 1450 5700
 Wire Wire Line
-	1800 5800 1800 5850
+	1450 5700 1350 5700
 Wire Wire Line
-	1800 5850 1750 5850
+	5550 5200 5750 5200
 Wire Wire Line
-	1850 6000 1800 6000
+	5750 5200 5750 5150
 Wire Wire Line
-	1800 6000 1800 5950
+	5750 5150 6850 5150
 Wire Wire Line
-	1800 5950 1750 5950
+	5550 5000 5750 5000
 Wire Wire Line
-	4550 5450 4700 5450
+	5750 5000 5750 5050
 Wire Wire Line
-	4700 5450 4700 5400
+	5750 5050 6850 5050
 Wire Wire Line
-	4700 5400 6200 5400
+	5550 5850 6350 5850
 Wire Wire Line
-	4850 5700 4700 5700
-Wire Wire Line
-	4700 5700 4700 5650
-Wire Wire Line
-	4700 5650 4050 5650
-Wire Wire Line
-	4050 5550 4700 5550
-Wire Wire Line
-	4700 5550 4700 5500
-Wire Wire Line
-	4700 5500 4850 5500
-Wire Wire Line
-	4550 5250 4700 5250
-Wire Wire Line
-	4700 5250 4700 5300
-Wire Wire Line
-	4700 5300 6200 5300
-Wire Wire Line
-	5150 5500 5300 5500
-Wire Wire Line
-	5300 5500 5300 5550
-Wire Wire Line
-	5300 5550 5700 5550
-Wire Wire Line
-	5150 5700 5300 5700
-Wire Wire Line
-	5300 5700 5300 5650
-Wire Wire Line
-	5300 5650 5600 5650
-Wire Wire Line
-	4050 5850 5400 5850
-Wire Wire Line
-	4050 5950 5500 5950
-Wire Wire Line
-	4050 6100 6200 6100
-Wire Wire Line
-	4050 6200 6200 6200
-Wire Wire Line
-	1750 6200 1850 6200
+	2100 5950 2200 5950
 Wire Wire Line
 	9900 3050 9950 3050
 Wire Wire Line
@@ -1141,43 +1491,43 @@ Wire Wire Line
 	8800 2700 8800 2800
 Connection ~ 8800 2750
 Wire Wire Line
-	6650 6600 6650 6650
+	7300 6350 7300 6400
 Wire Wire Line
-	6650 6650 6750 6650
+	7300 6400 7400 6400
 Wire Wire Line
-	6750 6650 6750 6600
+	7400 6400 7400 6350
 Wire Wire Line
-	6700 6700 6700 6650
-Connection ~ 6700 6650
+	7350 6450 7350 6400
+Connection ~ 7350 6400
 Wire Wire Line
-	6600 4900 6600 4850
+	7250 4650 7250 4600
 Wire Wire Line
-	6600 4850 6800 4850
+	7250 4600 7450 4600
 Wire Wire Line
-	6800 4850 6800 4900
+	7450 4600 7450 4650
 Wire Wire Line
-	6700 4800 6700 4900
-Connection ~ 6700 4850
+	7350 4550 7350 4650
+Connection ~ 7350 4600
 Wire Wire Line
-	7200 5550 8050 5550
+	7850 5300 8700 5300
 Wire Wire Line
-	7200 5650 8050 5650
+	7850 5400 8700 5400
 Wire Wire Line
-	7200 5300 8050 5300
+	7850 5050 8700 5050
 Wire Wire Line
-	7200 5400 8050 5400
+	7850 5150 8700 5150
 Wire Wire Line
-	7200 5950 8050 5950
+	7850 5700 8700 5700
 Wire Wire Line
-	7200 5850 8050 5850
+	7850 5600 8700 5600
 Wire Wire Line
-	7200 5150 8050 5150
+	7850 4900 8700 4900
 Wire Wire Line
-	7200 5050 8050 5050
+	7850 4800 8700 4800
 Wire Wire Line
-	7200 6100 8050 6100
+	7850 5850 8700 5850
 Wire Wire Line
-	7200 6200 8050 6200
+	7850 5950 8700 5950
 Wire Wire Line
 	9650 2750 9950 2750
 Connection ~ 9900 2750
@@ -1214,9 +1564,9 @@ Wire Wire Line
 Wire Wire Line
 	9850 5350 9850 5400
 Wire Wire Line
-	8750 5700 8750 5750
+	9450 6300 9450 6350
 Wire Wire Line
-	8750 5750 10000 5750
+	9300 5750 10000 5750
 Wire Wire Line
 	10000 5950 10500 5950
 Wire Wire Line
@@ -1226,19 +1576,8 @@ Wire Wire Line
 Connection ~ 10200 5950
 Wire Wire Line
 	10600 6350 10500 6350
-$Comp
-L GND #PWR040
-U 1 1 5AFA9EDB
-P 10000 6400
-F 0 "#PWR040" H 10000 6150 50  0001 C CNN
-F 1 "GND" H 10000 6250 50  0000 C CNN
-F 2 "" H 10000 6400 50  0001 C CNN
-F 3 "" H 10000 6400 50  0001 C CNN
-	1    10000 6400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10000 6350 10200 6350
+	9450 6350 10200 6350
 Wire Wire Line
 	10000 5750 10000 6400
 Connection ~ 10000 5950
@@ -1254,20 +1593,13 @@ Wire Wire Line
 	10400 5850 10400 5950
 Connection ~ 10400 5950
 Wire Wire Line
-	8750 5400 8750 5350
+	9450 6000 9450 5950
 Wire Wire Line
-	8750 5350 8550 5350
+	9450 5950 9250 5950
 Wire Wire Line
 	9300 5400 9300 5250
 Wire Wire Line
-	9300 5250 8550 5250
-Wire Wire Line
-	9300 5700 9300 5750
-Connection ~ 9300 5750
-Text Label 8550 5250 0    60   ~ 0
-CC1
-Text Label 8550 5350 0    60   ~ 0
-CC2
+	9300 5250 9100 5250
 Wire Wire Line
 	9500 5750 9500 5700
 Connection ~ 9500 5750
@@ -1288,164 +1620,14 @@ Wire Wire Line
 	9950 4950 9100 4950
 Wire Wire Line
 	9950 5050 9100 5050
-Text Label 9100 4050 0    60   ~ 0
-USBC_CN_SSRX1_N
-Text Label 9100 4150 0    60   ~ 0
-USBC_CN_SSRX1_P
-Text Label 9100 4350 0    60   ~ 0
-USBC_CN_SSTX1_N
-Text Label 9100 4450 0    60   ~ 0
-USBC_CN_SSTX1_P
-Text Label 9100 4650 0    60   ~ 0
-USBC_CN_SSRX2_N
-Text Label 9100 4750 0    60   ~ 0
-USBC_CN_SSRX2_P
-Text Label 9100 4950 0    60   ~ 0
-USBC_CN_SSTX2_N
-Text Label 9100 5050 0    60   ~ 0
-USBC_CN_SSTX2_P
-Text Notes 4850 2000 0    60   ~ 0
-Unused
-NoConn ~ 4800 1900
 Wire Notes Line
 	500  3700 500  500 
-$Comp
-L 1V8_P #PWR041
-U 1 1 5B02622C
-P 800 5150
-F 0 "#PWR041" H 800 5000 50  0001 C CNN
-F 1 "1V8_P" H 800 5290 50  0000 C CNN
-F 2 "" H 800 5150 50  0001 C CNN
-F 3 "" H 800 5150 50  0001 C CNN
-	1    800  5150
-	1    0    0    -1  
-$EndComp
-Connection ~ 800  5200
-$Comp
-L Polyfuse F201
-U 1 1 5AE32200
-P 9500 2750
-F 0 "F201" V 9600 2750 50  0000 C CNN
-F 1 "nanoSMD400LR" V 9400 2750 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:LittleFuse_1206" H 9550 2550 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lowrhosmd_datasheet.pdf.pdf" H 9500 2750 50  0001 C CNN
-F 4 "Littelfuse" V 9500 2750 60  0001 C CNN "MFG Name"
-F 5 "nanoSMD400LR" V 9500 2750 60  0001 C CNN "MFG Part Num"
-F 6 "NANOSMD400LR-C-2" V 9500 2750 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/nanosmd400lr-c-2/littelfuse" V 9500 2750 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9500 2750 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses/150?k=&pkeyword=&pv2074=u1+mOhms&pv2074=u1.5+mOhms&pv2074=u4+mOhms&pv2075=u10+mOhms&FV=1140003%2Cmu4.5A%7C682%2Cmu4A%7C682%2Cmu5.5A%7C682%2Cmu5A%7C682%2Cmu6.5A%7C682%2Cmu6A%7C682%2Cmu7.5A%7C682%2Cmu7A%7C682%2Cab80001%2Cab8000a%2Cab8000b%2Cab8000c%2Cab80011%2Cab80012%2Cab800b6%2Cab80013%2Cab80002%2Cab80015%2Cab80017%2Cab800f4%2Cab800f5%2Cab800f7%2Cab800f8%2Cab800fa%2Cab800fe%2Cab80104%2Cab80106%2Cab8001b%2Cab80003%2Cab80004%2Cab8002c%2Cab80005%2Cab80007%2Cab80049%2Cab8004a%2Cab80009%2C1f140000%2Cffe00096%2Cmu8A%7C683&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 9500 2750 60  0001 C CNN "Others"
-	1    9500 2750
-	0    -1   -1   0   
-$EndComp
-Text HLabel 3400 1000 2    60   Output ~ 0
-EN_SNK
-Text HLabel 3400 900  2    60   Output ~ 0
-EN_SRC
-Text Notes 6200 2500 0    60   ~ 0
-USB1_VBUS=5V when VBUS>4.31V
-$Comp
-L VBUS #PWR042
-U 1 1 5AF2D1E1
-P 9100 2300
-F 0 "#PWR042" H 9100 2150 50  0001 C CNN
-F 1 "VBUS" H 9100 2450 50  0000 C CNN
-F 2 "" H 9100 2300 50  0001 C CNN
-F 3 "" H 9100 2300 50  0001 C CNN
-	1    9100 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG043
-U 1 1 5AF2D52F
-P 8800 2700
-F 0 "#FLG043" H 8800 2775 50  0001 C CNN
-F 1 "PWR_FLAG" H 8800 2850 50  0000 C CNN
-F 2 "" H 8800 2700 50  0001 C CNN
-F 3 "" H 8800 2700 50  0001 C CNN
-	1    8800 2700
-	1    0    0    -1  
-$EndComp
-Text Label 4800 2050 2    60   ~ 0
-ILIM_5V_VBUS
-NoConn ~ 4800 2050
-$Comp
-L VBUS #PWR044
-U 1 1 5AF6C71F
-P 650 1300
-F 0 "#PWR044" H 650 1150 50  0001 C CNN
-F 1 "VBUS" H 650 1450 50  0000 C CNN
-F 2 "" H 650 1300 50  0001 C CNN
-F 3 "" H 650 1300 50  0001 C CNN
-	1    650  1300
-	1    0    0    -1  
-$EndComp
+Connection ~ 1700 4550
 Wire Wire Line
 	650  1300 650  1350
-NoConn ~ 4800 1800
-$Comp
-L PWR_FLAG #FLG045
-U 1 1 5AF77F57
-P 9900 2700
-F 0 "#FLG045" H 9900 2775 50  0001 C CNN
-F 1 "PWR_FLAG" H 9900 2850 50  0000 C CNN
-F 2 "" H 9900 2700 50  0001 C CNN
-F 3 "" H 9900 2700 50  0001 C CNN
-	1    9900 2700
-	1    0    0    -1  
-$EndComp
-Text Notes 4900 1775 0    60   ~ 0
-       fast role swap is optional\nPTN5110 8.1.4 leaves it floating (good)!
-Text Notes 4850 2200 0    60   ~ 0
-Open-drain output\ntied with CHRG_~INT
-Text Notes 650  3550 0    60   ~ 0
-"Under dead battery operation, PTN5110 applies voltage clamps to both CC pins so that\n the system may receive power as a Sink. To support platforms with buck-boost\n configuration, PTN5110 asserts EN_SNK1 pin based on validity of VBUS voltage\n (facilitates 5 V VBUS sinking)."
-Text Notes 4925 4125 0    60   ~ 0
-Initialize as the UFP (device)\nread CC_STATUS to determine role\nuse Host Negotiation Protocol (HNP)\nto become an DFP (host)\n∴USB ID is effectively unused
-Text Notes 4925 4325 0    60   ~ 0
-⇒Legacy devices would "wait" for this\n⇒If CC initializes as UFP then no HNP needed
-Text Notes 5650 3550 0    60   ~ 0
-10k
-Text HLabel 9150 2350 2    60   Output ~ 0
-VBUS
 Connection ~ 9100 2350
-Text GLabel 9050 2350 0    60   Output ~ 0
-VBUS
 Wire Wire Line
 	9050 2350 9150 2350
-$Comp
-L 3V3 #PWR046
-U 1 1 5B39F466
-P 4800 1250
-F 0 "#PWR046" H 4800 1100 50  0001 C CNN
-F 1 "3V3" H 4800 1390 50  0000 C CNN
-F 2 "" H 4800 1250 50  0001 C CNN
-F 3 "" H 4800 1250 50  0001 C CNN
-	1    4800 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR047
-U 1 1 5B39F890
-P 650 1600
-F 0 "#PWR047" H 650 1450 50  0001 C CNN
-F 1 "3V3" H 650 1740 50  0000 C CNN
-F 2 "" H 650 1600 50  0001 C CNN
-F 3 "" H 650 1600 50  0001 C CNN
-	1    650  1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 5V_P #PWR048
-U 1 1 5B3E3D9A
-P 650 2450
-F 0 "#PWR048" H 650 2300 50  0001 C CNN
-F 1 "5V_P" H 650 2590 50  0000 C CNN
-F 2 "" H 650 2450 50  0001 C CNN
-F 3 "" H 650 2450 50  0001 C CNN
-	1    650  2450
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	500  3700 4900 3700
 Wire Notes Line
@@ -1458,95 +1640,6 @@ Wire Notes Line
 	6100 1800 6800 1800
 Wire Notes Line
 	6800 1800 6800 500 
-$Comp
-L R R210
-U 1 1 5B2F09F9
-P 4150 1300
-F 0 "R210" V 4300 1300 50  0000 C CNN
-F 1 "10k" V 4225 1300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4080 1300 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4150 1300 50  0001 C CNN
-F 4 "Stackpole" H 4150 1300 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 4150 1300 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 4150 1300 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4150 1300 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 4150 1300 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4150 1300 60  0001 C CNN "Others"
-	1    4150 1300
-	0    1    -1   0   
-$EndComp
-$Comp
-L R R214
-U 1 1 5B2F2DD5
-P 4300 2450
-F 0 "R214" V 4350 2200 50  0000 C CNN
-F 1 "10k" V 4300 2450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2450 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4300 2450 50  0001 C CNN
-F 4 "Stackpole" H 4300 2450 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 4300 2450 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 4300 2450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 4300 2450 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 4300 2450 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 4300 2450 60  0001 C CNN "Others"
-	1    4300 2450
-	0    1    -1   0   
-$EndComp
-$Comp
-L D_Schottky_ALT D201
-U 1 1 5B41CF31
-P 2000 6200
-F 0 "D201" H 1850 6150 50  0000 C CNN
-F 1 "DB2J209" H 1750 6275 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 2000 6200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 2000 6200 50  0001 C CNN
-F 4 "Panasonic" V 2000 6200 60  0001 C CNN "MFG Name"
-F 5 "DB2J20900L" V 2000 6200 60  0001 C CNN "MFG Part Num"
-F 6 "667-DB2J20900L" V 2000 6200 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic" V 2000 6200 60  0001 C CNN "Distrib Link"
-F 8 "-" V 2000 6200 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280" V 2000 6200 60  0001 C CNN "Others"
-	1    2000 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C213
-U 1 1 5B0AE4C1
-P 8200 2950
-F 0 "C213" H 8225 3050 50  0000 L CNN
-F 1 "10uF" H 8225 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8238 2800 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 8200 2950 50  0001 C CNN
-F 4 "Taiyo Yuden" V 8200 2950 60  0001 C CNN "MFG Name"
-F 5 "LMK107BBJ106MALT" V 8200 2950 60  0001 C CNN "MFG Part Num"
-F 6 "587-3258-1-ND" V 8200 2950 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 8200 2950 60  0001 C CNN "Distrib Link"
-F 8 "20%" V 8200 2950 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 8200 2950 60  0001 C CNN "Others"
-	1    8200 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C201
-U 1 1 5B0AF555
-P 800 5400
-F 0 "C201" H 600 5500 50  0000 L CNN
-F 1 "10uF" H 600 5300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 838 5250 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 800 5400 50  0001 C CNN
-F 4 "Taiyo Yuden" V 800 5400 60  0001 C CNN "MFG Name"
-F 5 "LMK107BBJ106MALT" V 800 5400 60  0001 C CNN "MFG Part Num"
-F 6 "587-3258-1-ND" V 800 5400 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 800 5400 60  0001 C CNN "Distrib Link"
-F 8 "20%" V 800 5400 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 800 5400 60  0001 C CNN "Others"
-	1    800  5400
-	1    0    0    -1  
-$EndComp
-Text Notes 4850 2900 0    60   ~ 0
-7-Bit Slave Address: 0x52\n       (1010 010x)
-Text Notes 5500 2675 0    60   ~ 0
-Read: 0xA5\nWrite: 0xA4
 Wire Wire Line
 	4500 2650 4500 2700
 Wire Wire Line
@@ -1563,110 +1656,30 @@ Wire Wire Line
 	4500 2500 4500 2550
 Connection ~ 4500 2550
 Connection ~ 4100 2550
-$Comp
-L D_TVS_ALT D204
-U 1 1 5B1E1397
-P 9300 5550
-F 0 "D204" V 9250 5375 50  0000 C CNN
-F 1 "ESD5B5.0" V 9350 5300 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9300 5550 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9300 5550 50  0001 C CNN
-F 4 "ON Semiconductor" V 9300 5550 60  0001 C CNN "MFG Name"
-F 5 "ESD5B5.0ST1G" V 9300 5550 60  0001 C CNN "MFG Part Num"
-F 6 "10N9401" V 9300 5550 60  0001 C CNN "Distrib PN"
-F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9300 5550 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9300 5550 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9300 5550 60  0001 C CNN "Others"
-	1    9300 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L D_TVS_ALT D205
-U 1 1 5B1E1464
-P 9500 5550
-F 0 "D205" V 9450 5375 50  0000 C CNN
-F 1 "NC" V 9550 5400 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9500 5550 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9500 5550 50  0001 C CNN
-F 4 "ON Semiconductor" V 9500 5550 60  0001 C CNN "MFG Name"
-F 5 "ESD5B5.0ST1G" V 9500 5550 60  0001 C CNN "MFG Part Num"
-F 6 "10N9401" V 9500 5550 60  0001 C CNN "Distrib PN"
-F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9500 5550 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9500 5550 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9500 5550 60  0001 C CNN "Others"
-	1    9500 5550
-	0    -1   1    0   
-$EndComp
-$Comp
-L D_TVS_ALT D206
-U 1 1 5B1E1575
-P 9850 5550
-F 0 "D206" V 9800 5375 50  0000 C CNN
-F 1 "NC" V 9900 5400 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:SOD-523_Case-502" H 9850 5550 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5B5.0ST1-D.PDF" H 9850 5550 50  0001 C CNN
-F 4 "ON Semiconductor" V 9850 5550 60  0001 C CNN "MFG Name"
-F 5 "ESD5B5.0ST1G" V 9850 5550 60  0001 C CNN "MFG Part Num"
-F 6 "10N9401" V 9850 5550 60  0001 C CNN "Distrib PN"
-F 7 "http://www.newark.com/on-semiconductor/esd5b5-0st1g/tvs-diode-50w-5v-sod-523/dp/10N9401?st=ESD5B5.0ST1G" V 9850 5550 60  0001 C CNN "Distrib Link"
-F 8 "-" V 9850 5550 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9850 5550 60  0001 C CNN "Others"
-	1    9850 5550
-	0    -1   1    0   
-$EndComp
-$Comp
-L 5V_SOM #PWR049
-U 1 1 5B1A8979
-P 6750 2700
-F 0 "#PWR049" H 6750 2550 50  0001 C CNN
-F 1 "5V_SOM" H 6750 2840 50  0000 C CNN
-F 2 "" H 6750 2700 50  0001 C CNN
-F 3 "" H 6750 2700 50  0001 C CNN
-	1    6750 2700
-	1    0    0    -1  
-$EndComp
-Text Notes 8800 1500 0    236  ~ 47
-USB-C
 Wire Wire Line
-	1750 4950 5800 4950
+	6450 5400 6850 5400
 Wire Wire Line
-	5800 4950 5800 5650
+	6550 5300 6850 5300
 Wire Wire Line
-	5800 5650 6200 5650
+	6450 6100 6450 5450
 Wire Wire Line
-	1750 4850 5900 4850
+	6450 5450 6650 5450
 Wire Wire Line
-	5900 4850 5900 5550
+	6550 6200 6550 5550
 Wire Wire Line
-	5900 5550 6200 5550
+	6550 5550 6750 5550
 Wire Wire Line
-	5400 5850 5400 5700
+	6350 5700 6850 5700
 Wire Wire Line
-	5400 5700 6000 5700
+	5550 5600 6850 5600
 Wire Wire Line
-	5500 5950 5500 5800
+	6750 5550 6750 4900
 Wire Wire Line
-	5500 5800 6100 5800
+	6750 4900 6850 4900
 Wire Wire Line
-	5600 5650 5600 5950
+	6650 5450 6650 4800
 Wire Wire Line
-	5600 5950 6200 5950
-Wire Wire Line
-	5700 5550 5700 5850
-Wire Wire Line
-	5700 5850 6200 5850
-Wire Wire Line
-	6100 5800 6100 5150
-Wire Wire Line
-	6100 5150 6200 5150
-Wire Wire Line
-	6000 5700 6000 5050
-Wire Wire Line
-	6000 5050 6200 5050
-Text Notes 7150 4850 0    39   ~ 0
-RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
-Text Notes 7200 6450 0    39   ~ 0
-TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
+	6650 4800 6850 4800
 Wire Wire Line
 	10600 5850 10600 6350
 Connection ~ 10600 6100
@@ -1684,46 +1697,82 @@ Connection ~ 10800 5950
 Wire Wire Line
 	10700 5950 10700 5850
 Connection ~ 10700 5950
-$Comp
-L USB_C_Receptacle-RESCUE-dvk-mx8m-bsb J201
-U 1 1 5AE939ED
-P 10550 4050
-AR Path="/5AE939ED" Ref="J201"  Part="1" 
-AR Path="/5ACF2B88/5AE939ED" Ref="J201"  Part="1" 
-F 0 "J201" H 10750 5500 50  0000 L CNN
-F 1 "USB_C" H 10400 5500 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:USB_C_Receptacle" H 10700 4050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/18/Amphenol_03192018_12401598E4_2A-1313897.pdf" H 10700 4050 50  0001 C CNN
-F 4 "Amphenol" H 10550 4050 60  0001 C CNN "MFG Name"
-F 5 "12401598E4#2A" H 10550 4050 60  0001 C CNN "MFG Part Num"
-F 6 "523-12401598E4#2A" H 10550 4050 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/12401598E42A?qs=sGAEpiMZZMulM8LPOQ%252byk%252bquSaH2WQ%2flVj70qO6U3QOxNt%2fSK0YysQ%3d%3d" H 10550 4050 60  0001 C CNN "Distrib Link"
-F 8 "-" H 10550 4050 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?k=&pkeyword=&pv29=10&FV=700b08%2C1f140000%2Cffe00138&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 10550 4050 60  0001 C CNN "Others"
-	1    10550 4050
-	-1   0    0    -1  
-$EndComp
-Text Notes 8225 2825 0    39   ~ 0
-35V
-Text Notes 8525 2825 0    39   ~ 0
-35V
-Text Notes 8825 2825 0    39   ~ 0
-35V
-$Comp
-L R R220
-U 1 1 5B421944
-P 6300 2950
-F 0 "R220" H 6450 2900 50  0000 C CNN
-F 1 "10k" H 6425 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6230 2950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6300 2950 50  0001 C CNN
-F 4 "Stackpole" H 6300 2950 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 6300 2950 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 6300 2950 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 6300 2950 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 6300 2950 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 6300 2950 60  0001 C CNN "Others"
-	1    6300 2950
-	1    0    0    1   
-$EndComp
+Wire Wire Line
+	4400 5950 4500 5950
+Wire Wire Line
+	4500 5950 4500 6400
+Wire Wire Line
+	4500 6400 6750 6400
+Wire Wire Line
+	6750 6400 6750 5950
+Wire Wire Line
+	6750 5950 6850 5950
+Wire Wire Line
+	4400 5850 4600 5850
+Wire Wire Line
+	4600 5850 4600 6300
+Wire Wire Line
+	4600 6300 6650 6300
+Wire Wire Line
+	6650 6300 6650 5850
+Wire Wire Line
+	6650 5850 6850 5850
+Wire Wire Line
+	6550 6200 4700 6200
+Wire Wire Line
+	4700 6200 4700 5700
+Wire Wire Line
+	4700 5700 4400 5700
+Wire Wire Line
+	4400 5600 4800 5600
+Wire Wire Line
+	4800 5600 4800 6100
+Wire Wire Line
+	4800 6100 6450 6100
+Wire Wire Line
+	6350 5850 6350 5700
+Wire Wire Line
+	4950 5850 4950 5400
+Wire Wire Line
+	4950 5400 4400 5400
+Wire Wire Line
+	4400 5300 5050 5300
+Wire Wire Line
+	5050 5300 5050 5600
+Wire Wire Line
+	6450 4500 6450 5400
+Wire Wire Line
+	5250 5000 5100 5000
+Wire Wire Line
+	5100 5000 5100 5050
+Wire Wire Line
+	5100 5150 5100 5200
+Wire Wire Line
+	5100 5200 5250 5200
+Wire Wire Line
+	5050 5600 5250 5600
+Wire Wire Line
+	5250 5850 4950 5850
+Wire Wire Line
+	6550 4400 6550 5300
+Wire Wire Line
+	6450 4500 3750 4500
+Wire Wire Line
+	3750 4500 3750 4200
+Wire Wire Line
+	3750 4200 1350 4200
+Wire Wire Line
+	1350 4100 3850 4100
+Wire Wire Line
+	3850 4100 3850 4400
+Wire Wire Line
+	3850 4400 6550 4400
+Wire Wire Line
+	2600 4550 2600 4950
+Wire Wire Line
+	9300 5700 9300 5750
+Text Label 2000 5600 0    60   ~ 0
+USB1_RXC_P
+Text Label 2000 5700 0    60   ~ 0
+USB1_RXC_N
 $EndSCHEMATC
