@@ -62,9 +62,9 @@ C701,100nF,Capacitors_SMD:C_0603,,,,,,,
 C902,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1004,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1202,100nF,Capacitors_SMD:C_0603,,,,,,,
-C1208,100nF,Capacitors_SMD:C_0603,,,,,,,
+C1206,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1201,100nF,Capacitors_SMD:C_0603,,,,,,,
-C1205,100nF,Capacitors_SMD:C_0603,,,,,,,
+C1207,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1301,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1302,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1304,100nF,Capacitors_SMD:C_0603,,,,,,,
@@ -94,7 +94,7 @@ C2101,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2201,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2301,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2401,100nF,Capacitors_SMD:C_0603,,,,,,,
-C1206,100pF,Capacitors_SMD:C_0603,,,,,,,
+C1205,100pF,Capacitors_SMD:C_0603,,,,,,,
 C1210,100pF,Capacitors_SMD:C_0603,,,,,,,
 C1305,100pF,Capacitors_SMD:C_0603,,,,,,,
 C1614,100pF,Capacitors_SMD:C_0603,,,,,,,
@@ -103,7 +103,7 @@ C2304,100pF,Capacitors_SMD:C_0603,,,,,,,
 C215,10nF,Capacitors_SMD:C_0603,,,,,,,
 C423,10nF,Capacitors_SMD:C_0603,,,,,,,
 C1203,10nF,Capacitors_SMD:C_0603,,,,,,,
-C1207,10nF,Capacitors_SMD:C_0603,,,,,,,
+C1208,10nF,Capacitors_SMD:C_0603,,,,,,,
 C1307,10nF,Capacitors_SMD:C_0603,,,,,,,
 C1402,10nF,Capacitors_SMD:C_0603,,,,,,,
 C1401,10nF,Capacitors_SMD:C_0603,,,,,,,
@@ -488,6 +488,7 @@ R1202,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pd
 R1201,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R1203,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R1204,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
+R1205,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R1406,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R1405,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R1501,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500

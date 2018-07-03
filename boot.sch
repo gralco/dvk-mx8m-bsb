@@ -73,16 +73,8 @@ Text Notes 2150 2900 0    60   ~ 0
 10k
 Text Label 3200 2950 0    60   ~ 0
 <CB_Function>
-Text Label 3200 3150 0    60   ~ 0
-GP_LED3
-Text Label 3200 3250 0    60   ~ 0
-CAPTOUCH_~RST
-Text Label 3200 3350 0    60   ~ 0
-SW_BACK
 Text Label 3200 3550 0    60   ~ 0
 SAI6_TXFS/RXFS
-Text Label 3200 3650 0    60   ~ 0
-CSI_P2_PWRDN
 Text Label 7000 3250 0    60   ~ 0
 BOOT_CFG10
 Text Label 7600 3250 0    60   ~ 0

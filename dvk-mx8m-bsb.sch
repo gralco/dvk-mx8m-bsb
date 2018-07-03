@@ -326,7 +326,7 @@ Text Label 12950 4050 2    60   ~ 0
 SAI2_TXFS
 Text Label 8250 2400 0    60   ~ 0
 ~WDG
-Text Label 2550 8750 2    60   ~ 0
+Text Label 2150 8750 2    60   ~ 0
 LED
 Text Label 15150 950  2    60   ~ 0
 SAI1_RXD0(GPIO4_IO02)
@@ -362,11 +362,11 @@ Text Label 15150 2450 2    60   ~ 0
 SAI1_TXD7(GPIO4_IO19)
 Text Label 11300 3150 2    60   ~ 0
 SAI1_RXD1(GPIO4_IO03)
-Text Label 8250 3700 0    60   ~ 0
+Text Label 8250 3800 0    60   ~ 0
 SAI1_RXD0(GPIO4_IO02)
-Text Label 8250 4350 0    60   ~ 0
+Text Label 8250 4450 0    60   ~ 0
 SAI1_RXD2(GPIO4_IO04)
-Text Label 8250 4000 0    60   ~ 0
+Text Label 8250 4100 0    60   ~ 0
 SAI1_RXD4(GPIO4_IO06)
 Text Label 8250 7150 0    60   ~ 0
 SAI1_TXD1(GPIO4_IO13)
@@ -374,9 +374,9 @@ Text Label 8250 6650 0    60   ~ 0
 SAI1_RXD5(GPIO4_IO07)
 Text Label 8250 7550 0    60   ~ 0
 SAI1_TXD3(GPIO4_IO15)
-Text Label 8250 4100 0    60   ~ 0
+Text Label 8250 4200 0    60   ~ 0
 SAI1_RXD3(GPIO4_IO05)
-Text Label 8250 4650 0    60   ~ 0
+Text Label 8250 4750 0    60   ~ 0
 SAI1_RXD6(GPIO4_IO08)
 Text Label 10450 5300 3    60   ~ 0
 SAI1_RXD7(GPIO4_IO09)
@@ -386,7 +386,7 @@ Text Label 8250 7650 0    60   ~ 0
 SAI1_TXD4(GPIO4_IO16)
 Text Label 8250 7800 0    60   ~ 0
 SAI1_TXD7(GPIO4_IO19)
-Text Label 2550 8450 2    60   ~ 0
+Text Label 2150 8450 2    60   ~ 0
 ONOFF
 Text Label 8250 6900 0    60   ~ 0
 ONOFF
@@ -396,10 +396,10 @@ Text Label 8250 7350 0    60   ~ 0
 I2C1_SCL
 Text Label 8250 2300 0    60   ~ 0
 DSI_BL_PWM
-Text Label 2550 7650 2    60   ~ 0
+Text Label 2150 7650 2    60   ~ 0
 CAPTOUCH_~INT
-Text Label 2550 7750 2    60   ~ 0
-SAI1_RXD3(GPIO4_IO05)
+Text Label 2150 7750 2    60   ~ 0
+CAPTOUCH_~RST
 Text Label 15150 4300 2    60   ~ 0
 ~WWAN_DISABLE
 Text Label 15150 4550 2    60   ~ 0
@@ -408,7 +408,7 @@ Text Notes 15150 4400 2    60   ~ 0
 GPIO3_IO04
 Text Label 15150 4050 2    60   ~ 0
 ~WoWWAN
-Text Label 8250 3450 0    60   ~ 0
+Text Label 8250 3550 0    60   ~ 0
 HP_DET
 Text Label 15150 5300 2    60   ~ 0
 SAI1_RXD5(GPIO4_IO07)
@@ -470,17 +470,17 @@ F 3 "" H 5850 4950 50  0001 C CNN
 $EndComp
 Text Label 14550 9600 2    60   ~ 0
 ONOFF
-Text Label 2550 8200 2    60   ~ 0
+Text Label 2150 8200 2    60   ~ 0
 BTN1
-Text Label 2550 8300 2    60   ~ 0
+Text Label 2150 8300 2    60   ~ 0
 BTN2
-Text Label 8250 3900 0    60   ~ 0
+Text Label 8250 4000 0    60   ~ 0
 LED
-Text Label 8250 4200 0    60   ~ 0
+Text Label 8250 4300 0    60   ~ 0
 BTN1
 Text Label 11300 4100 2    60   ~ 0
 BTN2
-Text Label 2550 8600 2    60   ~ 0
+Text Label 2150 8600 2    60   ~ 0
 SYS_~RST
 Text Label 8250 7250 0    60   ~ 0
 SYS_~RST
@@ -495,7 +495,7 @@ F 3 "" H 8400 2350 50  0001 C CNN
 	1    8200 2350
 	1    0    0    -1  
 $EndComp
-Text Label 8250 3100 0    60   ~ 0
+Text Label 8250 3200 0    60   ~ 0
 PWR_EN
 Text Notes 15200 1450 0    60   ~ 0
 SAI6_TXD0
@@ -505,8 +505,6 @@ Text Notes 15200 1550 0    60   ~ 0
 SAI6_TXFS/RXFS
 Text Notes 15200 2150 0    60   ~ 0
 SAI6_TXC/RXC
-Text Notes 15200 1250 0    60   ~ 0
-CAPTOUCH_~RST
 $Comp
 L 3V3_OUT #PWR03
 U 1 1 5AF1557D
@@ -561,7 +559,7 @@ F 3 "" H 14650 7850 50  0001 C CNN
 $EndComp
 Text Label 11300 3650 2    60   ~ 0
 CLKO2
-Text Label 8250 3300 0    60   ~ 0
+Text Label 8250 3400 0    60   ~ 0
 ENET_~RST
 Text Label 11300 3050 2    60   ~ 0
 ENET_WoL
@@ -668,9 +666,9 @@ Text Label 11300 2900 2    60   ~ 0
 SAI5_TX_BCLK
 Text Label 11300 3250 2    60   ~ 0
 SAI5_TX_SYNC
-Text Label 8250 3200 0    60   ~ 0
+Text Label 8250 3300 0    60   ~ 0
 SAI5_RXD
-Text Label 8250 3800 0    60   ~ 0
+Text Label 8250 3900 0    60   ~ 0
 SAI5_TXD
 Text Notes 12975 3900 2    60   ~ 0
 GPIO3_IO20
@@ -700,20 +698,20 @@ Text Label 8250 6550 0    60   ~ 0
 HAPTIC
 Text Label 7450 10650 2    60   ~ 0
 HAPTIC
-Text Notes 15200 1150 0    60   ~ 12
+Text Notes 15200 1350 0    60   ~ 12
 Alternate \nFunctions:
 Text Notes 4000 9550 0    60   ~ 0
-Spare GPIO:\nGPIO1_IO05 (was CSI_P2_PWDN)\nGPIO5_IO03 (was PWM3)\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
-Text Label 8250 3600 0    60   ~ 0
+Spare GPIO:\nGPIO5_IO03 (was PWM3)\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
+Text Label 8250 3700 0    60   ~ 0
 PROX_~INT
 Text Notes 4000 10600 0    60   ~ 0
 GPIO that can be swapped around:\nGPIO1_IO05 (was CSI_P2_PWDN)\nGPIO1_IO12 (was IR_CAP)\nGPIO3_IO19 (was LED1)\nGPIO3_IO20\nGPIO3_IO25\nGPIO5_IO03 (was PWM3)\nGPIO5_IO04 (was PWM2)\nGPIO5_IO05 (was PWM1)\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
-Text Label 8250 2850 0    60   ~ 0
+Text Label 8250 2950 0    60   ~ 0
 IMU_INT
-Text Notes 11300 4500 2    60   ~ 0
-GPIO5_IO05\n(was PWM1)
-Text Notes 7500 10850 2    60   ~ 0
-GPIO5_IO04\n(was PWM2)
+Text Notes 11300 4400 2    60   ~ 0
+GPIO5_IO05
+Text Notes 7450 10750 2    60   ~ 0
+GPIO5_IO04
 $Comp
 L R R103
 U 1 1 5B330D8D
@@ -763,9 +761,9 @@ Text Label 14100 8650 0    60   ~ 0
 DSI_BL_PWM
 Text Label 14100 8400 0    60   ~ 0
 LCD_LEDK
-Text Label 2550 6100 2    60   ~ 0
+Text Label 2150 6100 2    60   ~ 0
 LCD_LEDK
-Text Label 2550 6250 2    60   ~ 0
+Text Label 2150 6250 2    60   ~ 0
 LCD_~RESET
 $Comp
 L 22V4_P #PWR010
@@ -808,7 +806,7 @@ Text Label 2000 2550 2    60   ~ 0
 CSI_~RST
 Text Label 2000 2700 2    60   ~ 0
 CSI_PWDN
-Text Label 8250 2950 0    60   ~ 0
+Text Label 8250 3050 0    60   ~ 0
 CSI_~RST
 Text Label 8250 2700 0    60   ~ 0
 CSI_PWDN
@@ -838,9 +836,9 @@ Text Label 7700 1650 0    60   ~ 0
 POR_B
 Text Label 8250 8200 0    60   ~ 0
 POR_B
-Text Label 8250 4550 0    60   ~ 0
+Text Label 8250 4650 0    60   ~ 0
 SAI2_RXD
-Text Label 8250 4450 0    60   ~ 0
+Text Label 8250 4550 0    60   ~ 0
 SAI2_TXFS
 Text Label 12950 4250 2    60   ~ 0
 SAI2_TXD
@@ -1013,29 +1011,29 @@ SAI6_TXC/RXC
 $Comp
 L GND #PWR017
 U 1 1 5B29B698
-P 8150 3500
-F 0 "#PWR017" H 8150 3250 50  0001 C CNN
-F 1 "GND" H 8150 3350 50  0000 C CNN
-F 2 "" H 8150 3500 50  0001 C CNN
-F 3 "" H 8150 3500 50  0001 C CNN
-	1    8150 3500
+P 8150 3600
+F 0 "#PWR017" H 8150 3350 50  0001 C CNN
+F 1 "GND" H 8150 3450 50  0000 C CNN
+F 2 "" H 8150 3600 50  0001 C CNN
+F 3 "" H 8150 3600 50  0001 C CNN
+	1    8150 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R107
 U 1 1 5B2BBF6E
-P 8150 3300
-F 0 "R107" H 8300 3350 50  0000 C CNN
-F 1 "10k" H 8275 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8080 3300 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8150 3300 50  0001 C CNN
-F 4 "Stackpole" H 8150 3300 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 8150 3300 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 8150 3300 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8150 3300 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 8150 3300 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8150 3300 60  0001 C CNN "Others"
-	1    8150 3300
+P 8150 3400
+F 0 "R107" H 8300 3450 50  0000 C CNN
+F 1 "10k" H 8275 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8080 3400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8150 3400 50  0001 C CNN
+F 4 "Stackpole" H 8150 3400 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 8150 3400 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 8150 3400 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8150 3400 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 8150 3400 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8150 3400 60  0001 C CNN "Others"
+	1    8150 3400
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 5000 7950
@@ -1095,7 +1093,6 @@ NoConn ~ 8100 7000
 NoConn ~ 8100 7100
 NoConn ~ 8100 7200
 NoConn ~ 8100 7300
-NoConn ~ 8100 6500
 NoConn ~ 8100 7550
 NoConn ~ 8100 7650
 NoConn ~ 8100 7750
@@ -1117,10 +1114,10 @@ Text Label 11300 3500 2    60   ~ 0
 CHRG_~INT
 Text Notes 14600 9350 2    60   ~ 0
 GPIO3_IO25
-Text Notes 1500 5050 0    60   ~ 0
-GPIO1_IO12\n(was IR_CAP)
-Text Notes 1500 3500 0    60   ~ 0
-GPIO3_IO19\n(was LED1)
+Text Notes 2000 4950 2    60   ~ 0
+GPIO1_IO12
+Text Notes 2000 3500 2    60   ~ 0
+GPIO3_IO19
 Text Notes 8600 6550 0    60   ~ 0
 GPIO5_IO04
 Text Notes 8030 7532 0    39   ~ 0
@@ -1395,9 +1392,9 @@ Wire Wire Line
 Wire Wire Line
 	9300 850  9300 1150
 Wire Wire Line
-	8150 3500 8150 3450
+	8150 3600 8150 3550
 Wire Wire Line
-	8150 3100 8150 3150
+	8150 3200 8150 3250
 Wire Wire Line
 	8200 2400 8200 2350
 Wire Wire Line
@@ -2010,9 +2007,9 @@ Wire Wire Line
 Wire Wire Line
 	12950 4250 12450 4250
 Wire Wire Line
-	9350 4450 8250 4450
-Wire Wire Line
 	9350 4550 8250 4550
+Wire Wire Line
+	9350 4650 8250 4650
 Wire Wire Line
 	12450 6050 12950 6050
 Wire Wire Line
@@ -2066,9 +2063,9 @@ Wire Wire Line
 Wire Wire Line
 	1450 2400 2000 2400
 Wire Wire Line
-	1450 6250 2550 6250
+	1450 6250 2150 6250
 Wire Wire Line
-	1450 6100 2550 6100
+	1450 6100 2150 6100
 Wire Wire Line
 	14700 8400 14100 8400
 Wire Wire Line
@@ -2110,9 +2107,9 @@ Wire Wire Line
 Wire Wire Line
 	14050 2450 15150 2450
 Wire Wire Line
-	9350 4100 8250 4100
+	9350 4200 8250 4200
 Wire Wire Line
-	9350 4650 8250 4650
+	9350 4750 8250 4750
 Wire Wire Line
 	9350 6800 8250 6800
 Wire Wire Line
@@ -2122,11 +2119,11 @@ Wire Wire Line
 Wire Wire Line
 	10250 3150 11300 3150
 Wire Wire Line
-	9350 3700 8250 3700
+	9350 3800 8250 3800
 Wire Wire Line
-	9350 4350 8250 4350
+	9350 4450 8250 4450
 Wire Wire Line
-	9350 4000 8250 4000
+	9350 4100 8250 4100
 Wire Wire Line
 	9350 7150 8250 7150
 Wire Wire Line
@@ -2134,13 +2131,13 @@ Wire Wire Line
 Wire Wire Line
 	9350 7550 8250 7550
 Wire Wire Line
-	1450 8200 2550 8200
+	1450 8200 2150 8200
 Wire Wire Line
-	1450 8300 2550 8300
+	1450 8300 2150 8300
 Wire Wire Line
-	1450 8450 2550 8450
+	1450 8450 2150 8450
 Wire Wire Line
-	1450 8750 2550 8750
+	1450 8750 2150 8750
 Wire Wire Line
 	9350 6900 8250 6900
 Wire Wire Line
@@ -2148,9 +2145,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 7350 8250 7350
 Wire Wire Line
-	1450 7650 2550 7650
+	1450 7650 2150 7650
 Wire Wire Line
-	1450 7750 2550 7750
+	1450 7750 2150 7750
 Wire Wire Line
 	9350 2300 8250 2300
 Wire Wire Line
@@ -2168,27 +2165,27 @@ Wire Wire Line
 Wire Wire Line
 	14050 4550 15150 4550
 Wire Wire Line
-	9350 3450 8250 3450
+	9350 3550 8250 3550
 Wire Wire Line
-	8250 3900 9350 3900
+	8250 4000 9350 4000
 Wire Wire Line
-	8250 4200 9350 4200
+	8250 4300 9350 4300
 Wire Wire Line
 	11300 4100 10250 4100
 Wire Wire Line
-	1450 8600 2550 8600
+	1450 8600 2150 8600
 Wire Wire Line
 	9350 7250 8250 7250
 Wire Wire Line
 	8200 2400 9350 2400
 Wire Wire Line
-	8150 3100 9350 3100
+	8150 3200 9350 3200
 Wire Wire Line
 	10250 2900 11300 2900
 Wire Wire Line
 	10250 3250 11300 3250
 Wire Wire Line
-	9350 2850 8250 2850
+	9350 2950 8250 2950
 Wire Wire Line
 	10250 3650 11300 3650
 Wire Wire Line
@@ -2196,13 +2193,13 @@ Wire Wire Line
 Wire Wire Line
 	9350 2700 8250 2700
 Wire Wire Line
-	9350 3600 8250 3600
+	9350 3700 8250 3700
 Wire Wire Line
-	9350 2950 8250 2950
+	9350 3050 8250 3050
 Wire Wire Line
-	9350 3200 8250 3200
+	9350 3300 8250 3300
 Wire Wire Line
-	9350 3800 8250 3800
+	9350 3900 8250 3900
 Wire Wire Line
 	9350 6550 8250 6550
 Wire Wire Line
@@ -2220,7 +2217,7 @@ Wire Notes Line
 Wire Notes Line
 	15660 9700 15940 9700
 Wire Wire Line
-	9350 3300 8250 3300
+	9350 3400 8250 3400
 Wire Wire Line
 	10250 3050 11300 3050
 Wire Wire Line
@@ -2588,4 +2585,10 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    7950 9950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	9350 2850 8250 2850
+Text Label 8250 2850 0    60   ~ 0
+CAPTOUCH_~RST
+Text Notes 2150 7850 2    60   ~ 0
+GPIO1_IO05
 $EndSCHEMATC
