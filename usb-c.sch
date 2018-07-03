@@ -1080,9 +1080,9 @@ $EndComp
 Text Notes 8800 1500 0    236  ~ 47
 USB-C
 Text Notes 7400 4600 0    39   ~ 0
-RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
+RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standard,\nsection 6.4.2. Lane Polarity Inversion
 Text Notes 7450 6200 0    39   ~ 0
-TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standart,\nsection 6.4.2. Lane Polarity Inversion
+TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standard,\nsection 6.4.2. Lane Polarity Inversion
 $Comp
 L USB-C_Receptacle J201
 U 1 1 5AE939ED
