@@ -92,6 +92,7 @@ C2004,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2008,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2101,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2201,100nF,Capacitors_SMD:C_0603,,,,,,,
+C2205,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2301,100nF,Capacitors_SMD:C_0603,,,,,,,
 C2401,100nF,Capacitors_SMD:C_0603,,,,,,,
 C1205,100pF,Capacitors_SMD:C_0603,,,,,,,
@@ -137,7 +138,6 @@ C904,10uF,Capacitors_SMD:C_0603,,,,,,,
 C1601,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C1611,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C1713,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-C1716,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C1704,10uF,Capacitors_SMD:C_0603,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload,Taiyo Yuden,LMK107BBJ106MALT,587-3258-1-ND,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218,20%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 C2005,10uF,Capacitors_SMD:C_0603,,,,,,,
 C1607,150nF,Capacitors_SMD:C_0603,https://www.byipcb.com/downloads/CL10B154KA8NNNC.pdf,Samsung,CL10B154KA8NNNC,C21118,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B154KA8NNNC_150nF-154-10-25V_C21118.html,10%,https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv17=19&pv17=5&FV=c0003%2C400005%2C1f140000%2Cmu0.15%C2%B5F%7C2049%2Cffe0003c%2C380014%2C380016%2C380020&quantity=0&ColumnSort=1000011&page=1&pageSize=500
@@ -182,11 +182,13 @@ C2001,1uF,Capacitors_SMD:C_0603,,,,,,,
 C2202,1uF,Capacitors_SMD:C_0603,,,,,,,
 C2204,1uF,Capacitors_SMD:C_0603,,,,,,,
 C2203,1uF,Capacitors_SMD:C_0603,,,,,,,
+C2402,1uF,Capacitors_SMD:C_0603,,,,,,,
 C204,2.2uF,Capacitors_SMD:C_0603,,,,,,,
 C206,2.2uF,Capacitors_SMD:C_0603,,,,,,,
 C2002,2.2uF,Capacitors_SMD:C_0603,,,,,,,
 C1711,220nF,Capacitors_SMD:C_0603,,,,,,,
 C1714,220nF,Capacitors_SMD:C_0603,,,,,,,
+C1716,220nF,Capacitors_SMD:C_0603,,,,,,,
 C1717,220nF,Capacitors_SMD:C_0603,,,,,,,
 C1706,220nF,Capacitors_SMD:C_0603,,,,,,,
 C1705,220nF,Capacitors_SMD:C_0603,,,,,,,
@@ -400,7 +402,7 @@ R2002,0,Resistors_SMD:R_0603,,,,,,,
 R2202,0,Resistors_SMD:R_0603,,,,,,,
 R910,1,Resistors_SMD:R_0603,,,,,,,
 R903,1,Resistors_SMD:R_0603,,,,,,,
-R415,5.1,Resistors_SMD:R_0603,http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf,Yageo,RT0603DRE075R1L,603-RT0603DRE075R1L,https://www.mouser.com/ProductDetail/Yageo/RT0603DRE075R1L?qs=%2fha2pyFaduht7PCjER6AutY0cwRaA5v8%252bIKbr7x%252bqtcf2D6zoEEfG7Yq%2fpVpDtKT&utm_source=octopart&utm_medium=aggregator&utm_campaign=603-RT0603DRE075R1L&utm_content=Yageo,0.5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv3=380&pv3=370&pv3=377&pv3=355&FV=c0001%2Cc0163%2Cc0172%2Cc0179%2Cc017c%2C400005%2C1f140000%2Cmu5.1+Ohms%7C2085%2Cffe00034&quantity=0&ColumnSort=1000011&page=1&pageSize=500
+R416,5.1,Resistors_SMD:R_0603,http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf,Yageo,RT0603DRE075R1L,603-RT0603DRE075R1L,https://www.mouser.com/ProductDetail/Yageo/RT0603DRE075R1L?qs=%2fha2pyFaduht7PCjER6AutY0cwRaA5v8%252bIKbr7x%252bqtcf2D6zoEEfG7Yq%2fpVpDtKT&utm_source=octopart&utm_medium=aggregator&utm_campaign=603-RT0603DRE075R1L&utm_content=Yageo,0.5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv3=380&pv3=370&pv3=377&pv3=355&FV=c0001%2Cc0163%2Cc0172%2Cc0179%2Cc017c%2C400005%2C1f140000%2Cmu5.1+Ohms%7C2085%2Cffe00034&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 R1402,33,Resistors_SMD:R_0603,,,,,,,
 R1401,33,Resistors_SMD:R_0603,,,,,,,
 R1404,33,Resistors_SMD:R_0603,,,,,,,
@@ -456,6 +458,7 @@ R305,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
 R304,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R303,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R413,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
+R415,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R501,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R502,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R503,10k,Resistors_SMD:R_0603,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Stackpole,RMCF0603JG10K0,RMCF0603JG10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128,5%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500
@@ -537,7 +540,7 @@ R407,24k,Resistors_SMD:R_0603,,,,,,,
 R1912,27k,Resistors_SMD:R_0603,,,,,,,
 R307,30.1k,Resistors_SMD:R_0603,,,,,,,
 R403,300k,Resistors_SMD:R_0603,,,,,,,
-R417,30k,Resistors_SMD:R_0603,,,,,,,
+R418,30k,Resistors_SMD:R_0603,,,,,,,
 R405,33k,Resistors_SMD:R_0603,,,,,,,
 R206,4.7k,Resistors_SMD:R_0603,,,,,,,
 R207,4.7k,Resistors_SMD:R_0603,,,,,,,
@@ -552,7 +555,7 @@ R1503,47k,Resistors_SMD:R_0603,,,,,,,
 R308,5.23k,Resistors_SMD:R_0603,,,,,,,
 R406,75k,Resistors_SMD:R_0603,,,,,,,
 R409,910k,Resistors_SMD:R_0603,,,,,,,
-R416,910k,Resistors_SMD:R_0603,,,,,,,
+R417,910k,Resistors_SMD:R_0603,,,,,,,
 R211,NC,Resistors_SMD:R_0603,,,,,,,
 R212,NC,Resistors_SMD:R_0603,,,,,,,
 R213,NC,Resistors_SMD:R_0603,,,,,,,
@@ -567,7 +570,7 @@ R205,NC,Resistors_SMD:R_0603,,,,,,,
 R219,NC,Resistors_SMD:R_0603,,,,,,,
 R309,NC,Resistors_SMD:R_2512,https://riedon.com/media/pdf/CSR.pdf,Riedon,CSR2512A0R025F,696-1666-1-ND,https://www.digikey.com/product-detail/en/riedon/CSR2512A0R025F/696-1666-1-ND/5723654,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0172%2Cc002a%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c06f9%2C142c0787%2C142c08f2%2C142c0b45%2C142c0ce1%2C142c10bd&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R411,NC,Resistors_SMD:R_1206,https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf,Panasonic,ERJ-8CWFR025V,P0.025BVCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8CWFR025V/P0.025BVCT-ND/4927045,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv1291=2471&FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80006%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0165%2Cc0172%2Cc0179%2Cc017c%2Cc002a%2Cc01af%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c09a7%2C142c1cdb&quantity=0&ColumnSort=1000011&page=1&pageSize=500
-R418,NC,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf,Stackpole,CSR0805FK25L0,CSR0805FK25L0CT-ND,,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=142c040d%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034&quantity=&ColumnSort=1000011&page=1&pageSize=500
+R419,NC,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf,Stackpole,CSR0805FK25L0,CSR0805FK25L0CT-ND,,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=142c040d%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034&quantity=&ColumnSort=1000011&page=1&pageSize=500
 R402,NC,Resistors_SMD:R_0603,,,,,,,
 R412,NC,Resistors_SMD:R_1206,https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf,Panasonic,ERJ-8CWFR025V,P0.025BVCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8CWFR025V/P0.025BVCT-ND/4927045,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv1291=2471&FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80006%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0165%2Cc0172%2Cc0179%2Cc017c%2Cc002a%2Cc01af%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c09a7%2C142c1cdb&quantity=0&ColumnSort=1000011&page=1&pageSize=500
 R414,NC,Resistors_SMD:R_1206,https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf,Panasonic,ERJ-8CWFR025V,P0.025BVCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8CWFR025V/P0.025BVCT-ND/4927045,1%,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv1291=2471&FV=8000a%2C80067%2C80069%2C8008f%2C80010%2C80006%2C80007%2C80008%2C80009%2Cc0001%2Cc0163%2Cc0165%2Cc0172%2Cc0179%2Cc017c%2Cc002a%2Cc01af%2C1f140000%2Cmu25+mOhms%7C2085%2Cffe00034%2C142c09a7%2C142c1cdb&quantity=0&ColumnSort=1000011&page=1&pageSize=500

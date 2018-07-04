@@ -265,6 +265,7 @@ F7 "HP_DET" O R 12450 3800 60
 F8 "I2C1_SDA" B R 12450 4400 60 
 F9 "I2C1_SCL" I R 12450 4500 60 
 F10 "MIC_SEL" I L 11350 4400 60 
+F11 "MUTE" I R 12450 3900 60 
 $EndSheet
 $Sheet
 S 4850 1050 1450 1500
@@ -368,11 +369,11 @@ Text Label 8250 4450 0    60   ~ 0
 SAI1_RXD2(GPIO4_IO04)
 Text Label 8250 4100 0    60   ~ 0
 SAI1_RXD4(GPIO4_IO06)
-Text Label 8250 7150 0    60   ~ 0
+Text Label 8250 7200 0    60   ~ 0
 SAI1_TXD1(GPIO4_IO13)
-Text Label 8250 6650 0    60   ~ 0
+Text Label 8250 6700 0    60   ~ 0
 SAI1_RXD5(GPIO4_IO07)
-Text Label 8250 7550 0    60   ~ 0
+Text Label 8250 7600 0    60   ~ 0
 SAI1_TXD3(GPIO4_IO15)
 Text Label 8250 4200 0    60   ~ 0
 SAI1_RXD3(GPIO4_IO05)
@@ -380,19 +381,19 @@ Text Label 8250 4750 0    60   ~ 0
 SAI1_RXD6(GPIO4_IO08)
 Text Label 10450 5300 3    60   ~ 0
 SAI1_RXD7(GPIO4_IO09)
-Text Label 8250 6800 0    60   ~ 0
+Text Label 8250 6850 0    60   ~ 0
 SAI1_TXD0(GPIO4_IO12)
-Text Label 8250 7650 0    60   ~ 0
+Text Label 8250 7700 0    60   ~ 0
 SAI1_TXD4(GPIO4_IO16)
-Text Label 8250 7800 0    60   ~ 0
+Text Label 8250 7850 0    60   ~ 0
 SAI1_TXD7(GPIO4_IO19)
 Text Label 2150 8450 2    60   ~ 0
 ONOFF
-Text Label 8250 6900 0    60   ~ 0
+Text Label 8250 6950 0    60   ~ 0
 ONOFF
-Text Label 8250 7450 0    60   ~ 0
+Text Label 8250 7500 0    60   ~ 0
 I2C1_SDA
-Text Label 8250 7350 0    60   ~ 0
+Text Label 8250 7400 0    60   ~ 0
 I2C1_SCL
 Text Label 8250 2300 0    60   ~ 0
 DSI_BL_PWM
@@ -482,7 +483,7 @@ Text Label 11300 4100 2    60   ~ 0
 BTN2
 Text Label 2150 8600 2    60   ~ 0
 SYS_~RST
-Text Label 8250 7250 0    60   ~ 0
+Text Label 8250 7300 0    60   ~ 0
 SYS_~RST
 $Comp
 L TEST_1P TP101
@@ -670,7 +671,7 @@ Text Label 8250 3300 0    60   ~ 0
 SAI5_RXD
 Text Label 8250 3900 0    60   ~ 0
 SAI5_TXD
-Text Notes 12975 3900 2    60   ~ 0
+Text Notes 12970 3720 2    60   ~ 0
 GPIO3_IO20
 $Comp
 L 5V_SOM #PWR08
@@ -694,14 +695,14 @@ F 3 "" H 7950 9750 50  0001 C CNN
 	1    7950 9750
 	1    0    0    -1  
 $EndComp
-Text Label 8250 6550 0    60   ~ 0
+Text Label 8250 6600 0    60   ~ 0
 HAPTIC
 Text Label 7450 10650 2    60   ~ 0
 HAPTIC
 Text Notes 15200 1350 0    60   ~ 12
 Alternate \nFunctions:
 Text Notes 4000 9550 0    60   ~ 0
-Spare GPIO:\nGPIO5_IO03 (was PWM3)\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
+Spare GPIO:\nGPIO5_IO18 (PWM4/CLKO2/I2C3_SCL)
 Text Label 8250 3700 0    60   ~ 0
 PROX_~INT
 Text Notes 4000 10600 0    60   ~ 0
@@ -834,7 +835,7 @@ Text Label 6950 3450 2    60   ~ 0
 WLAN_D_N
 Text Label 7700 1650 0    60   ~ 0
 POR_B
-Text Label 8250 8200 0    60   ~ 0
+Text Label 8250 8250 0    60   ~ 0
 POR_B
 Text Label 8250 4650 0    60   ~ 0
 SAI2_RXD
@@ -906,9 +907,9 @@ F 3 "" H 15800 8850 50  0001 C CNN
 $EndComp
 Text Label 10750 5050 0    60   ~ 0
 ECSPI1_MOSI
-Text Label 8250 9000 0    60   ~ 0
+Text Label 8250 9050 0    60   ~ 0
 ECSPI1_MISO
-Text Label 8250 8650 0    60   ~ 0
+Text Label 8250 8700 0    60   ~ 0
 ECSPI1_MOSI
 Text Label 4700 3850 2    60   ~ 0
 ~WWAN_DISABLE
@@ -942,9 +943,9 @@ Text Label 6950 3800 2    60   ~ 0
 UART4_RTS
 Text Label 6950 3900 2    60   ~ 0
 UART4_CTS
-Text Label 8250 9100 0    60   ~ 0
+Text Label 8250 9150 0    60   ~ 0
 UART4_RTS
-Text Label 8250 8750 0    60   ~ 0
+Text Label 8250 8800 0    60   ~ 0
 UART4_CTS
 Text Label 10850 7450 2    60   ~ 0
 UART4_RXD
@@ -952,17 +953,17 @@ Text Label 6950 4050 2    60   ~ 0
 ~WIFI_DISABLE
 Text Label 6950 4150 2    60   ~ 0
 ~BT_DISABLE
-Text Label 8250 8000 0    60   ~ 0
+Text Label 8250 8050 0    60   ~ 0
 ~BT_DISABLE
-Text Label 8250 8850 0    60   ~ 0
+Text Label 8250 8900 0    60   ~ 0
 UART3_RXD
-Text Label 8250 8100 0    60   ~ 0
+Text Label 8250 8150 0    60   ~ 0
 SAI1_TXD5(GPIO4_IO17)
-Text Label 8250 8450 0    60   ~ 0
+Text Label 8250 8500 0    60   ~ 0
 SAI1_TXD2(GPIO4_IO14)
-Text Label 8250 8550 0    60   ~ 0
+Text Label 8250 8600 0    60   ~ 0
 SAI1_TXD6(GPIO4_IO18)
-Text Label 8250 7900 0    60   ~ 0
+Text Label 8250 7950 0    60   ~ 0
 UART3_TXD
 Text Label 2000 3600 2    60   ~ 0
 IMU_INT
@@ -986,7 +987,7 @@ Text Label 6950 2200 2    60   ~ 0
 ENET_~INT
 Text Label 10850 7000 2    60   ~ 0
 UART4_TXD
-Text Label 8250 7000 0    60   ~ 0
+Text Label 8250 7050 0    60   ~ 0
 I2C2_SDA
 $Comp
 L 3V3_OUT #PWR016
@@ -1085,7 +1086,6 @@ F 3 "" H 6450 5200 50  0001 C CNN
 	1    6450 5200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8100 6600
 NoConn ~ 8100 6700
 NoConn ~ 8100 6800
 NoConn ~ 8100 6900
@@ -1118,7 +1118,7 @@ Text Notes 2000 4950 2    60   ~ 0
 GPIO1_IO12
 Text Notes 2000 3500 2    60   ~ 0
 GPIO3_IO19
-Text Notes 8600 6550 0    60   ~ 0
+Text Notes 8600 6600 0    60   ~ 0
 GPIO5_IO04
 Text Notes 8030 7532 0    39   ~ 0
 PWM4
@@ -1486,7 +1486,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 5250 6300 5300
 Wire Wire Line
-	9350 7000 8250 7000
+	9350 7050 8250 7050
 Wire Wire Line
 	6300 4400 7800 4400
 Wire Wire Line
@@ -1530,7 +1530,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 9550 6900 9550
 Wire Wire Line
-	8200 8350 8200 9450
+	8200 8400 8200 9450
 Wire Wire Line
 	10250 6550 10650 6550
 Wire Wire Line
@@ -1657,7 +1657,7 @@ Connection ~ 7050 7250
 Wire Wire Line
 	7000 7250 7050 7250
 Wire Wire Line
-	7150 9000 7150 7250
+	7150 7250 7150 9000
 Wire Wire Line
 	7150 7250 7200 7250
 Wire Wire Line
@@ -1809,7 +1809,7 @@ Connection ~ 5950 6550
 Wire Wire Line
 	5900 6550 5950 6550
 Wire Wire Line
-	6050 9000 6050 6650
+	6050 6650 6050 9000
 Wire Wire Line
 	6050 6650 6100 6650
 Wire Wire Line
@@ -1897,19 +1897,19 @@ Wire Wire Line
 Wire Wire Line
 	1450 1150 2850 1150
 Wire Wire Line
-	8250 7900 9350 7900
+	8250 7950 9350 7950
 Wire Wire Line
-	9350 8550 8250 8550
+	9350 8600 8250 8600
 Wire Wire Line
-	9350 8450 8250 8450
+	9350 8500 8250 8500
 Wire Wire Line
-	8200 8350 9350 8350
+	8200 8400 9350 8400
 Wire Wire Line
-	9350 8100 8250 8100
+	9350 8150 8250 8150
 Wire Wire Line
-	9350 8850 8250 8850
+	9350 8900 8250 8900
 Wire Wire Line
-	9350 8000 8250 8000
+	9350 8050 8250 8050
 Wire Wire Line
 	6300 4150 6950 4150
 Wire Wire Line
@@ -1917,9 +1917,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 8150 11350 8150
 Wire Wire Line
-	9350 8750 8250 8750
+	9350 8800 8250 8800
 Wire Wire Line
-	9350 9100 8250 9100
+	9350 9150 8250 9150
 Wire Wire Line
 	6300 3900 6950 3900
 Wire Wire Line
@@ -1957,9 +1957,9 @@ Wire Wire Line
 Wire Wire Line
 	10700 6850 10250 6850
 Wire Wire Line
-	9350 8650 8250 8650
+	9350 8700 8250 8700
 Wire Wire Line
-	9350 9000 8250 9000
+	9350 9050 8250 9050
 Wire Wire Line
 	10950 5150 11350 5150
 Wire Wire Line
@@ -2013,7 +2013,7 @@ Wire Wire Line
 Wire Wire Line
 	12450 6050 12950 6050
 Wire Wire Line
-	8250 8200 9350 8200
+	8250 8250 9350 8250
 Wire Wire Line
 	8050 1650 7700 1650
 Wire Wire Line
@@ -2111,11 +2111,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 4750 8250 4750
 Wire Wire Line
-	9350 6800 8250 6800
+	9350 6850 8250 6850
 Wire Wire Line
-	9350 7650 8250 7650
+	9350 7700 8250 7700
 Wire Wire Line
-	9350 7800 8250 7800
+	9350 7850 8250 7850
 Wire Wire Line
 	10250 3150 11300 3150
 Wire Wire Line
@@ -2125,11 +2125,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 4100 8250 4100
 Wire Wire Line
-	9350 7150 8250 7150
+	9350 7200 8250 7200
 Wire Wire Line
-	9350 6650 8250 6650
+	9350 6700 8250 6700
 Wire Wire Line
-	9350 7550 8250 7550
+	9350 7600 8250 7600
 Wire Wire Line
 	1450 8200 2150 8200
 Wire Wire Line
@@ -2139,11 +2139,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 8750 2150 8750
 Wire Wire Line
-	9350 6900 8250 6900
+	9350 6950 8250 6950
 Wire Wire Line
-	9350 7450 8250 7450
+	9350 7500 8250 7500
 Wire Wire Line
-	9350 7350 8250 7350
+	9350 7400 8250 7400
 Wire Wire Line
 	1450 7650 2150 7650
 Wire Wire Line
@@ -2175,7 +2175,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 8600 2150 8600
 Wire Wire Line
-	9350 7250 8250 7250
+	9350 7300 8250 7300
 Wire Wire Line
 	8200 2400 9350 2400
 Wire Wire Line
@@ -2201,7 +2201,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 3900 8250 3900
 Wire Wire Line
-	9350 6550 8250 6550
+	9350 6600 8250 6600
 Wire Wire Line
 	10250 6700 10650 6700
 Wire Wire Line
@@ -2260,7 +2260,7 @@ Wire Wire Line
 	10250 7700 11350 7700
 Wire Wire Line
 	14650 7850 14650 8150
-Text Label 8250 8350 0    60   ~ 0
+Text Label 8250 8400 0    60   ~ 0
 UART1_RXD
 Text Label 8250 9550 0    60   ~ 0
 UART1_TXD
@@ -2303,9 +2303,6 @@ Wire Wire Line
 	3750 6650 4400 6650
 Wire Wire Line
 	3750 6750 4400 6750
-Text Notes 8025 7425 0    39   ~ 0
-PWM3
-NoConn ~ 8100 7450
 $Comp
 L GND #PWR023
 U 1 1 5B2F8B52
@@ -2591,4 +2588,15 @@ Text Label 8250 2850 0    60   ~ 0
 CAPTOUCH_~RST
 Text Notes 2150 7850 2    60   ~ 0
 GPIO1_IO05
+Wire Wire Line
+	12450 3900 12950 3900
+Text Label 12950 3900 2    60   ~ 0
+MUTE
+Text Notes 13490 3880 2    60   ~ 0
+GPIO5_IO03
+NoConn ~ 8100 7400
+Wire Wire Line
+	9350 6500 8250 6500
+Text Label 8250 6500 0    60   ~ 0
+MUTE
 $EndSCHEMATC

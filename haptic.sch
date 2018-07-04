@@ -48,10 +48,10 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0393
+L GND #PWR0395
 U 1 1 5AFCF90B
 P 6050 4700
-F 0 "#PWR0393" H 6050 4450 50  0001 C CNN
+F 0 "#PWR0395" H 6050 4450 50  0001 C CNN
 F 1 "GND" H 6050 4550 50  0000 C CNN
 F 2 "" H 6050 4700 50  0001 C CNN
 F 3 "" H 6050 4700 50  0001 C CNN
@@ -78,10 +78,10 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0394
+L 3V3_P #PWR0396
 U 1 1 5AFD13E2
 P 6050 3350
-F 0 "#PWR0394" H 6050 3200 50  0001 C CNN
+F 0 "#PWR0396" H 6050 3200 50  0001 C CNN
 F 1 "3V3_P" H 6050 3490 50  0000 C CNN
 F 2 "" H 6050 3350 50  0001 C CNN
 F 3 "" H 6050 3350 50  0001 C CNN
@@ -158,8 +158,6 @@ Wire Wire Line
 	5300 3800 5400 3800
 Wire Wire Line
 	5350 3450 5350 3400
-Wire Wire Line
-	5350 3400 6050 3400
 Connection ~ 6050 3400
 Wire Wire Line
 	6050 4000 6050 4300
@@ -228,4 +226,32 @@ F 9 "http://nfpshop.com/product/nfp-coin-motor-c0834-free-wire/" H 6600 4350 60 
 	1    6600 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C2402
+U 1 1 5B428193
+P 6650 3600
+F 0 "C2402" H 6675 3700 50  0000 L CNN
+F 1 "1uF" H 6675 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 3450 50  0001 C CNN
+F 3 "" H 6650 3600 50  0001 C CNN
+	1    6650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0397
+U 1 1 5B428255
+P 6650 3800
+F 0 "#PWR0397" H 6650 3550 50  0001 C CNN
+F 1 "GND" H 6650 3650 50  0000 C CNN
+F 2 "" H 6650 3800 50  0001 C CNN
+F 3 "" H 6650 3800 50  0001 C CNN
+	1    6650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3800 6650 3750
+Wire Wire Line
+	5350 3400 6650 3400
+Wire Wire Line
+	6650 3400 6650 3450
 $EndSCHEMATC
