@@ -1112,8 +1112,6 @@ Text Notes 2000 4950 2    60   ~ 0
 GPIO1_IO12
 Text Notes 2000 3500 2    60   ~ 0
 GPIO3_IO19
-Text Notes 8030 7532 0    39   ~ 0
-PWM4
 $Comp
 L C C108
 U 1 1 5BE7141F
