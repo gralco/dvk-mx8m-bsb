@@ -68,9 +68,9 @@ D3_P
 Text HLabel 8650 3350 0    60   Input ~ 0
 D3_N
 Text HLabel 5500 3500 0    60   BiDi ~ 0
-I2C1_SDA_1V8
+I2C3_SDA_1V8
 Text HLabel 5500 3400 0    60   Input ~ 0
-I2C1_SCL_1V8
+I2C3_SCL_1V8
 Text HLabel 3550 3600 0    60   Output ~ 0
 CAPTOUCH_~INT
 Text HLabel 1650 3700 0    60   Input ~ 0

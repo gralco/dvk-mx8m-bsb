@@ -84,9 +84,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 3850 6250 3850
 Text HLabel 4550 3100 0    60   BiDi ~ 0
-I2C1_SDA
+I2C3_SDA
 Text HLabel 5450 3100 2    60   Input ~ 0
-I2C1_SCL
+I2C3_SCL
 $Comp
 L GND #PWR0138
 U 1 1 5AC6302E

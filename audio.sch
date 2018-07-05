@@ -1410,9 +1410,9 @@ F 3 "" H 3450 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1250 3100 0    60   BiDi ~ 0
-I2C1_SDA
+I2C3_SDA
 Text HLabel 1250 3200 0    60   Input ~ 0
-I2C1_SCL
+I2C3_SCL
 $Comp
 L C C1602
 U 1 1 5B420B54

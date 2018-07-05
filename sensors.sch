@@ -308,13 +308,13 @@ $EndComp
 NoConn ~ 8850 3500
 NoConn ~ 7450 4000
 Text HLabel 7400 3300 0    60   Input ~ 0
-I2C1_SCL
+I2C3_SCL
 Text HLabel 7400 3400 0    60   BiDi ~ 0
-I2C1_SDA
+I2C3_SDA
 Text HLabel 3050 3400 0    60   Input ~ 0
-I2C1_SCL
+I2C3_SCL
 Text HLabel 3050 3500 0    60   BiDi ~ 0
-I2C1_SDA
+I2C3_SDA
 $Comp
 L C C2004
 U 1 1 5B163F79

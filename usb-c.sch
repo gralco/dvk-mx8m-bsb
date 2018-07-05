@@ -231,9 +231,9 @@ EN_SNK
 Text Label 3400 900  2    60   ~ 0
 EN_SRC
 Text HLabel 4850 2550 2    60   Input ~ 0
-I2C1_SCL
+I2C3_SCL
 Text HLabel 4850 2650 2    60   BiDi ~ 0
-I2C1_SDA
+I2C3_SDA
 Text HLabel 4850 2350 2    60   Output ~ 0
 TCPC_~INT
 Text Label 4800 1900 2    60   ~ 0

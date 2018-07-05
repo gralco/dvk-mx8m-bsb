@@ -302,9 +302,9 @@ RGEN
 Text Notes 3800 2350 0    60   ~ 0
 1.658≤ILIM≤2.063\nILIM(nom)≅1.859A\n   3.9≤VIN≤14
 Text HLabel 4500 4250 0    60   BiDi ~ 0
-I2C1_SDA
+I2C3_SDA
 Text HLabel 4500 4350 0    60   Input ~ 0
-I2C1_SCL
+I2C3_SCL
 Text HLabel 3400 4450 0    60   Output ~ 0
 CHRG_~INT
 Text HLabel 3400 4550 0    60   Input ~ 0

@@ -6405,9 +6405,9 @@ F 3 "" H 9450 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text HLabel 8750 3250 0    60   Input ~ 0
-I2C1_SCL_1V8
+I2C3_SCL_1V8
 Text HLabel 8750 3350 0    60   BiDi ~ 0
-I2C1_SDA_1V8
+I2C3_SDA_1V8
 Text HLabel 9450 3650 2    60   Input ~ 0
 CLK_N
 Text HLabel 9450 3750 2    60   Input ~ 0
