@@ -701,9 +701,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 6200 3550 6200
 Wire Wire Line
-	3550 6200 3550 6850
+	3550 6850 3550 6200
 Wire Wire Line
-	3550 6850 2850 6850
+	2850 6850 3550 6850
 Wire Wire Line
 	2850 6850 2850 6800
 Wire Wire Line
@@ -1119,7 +1119,7 @@ L C C1718
 U 1 1 5B038954
 P 7400 3300
 F 0 "C1718" H 7425 3400 50  0000 L CNN
-F 1 "220nF" H 7425 3200 50  0000 L CNN
+F 1 "2.2uF" H 7425 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7438 3150 50  0001 C CNN
 F 3 "" H 7400 3300 50  0001 C CNN
 	1    7400 3300
@@ -1161,7 +1161,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 3600 8800 3600
 Wire Wire Line
-	8800 3600 8800 3450
+	8800 3450 8800 3600
 Wire Wire Line
 	8000 3450 8000 3500
 Wire Wire Line
@@ -1215,7 +1215,7 @@ F 3 "" H 6200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 3450 8000 3450
+	8000 3450 8800 3450
 Wire Wire Line
 	8300 3800 8300 3900
 $Comp
@@ -1613,8 +1613,4 @@ Wire Wire Line
 Connection ~ 3250 5200
 Text Notes 3516 4832 0    39   ~ 0
 1%
-Text Notes 7700 3425 0    39   ~ 0
-TODO:\nC1718 should be 2.2uF?\n(wait for EmCraft)
-Text Notes 7050 2700 0    39   ~ 0
-TODO:\nC1716 should be 100nF?\n(wait for EmCraft)
 $EndSCHEMATC

@@ -9053,7 +9053,7 @@
     (fp_text reference C1718 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 0.77 0.77) (thickness 0.15)))
     )
-    (fp_text value 220nF (at 0 1.5) (layer F.Fab)
+    (fp_text value 2.2uF (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.4 0.65) (end -1.4 0.65) (layer F.CrtYd) (width 0.05))
