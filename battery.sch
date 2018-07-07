@@ -198,12 +198,12 @@ $EndComp
 $Comp
 L C C308
 U 1 1 5AE0040B
-P 7450 2800
-F 0 "C308" H 7475 2900 50  0000 L CNN
-F 1 "100nF" H 7475 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7488 2650 50  0001 C CNN
-F 3 "" H 7450 2800 50  0001 C CNN
-	1    7450 2800
+P 7500 2800
+F 0 "C308" H 7525 2900 50  0000 L CNN
+F 1 "100nF" H 7500 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7538 2650 50  0001 C CNN
+F 3 "" H 7500 2800 50  0001 C CNN
+	1    7500 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -220,12 +220,12 @@ $EndComp
 $Comp
 L C C309
 U 1 1 5AE01FE0
-P 7850 2800
-F 0 "C309" H 7875 2900 50  0000 L CNN
-F 1 "100nF" H 7875 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7888 2650 50  0001 C CNN
-F 3 "" H 7850 2800 50  0001 C CNN
-	1    7850 2800
+P 7750 2800
+F 0 "C309" H 7775 2900 50  0000 L CNN
+F 1 "100nF" H 7775 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7788 2650 50  0001 C CNN
+F 3 "" H 7750 2800 50  0001 C CNN
+	1    7750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -300,7 +300,7 @@ RGEN
 Text Label 5800 3150 2    60   ~ 0
 RGEN
 Text Notes 3800 2350 0    60   ~ 0
-1.658≤ILIM≤2.063\nILIM(nom)≅1.859A\n   3.9≤VIN≤14
+1.658≤ILIM≤2.063\nILIM(nom)≅1.859A\n    3.9≤VIN≤6
 Text HLabel 4500 4250 0    60   BiDi ~ 0
 I2C3_SDA
 Text HLabel 4500 4350 0    60   Input ~ 0
@@ -403,12 +403,12 @@ $EndComp
 $Comp
 L GND #PWR060
 U 1 1 5AE86DE3
-P 7450 3050
-F 0 "#PWR060" H 7450 2800 50  0001 C CNN
-F 1 "GND" H 7450 2900 50  0000 C CNN
-F 2 "" H 7450 3050 50  0001 C CNN
-F 3 "" H 7450 3050 50  0001 C CNN
-	1    7450 3050
+P 7500 3050
+F 0 "#PWR060" H 7500 2800 50  0001 C CNN
+F 1 "GND" H 7500 2900 50  0000 C CNN
+F 2 "" H 7500 3050 50  0001 C CNN
+F 3 "" H 7500 3050 50  0001 C CNN
+	1    7500 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -436,7 +436,7 @@ Text Notes 7850 3900 0    60   ~ 0
 VBAT(ovp_default)=REG06[7:2]=4.208V (reduce to 4.192V [010110])\nWorst Case:\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nBQ29705 provides 4.425V as OVP!
 Text Notes 4300 5300 0    60   ~ 0
 BC1.2 is not mandated by PD spec\nICO used to determine max current\nAlso negotiated from CC pins (I2C)
-Text Notes 7225 2350 0    60   ~ 0
+Text Notes 7275 2350 0    60   ~ 0
 3.5~~4.25V
 Text Notes 5700 2400 0    60   ~ 0
 I(Lsat)=7A
@@ -445,12 +445,12 @@ reference design: http://www.ti.com/lit/ug/sluuba2b/sluuba2b.pdf
 $Comp
 L PWR_FLAG #FLG061
 U 1 1 5AF16085
-P 7450 2550
-F 0 "#FLG061" H 7450 2625 50  0001 C CNN
-F 1 "PWR_FLAG" H 7450 2700 50  0000 C CNN
-F 2 "" H 7450 2550 50  0001 C CNN
-F 3 "" H 7450 2550 50  0001 C CNN
-	1    7450 2550
+P 7500 2550
+F 0 "#FLG061" H 7500 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 7500 2700 50  0000 C CNN
+F 2 "" H 7500 2550 50  0001 C CNN
+F 3 "" H 7500 2550 50  0001 C CNN
+	1    7500 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2029,12 +2029,18 @@ F 9 "https://www.arrow.com/en/products/0015381026/molex" V 9500 2150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4250 2550 4250 2650
+	4250 2550 4250 2600
+Wire Wire Line
+	4250 2600 4250 2650
 Connection ~ 4250 2600
 Wire Wire Line
 	4250 3000 4250 2950
 Wire Wire Line
-	5550 2600 5750 2600
+	5550 2600 5600 2600
+Wire Wire Line
+	5600 2600 5650 2600
+Wire Wire Line
+	5650 2600 5750 2600
 Wire Wire Line
 	5650 2650 5650 2600
 Connection ~ 5650 2600
@@ -2061,14 +2067,18 @@ Wire Wire Line
 Wire Wire Line
 	4450 3100 4450 3050
 Wire Wire Line
-	5550 3750 6100 3750
+	5550 3750 5600 3750
+Wire Wire Line
+	5600 3750 6100 3750
 Wire Wire Line
 	6100 3750 6100 2600
 Connection ~ 6100 2600
 Wire Wire Line
 	6350 2950 6350 3000
 Wire Wire Line
-	6350 3000 6550 3000
+	6350 3000 6450 3000
+Wire Wire Line
+	6450 3000 6550 3000
 Wire Wire Line
 	6550 3000 6550 2950
 Wire Wire Line
@@ -2088,11 +2098,15 @@ Wire Wire Line
 	6100 5050 6100 5000
 Connection ~ 6100 5000
 Wire Wire Line
-	5550 4350 6300 4350
+	5550 4350 5900 4350
+Wire Wire Line
+	5900 4350 6300 4350
 Wire Wire Line
 	6300 4350 6300 4400
 Wire Wire Line
-	5900 4200 5900 4450
+	5900 4200 5900 4350
+Wire Wire Line
+	5900 4350 5900 4450
 Connection ~ 5900 4350
 Wire Wire Line
 	5950 4200 5900 4200
@@ -2129,38 +2143,74 @@ Wire Wire Line
 Wire Wire Line
 	4200 3300 4550 3300
 Wire Wire Line
-	6050 2600 6750 2600
+	6050 2600 6100 2600
 Wire Wire Line
-	7850 3000 7850 2950
+	6100 2600 6350 2600
 Wire Wire Line
-	7450 2950 7450 3050
+	6350 2600 6550 2600
+Wire Wire Line
+	6550 2600 6750 2600
+Wire Wire Line
+	7750 3000 7750 2950
+Wire Wire Line
+	7500 2950 7500 3000
+Wire Wire Line
+	7500 3000 7500 3050
 Wire Wire Line
 	7250 3000 7250 2950
 Wire Wire Line
-	7050 2600 9400 2600
-Connection ~ 7850 2600
+	7050 2600 7250 2600
 Wire Wire Line
-	7450 2550 7450 2650
-Connection ~ 7450 2600
+	7250 2600 7500 2600
+Wire Wire Line
+	7500 2600 7750 2600
+Wire Wire Line
+	7750 2600 8200 2600
+Wire Wire Line
+	8200 2600 8450 2600
+Wire Wire Line
+	8450 2600 8700 2600
+Wire Wire Line
+	8700 2600 8950 2600
+Wire Wire Line
+	8950 2600 9200 2600
+Wire Wire Line
+	9200 2600 9350 2600
+Wire Wire Line
+	9350 2600 9400 2600
+Connection ~ 7750 2600
+Wire Wire Line
+	7500 2550 7500 2600
+Wire Wire Line
+	7500 2600 7500 2650
+Connection ~ 7500 2600
 Wire Wire Line
 	7250 2650 7250 2600
 Connection ~ 7250 2600
 Wire Wire Line
 	5600 4150 5550 4150
 Wire Wire Line
-	7250 3000 7850 3000
-Connection ~ 7450 3000
+	7250 3000 7500 3000
 Wire Wire Line
-	6700 4550 7500 4550
+	7500 3000 7750 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	6700 4550 7100 4550
+Wire Wire Line
+	7100 4550 7500 4550
 Wire Wire Line
 	7500 4550 7500 4300
 Wire Wire Line
-	7100 4500 7100 4600
+	7100 4500 7100 4550
+Wire Wire Line
+	7100 4550 7100 4600
 Connection ~ 7100 4550
 Wire Wire Line
 	7500 3900 7500 4000
 Wire Wire Line
-	6700 3850 6700 4000
+	6700 3850 6700 3900
+Wire Wire Line
+	6700 3900 6700 4000
 Connection ~ 6700 3900
 Wire Wire Line
 	5550 4650 5600 4650
@@ -2171,7 +2221,9 @@ Wire Wire Line
 	5600 2700 5600 2600
 Connection ~ 5600 2600
 Wire Wire Line
-	3800 4400 3800 4700
+	3800 4400 3800 4650
+Wire Wire Line
+	3800 4650 3800 4700
 Wire Wire Line
 	3800 4100 3800 4050
 Wire Wire Line
@@ -2184,11 +2236,19 @@ Wire Wire Line
 Wire Wire Line
 	3850 3300 3900 3300
 Wire Wire Line
-	3400 4450 4550 4450
+	3400 4450 3450 4450
+Wire Wire Line
+	3450 4450 4550 4450
 Wire Wire Line
 	7250 3900 7500 3900
 Wire Wire Line
-	5550 3900 6950 3900
+	5550 3900 5600 3900
+Wire Wire Line
+	5600 3900 6400 3900
+Wire Wire Line
+	6400 3900 6700 3900
+Wire Wire Line
+	6700 3900 6950 3900
 Wire Wire Line
 	6400 3900 6400 3850
 Connection ~ 6400 3900
@@ -2203,23 +2263,35 @@ Wire Notes Line
 Wire Wire Line
 	3950 2500 4000 2500
 Wire Wire Line
-	4000 2500 4000 2700
+	4000 2500 4000 2600
+Wire Wire Line
+	4000 2600 4000 2700
 Wire Wire Line
 	4000 2700 3950 2700
 Connection ~ 4000 2600
 Wire Wire Line
-	4000 2600 4550 2600
+	4000 2600 4250 2600
+Wire Wire Line
+	4250 2600 4550 2600
 Wire Wire Line
 	10200 2500 10150 2500
 Wire Wire Line
-	10150 2500 10150 2700
+	10150 2500 10150 2600
+Wire Wire Line
+	10150 2600 10150 2700
 Wire Wire Line
 	10150 2700 10200 2700
 Connection ~ 10150 2600
 Wire Wire Line
 	8200 2950 8200 3000
 Wire Wire Line
-	8200 3000 9200 3000
+	8200 3000 8450 3000
+Wire Wire Line
+	8450 3000 8700 3000
+Wire Wire Line
+	8700 3000 8950 3000
+Wire Wire Line
+	8950 3000 9200 3000
 Wire Wire Line
 	9200 3000 9200 2950
 Wire Wire Line
@@ -2241,7 +2313,9 @@ Wire Wire Line
 	8450 2950 8450 3000
 Connection ~ 8450 3000
 Wire Wire Line
-	8700 2950 8700 3050
+	8700 2950 8700 3000
+Wire Wire Line
+	8700 3000 8700 3050
 Wire Wire Line
 	8950 2950 8950 3000
 Connection ~ 8950 3000
@@ -2249,12 +2323,20 @@ Connection ~ 8700 3000
 Wire Wire Line
 	9500 2350 9500 2400
 Wire Wire Line
-	9350 2400 9750 2400
+	9350 2400 9500 2400
+Wire Wire Line
+	9500 2400 9600 2400
+Wire Wire Line
+	9600 2400 9750 2400
 Wire Wire Line
 	9350 2400 9350 2600
 Connection ~ 9350 2600
 Wire Wire Line
-	9700 2600 10150 2600
+	9700 2600 9750 2600
+Wire Wire Line
+	9750 2600 9950 2600
+Wire Wire Line
+	9950 2600 10150 2600
 Wire Wire Line
 	9600 2400 9600 2350
 Wire Wire Line
@@ -2263,7 +2345,7 @@ Connection ~ 9750 2600
 Connection ~ 9600 2400
 Connection ~ 9500 2400
 Wire Wire Line
-	7850 2650 7850 2600
+	7750 2650 7750 2600
 $Comp
 L C C310
 U 1 1 5B1BC001
@@ -2508,7 +2590,7 @@ F 3 "" H 9950 3150 50  0001 C CNN
 $EndComp
 Text Notes 10025 3075 0    60   ~ 0
 0.4mA~~2.4mA
-Text Notes 7500 3100 0    60   ~ 0
+Text Notes 7550 3100 0    60   ~ 0
 Vf(max)=1.1V
 Wire Wire Line
 	5550 3650 5600 3650
@@ -2526,9 +2608,17 @@ Connection ~ 5600 4650
 Wire Wire Line
 	5050 4950 5050 5000
 Wire Wire Line
-	5050 5000 6300 5000
+	5050 5000 5600 5000
 Wire Wire Line
-	5600 4550 5600 5000
+	5600 5000 5900 5000
+Wire Wire Line
+	5900 5000 6100 5000
+Wire Wire Line
+	6100 5000 6300 5000
+Wire Wire Line
+	5600 4550 5600 4650
+Wire Wire Line
+	5600 4650 5600 5000
 Connection ~ 5600 5000
 $Comp
 L C C311

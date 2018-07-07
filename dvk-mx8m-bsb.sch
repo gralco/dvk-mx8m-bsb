@@ -1647,7 +1647,7 @@ Connection ~ 7050 7250
 Wire Wire Line
 	7000 7250 7050 7250
 Wire Wire Line
-	7150 7250 7150 9000
+	7150 9000 7150 7250
 Wire Wire Line
 	7150 7250 7200 7250
 Wire Wire Line
@@ -1799,7 +1799,7 @@ Connection ~ 5950 6550
 Wire Wire Line
 	5900 6550 5950 6550
 Wire Wire Line
-	6050 6650 6050 9000
+	6050 9000 6050 6650
 Wire Wire Line
 	6050 6650 6100 6650
 Wire Wire Line
