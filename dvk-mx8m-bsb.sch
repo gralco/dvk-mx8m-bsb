@@ -215,8 +215,8 @@ F18 "DSI_CK_P" I R 1450 6900 60
 F19 "DSI_CK_N" I R 1450 7000 60 
 F20 "CSI_P1_CK_P" I R 1450 2150 60 
 F21 "CSI_P1_CK_N" I R 1450 2250 60 
-F22 "I2C3_SDA" B R 1450 4600 60 
-F23 "I2C3_SCL" I R 1450 4500 60 
+F22 "I2C3_SDA" B R 1450 4500 60 
+F23 "I2C3_SCL" I R 1450 4400 60 
 F24 "CAPTOUCH_~INT" O R 1450 7650 60 
 F25 "CAPTOUCH_~RST" I R 1450 7750 60 
 F26 "LCD_LEDK" O R 1450 6100 60 
@@ -804,7 +804,7 @@ Text Notes 15150 4700 2    60   ~ 0
 GPIO3_IO09
 Text Label 10650 6650 2    60   ~ 0
 ~IRQ
-Text Notes 10550 11100 0    39   ~ 0
+Text Notes 10700 11125 0    39   ~ 0
 3V3_OUT is sourced\nfrom PMIC's 3A NVCC_3P3/\nBUCK6 and is supplying the\nSoC's H7 ball "NVCC_I2C"
 Text Label 12950 6100 2    60   ~ 0
 WLAN_D_P
@@ -838,9 +838,9 @@ Text Label 12550 8700 0    60   ~ 0
 EN_SRC
 Text Label 12550 8950 0    60   ~ 0
 EN_SNK
-Text Label 10600 9100 0    60   ~ 0
+Text Label 10750 9100 0    60   ~ 0
 TCPC_~INT
-Text Label 10600 8200 0    60   ~ 0
+Text Label 10750 8200 0    60   ~ 0
 USB1_SS_SEL
 $Comp
 L 3V3 #PWR011
@@ -950,7 +950,7 @@ Text Label 2000 2950 2    60   ~ 0
 IMU_INT
 Text Label 2000 4200 2    60   ~ 0
 PROX_~INT
-Text Label 10700 10650 0    60   ~ 0
+Text Label 10750 10650 0    60   ~ 0
 ~IRQ
 Text Label 2450 2400 0    60   ~ 0
 TCPC_~INT
@@ -1138,9 +1138,9 @@ Text Label 7800 4300 2    60   ~ 0
 I2C2_SDA
 Text Label 7800 4400 2    60   ~ 0
 I2C2_SCL
-Text Label 2900 4500 2    60   ~ 0
+Text Label 2900 4400 2    60   ~ 0
 I2C3_SCL
-Text Label 2900 4600 2    60   ~ 0
+Text Label 2900 4500 2    60   ~ 0
 I2C3_SDA
 Wire Wire Line
 	7850 2400 7850 5300
@@ -1148,8 +1148,8 @@ Wire Wire Line
 	6900 10650 7450 10650
 Wire Wire Line
 	6900 10050 7450 10050
-Connection ~ 2350 4500
-Connection ~ 2450 4600
+Connection ~ 2350 4400
+Connection ~ 2450 4500
 Connection ~ 2450 3600
 Wire Wire Line
 	10950 10400 11000 10400
@@ -1245,7 +1245,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 9300 14550 9300
 Wire Wire Line
-	11350 9100 10600 9100
+	11350 9100 10750 9100
 Wire Wire Line
 	14050 8200 14700 8200
 Wire Wire Line
@@ -1285,7 +1285,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 700  9100 700 
 Wire Wire Line
-	11000 10650 10700 10650
+	11000 10650 10750 10650
 Wire Wire Line
 	6450 5100 6450 5200
 Connection ~ 6150 5150
@@ -1863,7 +1863,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4050 6950 4050
 Wire Wire Line
-	10600 8200 11350 8200
+	10750 8200 11350 8200
 Wire Wire Line
 	9350 8850 8250 8850
 Wire Wire Line
@@ -2340,10 +2340,10 @@ F 3 "" H 800 9500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID102
+L Fiducial FID101
 U 1 1 5B349DC7
 P 1300 9450
-F 0 "FID102" H 1300 9625 60  0000 C CNN
+F 0 "FID101" H 1300 9625 60  0000 C CNN
 F 1 "Fiducial" H 1300 9550 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:Fiducial" H 1300 9450 60  0001 C CNN
 F 3 "" H 1300 9450 60  0001 C CNN
@@ -2362,14 +2362,14 @@ F 3 "" H 2000 9450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID101
+L Fiducial FID102
 U 1 1 5B34A897
-P 1300 10700
-F 0 "FID101" H 1300 10875 60  0000 C CNN
-F 1 "Fiducial" H 1300 10800 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Fiducial" H 1300 10700 60  0001 C CNN
-F 3 "" H 1300 10700 60  0001 C CNN
-	1    1300 10700
+P 2000 10700
+F 0 "FID102" H 2000 10875 60  0000 C CNN
+F 1 "Fiducial" H 2000 10800 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Fiducial" H 2000 10700 60  0001 C CNN
+F 3 "" H 2000 10700 60  0001 C CNN
+	1    2000 10700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2498,9 +2498,9 @@ F 3 "" H 9850 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 4500 2900 4500
+	1450 4400 2900 4400
 Wire Wire Line
-	1450 4600 2900 4600
+	1450 4500 2900 4500
 Wire Wire Line
 	2150 3500 2350 3500
 Wire Wire Line
@@ -2656,9 +2656,9 @@ I2C1_SCL
 Text Label 8250 7550 0    60   ~ 0
 I2C1_SDA
 Wire Wire Line
-	2350 3150 2350 4500
+	2350 3150 2350 4400
 Wire Wire Line
-	2450 3150 2450 4600
+	2450 3150 2450 4500
 Wire Wire Line
 	10950 10050 10950 10400
 Wire Wire Line

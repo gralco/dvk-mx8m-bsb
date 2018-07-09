@@ -180,7 +180,7 @@ Text Notes 5150 4150 0    60   ~ 0
 Text Notes 5250 3850 0    60   ~ 0
 VBAT is PTC fused
 Text Notes 7050 3200 0    60   ~ 0
-   VIH(min) not given, however\n assuming VIH(min)≅VDD*0.7857\n@VDD=4.2 then VIH(min)≅3.3012V
+      VIH(min) not given, however\n    assuming VIH(min)≅0.77647*VDD\n@VDD=4.25V then VIH(min)≅3.2999975V
 Text Notes 7050 3575 0    60   ~ 0
 3.5~~4.25V
 Wire Wire Line
