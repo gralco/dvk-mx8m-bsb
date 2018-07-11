@@ -273,14 +273,14 @@ U 1 1 5AE369F4
 P 6300 4600
 F 0 "TH301" H 6475 4650 50  0000 C CNN
 F 1 "10k" H 6450 4550 50  0000 C BNN
-F 2 "dvk-mx8m-bsb:103HT" H 6300 4600 50  0001 C CNN
-F 3 "http://www.semitec-usa.com/pdf/NTCThermistor_HT.pdf" H 6300 4600 50  0001 C CNN
-F 4 "Semitec" H 6300 4600 60  0001 C CNN "MFG Name"
-F 5 "103HT" H 6300 4600 60  0001 C CNN "MFG Part Num"
-F 6 "954-103HT" H 6300 4600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Semitec/103HT?qs=sGAEpiMZZMuBd0%252bwiCVS2waoyKMmx3l3pnIFz88T2Ko%3d" H 6300 4600 60  0001 C CNN "Distrib Link"
-F 8 "2%" H 6300 4600 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=semitec%20103ht&start=0" H 6300 4600 60  0001 C CNN "Others"
+F 2 "Resistors_SMD:R_0603" H 6300 4600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf2/AUA0000/AUA0000AE291.pdf" H 6300 4600 50  0001 C CNN
+F 4 "Panasonic" H 6300 4600 60  0001 C CNN "MFG Name"
+F 5 "ERTJ1VG103FA" H 6300 4600 60  0001 C CNN "MFG Part Num"
+F 6 "ERT-J1VG103FA" H 6300 4600 60  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/ert-j1vg103fa/panasonic" H 6300 4600 60  0001 C CNN "Distrib Link"
+F 8 "1%" H 6300 4600 60  0001 C CNN "Tolerance"
+F 9 "https://www.mouser.com/ProductDetail/Semitec/103HT?qs=sGAEpiMZZMuBd0%252bwiCVS2waoyKMmx3l3pnIFz88T2Ko%3d" H 6300 4600 60  0001 C CNN "Others"
 	1    6300 4600
 	1    0    0    -1  
 $EndComp
