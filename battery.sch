@@ -2333,9 +2333,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    3900 4250
 	-1   0    0    -1  
 $EndComp
-Text Notes 6250 5250 0    60   ~ 0
-Battery holder gives ~~1mm clearance underneath the battery\nThermistor is 1.1±0.15mm thick, should fit fine with stack-up
-Text Notes 6250 5500 0    60   ~ 0
+Text Notes 6300 5400 0    60   ~ 0
 Battery holder seems to fit up to ~~68.88mm long batteries\nneed to test 18650 protected cells which are ~~69.35mm long
 $Comp
 L C C305

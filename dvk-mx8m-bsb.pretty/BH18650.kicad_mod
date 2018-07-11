@@ -36,7 +36,7 @@
   (pad "" np_thru_hole circle (at -27 0) (size 3 3) (drill 3) (layers *.Cu *.Mask)
     (solder_mask_margin 0.000001) (clearance 0.225))
   (model ${KIPRJMOD}/packages3d/BHC-18650-1P.wrl
-    (at (xyz 1.697 0.61 0))
+    (at (xyz 1.694 0.6107 0))
     (scale (xyz 0.394 0.394 0.394))
     (rotate (xyz 0 0 270))
   )

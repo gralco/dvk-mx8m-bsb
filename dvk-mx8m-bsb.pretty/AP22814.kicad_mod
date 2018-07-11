@@ -1,4 +1,4 @@
-(module AP22814 (layer F.Cu) (tedit 5B29F1B2)
+(module AP22814 (layer F.Cu) (tedit 5B46543D)
   (fp_text reference REF** (at 0 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -26,7 +26,9 @@
   (pad 3 smd rect (at 0.65 0.825) (size 0.37 0.45) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.65 -0.825) (size 0.37 0.45) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -0.65 -0.825) (size 0.37 0.45) (layers F.Cu F.Paste F.Mask))
-  (pad 2 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu F.Mask))
+  (pad 2 thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.Mask))
+  (pad 2 smd rect (at 0 0) (size 1.67 0.9) (layers B.Cu))
+  (pad 2 smd rect (at 0 0.3) (size 0.37 1.5) (layers B.Cu))
   (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_Pitch0.65mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

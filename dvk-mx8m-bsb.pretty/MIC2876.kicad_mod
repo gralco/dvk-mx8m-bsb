@@ -1,4 +1,4 @@
-(module MIC2876 (layer F.Cu) (tedit 5B2711E3)
+(module MIC2876 (layer F.Cu) (tedit 5B4653EA)
   (descr http://ww1.microchip.com/downloads/en/DeviceDoc/20005572A.pdf)
   (tags "DFN 0.5")
   (solder_mask_margin 0.05)
@@ -32,7 +32,9 @@
   (pad 9 smd rect (at 0 0) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.5))
   (pad 9 smd rect (at 0 0) (size 0.4 0.9) (layers F.Paste))
-  (pad 9 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu F.Mask))
+  (pad 9 thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.Mask))
+  (pad 9 smd rect (at 0 0) (size 0.6 1.2) (layers B.Cu)
+    (solder_paste_margin_ratio -0.5))
   (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_Pitch0.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
