@@ -1,5 +1,5 @@
-(module Camera_CO8725-B5SA-E (layer F.Cu) (tedit 5B2A7964)
-  (fp_text reference REF** (at -0.25 0) (layer F.SilkS)
+(module Camera_CO8725-B5SA-E (layer F.Cu) (tedit 5B475A60)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Camera_CO8725-B5SA-E (at 0 -5) (layer F.Fab)
