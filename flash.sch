@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0372
+L power:GND #PWR0372
 U 1 1 5B12CD29
 P 6000 4300
 F 0 "#PWR0372" H 6000 4050 50  0001 C CNN
@@ -59,7 +26,7 @@ F 3 "" H 6000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX25L1606E U2101
+L dvk-mx8m-bsb:MX25L1606E U2101
 U 1 1 5B12CFC8
 P 6000 3700
 F 0 "U2101" H 5675 4100 50  0000 C CNN
@@ -76,7 +43,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/memory/774?k=&p
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0373
+L dvk-mx8m-bsb:3V3_P #PWR0373
 U 1 1 5B12EA15
 P 6000 2600
 F 0 "#PWR0373" H 6000 2450 50  0001 C CNN
@@ -87,7 +54,7 @@ F 3 "" H 6000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2101
+L dvk-mx8m-bsb-rescue:C C2101
 U 1 1 5B12EA2B
 P 5850 2850
 F 0 "C2101" H 5875 2950 50  0000 L CNN
@@ -98,7 +65,7 @@ F 3 "" H 5850 2850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2102
+L dvk-mx8m-bsb-rescue:C C2102
 U 1 1 5B14E905
 P 6150 2850
 F 0 "C2102" H 6175 2950 50  0000 L CNN
@@ -109,7 +76,7 @@ F 3 "" H 6150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0374
+L power:GND #PWR0374
 U 1 1 5B14F686
 P 5850 3050
 F 0 "#PWR0374" H 5850 2800 50  0001 C CNN
@@ -120,7 +87,7 @@ F 3 "" H 5850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0375
+L power:GND #PWR0375
 U 1 1 5B14F6A1
 P 6150 3050
 F 0 "#PWR0375" H 6150 2800 50  0001 C CNN
@@ -139,7 +106,7 @@ SCLK
 Text HLabel 4900 3700 0    60   Input ~ 0
 ~CS
 $Comp
-L R R2101
+L dvk-mx8m-bsb-rescue:R R2101
 U 1 1 5B152CDF
 P 4250 3450
 F 0 "R2101" H 4075 3500 50  0000 C CNN
@@ -150,7 +117,7 @@ F 3 "" H 4250 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0376
+L dvk-mx8m-bsb:3V3_P #PWR0376
 U 1 1 5B152DB7
 P 4600 3200
 F 0 "#PWR0376" H 4600 3050 50  0001 C CNN
@@ -161,7 +128,7 @@ F 3 "" H 4600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2102
+L dvk-mx8m-bsb-rescue:R R2102
 U 1 1 5AFB92E3
 P 4600 3450
 F 0 "R2102" H 4425 3500 50  0000 C CNN
@@ -172,7 +139,7 @@ F 3 "" H 4600 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2103
+L dvk-mx8m-bsb-rescue:R R2103
 U 1 1 5AFBA0EE
 P 4600 4100
 F 0 "R2103" H 4425 4150 50  0000 C CNN
@@ -226,7 +193,7 @@ Wire Wire Line
 	4250 3250 4950 3250
 Connection ~ 4600 3800
 $Comp
-L GND #PWR0377
+L power:GND #PWR0377
 U 1 1 5AFBA2C4
 P 4600 4300
 F 0 "#PWR0377" H 4600 4050 50  0001 C CNN
@@ -241,7 +208,7 @@ Wire Wire Line
 Text Notes 4400 2200 0    236  ~ 47
 SPI NOR Flash
 $Comp
-L R R2104
+L dvk-mx8m-bsb-rescue:R R2104
 U 1 1 5B2FF389
 P 4950 3450
 F 0 "R2104" H 4775 3500 50  0000 C CNN

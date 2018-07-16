@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -6188,7 +6155,7 @@ Active-HIGH
 Text Notes 5450 4450 0    60   ~ 0
 DPDT with\nmicrophone
 $Comp
-L R R1301
+L dvk-mx8m-bsb-rescue:R R1301
 U 1 1 5B1ED51C
 P 6100 4150
 F 0 "R1301" H 6275 4200 50  0000 C CNN
@@ -6199,7 +6166,7 @@ F 3 "" H 6100 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0201
+L power:GND #PWR0201
 U 1 1 5B1EAF19
 P 6500 4350
 F 0 "#PWR0201" H 6500 4100 50  0001 C CNN
@@ -6210,7 +6177,7 @@ F 3 "" H 6500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1301
+L dvk-mx8m-bsb-rescue:C C1301
 U 1 1 5B1EAF12
 P 6500 4150
 F 0 "C1301" H 6525 4250 50  0000 L CNN
@@ -6221,7 +6188,7 @@ F 3 "" H 6500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_ALT D1301
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1301
 U 1 1 5B1EAB95
 P 6300 3700
 F 0 "D1301" H 6300 3525 50  0000 C CNN
@@ -6238,7 +6205,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L R R1302
+L dvk-mx8m-bsb-rescue:R R1302
 U 1 1 5B1E9C00
 P 6300 3950
 F 0 "R1302" V 6380 3950 50  0000 C CNN
@@ -6249,7 +6216,7 @@ F 3 "" H 6300 3950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L 1V8_P #PWR0202
+L dvk-mx8m-bsb:1V8_P #PWR0202
 U 1 1 5B1DBE6F
 P 6000 3450
 F 0 "#PWR0202" H 6000 3300 50  0001 C CNN
@@ -6260,7 +6227,7 @@ F 3 "" H 6000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0203
+L power:GND #PWR0203
 U 1 1 5B1A278C
 P 7350 3450
 F 0 "#PWR0203" H 7350 3200 50  0001 C CNN
@@ -6271,7 +6238,7 @@ F 3 "" H 7350 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1302
+L dvk-mx8m-bsb-rescue:C C1302
 U 1 1 5B197A0E
 P 7350 3250
 F 0 "C1302" H 7375 3350 50  0000 L CNN
@@ -6282,7 +6249,7 @@ F 3 "" H 7350 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0204
+L power:GND #PWR0204
 U 1 1 5B1964B5
 P 7500 4100
 F 0 "#PWR0204" H 7500 3850 50  0001 C CNN
@@ -6293,7 +6260,7 @@ F 3 "" H 7500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC1G32 U1301
+L dvk-mx8m-bsb:74LVC1G32 U1301
 U 1 1 5B196213
 P 7700 3850
 F 0 "U1301" H 7700 3900 50  0000 C CNN
@@ -6318,7 +6285,7 @@ internal pull-down
 Text Notes 8300 3450 0    39   ~ 0
 internal pull-up
 $Comp
-L D_Schottky_ALT D1302
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1302
 U 1 1 5B15603B
 P 8150 3450
 F 0 "D1302" H 8150 3350 50  0000 C CNN
@@ -6337,7 +6304,7 @@ $EndComp
 Text HLabel 10850 4300 2    60   Input ~ 0
 CLKO1
 $Comp
-L 1V8_P #PWR0205
+L dvk-mx8m-bsb:1V8_P #PWR0205
 U 1 1 5B105CDE
 P 10250 3300
 F 0 "#PWR0205" H 10250 3150 50  0001 C CNN
@@ -6350,7 +6317,7 @@ $EndComp
 Text Notes 7975 3775 0    60   ~ 0
 V_IH(min)=1.26V
 $Comp
-L C C1309
+L dvk-mx8m-bsb-rescue:C C1309
 U 1 1 5B0F9030
 P 10400 2850
 F 0 "C1309" H 10425 2950 50  0000 L CNN
@@ -6361,7 +6328,7 @@ F 3 "" H 10400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1307
+L dvk-mx8m-bsb-rescue:C C1307
 U 1 1 5B0F8FA9
 P 10150 2850
 F 0 "C1307" H 10150 2950 50  0000 L CNN
@@ -6372,7 +6339,7 @@ F 3 "" H 10150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1306
+L dvk-mx8m-bsb-rescue:C C1306
 U 1 1 5B0F8F0F
 P 9900 2850
 F 0 "C1306" H 9900 2950 50  0000 L CNN
@@ -6383,7 +6350,7 @@ F 3 "" H 9900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1305
+L dvk-mx8m-bsb-rescue:C C1305
 U 1 1 5B0F8E57
 P 9650 2850
 F 0 "C1305" H 9650 2950 50  0000 L CNN
@@ -6394,7 +6361,7 @@ F 3 "" H 9650 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0206
+L dvk-mx8m-bsb:1V8_P #PWR0206
 U 1 1 5B0F8E1D
 P 9450 2600
 F 0 "#PWR0206" H 9450 2450 50  0001 C CNN
@@ -6429,7 +6396,7 @@ C0_N
 Text HLabel 9450 3450 2    60   Output ~ 0
 C0_P
 $Comp
-L 1V8_P #PWR0207
+L dvk-mx8m-bsb:1V8_P #PWR0207
 U 1 1 5B19049B
 P 7500 3000
 F 0 "#PWR0207" H 7500 2850 50  0001 C CNN
@@ -6440,7 +6407,7 @@ F 3 "" H 7500 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2V8_P #PWR0208
+L dvk-mx8m-bsb:2V8_P #PWR0208
 U 1 1 5B2B0429
 P 8550 2600
 F 0 "#PWR0208" H 8550 2450 50  0001 C CNN
@@ -6451,7 +6418,7 @@ F 3 "" H 8550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1304
+L dvk-mx8m-bsb-rescue:C C1304
 U 1 1 5B2B061C
 P 8550 2850
 F 0 "C1304" H 8575 2950 50  0000 L CNN
@@ -6466,7 +6433,7 @@ Text Notes 8250 2625 0    39   ~ 0
 Text Notes 8300 5100 0    60   ~ 0
 OV5640 CMOS Image Sensor Datasheet:\nhttps://cdn.sparkfun.com/datasheets/\nSensors/LightImaging/OV5640_datasheet.pdf
 $Comp
-L SW_DPDT_x2 SW1301
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1301
 U 1 1 5B126541
 P 5900 3700
 F 0 "SW1301" V 5900 4000 50  0000 C CNN
@@ -6486,7 +6453,7 @@ Text Notes 6150 3450 0    60   ~ 0
 2->1 = ON\n2->3 = OFF
 NoConn ~ 5800 3500
 $Comp
-L Conn_02x15_Counter_Clockwise J1301
+L dvk-mx8m-bsb-rescue:Conn_02x15_Counter_Clockwise J1301
 U 1 1 5B11E3C0
 P 9050 3350
 F 0 "J1301" H 9100 4225 50  0000 C CNN
@@ -6504,7 +6471,7 @@ F 9 "https://octopart.com/search?q=AXT630124&start=0" H 9050 3350 60  0001 C CNN
 $EndComp
 NoConn ~ 8850 2650
 $Comp
-L GND #PWR0209
+L power:GND #PWR0209
 U 1 1 5B11F1A4
 P 8800 4100
 F 0 "#PWR0209" H 8800 3850 50  0001 C CNN
@@ -6516,7 +6483,7 @@ F 3 "" H 8800 4100 50  0001 C CNN
 $EndComp
 NoConn ~ 8850 3550
 $Comp
-L GND #PWR0210
+L power:GND #PWR0210
 U 1 1 5B11FD52
 P 9400 4100
 F 0 "#PWR0210" H 9400 3850 50  0001 C CNN
@@ -6529,7 +6496,7 @@ $EndComp
 NoConn ~ 9350 2650
 NoConn ~ 9350 2950
 $Comp
-L GND #PWR0211
+L power:GND #PWR0211
 U 1 1 5B164232
 P 6100 4350
 F 0 "#PWR0211" H 6100 4100 50  0001 C CNN
@@ -6556,7 +6523,7 @@ Input pins are\ninterchangeable
 Text Notes 5650 1400 0    236  ~ 47
 Camera
 $Comp
-L OV5640_Camera CAM1301
+L dvk-mx8m-bsb:OV5640_Camera CAM1301
 U 1 1 5B2ACE32
 P 8450 5850
 F 0 "CAM1301" H 8450 6300 60  0000 C CNN
@@ -6567,7 +6534,7 @@ F 3 "http://www.trulyamerica.com/products/compact-camera-module/#" H 12100 6200 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1303
+L dvk-mx8m-bsb-rescue:C C1303
 U 1 1 5B30A24C
 P 8250 2850
 F 0 "C1303" H 8275 2950 50  0000 L CNN
@@ -6578,7 +6545,7 @@ F 3 "" H 8250 2850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0212
+L dvk-mx8m-bsb:3V3_P #PWR0212
 U 1 1 5B333E35
 P 10550 3300
 F 0 "#PWR0212" H 10550 3150 50  0001 C CNN
@@ -6589,7 +6556,7 @@ F 3 "" H 10550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TXB0101 U1302
+L dvk-mx8m-bsb:TXB0101 U1302
 U 1 1 5B33432B
 P 10400 4300
 F 0 "U1302" H 10070 4640 50  0000 C CNN
@@ -6606,7 +6573,7 @@ F 9 "http://www.digipart.com/part/TXB0101DCKR" H 10400 4300 60  0001 C CNN "Othe
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1310
+L dvk-mx8m-bsb-rescue:C C1310
 U 1 1 5B334AE4
 P 10650 3550
 F 0 "C1310" H 10650 3650 50  0000 L CNN
@@ -6617,7 +6584,7 @@ F 3 "" H 10650 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0213
+L power:GND #PWR0213
 U 1 1 5B334B49
 P 10650 3750
 F 0 "#PWR0213" H 10650 3500 50  0001 C CNN
@@ -6628,7 +6595,7 @@ F 3 "" H 10650 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1308
+L dvk-mx8m-bsb-rescue:C C1308
 U 1 1 5B334D05
 P 10150 3550
 F 0 "C1308" H 10150 3650 50  0000 L CNN
@@ -6639,7 +6606,7 @@ F 3 "" H 10150 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0214
+L power:GND #PWR0214
 U 1 1 5B334D7C
 P 10150 3750
 F 0 "#PWR0214" H 10150 3500 50  0001 C CNN
@@ -6650,7 +6617,7 @@ F 3 "" H 10150 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0215
+L power:GND #PWR0215
 U 1 1 5B334EEB
 P 10400 4750
 F 0 "#PWR0215" H 10400 4500 50  0001 C CNN

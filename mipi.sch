@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -170,7 +137,7 @@ I2C3_SDA
 Text HLabel 8100 4250 2    60   Input ~ 0
 I2C3_SCL
 $Comp
-L 1V8_P #PWR0184
+L dvk-mx8m-bsb:1V8_P #PWR0184
 U 1 1 5B1803EF
 P 7600 2850
 F 0 "#PWR0184" H 7600 2700 50  0001 C CNN
@@ -181,7 +148,7 @@ F 3 "" H 7600 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0185
+L dvk-mx8m-bsb:1V8_P #PWR0185
 U 1 1 5B180400
 P 7600 3800
 F 0 "#PWR0185" H 7600 3650 50  0001 C CNN
@@ -218,7 +185,7 @@ Wire Wire Line
 	7850 3850 7600 3850
 Connection ~ 7600 3850
 $Comp
-L R R1101
+L dvk-mx8m-bsb-rescue:R R1101
 U 1 1 5B18041B
 P 7600 3100
 F 0 "R1101" H 7775 3150 50  0000 C CNN
@@ -235,7 +202,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1102
+L dvk-mx8m-bsb-rescue:R R1102
 U 1 1 5B180428
 P 7600 4050
 F 0 "R1102" H 7775 4100 50  0000 C CNN
@@ -327,7 +294,7 @@ Entry Wire Line
 Text Notes 5600 1500 0    236  ~ 47
 MIPI
 $Comp
-L Q_NMOS_GSD Q1102
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1102
 U 1 1 5B2D5EAE
 P 7850 4150
 F 0 "Q1102" V 8075 4025 50  0000 L CNN
@@ -344,7 +311,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 7850 4150 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_GSD Q1101
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1101
 U 1 1 5B2D7A3D
 P 7850 3200
 F 0 "Q1101" V 8075 3075 50  0000 L CNN

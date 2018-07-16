@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L SGTL5000 U1601
+L dvk-mx8m-bsb:SGTL5000 U1601
 U 1 1 5ABE7D8D
 P 2350 3100
 F 0 "U1601" H 1950 4000 60  0000 C CNN
@@ -65,7 +32,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/interface-codec
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0263
+L power:GND #PWR0263
 U 1 1 5ABE80CA
 P 2350 4200
 F 0 "#PWR0263" H 2350 3950 50  0001 C CNN
@@ -88,7 +55,7 @@ SAI2_TXD
 Text HLabel 1250 3750 0    60   Input ~ 0
 SAI2_MCLK
 $Comp
-L C C1606
+L dvk-mx8m-bsb-rescue:C C1606
 U 1 1 5ABEF358
 P 3900 3450
 F 0 "C1606" H 3925 3550 50  0000 L CNN
@@ -99,7 +66,7 @@ F 3 "" H 3900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1608
+L dvk-mx8m-bsb-rescue:C C1608
 U 1 1 5ABEF388
 P 4200 3450
 F 0 "C1608" H 4225 3550 50  0000 L CNN
@@ -110,7 +77,7 @@ F 3 "" H 4200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0264
+L power:GND #PWR0264
 U 1 1 5ABEF777
 P 4200 3650
 F 0 "#PWR0264" H 4200 3400 50  0001 C CNN
@@ -121,7 +88,7 @@ F 3 "" H 4200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0265
+L power:GND #PWR0265
 U 1 1 5ABEF798
 P 3900 3650
 F 0 "#PWR0265" H 3900 3400 50  0001 C CNN
@@ -132,7 +99,7 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1603
+L dvk-mx8m-bsb-rescue:R R1603
 U 1 1 5ABEFC7B
 P 4850 3800
 F 0 "R1603" H 5025 3850 50  0000 C CNN
@@ -143,7 +110,7 @@ F 3 "" H 4850 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0266
+L power:GND #PWR0266
 U 1 1 5ABF0047
 P 5200 4050
 F 0 "#PWR0266" H 5200 3800 50  0001 C CNN
@@ -154,7 +121,7 @@ F 3 "" H 5200 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1624
+L dvk-mx8m-bsb-rescue:C C1624
 U 1 1 5ABF2943
 P 8400 3450
 F 0 "C1624" H 8425 3550 50  0000 L CNN
@@ -165,7 +132,7 @@ F 3 "" H 8400 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1621
+L dvk-mx8m-bsb-rescue:C C1621
 U 1 1 5ABF2987
 P 6900 3450
 F 0 "C1621" H 6925 3550 50  0000 L CNN
@@ -176,7 +143,7 @@ F 3 "" H 6900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0267
+L power:GND #PWR0267
 U 1 1 5ABF2BDF
 P 8400 3650
 F 0 "#PWR0267" H 8400 3400 50  0001 C CNN
@@ -187,7 +154,7 @@ F 3 "" H 8400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0268
+L power:GND #PWR0268
 U 1 1 5ABF2C32
 P 6900 3650
 F 0 "#PWR0268" H 6900 3400 50  0001 C CNN
@@ -198,7 +165,7 @@ F 3 "" H 6900 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1612
+L dvk-mx8m-bsb-rescue:C C1612
 U 1 1 5ABF4002
 P 4850 3450
 F 0 "C1612" H 4875 3550 50  0000 L CNN
@@ -209,7 +176,7 @@ F 3 "" H 4850 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1614
+L dvk-mx8m-bsb-rescue:C C1614
 U 1 1 5ABF490A
 P 5200 3650
 F 0 "C1614" H 5225 3750 50  0000 L CNN
@@ -220,7 +187,7 @@ F 3 "" H 5200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1604
+L dvk-mx8m-bsb-rescue:R R1604
 U 1 1 5ABF49BF
 P 5550 3650
 F 0 "R1604" H 5725 3700 50  0000 C CNN
@@ -231,7 +198,7 @@ F 3 "" H 5550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1605
+L dvk-mx8m-bsb-rescue:R R1605
 U 1 1 5ABF53AE
 P 5900 3800
 F 0 "R1605" H 6075 3850 50  0000 C CNN
@@ -242,7 +209,7 @@ F 3 "" H 5900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0269
+L power:GND #PWR0269
 U 1 1 5ABF53B5
 P 6250 4050
 F 0 "#PWR0269" H 6250 3800 50  0001 C CNN
@@ -253,7 +220,7 @@ F 3 "" H 6250 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1615
+L dvk-mx8m-bsb-rescue:C C1615
 U 1 1 5ABF53BC
 P 5900 3450
 F 0 "C1615" H 5925 3550 50  0000 L CNN
@@ -264,7 +231,7 @@ F 3 "" H 5900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1618
+L dvk-mx8m-bsb-rescue:C C1618
 U 1 1 5ABF53C2
 P 6250 3650
 F 0 "C1618" H 6275 3750 50  0000 L CNN
@@ -275,7 +242,7 @@ F 3 "" H 6250 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1606
+L dvk-mx8m-bsb-rescue:R R1606
 U 1 1 5ABF53C8
 P 6600 3650
 F 0 "R1606" H 6775 3700 50  0000 C CNN
@@ -286,7 +253,7 @@ F 3 "" H 6600 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0270
+L power:GND #PWR0270
 U 1 1 5ABF847B
 P 7300 3650
 F 0 "#PWR0270" H 7300 3400 50  0001 C CNN
@@ -297,7 +264,7 @@ F 3 "" H 7300 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0271
+L power:GND #PWR0271
 U 1 1 5ABF8745
 P 7850 3650
 F 0 "#PWR0271" H 7850 3400 50  0001 C CNN
@@ -308,7 +275,7 @@ F 3 "" H 7850 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0272
+L power:GND #PWR0272
 U 1 1 5ABFAC4D
 P 9750 3900
 F 0 "#PWR0272" H 9750 3650 50  0001 C CNN
@@ -321,7 +288,7 @@ $EndComp
 Text Label 5950 5200 0    60   ~ 0
 MIC_IN
 $Comp
-L C C1605
+L dvk-mx8m-bsb-rescue:C C1605
 U 1 1 5ABFC3EE
 P 3100 3650
 F 0 "C1605" H 3125 3750 50  0000 L CNN
@@ -332,7 +299,7 @@ F 3 "" H 3100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0273
+L power:GND #PWR0273
 U 1 1 5ABFCB56
 P 3100 3850
 F 0 "#PWR0273" H 3100 3600 50  0001 C CNN
@@ -345,7 +312,7 @@ $EndComp
 NoConn ~ 1650 2600
 NoConn ~ 1650 2700
 $Comp
-L C C1622
+L dvk-mx8m-bsb-rescue:C C1622
 U 1 1 5AC79EEC
 P 7300 5400
 F 0 "C1622" H 7325 5500 50  0000 L CNN
@@ -356,7 +323,7 @@ F 3 "" H 7300 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0274
+L power:GND #PWR0274
 U 1 1 5AC7A8FB
 P 7300 5600
 F 0 "#PWR0274" H 7300 5350 50  0001 C CNN
@@ -367,7 +334,7 @@ F 3 "" H 7300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1607
+L dvk-mx8m-bsb-rescue:R R1607
 U 1 1 5AC7B464
 P 6600 5450
 F 0 "R1607" V 6500 5450 50  0000 C CNN
@@ -378,7 +345,7 @@ F 3 "" H 6600 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1620
+L dvk-mx8m-bsb-rescue:C C1620
 U 1 1 5AC7B848
 P 6600 5200
 F 0 "C1620" V 6725 5100 50  0000 L CNN
@@ -389,7 +356,7 @@ F 3 "" H 6600 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1619
+L dvk-mx8m-bsb-rescue:C C1619
 U 1 1 5AC7BC8A
 P 6400 5650
 F 0 "C1619" H 6425 5750 50  0000 L CNN
@@ -400,7 +367,7 @@ F 3 "" H 6400 5650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0275
+L power:GND #PWR0275
 U 1 1 5AC7C780
 P 6400 5850
 F 0 "#PWR0275" H 6400 5600 50  0001 C CNN
@@ -417,7 +384,7 @@ MIC_IN
 Text Label 1250 2950 0    60   ~ 0
 MIC_BIAS
 $Comp
-L CP1 C1609
+L dvk-mx8m-bsb-rescue:CP1 C1609
 U 1 1 5B25A85A
 P 4550 3050
 F 0 "C1609" V 4600 3100 50  0000 L CNN
@@ -434,7 +401,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?FV=c0
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1 C1610
+L dvk-mx8m-bsb-rescue:CP1 C1610
 U 1 1 5B25ADCC
 P 4550 3250
 F 0 "C1610" V 4600 3300 50  0000 L CNN
@@ -1345,7 +1312,7 @@ F4 F4 74 0F 0F 0F 0C C3 1E 49 BE DD 74 B0 79 EE 4D 0C 32 DB 84 38 C3 E7 F3 73 73
 EndData
 $EndBitmap
 $Comp
-L Audio-Jack-4_1Switch J1601
+L dvk-mx8m-bsb:Audio-Jack-4_1Switch J1601
 U 1 1 5B267FE2
 P 10100 3250
 F 0 "J1601" H 10100 2950 50  0000 C CNN
@@ -1364,7 +1331,7 @@ $EndComp
 Text Notes 9950 3800 0    60   ~ 0
 Pin 5 (tip switch) is NC,\n  open when inserted
 $Comp
-L R R1608
+L dvk-mx8m-bsb-rescue:R R1608
 U 1 1 5B273184
 P 9650 2850
 F 0 "R1608" H 9825 2900 50  0000 C CNN
@@ -1375,7 +1342,7 @@ F 3 "" H 9650 2850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0276
+L dvk-mx8m-bsb:3V3_P #PWR0276
 U 1 1 5B27338F
 P 9650 2650
 F 0 "#PWR0276" H 9650 2500 50  0001 C CNN
@@ -1388,7 +1355,7 @@ $EndComp
 Text HLabel 9300 3150 0    60   Output ~ 0
 HP_DET
 $Comp
-L R R1601
+L dvk-mx8m-bsb-rescue:R R1601
 U 1 1 5B4049AB
 P 3450 3650
 F 0 "R1601" H 3625 3700 50  0000 C CNN
@@ -1399,7 +1366,7 @@ F 3 "" H 3450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0277
+L power:GND #PWR0277
 U 1 1 5B404DF2
 P 3450 3850
 F 0 "#PWR0277" H 3450 3600 50  0001 C CNN
@@ -1414,7 +1381,7 @@ I2C3_SDA
 Text HLabel 1250 3200 0    60   Input ~ 0
 I2C3_SCL
 $Comp
-L C C1602
+L dvk-mx8m-bsb-rescue:C C1602
 U 1 1 5B420B54
 P 1850 1600
 F 0 "C1602" H 1875 1700 50  0000 L CNN
@@ -1425,7 +1392,7 @@ F 3 "" H 1850 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0278
+L dvk-mx8m-bsb:3V3_P #PWR0278
 U 1 1 5B4219E5
 P 950 1350
 F 0 "#PWR0278" H 950 1200 50  0001 C CNN
@@ -1436,7 +1403,7 @@ F 3 "" H 950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1603
+L dvk-mx8m-bsb-rescue:C C1603
 U 1 1 5B421D97
 P 2500 1400
 F 0 "C1603" H 2525 1500 50  0000 L CNN
@@ -1447,7 +1414,7 @@ F 3 "" H 2500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1604
+L dvk-mx8m-bsb-rescue:C C1604
 U 1 1 5B421EEC
 P 3100 2000
 F 0 "C1604" H 3125 2115 50  0000 L CNN
@@ -1458,7 +1425,7 @@ F 3 "" H 3100 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0279
+L power:GND #PWR0279
 U 1 1 5B422227
 P 950 1800
 F 0 "#PWR0279" H 950 1550 50  0001 C CNN
@@ -1469,7 +1436,7 @@ F 3 "" H 950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0280
+L power:GND #PWR0280
 U 1 1 5B4222A2
 P 1850 1800
 F 0 "#PWR0280" H 1850 1550 50  0001 C CNN
@@ -1480,7 +1447,7 @@ F 3 "" H 1850 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0281
+L dvk-mx8m-bsb:1V8_P #PWR0281
 U 1 1 5B42303B
 P 3200 1000
 F 0 "#PWR0281" H 3200 850 50  0001 C CNN
@@ -1491,7 +1458,7 @@ F 3 "" H 3200 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0282
+L power:GND #PWR0282
 U 1 1 5B423787
 P 2500 1600
 F 0 "#PWR0282" H 2500 1350 50  0001 C CNN
@@ -1502,7 +1469,7 @@ F 3 "" H 2500 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0283
+L power:GND #PWR0283
 U 1 1 5B423D36
 P 3100 2200
 F 0 "#PWR0283" H 3100 1950 50  0001 C CNN
@@ -1513,7 +1480,7 @@ F 3 "" H 3100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0284
+L dvk-mx8m-bsb:3V3_P #PWR0284
 U 1 1 5B423FDF
 P 4000 1750
 F 0 "#PWR0284" H 4000 1600 50  0001 C CNN
@@ -1524,7 +1491,7 @@ F 3 "" H 4000 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG0285
+L power:PWR_FLAG #FLG0285
 U 1 1 5B4262A6
 P 1850 1350
 F 0 "#FLG0285" H 1850 1425 50  0001 C CNN
@@ -1535,7 +1502,7 @@ F 3 "" H 1850 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG0286
+L power:PWR_FLAG #FLG0286
 U 1 1 5B426324
 P 2500 1000
 F 0 "#FLG0286" H 2500 1075 50  0001 C CNN
@@ -1546,7 +1513,7 @@ F 3 "" H 2500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG0287
+L power:PWR_FLAG #FLG0287
 U 1 1 5B42639B
 P 3100 1750
 F 0 "#FLG0287" H 3100 1825 50  0001 C CNN
@@ -1765,7 +1732,7 @@ If HP_DET is HIGH for >100ms then HPs are present
 Text Notes 7000 1450 0    60   ~ 0
 dB specs in datasheet is a unit of power gain (not dBu or VU)\nwith respect to the DAC's unattenuated output
 $Comp
-L D_Zener_ALT D1603
+L dvk-mx8m-bsb-rescue:D_Zener_ALT D1603
 U 1 1 5AF88A1E
 P 9650 3650
 F 0 "D1603" V 9600 3450 50  0000 C CNN
@@ -1798,7 +1765,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 3000 9650 3500
 $Comp
-L C C1625
+L dvk-mx8m-bsb-rescue:C C1625
 U 1 1 5AF9EA3B
 P 8600 4350
 F 0 "C1625" H 8625 4450 50  0000 L CNN
@@ -1809,7 +1776,7 @@ F 3 "" H 8600 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0288
+L power:GND #PWR0288
 U 1 1 5AF9EAFA
 P 8600 4550
 F 0 "#PWR0288" H 8600 4300 50  0001 C CNN
@@ -1827,7 +1794,7 @@ Connection ~ 8400 4150
 Wire Wire Line
 	8600 4550 8600 4500
 $Comp
-L C C1623
+L dvk-mx8m-bsb-rescue:C C1623
 U 1 1 5AF9F523
 P 8200 4350
 F 0 "C1623" H 8225 4450 50  0000 L CNN
@@ -1838,7 +1805,7 @@ F 3 "" H 8200 4350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0289
+L power:GND #PWR0289
 U 1 1 5AF9F5F2
 P 8200 4550
 F 0 "#PWR0289" H 8200 4300 50  0001 C CNN
@@ -1855,7 +1822,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4150 8600 4150
 $Comp
-L 3V3_P #PWR0290
+L dvk-mx8m-bsb:3V3_P #PWR0290
 U 1 1 5AFA078E
 P 8400 4100
 F 0 "#PWR0290" H 8400 3950 50  0001 C CNN
@@ -1870,7 +1837,7 @@ Wire Wire Line
 Text Label 9300 3150 0    60   ~ 0
 HP_DET
 $Comp
-L Microphone MK1601
+L dvk-mx8m-bsb-rescue:Microphone MK1601
 U 1 1 5AFB70F1
 P 9000 5350
 F 0 "MK1601" H 8850 5400 50  0000 R CNN
@@ -1887,7 +1854,7 @@ F 9 "https://www.digikey.com/products/en/audio-products/microphones/158?k=&pkeyw
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0291
+L power:GND #PWR0291
 U 1 1 5AFB7190
 P 9000 5600
 F 0 "#PWR0291" H 9000 5350 50  0001 C CNN
@@ -1912,7 +1879,7 @@ If just headphones then\nHP_DET=HIGH, R(mic)=0
 Text Notes 7000 1200 0    60   ~ 0
 Reference:\nhttp://www.52rd.com/S_txt/2011_3/TXT26685.htm\nhttp://www.sengpielaudio.com/calculator-transferfactor.htm\nhttps://electronics.stackexchange.com/questions/31442/how-can-i\n-switch-this-audio-jack-using-its-own-mechanical-switches-without-cre\n(Nit6 does the same)\n+Zener diode to protect against ranges outside of -0.9V to 3.3V
 $Comp
-L FSA6157L6X U1603
+L dvk-mx8m-bsb:FSA6157L6X U1603
 U 1 1 5AF48DB2
 P 8400 5000
 F 0 "U1603" H 8075 5200 50  0000 L CNN
@@ -1933,7 +1900,7 @@ MIC_SEL
 Wire Wire Line
 	8050 4900 8100 4900
 $Comp
-L GND #PWR0292
+L power:GND #PWR0292
 U 1 1 5AF4C416
 P 8400 5350
 F 0 "#PWR0292" H 8400 5100 50  0001 C CNN
@@ -1958,7 +1925,7 @@ SW Mute Mic:\nMUTE_ADC=1
 Text Notes 9250 2725 0    60   ~ 0
 <3.3μA
 $Comp
-L PAM8301 U1602
+L dvk-mx8m-bsb-rescue:PAM8301 U1602
 U 1 1 5AFB8088
 P 4750 2250
 F 0 "U1602" H 4650 2575 50  0000 R CNN
@@ -1975,7 +1942,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/linear-amplifie
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0293
+L power:GND #PWR0293
 U 1 1 5AFBA33C
 P 4750 2600
 F 0 "#PWR0293" H 4750 2350 50  0001 C CNN
@@ -1989,7 +1956,7 @@ Wire Wire Line
 	4750 2600 4750 2550
 NoConn ~ 3050 2800
 $Comp
-L Speaker LS1601
+L dvk-mx8m-bsb-rescue:Speaker LS1601
 U 1 1 5AFC0731
 P 6600 2200
 F 0 "LS1601" H 6725 2475 50  0000 R CNN
@@ -2010,7 +1977,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2350 5350 2350
 $Comp
-L C C1616
+L dvk-mx8m-bsb-rescue:C C1616
 U 1 1 5AFC383A
 P 6050 2550
 F 0 "C1616" H 6075 2650 50  0000 L CNN
@@ -2021,7 +1988,7 @@ F 3 "" H 6050 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1617
+L dvk-mx8m-bsb-rescue:C C1617
 U 1 1 5AFC38D8
 P 6250 2550
 F 0 "C1617" H 6275 2650 50  0000 L CNN
@@ -2032,7 +1999,7 @@ F 3 "" H 6250 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0294
+L power:GND #PWR0294
 U 1 1 5AFC4FA5
 P 6150 2800
 F 0 "#PWR0294" H 6150 2550 50  0001 C CNN
@@ -2086,7 +2053,7 @@ Wire Wire Line
 Text Notes 3050 2650 0    60   ~ 0
 Mute via\nMUTE_LO=1
 $Comp
-L C C1613
+L dvk-mx8m-bsb-rescue:C C1613
 U 1 1 5B018F2A
 P 4900 1450
 F 0 "C1613" H 4925 1550 50  0000 L CNN
@@ -2097,7 +2064,7 @@ F 3 "" H 4900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0295
+L power:GND #PWR0295
 U 1 1 5B01A3AA
 P 4600 1650
 F 0 "#PWR0295" H 4600 1400 50  0001 C CNN
@@ -2110,7 +2077,7 @@ $EndComp
 Wire Wire Line
 	4600 1650 4600 1600
 $Comp
-L GND #PWR0296
+L power:GND #PWR0296
 U 1 1 5B01C9A7
 P 4900 1650
 F 0 "#PWR0296" H 4900 1400 50  0001 C CNN
@@ -2130,7 +2097,7 @@ Wire Wire Line
 	4900 1250 4900 1300
 Connection ~ 4750 1250
 $Comp
-L 3V3_P #PWR0297
+L dvk-mx8m-bsb:3V3_P #PWR0297
 U 1 1 5B020D21
 P 4750 1200
 F 0 "#PWR0297" H 4750 1050 50  0001 C CNN
@@ -8706,7 +8673,7 @@ $EndBitmap
 Text Notes 750  4900 0    60   ~ 0
 Built-In Speaker's Frequency Response:
 $Comp
-L C C1601
+L dvk-mx8m-bsb-rescue:C C1601
 U 1 1 5B0BECD5
 P 950 1600
 F 0 "C1601" H 700 1700 50  0000 L CNN
@@ -8723,7 +8690,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1611
+L dvk-mx8m-bsb-rescue:C C1611
 U 1 1 5B0BEFB5
 P 4600 1450
 F 0 "C1611" H 4350 1550 50  0000 L CNN
@@ -8743,7 +8710,7 @@ Text Notes 7650 5900 0    60   ~ 0
 5->4 = ON\n5->6 = OFF
 NoConn ~ 8050 5300
 $Comp
-L SW_DPDT_x2 SW1301
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1301
 U 2 1 5B124801
 P 7850 5200
 F 0 "SW1301" H 7850 5010 50  0000 C CNN
@@ -8764,7 +8731,7 @@ Text Notes 600  2450 0    60   ~ 0
 Text Notes 950  2700 0    60   ~ 0
 Read: 0x15\nWrite: 0x14
 $Comp
-L Ferrite_Bead_Small FB1606
+L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1606
 U 1 1 5B130E92
 P 6750 3050
 F 0 "FB1606" V 6925 2900 50  0000 L CNN
@@ -8788,7 +8755,7 @@ Wire Wire Line
 	6900 5450 6900 5200
 Connection ~ 6900 5200
 $Comp
-L Ferrite_Bead_Small FB1607
+L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1607
 U 1 1 5B139DA2
 P 6750 3250
 F 0 "FB1607" V 6875 3325 50  0000 L CNN
@@ -8805,7 +8772,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Ferrite_Bead_Small FB1608
+L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1608
 U 1 1 5B13A225
 P 7100 5200
 F 0 "FB1608" V 7275 5050 50  0000 L CNN
@@ -8822,7 +8789,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Ferrite_Bead_Small FB1604
+L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1604
 U 1 1 5B1508D3
 P 5450 2150
 F 0 "FB1604" V 5625 2000 50  0000 L CNN
@@ -8839,7 +8806,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Ferrite_Bead_Small FB1605
+L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1605
 U 1 1 5B1509AA
 P 5450 2350
 F 0 "FB1605" V 5325 2200 50  0000 L CNN
@@ -8856,7 +8823,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Ferrite_Bead FB1601
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1601
 U 1 1 5B136F98
 P 1400 1400
 F 0 "FB1601" V 1250 1400 50  0000 C CNN
@@ -8873,7 +8840,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 1400 1400 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L Ferrite_Bead FB1602
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1602
 U 1 1 5B1372B0
 P 2900 1050
 F 0 "FB1602" V 2750 1050 50  0000 C CNN
@@ -8890,7 +8857,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 2900 1050 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L Ferrite_Bead FB1603
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1603
 U 1 1 5B137340
 P 3700 1800
 F 0 "FB1603" V 3550 1800 50  0000 C CNN
@@ -8907,7 +8874,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 3700 1800 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1601
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1601
 U 1 1 5B226FD2
 P 7300 3450
 F 0 "D1601" V 7250 3260 50  0000 C CNN
@@ -8924,7 +8891,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 7300 3450 60  0001 C 
 	0    -1   1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1602
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1602
 U 1 1 5B226FDF
 P 7850 3450
 F 0 "D1602" V 7800 3260 50  0000 C CNN
@@ -8945,7 +8912,7 @@ Note:\nAll switches' pins\ncan be swapped\ne.g. 5<->4\n or 5<->6\n (+camera)
 Text Notes 4350 850  0    236  ~ 47
 Audio
 $Comp
-L C C1607
+L dvk-mx8m-bsb-rescue:C C1607
 U 1 1 5B488D5A
 P 3950 2150
 F 0 "C1607" V 3900 2200 50  0000 L CNN
@@ -8964,7 +8931,7 @@ $EndComp
 Text HLabel 4250 2350 0    60   Input ~ 0
 MUTE
 $Comp
-L R R1602
+L dvk-mx8m-bsb-rescue:R R1602
 U 1 1 5B4E9C2D
 P 4300 2550
 F 0 "R1602" H 4475 2600 50  0000 C CNN
@@ -8975,7 +8942,7 @@ F 3 "" H 4300 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0298
+L power:GND #PWR0298
 U 1 1 5B4E9C6B
 P 4300 2750
 F 0 "#PWR0298" H 4300 2500 50  0001 C CNN

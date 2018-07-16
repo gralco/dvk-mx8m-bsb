@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L Conn_02x05_Odd_Even J801
+L dvk-mx8m-bsb-rescue:Conn_02x05_Odd_Even J801
 U 1 1 5AD052A0
 P 6200 3550
 F 0 "J801" H 6250 3850 50  0000 C CNN
@@ -65,7 +32,7 @@ F 9 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-co
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R806
+L dvk-mx8m-bsb-rescue:R R806
 U 1 1 5AD052F0
 P 6750 3650
 F 0 "R806" V 6800 3850 50  0000 C CNN
@@ -76,7 +43,7 @@ F 3 "" H 6750 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R807
+L dvk-mx8m-bsb-rescue:R R807
 U 1 1 5AD0530D
 P 6750 3750
 F 0 "R807" V 6830 3750 50  0000 C CNN
@@ -87,7 +54,7 @@ F 3 "" H 6750 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R804
+L dvk-mx8m-bsb-rescue:R R804
 U 1 1 5AD058A3
 P 6150 3950
 F 0 "R804" V 6230 3950 50  0000 C CNN
@@ -98,7 +65,7 @@ F 3 "" H 6150 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R805
+L dvk-mx8m-bsb-rescue:R R805
 U 1 1 5AD0593B
 P 6450 3150
 F 0 "R805" H 6300 3100 50  0000 C CNN
@@ -124,7 +91,7 @@ Wire Wire Line
 	6550 3950 6550 3750
 Connection ~ 6550 3750
 $Comp
-L GND #PWR0152
+L power:GND #PWR0152
 U 1 1 5AD06B94
 P 6950 3800
 F 0 "#PWR0152" H 6950 3550 50  0001 C CNN
@@ -152,7 +119,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3450 5750 4000
 $Comp
-L GND #PWR0153
+L power:GND #PWR0153
 U 1 1 5AD075E7
 P 5750 4350
 F 0 "#PWR0153" H 5750 4100 50  0001 C CNN
@@ -192,7 +159,7 @@ JTAG_~TRST
 Text Notes 5750 3200 0    60   ~ 0
 ARM DStream
 $Comp
-L 3V3_OUT #PWR0154
+L dvk-mx8m-bsb:3V3_OUT #PWR0154
 U 1 1 5AEA3F80
 P 6450 2950
 F 0 "#PWR0154" H 6450 2800 50  0001 C CNN
@@ -203,7 +170,7 @@ F 3 "" H 6450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR0155
+L dvk-mx8m-bsb:3V3_OUT #PWR0155
 U 1 1 5AE5744F
 P 5300 2900
 F 0 "#PWR0155" H 5300 2750 50  0001 C CNN
@@ -229,7 +196,7 @@ Wire Wire Line
 	5350 3300 5350 3650
 Connection ~ 5350 3650
 $Comp
-L D_Schottky_ALT D801
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D801
 U 1 1 5B170CAA
 P 5550 3750
 F 0 "D801" H 5550 3850 50  0000 C CNN
@@ -246,7 +213,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R803
+L dvk-mx8m-bsb-rescue:R R803
 U 1 1 5B31E00F
 P 5750 4150
 F 0 "R803" H 5900 4200 50  0000 C CNN
@@ -263,7 +230,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R801
+L dvk-mx8m-bsb-rescue:R R801
 U 1 1 5B31E065
 P 5250 3150
 F 0 "R801" H 5400 3200 50  0000 C CNN
@@ -280,7 +247,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R802
+L dvk-mx8m-bsb-rescue:R R802
 U 1 1 5B31E0A4
 P 5350 3150
 F 0 "R802" H 5500 3200 50  0000 C CNN

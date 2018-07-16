@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0389
+L power:GND #PWR0389
 U 1 1 5B0E0D78
 P 4800 4700
 F 0 "#PWR0389" H 4800 4450 50  0001 C CNN
@@ -81,7 +48,7 @@ Connection ~ 3900 3350
 NoConn ~ 6150 4650
 NoConn ~ 6150 4450
 $Comp
-L C C2301
+L dvk-mx8m-bsb-rescue:C C2301
 U 1 1 5B0ED9E5
 P 3900 3750
 F 0 "C2301" H 3925 3850 50  0000 L CNN
@@ -92,7 +59,7 @@ F 3 "" H 3900 3750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0390
+L power:GND #PWR0390
 U 1 1 5B0EDAF7
 P 3900 4000
 F 0 "#PWR0390" H 3900 3750 50  0001 C CNN
@@ -119,7 +86,7 @@ Wire Wire Line
 	4800 4100 4800 3550
 Connection ~ 4800 3550
 $Comp
-L C C2302
+L dvk-mx8m-bsb-rescue:C C2302
 U 1 1 5B1028D6
 P 4150 3750
 F 0 "C2302" H 4150 3850 50  0000 L CNN
@@ -130,7 +97,7 @@ F 3 "" H 4150 3750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2303
+L dvk-mx8m-bsb-rescue:C C2303
 U 1 1 5B102929
 P 4400 3750
 F 0 "C2303" H 4400 3850 50  0000 L CNN
@@ -141,7 +108,7 @@ F 3 "" H 4400 3750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2304
+L dvk-mx8m-bsb-rescue:C C2304
 U 1 1 5B1029AE
 P 4650 3750
 F 0 "C2304" H 4650 3850 50  0000 L CNN
@@ -185,7 +152,7 @@ UART3_RXD
 Text HLabel 6200 3750 2    60   Input ~ 0
 UART3_TXD
 $Comp
-L Antenna_Chip AE2301
+L dvk-mx8m-bsb:Antenna_Chip AE2301
 U 1 1 5B123EED
 P 7900 2100
 F 0 "AE2301" H 8250 2250 50  0000 R CNN
@@ -202,7 +169,7 @@ F 9 "https://www.everythingrf.com/products/gps-gnss-antennas/inpaq-technology-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0391
+L power:GND #PWR0391
 U 1 1 5B12431F
 P 8000 2350
 F 0 "#PWR0391" H 8000 2100 50  0001 C CNN
@@ -220,7 +187,7 @@ NoConn ~ 7350 3450
 Wire Wire Line
 	7350 3450 7300 3450
 $Comp
-L L L2301
+L dvk-mx8m-bsb-rescue:L L2301
 U 1 1 5B103CD2
 P 7150 3450
 F 0 "L2301" V 7225 3450 50  0000 C CNN
@@ -236,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3850 6950 3800
 $Comp
-L GND #PWR0392
+L power:GND #PWR0392
 U 1 1 5B103EA0
 P 6950 3850
 F 0 "#PWR0392" H 6950 3600 50  0001 C CNN
@@ -249,7 +216,7 @@ $EndComp
 Wire Wire Line
 	6900 3450 7000 3450
 $Comp
-L C C2305
+L dvk-mx8m-bsb-rescue:C C2305
 U 1 1 5B103D07
 P 6950 3650
 F 0 "C2305" H 6975 3735 50  0000 L CNN
@@ -260,7 +227,7 @@ F 3 "" H 6950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2301
+L dvk-mx8m-bsb-rescue:R R2301
 U 1 1 5B103CA5
 P 6750 3450
 F 0 "R2301" V 6830 3450 50  0000 C CNN
@@ -275,7 +242,7 @@ VCC_RF used for\nactive antenna or LNA
 Text Notes 7100 3925 0    60   ~ 0
 33nH\n22pF\n10Ω
 $Comp
-L L L2302
+L dvk-mx8m-bsb-rescue:L L2302
 U 1 1 5B2088FC
 P 7700 2800
 F 0 "L2302" V 7775 2800 50  0000 C CNN
@@ -288,7 +255,7 @@ $EndComp
 Wire Wire Line
 	7500 3200 7500 3150
 $Comp
-L GND #PWR0393
+L power:GND #PWR0393
 U 1 1 5B208BC0
 P 7500 3200
 F 0 "#PWR0393" H 7500 2950 50  0001 C CNN
@@ -299,7 +266,7 @@ F 3 "" H 7500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2306
+L dvk-mx8m-bsb-rescue:C C2306
 U 1 1 5B208BC6
 P 7500 3000
 F 0 "C2306" H 7525 3085 50  0000 L CNN
@@ -312,7 +279,7 @@ $EndComp
 Wire Wire Line
 	7900 3200 7900 3150
 $Comp
-L GND #PWR0394
+L power:GND #PWR0394
 U 1 1 5B208DA1
 P 7900 3200
 F 0 "#PWR0394" H 7900 2950 50  0001 C CNN
@@ -323,7 +290,7 @@ F 3 "" H 7900 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2307
+L dvk-mx8m-bsb-rescue:C C2307
 U 1 1 5B208DA7
 P 7900 3000
 F 0 "C2307" H 7925 3085 50  0000 L CNN
@@ -361,7 +328,7 @@ Connection ~ 7900 2650
 Text Notes 5000 2100 0    236  ~ 47
 GNSS
 $Comp
-L MAX-M8 U2301
+L dvk-mx8m-bsb:MAX-M8 U2301
 U 1 1 5B0DFDBF
 P 5500 3950
 F 0 "U2301" H 5200 4800 60  0000 C CNN
@@ -378,7 +345,7 @@ F 9 "https://www.digikey.com/product-detail/en/u-blox-america-inc/MAX-M8Q-0/672-
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0395
+L dvk-mx8m-bsb:3V3_P #PWR0395
 U 1 1 5B259E98
 P 3900 2850
 F 0 "#PWR0395" H 3900 2700 50  0001 C CNN
@@ -389,7 +356,7 @@ F 3 "" H 3900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead FB2301
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB2301
 U 1 1 5B2B7A3D
 P 3900 3050
 F 0 "FB2301" H 3625 3000 50  0000 C CNN
@@ -410,7 +377,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2900 3900 2850
 $Comp
-L PWR_FLAG #FLG0396
+L power:PWR_FLAG #FLG0396
 U 1 1 5B2B7FC5
 P 4800 3100
 F 0 "#FLG0396" H 4800 3175 50  0001 C CNN

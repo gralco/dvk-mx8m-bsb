@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L L L402
+L dvk-mx8m-bsb-rescue:L L402
 U 1 1 5AC89425
 P 3050 1300
 F 0 "L402" V 3110 1300 50  0000 C CNN
@@ -65,7 +32,7 @@ F 9 "https://www.coilcraft.com/apps/finder/finder.cfm?mfc=Richtek&apl=2%20uH&IC=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R406
+L dvk-mx8m-bsb-rescue:R R406
 U 1 1 5AC894B5
 P 3450 1500
 F 0 "R406" H 3600 1550 50  0000 C CNN
@@ -76,7 +43,7 @@ F 3 "" H 3450 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R407
+L dvk-mx8m-bsb-rescue:R R407
 U 1 1 5AC89505
 P 3450 1900
 F 0 "R407" H 3600 1950 50  0000 C CNN
@@ -87,7 +54,7 @@ F 3 "" H 3450 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C427
+L dvk-mx8m-bsb-rescue:C C427
 U 1 1 5AC89BD0
 P 3100 2000
 F 0 "C427" H 3125 2100 50  0000 L CNN
@@ -98,7 +65,7 @@ F 3 "" H 3100 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R405
+L dvk-mx8m-bsb-rescue:R R405
 U 1 1 5AC89C89
 P 2900 1800
 F 0 "R405" V 2980 1800 50  0000 C CNN
@@ -109,7 +76,7 @@ F 3 "" H 2900 1800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C423
+L dvk-mx8m-bsb-rescue:C C423
 U 1 1 5AC8D0FC
 P 2750 2500
 F 0 "C423" H 2775 2600 50  0000 L CNN
@@ -120,7 +87,7 @@ F 3 "" H 2750 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L power:GND #PWR072
 U 1 1 5AC8D19A
 P 2750 2700
 F 0 "#PWR072" H 2750 2450 50  0001 C CNN
@@ -131,7 +98,7 @@ F 3 "" H 2750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L power:GND #PWR073
 U 1 1 5AC8D67B
 P 1650 1700
 F 0 "#PWR073" H 1650 1450 50  0001 C CNN
@@ -142,7 +109,7 @@ F 3 "" H 1650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R403
+L dvk-mx8m-bsb-rescue:R R403
 U 1 1 5AC8DBD8
 P 1500 2000
 F 0 "R403" V 1580 2000 50  0000 C CNN
@@ -153,7 +120,7 @@ F 3 "" H 1500 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR074
+L power:GND #PWR074
 U 1 1 5AC8DC4F
 P 1300 2050
 F 0 "#PWR074" H 1300 1800 50  0001 C CNN
@@ -164,7 +131,7 @@ F 3 "" H 1300 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RT8070 U401
+L dvk-mx8m-bsb:RT8070 U401
 U 1 1 5AC8E68B
 P 2200 1800
 F 0 "U401" H 2000 2450 60  0000 C CNN
@@ -181,7 +148,7 @@ F 9 "https://octopart.com/search?q=RT8070&start=0" H 2200 1800 60  0001 C CNN "O
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R401
+L dvk-mx8m-bsb-rescue:R R401
 U 1 1 5AC8ED7F
 P 1150 1800
 F 0 "R401" H 1000 1750 50  0000 C CNN
@@ -194,7 +161,7 @@ $EndComp
 Text Notes 1450 950  0    236  ~ 47
 3.3V/3A
 $Comp
-L GND #PWR075
+L power:GND #PWR075
 U 1 1 5ACA3538
 P 8850 1950
 F 0 "#PWR075" H 8850 1700 50  0001 C CNN
@@ -207,7 +174,7 @@ $EndComp
 Text Notes 7750 950  0    236  ~ 47
 1.8V/600mA
 $Comp
-L GND #PWR076
+L power:GND #PWR076
 U 1 1 5ACFA68C
 P 2750 4950
 F 0 "#PWR076" H 2750 4700 50  0001 C CNN
@@ -218,7 +185,7 @@ F 3 "" H 2750 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R409
+L dvk-mx8m-bsb-rescue:R R409
 U 1 1 5ACFAD14
 P 3900 4150
 F 0 "R409" H 4050 4200 50  0000 C CNN
@@ -229,7 +196,7 @@ F 3 "" H 3900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R410
+L dvk-mx8m-bsb-rescue:R R410
 U 1 1 5ACFAE7B
 P 3900 4550
 F 0 "R410" H 4050 4600 50  0000 C CNN
@@ -240,7 +207,7 @@ F 3 "" H 3900 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR077
+L power:GND #PWR077
 U 1 1 5ACFB4E0
 P 3900 4750
 F 0 "#PWR077" H 3900 4500 50  0001 C CNN
@@ -251,7 +218,7 @@ F 3 "" H 3900 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L401
+L dvk-mx8m-bsb-rescue:L L401
 U 1 1 5ACFB9B6
 P 2500 3600
 F 0 "L401" V 2575 3600 50  0000 C CNN
@@ -268,7 +235,7 @@ F 9 "https://www.mouser.com/ProductDetail/Coilcraft/XAL4020-102MEB?qs=sGAEpiMZZM
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C412
+L dvk-mx8m-bsb-rescue:C C412
 U 1 1 5ACFCFAF
 P 2000 4150
 F 0 "C412" H 2025 4250 50  0000 L CNN
@@ -285,7 +252,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?FV=c00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L power:GND #PWR078
 U 1 1 5ACFD00E
 P 2000 4350
 F 0 "#PWR078" H 2000 4100 50  0001 C CNN
@@ -296,7 +263,7 @@ F 3 "" H 2000 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR079
+L power:GND #PWR079
 U 1 1 5ACFE25A
 P 4550 4350
 F 0 "#PWR079" H 4550 4100 50  0001 C CNN
@@ -309,7 +276,7 @@ $EndComp
 Text Notes 2000 3400 0    236  ~ 47
 5.0V/3.8A
 $Comp
-L GND #PWR080
+L power:GND #PWR080
 U 1 1 5AC7F5C4
 P 4800 4350
 F 0 "#PWR080" H 4800 4100 50  0001 C CNN
@@ -320,7 +287,7 @@ F 3 "" H 4800 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MIC2876 U402
+L dvk-mx8m-bsb:MIC2876 U402
 U 1 1 5ACA9FD0
 P 2750 4250
 F 0 "U402" H 2550 4700 60  0000 C CNN
@@ -339,7 +306,7 @@ $EndComp
 Text Notes 1000 5350 0    60   ~ 0
 Cheaper, more efficient, smaller, and simpler than RT6150A\n     Explicitly mentions USB/smartphone application
 $Comp
-L R R408
+L dvk-mx8m-bsb-rescue:R R408
 U 1 1 5ACAFE3F
 P 3500 4200
 F 0 "R408" V 3580 4200 50  0000 C CNN
@@ -350,7 +317,7 @@ F 3 "" H 3500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C408
+L dvk-mx8m-bsb-rescue:C C408
 U 1 1 5ACB617B
 P 1700 4150
 F 0 "C408" H 1725 4250 50  0000 L CNN
@@ -367,7 +334,7 @@ F 9 "https://www.mouser.com/productdetail/?qs=LlFn95tWfDgsujID1_PD8Jw%3D%3D" H 1
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR081
+L power:GND #PWR081
 U 1 1 5ACB65E0
 P 1700 4350
 F 0 "#PWR081" H 1700 4100 50  0001 C CNN
@@ -384,7 +351,7 @@ When VBAT_REG can fall below\n3.3V use TPS63020 instead
 Text Notes 8700 2650 0    60   ~ 0
 LM3670MF-1.8 is much more expensive\n       ST1S12G18R is a drop-in
 $Comp
-L FT440 U406
+L dvk-mx8m-bsb:FT440 U406
 U 1 1 5ACD7293
 P 8850 1400
 F 0 "U406" H 8650 1650 60  0000 C CNN
@@ -401,7 +368,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-re
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L404
+L dvk-mx8m-bsb-rescue:L L404
 U 1 1 5ACD8255
 P 9550 1300
 F 0 "L404" V 9625 1300 50  0000 C CNN
@@ -420,7 +387,7 @@ $EndComp
 Text Notes 8950 2400 0    60   ~ 0
 Buck instead of TLV70218 LDO\n  saving up to ~~100mW loss
 $Comp
-L C C458
+L dvk-mx8m-bsb-rescue:C C458
 U 1 1 5ACDF173
 P 7800 1550
 F 0 "C458" H 7825 1650 50  0000 L CNN
@@ -439,7 +406,7 @@ $EndComp
 Text Notes 9000 2150 0    60   ~ 0
   SW4A of PF4210 is 1.8V\nbut SoM doesn't bring it out
 $Comp
-L VBAT_REG #PWR082
+L dvk-mx8m-bsb:VBAT_REG #PWR082
 U 1 1 5AF28D76
 P 1150 1250
 F 0 "#PWR082" H 1150 1100 50  0001 C CNN
@@ -450,7 +417,7 @@ F 3 "" H 1150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR083
+L dvk-mx8m-bsb:VBAT_REG #PWR083
 U 1 1 5AF2AD8E
 P 1700 3900
 F 0 "#PWR083" H 1700 3750 50  0001 C CNN
@@ -461,7 +428,7 @@ F 3 "" H 1700 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR084
+L dvk-mx8m-bsb:VBAT_REG #PWR084
 U 1 1 5AF2B15A
 P 7800 1250
 F 0 "#PWR084" H 7800 1100 50  0001 C CNN
@@ -472,7 +439,7 @@ F 3 "" H 7800 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR085
+L dvk-mx8m-bsb:VBAT_REG #PWR085
 U 1 1 5AE239BB
 P 3700 4150
 F 0 "#PWR085" H 3700 4000 50  0001 C CNN
@@ -495,7 +462,7 @@ Spread all the decoupling/stitching\ncapacitors all over the power plane
 Text HLabel 6900 1300 2    60   Output ~ 0
 3V3_P
 $Comp
-L GND #PWR086
+L power:GND #PWR086
 U 1 1 5B2D96EC
 P 6050 2350
 F 0 "#PWR086" H 6050 2100 50  0001 C CNN
@@ -510,7 +477,7 @@ PWR_EN
 Text HLabel 7050 3750 2    60   Output ~ 0
 5V_P
 $Comp
-L GND #PWR087
+L power:GND #PWR087
 U 1 1 5B2DF495
 P 6100 5000
 F 0 "#PWR087" H 6100 4750 50  0001 C CNN
@@ -521,7 +488,7 @@ F 3 "" H 6100 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR088
+L power:GND #PWR088
 U 1 1 5B2E3C76
 P 3450 2100
 F 0 "#PWR088" H 3450 1850 50  0001 C CNN
@@ -532,7 +499,7 @@ F 3 "" H 3450 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR089
+L power:GND #PWR089
 U 1 1 5B2E3D08
 P 3100 2250
 F 0 "#PWR089" H 3100 2000 50  0001 C CNN
@@ -545,7 +512,7 @@ $EndComp
 Text HLabel 5400 3650 2    60   Output ~ 0
 5V_SOM
 $Comp
-L GND #PWR090
+L power:GND #PWR090
 U 1 1 5B3FB8DD
 P 6750 4350
 F 0 "#PWR090" H 6750 4100 50  0001 C CNN
@@ -556,7 +523,7 @@ F 3 "" H 6750 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR091
+L power:GND #PWR091
 U 1 1 5B3FB8E3
 P 7050 4350
 F 0 "#PWR091" H 7050 4100 50  0001 C CNN
@@ -567,7 +534,7 @@ F 3 "" H 7050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C440
+L dvk-mx8m-bsb-rescue:C C440
 U 1 1 5B400BBE
 P 4300 4150
 F 0 "C440" H 4325 4250 50  0000 L CNN
@@ -578,7 +545,7 @@ F 3 "" H 4300 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR092
+L power:GND #PWR092
 U 1 1 5B400F02
 P 4300 4350
 F 0 "#PWR092" H 4300 4100 50  0001 C CNN
@@ -589,7 +556,7 @@ F 3 "" H 4300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C453
+L dvk-mx8m-bsb-rescue:C C453
 U 1 1 5B4026A2
 P 6750 4150
 F 0 "C453" H 6750 4250 50  0000 L CNN
@@ -600,7 +567,7 @@ F 3 "" H 6750 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR093
+L power:GND #PWR093
 U 1 1 5B405137
 P 4050 1700
 F 0 "#PWR093" H 4050 1450 50  0001 C CNN
@@ -611,7 +578,7 @@ F 3 "" H 4050 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR094
+L power:GND #PWR094
 U 1 1 5B40513D
 P 4300 1700
 F 0 "#PWR094" H 4300 1450 50  0001 C CNN
@@ -622,7 +589,7 @@ F 3 "" H 4300 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR095
+L power:GND #PWR095
 U 1 1 5B405181
 P 5450 1700
 F 0 "#PWR095" H 5450 1450 50  0001 C CNN
@@ -633,7 +600,7 @@ F 3 "" H 5450 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C434
+L dvk-mx8m-bsb-rescue:C C434
 U 1 1 5B40518B
 P 3800 1500
 F 0 "C434" H 3825 1600 50  0000 L CNN
@@ -644,7 +611,7 @@ F 3 "" H 3800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR096
+L power:GND #PWR096
 U 1 1 5B405192
 P 3800 1700
 F 0 "#PWR096" H 3800 1450 50  0001 C CNN
@@ -655,7 +622,7 @@ F 3 "" H 3800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR097
+L power:GND #PWR097
 U 1 1 5B40E9B6
 P 6550 1700
 F 0 "#PWR097" H 6550 1450 50  0001 C CNN
@@ -666,7 +633,7 @@ F 3 "" H 6550 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR098
+L power:GND #PWR098
 U 1 1 5B40E9BC
 P 6850 1700
 F 0 "#PWR098" H 6850 1450 50  0001 C CNN
@@ -677,7 +644,7 @@ F 3 "" H 6850 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R411
+L dvk-mx8m-bsb-rescue:R R411
 U 1 1 5B0AFB7B
 P 4750 1300
 F 0 "R411" V 4830 1300 50  0000 C CNN
@@ -694,7 +661,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R419
+L dvk-mx8m-bsb-rescue:R R419
 U 1 1 5B0C354D
 P 10300 1300
 F 0 "R419" V 10380 1300 50  0000 C CNN
@@ -710,7 +677,7 @@ F 8 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG099
+L power:PWR_FLAG #FLG099
 U 1 1 5B0C814D
 P 9900 1250
 F 0 "#FLG099" H 9900 1325 50  0001 C CNN
@@ -721,7 +688,7 @@ F 3 "" H 9900 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG0100
+L power:PWR_FLAG #FLG0100
 U 1 1 5B0D1718
 P 4300 1250
 F 0 "#FLG0100" H 4300 1325 50  0001 C CNN
@@ -732,7 +699,7 @@ F 3 "" H 4300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R404
+L dvk-mx8m-bsb-rescue:R R404
 U 1 1 5B1859A9
 P 2200 4150
 F 0 "R404" H 2350 4200 50  0000 C CNN
@@ -743,7 +710,7 @@ F 3 "" H 2200 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C416
+L dvk-mx8m-bsb-rescue:C C416
 U 1 1 5B1860BC
 P 2200 4550
 F 0 "C416" H 2225 4650 50  0000 L CNN
@@ -754,7 +721,7 @@ F 3 "" H 2200 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0101
+L power:GND #PWR0101
 U 1 1 5B18E13B
 P 2200 4750
 F 0 "#PWR0101" H 2200 4500 50  0001 C CNN
@@ -765,7 +732,7 @@ F 3 "" H 2200 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R402
+L dvk-mx8m-bsb-rescue:R R402
 U 1 1 5B1B6D12
 P 1450 1550
 F 0 "R402" H 1600 1500 50  0000 C CNN
@@ -776,7 +743,7 @@ F 3 "" H 1450 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C460
+L dvk-mx8m-bsb-rescue:C C460
 U 1 1 5B1C4CAA
 P 9900 1500
 F 0 "C460" H 9925 1600 50  0000 L CNN
@@ -797,7 +764,7 @@ Power TCPC\nchip first
 Text Notes 1600 4800 0    60   ~ 0
 ~~30ms until\nEN is HIGH
 $Comp
-L R R413
+L dvk-mx8m-bsb-rescue:R R413
 U 1 1 5B24C59F
 P 5150 3650
 F 0 "R413" V 5230 3650 50  0000 C CNN
@@ -814,7 +781,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R414
+L dvk-mx8m-bsb-rescue:R R414
 U 1 1 5B24CEF2
 P 6800 3750
 F 0 "R414" V 6880 3750 50  0000 C CNN
@@ -839,7 +806,7 @@ PWR_EN
 NoConn ~ 5600 1900
 NoConn ~ 5650 4550
 $Comp
-L C C407
+L dvk-mx8m-bsb-rescue:C C407
 U 1 1 5B0BA13D
 P 1650 1500
 F 0 "C407" H 1450 1600 50  0000 L CNN
@@ -858,7 +825,7 @@ $EndComp
 Text Notes 8000 3100 0    236  ~ 47
 22.4V/40mA
 $Comp
-L GND #PWR0102
+L power:GND #PWR0102
 U 1 1 5B19D21F
 P 8200 3850
 F 0 "#PWR0102" H 8200 3600 50  0001 C CNN
@@ -869,7 +836,7 @@ F 3 "" H 8200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PAM2841 U407
+L dvk-mx8m-bsb:PAM2841 U407
 U 1 1 5B19D79C
 P 8850 4200
 F 0 "U407" H 8550 4750 60  0000 C CNN
@@ -886,7 +853,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/pmic-led-driver
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C456
+L dvk-mx8m-bsb-rescue:C C456
 U 1 1 5B19DCF4
 P 7700 3650
 F 0 "C456" H 7725 3750 50  0000 L CNN
@@ -897,7 +864,7 @@ F 3 "" H 7700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C457
+L dvk-mx8m-bsb-rescue:C C457
 U 1 1 5B19DE3D
 P 7700 4250
 F 0 "C457" H 7725 4350 50  0000 L CNN
@@ -908,7 +875,7 @@ F 3 "" H 7700 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0103
+L power:GND #PWR0103
 U 1 1 5B19DF14
 P 7700 3850
 F 0 "#PWR0103" H 7700 3600 50  0001 C CNN
@@ -919,7 +886,7 @@ F 3 "" H 7700 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0104
+L power:GND #PWR0104
 U 1 1 5B19FE2B
 P 7700 4450
 F 0 "#PWR0104" H 7700 4200 50  0001 C CNN
@@ -930,7 +897,7 @@ F 3 "" H 7700 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR0105
+L dvk-mx8m-bsb:VBAT_REG #PWR0105
 U 1 1 5B1A0ED2
 P 7700 3400
 F 0 "#PWR0105" H 7700 3250 50  0001 C CNN
@@ -941,7 +908,7 @@ F 3 "" H 7700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L403
+L dvk-mx8m-bsb-rescue:L L403
 U 1 1 5B1A2374
 P 8850 3450
 F 0 "L403" V 8925 3450 50  0000 C CNN
@@ -958,7 +925,7 @@ F 9 "https://www.arrow.com/en/products/lqh32cn220k53l/murata-manufacturing" V 88
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Schottky_ALT D401
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D401
 U 1 1 5B1A4D0A
 P 9800 3450
 F 0 "D401" H 9800 3550 50  0000 C CNN
@@ -975,7 +942,7 @@ F 9 "https://octopart.com/search?q=SS14&start=0" H 9800 3450 60  0001 C CNN "Oth
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R417
+L dvk-mx8m-bsb-rescue:R R417
 U 1 1 5B1A53A5
 P 10100 3750
 F 0 "R417" H 10250 3800 50  0000 C CNN
@@ -986,7 +953,7 @@ F 3 "" H 10100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R418
+L dvk-mx8m-bsb-rescue:R R418
 U 1 1 5B1A5A2A
 P 10100 4400
 F 0 "R418" H 10250 4450 50  0000 C CNN
@@ -997,7 +964,7 @@ F 3 "" H 10100 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C461
+L dvk-mx8m-bsb-rescue:C C461
 U 1 1 5B1A5C1F
 P 10500 3750
 F 0 "C461" H 10525 3850 50  0000 L CNN
@@ -1008,7 +975,7 @@ F 3 "" H 10500 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0106
+L power:GND #PWR0106
 U 1 1 5B1A5CB0
 P 10500 3950
 F 0 "#PWR0106" H 10500 3700 50  0001 C CNN
@@ -1019,7 +986,7 @@ F 3 "" H 10500 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0107
+L power:GND #PWR0107
 U 1 1 5B1A6439
 P 10100 4600
 F 0 "#PWR0107" H 10100 4350 50  0001 C CNN
@@ -1030,7 +997,7 @@ F 3 "" H 10100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0108
+L power:GND #PWR0108
 U 1 1 5B1A64FF
 P 8850 4950
 F 0 "#PWR0108" H 8850 4700 50  0001 C CNN
@@ -1041,7 +1008,7 @@ F 3 "" H 8850 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C459
+L dvk-mx8m-bsb-rescue:C C459
 U 1 1 5B1A7173
 P 8200 4750
 F 0 "C459" H 8225 4850 50  0000 L CNN
@@ -1052,7 +1019,7 @@ F 3 "" H 8200 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0109
+L power:GND #PWR0109
 U 1 1 5B1A7330
 P 8200 4950
 F 0 "#PWR0109" H 8200 4700 50  0001 C CNN
@@ -1065,7 +1032,7 @@ $EndComp
 Text HLabel 9650 4300 2    60   Input ~ 0
 LEDK
 $Comp
-L R R416
+L dvk-mx8m-bsb-rescue:R R416
 U 1 1 5B1AB6C8
 P 9600 4500
 F 0 "R416" H 9750 4550 50  0000 C CNN
@@ -1082,7 +1049,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0110
+L power:GND #PWR0110
 U 1 1 5B1ABBC5
 P 9600 4700
 F 0 "#PWR0110" H 9600 4450 50  0001 C CNN
@@ -1095,7 +1062,7 @@ $EndComp
 Text HLabel 8150 4300 0    60   Input ~ 0
 PWM
 $Comp
-L 22V4_P #PWR0111
+L dvk-mx8m-bsb:22V4_P #PWR0111
 U 1 1 5B23B5C7
 P 10500 3400
 F 0 "#PWR0111" H 10500 3250 50  0001 C CNN
@@ -1110,7 +1077,7 @@ Optional:\nif PWR_EN == LOW\nset PWM = LOW (0% duty)
 Text Notes 9650 4700 0    39   ~ 0
 I_O=40mA
 $Comp
-L PWR_FLAG #FLG0112
+L power:PWR_FLAG #FLG0112
 U 1 1 5B24D241
 P 10100 3400
 F 0 "#FLG0112" H 10100 3475 50  0001 C CNN
@@ -1127,7 +1094,7 @@ OVP@~~37.6V
 Text Notes 9150 5375 0    39   ~ 0
 (brochure lists backlight as an application)
 $Comp
-L C C443
+L dvk-mx8m-bsb-rescue:C C443
 U 1 1 5B37D653
 P 4800 6400
 F 0 "C443" H 4825 6500 50  0000 L CNN
@@ -1513,7 +1480,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 6100 4800 6100
 $Comp
-L GND #PWR0113
+L power:GND #PWR0113
 U 1 1 5B37DFCB
 P 5900 6650
 F 0 "#PWR0113" H 5900 6400 50  0001 C CNN
@@ -1524,7 +1491,7 @@ F 3 "" H 5900 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C451
+L dvk-mx8m-bsb-rescue:C C451
 U 1 1 5B37E46F
 P 6300 6300
 F 0 "C451" H 6325 6400 50  0000 L CNN
@@ -1547,7 +1514,7 @@ Wire Wire Line
 	4800 6200 4850 6200
 Connection ~ 4800 6200
 $Comp
-L 3V3_P #PWR0114
+L dvk-mx8m-bsb:3V3_P #PWR0114
 U 1 1 5B3810B3
 P 4800 6050
 F 0 "#PWR0114" H 4800 5900 50  0001 C CNN
@@ -1562,7 +1529,7 @@ Wire Wire Line
 Connection ~ 4800 6100
 Connection ~ 6300 6100
 $Comp
-L MIC5365-2.8 U403
+L dvk-mx8m-bsb:MIC5365-2.8 U403
 U 1 1 5B3887C4
 P 5900 6200
 F 0 "U403" H 5800 6425 50  0000 C CNN
@@ -1579,7 +1546,7 @@ F 9 "https://octopart.com/search?q=MIC5365-2.8Y&start=0" H 5900 6200 60  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R412
+L dvk-mx8m-bsb-rescue:R R412
 U 1 1 5B3B9540
 P 5000 6200
 F 0 "R412" V 5100 6200 50  0000 C CNN
@@ -1596,7 +1563,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L 2V8_P #PWR0115
+L dvk-mx8m-bsb:2V8_P #PWR0115
 U 1 1 5B3FE831
 P 6300 6050
 F 0 "#PWR0115" H 6300 5900 50  0001 C CNN
@@ -1631,7 +1598,7 @@ Worst-case current draw:\n Camera =140mA\n USB Switch=113mA\n Audio Codec=12mA\n
 Text Notes 6400 6025 0    60   ~ 0
 0.5V drop
 $Comp
-L AP22814 U404
+L dvk-mx8m-bsb:AP22814 U404
 U 1 1 5B2F5C88
 P 6050 1700
 F 0 "U404" H 5900 2250 60  0000 C CNN
@@ -1652,7 +1619,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1300 4600 1300
 $Comp
-L C C449
+L dvk-mx8m-bsb-rescue:C C449
 U 1 1 5B2FDDC8
 P 5450 1500
 F 0 "C449" H 5475 1600 50  0000 L CNN
@@ -1666,7 +1633,7 @@ Wire Wire Line
 	4900 1300 5600 1300
 Connection ~ 4950 1100
 $Comp
-L C C452
+L dvk-mx8m-bsb-rescue:C C452
 U 1 1 5B30B322
 P 6550 1500
 F 0 "C452" H 6575 1600 50  0000 L CNN
@@ -1677,7 +1644,7 @@ F 3 "" H 6550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C455
+L dvk-mx8m-bsb-rescue:CP1 C455
 U 1 1 5B32F2D7
 P 7050 4150
 F 0 "C455" H 7075 4250 50  0000 L CNN
@@ -1694,7 +1661,7 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 7050 4150 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP22814 U405
+L dvk-mx8m-bsb:AP22814 U405
 U 1 1 5B333073
 P 6100 4350
 F 0 "U405" H 5950 4900 60  0000 C CNN
@@ -1717,7 +1684,7 @@ Wire Wire Line
 Wire Notes Line
 	7450 2950 750  2950
 $Comp
-L GND #PWR0116
+L power:GND #PWR0116
 U 1 1 5B36320D
 P 4950 1700
 F 0 "#PWR0116" H 4950 1450 50  0001 C CNN
@@ -1728,7 +1695,7 @@ F 3 "" H 4950 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0117
+L power:GND #PWR0117
 U 1 1 5B363213
 P 5200 1700
 F 0 "#PWR0117" H 5200 1450 50  0001 C CNN
@@ -1746,7 +1713,7 @@ Wire Wire Line
 	5200 1350 5200 1300
 Connection ~ 5200 1300
 $Comp
-L GND #PWR0118
+L power:GND #PWR0118
 U 1 1 5B365F6E
 P 5100 4350
 F 0 "#PWR0118" H 5100 4100 50  0001 C CNN
@@ -1757,7 +1724,7 @@ F 3 "" H 5100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0119
+L power:GND #PWR0119
 U 1 1 5B365F74
 P 5350 4350
 F 0 "#PWR0119" H 5350 4100 50  0001 C CNN
@@ -1776,7 +1743,7 @@ Wire Wire Line
 	5350 4000 5350 3950
 Connection ~ 5350 3950
 $Comp
-L C C450
+L dvk-mx8m-bsb-rescue:C C450
 U 1 1 5B36C0DB
 P 5600 4150
 F 0 "C450" H 5625 4250 50  0000 L CNN
@@ -1787,7 +1754,7 @@ F 3 "" H 5600 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0120
+L power:GND #PWR0120
 U 1 1 5B36C747
 P 5600 4350
 F 0 "#PWR0120" H 5600 4100 50  0001 C CNN
@@ -1814,7 +1781,7 @@ Text Notes 4000 4750 0    60   ~ 0
 Text Notes 3550 2100 0    60   ~ 0
 0.1%
 $Comp
-L 5V_P #PWR0121
+L dvk-mx8m-bsb:5V_P #PWR0121
 U 1 1 5B1FFC91
 P 2200 5650
 F 0 "#PWR0121" H 2200 5500 50  0001 C CNN
@@ -1825,7 +1792,7 @@ F 3 "" H 2200 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C401
+L dvk-mx8m-bsb-rescue:C C401
 U 1 1 5B2016D9
 P 850 5900
 F 0 "C401" H 875 6000 50  0000 L CNN
@@ -1836,7 +1803,7 @@ F 3 "" H 850 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C402
+L dvk-mx8m-bsb-rescue:C C402
 U 1 1 5B202EA7
 P 1150 5900
 F 0 "C402" H 1175 6000 50  0000 L CNN
@@ -1847,7 +1814,7 @@ F 3 "" H 1150 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C404
+L dvk-mx8m-bsb-rescue:C C404
 U 1 1 5B202F85
 P 1450 5900
 F 0 "C404" H 1475 6000 50  0000 L CNN
@@ -1858,7 +1825,7 @@ F 3 "" H 1450 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C409
+L dvk-mx8m-bsb-rescue:C C409
 U 1 1 5B203066
 P 1750 5900
 F 0 "C409" H 1775 6000 50  0000 L CNN
@@ -1869,7 +1836,7 @@ F 3 "" H 1750 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C413
+L dvk-mx8m-bsb-rescue:C C413
 U 1 1 5B20314A
 P 2050 5900
 F 0 "C413" H 2075 6000 50  0000 L CNN
@@ -1880,7 +1847,7 @@ F 3 "" H 2050 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C417
+L dvk-mx8m-bsb-rescue:C C417
 U 1 1 5B203540
 P 2350 5900
 F 0 "C417" H 2375 6000 50  0000 L CNN
@@ -1891,7 +1858,7 @@ F 3 "" H 2350 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C420
+L dvk-mx8m-bsb-rescue:C C420
 U 1 1 5B203547
 P 2650 5900
 F 0 "C420" H 2675 6000 50  0000 L CNN
@@ -1902,7 +1869,7 @@ F 3 "" H 2650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C424
+L dvk-mx8m-bsb-rescue:C C424
 U 1 1 5B20354E
 P 2950 5900
 F 0 "C424" H 2975 6000 50  0000 L CNN
@@ -1913,7 +1880,7 @@ F 3 "" H 2950 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C428
+L dvk-mx8m-bsb-rescue:C C428
 U 1 1 5B203555
 P 3250 5900
 F 0 "C428" H 3275 6000 50  0000 L CNN
@@ -1924,7 +1891,7 @@ F 3 "" H 3250 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C431
+L dvk-mx8m-bsb-rescue:C C431
 U 1 1 5B20355C
 P 3550 5900
 F 0 "C431" H 3575 6000 50  0000 L CNN
@@ -1935,7 +1902,7 @@ F 3 "" H 3550 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C403
+L dvk-mx8m-bsb-rescue:C C403
 U 1 1 5B203D05
 P 1150 6600
 F 0 "C403" H 1175 6700 50  0000 L CNN
@@ -1946,7 +1913,7 @@ F 3 "" H 1150 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C405
+L dvk-mx8m-bsb-rescue:C C405
 U 1 1 5B203D0C
 P 1450 6600
 F 0 "C405" H 1475 6700 50  0000 L CNN
@@ -1957,7 +1924,7 @@ F 3 "" H 1450 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C410
+L dvk-mx8m-bsb-rescue:C C410
 U 1 1 5B203D13
 P 1750 6600
 F 0 "C410" H 1775 6700 50  0000 L CNN
@@ -1968,7 +1935,7 @@ F 3 "" H 1750 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C414
+L dvk-mx8m-bsb-rescue:C C414
 U 1 1 5B203D1A
 P 2050 6600
 F 0 "C414" H 2075 6700 50  0000 L CNN
@@ -1979,7 +1946,7 @@ F 3 "" H 2050 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C418
+L dvk-mx8m-bsb-rescue:C C418
 U 1 1 5B203D21
 P 2350 6600
 F 0 "C418" H 2375 6700 50  0000 L CNN
@@ -1990,7 +1957,7 @@ F 3 "" H 2350 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C421
+L dvk-mx8m-bsb-rescue:C C421
 U 1 1 5B203D28
 P 2650 6600
 F 0 "C421" H 2675 6700 50  0000 L CNN
@@ -2001,7 +1968,7 @@ F 3 "" H 2650 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C425
+L dvk-mx8m-bsb-rescue:C C425
 U 1 1 5B203D2F
 P 2950 6600
 F 0 "C425" H 2975 6700 50  0000 L CNN
@@ -2012,7 +1979,7 @@ F 3 "" H 2950 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C429
+L dvk-mx8m-bsb-rescue:C C429
 U 1 1 5B203D36
 P 3250 6600
 F 0 "C429" H 3275 6700 50  0000 L CNN
@@ -2023,7 +1990,7 @@ F 3 "" H 3250 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C432
+L dvk-mx8m-bsb-rescue:C C432
 U 1 1 5B203D3D
 P 3550 6600
 F 0 "C432" H 3575 6700 50  0000 L CNN
@@ -2034,7 +2001,7 @@ F 3 "" H 3550 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C435
+L dvk-mx8m-bsb-rescue:C C435
 U 1 1 5B203D44
 P 3850 6600
 F 0 "C435" H 3875 6700 50  0000 L CNN
@@ -2045,7 +2012,7 @@ F 3 "" H 3850 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0122
+L power:GND #PWR0122
 U 1 1 5B203DA1
 P 2200 6150
 F 0 "#PWR0122" H 2200 5900 50  0001 C CNN
@@ -2122,7 +2089,7 @@ Wire Wire Line
 	2200 6150 2200 6100
 Connection ~ 2200 6100
 $Comp
-L 3V3_P #PWR0123
+L dvk-mx8m-bsb:3V3_P #PWR0123
 U 1 1 5B209811
 P 2500 6350
 F 0 "#PWR0123" H 2500 6200 50  0001 C CNN
@@ -2163,7 +2130,7 @@ Wire Wire Line
 	3550 6450 3550 6400
 Connection ~ 3550 6400
 $Comp
-L GND #PWR0124
+L power:GND #PWR0124
 U 1 1 5B20AA63
 P 2500 6850
 F 0 "#PWR0124" H 2500 6600 50  0001 C CNN
@@ -2210,7 +2177,7 @@ Wire Wire Line
 	2500 6350 2500 6400
 Connection ~ 2500 6400
 $Comp
-L C C406
+L dvk-mx8m-bsb-rescue:C C406
 U 1 1 5B20D5C2
 P 1450 7300
 F 0 "C406" H 1475 7400 50  0000 L CNN
@@ -2221,7 +2188,7 @@ F 3 "" H 1450 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C411
+L dvk-mx8m-bsb-rescue:C C411
 U 1 1 5B20D5C9
 P 1750 7300
 F 0 "C411" H 1775 7400 50  0000 L CNN
@@ -2232,7 +2199,7 @@ F 3 "" H 1750 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C415
+L dvk-mx8m-bsb-rescue:C C415
 U 1 1 5B20D5D0
 P 2050 7300
 F 0 "C415" H 2075 7400 50  0000 L CNN
@@ -2243,7 +2210,7 @@ F 3 "" H 2050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C419
+L dvk-mx8m-bsb-rescue:C C419
 U 1 1 5B20D5D7
 P 2350 7300
 F 0 "C419" H 2375 7400 50  0000 L CNN
@@ -2254,7 +2221,7 @@ F 3 "" H 2350 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C422
+L dvk-mx8m-bsb-rescue:C C422
 U 1 1 5B20D5DE
 P 2650 7300
 F 0 "C422" H 2675 7400 50  0000 L CNN
@@ -2265,7 +2232,7 @@ F 3 "" H 2650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C426
+L dvk-mx8m-bsb-rescue:C C426
 U 1 1 5B20D5E5
 P 2950 7300
 F 0 "C426" H 2975 7400 50  0000 L CNN
@@ -2276,7 +2243,7 @@ F 3 "" H 2950 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C430
+L dvk-mx8m-bsb-rescue:C C430
 U 1 1 5B20D5EC
 P 3250 7300
 F 0 "C430" H 3275 7400 50  0000 L CNN
@@ -2287,7 +2254,7 @@ F 3 "" H 3250 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C433
+L dvk-mx8m-bsb-rescue:C C433
 U 1 1 5B20D5F3
 P 3550 7300
 F 0 "C433" H 3575 7400 50  0000 L CNN
@@ -2298,7 +2265,7 @@ F 3 "" H 3550 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C436
+L dvk-mx8m-bsb-rescue:C C436
 U 1 1 5B20D5FA
 P 3850 7300
 F 0 "C436" H 3875 7400 50  0000 L CNN
@@ -2309,7 +2276,7 @@ F 3 "" H 3850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C438
+L dvk-mx8m-bsb-rescue:C C438
 U 1 1 5B20D601
 P 4150 7300
 F 0 "C438" H 4175 7400 50  0000 L CNN
@@ -2350,7 +2317,7 @@ Wire Wire Line
 	3850 7150 3850 7100
 Connection ~ 3850 7100
 $Comp
-L GND #PWR0125
+L power:GND #PWR0125
 U 1 1 5B20D621
 P 2800 7550
 F 0 "#PWR0125" H 2800 7300 50  0001 C CNN
@@ -2397,7 +2364,7 @@ Wire Wire Line
 	2800 7050 2800 7100
 Connection ~ 2800 7100
 $Comp
-L 1V8_P #PWR0126
+L dvk-mx8m-bsb:1V8_P #PWR0126
 U 1 1 5B20D6FD
 P 2800 7050
 F 0 "#PWR0126" H 2800 6900 50  0001 C CNN
@@ -2412,7 +2379,7 @@ AP22814: Ilimit=3.45A\nAP22804: Ilimit=3.00A (drop-in)
 Text Notes 4450 5050 0    60   ~ 0
 AP22814: Ilimit=3.45A\nAP22804: Ilimit=3.00A (drop-in)
 $Comp
-L Conn_01x02 JP401
+L dvk-mx8m-bsb-rescue:Conn_01x02 JP401
 U 1 1 5B32BBF9
 P 4700 850
 F 0 "JP401" V 4800 800 50  0000 C CNN
@@ -2429,7 +2396,7 @@ F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 4700 850 60  0001 C CN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x02 JP402
+L dvk-mx8m-bsb-rescue:Conn_01x02 JP402
 U 1 1 5B32BE16
 P 5100 3200
 F 0 "JP402" V 5200 3150 50  0000 C CNN
@@ -2446,7 +2413,7 @@ F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 5100 3200 60  0001 C C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x02 JP403
+L dvk-mx8m-bsb-rescue:Conn_01x02 JP403
 U 1 1 5B32BFC9
 P 6750 3300
 F 0 "JP403" V 6850 3250 50  0000 C CNN
@@ -2463,7 +2430,7 @@ F 9 "https://www.arrow.com/en/products/2sn-bk-g/samtec" V 6750 3300 60  0001 C C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x02 JP404
+L dvk-mx8m-bsb-rescue:Conn_01x02 JP404
 U 1 1 5B32C178
 P 10250 850
 F 0 "JP404" V 10350 800 50  0000 C CNN
@@ -2482,7 +2449,7 @@ $EndComp
 Text Notes 8500 6100 0    236  ~ 47
 Power
 $Comp
-L CP1 C454
+L dvk-mx8m-bsb-rescue:CP1 C454
 U 1 1 5B300605
 P 6850 1500
 F 0 "C454" H 6875 1600 50  0000 L CNN
@@ -2499,7 +2466,7 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 6850 1500 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C441
+L dvk-mx8m-bsb-rescue:C C441
 U 1 1 5B331083
 P 4550 4150
 F 0 "C441" H 4575 4250 50  0000 L CNN
@@ -2516,7 +2483,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C442
+L dvk-mx8m-bsb-rescue:C C442
 U 1 1 5B331135
 P 4800 4150
 F 0 "C442" H 4825 4250 50  0000 L CNN
@@ -2533,7 +2500,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C445
+L dvk-mx8m-bsb-rescue:C C445
 U 1 1 5B3311E4
 P 5100 4150
 F 0 "C445" H 5125 4250 50  0000 L CNN
@@ -2550,7 +2517,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C448
+L dvk-mx8m-bsb-rescue:C C448
 U 1 1 5B331290
 P 5350 4150
 F 0 "C448" H 5375 4250 50  0000 L CNN
@@ -2567,7 +2534,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C437
+L dvk-mx8m-bsb-rescue:C C437
 U 1 1 5B33377D
 P 4050 1500
 F 0 "C437" H 4075 1600 50  0000 L CNN
@@ -2584,7 +2551,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C439
+L dvk-mx8m-bsb-rescue:C C439
 U 1 1 5B33381D
 P 4300 1500
 F 0 "C439" H 4325 1600 50  0000 L CNN
@@ -2601,7 +2568,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C444
+L dvk-mx8m-bsb-rescue:C C444
 U 1 1 5B3338D8
 P 4950 1500
 F 0 "C444" H 4975 1600 50  0000 L CNN
@@ -2618,7 +2585,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C446
+L dvk-mx8m-bsb-rescue:C C446
 U 1 1 5B33397E
 P 5200 1500
 F 0 "C446" H 5225 1600 50  0000 L CNN
@@ -2635,7 +2602,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C447
+L dvk-mx8m-bsb-rescue:C C447
 U 1 1 5B3FB4AF
 P 5200 6400
 F 0 "C447" H 5225 6500 50  0000 L CNN
@@ -2652,7 +2619,7 @@ Wire Wire Line
 	5200 6250 5200 6200
 Connection ~ 5200 6200
 $Comp
-L R R415
+L dvk-mx8m-bsb-rescue:R R415
 U 1 1 5B406431
 P 8000 4750
 F 0 "R415" H 8150 4800 50  0000 C CNN
@@ -2669,7 +2636,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0127
+L power:GND #PWR0127
 U 1 1 5B40856E
 P 8000 4950
 F 0 "#PWR0127" H 8000 4700 50  0001 C CNN

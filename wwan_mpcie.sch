@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L C C1510
+L dvk-mx8m-bsb-rescue:C C1510
 U 1 1 5AD47BFC
 P 3600 1700
 F 0 "C1510" H 3600 1800 50  0000 L CNN
@@ -59,7 +26,7 @@ F 3 "" H 3600 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1509
+L dvk-mx8m-bsb-rescue:C C1509
 U 1 1 5AD47C44
 P 3350 1700
 F 0 "C1509" H 3350 1800 50  0000 L CNN
@@ -70,7 +37,7 @@ F 3 "" H 3350 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0235
+L power:GND #PWR0235
 U 1 1 5AD4830B
 P 1350 1950
 F 0 "#PWR0235" H 1350 1700 50  0001 C CNN
@@ -89,7 +56,7 @@ UIM-CLK
 Text Label 5350 4150 0    60   ~ 0
 UIM-RESET
 $Comp
-L GND #PWR0236
+L power:GND #PWR0236
 U 1 1 5AD72F86
 P 6500 5150
 F 0 "#PWR0236" H 6500 4900 50  0001 C CNN
@@ -106,7 +73,7 @@ Standards:\n3GPP TS 51.010-1\nISO/IEC 7816
 Text Notes 5550 3850 0    60   ~ 0
 UIM-CLK up to 5MHz
 $Comp
-L SIM_Card_Det J1504
+L dvk-mx8m-bsb:SIM_Card_Det J1504
 U 1 1 5AD7A3DC
 P 8550 4450
 F 0 "J1504" H 8375 4850 50  0000 R CNN
@@ -127,7 +94,7 @@ Text Notes 5400 3950 0    60   ~ 0
 Text Notes 9050 5200 0    60   ~ 0
 Switch terminals\nDSW1 and DSW2\nare open when\nSIM card is inserted.
 $Comp
-L GND #PWR0237
+L power:GND #PWR0237
 U 1 1 5AD7CB0F
 P 8650 5000
 F 0 "#PWR0237" H 8650 4750 50  0001 C CNN
@@ -138,7 +105,7 @@ F 3 "" H 8650 5000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0238
+L power:GND #PWR0238
 U 1 1 5AD7CCFA
 P 7900 4700
 F 0 "#PWR0238" H 7900 4450 50  0001 C CNN
@@ -152,7 +119,7 @@ NoConn ~ 7950 4550
 Text Label 9950 4450 2    60   ~ 0
 SIM_DETECT_I
 $Comp
-L NUP5120 U1502
+L dvk-mx8m-bsb:NUP5120 U1502
 U 1 1 5AD9D607
 P 7550 5000
 F 0 "U1502" V 7800 4750 60  0000 C CNN
@@ -169,7 +136,7 @@ F 9 "ESDA6V1-5P6" V 7550 5000 60  0001 C CNN "Others"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR0239
+L power:GND #PWR0239
 U 1 1 5AD9E10E
 P 7550 5400
 F 0 "#PWR0239" H 7550 5150 50  0001 C CNN
@@ -180,7 +147,7 @@ F 3 "" H 7550 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1520
+L dvk-mx8m-bsb-rescue:C C1520
 U 1 1 5ADA5915
 P 7100 4900
 F 0 "C1520" H 7125 5000 50  0000 L CNN
@@ -191,7 +158,7 @@ F 3 "" H 7100 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1524
+L dvk-mx8m-bsb-rescue:C C1524
 U 1 1 5ADA5CE1
 P 9950 4650
 F 0 "C1524" H 9975 4750 50  0000 L CNN
@@ -202,7 +169,7 @@ F 3 "" H 9950 4650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0240
+L power:GND #PWR0240
 U 1 1 5ADA5E44
 P 9950 4850
 F 0 "#PWR0240" H 9950 4600 50  0001 C CNN
@@ -213,7 +180,7 @@ F 3 "" H 9950 4850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1519
+L dvk-mx8m-bsb-rescue:C C1519
 U 1 1 5ADA6940
 P 6800 4900
 F 0 "C1519" H 6825 5000 50  0000 L CNN
@@ -224,7 +191,7 @@ F 3 "" H 6800 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1518
+L dvk-mx8m-bsb-rescue:C C1518
 U 1 1 5ADA69A9
 P 6500 4900
 F 0 "C1518" H 6525 5000 50  0000 L CNN
@@ -235,7 +202,7 @@ F 3 "" H 6500 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1517
+L dvk-mx8m-bsb-rescue:C C1517
 U 1 1 5ADA69EC
 P 6200 4900
 F 0 "C1517" H 6225 5000 50  0000 L CNN
@@ -246,7 +213,7 @@ F 3 "" H 6200 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1506
+L dvk-mx8m-bsb-rescue:R R1506
 U 1 1 5ADA90CD
 P 7100 4500
 F 0 "R1506" H 7275 4550 50  0000 C CNN
@@ -257,7 +224,7 @@ F 3 "" H 7100 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1514
+L dvk-mx8m-bsb-rescue:C C1514
 U 1 1 5ADAB5AD
 P 5800 4900
 F 0 "C1514" H 5825 5000 50  0000 L CNN
@@ -280,7 +247,7 @@ PCM_OUT/I2S_OUT
 Text HLabel 5150 7000 2    60   Output ~ 0
 PCM_IN/I2S_IN
 $Comp
-L TXB0104RUT U1501
+L dvk-mx8m-bsb-rescue:TXB0104RUT U1501
 U 1 1 5AF59D77
 P 4700 6700
 F 0 "U1501" H 4400 7350 50  0000 C CNN
@@ -297,7 +264,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-translato
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1513
+L dvk-mx8m-bsb-rescue:C C1513
 U 1 1 5AF5FCD9
 P 5500 5850
 F 0 "C1513" H 5525 5950 50  0000 L CNN
@@ -308,7 +275,7 @@ F 3 "" H 5500 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0241
+L power:GND #PWR0241
 U 1 1 5AF5FCE0
 P 5650 6100
 F 0 "#PWR0241" H 5650 5850 50  0001 C CNN
@@ -319,7 +286,7 @@ F 3 "" H 5650 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1515
+L dvk-mx8m-bsb-rescue:C C1515
 U 1 1 5AF5FCEA
 P 5800 5850
 F 0 "C1515" H 5825 5950 50  0000 L CNN
@@ -330,7 +297,7 @@ F 3 "" H 5800 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1512
+L dvk-mx8m-bsb-rescue:C C1512
 U 1 1 5AF608F9
 P 4050 5850
 F 0 "C1512" H 4075 5950 50  0000 L CNN
@@ -341,7 +308,7 @@ F 3 "" H 4050 5850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0242
+L power:GND #PWR0242
 U 1 1 5AF60900
 P 3900 6100
 F 0 "#PWR0242" H 3900 5850 50  0001 C CNN
@@ -352,7 +319,7 @@ F 3 "" H 3900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1511
+L dvk-mx8m-bsb-rescue:C C1511
 U 1 1 5AF60909
 P 3750 5850
 F 0 "C1511" H 3775 5950 50  0000 L CNN
@@ -363,7 +330,7 @@ F 3 "" H 3750 5850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0243
+L power:GND #PWR0243
 U 1 1 5AF62147
 P 4700 7450
 F 0 "#PWR0243" H 4700 7200 50  0001 C CNN
@@ -384,7 +351,7 @@ PCM_SYNC
 Text Notes 3700 6400 2    60   ~ 0
 BCLK
 $Comp
-L 3V3_P #PWR0244
+L dvk-mx8m-bsb:3V3_P #PWR0244
 U 1 1 5AEA3884
 P 5500 5600
 F 0 "#PWR0244" H 5500 5450 50  0001 C CNN
@@ -395,7 +362,7 @@ F 3 "" H 5500 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0245
+L dvk-mx8m-bsb:1V8_P #PWR0245
 U 1 1 5AEDF89D
 P 4250 5600
 F 0 "#PWR0245" H 4250 5450 50  0001 C CNN
@@ -408,7 +375,7 @@ $EndComp
 Text Notes 5050 7250 0    60   ~ 0
 SAI6 can be configured\nas master or slave
 $Comp
-L GND #PWR0246
+L power:GND #PWR0246
 U 1 1 5B118C1F
 P 1300 3100
 F 0 "#PWR0246" H 1300 2850 50  0001 C CNN
@@ -419,7 +386,7 @@ F 3 "" H 1300 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0247
+L power:GND #PWR0247
 U 1 1 5B118DCB
 P 1300 5250
 F 0 "#PWR0247" H 1300 5000 50  0001 C CNN
@@ -430,7 +397,7 @@ F 3 "" H 1300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1507
+L dvk-mx8m-bsb-rescue:C C1507
 U 1 1 5B18C1DE
 P 2850 1700
 F 0 "C1507" H 2850 1800 50  0000 L CNN
@@ -441,7 +408,7 @@ F 3 "" H 2850 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1506
+L dvk-mx8m-bsb-rescue:C C1506
 U 1 1 5B18C26B
 P 2600 1700
 F 0 "C1506" H 2600 1800 50  0000 L CNN
@@ -452,7 +419,7 @@ F 3 "" H 2600 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1505
+L dvk-mx8m-bsb-rescue:C C1505
 U 1 1 5B18C2F3
 P 2350 1700
 F 0 "C1505" H 2350 1800 50  0000 L CNN
@@ -463,7 +430,7 @@ F 3 "" H 2350 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1504
+L dvk-mx8m-bsb-rescue:C C1504
 U 1 1 5B18C380
 P 2100 1700
 F 0 "C1504" H 2100 1850 50  0000 L CNN
@@ -476,7 +443,7 @@ $EndComp
 Text HLabel 2300 6850 2    60   Output ~ 0
 ~WoWWAN
 $Comp
-L 3V3_P #PWR0248
+L dvk-mx8m-bsb:3V3_P #PWR0248
 U 1 1 5B256C48
 P 2250 6400
 F 0 "#PWR0248" H 2250 6250 50  0001 C CNN
@@ -487,7 +454,7 @@ F 3 "" H 2250 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0249
+L dvk-mx8m-bsb:1V8_P #PWR0249
 U 1 1 5B256C4E
 P 1750 6400
 F 0 "#PWR0249" H 1750 6250 50  0001 C CNN
@@ -500,7 +467,7 @@ $EndComp
 Text Label 1100 6850 0    60   ~ 0
 ~WoWWAN_1V8
 $Comp
-L R R1501
+L dvk-mx8m-bsb-rescue:R R1501
 U 1 1 5B256C5B
 P 1750 6650
 F 0 "R1501" H 1925 6700 50  0000 C CNN
@@ -517,7 +484,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1502
+L dvk-mx8m-bsb-rescue:R R1502
 U 1 1 5B256C75
 P 2250 6650
 F 0 "R1502" H 2425 6700 50  0000 C CNN
@@ -538,7 +505,7 @@ IN/OUT of\nthe SoC
 Text Notes 4550 1050 0    236  ~ 47
 WWAN mPCIe
 $Comp
-L Q_NMOS_GSD Q1501
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1501
 U 1 1 5B2EA85A
 P 2000 6750
 F 0 "Q1501" V 2225 6625 50  0000 L CNN
@@ -555,7 +522,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 2000 6750 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L CP1 C1503
+L dvk-mx8m-bsb-rescue:CP1 C1503
 U 1 1 5B300899
 P 1850 1700
 F 0 "C1503" H 1850 1850 50  0000 L CNN
@@ -572,7 +539,7 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 1850 1700 60 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0250
+L power:GND #PWR0250
 U 1 1 5B2BA055
 P 3850 4800
 F 0 "#PWR0250" H 3850 4550 50  0001 C CNN
@@ -583,7 +550,7 @@ F 3 "" H 3850 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0251
+L power:GND #PWR0251
 U 1 1 5B2BBB4C
 P 5250 4800
 F 0 "#PWR0251" H 5250 4550 50  0001 C CNN
@@ -594,7 +561,7 @@ F 3 "" H 5250 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0252
+L dvk-mx8m-bsb:3V3_P #PWR0252
 U 1 1 5B2BCF2D
 P 5300 2100
 F 0 "#PWR0252" H 5300 1950 50  0001 C CNN
@@ -605,7 +572,7 @@ F 3 "" H 5300 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0253
+L dvk-mx8m-bsb:3V3_P #PWR0253
 U 1 1 5B2BEB7A
 P 3800 1450
 F 0 "#PWR0253" H 3800 1300 50  0001 C CNN
@@ -619,7 +586,7 @@ NoConn ~ 5200 2350
 NoConn ~ 5200 4550
 NoConn ~ 5200 3350
 $Comp
-L MPCIE-Socket J1503
+L dvk-mx8m-bsb:MPCIE-Socket J1503
 U 1 1 5B2CA2AD
 P 4550 3300
 F 0 "J1503" H 4250 4675 60  0000 C CNN
@@ -664,7 +631,7 @@ NoConn ~ 5200 2650
 Text HLabel 7200 3450 2    60   Input ~ 0
 RESET
 $Comp
-L C C1522
+L dvk-mx8m-bsb-rescue:C C1522
 U 1 1 5B2EEC7F
 P 8700 1550
 F 0 "C1522" H 8725 1650 50  0000 L CNN
@@ -675,7 +642,7 @@ F 3 "" H 8700 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0254
+L power:GND #PWR0254
 U 1 1 5B2EFB80
 P 8700 1750
 F 0 "#PWR0254" H 8700 1500 50  0001 C CNN
@@ -694,7 +661,7 @@ Text Label 3200 4750 0    60   ~ 0
 NoConn ~ 5200 3250
 NoConn ~ 5200 3150
 $Comp
-L C C1523
+L dvk-mx8m-bsb-rescue:C C1523
 U 1 1 5B30C2BF
 P 9600 2000
 F 0 "C1523" H 9625 2100 50  0000 L CNN
@@ -705,7 +672,7 @@ F 3 "" H 9600 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0255
+L power:GND #PWR0255
 U 1 1 5B30C2C6
 P 9600 2300
 F 0 "#PWR0255" H 9600 2050 50  0001 C CNN
@@ -716,7 +683,7 @@ F 3 "" H 9600 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0256
+L power:GND #PWR0256
 U 1 1 5B30C2CC
 P 10300 2300
 F 0 "#PWR0256" H 10300 2050 50  0001 C CNN
@@ -727,7 +694,7 @@ F 3 "" H 10300 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_ALT D1502
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1502
 U 1 1 5B30C2D8
 P 9850 1500
 F 0 "D1502" H 9850 1410 50  0000 C CNN
@@ -744,7 +711,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L SW_DPDT_x2 SW1501
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1501
 U 1 1 5B30C2E5
 P 10300 2050
 F 0 "SW1501" V 10350 2375 50  0000 C CNN
@@ -761,7 +728,7 @@ F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1511
+L dvk-mx8m-bsb-rescue:R R1511
 U 1 1 5B30C2F2
 P 10200 1600
 F 0 "R1511" H 10375 1650 50  0000 C CNN
@@ -772,7 +739,7 @@ F 3 "" H 10200 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1509
+L dvk-mx8m-bsb-rescue:R R1509
 U 1 1 5B30C2FF
 P 9850 1800
 F 0 "R1509" V 9925 1800 50  0000 C CNN
@@ -807,7 +774,7 @@ PCM_SYNC
 Text Label 5350 4050 0    60   ~ 0
 ~SIM_DETECT_O
 $Comp
-L SW_DPDT_x2 SW1501
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1501
 U 2 1 5B321B85
 P 11000 2300
 F 0 "SW1501" V 11000 2000 50  0000 C CNN
@@ -828,7 +795,7 @@ NoConn ~ 11100 2100
 NoConn ~ 11000 2500
 NoConn ~ 10400 1850
 $Comp
-L 74LVC1G08 U1504
+L dvk-mx8m-bsb:74LVC1G08 U1504
 U 1 1 5B3246C1
 P 8250 2150
 F 0 "U1504" H 8250 2200 50  0000 C CNN
@@ -845,7 +812,7 @@ F 9 "https://octopart.com/search?q=74LVC1G08GV%2C125&oq=74LVC1G08GV%2C125&start=
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_Coaxial J1501
+L dvk-mx8m-bsb-rescue:Conn_Coaxial J1501
 U 1 1 5B3301D0
 P 1300 2850
 F 0 "J1501" H 1310 2970 50  0000 C CNN
@@ -862,7 +829,7 @@ F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_Coaxial J1502
+L dvk-mx8m-bsb-rescue:Conn_Coaxial J1502
 U 1 1 5B330248
 P 1300 5000
 F 0 "J1502" H 1310 5120 50  0000 C CNN
@@ -883,7 +850,7 @@ IN/OUT of\nthe SoC
 Text Notes 10500 1850 0    60   ~ 0
 Open = ON\nClosed = OFF
 $Comp
-L 1V8_P #PWR0257
+L dvk-mx8m-bsb:1V8_P #PWR0257
 U 1 1 5B3CF7AD
 P 8450 1300
 F 0 "#PWR0257" H 8450 1150 50  0001 C CNN
@@ -894,7 +861,7 @@ F 3 "" H 8450 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC1G86 U1503
+L dvk-mx8m-bsb:74LVC1G86 U1503
 U 1 1 5B2C6F94
 P 7700 3800
 F 0 "U1503" H 7800 3850 50  0000 C CNN
@@ -911,7 +878,7 @@ F 9 "https://octopart.com/search?q=74LVC1G86GV%2C125&start=0" H 7700 3800 60  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1510
+L dvk-mx8m-bsb-rescue:R R1510
 U 1 1 5B2C73A3
 P 10100 3650
 F 0 "R1510" H 10275 3700 50  0000 C CNN
@@ -928,7 +895,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1507
+L dvk-mx8m-bsb-rescue:R R1507
 U 1 1 5B2C9CCA
 P 8350 3450
 F 0 "R1507" H 8525 3500 50  0000 C CNN
@@ -945,7 +912,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1521
+L dvk-mx8m-bsb-rescue:C C1521
 U 1 1 5B2CB1A8
 P 7950 3100
 F 0 "C1521" H 7975 3200 50  0000 L CNN
@@ -956,7 +923,7 @@ F 3 "" H 7950 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0258
+L power:GND #PWR0258
 U 1 1 5B2CB1AE
 P 7950 3300
 F 0 "#PWR0258" H 7950 3050 50  0001 C CNN
@@ -967,7 +934,7 @@ F 3 "" H 7950 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0259
+L dvk-mx8m-bsb:1V8_P #PWR0259
 U 1 1 5B2CF13B
 P 10200 1400
 F 0 "#PWR0259" H 10200 1250 50  0001 C CNN
@@ -978,7 +945,7 @@ F 3 "" H 10200 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1508
+L dvk-mx8m-bsb-rescue:R R1508
 U 1 1 5B2D270A
 P 8550 3650
 F 0 "R1508" V 8630 3650 50  0000 C CNN
@@ -989,7 +956,7 @@ F 3 "" H 8550 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ModemCard MOD1501
+L dvk-mx8m-bsb:ModemCard MOD1501
 U 1 1 5B2C06BF
 P 2450 3600
 F 0 "MOD1501" H 2275 4000 60  0000 C CNN
@@ -1000,7 +967,7 @@ F 3 "https://cloud.puri.sm/s/iSg345Zb5Fyd354" H 3025 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0260
+L power:GND #PWR0260
 U 1 1 5B2DB79C
 P 8750 3700
 F 0 "#PWR0260" H 8750 3450 50  0001 C CNN
@@ -1404,7 +1371,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 2900 8350 3300
 $Comp
-L Coax_cable_ufl_ufl CBL1501
+L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1501
 U 1 1 5B2DDE6A
 P 2050 2600
 F 0 "CBL1501" H 1575 2725 60  0000 C CNN
@@ -1415,7 +1382,7 @@ F 3 "" H 2250 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Coax_cable_ufl_ufl CBL1502
+L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1502
 U 1 1 5B2DDEED
 P 2100 4750
 F 0 "CBL1502" H 1625 4875 60  0000 C CNN
@@ -1426,7 +1393,7 @@ F 3 "" H 2300 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1502
+L dvk-mx8m-bsb-rescue:CP1 C1502
 U 1 1 5B2E987D
 P 1600 1700
 F 0 "C1502" H 1600 1850 50  0000 L CNN
@@ -1443,7 +1410,7 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 1600 1700 60 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CP1 C1501
+L dvk-mx8m-bsb-rescue:CP1 C1501
 U 1 1 5B2E992C
 P 1350 1700
 F 0 "C1501" H 1350 1800 50  0000 L CNN
@@ -1460,7 +1427,7 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 1350 1700 60 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1508
+L dvk-mx8m-bsb-rescue:C C1508
 U 1 1 5B2F6933
 P 3100 1700
 F 0 "C1508" H 3100 1800 50  0000 L CNN
@@ -1493,7 +1460,7 @@ UIM-PWR
 Wire Wire Line
 	10100 3450 10500 3450
 $Comp
-L R R1504
+L dvk-mx8m-bsb-rescue:R R1504
 U 1 1 5B3230EC
 P 6850 4050
 F 0 "R1504" V 6925 4050 50  0000 C CNN
@@ -1516,7 +1483,7 @@ Wire Wire Line
 	6500 4750 6500 4350
 Connection ~ 6500 4350
 $Comp
-L R R1505
+L dvk-mx8m-bsb-rescue:R R1505
 U 1 1 5B33E226
 P 7000 3450
 F 0 "R1505" V 7075 3450 50  0000 C CNN
@@ -1527,7 +1494,7 @@ F 3 "" H 7000 3450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1503
+L dvk-mx8m-bsb-rescue:R R1503
 U 1 1 5B33E6D3
 P 6600 3700
 F 0 "R1503" V 6675 3700 50  0000 C CNN
@@ -1538,7 +1505,7 @@ F 3 "" H 6600 3700 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Q_NPN_BEC Q1502
+L dvk-mx8m-bsb-rescue:Q_NPN_BEC Q1502
 U 1 1 5B33E792
 P 6500 3450
 F 0 "Q1502" H 6300 3675 50  0000 L CNN
@@ -1577,7 +1544,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3200 6400 3250
 $Comp
-L C C1516
+L dvk-mx8m-bsb-rescue:C C1516
 U 1 1 5B342FF9
 P 6200 3450
 F 0 "C1516" H 6200 3525 50  0000 L CNN
@@ -1588,7 +1555,7 @@ F 3 "" H 6200 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D_TVS_ALT D1501
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1501
 U 1 1 5B34C6C5
 P 5900 3450
 F 0 "D1501" V 5875 3250 50  0000 C CNN
@@ -1637,7 +1604,7 @@ TODO:\nAssign antennae\nfootprints
 Text Notes 5510 3200 0    39   ~ 0
 internal pull-up
 $Comp
-L Antenna_Shield AE1501
+L dvk-mx8m-bsb-rescue:Antenna_Shield AE1501
 U 1 1 5B383934
 P 950 2500
 F 0 "AE1501" H 1300 2625 50  0000 R CNN
@@ -1648,7 +1615,7 @@ F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 950 2600 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Antenna_Shield AE1502
+L dvk-mx8m-bsb-rescue:Antenna_Shield AE1502
 U 1 1 5B385C8C
 P 950 4650
 F 0 "AE1502" H 1300 4775 50  0000 R CNN
@@ -1659,7 +1626,7 @@ F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 950 4750 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0261
+L power:GND #PWR0261
 U 1 1 5B38604E
 P 850 4900
 F 0 "#PWR0261" H 850 4650 50  0001 C CNN
@@ -1672,7 +1639,7 @@ $EndComp
 Wire Wire Line
 	850  4900 850  4850
 $Comp
-L GND #PWR0262
+L power:GND #PWR0262
 U 1 1 5B3865C4
 P 850 2750
 F 0 "#PWR0262" H 850 2500 50  0001 C CNN

@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L C C204
+L dvk-mx8m-bsb-rescue:C C204
 U 1 1 5ADED0EE
 P 1250 1500
 F 0 "C204" V 1300 1600 50  0000 L CNN
@@ -61,7 +28,7 @@ $EndComp
 Text Label 1450 1500 0    60   ~ 0
 BYPASS
 $Comp
-L C C203
+L dvk-mx8m-bsb-rescue:C C203
 U 1 1 5ADED0F6
 P 1250 1200
 F 0 "C203" V 1300 1300 50  0000 L CNN
@@ -78,7 +45,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C205
+L dvk-mx8m-bsb-rescue:C C205
 U 1 1 5ADED0FD
 P 1250 1800
 F 0 "C205" V 1300 1900 50  0000 L CNN
@@ -89,7 +56,7 @@ F 3 "" H 1250 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C206
+L dvk-mx8m-bsb-rescue:C C206
 U 1 1 5ADED104
 P 1250 2350
 F 0 "C206" V 1300 2450 50  0000 L CNN
@@ -100,7 +67,7 @@ F 3 "" H 1250 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R211
+L dvk-mx8m-bsb-rescue:R R211
 U 1 1 5ADED10B
 P 4150 1500
 F 0 "R211" V 4230 1500 50  0000 C CNN
@@ -111,7 +78,7 @@ F 3 "" H 4150 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R212
+L dvk-mx8m-bsb-rescue:R R212
 U 1 1 5ADED119
 P 4300 2150
 F 0 "R212" V 4350 2400 50  0000 C CNN
@@ -122,7 +89,7 @@ F 3 "" H 4300 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R213
+L dvk-mx8m-bsb-rescue:R R213
 U 1 1 5ADED120
 P 4300 2250
 F 0 "R213" V 4350 2500 50  0000 C CNN
@@ -133,7 +100,7 @@ F 3 "" H 4300 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5ADED127
 P 4500 2250
 F 0 "#PWR028" H 4500 2000 50  0001 C CNN
@@ -146,7 +113,7 @@ $EndComp
 Text Label 4800 2150 2    60   ~ 0
 BYPASS
 $Comp
-L R R215
+L dvk-mx8m-bsb-rescue:R R215
 U 1 1 5ADED135
 P 4300 2550
 F 0 "R215" V 4350 2850 50  0000 C CNN
@@ -157,7 +124,7 @@ F 3 "" H 4300 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R216
+L dvk-mx8m-bsb-rescue:R R216
 U 1 1 5ADED13C
 P 4300 2650
 F 0 "R216" V 4350 2900 50  0000 C CNN
@@ -168,7 +135,7 @@ F 3 "" H 4300 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R217
+L dvk-mx8m-bsb-rescue:R R217
 U 1 1 5ADED143
 P 4300 2900
 F 0 "R217" V 4380 2900 50  0000 C CNN
@@ -179,7 +146,7 @@ F 3 "" H 4300 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R218
+L dvk-mx8m-bsb-rescue:R R218
 U 1 1 5ADED14A
 P 4300 3100
 F 0 "R218" V 4380 3100 50  0000 C CNN
@@ -190,7 +157,7 @@ F 3 "" H 4300 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 3V3_OUT #PWR029
+L dvk-mx8m-bsb:3V3_OUT #PWR029
 U 1 1 5ADED151
 P 4700 2850
 F 0 "#PWR029" H 4700 2700 50  0001 C CNN
@@ -201,7 +168,7 @@ F 3 "" H 4700 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR030
+L dvk-mx8m-bsb:3V3_OUT #PWR030
 U 1 1 5ADED157
 P 5500 2400
 F 0 "#PWR030" H 5500 2250 50  0001 C CNN
@@ -212,7 +179,7 @@ F 3 "" H 5500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 5ADED15E
 P 900 2700
 F 0 "#PWR031" H 900 2450 50  0001 C CNN
@@ -245,7 +212,7 @@ USB_LD_~FLT
 Text Label 4800 1500 2    60   ~ 0
 BYPASS
 $Comp
-L PTN5110HQZ U201
+L dvk-mx8m-bsb:PTN5110HQZ U201
 U 1 1 5ADED1C7
 P 2800 2000
 F 0 "U201" H 2100 2800 60  0000 C CNN
@@ -262,7 +229,7 @@ Ihold=4A\nItrip=8A
 Text Notes 750  750  0    118  ~ 24
 USB-C TCPC - Config Channel (CC) and PD Role Controller
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 5AECC278
 P 2300 5300
 F 0 "#PWR032" H 2300 5050 50  0001 C CNN
@@ -273,7 +240,7 @@ F 3 "" H 2300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C207
+L dvk-mx8m-bsb-rescue:C C207
 U 1 1 5AECE8FB
 P 1400 5750
 F 0 "C207" V 1450 5800 50  0000 L CNN
@@ -284,7 +251,7 @@ F 3 "" H 1400 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C208
+L dvk-mx8m-bsb-rescue:C C208
 U 1 1 5AECE985
 P 1400 5950
 F 0 "C208" V 1450 6000 50  0000 L CNN
@@ -295,7 +262,7 @@ F 3 "" H 1400 5950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C202
+L dvk-mx8m-bsb-rescue:C C202
 U 1 1 5AED1DB6
 P 1750 4950
 F 0 "C202" H 1775 5050 50  0000 L CNN
@@ -306,7 +273,7 @@ F 3 "" H 1750 4950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5AED260D
 P 1600 5200
 F 0 "#PWR033" H 1600 4950 50  0001 C CNN
@@ -317,7 +284,7 @@ F 3 "" H 1600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R202
+L dvk-mx8m-bsb-rescue:R R202
 U 1 1 5AED5D55
 P 1200 6350
 F 0 "R202" V 1250 6575 50  0000 C CNN
@@ -328,7 +295,7 @@ F 3 "" H 1200 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R203
+L dvk-mx8m-bsb-rescue:R R203
 U 1 1 5AED67BD
 P 1200 6450
 F 0 "R203" V 1250 6675 50  0000 C CNN
@@ -339,7 +306,7 @@ F 3 "" H 1200 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R204
+L dvk-mx8m-bsb-rescue:R R204
 U 1 1 5AED6845
 P 1200 6550
 F 0 "R204" V 1250 6775 50  0000 C CNN
@@ -350,7 +317,7 @@ F 3 "" H 1200 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R205
+L dvk-mx8m-bsb-rescue:R R205
 U 1 1 5AED68D0
 P 1200 6650
 F 0 "R205" V 1250 6875 50  0000 C CNN
@@ -361,7 +328,7 @@ F 3 "" H 1200 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R206
+L dvk-mx8m-bsb-rescue:R R206
 U 1 1 5AED69B2
 P 1400 6850
 F 0 "R206" H 1550 6900 50  0000 C CNN
@@ -372,7 +339,7 @@ F 3 "" H 1400 6850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R207
+L dvk-mx8m-bsb-rescue:R R207
 U 1 1 5AED7972
 P 1700 6850
 F 0 "R207" H 1850 6900 50  0000 C CNN
@@ -383,7 +350,7 @@ F 3 "" H 1700 6850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R208
+L dvk-mx8m-bsb-rescue:R R208
 U 1 1 5AED7E8E
 P 2000 6850
 F 0 "R208" H 2150 6900 50  0000 C CNN
@@ -394,7 +361,7 @@ F 3 "" H 2000 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R209
+L dvk-mx8m-bsb-rescue:R R209
 U 1 1 5AED80E2
 P 2300 6850
 F 0 "R209" H 2450 6900 50  0000 C CNN
@@ -405,7 +372,7 @@ F 3 "" H 2300 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 5AED9A25
 P 1850 7100
 F 0 "#PWR034" H 1850 6850 50  0001 C CNN
@@ -416,7 +383,7 @@ F 3 "" H 1850 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R201
+L dvk-mx8m-bsb-rescue:R R201
 U 1 1 5AEDAEEC
 P 1200 6250
 F 0 "R201" V 1250 6475 50  0000 C CNN
@@ -427,7 +394,7 @@ F 3 "" H 1200 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1V8_P #PWR035
+L dvk-mx8m-bsb:1V8_P #PWR035
 U 1 1 5AEE2251
 P 800 6200
 F 0 "#PWR035" H 800 6050 50  0001 C CNN
@@ -438,7 +405,7 @@ F 3 "" H 800 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C209
+L dvk-mx8m-bsb-rescue:C C209
 U 1 1 5AEFF93F
 P 5050 5000
 F 0 "C209" V 5100 5050 50  0000 L CNN
@@ -449,7 +416,7 @@ F 3 "" H 5050 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C210
+L dvk-mx8m-bsb-rescue:C C210
 U 1 1 5AF01BEA
 P 5050 5200
 F 0 "C210" V 5100 5250 50  0000 L CNN
@@ -460,7 +427,7 @@ F 3 "" H 5050 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C211
+L dvk-mx8m-bsb-rescue:C C211
 U 1 1 5AF05DE3
 P 5050 5500
 F 0 "C211" V 5100 5550 50  0000 L CNN
@@ -471,7 +438,7 @@ F 3 "" H 5050 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C212
+L dvk-mx8m-bsb-rescue:C C212
 U 1 1 5AF075D9
 P 5050 5700
 F 0 "C212" V 5100 5750 50  0000 L CNN
@@ -492,7 +459,7 @@ USB1_RX_N
 Text HLabel 1850 6150 0    60   Input ~ 0
 USB1_SS_SEL
 $Comp
-L D_Zener_ALT D203
+L dvk-mx8m-bsb-rescue:D_Zener_ALT D203
 U 1 1 5AF3B9C5
 P 9100 2950
 F 0 "D203" V 9100 2775 50  0000 C CNN
@@ -509,7 +476,7 @@ F 9 "https://octopart.com/search?q=PTVS20VS1U&start=0" V 9100 2950 60  0001 C CN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5AF3BA54
 P 8800 3200
 F 0 "#PWR036" H 8800 2950 50  0001 C CNN
@@ -520,7 +487,7 @@ F 3 "" H 8800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C215
+L dvk-mx8m-bsb-rescue:C C215
 U 1 1 5AF3CD28
 P 8800 2950
 F 0 "C215" H 8825 3050 50  0000 L CNN
@@ -531,7 +498,7 @@ F 3 "" H 8800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C214
+L dvk-mx8m-bsb-rescue:C C214
 U 1 1 5AF3D4AD
 P 8500 2950
 F 0 "C214" H 8525 3050 50  0000 L CNN
@@ -542,7 +509,7 @@ F 3 "" H 8500 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R224
+L dvk-mx8m-bsb-rescue:R R224
 U 1 1 5AF41ABE
 P 8000 2950
 F 0 "R224" H 8150 3000 50  0000 C CNN
@@ -553,7 +520,7 @@ F 3 "" H 8000 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R225
+L dvk-mx8m-bsb-rescue:R R225
 U 1 1 5AF4CEE1
 P 8000 3550
 F 0 "R225" H 8150 3600 50  0000 C CNN
@@ -564,7 +531,7 @@ F 3 "" H 8000 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TLV3201AIDBVR U203
+L dvk-mx8m-bsb:TLV3201AIDBVR U203
 U 1 1 5AF4F201
 P 6650 3250
 F 0 "U203" H 6275 3575 50  0000 L CNN
@@ -581,7 +548,7 @@ F 9 "https://octopart.com/search?q=TLV3201AIDBVR&start=0" H 6650 3250 60  0001 C
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R222
+L dvk-mx8m-bsb-rescue:R R222
 U 1 1 5AF4F4C0
 P 7650 2950
 F 0 "R222" H 7800 3000 50  0000 C CNN
@@ -592,7 +559,7 @@ F 3 "" H 7650 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R223
+L dvk-mx8m-bsb-rescue:R R223
 U 1 1 5AF4F746
 P 7650 3550
 F 0 "R223" H 7800 3600 50  0000 C CNN
@@ -603,7 +570,7 @@ F 3 "" H 7650 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5AF4F7E8
 P 6750 3800
 F 0 "#PWR037" H 6750 3550 50  0001 C CNN
@@ -614,7 +581,7 @@ F 3 "" H 6750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R221
+L dvk-mx8m-bsb-rescue:R R221
 U 1 1 5AF53777
 P 6300 3550
 F 0 "R221" H 6150 3500 50  0000 C CNN
@@ -629,7 +596,7 @@ USB1_VBUS
 Text HLabel 5700 3400 0    60   Output ~ 0
 USB1_ID
 $Comp
-L R R219
+L dvk-mx8m-bsb-rescue:R R219
 U 1 1 5AF58EF4
 P 5900 3400
 F 0 "R219" V 5980 3400 50  0000 C CNN
@@ -640,7 +607,7 @@ F 3 "" H 5900 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 5AF595A0
 P 6100 3450
 F 0 "#PWR038" H 6100 3200 50  0001 C CNN
@@ -651,7 +618,7 @@ F 3 "" H 6100 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCMF3HDMI2SZ U204
+L dvk-mx8m-bsb:PCMF3HDMI2SZ U204
 U 1 1 5AF89EFF
 P 6950 5100
 F 0 "U204" H 6650 4700 50  0000 C CNN
@@ -662,7 +629,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 682
 	1    0    0    1   
 $EndComp
 $Comp
-L PCMF2HDMI2SZ U205
+L dvk-mx8m-bsb:PCMF2HDMI2SZ U205
 U 1 1 5AF8A4AD
 P 6950 5900
 F 0 "U205" H 6650 6300 50  0000 C CNN
@@ -673,7 +640,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 682
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 5AF8A55A
 P 6950 6450
 F 0 "#PWR039" H 6950 6200 50  0001 C CNN
@@ -684,7 +651,7 @@ F 3 "" H 6950 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 5AF8A8ED
 P 6950 4550
 F 0 "#PWR040" H 6950 4300 50  0001 C CNN
@@ -723,7 +690,7 @@ CC1
 Text Label 9100 3350 0    60   ~ 0
 CC2
 $Comp
-L C C216
+L dvk-mx8m-bsb-rescue:C C216
 U 1 1 5AF9B88F
 P 10350 6100
 F 0 "C216" V 10400 6150 50  0000 L CNN
@@ -734,7 +701,7 @@ F 3 "" H 10350 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R226
+L dvk-mx8m-bsb-rescue:R R226
 U 1 1 5AF9C7FE
 P 10350 6350
 F 0 "R226" V 10430 6350 50  0000 C CNN
@@ -745,7 +712,7 @@ F 3 "" H 10350 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_TVS_ALT D202
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D202
 U 1 1 5AF9EF91
 P 8800 5550
 F 0 "D202" V 8750 5375 50  0000 C CNN
@@ -762,7 +729,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 8800 5550 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 5AFA9EDB
 P 10000 6400
 F 0 "#PWR041" H 10000 6150 50  0001 C CNN
@@ -796,7 +763,7 @@ Text Notes 4850 2000 0    60   ~ 0
 Unused
 NoConn ~ 4800 1900
 $Comp
-L 1V8_P #PWR042
+L dvk-mx8m-bsb:1V8_P #PWR042
 U 1 1 5B02622C
 P 1450 4700
 F 0 "#PWR042" H 1450 4550 50  0001 C CNN
@@ -807,7 +774,7 @@ F 3 "" H 1450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Polyfuse F201
+L dvk-mx8m-bsb-rescue:Polyfuse F201
 U 1 1 5AE32200
 P 9500 2750
 F 0 "F201" V 9600 2750 50  0000 C CNN
@@ -830,7 +797,7 @@ EN_SRC
 Text Notes 6200 2500 0    60   ~ 0
 USB1_VBUS=5V when VBUS>4.31V
 $Comp
-L VBUS #PWR043
+L power:VBUS #PWR043
 U 1 1 5AF2D1E1
 P 9100 2300
 F 0 "#PWR043" H 9100 2150 50  0001 C CNN
@@ -841,7 +808,7 @@ F 3 "" H 9100 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG044
+L power:PWR_FLAG #FLG044
 U 1 1 5AF2D52F
 P 8800 2700
 F 0 "#FLG044" H 8800 2775 50  0001 C CNN
@@ -855,7 +822,7 @@ Text Label 4800 2050 2    60   ~ 0
 ILIM_5V_VBUS
 NoConn ~ 4800 2050
 $Comp
-L VBUS #PWR045
+L power:VBUS #PWR045
 U 1 1 5AF6C71F
 P 650 1300
 F 0 "#PWR045" H 650 1150 50  0001 C CNN
@@ -867,7 +834,7 @@ F 3 "" H 650 1300 50  0001 C CNN
 $EndComp
 NoConn ~ 4800 1800
 $Comp
-L PWR_FLAG #FLG046
+L power:PWR_FLAG #FLG046
 U 1 1 5AF77F57
 P 9900 2700
 F 0 "#FLG046" H 9900 2775 50  0001 C CNN
@@ -894,7 +861,7 @@ VBUS
 Text GLabel 9050 2350 0    60   Output ~ 0
 VBUS
 $Comp
-L 3V3 #PWR047
+L dvk-mx8m-bsb:3V3 #PWR047
 U 1 1 5B39F466
 P 4800 1250
 F 0 "#PWR047" H 4800 1100 50  0001 C CNN
@@ -905,7 +872,7 @@ F 3 "" H 4800 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR048
+L dvk-mx8m-bsb:3V3 #PWR048
 U 1 1 5B39F890
 P 650 1600
 F 0 "#PWR048" H 650 1450 50  0001 C CNN
@@ -916,7 +883,7 @@ F 3 "" H 650 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V_P #PWR049
+L dvk-mx8m-bsb:5V_P #PWR049
 U 1 1 5B3E3D9A
 P 650 2450
 F 0 "#PWR049" H 650 2300 50  0001 C CNN
@@ -927,7 +894,7 @@ F 3 "" H 650 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R210
+L dvk-mx8m-bsb-rescue:R R210
 U 1 1 5B2F09F9
 P 4150 1300
 F 0 "R210" V 4300 1300 50  0000 C CNN
@@ -944,7 +911,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R214
+L dvk-mx8m-bsb-rescue:R R214
 U 1 1 5B2F2DD5
 P 4300 2450
 F 0 "R214" V 4350 2200 50  0000 C CNN
@@ -961,7 +928,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L D_Schottky_ALT D201
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D201
 U 1 1 5B41CF31
 P 2100 6150
 F 0 "D201" H 1950 6100 50  0000 C CNN
@@ -978,7 +945,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C213
+L dvk-mx8m-bsb-rescue:C C213
 U 1 1 5B0AE4C1
 P 8200 2950
 F 0 "C213" H 8225 3050 50  0000 L CNN
@@ -995,7 +962,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C201
+L dvk-mx8m-bsb-rescue:C C201
 U 1 1 5B0AF555
 P 1450 4950
 F 0 "C201" H 1250 5050 50  0000 L CNN
@@ -1016,7 +983,7 @@ Text Notes 4850 2900 0    60   ~ 0
 Text Notes 5500 2675 0    60   ~ 0
 Read: 0xA5\nWrite: 0xA4
 $Comp
-L D_TVS_ALT D204
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D204
 U 1 1 5B1E1397
 P 9300 5550
 F 0 "D204" V 9250 5375 50  0000 C CNN
@@ -1033,7 +1000,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9300 5550 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D205
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D205
 U 1 1 5B1E1464
 P 9500 5550
 F 0 "D205" V 9450 5375 50  0000 C CNN
@@ -1050,7 +1017,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9500 5550 60  0001 C 
 	0    -1   1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D206
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D206
 U 1 1 5B1E1575
 P 9850 5550
 F 0 "D206" V 9800 5375 50  0000 C CNN
@@ -1067,7 +1034,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9850 5550 60  0001 C 
 	0    -1   1    0   
 $EndComp
 $Comp
-L 5V_SOM #PWR050
+L dvk-mx8m-bsb:5V_SOM #PWR050
 U 1 1 5B1A8979
 P 6750 2700
 F 0 "#PWR050" H 6750 2550 50  0001 C CNN
@@ -1084,7 +1051,7 @@ RX1 lanes are swapped!\nIt is allowed by the USB 3.0 standard,\nsection 6.4.2. L
 Text Notes 7450 6200 0    39   ~ 0
 TX2 lanes are swapped!\nIt is allowed by the USB 3.0 standard,\nsection 6.4.2. Lane Polarity Inversion
 $Comp
-L USB-C_Receptacle J201
+L dvk-mx8m-bsb:USB-C_Receptacle J201
 U 1 1 5AE939ED
 P 10550 4050
 AR Path="/5AE939ED" Ref="J201"  Part="1" 
@@ -1109,7 +1076,7 @@ Text Notes 8525 2825 0    39   ~ 0
 Text Notes 8825 2825 0    39   ~ 0
 35V
 $Comp
-L R R220
+L dvk-mx8m-bsb-rescue:R R220
 U 1 1 5B421944
 P 6300 2950
 F 0 "R220" H 6450 2900 50  0000 C CNN
@@ -1138,7 +1105,7 @@ TX_CON_1C_P
 Text Label 5350 5150 0    60   ~ 0
 TX_CON_1C_N
 $Comp
-L PTN36043BXY U202
+L dvk-mx8m-bsb:PTN36043BXY U202
 U 1 1 5AECBE93
 P 3250 5950
 F 0 "U202" H 2650 6900 60  0000 C CNN

@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L R R602
+L dvk-mx8m-bsb-rescue:R R602
 U 1 1 5AC5AF1B
 P 6400 3850
 F 0 "R602" V 6480 3850 50  0000 C CNN
@@ -61,7 +28,7 @@ $EndComp
 Wire Wire Line
 	6600 3850 6550 3850
 $Comp
-L RV-4162-C7 U601
+L dvk-mx8m-bsb:RV-4162-C7 U601
 U 1 1 5AC5BD52
 P 5000 3250
 F 0 "U601" H 4900 3500 60  0000 C CNN
@@ -88,7 +55,7 @@ I2C1_SDA
 Text HLabel 5450 3100 2    60   Input ~ 0
 I2C1_SCL
 $Comp
-L GND #PWR0139
+L power:GND #PWR0139
 U 1 1 5AC6302E
 P 4500 3350
 F 0 "#PWR0139" H 4500 3100 50  0001 C CNN
@@ -104,7 +71,7 @@ Wire Wire Line
 	4500 3300 4600 3300
 NoConn ~ 4600 3200
 $Comp
-L D_Schottky_x2_KCom_AAK D602
+L dvk-mx8m-bsb-rescue:D_Schottky_x2_KCom_AAK D602
 U 1 1 5AC55F7F
 P 6900 3850
 F 0 "D602" H 6800 3750 50  0000 C CNN
@@ -126,7 +93,7 @@ Connection ~ 7250 3850
 Wire Wire Line
 	7250 3800 7250 3900
 $Comp
-L GND #PWR0140
+L power:GND #PWR0140
 U 1 1 5AC5B669
 P 7250 4250
 F 0 "#PWR0140" H 7250 4000 50  0001 C CNN
@@ -139,7 +106,7 @@ $EndComp
 Wire Wire Line
 	7250 4250 7250 4200
 $Comp
-L C C601
+L dvk-mx8m-bsb-rescue:C C601
 U 1 1 5AC5B61C
 P 7250 4050
 F 0 "C601" H 7275 4150 50  0000 L CNN
@@ -150,7 +117,7 @@ F 3 "" H 7250 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR0141
+L dvk-mx8m-bsb:VBAT_REG #PWR0141
 U 1 1 5AE5DA7A
 P 7250 3800
 F 0 "#PWR0141" H 7250 3650 50  0001 C CNN
@@ -161,7 +128,7 @@ F 3 "" H 7250 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT #PWR0142
+L dvk-mx8m-bsb:VBAT #PWR0142
 U 1 1 5AE5DAE8
 P 6200 3800
 F 0 "#PWR0142" H 6200 3650 50  0001 C CNN
@@ -188,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3100 4600 3100
 $Comp
-L D_Schottky_ALT D601
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D601
 U 1 1 5B6718B5
 P 5600 3300
 F 0 "D601" H 5550 3200 50  0000 C CNN
@@ -205,7 +172,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L R R601
+L dvk-mx8m-bsb-rescue:R R601
 U 1 1 5B68E84A
 P 6050 3100
 F 0 "R601" H 6200 3150 50  0000 C CNN
@@ -241,7 +208,7 @@ Note:\nDatasheet says slave address is 0xD0\nwith a R/W bit appended, since 0xD 
 Text Notes 3700 5300 0    60   ~ 0
 Reference:\nhttps://github.com/HIO-Project/linux-imx6-nano-imx_3.10.17_1.0.1_ga/\nblob/8848e94b2f889fe44f6736e2d4c98851a2282275/arch/arm/boot/dts/\nimx6qdl-mtp.dtsi#L351
 $Comp
-L Ferrite_Bead FB601
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB601
 U 1 1 5B175E17
 P 6500 3400
 F 0 "FB601" V 6350 3400 50  0000 C CNN
@@ -262,7 +229,7 @@ Wire Wire Line
 Text Notes 4500 1700 0    236  ~ 47
 Real-Time Clock
 $Comp
-L 3V3_OUT #PWR0143
+L dvk-mx8m-bsb:3V3_OUT #PWR0143
 U 1 1 5B6A7D4C
 P 6050 2900
 F 0 "#PWR0143" H 6050 2750 50  0001 C CNN

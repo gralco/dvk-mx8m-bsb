@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -116,7 +83,7 @@ Connection ~ 1700 3700
 Text Notes 6600 1550 0    60   ~ 0
 Note:\nNo power-up sequence is\ngiven in the spec sheet
 $Comp
-L 3V3_P #PWR0186
+L dvk-mx8m-bsb:3V3_P #PWR0186
 U 1 1 5AEA3227
 P 3600 3150
 F 0 "#PWR0186" H 3600 3000 50  0001 C CNN
@@ -127,7 +94,7 @@ F 3 "" H 3600 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0187
+L dvk-mx8m-bsb:3V3_P #PWR0187
 U 1 1 5AEA329B
 P 1700 3250
 F 0 "#PWR0187" H 1700 3100 50  0001 C CNN
@@ -138,7 +105,7 @@ F 3 "" H 1700 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0188
+L dvk-mx8m-bsb:1V8_P #PWR0188
 U 1 1 5AEDE2F3
 P 2300 3250
 F 0 "#PWR0188" H 2300 3100 50  0001 C CNN
@@ -149,7 +116,7 @@ F 3 "" H 2300 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1202
+L dvk-mx8m-bsb-rescue:R R1202
 U 1 1 5B323584
 P 2550 3500
 F 0 "R1202" H 2725 3550 50  0000 C CNN
@@ -166,7 +133,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1201
+L dvk-mx8m-bsb-rescue:R R1201
 U 1 1 5B3235E0
 P 1700 3500
 F 0 "R1201" H 1875 3550 50  0000 C CNN
@@ -183,7 +150,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1203
+L dvk-mx8m-bsb-rescue:R R1203
 U 1 1 5B32362A
 P 3600 3400
 F 0 "R1203" H 3775 3450 50  0000 C CNN
@@ -200,7 +167,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1204
+L dvk-mx8m-bsb-rescue:R R1204
 U 1 1 5B3236A9
 P 4450 3400
 F 0 "R1204" H 4625 3450 50  0000 C CNN
@@ -217,7 +184,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0189
+L dvk-mx8m-bsb:1V8_P #PWR0189
 U 1 1 5B300B10
 P 4450 3150
 F 0 "#PWR0189" H 4450 3000 50  0001 C CNN
@@ -228,7 +195,7 @@ F 3 "" H 4450 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x39 J1202
+L dvk-mx8m-bsb-rescue:Conn_01x39 J1202
 U 1 1 5B314440
 P 8950 3150
 F 0 "J1202" H 8950 5225 50  0000 C CNN
@@ -245,7 +212,7 @@ F 9 "https://octopart.com/search?q=FH26-39s-0.3shw&start=0" H 8950 3150 60  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0190
+L power:GND #PWR0190
 U 1 1 5B314AC6
 P 8700 5100
 F 0 "#PWR0190" H 8700 4850 50  0001 C CNN
@@ -284,7 +251,7 @@ NoConn ~ 8750 2750
 NoConn ~ 8750 4750
 NoConn ~ 8750 4850
 $Comp
-L 22V4_P #PWR0191
+L dvk-mx8m-bsb:22V4_P #PWR0191
 U 1 1 5B3239F0
 P 8000 5000
 F 0 "#PWR0191" H 8000 4850 50  0001 C CNN
@@ -312,7 +279,7 @@ NoConn ~ 8750 1550
 NoConn ~ 8750 3050
 NoConn ~ 8750 2950
 $Comp
-L 1V8_P #PWR0192
+L dvk-mx8m-bsb:1V8_P #PWR0192
 U 1 1 5B328FC1
 P 6750 2400
 F 0 "#PWR0192" H 6750 2250 50  0001 C CNN
@@ -323,7 +290,7 @@ F 3 "" H 6750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1202
+L dvk-mx8m-bsb-rescue:C C1202
 U 1 1 5B32A2B5
 P 6300 2750
 F 0 "C1202" H 6325 2850 50  0000 L CNN
@@ -334,7 +301,7 @@ F 3 "" H 6300 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0193
+L power:GND #PWR0193
 U 1 1 5B32A2F2
 P 6750 3000
 F 0 "#PWR0193" H 6750 2750 50  0001 C CNN
@@ -369,7 +336,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 4550 8750 4550
 $Comp
-L 2V8_P #PWR0194
+L dvk-mx8m-bsb:2V8_P #PWR0194
 U 1 1 5B3FFD6E
 P 7500 2400
 F 0 "#PWR0194" H 7500 2250 50  0001 C CNN
@@ -380,7 +347,7 @@ F 3 "" H 7500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1206
+L dvk-mx8m-bsb-rescue:C C1206
 U 1 1 5B3FFDB6
 P 7500 2750
 F 0 "C1206" H 7525 2850 50  0000 L CNN
@@ -391,7 +358,7 @@ F 3 "" H 7500 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0195
+L power:GND #PWR0195
 U 1 1 5B3FFE19
 P 7500 2950
 F 0 "#PWR0195" H 7500 2700 50  0001 C CNN
@@ -409,7 +376,7 @@ Wire Wire Line
 	8750 2550 7500 2550
 Connection ~ 7500 2550
 $Comp
-L Conn_01x06 J1201
+L dvk-mx8m-bsb-rescue:Conn_01x06 J1201
 U 1 1 5B445B35
 P 5800 3600
 F 0 "J1201" H 5800 3975 50  0000 C CNN
@@ -430,7 +397,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3500 5600 3500
 $Comp
-L GND #PWR0196
+L power:GND #PWR0196
 U 1 1 5B449295
 P 5550 3950
 F 0 "#PWR0196" H 5550 3700 50  0001 C CNN
@@ -449,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2700 5550 3800
 $Comp
-L 2V8_P #PWR0197
+L dvk-mx8m-bsb:2V8_P #PWR0197
 U 1 1 5B449772
 P 5550 2700
 F 0 "#PWR0197" H 5550 2550 50  0001 C CNN
@@ -460,7 +427,7 @@ F 3 "" H 5550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1201
+L dvk-mx8m-bsb-rescue:C C1201
 U 1 1 5B44A018
 P 5400 2950
 F 0 "C1201" H 5425 3050 50  0000 L CNN
@@ -471,7 +438,7 @@ F 3 "" H 5400 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0198
+L power:GND #PWR0198
 U 1 1 5B44A063
 P 5400 3150
 F 0 "#PWR0198" H 5400 2900 50  0001 C CNN
@@ -489,7 +456,7 @@ Connection ~ 5550 2750
 Wire Wire Line
 	5400 3150 5400 3100
 $Comp
-L C C1205
+L dvk-mx8m-bsb-rescue:C C1205
 U 1 1 5B44F3BF
 P 7200 2750
 F 0 "C1205" H 7225 2850 50  0000 L CNN
@@ -500,7 +467,7 @@ F 3 "" H 7200 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1204
+L dvk-mx8m-bsb-rescue:C C1204
 U 1 1 5B44F3C6
 P 6900 2750
 F 0 "C1204" H 6925 2850 50  0000 L CNN
@@ -511,7 +478,7 @@ F 3 "" H 6900 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1203
+L dvk-mx8m-bsb-rescue:C C1203
 U 1 1 5B44F3CD
 P 6600 2750
 F 0 "C1203" H 6625 2850 50  0000 L CNN
@@ -553,7 +520,7 @@ Wire Wire Line
 	6750 2400 6750 2450
 Connection ~ 6750 2450
 $Comp
-L C C1207
+L dvk-mx8m-bsb-rescue:C C1207
 U 1 1 5B452925
 P 7550 5350
 F 0 "C1207" H 7575 5450 50  0000 L CNN
@@ -564,7 +531,7 @@ F 3 "" H 7550 5350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0199
+L power:GND #PWR0199
 U 1 1 5B45292C
 P 8000 5600
 F 0 "#PWR0199" H 8000 5350 50  0001 C CNN
@@ -575,7 +542,7 @@ F 3 "" H 8000 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1210
+L dvk-mx8m-bsb-rescue:C C1210
 U 1 1 5B452932
 P 8450 5350
 F 0 "C1210" H 8475 5450 50  0000 L CNN
@@ -586,7 +553,7 @@ F 3 "" H 8450 5350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1209
+L dvk-mx8m-bsb-rescue:C C1209
 U 1 1 5B452939
 P 8150 5350
 F 0 "C1209" H 8175 5450 50  0000 L CNN
@@ -597,7 +564,7 @@ F 3 "" H 8150 5350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1208
+L dvk-mx8m-bsb-rescue:C C1208
 U 1 1 5B452940
 P 7850 5350
 F 0 "C1208" H 7875 5450 50  0000 L CNN
@@ -3606,7 +3573,7 @@ HIGH
 Text Notes 1650 1000 0    236  ~ 47
 Display & Touch Controller
 $Comp
-L Q_NMOS_GSD Q1202
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1202
 U 1 1 5B2E270A
 P 4200 3500
 F 0 "Q1202" V 4150 3650 50  0000 L CNN
@@ -3623,7 +3590,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 4200 3500 60 
 	0    -1   1    0   
 $EndComp
 $Comp
-L Q_NMOS_GSD Q1201
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1201
 U 1 1 5B2E3533
 P 2300 3600
 F 0 "Q1201" V 2250 3750 50  0000 L CNN
@@ -3640,7 +3607,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 2300 3600 60 
 	0    -1   1    0   
 $EndComp
 $Comp
-L Display_JH057N00900 DISP1201
+L dvk-mx8m-bsb:Display_JH057N00900 DISP1201
 U 1 1 5B2C05F7
 P 10300 2500
 F 0 "DISP1201" H 10300 3500 60  0000 C CNN
@@ -3651,7 +3618,7 @@ F 3 "" H 14650 5700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0200
+L power:GND #PWR0200
 U 1 1 5B477319
 P 8200 3250
 F 0 "#PWR0200" H 8200 3000 50  0001 C CNN
@@ -3667,7 +3634,7 @@ Connection ~ 8200 2850
 Wire Wire Line
 	8200 3250 8200 3200
 $Comp
-L R R1205
+L dvk-mx8m-bsb-rescue:R R1205
 U 1 1 5B477A28
 P 8200 3050
 F 0 "R1205" H 8375 3100 50  0000 C CNN

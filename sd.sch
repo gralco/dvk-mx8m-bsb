@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -62,7 +29,7 @@ CONN_SD2_CLK
 Text HLabel 4250 4250 0    60   Output ~ 0
 CONN_SD2_CD_B
 $Comp
-L GND #PWR0178
+L power:GND #PWR0178
 U 1 1 5AC9FCAE
 P 7400 4300
 F 0 "#PWR0178" H 7400 4050 50  0001 C CNN
@@ -73,7 +40,7 @@ F 3 "" H 7400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0179
+L power:GND #PWR0179
 U 1 1 5ACA0128
 P 5600 4300
 F 0 "#PWR0179" H 5600 4050 50  0001 C CNN
@@ -84,7 +51,7 @@ F 3 "" H 5600 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0180
+L power:GND #PWR0180
 U 1 1 5ACA12D0
 P 6100 2800
 F 0 "#PWR0180" H 6100 2550 50  0001 C CNN
@@ -95,7 +62,7 @@ F 3 "" H 6100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_SD #PWR0181
+L dvk-mx8m-bsb:3V3_SD #PWR0181
 U 1 1 5AE8C9A8
 P 6100 2300
 F 0 "#PWR0181" H 6100 2150 50  0001 C CNN
@@ -106,7 +73,7 @@ F 3 "" H 6100 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1004
+L dvk-mx8m-bsb-rescue:C C1004
 U 1 1 5AE8CA13
 P 6400 2550
 F 0 "C1004" H 6425 2650 50  0000 L CNN
@@ -154,7 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3350 5650 3350
 $Comp
-L Micro_SD_Card_Det_ALPS_SCHA J1001
+L dvk-mx8m-bsb:Micro_SD_Card_Det_ALPS_SCHA J1001
 U 1 1 5AFA0CE0
 P 6550 3750
 F 0 "J1001" H 5900 4450 50  0000 C CNN
@@ -725,7 +692,7 @@ Connection ~ 4750 4250
 Connection ~ 5450 3950
 Connection ~ 5100 3550
 $Comp
-L R R1004
+L dvk-mx8m-bsb-rescue:R R1004
 U 1 1 5B32051A
 P 5450 3150
 F 0 "R1004" H 5625 3200 50  0000 C CNN
@@ -742,7 +709,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1003
+L dvk-mx8m-bsb-rescue:R R1003
 U 1 1 5B3204AF
 P 5100 3150
 F 0 "R1003" H 5275 3200 50  0000 C CNN
@@ -759,7 +726,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1002
+L dvk-mx8m-bsb-rescue:R R1002
 U 1 1 5B32045F
 P 4750 3150
 F 0 "R1002" H 4925 3200 50  0000 C CNN
@@ -791,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 3300 5450 3950
 $Comp
-L 3V3_SD #PWR0182
+L dvk-mx8m-bsb:3V3_SD #PWR0182
 U 1 1 5B09DC2A
 P 5100 2900
 F 0 "#PWR0182" H 5100 2750 50  0001 C CNN
@@ -802,7 +769,7 @@ F 3 "" H 5100 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1001
+L dvk-mx8m-bsb-rescue:R R1001
 U 1 1 5B0D207F
 P 4450 3750
 F 0 "R1001" V 4530 3750 50  0000 C CNN
@@ -817,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3750 4300 3750
 $Comp
-L C C1001
+L dvk-mx8m-bsb-rescue:C C1001
 U 1 1 5B0D22C2
 P 4650 4450
 F 0 "C1001" H 4675 4550 50  0000 L CNN
@@ -828,7 +795,7 @@ F 3 "" H 4650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0183
+L power:GND #PWR0183
 U 1 1 5B0D2F89
 P 4650 4650
 F 0 "#PWR0183" H 4650 4400 50  0001 C CNN
@@ -850,7 +817,7 @@ Wire Wire Line
 Text Notes 5800 1900 0    236  ~ 47
 μSD
 $Comp
-L C C1002
+L dvk-mx8m-bsb-rescue:C C1002
 U 1 1 5B3619B2
 P 5800 2550
 F 0 "C1002" H 5825 2650 50  0000 L CNN
@@ -867,7 +834,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1003
+L dvk-mx8m-bsb-rescue:C C1003
 U 1 1 5B3619FD
 P 6100 2550
 F 0 "C1003" H 6125 2650 50  0000 L CNN

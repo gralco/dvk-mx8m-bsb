@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L SW_Push SW1401
+L dvk-mx8m-bsb-rescue:SW_Push SW1401
 U 1 1 5ACC3A06
 P 3250 2250
 F 0 "SW1401" H 3300 2350 50  0000 L CNN
@@ -69,7 +36,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3500 3050 3500
 $Comp
-L GND #PWR0216
+L power:GND #PWR0216
 U 1 1 5ACC4CAE
 P 2900 3900
 F 0 "#PWR0216" H 2900 3650 50  0001 C CNN
@@ -84,7 +51,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2250 3050 2250
 $Comp
-L GND #PWR0217
+L power:GND #PWR0217
 U 1 1 5ACC4CDD
 P 2900 2650
 F 0 "#PWR0217" H 2900 2400 50  0001 C CNN
@@ -99,7 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6000 3050 6000
 $Comp
-L GND #PWR0218
+L power:GND #PWR0218
 U 1 1 5ACC4EB3
 P 2900 6400
 F 0 "#PWR0218" H 2900 6150 50  0001 C CNN
@@ -118,7 +85,7 @@ ON/OFF
 Wire Wire Line
 	3450 6000 4350 6000
 $Comp
-L GND #PWR0219
+L power:GND #PWR0219
 U 1 1 5ACC7D2C
 P 8600 4000
 F 0 "#PWR0219" H 8600 3750 50  0001 C CNN
@@ -129,7 +96,7 @@ F 3 "" H 8600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1411
+L dvk-mx8m-bsb-rescue:R R1411
 U 1 1 5ACC7E2E
 P 8600 3350
 F 0 "R1411" H 8775 3400 50  0000 C CNN
@@ -158,7 +125,7 @@ GP_LED1
 Text Notes 8950 3400 0    60   ~ 0
 LTST-C19HE1WT\n  RBG Option
 $Comp
-L 3V3_P #PWR0220
+L dvk-mx8m-bsb:3V3_P #PWR0220
 U 1 1 5AEA32FD
 P 8600 2800
 F 0 "#PWR0220" H 8600 2650 50  0001 C CNN
@@ -173,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4750 3050 4750
 $Comp
-L GND #PWR0221
+L power:GND #PWR0221
 U 1 1 5AFE7AC6
 P 2900 5150
 F 0 "#PWR0221" H 2900 4900 50  0001 C CNN
@@ -196,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6400 2900 6350
 $Comp
-L R R1402
+L dvk-mx8m-bsb-rescue:R R1402
 U 1 1 5B0787FA
 P 2900 3700
 F 0 "R1402" H 3075 3750 50  0000 C CNN
@@ -207,7 +174,7 @@ F 3 "" H 2900 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1401
+L dvk-mx8m-bsb-rescue:R R1401
 U 1 1 5B078851
 P 2900 2450
 F 0 "R1401" H 3075 2500 50  0000 C CNN
@@ -218,7 +185,7 @@ F 3 "" H 2900 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1404
+L dvk-mx8m-bsb-rescue:R R1404
 U 1 1 5B07894D
 P 2900 6200
 F 0 "R1404" H 3075 6250 50  0000 C CNN
@@ -229,7 +196,7 @@ F 3 "" H 2900 6200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1403
+L dvk-mx8m-bsb-rescue:R R1403
 U 1 1 5B0789B5
 P 2900 4950
 F 0 "R1403" H 3075 5000 50  0000 C CNN
@@ -255,7 +222,7 @@ MIC6315's ~MR
 Text Notes 4300 5050 0    60   ~ 0
 may tie ~WDG\nvia a diode
 $Comp
-L C C1402
+L dvk-mx8m-bsb-rescue:C C1402
 U 1 1 5AF882AE
 P 3700 3700
 F 0 "C1402" H 3725 3800 50  0000 L CNN
@@ -266,7 +233,7 @@ F 3 "" H 3700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0222
+L power:GND #PWR0222
 U 1 1 5AF882B5
 P 3700 3900
 F 0 "#PWR0222" H 3700 3650 50  0001 C CNN
@@ -283,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3450 3700 3550
 $Comp
-L C C1401
+L dvk-mx8m-bsb-rescue:C C1401
 U 1 1 5AF899A7
 P 3700 2450
 F 0 "C1401" H 3725 2550 50  0000 L CNN
@@ -294,7 +261,7 @@ F 3 "" H 3700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0223
+L power:GND #PWR0223
 U 1 1 5AF899AE
 P 3700 2650
 F 0 "#PWR0223" H 3700 2400 50  0001 C CNN
@@ -311,7 +278,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2200 3700 2300
 $Comp
-L C C1404
+L dvk-mx8m-bsb-rescue:C C1404
 U 1 1 5AF8B583
 P 3700 6200
 F 0 "C1404" H 3725 6300 50  0000 L CNN
@@ -322,7 +289,7 @@ F 3 "" H 3700 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0224
+L power:GND #PWR0224
 U 1 1 5AF8B58A
 P 3700 6400
 F 0 "#PWR0224" H 3700 6150 50  0001 C CNN
@@ -336,7 +303,7 @@ Wire Wire Line
 	3700 6400 3700 6350
 Connection ~ 3700 6000
 $Comp
-L C C1403
+L dvk-mx8m-bsb-rescue:C C1403
 U 1 1 5AF8B7EB
 P 3700 4950
 F 0 "C1403" H 3725 5050 50  0000 L CNN
@@ -347,7 +314,7 @@ F 3 "" H 3700 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0225
+L power:GND #PWR0225
 U 1 1 5AF8B7F2
 P 3700 5150
 F 0 "#PWR0225" H 3700 4900 50  0001 C CNN
@@ -368,7 +335,7 @@ Text Notes 7350 3650 0    60   ~ 0
 Text Notes 7100 2450 0    60   ~ 0
 Use PWM2_PWMSAR to set the compare value (duty cycle)\nUse PWM2_PWMCR[15:4] to set the PRESCALER (frequency)\nUse PWM2_PWMPR to set the top of the counter (frequency)
 $Comp
-L R R1409
+L dvk-mx8m-bsb-rescue:R R1409
 U 1 1 5AFF5FC7
 P 7900 3950
 F 0 "R1409" H 8075 4000 50  0000 C CNN
@@ -379,7 +346,7 @@ F 3 "" H 7900 3950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1410
+L dvk-mx8m-bsb-rescue:R R1410
 U 1 1 5AFF6F1F
 P 8100 3750
 F 0 "R1410" V 8180 3750 50  0000 C CNN
@@ -397,7 +364,7 @@ Wire Wire Line
 	7900 3800 7900 3750
 Connection ~ 7900 3750
 $Comp
-L GND #PWR0226
+L power:GND #PWR0226
 U 1 1 5AFF8032
 P 7900 4150
 F 0 "#PWR0226" H 7900 3900 50  0001 C CNN
@@ -422,7 +389,7 @@ Connection ~ 3500 4750
 Wire Wire Line
 	3500 6050 3500 6000
 $Comp
-L GND #PWR0227
+L power:GND #PWR0227
 U 1 1 5B11FB3A
 P 3500 6400
 F 0 "#PWR0227" H 3500 6150 50  0001 C CNN
@@ -435,7 +402,7 @@ $EndComp
 Wire Wire Line
 	3500 6400 3500 6350
 $Comp
-L GND #PWR0228
+L power:GND #PWR0228
 U 1 1 5B126346
 P 3500 5150
 F 0 "#PWR0228" H 3500 4900 50  0001 C CNN
@@ -446,7 +413,7 @@ F 3 "" H 3500 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0229
+L power:GND #PWR0229
 U 1 1 5B1268EE
 P 3500 2650
 F 0 "#PWR0229" H 3500 2400 50  0001 C CNN
@@ -457,7 +424,7 @@ F 3 "" H 3500 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0230
+L power:GND #PWR0230
 U 1 1 5B126BC2
 P 3500 3900
 F 0 "#PWR0230" H 3500 3650 50  0001 C CNN
@@ -474,7 +441,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5150 3500 5100
 $Comp
-L R R1406
+L dvk-mx8m-bsb-rescue:R R1406
 U 1 1 5B3258BE
 P 3700 3300
 F 0 "R1406" H 3875 3350 50  0000 C CNN
@@ -491,7 +458,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1405
+L dvk-mx8m-bsb-rescue:R R1405
 U 1 1 5B32596C
 P 3700 2050
 F 0 "R1405" H 3875 2100 50  0000 C CNN
@@ -508,7 +475,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1407
+L dvk-mx8m-bsb-rescue:R R1407
 U 1 1 5B1DBA91
 P 3700 4550
 F 0 "R1407" H 3875 4600 50  0000 C CNN
@@ -527,7 +494,7 @@ $EndComp
 Wire Wire Line
 	3700 5650 3700 5600
 $Comp
-L R R1408
+L dvk-mx8m-bsb-rescue:R R1408
 U 1 1 5B1DBBDC
 P 3700 5800
 F 0 "R1408" H 3875 5850 50  0000 C CNN
@@ -546,7 +513,7 @@ $EndComp
 Wire Wire Line
 	3700 5950 3700 6050
 $Comp
-L 3V3_P #PWR0231
+L dvk-mx8m-bsb:3V3_P #PWR0231
 U 1 1 5B1DEF78
 P 3700 3100
 F 0 "#PWR0231" H 3700 2950 50  0001 C CNN
@@ -557,7 +524,7 @@ F 3 "" H 3700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0232
+L dvk-mx8m-bsb:3V3_P #PWR0232
 U 1 1 5B1DEFD5
 P 3700 1850
 F 0 "#PWR0232" H 3700 1700 50  0001 C CNN
@@ -568,7 +535,7 @@ F 3 "" H 3700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0233
+L dvk-mx8m-bsb:3V3 #PWR0233
 U 1 1 5B1DF336
 P 3700 5600
 F 0 "#PWR0233" H 3700 5450 50  0001 C CNN
@@ -579,7 +546,7 @@ F 3 "" H 3700 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0234
+L dvk-mx8m-bsb:3V3 #PWR0234
 U 1 1 5B1DF393
 P 3700 4350
 F 0 "#PWR0234" H 3700 4200 50  0001 C CNN
@@ -590,7 +557,7 @@ F 3 "" H 3700 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS_ALT D1401
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1401
 U 1 1 5B21D323
 P 3500 2450
 F 0 "D1401" V 3450 2250 50  0000 C CNN
@@ -607,7 +574,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 2450 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1402
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1402
 U 1 1 5B21D35C
 P 3500 3700
 F 0 "D1402" V 3450 3500 50  0000 C CNN
@@ -624,7 +591,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 3700 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1403
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1403
 U 1 1 5B21D5E6
 P 3500 4950
 F 0 "D1403" V 3450 4750 50  0000 C CNN
@@ -641,7 +608,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 4950 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1404
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1404
 U 1 1 5B21D894
 P 3500 6200
 F 0 "D1404" V 3450 6000 50  0000 C CNN
@@ -658,7 +625,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 6200 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_ALT D1405
+L dvk-mx8m-bsb-rescue:LED_ALT D1405
 U 1 1 5B2AEB0F
 P 8600 3000
 F 0 "D1405" V 8600 3200 50  0000 C CNN
@@ -679,7 +646,7 @@ Text Notes 8650 3550 0    60   ~ 0
 Text Notes 4750 1400 0    236  ~ 47
 Buttons & LED
 $Comp
-L Q_NMOS_GSD Q1401
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1401
 U 1 1 5B2E41DC
 P 8500 3750
 F 0 "Q1401" H 8700 3800 50  0000 L CNN
@@ -696,7 +663,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 8500 3750 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW1402
+L dvk-mx8m-bsb-rescue:SW_Push SW1402
 U 1 1 5B49E70C
 P 3250 3500
 F 0 "SW1402" H 3300 3600 50  0000 L CNN
@@ -713,7 +680,7 @@ F 9 "https://octopart.com/search?q=B3U-3000P&start=0" H 3250 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW1403
+L dvk-mx8m-bsb-rescue:SW_Push SW1403
 U 1 1 5B49E7A1
 P 3250 4750
 F 0 "SW1403" H 3300 4850 50  0000 L CNN
@@ -730,7 +697,7 @@ F 9 "https://octopart.com/search?q=B3U-3000P&start=0" H 3250 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW1404
+L dvk-mx8m-bsb-rescue:SW_Push SW1404
 U 1 1 5B49EA09
 P 3250 6000
 F 0 "SW1404" H 3300 6100 50  0000 L CNN

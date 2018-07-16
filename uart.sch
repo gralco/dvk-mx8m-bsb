@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L 74LVC2G241 U701
+L dvk-mx8m-bsb:74LVC2G241 U701
 U 1 1 5ACD5FC3
 P 5200 3900
 F 0 "U701" H 5200 4300 60  0000 C CNN
@@ -65,7 +32,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-buffers-d
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J701
+L dvk-mx8m-bsb-rescue:Conn_01x06 J701
 U 1 1 5ACD600C
 P 6850 3950
 F 0 "J701" H 6850 4250 50  0000 C CNN
@@ -82,7 +49,7 @@ F 9 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0144
+L power:GND #PWR0144
 U 1 1 5ACD6027
 P 6500 3800
 F 0 "#PWR0144" H 6500 3550 50  0001 C CNN
@@ -95,7 +62,7 @@ $EndComp
 NoConn ~ 6650 3850
 NoConn ~ 6650 3950
 $Comp
-L GND #PWR0145
+L power:GND #PWR0145
 U 1 1 5ACD61E3
 P 5550 4200
 F 0 "#PWR0145" H 5550 3950 50  0001 C CNN
@@ -106,7 +73,7 @@ F 3 "" H 5550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0146
+L power:GND #PWR0146
 U 1 1 5ACD62CD
 P 4750 3750
 F 0 "#PWR0146" H 4750 3500 50  0001 C CNN
@@ -122,7 +89,7 @@ UART1_TXD
 Text HLabel 4850 4400 0    60   Output ~ 0
 UART1_RXD
 $Comp
-L R R701
+L dvk-mx8m-bsb-rescue:R R701
 U 1 1 5ACD6464
 P 5900 3550
 F 0 "R701" H 6050 3600 50  0000 C CNN
@@ -173,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3350 6000 3350
 $Comp
-L GND #PWR0147
+L power:GND #PWR0147
 U 1 1 5ACD6CF4
 P 5900 3750
 F 0 "#PWR0147" H 5900 3500 50  0001 C CNN
@@ -193,7 +160,7 @@ TX->RX
 Text Label 6400 4050 2    60   ~ 0
 RX<-TX
 $Comp
-L C C701
+L dvk-mx8m-bsb-rescue:C C701
 U 1 1 5ACD7D29
 P 6250 3350
 F 0 "C701" H 6275 3450 50  0000 L CNN
@@ -204,7 +171,7 @@ F 3 "" H 6250 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0148
+L power:GND #PWR0148
 U 1 1 5ACD7D5E
 P 6250 3550
 F 0 "#PWR0148" H 6250 3300 50  0001 C CNN
@@ -221,7 +188,7 @@ Wire Wire Line
 Text Notes 6650 3600 0    60   ~ 0
 Accepts 3.3V \nor 5V Logic
 $Comp
-L 3V3_OUT #PWR0149
+L dvk-mx8m-bsb:3V3_OUT #PWR0149
 U 1 1 5AEA3EFC
 P 5550 3550
 F 0 "#PWR0149" H 5550 3400 50  0001 C CNN
@@ -232,7 +199,7 @@ F 3 "" H 5550 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR0150
+L dvk-mx8m-bsb:3V3_OUT #PWR0150
 U 1 1 5AEA3F25
 P 4550 3750
 F 0 "#PWR0150" H 4550 3600 50  0001 C CNN
@@ -243,7 +210,7 @@ F 3 "" H 4550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR0151
+L dvk-mx8m-bsb:3V3_OUT #PWR0151
 U 1 1 5AEA3F4E
 P 6250 3150
 F 0 "#PWR0151" H 6250 3000 50  0001 C CNN

@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L AR8031 U1701
+L dvk-mx8m-bsb:AR8031 U1701
 U 1 1 5AF16A84
 P 5100 4400
 F 0 "U1701" H 4400 6450 60  0000 C CNN
@@ -65,7 +32,7 @@ F 9 "https://octopart.com/search?q=AR8031&start=0" H 5100 4400 60  0001 C CNN "O
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0299
+L power:GND #PWR0299
 U 1 1 5AF1A655
 P 5100 6650
 F 0 "#PWR0299" H 5100 6400 50  0001 C CNN
@@ -76,7 +43,7 @@ F 3 "" H 5100 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1722
+L dvk-mx8m-bsb-rescue:R R1722
 U 1 1 5AF1A694
 P 4000 6500
 F 0 "R1722" H 4175 6450 50  0000 C CNN
@@ -87,7 +54,7 @@ F 3 "" H 4000 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0300
+L power:GND #PWR0300
 U 1 1 5AF1A6B7
 P 4000 6700
 F 0 "#PWR0300" H 4000 6450 50  0001 C CNN
@@ -98,7 +65,7 @@ F 3 "" H 4000 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND24 Y1701
+L dvk-mx8m-bsb-rescue:Crystal_GND24 Y1701
 U 1 1 5AF1A76B
 P 3050 6450
 F 0 "Y1701" H 3275 6650 50  0000 L CNN
@@ -115,7 +82,7 @@ F 9 "https://octopart.com/search?q=403C35D25M00000&start=0" H 3050 6450 60  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1713
+L dvk-mx8m-bsb-rescue:R R1713
 U 1 1 5AF1A819
 P 1950 6150
 F 0 "R1713" V 2030 6150 50  0000 C CNN
@@ -126,7 +93,7 @@ F 3 "" H 1950 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1715
+L dvk-mx8m-bsb-rescue:R R1715
 U 1 1 5AF1A84A
 P 2150 6350
 F 0 "R1715" H 2325 6300 50  0000 C CNN
@@ -137,7 +104,7 @@ F 3 "" H 2150 6350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR0301
+L power:GND #PWR0301
 U 1 1 5AF1C035
 P 3050 6900
 F 0 "#PWR0301" H 3050 6650 50  0001 C CNN
@@ -148,7 +115,7 @@ F 3 "" H 3050 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1701
+L dvk-mx8m-bsb-rescue:C C1701
 U 1 1 5AF1C053
 P 2850 6650
 F 0 "C1701" H 2875 6750 50  0000 L CNN
@@ -159,7 +126,7 @@ F 3 "" H 2850 6650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1702
+L dvk-mx8m-bsb-rescue:C C1702
 U 1 1 5AF1C13E
 P 3250 6650
 F 0 "C1702" H 3275 6750 50  0000 L CNN
@@ -170,7 +137,7 @@ F 3 "" H 3250 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0302
+L power:GND #PWR0302
 U 1 1 5AF1D077
 P 2150 6550
 F 0 "#PWR0302" H 2150 6300 50  0001 C CNN
@@ -211,7 +178,7 @@ NoConn ~ 4050 4550
 NoConn ~ 4050 4700
 NoConn ~ 4050 4800
 $Comp
-L TEST_1P TP1701
+L dvk-mx8m-bsb-rescue:TEST_1P TP1701
 U 1 1 5AF22D8A
 P 750 5850
 F 0 "TP1701" H 750 6120 50  0000 C CNN
@@ -222,7 +189,7 @@ F 3 "" H 950 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P TP1702
+L dvk-mx8m-bsb-rescue:TEST_1P TP1702
 U 1 1 5AF22DDD
 P 1050 5750
 F 0 "TP1702" H 1050 6020 50  0000 C CNN
@@ -233,7 +200,7 @@ F 3 "" H 1250 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1709
+L dvk-mx8m-bsb-rescue:C C1709
 U 1 1 5AF23C6C
 P 6200 6300
 F 0 "C1709" H 6225 6400 50  0000 L CNN
@@ -244,7 +211,7 @@ F 3 "" H 6200 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1712
+L dvk-mx8m-bsb-rescue:C C1712
 U 1 1 5AF23CAD
 P 6500 6300
 F 0 "C1712" H 6525 6400 50  0000 L CNN
@@ -255,7 +222,7 @@ F 3 "" H 6500 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1715
+L dvk-mx8m-bsb-rescue:C C1715
 U 1 1 5AF23CEC
 P 6800 6300
 F 0 "C1715" H 6825 6400 50  0000 L CNN
@@ -266,7 +233,7 @@ F 3 "" H 6800 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0303
+L power:GND #PWR0303
 U 1 1 5AF23D63
 P 6500 6550
 F 0 "#PWR0303" H 6500 6300 50  0001 C CNN
@@ -295,7 +262,7 @@ ETH_TRX2_N
 Text Label 6700 4500 2    60   ~ 0
 ETH_TRX3_N
 $Comp
-L C C1711
+L dvk-mx8m-bsb-rescue:C C1711
 U 1 1 5AF27077
 P 6500 3300
 F 0 "C1711" H 6525 3400 50  0000 L CNN
@@ -306,7 +273,7 @@ F 3 "" H 6500 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1714
+L dvk-mx8m-bsb-rescue:C C1714
 U 1 1 5AF270B5
 P 6800 3300
 F 0 "C1714" H 6825 3400 50  0000 L CNN
@@ -317,7 +284,7 @@ F 3 "" H 6800 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1717
+L dvk-mx8m-bsb-rescue:C C1717
 U 1 1 5AF270F5
 P 7100 3300
 F 0 "C1717" H 7125 3400 50  0000 L CNN
@@ -328,7 +295,7 @@ F 3 "" H 7100 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0304
+L power:GND #PWR0304
 U 1 1 5AF27185
 P 6950 3550
 F 0 "#PWR0304" H 6950 3300 50  0001 C CNN
@@ -339,7 +306,7 @@ F 3 "" H 6950 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1701
+L dvk-mx8m-bsb-rescue:L L1701
 U 1 1 5AF292B0
 P 6000 2150
 F 0 "L1701" V 6075 2150 50  0000 C CNN
@@ -356,7 +323,7 @@ F 9 "https://octopart.com/search?q=CIG22L4R7MNE&start=0" V 6000 2150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0305
+L power:GND #PWR0305
 U 1 1 5AF2ADD1
 P 6850 2600
 F 0 "#PWR0305" H 6850 2350 50  0001 C CNN
@@ -373,7 +340,7 @@ LED_LINK1000
 Text Label 7550 6100 2    60   ~ 0
 LED_ACT
 $Comp
-L C C1706
+L dvk-mx8m-bsb-rescue:C C1706
 U 1 1 5AF2D8CC
 P 4350 1850
 F 0 "C1706" H 4375 1950 50  0000 L CNN
@@ -384,7 +351,7 @@ F 3 "" H 4350 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1703
+L dvk-mx8m-bsb-rescue:C C1703
 U 1 1 5AF2DBDB
 P 4050 1200
 F 0 "C1703" H 4075 1300 50  0000 L CNN
@@ -395,7 +362,7 @@ F 3 "" H 4050 1200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1705
+L dvk-mx8m-bsb-rescue:C C1705
 U 1 1 5AF2DBE2
 P 4350 1200
 F 0 "C1705" H 4375 1300 50  0000 L CNN
@@ -406,7 +373,7 @@ F 3 "" H 4350 1200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0306
+L power:GND #PWR0306
 U 1 1 5AF2DC02
 P 4200 1450
 F 0 "#PWR0306" H 4200 1200 50  0001 C CNN
@@ -417,7 +384,7 @@ F 3 "" H 4200 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0307
+L power:GND #PWR0307
 U 1 1 5AF2E0B5
 P 4200 2100
 F 0 "#PWR0307" H 4200 1850 50  0001 C CNN
@@ -428,7 +395,7 @@ F 3 "" H 4200 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0308
+L dvk-mx8m-bsb:3V3_P #PWR0308
 U 1 1 5AF325F5
 P 3000 950
 F 0 "#PWR0308" H 3000 800 50  0001 C CNN
@@ -439,7 +406,7 @@ F 3 "" H 3000 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1707
+L dvk-mx8m-bsb-rescue:C C1707
 U 1 1 5AF330CC
 P 5700 1550
 F 0 "C1707" H 5725 1650 50  0000 L CNN
@@ -450,7 +417,7 @@ F 3 "" H 5700 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1708
+L dvk-mx8m-bsb-rescue:C C1708
 U 1 1 5AF3312A
 P 6000 1550
 F 0 "C1708" H 6025 1650 50  0000 L CNN
@@ -461,7 +428,7 @@ F 3 "" H 6000 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1710
+L dvk-mx8m-bsb-rescue:C C1710
 U 1 1 5AF331AA
 P 6300 1550
 F 0 "C1710" H 6325 1650 50  0000 L CNN
@@ -472,7 +439,7 @@ F 3 "" H 6300 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0309
+L power:GND #PWR0309
 U 1 1 5AF33215
 P 6000 1800
 F 0 "#PWR0309" H 6000 1550 50  0001 C CNN
@@ -485,7 +452,7 @@ $EndComp
 Text HLabel 6350 1350 2    60   Output ~ 0
 ENET_2V5
 $Comp
-L R R1721
+L dvk-mx8m-bsb-rescue:R R1721
 U 1 1 5AF37C5E
 P 3850 4950
 F 0 "R1721" V 4000 4950 50  0000 C CNN
@@ -496,7 +463,7 @@ F 3 "" H 3850 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1719
+L dvk-mx8m-bsb-rescue:R R1719
 U 1 1 5AF37E4E
 P 3800 5100
 F 0 "R1719" V 3850 5425 50  0000 C CNN
@@ -507,7 +474,7 @@ F 3 "" H 3800 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1720
+L dvk-mx8m-bsb-rescue:R R1720
 U 1 1 5AF3938A
 P 3800 5200
 F 0 "R1720" V 3850 5475 50  0000 C CNN
@@ -536,7 +503,7 @@ ENET_2V5
 Text Label 2900 4550 0    60   ~ 0
 ENET_2V5
 $Comp
-L 3V3_P #PWR0310
+L dvk-mx8m-bsb:3V3_P #PWR0310
 U 1 1 5AF58308
 P 2150 4500
 F 0 "#PWR0310" H 2150 4350 50  0001 C CNN
@@ -547,7 +514,7 @@ F 3 "" H 2150 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1702
+L dvk-mx8m-bsb-rescue:R R1702
 U 1 1 5AFC8685
 P 1700 1700
 F 0 "R1702" V 1780 1700 50  0000 C CNN
@@ -558,7 +525,7 @@ F 3 "" H 1700 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1704
+L dvk-mx8m-bsb-rescue:R R1704
 U 1 1 5AFC8798
 P 1700 2100
 F 0 "R1704" V 1780 2100 50  0000 C CNN
@@ -569,7 +536,7 @@ F 3 "" H 1700 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0311
+L power:GND #PWR0311
 U 1 1 5AFCAFF1
 P 1900 3550
 F 0 "#PWR0311" H 1900 3300 50  0001 C CNN
@@ -602,7 +569,7 @@ LED_LINK1000
 Text Label 850  3500 0    60   ~ 0
 LED_LINK10_100
 $Comp
-L RJHSE-5381 J1701
+L dvk-mx8m-bsb:RJHSE-5381 J1701
 U 1 1 5AFF6E15
 P 10900 2650
 F 0 "J1701" H 9750 3300 50  0000 L CNN
@@ -634,7 +601,7 @@ ETH_TRX0_N
 Text Label 9000 2150 0    60   ~ 0
 ETH_TRX0_P
 $Comp
-L R R1725
+L dvk-mx8m-bsb-rescue:R R1725
 U 1 1 5B00D480
 P 8600 4700
 F 0 "R1725" V 8680 4700 50  0000 C CNN
@@ -645,7 +612,7 @@ F 3 "" H 8600 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0312
+L power:GND #PWR0312
 U 1 1 5B00F44D
 P 8800 5150
 F 0 "#PWR0312" H 8800 4900 50  0001 C CNN
@@ -656,7 +623,7 @@ F 3 "" H 8800 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1723
+L dvk-mx8m-bsb-rescue:R R1723
 U 1 1 5B012960
 P 8600 4150
 F 0 "R1723" V 8680 4150 50  0000 C CNN
@@ -667,7 +634,7 @@ F 3 "" H 8600 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1724
+L dvk-mx8m-bsb-rescue:R R1724
 U 1 1 5B012A73
 P 8600 4400
 F 0 "R1724" V 8680 4400 50  0000 C CNN
@@ -1080,7 +1047,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 4700 7700 4700
 $Comp
-L C C1719
+L dvk-mx8m-bsb-rescue:C C1719
 U 1 1 5B02CA8D
 P 8000 3650
 F 0 "C1719" H 8025 3750 50  0000 L CNN
@@ -1091,7 +1058,7 @@ F 3 "" H 8000 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1720
+L dvk-mx8m-bsb-rescue:C C1720
 U 1 1 5B02D9E9
 P 8300 3650
 F 0 "C1720" H 8325 3750 50  0000 L CNN
@@ -1102,7 +1069,7 @@ F 3 "" H 8300 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1721
+L dvk-mx8m-bsb-rescue:C C1721
 U 1 1 5B02DAA8
 P 8600 3650
 F 0 "C1721" H 8625 3750 50  0000 L CNN
@@ -1115,7 +1082,7 @@ $EndComp
 Text Notes 6000 4600 0    60   ~ 0
 100Ω diff-pairs!
 $Comp
-L C C1718
+L dvk-mx8m-bsb-rescue:C C1718
 U 1 1 5B038954
 P 7400 3300
 F 0 "C1718" H 7425 3400 50  0000 L CNN
@@ -1144,7 +1111,7 @@ Wire Wire Line
 	7400 3150 7400 3100
 Connection ~ 7400 3100
 $Comp
-L GND #PWR0313
+L power:GND #PWR0313
 U 1 1 5B0467F8
 P 8300 3900
 F 0 "#PWR0313" H 8300 3650 50  0001 C CNN
@@ -1180,7 +1147,7 @@ Connection ~ 8600 3450
 Text Notes 5100 900  0    197  ~ 39
 RGMII 10/100/1000 Ethernet
 $Comp
-L PWR_FLAG #FLG0314
+L power:PWR_FLAG #FLG0314
 U 1 1 5B0C2224
 P 4750 950
 F 0 "#FLG0314" H 4750 1025 50  0001 C CNN
@@ -1192,7 +1159,7 @@ F 3 "" H 4750 950 50  0001 C CNN
 $EndComp
 Connection ~ 4750 1000
 $Comp
-L PWR_FLAG #FLG0315
+L power:PWR_FLAG #FLG0315
 U 1 1 5B0C422C
 P 8200 2100
 F 0 "#FLG0315" H 8200 2175 50  0001 C CNN
@@ -1204,7 +1171,7 @@ F 3 "" H 8200 2100 50  0001 C CNN
 $EndComp
 Connection ~ 8200 2150
 $Comp
-L PWR_FLAG #FLG0316
+L power:PWR_FLAG #FLG0316
 U 1 1 5B0C4B7D
 P 6200 3050
 F 0 "#FLG0316" H 6200 3125 50  0001 C CNN
@@ -1219,7 +1186,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 3800 8300 3900
 $Comp
-L R R1712
+L dvk-mx8m-bsb-rescue:R R1712
 U 1 1 5B3487C7
 P 1800 4750
 F 0 "R1712" H 1975 4800 50  0000 C CNN
@@ -1236,7 +1203,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1714
+L dvk-mx8m-bsb-rescue:R R1714
 U 1 1 5B348865
 P 2150 4750
 F 0 "R1714" H 2325 4800 50  0000 C CNN
@@ -1253,7 +1220,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1716
+L dvk-mx8m-bsb-rescue:R R1716
 U 1 1 5B348A20
 P 2500 4750
 F 0 "R1716" H 2675 4800 50  0000 C CNN
@@ -1270,7 +1237,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1717
+L dvk-mx8m-bsb-rescue:R R1717
 U 1 1 5B348AD6
 P 2900 4750
 F 0 "R1717" H 3075 4800 50  0000 C CNN
@@ -1287,7 +1254,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1718
+L dvk-mx8m-bsb-rescue:R R1718
 U 1 1 5B348B8D
 P 3250 4750
 F 0 "R1718" H 3425 4800 50  0000 C CNN
@@ -1298,7 +1265,7 @@ F 3 "" H 3250 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1701
+L dvk-mx8m-bsb-rescue:R R1701
 U 1 1 5B348EA1
 P 1700 1500
 F 0 "R1701" V 1775 1500 50  0000 C CNN
@@ -1315,7 +1282,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1703
+L dvk-mx8m-bsb-rescue:R R1703
 U 1 1 5B34A0D6
 P 1700 1900
 F 0 "R1703" V 1775 1900 50  0000 C CNN
@@ -1332,7 +1299,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1705
+L dvk-mx8m-bsb-rescue:R R1705
 U 1 1 5B34A19A
 P 1700 2300
 F 0 "R1705" V 1775 2300 50  0000 C CNN
@@ -1349,7 +1316,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1706
+L dvk-mx8m-bsb-rescue:R R1706
 U 1 1 5B34AEF4
 P 1700 2500
 F 0 "R1706" V 1775 2500 50  0000 C CNN
@@ -1366,7 +1333,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1707
+L dvk-mx8m-bsb-rescue:R R1707
 U 1 1 5B34AFB0
 P 1700 2700
 F 0 "R1707" V 1775 2700 50  0000 C CNN
@@ -1383,7 +1350,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1708
+L dvk-mx8m-bsb-rescue:R R1708
 U 1 1 5B34B06F
 P 1700 2900
 F 0 "R1708" V 1775 2900 50  0000 C CNN
@@ -1400,7 +1367,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1709
+L dvk-mx8m-bsb-rescue:R R1709
 U 1 1 5B34B135
 P 1700 3100
 F 0 "R1709" V 1775 3100 50  0000 C CNN
@@ -1417,7 +1384,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1710
+L dvk-mx8m-bsb-rescue:R R1710
 U 1 1 5B34B1FE
 P 1700 3300
 F 0 "R1710" V 1775 3300 50  0000 C CNN
@@ -1434,7 +1401,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R1711
+L dvk-mx8m-bsb-rescue:R R1711
 U 1 1 5B34B2C6
 P 1700 3500
 F 0 "R1711" V 1775 3500 50  0000 C CNN
@@ -1451,7 +1418,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L D_Schottky_ALT D1701
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1701
 U 1 1 5B41CBCA
 P 2700 5300
 F 0 "D1701" H 2700 5210 50  0000 C CNN
@@ -1468,7 +1435,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1713
+L dvk-mx8m-bsb-rescue:C C1713
 U 1 1 5B0BF33E
 P 6700 2350
 F 0 "C1713" H 6450 2450 50  0000 L CNN
@@ -1485,7 +1452,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1716
+L dvk-mx8m-bsb-rescue:C C1716
 U 1 1 5B0BF400
 P 7000 2350
 F 0 "C1716" H 6750 2450 50  0000 L CNN
@@ -1502,7 +1469,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1704
+L dvk-mx8m-bsb-rescue:C C1704
 U 1 1 5B0BF7A6
 P 4050 1850
 F 0 "C1704" H 3800 1950 50  0000 L CNN
@@ -1535,7 +1502,7 @@ Wire Wire Line
 Connection ~ 4000 5100
 Connection ~ 3600 5100
 $Comp
-L Ferrite_Bead FB1701
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1701
 U 1 1 5B138C01
 P 3400 1000
 F 0 "FB1701" V 3250 1000 50  0000 C CNN
@@ -1552,7 +1519,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 3400 1000 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L Ferrite_Bead FB1702
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1702
 U 1 1 5B138D27
 P 7800 3100
 F 0 "FB1702" V 7575 3100 50  0000 C CNN
@@ -1569,7 +1536,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 7800 3100 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L Ferrite_Bead FB1703
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1703
 U 1 1 5B139404
 P 9200 3900
 F 0 "FB1703" V 9125 3725 50  0000 C CNN
@@ -1586,7 +1553,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 9200 3900 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_ALT D1702
+L dvk-mx8m-bsb-rescue:LED_ALT D1702
 U 1 1 5B38E6C5
 P 9850 4900
 F 0 "D1702" V 9900 4700 50  0000 C CNN

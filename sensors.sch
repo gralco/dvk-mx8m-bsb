@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L C C2002
+L dvk-mx8m-bsb-rescue:C C2002
 U 1 1 5B067A54
 P 4400 3600
 F 0 "C2002" H 4425 3700 50  0000 L CNN
@@ -59,7 +26,7 @@ F 3 "" H 4400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0354
+L power:GND #PWR0354
 U 1 1 5B067AE0
 P 4400 3800
 F 0 "#PWR0354" H 4400 3550 50  0001 C CNN
@@ -70,7 +37,7 @@ F 3 "" H 4400 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0355
+L power:GND #PWR0355
 U 1 1 5B068781
 P 3650 4450
 F 0 "#PWR0355" H 3650 4200 50  0001 C CNN
@@ -81,7 +48,7 @@ F 3 "" H 3650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0356
+L power:GND #PWR0356
 U 1 1 5B068863
 P 3450 3000
 F 0 "#PWR0356" H 3450 2750 50  0001 C CNN
@@ -92,7 +59,7 @@ F 3 "" H 3450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0357
+L dvk-mx8m-bsb:3V3_P #PWR0357
 U 1 1 5B0689D2
 P 4400 2200
 F 0 "#PWR0357" H 4400 2050 50  0001 C CNN
@@ -103,7 +70,7 @@ F 3 "" H 4400 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0358
+L dvk-mx8m-bsb:3V3_P #PWR0358
 U 1 1 5B069B9B
 P 2450 3500
 F 0 "#PWR0358" H 2450 3350 50  0001 C CNN
@@ -124,7 +91,7 @@ Text Notes 7450 1500 0    157  ~ 31
 Text Notes 6700 5150 0    60   ~ 0
 Reference:\nhttp://www.st.com/en/evaluation-tools/steval-mki159v1.html
 $Comp
-L C C2001
+L dvk-mx8m-bsb-rescue:C C2001
 U 1 1 5B0BFB2C
 P 3450 2800
 F 0 "C2001" H 3200 2900 50  0000 L CNN
@@ -141,7 +108,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCNL4040 U2001
+L dvk-mx8m-bsb:VCNL4040 U2001
 U 1 1 5B10B553
 P 3650 3750
 F 0 "U2001" H 3450 4250 60  0000 C CNN
@@ -160,7 +127,7 @@ $EndComp
 Text Notes 1450 3050 0    60   ~ 0
 Note:\nI2C 2.2kΩ pull-up suggested\ncheck input capacitance & rise time
 $Comp
-L R R2001
+L dvk-mx8m-bsb-rescue:R R2001
 U 1 1 5B125D55
 P 2450 3700
 F 0 "R2001" H 2625 3750 50  0000 C CNN
@@ -177,7 +144,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R2002
+L dvk-mx8m-bsb-rescue:R R2002
 U 1 1 5B13CA51
 P 4000 2600
 F 0 "R2002" V 4080 2600 50  0000 C CNN
@@ -188,7 +155,7 @@ F 3 "" H 4000 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG0359
+L power:PWR_FLAG #FLG0359
 U 1 1 5B13CB3F
 P 3650 2550
 F 0 "#FLG0359" H 3650 2625 50  0001 C CNN
@@ -201,7 +168,7 @@ $EndComp
 Text Notes 3850 2750 0    39   ~ 0
 Ref Fig. 21
 $Comp
-L LSM9DS1 U2002
+L dvk-mx8m-bsb:LSM9DS1 U2002
 U 1 1 5B157B00
 P 8150 3700
 F 0 "U2002" H 7550 4550 50  0000 L CNN
@@ -218,7 +185,7 @@ F 9 "https://octopart.com/search?q=LSM9DS1&start=0" H 8150 3700 60  0001 C CNN "
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0360
+L power:GND #PWR0360
 U 1 1 5B15906B
 P 8050 4800
 F 0 "#PWR0360" H 8050 4550 50  0001 C CNN
@@ -229,7 +196,7 @@ F 3 "" H 8050 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0361
+L dvk-mx8m-bsb:3V3_P #PWR0361
 U 1 1 5B15B71F
 P 8350 1800
 F 0 "#PWR0361" H 8350 1650 50  0001 C CNN
@@ -240,7 +207,7 @@ F 3 "" H 8350 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2006
+L dvk-mx8m-bsb-rescue:C C2006
 U 1 1 5B15B74F
 P 8150 2400
 F 0 "C2006" H 8175 2500 50  0000 L CNN
@@ -251,7 +218,7 @@ F 3 "" H 8150 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2007
+L dvk-mx8m-bsb-rescue:C C2007
 U 1 1 5B15B795
 P 8500 2400
 F 0 "C2007" H 8525 2500 50  0000 L CNN
@@ -262,7 +229,7 @@ F 3 "" H 8500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2005
+L dvk-mx8m-bsb-rescue:C C2005
 U 1 1 5B15B7F6
 P 7850 2400
 F 0 "C2005" H 7875 2500 50  0000 L CNN
@@ -273,7 +240,7 @@ F 3 "" H 7850 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0362
+L power:GND #PWR0362
 U 1 1 5B15B942
 P 8500 2600
 F 0 "#PWR0362" H 8500 2350 50  0001 C CNN
@@ -284,7 +251,7 @@ F 3 "" H 8500 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0363
+L power:GND #PWR0363
 U 1 1 5B15B987
 P 8150 2600
 F 0 "#PWR0363" H 8150 2350 50  0001 C CNN
@@ -295,7 +262,7 @@ F 3 "" H 8150 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0364
+L power:GND #PWR0364
 U 1 1 5B15BC52
 P 7850 2600
 F 0 "#PWR0364" H 7850 2350 50  0001 C CNN
@@ -316,7 +283,7 @@ I2C3_SCL
 Text HLabel 3050 3500 0    60   BiDi ~ 0
 I2C3_SDA
 $Comp
-L C C2004
+L dvk-mx8m-bsb-rescue:C C2004
 U 1 1 5B163F79
 P 7400 4500
 F 0 "C2004" H 7425 4600 50  0000 L CNN
@@ -327,7 +294,7 @@ F 3 "" H 7400 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2003
+L dvk-mx8m-bsb-rescue:C C2003
 U 1 1 5B164D9D
 P 7100 4500
 F 0 "C2003" H 7125 4600 50  0000 L CNN
@@ -352,7 +319,7 @@ INT2
 Text Label 9150 3600 2    60   ~ 0
 INT_M
 $Comp
-L 3V3_P #PWR0365
+L dvk-mx8m-bsb:3V3_P #PWR0365
 U 1 1 5B176622
 P 6750 3550
 F 0 "#PWR0365" H 6750 3400 50  0001 C CNN
@@ -363,7 +330,7 @@ F 3 "" H 6750 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0366
+L dvk-mx8m-bsb:3V3_P #PWR0366
 U 1 1 5B1766DE
 P 9100 3250
 F 0 "#PWR0366" H 9100 3100 50  0001 C CNN
@@ -5130,7 +5097,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 2550 7850 2600
 $Comp
-L GND #PWR0367
+L power:GND #PWR0367
 U 1 1 5B0CAE93
 P 9700 2950
 F 0 "#PWR0367" H 9700 2700 50  0001 C CNN
@@ -5143,7 +5110,7 @@ $EndComp
 Wire Wire Line
 	9700 2900 9700 2950
 $Comp
-L 3V3_P #PWR0368
+L dvk-mx8m-bsb:3V3_P #PWR0368
 U 1 1 5B0CB162
 P 9700 1850
 F 0 "#PWR0368" H 9700 1700 50  0001 C CNN
@@ -5156,7 +5123,7 @@ $EndComp
 Wire Wire Line
 	9700 1850 9700 2500
 $Comp
-L C C2008
+L dvk-mx8m-bsb-rescue:C C2008
 U 1 1 5B0EBD64
 P 9550 2100
 F 0 "C2008" H 9575 2200 50  0000 L CNN
@@ -5167,7 +5134,7 @@ F 3 "" H 9550 2100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0369
+L power:GND #PWR0369
 U 1 1 5B0EBDA7
 P 9550 2300
 F 0 "#PWR0369" H 9550 2050 50  0001 C CNN
@@ -5185,7 +5152,7 @@ Connection ~ 9700 1900
 Wire Wire Line
 	9550 2250 9550 2300
 $Comp
-L 74LVC1G332 U2003
+L dvk-mx8m-bsb:74LVC1G332 U2003
 U 1 1 5B38F34D
 P 9900 2700
 F 0 "U2003" H 9900 2750 50  0000 C CNN
@@ -5208,7 +5175,7 @@ Read: 0xC1\nWrite: 0xC0
 Wire Wire Line
 	6750 3600 6750 3550
 $Comp
-L GND #PWR0370
+L power:GND #PWR0370
 U 1 1 5B202B1F
 P 6750 3750
 F 0 "#PWR0370" H 6750 3500 50  0001 C CNN
@@ -5241,7 +5208,7 @@ Input pins are\ninterchangeable
 Text Notes 5250 1100 0    236  ~ 47
 Sensors
 $Comp
-L Ferrite_Bead FB2001
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB2001
 U 1 1 5B2D1FCE
 P 4400 2400
 F 0 "FB2001" H 4125 2350 50  0000 C CNN
@@ -5262,7 +5229,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2550 4400 3450
 $Comp
-L Ferrite_Bead FB2002
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB2002
 U 1 1 5B2D277B
 P 8350 2000
 F 0 "FB2002" H 8075 1950 50  0000 C CNN
@@ -5283,7 +5250,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 1850 8350 1800
 $Comp
-L PWR_FLAG #FLG0371
+L power:PWR_FLAG #FLG0371
 U 1 1 5B2D4793
 P 7850 2150
 F 0 "#FLG0371" H 7850 2225 50  0001 C CNN

@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -52,7 +19,7 @@ WLAN_D_P
 Text HLabel 5250 1500 0    60   BiDi ~ 0
 WLAN_D_N
 $Comp
-L GND #PWR0317
+L power:GND #PWR0317
 U 1 1 5B01D9F9
 P 5300 5050
 F 0 "#PWR0317" H 5300 4800 50  0001 C CNN
@@ -63,7 +30,7 @@ F 3 "" H 5300 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0318
+L power:GND #PWR0318
 U 1 1 5B01E5BE
 P 5900 5050
 F 0 "#PWR0318" H 5900 4800 50  0001 C CNN
@@ -74,7 +41,7 @@ F 3 "" H 5900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0319
+L dvk-mx8m-bsb:3V3_P #PWR0319
 U 1 1 5B01E6B8
 P 5950 900
 F 0 "#PWR0319" H 5950 750 50  0001 C CNN
@@ -86,7 +53,7 @@ F 3 "" H 5950 900 50  0001 C CNN
 $EndComp
 NoConn ~ 5850 1550
 $Comp
-L M.2_Key_E J1803
+L dvk-mx8m-bsb:M.2_Key_E J1803
 U 1 1 5B00BA4A
 P 5550 3100
 F 0 "J1803" H 5600 5075 50  0000 C CNN
@@ -761,7 +728,7 @@ UARTn_UFCR[DCEDTE]=0 on POR
 Text HLabel 6050 2200 2    60   Output ~ 0
 BT_HOST_WAKE
 $Comp
-L 3V3_P #PWR0320
+L dvk-mx8m-bsb:3V3_P #PWR0320
 U 1 1 5B0C3C8A
 P 9600 3600
 F 0 "#PWR0320" H 9600 3450 50  0001 C CNN
@@ -781,7 +748,7 @@ Text Label 6500 4050 2    60   ~ 0
 ~W_DISABLE1
 NoConn ~ 6500 3750
 $Comp
-L 3V3_P #PWR0321
+L dvk-mx8m-bsb:3V3_P #PWR0321
 U 1 1 5B0D90EE
 P 7750 2700
 F 0 "#PWR0321" H 7750 2550 50  0001 C CNN
@@ -792,7 +759,7 @@ F 3 "" H 7750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0322
+L power:GND #PWR0322
 U 1 1 5B0D91C5
 P 7750 4700
 F 0 "#PWR0322" H 7750 4450 50  0001 C CNN
@@ -819,7 +786,7 @@ RS9116 NC:\nRTS, CTS, BT_HOST_WAKE
 Text HLabel 5250 2300 0    60   Output ~ 0
 WIFI_WAKE
 $Comp
-L 1V8_P #PWR0323
+L dvk-mx8m-bsb:1V8_P #PWR0323
 U 1 1 5AEFAF82
 P 4550 2000
 F 0 "#PWR0323" H 4550 1850 50  0001 C CNN
@@ -840,7 +807,7 @@ Text Notes 5975 3650 0    60   ~ 0
 RS9116 SUSCLK\nis a GPIO (unused)
 NoConn ~ 5850 2050
 $Comp
-L 1V8_P #PWR0324
+L dvk-mx8m-bsb:1V8_P #PWR0324
 U 1 1 5AEB9155
 P 7000 5050
 F 0 "#PWR0324" H 7000 4900 50  0001 C CNN
@@ -863,7 +830,7 @@ M2_I2C_SDA
 Text Label 8850 5500 0    60   ~ 0
 M2_I2C_SCL
 $Comp
-L 3V3_P #PWR0325
+L dvk-mx8m-bsb:3V3_P #PWR0325
 U 1 1 5AF2CD0D
 P 7750 4200
 F 0 "#PWR0325" H 7750 4050 50  0001 C CNN
@@ -874,7 +841,7 @@ F 3 "" H 7750 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0326
+L power:GND #PWR0326
 U 1 1 5AF2CDB4
 P 7750 3800
 F 0 "#PWR0326" H 7750 3550 50  0001 C CNN
@@ -885,7 +852,7 @@ F 3 "" H 7750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1819
+L dvk-mx8m-bsb-rescue:C C1819
 U 1 1 5AF3C976
 P 9000 4250
 F 0 "C1819" H 9025 4350 50  0000 L CNN
@@ -896,7 +863,7 @@ F 3 "" H 9000 4250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1807
+L dvk-mx8m-bsb-rescue:R R1807
 U 1 1 5AF3C97D
 P 9600 3800
 F 0 "R1807" H 9775 3850 50  0000 C CNN
@@ -907,7 +874,7 @@ F 3 "" H 9600 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0327
+L power:GND #PWR0327
 U 1 1 5AF3C984
 P 9000 4500
 F 0 "#PWR0327" H 9000 4250 50  0001 C CNN
@@ -918,7 +885,7 @@ F 3 "" H 9000 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0328
+L power:GND #PWR0328
 U 1 1 5AF3C98A
 P 9600 4500
 F 0 "#PWR0328" H 9600 4250 50  0001 C CNN
@@ -929,7 +896,7 @@ F 3 "" H 9600 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1805
+L dvk-mx8m-bsb-rescue:R R1805
 U 1 1 5AF51A2E
 P 9250 4000
 F 0 "R1805" V 9330 4000 50  0000 C CNN
@@ -944,7 +911,7 @@ RS9116 is an I2C master\n⇒its SCL is an output\n(ok bc only device on I2C2)
 Text Notes 9750 4550 0    60   ~ 0
 Open = ON\nClosed = OFF
 $Comp
-L 74AUP2G08 U1803
+L dvk-mx8m-bsb:74AUP2G08 U1803
 U 1 1 5AFAFE0B
 P 7550 3550
 F 0 "U1803" H 7550 3600 50  0000 C CNN
@@ -961,7 +928,7 @@ F 9 "https://store.ti.com/SN74AUP2G08DCUR.aspx" H 7550 3550 60  0001 C CNN "Othe
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0329
+L dvk-mx8m-bsb:1V8_P #PWR0329
 U 1 1 5AEBC081
 P 9400 5050
 F 0 "#PWR0329" H 9400 4900 50  0001 C CNN
@@ -986,7 +953,7 @@ BT_PCM_IN
 Text HLabel 5850 7100 2    60   Input ~ 0
 BT_PCM_OUT
 $Comp
-L TXB0104RUT U1802
+L dvk-mx8m-bsb-rescue:TXB0104RUT U1802
 U 1 1 5B248996
 P 5400 6800
 F 0 "U1802" H 5100 7450 50  0000 C CNN
@@ -1003,7 +970,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-translato
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1807
+L dvk-mx8m-bsb-rescue:C C1807
 U 1 1 5B2489B6
 P 6200 5950
 F 0 "C1807" H 6225 6050 50  0000 L CNN
@@ -1014,7 +981,7 @@ F 3 "" H 6200 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0330
+L power:GND #PWR0330
 U 1 1 5B2489BD
 P 6350 6200
 F 0 "#PWR0330" H 6350 5950 50  0001 C CNN
@@ -1025,7 +992,7 @@ F 3 "" H 6350 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1808
+L dvk-mx8m-bsb-rescue:C C1808
 U 1 1 5B2489C7
 P 6500 5950
 F 0 "C1808" H 6525 6050 50  0000 L CNN
@@ -1036,7 +1003,7 @@ F 3 "" H 6500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1806
+L dvk-mx8m-bsb-rescue:C C1806
 U 1 1 5B2489D4
 P 4750 5950
 F 0 "C1806" H 4775 6050 50  0000 L CNN
@@ -1047,7 +1014,7 @@ F 3 "" H 4750 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0331
+L power:GND #PWR0331
 U 1 1 5B2489DB
 P 4600 6200
 F 0 "#PWR0331" H 4600 5950 50  0001 C CNN
@@ -1058,7 +1025,7 @@ F 3 "" H 4600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1805
+L dvk-mx8m-bsb-rescue:C C1805
 U 1 1 5B2489E3
 P 4450 5950
 F 0 "C1805" H 4475 6050 50  0000 L CNN
@@ -1069,7 +1036,7 @@ F 3 "" H 4450 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0332
+L power:GND #PWR0332
 U 1 1 5B2489F2
 P 5400 7550
 F 0 "#PWR0332" H 5400 7300 50  0001 C CNN
@@ -1082,7 +1049,7 @@ $EndComp
 Text Notes 4300 6500 2    60   ~ 0
 BCLK
 $Comp
-L 3V3_P #PWR0333
+L dvk-mx8m-bsb:3V3_P #PWR0333
 U 1 1 5B248A11
 P 6200 5700
 F 0 "#PWR0333" H 6200 5550 50  0001 C CNN
@@ -1093,7 +1060,7 @@ F 3 "" H 6200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0334
+L dvk-mx8m-bsb:1V8_P #PWR0334
 U 1 1 5B248A1D
 P 4950 5700
 F 0 "#PWR0334" H 4950 5550 50  0001 C CNN
@@ -1132,7 +1099,7 @@ configure as slave
 Text Notes 2700 7350 0    60   ~ 0
 RX, TX, RTS, CTS\n   of the SoC
 $Comp
-L TXB0104RUT U1801
+L dvk-mx8m-bsb-rescue:TXB0104RUT U1801
 U 1 1 5B337ED0
 P 2250 6800
 F 0 "U1801" H 1950 7450 50  0000 C CNN
@@ -1149,7 +1116,7 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-translato
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1803
+L dvk-mx8m-bsb-rescue:C C1803
 U 1 1 5B337ED7
 P 3050 5950
 F 0 "C1803" H 3075 6050 50  0000 L CNN
@@ -1160,7 +1127,7 @@ F 3 "" H 3050 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0335
+L power:GND #PWR0335
 U 1 1 5B337EDE
 P 3200 6200
 F 0 "#PWR0335" H 3200 5950 50  0001 C CNN
@@ -1171,7 +1138,7 @@ F 3 "" H 3200 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1804
+L dvk-mx8m-bsb-rescue:C C1804
 U 1 1 5B337EE8
 P 3350 5950
 F 0 "C1804" H 3375 6050 50  0000 L CNN
@@ -1182,7 +1149,7 @@ F 3 "" H 3350 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1802
+L dvk-mx8m-bsb-rescue:C C1802
 U 1 1 5B337EF5
 P 1600 5950
 F 0 "C1802" H 1625 6050 50  0000 L CNN
@@ -1193,7 +1160,7 @@ F 3 "" H 1600 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0336
+L power:GND #PWR0336
 U 1 1 5B337EFC
 P 1450 6200
 F 0 "#PWR0336" H 1450 5950 50  0001 C CNN
@@ -1204,7 +1171,7 @@ F 3 "" H 1450 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1801
+L dvk-mx8m-bsb-rescue:C C1801
 U 1 1 5B337F04
 P 1300 5950
 F 0 "C1801" H 1325 6050 50  0000 L CNN
@@ -1215,7 +1182,7 @@ F 3 "" H 1300 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0337
+L power:GND #PWR0337
 U 1 1 5B337F13
 P 2250 7550
 F 0 "#PWR0337" H 2250 7300 50  0001 C CNN
@@ -1226,7 +1193,7 @@ F 3 "" H 2250 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0338
+L dvk-mx8m-bsb:3V3_P #PWR0338
 U 1 1 5B337F23
 P 3050 5700
 F 0 "#PWR0338" H 3050 5550 50  0001 C CNN
@@ -1237,7 +1204,7 @@ F 3 "" H 3050 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0339
+L dvk-mx8m-bsb:1V8_P #PWR0339
 U 1 1 5B337F29
 P 1800 5700
 F 0 "#PWR0339" H 1800 5550 50  0001 C CNN
@@ -1262,7 +1229,7 @@ RedPine RS9116 MB0\nRequires 5V on\nPin 54 if USB used
 Text Notes 2850 1750 0    60   ~ 0
 RS9116 datasheet says\nno WIFI_WAKE\nbut the schematic has it
 $Comp
-L 74AUP2G08 U1803
+L dvk-mx8m-bsb:74AUP2G08 U1803
 U 2 1 5B14C873
 P 7550 4450
 F 0 "U1803" H 7550 4500 50  0000 C CNN
@@ -1596,7 +1563,7 @@ Wire Wire Line
 Connection ~ 6100 1200
 Connection ~ 6100 1100
 $Comp
-L D_Schottky_ALT D1803
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1803
 U 1 1 5B16E081
 P 9250 3750
 F 0 "D1803" H 9250 3575 50  0000 C CNN
@@ -1613,7 +1580,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L R R1802
+L dvk-mx8m-bsb-rescue:R R1802
 U 1 1 5B251402
 P 5950 1150
 F 0 "R1802" H 5775 1260 50  0000 C CNN
@@ -1636,7 +1603,7 @@ Wire Wire Line
 Text Notes 5900 7350 0    60   ~ 0
  IN, OUT\nof the SoC
 $Comp
-L R R1801
+L dvk-mx8m-bsb-rescue:R R1801
 U 1 1 5B3298C6
 P 4550 2200
 F 0 "R1801" H 4725 2250 50  0000 C CNN
@@ -1647,7 +1614,7 @@ F 3 "" H 4550 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1803
+L dvk-mx8m-bsb-rescue:R R1803
 U 1 1 5B32B0CB
 P 6900 3750
 F 0 "R1803" H 7075 3800 50  0000 C CNN
@@ -1664,7 +1631,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1804
+L dvk-mx8m-bsb-rescue:R R1804
 U 1 1 5B32B161
 P 7000 5300
 F 0 "R1804" H 7175 5350 50  0000 C CNN
@@ -1681,7 +1648,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1806
+L dvk-mx8m-bsb-rescue:R R1806
 U 1 1 5B32B217
 P 9400 5300
 F 0 "R1806" H 9575 5350 50  0000 C CNN
@@ -1698,7 +1665,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_ALT D1802
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1802
 U 1 1 5B41D93A
 P 4200 2700
 F 0 "D1802" H 4200 2610 50  0000 C CNN
@@ -1715,7 +1682,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L D_Schottky_ALT D1801
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1801
 U 1 1 5B41DA63
 P 4200 2400
 F 0 "D1801" H 4200 2310 50  0000 C CNN
@@ -1736,7 +1703,7 @@ VIH=2.31V
 Text Notes 3800 3250 0    60   ~ 0
 RedPine RS9116\nhas 100k pull-up to\n3.3V making SDIO_~RST~\n~~2.55V when HIGH
 $Comp
-L C C1815
+L dvk-mx8m-bsb-rescue:C C1815
 U 1 1 5B0D6F86
 P 7900 2950
 F 0 "C1815" H 7925 3050 50  0000 L CNN
@@ -1747,7 +1714,7 @@ F 3 "" H 7900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0340
+L power:GND #PWR0340
 U 1 1 5B0D6FE3
 P 7900 3150
 F 0 "#PWR0340" H 7900 2900 50  0001 C CNN
@@ -1765,7 +1732,7 @@ Connection ~ 7750 2750
 Wire Wire Line
 	7900 3100 7900 3150
 $Comp
-L SW_DPDT_x2 SW1801
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1801
 U 1 1 5B12219C
 P 9600 4250
 F 0 "SW1801" V 9650 4600 50  0000 C CNN
@@ -1782,7 +1749,7 @@ F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%
 	0    1    -1   0   
 $EndComp
 $Comp
-L SW_DPDT_x2 SW1801
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1801
 U 2 1 5B1221A9
 P 10600 4250
 F 0 "SW1801" V 10650 4600 50  0000 C CNN
@@ -1804,7 +1771,7 @@ NoConn ~ 10700 4050
 NoConn ~ 10600 4450
 NoConn ~ 19750 8050
 $Comp
-L GND #PWR0341
+L power:GND #PWR0341
 U 1 1 5B1205DC
 P 1900 3700
 F 0 "#PWR0341" H 1900 3450 50  0001 C CNN
@@ -1821,7 +1788,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 3450 1550 3400
 $Comp
-L GND #PWR0342
+L power:GND #PWR0342
 U 1 1 5B1206B3
 P 1900 5150
 F 0 "#PWR0342" H 1900 4900 50  0001 C CNN
@@ -1840,7 +1807,7 @@ Wire Wire Line
 Text Notes 1000 7300 0    60   ~ 0
 RS9116 does not\nuse RTX & CTS
 $Comp
-L C C1809
+L dvk-mx8m-bsb-rescue:C C1809
 U 1 1 5B1DE1DA
 P 6550 1150
 F 0 "C1809" H 6550 1250 50  0000 L CNN
@@ -1851,7 +1818,7 @@ F 3 "" H 6550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1810
+L dvk-mx8m-bsb-rescue:C C1810
 U 1 1 5B1DE1E1
 P 6800 1150
 F 0 "C1810" H 6800 1250 50  0000 L CNN
@@ -1862,7 +1829,7 @@ F 3 "" H 6800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0343
+L power:GND #PWR0343
 U 1 1 5B1DE1E8
 P 8550 1400
 F 0 "#PWR0343" H 8550 1150 50  0001 C CNN
@@ -1873,7 +1840,7 @@ F 3 "" H 8550 1400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C1812
+L dvk-mx8m-bsb-rescue:C C1812
 U 1 1 5B1DE1EE
 P 7300 1150
 F 0 "C1812" H 7300 1250 50  0000 L CNN
@@ -1884,7 +1851,7 @@ F 3 "" H 7300 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1813
+L dvk-mx8m-bsb-rescue:C C1813
 U 1 1 5B1DE1F5
 P 7550 1150
 F 0 "C1813" H 7550 1250 50  0000 L CNN
@@ -1895,7 +1862,7 @@ F 3 "" H 7550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1814
+L dvk-mx8m-bsb-rescue:C C1814
 U 1 1 5B1DE1FC
 P 7800 1150
 F 0 "C1814" H 7800 1250 50  0000 L CNN
@@ -1906,7 +1873,7 @@ F 3 "" H 7800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1816
+L dvk-mx8m-bsb-rescue:C C1816
 U 1 1 5B1DE203
 P 8050 1150
 F 0 "C1816" H 8050 1300 50  0000 L CNN
@@ -1970,7 +1937,7 @@ Connection ~ 6100 950
 Text Notes 5350 900  0    60   ~ 0
 M.2 Key E
 $Comp
-L Conn_Coaxial J1801
+L dvk-mx8m-bsb-rescue:Conn_Coaxial J1801
 U 1 1 5B6AA251
 P 1900 3450
 F 0 "J1801" H 1910 3570 50  0000 C CNN
@@ -1993,7 +1960,7 @@ Note:\nAll switches' pins\ncan be swapped\ne.g. 2<->3\n or 1<->3
 Text Notes 8250 4000 0    60   ~ 0
 Input pins are\ninterchangeable
 $Comp
-L Conn_01x02 JP1801
+L dvk-mx8m-bsb-rescue:Conn_01x02 JP1801
 U 1 1 5B32C2B1
 P 6350 1100
 F 0 "JP1801" H 6350 1200 50  0000 C CNN
@@ -2012,7 +1979,7 @@ $EndComp
 Text Notes 1050 950  0    236  ~ 47
 WLAN+BT M.2
 $Comp
-L Q_NMOS_GSD Q1801
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1801
 U 1 1 5B2EA96B
 P 7250 5400
 F 0 "Q1801" V 7475 5275 50  0000 L CNN
@@ -2029,7 +1996,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 7250 5400 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_GSD Q1802
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1802
 U 1 1 5B2EAAD4
 P 9650 5400
 F 0 "Q1802" V 9875 5275 50  0000 L CNN
@@ -2046,7 +2013,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 9650 5400 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_Coaxial J1802
+L dvk-mx8m-bsb-rescue:Conn_Coaxial J1802
 U 1 1 5B29F847
 P 1900 4900
 F 0 "J1802" H 1910 5020 50  0000 C CNN
@@ -2063,7 +2030,7 @@ F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1817
+L dvk-mx8m-bsb-rescue:CP1 C1817
 U 1 1 5B300A38
 P 8300 1150
 F 0 "C1817" H 8300 1300 50  0000 L CNN
@@ -2080,7 +2047,7 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 8300 1150 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L WifiBTCard MOD1801
+L dvk-mx8m-bsb:WifiBTCard MOD1801
 U 1 1 5B2AC34E
 P 4000 3850
 F 0 "MOD1801" H 4000 4200 60  0000 C CNN
@@ -2091,7 +2058,7 @@ F 3 "http://www.redpinesignals.com/pdfs/RS9116_Connectivity_Product_Brief.pdf" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Coax_cable_ufl_ufl CBL1801
+L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1801
 U 1 1 5B2D8415
 P 2700 3150
 F 0 "CBL1801" H 2025 3275 60  0000 C CNN
@@ -2102,7 +2069,7 @@ F 3 "" H 2700 3150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Coax_cable_ufl_ufl CBL1802
+L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1802
 U 1 1 5B2D8870
 P 2700 4600
 F 0 "CBL1802" H 2025 4725 60  0000 C CNN
@@ -2113,7 +2080,7 @@ F 3 "" H 2700 4600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1818
+L dvk-mx8m-bsb-rescue:CP1 C1818
 U 1 1 5B2ED326
 P 8550 1150
 F 0 "C1818" H 8550 1250 50  0000 L CNN
@@ -2132,7 +2099,7 @@ $EndComp
 Text Notes 1150 4200 0    60   ~ 0
 TODO:\nAssign antennae\nfootprints
 $Comp
-L C C1811
+L dvk-mx8m-bsb-rescue:C C1811
 U 1 1 5B36D6D1
 P 7050 1150
 F 0 "C1811" H 7050 1250 50  0000 L CNN
@@ -2149,7 +2116,7 @@ Wire Wire Line
 	7050 1000 7050 950 
 Connection ~ 7050 950 
 $Comp
-L Antenna_Shield AE1801
+L dvk-mx8m-bsb-rescue:Antenna_Shield AE1801
 U 1 1 5B37EF16
 P 1550 3200
 F 0 "AE1801" H 1900 3325 50  0000 R CNN
@@ -2160,7 +2127,7 @@ F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1550 3300 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0344
+L power:GND #PWR0344
 U 1 1 5B3810F1
 P 1450 3450
 F 0 "#PWR0344" H 1450 3200 50  0001 C CNN
@@ -2173,7 +2140,7 @@ $EndComp
 Wire Wire Line
 	1450 3450 1450 3400
 $Comp
-L Antenna_Shield AE1802
+L dvk-mx8m-bsb-rescue:Antenna_Shield AE1802
 U 1 1 5B381782
 P 1550 4650
 F 0 "AE1802" H 1900 4775 50  0000 R CNN
@@ -2184,7 +2151,7 @@ F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 1550 4750 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0345
+L power:GND #PWR0345
 U 1 1 5B381AC4
 P 1450 4900
 F 0 "#PWR0345" H 1450 4650 50  0001 C CNN

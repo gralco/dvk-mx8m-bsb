@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0397
+L power:GND #PWR0397
 U 1 1 5AFCF90B
 P 6050 4700
 F 0 "#PWR0397" H 6050 4450 50  0001 C CNN
@@ -61,7 +28,7 @@ $EndComp
 Text Notes 7050 4200 0    60   ~ 0
 When the motor is off\nboth terminals are at GND
 $Comp
-L Q_PMOS_GSD Q2401
+L dvk-mx8m-bsb-rescue:Q_PMOS_GSD Q2401
 U 1 1 5AFD137F
 P 5950 3800
 F 0 "Q2401" H 6150 3750 50  0000 L CNN
@@ -78,7 +45,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    0    0    1   
 $EndComp
 $Comp
-L 3V3_P #PWR0398
+L dvk-mx8m-bsb:3V3_P #PWR0398
 U 1 1 5AFD13E2
 P 6050 3350
 F 0 "#PWR0398" H 6050 3200 50  0001 C CNN
@@ -89,7 +56,7 @@ F 3 "" H 6050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2401
+L dvk-mx8m-bsb-rescue:R R2401
 U 1 1 5AFD2E14
 P 5350 3600
 F 0 "R2401" H 5525 3650 50  0000 C CNN
@@ -102,7 +69,7 @@ $EndComp
 Text HLabel 5300 3800 0    60   Input ~ 0
 HAPTIC
 $Comp
-L D_Schottky_ALT D2401
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D2401
 U 1 1 5AFD563E
 P 5250 4350
 F 0 "D2401" V 5200 4150 50  0000 C CNN
@@ -119,7 +86,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2402
+L dvk-mx8m-bsb-rescue:R R2402
 U 1 1 5AFFD30C
 P 5550 3800
 F 0 "R2402" V 5450 3800 50  0000 C CNN
@@ -130,7 +97,7 @@ F 3 "" H 5550 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2401
+L dvk-mx8m-bsb-rescue:C C2401
 U 1 1 5B0285ED
 P 5650 4350
 F 0 "C2401" H 5675 4450 50  0000 L CNN
@@ -189,7 +156,7 @@ Metal housing is floating\nthick adhesive layer underneath\n(not connected to ei
 Text Notes 4550 2200 0    236  ~ 47
 Haptic Motor
 $Comp
-L Conn_01x02 J2401
+L dvk-mx8m-bsb-rescue:Conn_01x02 J2401
 U 1 1 5B316276
 P 6300 4400
 F 0 "J2401" H 6300 4200 50  0000 C CNN
@@ -210,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4300 6100 4300
 $Comp
-L Motor_Haptic M2401
+L dvk-mx8m-bsb:Motor_Haptic M2401
 U 1 1 5B316C25
 P 6600 4350
 F 0 "M2401" H 6750 4400 50  0000 L CNN
@@ -227,7 +194,7 @@ F 9 "http://nfpshop.com/product/nfp-coin-motor-c0834-free-wire/" H 6600 4350 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2402
+L dvk-mx8m-bsb-rescue:C C2402
 U 1 1 5B428193
 P 6650 3600
 F 0 "C2402" H 6675 3700 50  0000 L CNN
@@ -238,7 +205,7 @@ F 3 "" H 6650 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0399
+L power:GND #PWR0399
 U 1 1 5B428255
 P 6650 3800
 F 0 "#PWR0399" H 6650 3550 50  0001 C CNN

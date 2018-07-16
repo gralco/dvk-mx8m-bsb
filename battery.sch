@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L PWR_FLAG #FLG051
+L power:PWR_FLAG #FLG051
 U 1 1 5ACBEC9D
 P 7100 4500
 F 0 "#FLG051" H 7100 4575 50  0001 C CNN
@@ -63,7 +30,7 @@ Ihold=3.5A\nItrip=6.3A\nTtrip(max)=5s@8A
 Text Notes 6650 3300 0    60   ~ 0
 Vrwm(max)=5.0V\nVbr(min)=6.2V\nPd=150mW
 $Comp
-L Battery_Cell BT301
+L dvk-mx8m-bsb-rescue:Battery_Cell BT301
 U 1 1 5ADAE7AB
 P 7500 4200
 F 0 "BT301" H 7250 4350 50  0000 L CNN
@@ -80,7 +47,7 @@ F 9 "http://www.sierraic.com/BHC186501P" H 7500 4200 60  0001 C CNN "Others"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C301
+L dvk-mx8m-bsb-rescue:C C301
 U 1 1 5ADEA19F
 P 4250 2800
 F 0 "C301" H 4275 2900 50  0000 L CNN
@@ -91,7 +58,7 @@ F 3 "" H 4250 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR052
+L power:GND #PWR052
 U 1 1 5ADEA24E
 P 4250 3000
 F 0 "#PWR052" H 4250 2750 50  0001 C CNN
@@ -102,7 +69,7 @@ F 3 "" H 4250 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C302
+L dvk-mx8m-bsb-rescue:C C302
 U 1 1 5ADEA322
 P 4450 2900
 F 0 "C302" H 4475 3000 50  0000 L CNN
@@ -113,7 +80,7 @@ F 3 "" H 4450 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR053
+L power:GND #PWR053
 U 1 1 5ADEA329
 P 4450 3100
 F 0 "#PWR053" H 4450 2850 50  0001 C CNN
@@ -124,7 +91,7 @@ F 3 "" H 4450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C303
+L dvk-mx8m-bsb-rescue:C C303
 U 1 1 5ADFB737
 P 5650 2800
 F 0 "C303" H 5675 2900 50  0000 L CNN
@@ -135,7 +102,7 @@ F 3 "" H 5650 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L301
+L dvk-mx8m-bsb-rescue:L L301
 U 1 1 5ADFB9AB
 P 5900 2600
 F 0 "L301" V 6050 2600 50  0000 C CNN
@@ -152,7 +119,7 @@ F 9 "https://www.digikey.com/products/en/inductors-coils-chokes/fixed-inductors/
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C304
+L dvk-mx8m-bsb-rescue:C C304
 U 1 1 5ADFC6C1
 P 5800 3350
 F 0 "C304" H 5825 3450 50  0000 L CNN
@@ -163,7 +130,7 @@ F 3 "" H 5800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L power:GND #PWR054
 U 1 1 5ADFC71C
 P 5800 3550
 F 0 "#PWR054" H 5800 3300 50  0001 C CNN
@@ -174,7 +141,7 @@ F 3 "" H 5800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R306
+L dvk-mx8m-bsb-rescue:R R306
 U 1 1 5ADFDA10
 P 4350 3450
 F 0 "R306" V 4430 3450 50  0000 C CNN
@@ -185,7 +152,7 @@ F 3 "" H 4350 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR055
+L power:GND #PWR055
 U 1 1 5ADFDA73
 P 4150 3500
 F 0 "#PWR055" H 4150 3250 50  0001 C CNN
@@ -196,7 +163,7 @@ F 3 "" H 4150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C308
+L dvk-mx8m-bsb-rescue:C C308
 U 1 1 5AE0040B
 P 7500 2800
 F 0 "C308" H 7525 2900 50  0000 L CNN
@@ -207,7 +174,7 @@ F 3 "" H 7500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L power:GND #PWR056
 U 1 1 5AE01F71
 P 6450 3050
 F 0 "#PWR056" H 6450 2800 50  0001 C CNN
@@ -218,7 +185,7 @@ F 3 "" H 6450 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C309
+L dvk-mx8m-bsb-rescue:C C309
 U 1 1 5AE01FE0
 P 7750 2800
 F 0 "C309" H 7775 2900 50  0000 L CNN
@@ -229,7 +196,7 @@ F 3 "" H 7750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Polyfuse F301
+L dvk-mx8m-bsb-rescue:Polyfuse F301
 U 1 1 5AE34D8A
 P 7100 3900
 F 0 "F301" V 7000 3900 50  0000 C CNN
@@ -246,7 +213,7 @@ F 9 "https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R308
+L dvk-mx8m-bsb-rescue:R R308
 U 1 1 5AE3641A
 P 6100 4200
 F 0 "R308" V 6180 4200 50  0000 C CNN
@@ -257,7 +224,7 @@ F 3 "" H 6100 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R307
+L dvk-mx8m-bsb-rescue:R R307
 U 1 1 5AE36487
 P 5900 4600
 F 0 "R307" H 6050 4650 50  0000 C CNN
@@ -268,7 +235,7 @@ F 3 "" H 5900 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Thermistor TH301
+L dvk-mx8m-bsb-rescue:Thermistor TH301
 U 1 1 5AE369F4
 P 6300 4600
 F 0 "TH301" H 6475 4650 50  0000 C CNN
@@ -285,7 +252,7 @@ F 9 "https://www.mouser.com/ProductDetail/Semitec/103HT?qs=sGAEpiMZZMuBd0%252bwi
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR057
+L power:GND #PWR057
 U 1 1 5AE37872
 P 6100 5050
 F 0 "#PWR057" H 6100 4800 50  0001 C CNN
@@ -312,7 +279,7 @@ EN_SRC
 Text HLabel 3500 4900 0    60   Input ~ 0
 EN_SNK
 $Comp
-L VBAT_REG #PWR058
+L dvk-mx8m-bsb:VBAT_REG #PWR058
 U 1 1 5AE5FF35
 P 3400 2950
 F 0 "#PWR058" H 3400 2800 50  0001 C CNN
@@ -323,7 +290,7 @@ F 3 "" H 3400 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R302
+L dvk-mx8m-bsb-rescue:R R302
 U 1 1 5AE61BA6
 P 3400 3500
 F 0 "R302" H 3550 3550 50  0000 C CNN
@@ -334,7 +301,7 @@ F 3 "" H 3400 3500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R301
+L dvk-mx8m-bsb-rescue:R R301
 U 1 1 5AE62134
 P 3000 3500
 F 0 "R301" H 3150 3550 50  0000 C CNN
@@ -345,7 +312,7 @@ F 3 "" H 3000 3500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D301
+L dvk-mx8m-bsb-rescue:LED_ALT D301
 U 1 1 5AE62EC1
 P 3000 3150
 F 0 "D301" V 3050 3325 50  0000 C CNN
@@ -362,7 +329,7 @@ F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 3000 3150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VBAT_REG #PWR059
+L dvk-mx8m-bsb:VBAT_REG #PWR059
 U 1 1 5AE632B4
 P 3000 2950
 F 0 "#PWR059" H 3000 2800 50  0001 C CNN
@@ -373,7 +340,7 @@ F 3 "" H 3000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L power:GND #PWR060
 U 1 1 5AE67B37
 P 7100 4600
 F 0 "#PWR060" H 7100 4350 50  0001 C CNN
@@ -384,7 +351,7 @@ F 3 "" H 7100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead FB301
+L dvk-mx8m-bsb-rescue:Ferrite_Bead FB301
 U 1 1 5AE846A8
 P 6900 2600
 F 0 "FB301" V 6675 2600 50  0000 C CNN
@@ -401,7 +368,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR061
+L power:GND #PWR061
 U 1 1 5AE86DE3
 P 7500 3050
 F 0 "#PWR061" H 7500 2800 50  0001 C CNN
@@ -412,7 +379,7 @@ F 3 "" H 7500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener_ALT D303
+L dvk-mx8m-bsb-rescue:D_Zener_ALT D303
 U 1 1 5AE86DF6
 P 7250 2800
 F 0 "D303" V 7200 3000 50  0000 C CNN
@@ -443,7 +410,7 @@ I(Lsat)=7A
 Text Notes 7850 4150 0    60   ~ 0
 reference design: http://www.ti.com/lit/ug/sluuba2b/sluuba2b.pdf
 $Comp
-L PWR_FLAG #FLG062
+L power:PWR_FLAG #FLG062
 U 1 1 5AF16085
 P 7500 2550
 F 0 "#FLG062" H 7500 2625 50  0001 C CNN
@@ -454,7 +421,7 @@ F 3 "" H 7500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG063
+L power:PWR_FLAG #FLG063
 U 1 1 5AF1CA20
 P 6400 3850
 F 0 "#FLG063" H 6400 3925 50  0001 C CNN
@@ -465,7 +432,7 @@ F 3 "" H 6400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BQ25896 U301
+L dvk-mx8m-bsb:BQ25896 U301
 U 1 1 5AF31C9D
 P 5050 3600
 F 0 "U301" H 4850 4750 60  0000 C CNN
@@ -482,7 +449,7 @@ F 9 "https://octopart.com/search?q=BQ25896&start=0" H 5050 3600 60  0001 C CNN "
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR064
+L power:GND #PWR064
 U 1 1 5AED22FA
 P 3900 5150
 F 0 "#PWR064" H 3900 4900 50  0001 C CNN
@@ -497,7 +464,7 @@ Text Notes 1050 5000 0    60   ~ 0
 Text Notes 3475 3175 0    60   ~ 0
  Default LOW:\nadapter source
 $Comp
-L GND #PWR065
+L power:GND #PWR065
 U 1 1 5AF3ADC2
 P 3850 3350
 F 0 "#PWR065" H 3850 3100 50  0001 C CNN
@@ -508,7 +475,7 @@ F 3 "" H 3850 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR066
+L power:VBUS #PWR066
 U 1 1 5AF7190A
 P 4250 2550
 F 0 "#PWR066" H 4250 2400 50  0001 C CNN
@@ -527,7 +494,7 @@ Also, reading PTN5110HQ's CC_STATUS and POWER_STATUS\nregisters will tell TCPM (
 Text Notes 6650 4900 0    60   ~ 0
 VBAT(DPL)=2.15~~2.5V
 $Comp
-L VBAT #PWR067
+L dvk-mx8m-bsb:VBAT #PWR067
 U 1 1 5AE2587A
 P 6700 3850
 F 0 "#PWR067" H 6700 3700 50  0001 C CNN
@@ -1982,7 +1949,7 @@ VBAT_REG
 Text Notes 5050 1800 0    236  ~ 47
 Battery Charge Controller
 $Comp
-L GND #PWR068
+L power:GND #PWR068
 U 1 1 5B0600CE
 P 8700 3050
 F 0 "#PWR068" H 8700 2800 50  0001 C CNN
@@ -1995,7 +1962,7 @@ $EndComp
 Text Notes 8550 2550 0    60   ~ 0
 ~~110uF
 $Comp
-L R R309
+L dvk-mx8m-bsb-rescue:R R309
 U 1 1 5B0E4134
 P 9550 2600
 F 0 "R309" V 9630 2600 50  0000 C CNN
@@ -2012,7 +1979,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x02 JP301
+L dvk-mx8m-bsb-rescue:Conn_01x02 JP301
 U 1 1 5B0E413B
 P 9500 2150
 F 0 "JP301" V 9600 2100 50  0000 C CNN
@@ -2265,7 +2232,7 @@ Connection ~ 9500 2400
 Wire Wire Line
 	7750 2650 7750 2600
 $Comp
-L C C310
+L dvk-mx8m-bsb-rescue:C C310
 U 1 1 5B1BC001
 P 8200 2800
 F 0 "C310" H 8225 2900 50  0000 L CNN
@@ -2282,7 +2249,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR069
+L power:GND #PWR069
 U 1 1 5BA1BC16
 P 9950 3350
 F 0 "#PWR069" H 9950 3100 50  0001 C CNN
@@ -2300,7 +2267,7 @@ Wire Wire Line
 	9950 2650 9950 2600
 Connection ~ 9950 2600
 $Comp
-L R R305
+L dvk-mx8m-bsb-rescue:R R305
 U 1 1 5B302D80
 P 4050 3300
 F 0 "R305" V 4125 3300 50  0000 C CNN
@@ -2317,7 +2284,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R304
+L dvk-mx8m-bsb-rescue:R R304
 U 1 1 5B2F65C3
 P 3900 4250
 F 0 "R304" H 4050 4300 50  0000 C CNN
@@ -2336,7 +2303,7 @@ $EndComp
 Text Notes 6300 5400 0    60   ~ 0
 Battery holder seems to fit up to ~~68.88mm long batteries\nneed to test 18650 protected cells which are ~~69.35mm long
 $Comp
-L C C305
+L dvk-mx8m-bsb-rescue:C C305
 U 1 1 5B0BB8A8
 P 6350 2800
 F 0 "C305" H 6150 2900 50  0000 L CNN
@@ -2353,7 +2320,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C306
+L dvk-mx8m-bsb-rescue:C C306
 U 1 1 5B0BBD65
 P 6550 2800
 F 0 "C306" H 6350 2900 50  0000 L CNN
@@ -2370,7 +2337,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C307
+L dvk-mx8m-bsb-rescue:C C307
 U 1 1 5B0BD3BE
 P 6700 4150
 F 0 "C307" H 6500 4250 50  0000 L CNN
@@ -2387,7 +2354,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q301
+L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q301
 U 1 1 5B59770D
 P 3800 4900
 F 0 "Q301" H 4000 4950 50  0000 L CNN
@@ -2412,7 +2379,7 @@ Read: 0xD7\nWrite: 0xD6
 Text Notes 7850 4025 0    60   ~ 0
 ICHG(default)=REG[6:0]=2048mA (reduce to ~~1.6A [0011001])
 $Comp
-L R R303
+L dvk-mx8m-bsb-rescue:R R303
 U 1 1 5B2725A1
 P 3550 4250
 F 0 "R303" H 3700 4300 50  0000 C CNN
@@ -2434,7 +2401,7 @@ Connection ~ 3550 4450
 Wire Wire Line
 	3550 4100 3550 4050
 $Comp
-L 3V3_OUT #PWR070
+L dvk-mx8m-bsb:3V3_OUT #PWR070
 U 1 1 5B2BB51D
 P 3550 4050
 F 0 "#PWR070" H 3550 3900 50  0001 C CNN
@@ -2447,7 +2414,7 @@ $EndComp
 Wire Wire Line
 	3900 5150 3900 5100
 $Comp
-L 3V3_OUT #PWR071
+L dvk-mx8m-bsb:3V3_OUT #PWR071
 U 1 1 5B2C5C01
 P 3900 4050
 F 0 "#PWR071" H 3900 3900 50  0001 C CNN
@@ -2460,7 +2427,7 @@ $EndComp
 Text Notes 3050 3800 0    60   ~ 0
 sink current ~~5mA
 $Comp
-L LED_ALT D302
+L dvk-mx8m-bsb-rescue:LED_ALT D302
 U 1 1 5B304940
 P 3400 3150
 F 0 "D302" V 3450 3325 50  0000 C CNN
@@ -2477,7 +2444,7 @@ F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 3400 3150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_ALT D304
+L dvk-mx8m-bsb-rescue:LED_ALT D304
 U 1 1 5B3049D4
 P 9950 2800
 F 0 "D304" V 10000 2975 50  0000 C CNN
@@ -2494,7 +2461,7 @@ F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 9950 2800 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R310
+L dvk-mx8m-bsb-rescue:R R310
 U 1 1 5B30501E
 P 9950 3150
 F 0 "R310" H 10100 3200 50  0000 C CNN
@@ -2529,7 +2496,7 @@ Wire Wire Line
 	5600 4550 5600 5000
 Connection ~ 5600 5000
 $Comp
-L C C311
+L dvk-mx8m-bsb-rescue:C C311
 U 1 1 5B3268DD
 P 8450 2800
 F 0 "C311" H 8475 2900 50  0000 L CNN
@@ -2546,7 +2513,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C312
+L dvk-mx8m-bsb-rescue:C C312
 U 1 1 5B326949
 P 8700 2800
 F 0 "C312" H 8725 2900 50  0000 L CNN
@@ -2563,7 +2530,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C313
+L dvk-mx8m-bsb-rescue:C C313
 U 1 1 5B3269CC
 P 8950 2800
 F 0 "C313" H 8975 2900 50  0000 L CNN
@@ -2580,7 +2547,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C314
+L dvk-mx8m-bsb-rescue:C C314
 U 1 1 5B326A44
 P 9200 2800
 F 0 "C314" H 9225 2900 50  0000 L CNN

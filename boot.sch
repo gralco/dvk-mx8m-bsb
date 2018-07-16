@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L GND #PWR0128
+L power:GND #PWR0128
 U 1 1 5ACC0FBD
 P 2050 3700
 F 0 "#PWR0128" H 2050 3450 50  0001 C CNN
@@ -59,7 +26,7 @@ F 3 "" H 2050 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R507
+L dvk-mx8m-bsb-rescue:R R507
 U 1 1 5ACC15C6
 P 2550 2750
 F 0 "R507" H 2700 2800 50  0000 C CNN
@@ -94,7 +61,7 @@ BOOT_CFG08
 Text Label 7000 2300 0    60   ~ 0
 BOOT_CFG09
 $Comp
-L GND #PWR0129
+L power:GND #PWR0129
 U 1 1 5ACD1FAC
 P 6600 2350
 F 0 "#PWR0129" H 6600 2100 50  0001 C CNN
@@ -111,7 +78,7 @@ BOOT_CFG14
 Text Label 7000 6100 0    60   ~ 0
 BOOT_CFG15
 $Comp
-L GND #PWR0130
+L power:GND #PWR0130
 U 1 1 5ACDBA57
 P 6600 6150
 F 0 "#PWR0130" H 6600 5900 50  0001 C CNN
@@ -158,7 +125,7 @@ BOOT_MODE0
 Text HLabel 2750 5200 0    60   Output ~ 0
 BOOT_MODE1
 $Comp
-L GND #PWR0131
+L power:GND #PWR0131
 U 1 1 5AD4F7AA
 P 3450 5800
 F 0 "#PWR0131" H 3450 5550 50  0001 C CNN
@@ -1851,7 +1818,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 5200 4250 5200
 $Comp
-L R R501
+L dvk-mx8m-bsb-rescue:R R501
 U 1 1 5B305194
 P 2250 2950
 F 0 "R501" V 2300 3150 50  0000 C CNN
@@ -1868,7 +1835,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R502
+L dvk-mx8m-bsb-rescue:R R502
 U 1 1 5B305386
 P 2250 3150
 F 0 "R502" V 2300 3350 50  0000 C CNN
@@ -1885,7 +1852,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R503
+L dvk-mx8m-bsb-rescue:R R503
 U 1 1 5B305401
 P 2250 3250
 F 0 "R503" V 2300 3450 50  0000 C CNN
@@ -1902,7 +1869,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R504
+L dvk-mx8m-bsb-rescue:R R504
 U 1 1 5B30547B
 P 2250 3350
 F 0 "R504" V 2300 3550 50  0000 C CNN
@@ -1919,7 +1886,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R505
+L dvk-mx8m-bsb-rescue:R R505
 U 1 1 5B3054F4
 P 2250 3550
 F 0 "R505" V 2300 3750 50  0000 C CNN
@@ -1936,7 +1903,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R506
+L dvk-mx8m-bsb-rescue:R R506
 U 1 1 5B305574
 P 2250 3650
 F 0 "R506" V 2300 3850 50  0000 C CNN
@@ -1953,7 +1920,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R508
+L dvk-mx8m-bsb-rescue:R R508
 U 1 1 5B307580
 P 2850 2750
 F 0 "R508" H 3000 2800 50  0000 C CNN
@@ -1970,7 +1937,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R510
+L dvk-mx8m-bsb-rescue:R R510
 U 1 1 5B3075F3
 P 3150 2750
 F 0 "R510" H 3300 2800 50  0000 C CNN
@@ -1987,7 +1954,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R514
+L dvk-mx8m-bsb-rescue:R R514
 U 1 1 5B307AAD
 P 6800 2050
 F 0 "R514" V 6725 2050 50  0000 C CNN
@@ -2004,7 +1971,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R515
+L dvk-mx8m-bsb-rescue:R R515
 U 1 1 5B3095E1
 P 6800 2300
 F 0 "R515" V 6725 2300 50  0000 C CNN
@@ -2021,7 +1988,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R516
+L dvk-mx8m-bsb-rescue:R R516
 U 1 1 5B309654
 P 6800 3250
 F 0 "R516" V 6725 3250 50  0000 C CNN
@@ -2038,7 +2005,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R517
+L dvk-mx8m-bsb-rescue:R R517
 U 1 1 5B3096EC
 P 6800 3500
 F 0 "R517" V 6725 3500 50  0000 C CNN
@@ -2055,7 +2022,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R518
+L dvk-mx8m-bsb-rescue:R R518
 U 1 1 5B309B05
 P 6800 4400
 F 0 "R518" V 6725 4400 50  0000 C CNN
@@ -2072,7 +2039,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R519
+L dvk-mx8m-bsb-rescue:R R519
 U 1 1 5B309B9F
 P 6800 5550
 F 0 "R519" V 6725 5550 50  0000 C CNN
@@ -2089,7 +2056,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R520
+L dvk-mx8m-bsb-rescue:R R520
 U 1 1 5B309C4A
 P 6800 5850
 F 0 "R520" V 6725 5850 50  0000 C CNN
@@ -2106,7 +2073,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R521
+L dvk-mx8m-bsb-rescue:R R521
 U 1 1 5B309CCE
 P 6800 6100
 F 0 "R521" V 6725 6100 50  0000 C CNN
@@ -2123,7 +2090,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R513
+L dvk-mx8m-bsb-rescue:R R513
 U 1 1 5B30A633
 P 4000 5200
 F 0 "R513" V 3925 5200 50  0000 C CNN
@@ -2140,7 +2107,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R509
+L dvk-mx8m-bsb-rescue:R R509
 U 1 1 5B30A6F1
 P 3000 5200
 F 0 "R509" V 2850 5200 50  0000 C CNN
@@ -2157,7 +2124,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R512
+L dvk-mx8m-bsb-rescue:R R512
 U 1 1 5B30B2F4
 P 3800 5550
 F 0 "R512" H 3650 5600 50  0000 C CNN
@@ -2174,7 +2141,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R511
+L dvk-mx8m-bsb-rescue:R R511
 U 1 1 5B30BB41
 P 3200 4900
 F 0 "R511" H 3050 4950 50  0000 C CNN
@@ -2191,7 +2158,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW_DPDT_x2 SW501
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW501
 U 1 1 5B0CA9C7
 P 3100 5500
 F 0 "SW501" V 3150 5225 50  0000 C CNN
@@ -2210,7 +2177,7 @@ $EndComp
 NoConn ~ 3000 5300
 NoConn ~ 3700 4750
 $Comp
-L SW_DPDT_x2 SW501
+L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW501
 U 2 1 5B0D695F
 P 3800 4950
 F 0 "SW501" V 3850 4675 50  0000 C CNN
@@ -2227,7 +2194,7 @@ F 9 "https://www.digikey.com/products/en/switches/slide-switches/213?FV=2080004%
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0132
+L power:GND #PWR0132
 U 1 1 5B0E7810
 P 6600 3550
 F 0 "#PWR0132" H 6600 3300 50  0001 C CNN
@@ -2245,7 +2212,7 @@ Wire Wire Line
 	6650 3500 6600 3500
 Connection ~ 6600 3500
 $Comp
-L GND #PWR0133
+L power:GND #PWR0133
 U 1 1 5B0E79B9
 P 6600 4450
 F 0 "#PWR0133" H 6600 4200 50  0001 C CNN
@@ -2260,7 +2227,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 4400 6650 4400
 $Comp
-L 3V3 #PWR0134
+L dvk-mx8m-bsb:3V3 #PWR0134
 U 1 1 5B0E8A3A
 P 6600 5500
 F 0 "#PWR0134" H 6600 5350 50  0001 C CNN
@@ -2291,7 +2258,7 @@ Wire Notes Line
 Wire Notes Line
 	5300 6100 1600 6100
 $Comp
-L 3V3_SNVS #PWR0135
+L dvk-mx8m-bsb:3V3_SNVS #PWR0135
 U 1 1 5B12988B
 P 3550 4050
 F 0 "#PWR0135" H 3550 3900 50  0001 C CNN
@@ -2302,7 +2269,7 @@ F 3 "" H 3550 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0136
+L dvk-mx8m-bsb:3V3 #PWR0136
 U 1 1 5B129EC7
 P 2850 1900
 F 0 "#PWR0136" H 2850 1750 50  0001 C CNN
@@ -2313,7 +2280,7 @@ F 3 "" H 2850 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C502
+L dvk-mx8m-bsb-rescue:C C502
 U 1 1 5B12AE9C
 P 3700 4300
 F 0 "C502" H 3725 4400 50  0000 L CNN
@@ -2324,7 +2291,7 @@ F 3 "" H 3700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C501
+L dvk-mx8m-bsb-rescue:C C501
 U 1 1 5B12B02A
 P 3000 2150
 F 0 "C501" H 3025 2250 50  0000 L CNN
@@ -2335,7 +2302,7 @@ F 3 "" H 3000 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0137
+L power:GND #PWR0137
 U 1 1 5B12B357
 P 3000 2350
 F 0 "#PWR0137" H 3000 2100 50  0001 C CNN
@@ -2353,7 +2320,7 @@ Connection ~ 2850 1950
 Wire Wire Line
 	3000 2300 3000 2350
 $Comp
-L GND #PWR0138
+L power:GND #PWR0138
 U 1 1 5B12BC91
 P 3700 4500
 F 0 "#PWR0138" H 3700 4250 50  0001 C CNN
@@ -2371,7 +2338,7 @@ Connection ~ 3550 4100
 Wire Wire Line
 	3700 4450 3700 4500
 $Comp
-L D_TVS_ALT D501
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D501
 U 1 1 5B21861F
 P 2800 5500
 F 0 "D501" V 2750 5325 50  0000 C CNN
@@ -2388,7 +2355,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 2800 5500 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D502
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D502
 U 1 1 5B218688
 P 4200 5500
 F 0 "D502" V 4150 5325 50  0000 C CNN

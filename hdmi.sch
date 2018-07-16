@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L PCMF3HDMI2SZ U1901
+L dvk-mx8m-bsb:PCMF3HDMI2SZ U1901
 U 1 1 5AFE61A1
 P 4150 2200
 F 0 "U1901" H 3875 2600 50  0000 C CNN
@@ -59,7 +26,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 402
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCMF2HDMI2SZ U1902
+L dvk-mx8m-bsb:PCMF2HDMI2SZ U1902
 U 1 1 5B012C0E
 P 4200 4150
 F 0 "U1902" H 3925 4550 50  0000 C CNN
@@ -70,7 +37,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PCMFXHDMI2S_SER.pdf" H 407
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1901
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1901
 U 1 1 5B013DA5
 P 1150 3100
 F 0 "Q1901" H 800 3300 50  0000 L CNN
@@ -87,7 +54,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1150 3100 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1901
+L dvk-mx8m-bsb-rescue:R R1901
 U 1 1 5B0140D4
 P 1250 2700
 F 0 "R1901" H 1425 2750 50  0000 C CNN
@@ -98,7 +65,7 @@ F 3 "" H 1250 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1903
+L dvk-mx8m-bsb-rescue:R R1903
 U 1 1 5B0141CF
 P 2000 2700
 F 0 "R1903" H 2175 2750 50  0000 C CNN
@@ -109,7 +76,7 @@ F 3 "" H 2000 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1905
+L dvk-mx8m-bsb-rescue:R R1905
 U 1 1 5B014497
 P 2750 2700
 F 0 "R1905" H 2925 2750 50  0000 C CNN
@@ -120,7 +87,7 @@ F 3 "" H 2750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1907
+L dvk-mx8m-bsb-rescue:R R1907
 U 1 1 5B01449E
 P 3500 2700
 F 0 "R1907" H 3675 2750 50  0000 C CNN
@@ -131,7 +98,7 @@ F 3 "" H 3500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0346
+L dvk-mx8m-bsb:1V8_P #PWR0346
 U 1 1 5B01672B
 P 750 3350
 F 0 "#PWR0346" H 750 3200 50  0001 C CNN
@@ -142,7 +109,7 @@ F 3 "" H 750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1902
+L dvk-mx8m-bsb-rescue:R R1902
 U 1 1 5B019D42
 P 1250 4400
 F 0 "R1902" H 1425 4450 50  0000 C CNN
@@ -153,7 +120,7 @@ F 3 "" H 1250 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1904
+L dvk-mx8m-bsb-rescue:R R1904
 U 1 1 5B019D48
 P 2000 4400
 F 0 "R1904" H 2175 4450 50  0000 C CNN
@@ -164,7 +131,7 @@ F 3 "" H 2000 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1906
+L dvk-mx8m-bsb-rescue:R R1906
 U 1 1 5B019D5A
 P 2750 4400
 F 0 "R1906" H 2925 4450 50  0000 C CNN
@@ -175,7 +142,7 @@ F 3 "" H 2750 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1908
+L dvk-mx8m-bsb-rescue:R R1908
 U 1 1 5B019D60
 P 3500 4400
 F 0 "R1908" H 3675 4450 50  0000 C CNN
@@ -186,7 +153,7 @@ F 3 "" H 3500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1V8_P #PWR0347
+L dvk-mx8m-bsb:1V8_P #PWR0347
 U 1 1 5B019D66
 P 750 5050
 F 0 "#PWR0347" H 750 4900 50  0001 C CNN
@@ -199,7 +166,7 @@ $EndComp
 Text Notes 850  2750 0    60   ~ 0
 ±1%!!!
 $Comp
-L GND #PWR0348
+L power:GND #PWR0348
 U 1 1 5B081BE1
 P 4150 3400
 F 0 "#PWR0348" H 4150 3150 50  0001 C CNN
@@ -230,7 +197,7 @@ HDMI_TX1_P
 Text HLabel 1200 4200 0    60   Input ~ 0
 HDMI_TX1_N
 $Comp
-L GND #PWR0349
+L power:GND #PWR0349
 U 1 1 5B08911B
 P 4150 5100
 F 0 "#PWR0349" H 4150 4850 50  0001 C CNN
@@ -243,7 +210,7 @@ $EndComp
 Text Notes 650  650  0    60   ~ 0
 TUSB1046 can be used for DP over USB-C
 $Comp
-L Polyfuse F1901
+L dvk-mx8m-bsb-rescue:Polyfuse F1901
 U 1 1 5B0C90A9
 P 6650 1850
 F 0 "F1901" V 6550 1850 50  0000 C CNN
@@ -264,7 +231,7 @@ Text Notes 650  1800 0    60   ~ 0
 Text Notes 3400 1650 0    60   ~ 0
 Layout Note:\nMay need swap some signals\ndue to micro-HDMI pinout diff\ndepending on pin location/routing
 $Comp
-L GND #PWR0350
+L power:GND #PWR0350
 U 1 1 5AF69B9C
 P 9200 4900
 F 0 "#PWR0350" H 9200 4650 50  0001 C CNN
@@ -275,7 +242,7 @@ F 3 "" H 9200 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1905
+L dvk-mx8m-bsb-rescue:C C1905
 U 1 1 5AF6AB55
 P 10200 4650
 F 0 "C1905" H 10225 4750 50  0000 L CNN
@@ -286,7 +253,7 @@ F 3 "" H 10200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1914
+L dvk-mx8m-bsb-rescue:R R1914
 U 1 1 5AF6BA49
 P 10000 4650
 F 0 "R1914" H 10175 4600 50  0000 C CNN
@@ -297,7 +264,7 @@ F 3 "" H 10000 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R1913
+L dvk-mx8m-bsb-rescue:R R1913
 U 1 1 5AF70298
 P 9600 4650
 F 0 "R1913" H 9775 4600 50  0000 C CNN
@@ -346,7 +313,7 @@ HDMI_HPD
 Text Notes 9300 4850 0    60   ~ 0
 ±1%!!!
 $Comp
-L R R1909
+L dvk-mx8m-bsb-rescue:R R1909
 U 1 1 5AFA5BBB
 P 7250 2050
 F 0 "R1909" V 7330 2050 50  0000 C CNN
@@ -357,7 +324,7 @@ F 3 "" H 7250 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1904
+L dvk-mx8m-bsb-rescue:C C1904
 U 1 1 5AFAA07E
 P 6250 2150
 F 0 "C1904" H 6275 2250 50  0000 L CNN
@@ -368,7 +335,7 @@ F 3 "" H 6250 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0351
+L power:GND #PWR0351
 U 1 1 5AFABCE1
 P 6150 2400
 F 0 "#PWR0351" H 6150 2150 50  0001 C CNN
@@ -379,7 +346,7 @@ F 3 "" H 6150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1910
+L dvk-mx8m-bsb-rescue:R R1910
 U 1 1 5AFB7819
 P 8100 2200
 F 0 "R1910" H 8275 2250 50  0000 C CNN
@@ -390,7 +357,7 @@ F 3 "" H 8100 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1911
+L dvk-mx8m-bsb-rescue:R R1911
 U 1 1 5AFB7942
 P 8650 2200
 F 0 "R1911" H 8825 2250 50  0000 C CNN
@@ -401,7 +368,7 @@ F 3 "" H 8650 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1912
+L dvk-mx8m-bsb-rescue:R R1912
 U 1 1 5AFBA7AC
 P 9200 2200
 F 0 "R1912" H 9375 2250 50  0000 C CNN
@@ -412,7 +379,7 @@ F 3 "" H 9200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR0352
+L dvk-mx8m-bsb:3V3_P #PWR0352
 U 1 1 5AFBD440
 P 9200 1650
 F 0 "#PWR0352" H 9200 1500 50  0001 C CNN
@@ -445,7 +412,7 @@ HDMI_CN_TX1_N
 Text Notes 10000 2000 0    39   ~ 0
 SMD Micro-HDMI Type D Alternative:\n0467650301
 $Comp
-L HDMI-SWM-19 J1901
+L dvk-mx8m-bsb:HDMI-SWM-19 J1901
 U 1 1 5B003DCE
 P 10450 3300
 F 0 "J1901" H 10550 4375 50  0000 L BNN
@@ -461,7 +428,7 @@ F 8 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-c
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5V_P #PWR0353
+L dvk-mx8m-bsb:5V_P #PWR0353
 U 1 1 5B3E4E0C
 P 6050 1800
 F 0 "#PWR0353" H 6050 1650 50  0001 C CNN
@@ -472,7 +439,7 @@ F 3 "" H 6050 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_ALT D1901
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1901
 U 1 1 5B41DBCA
 P 7250 1850
 F 0 "D1901" H 7250 1675 50  0000 C CNN
@@ -489,7 +456,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	-1   0    0    1   
 $EndComp
 $Comp
-L D_Schottky_ALT D1905
+L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1905
 U 1 1 5B41E03D
 P 9200 1850
 F 0 "D1905" V 9225 1675 50  0000 C CNN
@@ -506,7 +473,7 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_TVS_ALT D1902
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1902
 U 1 1 5B22D838
 P 7550 4650
 F 0 "D1902" V 7500 4450 50  0000 C CNN
@@ -523,7 +490,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 7550 4650 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1903
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1903
 U 1 1 5B22D885
 P 8100 4650
 F 0 "D1903" V 8050 4450 50  0000 C CNN
@@ -540,7 +507,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 8100 4650 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1904
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1904
 U 1 1 5B22D91A
 P 8650 4650
 F 0 "D1904" V 8600 4450 50  0000 C CNN
@@ -557,7 +524,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 8650 4650 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS_ALT D1906
+L dvk-mx8m-bsb-rescue:D_TVS_ALT D1906
 U 1 1 5B22D9B6
 P 9200 4650
 F 0 "D1906" V 9150 4450 50  0000 C CNN
@@ -574,7 +541,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9200 4650 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1903
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1903
 U 1 1 5B1A7CAB
 P 1150 4800
 F 0 "Q1903" H 800 5000 50  0000 L CNN
@@ -591,7 +558,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1150 4800 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1902
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1902
 U 1 1 5B1A8769
 P 2650 3100
 F 0 "Q1902" H 2300 3300 50  0000 L CNN
@@ -608,7 +575,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 2650 3100 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1901
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1901
 U 2 1 5B1A87F5
 P 1900 3100
 F 0 "Q1901" H 1550 3300 50  0000 L CNN
@@ -625,7 +592,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1900 3100 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1902
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1902
 U 2 1 5B1A8AD3
 P 3400 3100
 F 0 "Q1902" H 3050 3300 50  0000 L CNN
@@ -642,7 +609,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 3400 3100 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1904
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1904
 U 1 1 5B1A9D21
 P 2650 4800
 F 0 "Q1904" H 2300 5000 50  0000 L CNN
@@ -659,7 +626,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 2650 4800 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1903
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1903
 U 2 1 5B1A9DC4
 P 1900 4800
 F 0 "Q1903" H 1550 5000 50  0000 L CNN
@@ -676,7 +643,7 @@ F 9 "https://octopart.com/search?q=NX3020NAKS&start=0" H 1900 4800 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_DUAL Q1904
+L dvk-mx8m-bsb:Q_NMOS_DUAL Q1904
 U 2 1 5B1AA0A6
 P 3400 4800
 F 0 "Q1904" H 3050 5000 50  0000 L CNN
@@ -1015,7 +982,7 @@ Connection ~ 9200 3600
 Text Notes 5500 1150 0    236  ~ 47
 HDMI
 $Comp
-L C C1901
+L dvk-mx8m-bsb-rescue:C C1901
 U 1 1 5B535C7C
 P 1750 1900
 F 0 "C1901" V 1700 1600 50  0000 L CNN
@@ -1026,7 +993,7 @@ F 3 "" H 1750 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1902
+L dvk-mx8m-bsb-rescue:C C1902
 U 1 1 5B536320
 P 2250 2000
 F 0 "C1902" V 2200 1700 50  0000 L CNN
@@ -1045,7 +1012,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2000 3650 2000
 $Comp
-L C C1903
+L dvk-mx8m-bsb-rescue:C C1903
 U 1 1 5B33D3B2
 P 6050 2150
 F 0 "C1903" H 6075 2250 50  0000 L CNN

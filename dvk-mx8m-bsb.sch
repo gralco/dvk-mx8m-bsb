@@ -1,39 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dvk-mx8m-bsb
+EESchema Schematic File Version 4
 LIBS:dvk-mx8m-bsb-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -422,7 +389,7 @@ SAI6_TXFS/RXFS
 Text Label 15150 4850 2    60   ~ 0
 SAI1_TXD4(GPIO4_IO16)
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5ADDA458
 P 6000 9050
 F 0 "#PWR01" H 6000 8800 50  0001 C CNN
@@ -433,7 +400,7 @@ F 3 "" H 6000 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5AEE14EB
 P 7100 9050
 F 0 "#PWR02" H 7100 8800 50  0001 C CNN
@@ -444,7 +411,7 @@ F 3 "" H 7100 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C103
+L dvk-mx8m-bsb-rescue:C C103
 U 1 1 5B2FE16C
 P 5550 4950
 F 0 "C103" H 5575 5050 50  0000 L CNN
@@ -455,7 +422,7 @@ F 3 "" H 5550 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C104
+L dvk-mx8m-bsb-rescue:C C104
 U 1 1 5B300417
 P 5850 4950
 F 0 "C104" H 5875 5050 50  0000 L CNN
@@ -482,7 +449,7 @@ SYS_~RST
 Text Label 8250 7350 0    60   ~ 0
 SYS_~RST
 $Comp
-L TEST_1P TP101
+L dvk-mx8m-bsb-rescue:TEST_1P TP101
 U 1 1 5B018310
 P 8200 2350
 F 0 "TP101" H 8200 2620 50  0000 C CNN
@@ -511,7 +478,7 @@ VBAT_REG
 Text Label 14600 8200 2    60   ~ 0
 VBAT_REG
 $Comp
-L 1V8_P #PWR03
+L dvk-mx8m-bsb:1V8_P #PWR03
 U 1 1 5B1B4017
 P 15800 9150
 F 0 "#PWR03" H 15800 9000 50  0001 C CNN
@@ -522,7 +489,7 @@ F 3 "" H 15800 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR04
+L power:VBUS #PWR04
 U 1 1 5B50B0A1
 P 12850 8100
 F 0 "#PWR04" H 12850 7950 50  0001 C CNN
@@ -533,7 +500,7 @@ F 3 "" H 12850 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBAT_REG #PWR05
+L dvk-mx8m-bsb:VBAT_REG #PWR05
 U 1 1 5B524A5F
 P 14650 7900
 F 0 "#PWR05" H 14650 7750 50  0001 C CNN
@@ -578,7 +545,7 @@ F14 "HDMI_DDC_SDA" B R 12450 3050 60
 F15 "HDMI_DDC_SCL" I R 12450 2950 60 
 $EndSheet
 $Comp
-L R R106
+L dvk-mx8m-bsb-rescue:R R106
 U 1 1 5B0AEFCA
 P 7950 10350
 F 0 "R106" H 8100 10400 50  0000 C CNN
@@ -589,7 +556,7 @@ F 3 "" H 7950 10350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5B0AF448
 P 7950 10550
 F 0 "#PWR06" H 7950 10300 50  0001 C CNN
@@ -659,7 +626,7 @@ SAI5_TXD
 Text Notes 12970 3770 2    60   ~ 0
 GPIO3_IO20
 $Comp
-L 5V_SOM #PWR07
+L dvk-mx8m-bsb:5V_SOM #PWR07
 U 1 1 5B3612A9
 P 4600 4700
 F 0 "#PWR07" H 4600 4550 50  0001 C CNN
@@ -670,7 +637,7 @@ F 3 "" H 4600 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V_P #PWR08
+L dvk-mx8m-bsb:5V_P #PWR08
 U 1 1 5B3E4573
 P 7950 9750
 F 0 "#PWR08" H 7950 9600 50  0001 C CNN
@@ -697,7 +664,7 @@ GPIO5_IO05
 Text Notes 7450 10750 2    60   ~ 0
 GPIO5_IO04
 $Comp
-L R R103
+L dvk-mx8m-bsb-rescue:R R103
 U 1 1 5B330D8D
 P 7250 4100
 F 0 "R103" H 7400 4150 50  0000 C CNN
@@ -714,7 +681,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R101
+L dvk-mx8m-bsb-rescue:R R101
 U 1 1 5B33103F
 P 2350 3000
 F 0 "R101" H 2500 3050 50  0000 C CNN
@@ -725,7 +692,7 @@ F 3 "" H 2350 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R104
+L dvk-mx8m-bsb-rescue:R R104
 U 1 1 5B339DFC
 P 7350 4100
 F 0 "R104" H 7500 4150 50  0000 C CNN
@@ -750,7 +717,7 @@ LCD_LEDK
 Text Label 2150 6250 2    60   ~ 0
 LCD_~RESET
 $Comp
-L 22V4_P #PWR09
+L dvk-mx8m-bsb:22V4_P #PWR09
 U 1 1 5B413208
 P 15800 9400
 F 0 "#PWR09" H 15800 9250 50  0001 C CNN
@@ -761,7 +728,7 @@ F 3 "" H 15800 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2V8_P #PWR010
+L dvk-mx8m-bsb:2V8_P #PWR010
 U 1 1 5B41F9C9
 P 15800 9650
 F 0 "#PWR010" H 15800 9500 50  0001 C CNN
@@ -772,7 +739,7 @@ F 3 "" H 15800 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R102
+L dvk-mx8m-bsb-rescue:R R102
 U 1 1 5B12EC2C
 P 2450 3000
 F 0 "R102" H 2600 3050 50  0000 C CNN
@@ -843,7 +810,7 @@ TCPC_~INT
 Text Label 10750 8200 0    60   ~ 0
 USB1_SS_SEL
 $Comp
-L 3V3 #PWR011
+L dvk-mx8m-bsb:3V3 #PWR011
 U 1 1 5B3D7EA2
 P 15800 8650
 F 0 "#PWR011" H 15800 8500 50  0001 C CNN
@@ -854,7 +821,7 @@ F 3 "" H 15800 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V_P #PWR012
+L dvk-mx8m-bsb:5V_P #PWR012
 U 1 1 5B3C12C4
 P 15800 8400
 F 0 "#PWR012" H 15800 8250 50  0001 C CNN
@@ -865,7 +832,7 @@ F 3 "" H 15800 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V_SOM #PWR013
+L dvk-mx8m-bsb:5V_SOM #PWR013
 U 1 1 5B35B4FE
 P 15800 8150
 F 0 "#PWR013" H 15800 8000 50  0001 C CNN
@@ -876,7 +843,7 @@ F 3 "" H 15800 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR014
+L dvk-mx8m-bsb:3V3_P #PWR014
 U 1 1 5B1B278D
 P 15800 8900
 F 0 "#PWR014" H 15800 8750 50  0001 C CNN
@@ -980,7 +947,7 @@ SD2_~RST
 Text Notes 15150 4950 2    60   ~ 0
 SAI6_TXC/RXC
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5B29B698
 P 8150 3600
 F 0 "#PWR015" H 8150 3350 50  0001 C CNN
@@ -991,7 +958,7 @@ F 3 "" H 8150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R107
+L dvk-mx8m-bsb-rescue:R R107
 U 1 1 5B2BBF6E
 P 8150 3400
 F 0 "R107" H 8300 3450 50  0000 C CNN
@@ -1019,7 +986,7 @@ NoConn ~ 5000 8750
 NoConn ~ 5000 8850
 NoConn ~ 5000 8950
 $Comp
-L 3V3_SNVS #PWR016
+L dvk-mx8m-bsb:3V3_SNVS #PWR016
 U 1 1 5B42C70A
 P 7450 5250
 F 0 "#PWR016" H 7450 5100 50  0001 C CNN
@@ -1046,7 +1013,7 @@ NoConn ~ 5000 7600
 NoConn ~ 5000 7700
 NoConn ~ 5000 7800
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5B863C10
 P 6450 5200
 F 0 "#PWR017" H 6450 4950 50  0001 C CNN
@@ -1085,7 +1052,7 @@ GPIO1_IO12
 Text Notes 2000 2850 2    60   ~ 0
 GPIO3_IO19
 $Comp
-L C C108
+L dvk-mx8m-bsb-rescue:C C108
 U 1 1 5BE7141F
 P 8050 4950
 F 0 "C108" H 8075 5050 50  0000 L CNN
@@ -1096,7 +1063,7 @@ F 3 "" H 8050 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5BE71BCD
 P 8050 5150
 F 0 "#PWR018" H 8050 4900 50  0001 C CNN
@@ -1107,7 +1074,7 @@ F 3 "" H 8050 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR019
+L dvk-mx8m-bsb:3V3_OUT #PWR019
 U 1 1 5BF03CD1
 P 6800 4700
 F 0 "#PWR019" H 6800 4550 50  0001 C CNN
@@ -1118,7 +1085,7 @@ F 3 "" H 6800 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 5BF07A00
 P 7150 5150
 F 0 "#PWR020" H 7150 4900 50  0001 C CNN
@@ -1143,7 +1110,7 @@ I2C3_SCL
 Text Label 2900 4500 2    60   ~ 0
 I2C3_SDA
 Wire Wire Line
-	7850 2400 7850 5300
+	7850 2400 7850 4750
 Wire Wire Line
 	6900 10650 7450 10650
 Wire Wire Line
@@ -1171,7 +1138,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 9650 8100 9650
 Wire Wire Line
-	7950 10100 7950 10200
+	7950 10100 7950 10150
 Wire Wire Line
 	12450 6450 13000 6450
 Wire Wire Line
@@ -1221,11 +1188,11 @@ Wire Wire Line
 Wire Wire Line
 	6800 4750 7150 4750
 Wire Wire Line
-	6800 4700 6800 5300
+	6800 4700 6800 4750
 Wire Wire Line
 	7000 5250 7000 5300
 Wire Wire Line
-	6600 5250 7000 5250
+	6600 5250 6800 5250
 Wire Wire Line
 	6600 5300 6600 5250
 Wire Wire Line
@@ -1235,7 +1202,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 4300 11350 4300
 Wire Wire Line
-	3800 5250 6300 5250
+	3800 5250 3900 5250
 Wire Wire Line
 	10250 3550 11300 3550
 Wire Wire Line
@@ -1247,7 +1214,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 9100 10750 9100
 Wire Wire Line
-	14050 8200 14700 8200
+	14050 8200 14650 8200
 Wire Wire Line
 	10250 2800 11350 2800
 Wire Wire Line
@@ -1287,7 +1254,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 10650 10750 10650
 Wire Wire Line
-	6450 5100 6450 5200
+	6450 5100 6450 5150
 Connection ~ 6150 5150
 Wire Wire Line
 	6150 5150 6150 5100
@@ -1316,13 +1283,13 @@ Connection ~ 4950 4750
 Wire Wire Line
 	4950 4800 4950 4750
 Wire Wire Line
-	4950 5150 6450 5150
+	4950 5150 5250 5150
 Wire Wire Line
 	4950 5100 4950 5150
 Wire Wire Line
 	6450 4750 6450 4800
 Wire Wire Line
-	4600 4750 6450 4750
+	4600 4750 4950 4750
 Wire Wire Line
 	3750 4150 4700 4150
 Wire Wire Line
@@ -1352,7 +1319,7 @@ Wire Wire Line
 	12800 8150 12850 8150
 Connection ~ 12850 8350
 Wire Wire Line
-	12850 8100 12850 8350
+	12850 8100 12850 8150
 Wire Wire Line
 	6950 1850 6300 1850
 Wire Wire Line
@@ -1409,7 +1376,7 @@ Wire Wire Line
 	4700 5250 4700 5300
 Connection ~ 4600 5250
 Wire Wire Line
-	4600 4700 4600 5300
+	4600 4700 4600 4750
 Connection ~ 4500 5250
 Wire Wire Line
 	4500 5250 4500 5300
@@ -1436,9 +1403,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 7100 8250 7100
 Wire Wire Line
-	6300 4400 7800 4400
+	6300 4400 7350 4400
 Wire Wire Line
-	6300 4300 7800 4300
+	6300 4300 7250 4300
 Wire Wire Line
 	11050 7350 10250 7350
 Wire Wire Line
@@ -1496,9 +1463,9 @@ Connection ~ 6000 9000
 Wire Wire Line
 	6000 9050 6000 9000
 Wire Wire Line
-	7050 9000 7150 9000
+	7050 9000 7100 9000
 Wire Wire Line
-	5950 9000 6050 9000
+	5950 9000 6000 9000
 Connection ~ 7150 8950
 Wire Wire Line
 	7150 8950 7200 8950
@@ -1605,11 +1572,11 @@ Connection ~ 7050 7250
 Wire Wire Line
 	7000 7250 7050 7250
 Wire Wire Line
-	7150 9000 7150 7250
+	7150 9000 7150 8950
 Wire Wire Line
 	7150 7250 7200 7250
 Wire Wire Line
-	7050 7150 7050 9000
+	7050 7150 7050 7250
 Wire Wire Line
 	7000 7150 7050 7150
 Connection ~ 6050 8950
@@ -1757,11 +1724,11 @@ Connection ~ 5950 6550
 Wire Wire Line
 	5900 6550 5950 6550
 Wire Wire Line
-	6050 9000 6050 6650
+	6050 9000 6050 8950
 Wire Wire Line
 	6050 6650 6100 6650
 Wire Wire Line
-	5950 6450 5950 9000
+	5950 6450 5950 6550
 Wire Wire Line
 	5950 6450 5900 6450
 Wire Wire Line
@@ -1928,18 +1895,6 @@ Wire Wire Line
 	15800 8450 15800 8400
 Wire Wire Line
 	15650 8450 15800 8450
-Wire Notes Line
-	15950 7960 15950 9740
-Wire Notes Line
-	15660 7950 15940 7950
-Wire Notes Line
-	15650 7960 15650 8090
-Wire Notes Line
-	15650 7950 15650 8100
-Wire Notes Line
-	15950 7950 15650 7950
-Wire Notes Line
-	15950 9750 15950 7950
 Wire Wire Line
 	15800 8200 15800 8150
 Wire Wire Line
@@ -2149,17 +2104,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 6650 10650 6650
 Wire Wire Line
-	12450 8350 13000 8350
+	12450 8350 12850 8350
 Wire Wire Line
 	15650 8950 15800 8950
 Wire Wire Line
 	15800 8950 15800 8900
 Wire Wire Line
 	15650 9200 15800 9200
-Wire Notes Line
-	15650 9750 15950 9750
-Wire Notes Line
-	15660 9750 15940 9750
 Wire Wire Line
 	9350 3400 8250 3400
 Wire Wire Line
@@ -2188,7 +2139,7 @@ Wire Wire Line
 	11350 5000 10750 5000
 Connection ~ 7850 4750
 Wire Wire Line
-	2350 2800 2450 2800
+	2350 2800 2400 2800
 Wire Wire Line
 	2450 2800 2450 2850
 Wire Wire Line
@@ -2199,7 +2150,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 7750 11350 7750
 Wire Wire Line
-	14650 7900 14650 8200
+	14650 7900 14650 7950
 Text Label 8250 8450 0    60   ~ 0
 UART1_RXD
 Text Label 8250 9550 0    60   ~ 0
@@ -2212,12 +2163,12 @@ Connection ~ 7350 4400
 Wire Wire Line
 	7350 3900 7350 3950
 Wire Wire Line
-	7250 3900 7350 3900
+	7250 3900 7300 3900
 Wire Wire Line
 	7300 3850 7300 3900
 Connection ~ 7300 3900
 $Comp
-L C C107
+L dvk-mx8m-bsb-rescue:C C107
 U 1 1 5BF074D9
 P 7150 4950
 F 0 "C107" H 7175 5050 50  0000 L CNN
@@ -2244,7 +2195,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 6750 4400 6750
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 5B2F8B52
 P 800 9700
 F 0 "#PWR021" H 800 9450 50  0001 C CNN
@@ -2255,7 +2206,7 @@ F 3 "" H 800 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 5B2FDC71
 P 800 10700
 F 0 "#PWR022" H 800 10450 50  0001 C CNN
@@ -2266,7 +2217,7 @@ F 3 "" H 800 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mount_Hole MNT103
+L dvk-mx8m-bsb:Mount_Hole MNT103
 U 1 1 5B2FDF31
 P 2500 10500
 F 0 "MNT103" H 2500 10725 60  0000 C CNN
@@ -2277,7 +2228,7 @@ F 3 "" H 2500 10500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5B2FDF38
 P 2500 10700
 F 0 "#PWR023" H 2500 10450 50  0001 C CNN
@@ -2288,7 +2239,7 @@ F 3 "" H 2500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mount_Hole MNT104
+L dvk-mx8m-bsb:Mount_Hole MNT104
 U 1 1 5B2FE213
 P 2500 9500
 F 0 "MNT104" H 2500 9725 60  0000 C CNN
@@ -2299,7 +2250,7 @@ F 3 "" H 2500 9500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5B2FE21A
 P 2500 9700
 F 0 "#PWR024" H 2500 9450 50  0001 C CNN
@@ -2318,7 +2269,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 9650 2500 9700
 $Comp
-L Mount_Hole MNT102
+L dvk-mx8m-bsb:Mount_Hole MNT102
 U 1 1 5B2FDC6A
 P 800 10500
 F 0 "MNT102" H 800 10725 60  0000 C CNN
@@ -2329,7 +2280,7 @@ F 3 "" H 800 10500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mount_Hole MNT101
+L dvk-mx8m-bsb:Mount_Hole MNT101
 U 1 1 5B2F3834
 P 800 9500
 F 0 "MNT101" H 800 9725 60  0000 C CNN
@@ -2340,7 +2291,7 @@ F 3 "" H 800 9500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID101
+L dvk-mx8m-bsb:Fiducial FID101
 U 1 1 5B349DC7
 P 1300 9450
 F 0 "FID101" H 1300 9625 60  0000 C CNN
@@ -2351,7 +2302,7 @@ F 3 "" H 1300 9450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID103
+L dvk-mx8m-bsb:Fiducial FID103
 U 1 1 5B34A33F
 P 2000 9450
 F 0 "FID103" H 2000 9625 60  0000 C CNN
@@ -2362,7 +2313,7 @@ F 3 "" H 2000 9450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fiducial FID102
+L dvk-mx8m-bsb:Fiducial FID102
 U 1 1 5B34A897
 P 2000 10700
 F 0 "FID102" H 2000 10875 60  0000 C CNN
@@ -2373,7 +2324,7 @@ F 3 "" H 2000 10700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EmC_SoM MOD101
+L dvk-mx8m-bsb:EmC_SoM MOD101
 U 1 1 5B2D28EC
 P 1650 10000
 F 0 "MOD101" H 1650 10200 60  0000 C CNN
@@ -2384,7 +2335,7 @@ F 3 "https://emcraft.com/component/jdownloads/view.download/153/1141" H 1650 990
 	1    0    0    -1  
 $EndComp
 $Comp
-L IMX8M-SOM1 P1
+L dvk-mx8m-bsb:IMX8M-SOM1 P1
 U 1 1 5B3A3284
 P 6550 5750
 F 0 "P1" H 3300 10550 50  0000 C CNN
@@ -2397,7 +2348,7 @@ F 5 "DF40HC(4.0)-80DS-0.4V(51)" H 6550 5750 60  0001 C CNN "MFG Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C101
+L dvk-mx8m-bsb-rescue:C C101
 U 1 1 5B32D889
 P 4950 4950
 F 0 "C101" H 4975 5050 50  0000 L CNN
@@ -2414,7 +2365,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C102
+L dvk-mx8m-bsb-rescue:C C102
 U 1 1 5B32DB63
 P 5250 4950
 F 0 "C102" H 5275 5050 50  0000 L CNN
@@ -2431,7 +2382,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C105
+L dvk-mx8m-bsb-rescue:C C105
 U 1 1 5B32DE4A
 P 6150 4950
 F 0 "C105" H 6175 5050 50  0000 L CNN
@@ -2448,7 +2399,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C106
+L dvk-mx8m-bsb-rescue:C C106
 U 1 1 5B32E12A
 P 6450 4950
 F 0 "C106" H 6475 5050 50  0000 L CNN
@@ -2465,7 +2416,7 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L IMX8M-SOM2 P2
+L dvk-mx8m-bsb:IMX8M-SOM2 P2
 U 1 1 5B34B80B
 P 6550 5600
 F 0 "P2" H 3300 5000 60  0000 C CNN
@@ -2476,7 +2427,7 @@ F 3 "" V 6050 3550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IMX8M-SOM3 P3
+L dvk-mx8m-bsb:IMX8M-SOM3 P3
 U 1 1 5B34BD72
 P 6550 5500
 F 0 "P3" H 9800 10050 60  0000 C CNN
@@ -2487,7 +2438,7 @@ F 3 "" H 9750 7800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IMX8M-SOM4 P4
+L dvk-mx8m-bsb:IMX8M-SOM4 P4
 U 1 1 5B34C317
 P 6550 5500
 F 0 "P4" H 9800 4800 60  0000 C CNN
@@ -2498,15 +2449,15 @@ F 3 "" H 9850 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 4400 2900 4400
+	1450 4400 2350 4400
 Wire Wire Line
-	1450 4500 2900 4500
+	1450 4500 2450 4500
 Wire Wire Line
 	2150 3500 2350 3500
 Wire Wire Line
 	2150 3600 2450 3600
 $Comp
-L R R105
+L dvk-mx8m-bsb-rescue:R R105
 U 1 1 5B425E35
 P 7950 9950
 F 0 "R105" H 8100 10000 50  0000 C CNN
@@ -2554,11 +2505,11 @@ Wire Wire Line
 Wire Wire Line
 	12650 9950 12650 9600
 Wire Wire Line
-	11300 9700 11300 10200
+	11300 9700 11300 10050
 Wire Wire Line
-	11200 9600 11200 10100
+	11200 9600 11200 9950
 $Comp
-L 3V3_P #PWR025
+L dvk-mx8m-bsb:3V3_P #PWR025
 U 1 1 5B4D6B63
 P 2400 2750
 F 0 "#PWR025" H 2400 2600 50  0001 C CNN
@@ -2569,7 +2520,7 @@ F 3 "" H 2400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_P #PWR026
+L dvk-mx8m-bsb:3V3_P #PWR026
 U 1 1 5B4E20C0
 P 7300 3850
 F 0 "#PWR026" H 7300 3700 50  0001 C CNN
@@ -2580,7 +2531,7 @@ F 3 "" H 7300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R108
+L dvk-mx8m-bsb-rescue:R R108
 U 1 1 5B4F042B
 P 10850 9900
 F 0 "R108" H 11000 9950 50  0000 C CNN
@@ -2597,7 +2548,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R109
+L dvk-mx8m-bsb-rescue:R R109
 U 1 1 5B4F549E
 P 10950 9900
 F 0 "R109" H 11100 9950 50  0000 C CNN
@@ -2614,7 +2565,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_OUT #PWR027
+L dvk-mx8m-bsb:3V3_OUT #PWR027
 U 1 1 5B4F78CD
 P 10900 9650
 F 0 "#PWR027" H 10900 9500 50  0001 C CNN
@@ -2633,16 +2584,16 @@ Connection ~ 11300 10050
 Wire Wire Line
 	10850 9750 10850 9700
 Wire Wire Line
-	10850 9700 10950 9700
+	10850 9700 10900 9700
 Wire Wire Line
 	10950 9700 10950 9750
 Wire Wire Line
 	10900 9700 10900 9650
 Connection ~ 10900 9700
 Wire Wire Line
-	11200 10100 10400 10100
+	11200 10100 10850 10100
 Wire Wire Line
-	11300 10200 10400 10200
+	11300 10200 10950 10200
 Connection ~ 10850 10100
 Connection ~ 10950 10200
 NoConn ~ 8100 7500
@@ -2656,11 +2607,309 @@ I2C1_SCL
 Text Label 8250 7550 0    60   ~ 0
 I2C1_SDA
 Wire Wire Line
-	2350 3150 2350 4400
+	2350 3150 2350 3500
 Wire Wire Line
-	2450 3150 2450 4500
+	2450 3150 2450 3600
 Wire Wire Line
-	10950 10050 10950 10400
+	10950 10050 10950 10200
 Wire Wire Line
-	10850 10050 10850 10500
+	10850 10050 10850 10100
+Wire Wire Line
+	2350 4400 2900 4400
+Wire Wire Line
+	2450 4500 2900 4500
+Wire Wire Line
+	2450 3600 2450 4500
+Wire Wire Line
+	2350 3500 2350 4400
+Wire Wire Line
+	7250 4300 7800 4300
+Wire Wire Line
+	7950 10150 7950 10200
+Wire Wire Line
+	4600 4750 4600 5250
+Wire Wire Line
+	6450 5150 6450 5200
+Wire Wire Line
+	14650 7950 14650 8200
+Wire Wire Line
+	14650 8200 14700 8200
+Wire Wire Line
+	6800 5250 6800 5300
+Wire Wire Line
+	6800 5250 7000 5250
+Wire Wire Line
+	6800 4750 6800 5250
+Wire Wire Line
+	6150 5150 6450 5150
+Wire Wire Line
+	5850 5150 6150 5150
+Wire Wire Line
+	5550 5150 5850 5150
+Wire Wire Line
+	5250 5150 5550 5150
+Wire Wire Line
+	5250 4750 5550 4750
+Wire Wire Line
+	6150 4750 6450 4750
+Wire Wire Line
+	5850 4750 6150 4750
+Wire Wire Line
+	5550 4750 5850 4750
+Wire Wire Line
+	4950 4750 5250 4750
+Wire Wire Line
+	12850 8150 12850 8350
+Wire Wire Line
+	12850 8350 13000 8350
+Wire Wire Line
+	6200 5250 6300 5250
+Wire Wire Line
+	6100 5250 6200 5250
+Wire Wire Line
+	6000 5250 6100 5250
+Wire Wire Line
+	5900 5250 6000 5250
+Wire Wire Line
+	5800 5250 5900 5250
+Wire Wire Line
+	5700 5250 5800 5250
+Wire Wire Line
+	5600 5250 5700 5250
+Wire Wire Line
+	5500 5250 5600 5250
+Wire Wire Line
+	5400 5250 5500 5250
+Wire Wire Line
+	5300 5250 5400 5250
+Wire Wire Line
+	5200 5250 5300 5250
+Wire Wire Line
+	5100 5250 5200 5250
+Wire Wire Line
+	5000 5250 5100 5250
+Wire Wire Line
+	4900 5250 5000 5250
+Wire Wire Line
+	4800 5250 4900 5250
+Wire Wire Line
+	4700 5250 4800 5250
+Wire Wire Line
+	4600 5250 4700 5250
+Wire Wire Line
+	4600 5250 4600 5300
+Wire Wire Line
+	4500 5250 4600 5250
+Wire Wire Line
+	4400 5250 4500 5250
+Wire Wire Line
+	4300 5250 4400 5250
+Wire Wire Line
+	4200 5250 4300 5250
+Wire Wire Line
+	4100 5250 4200 5250
+Wire Wire Line
+	4000 5250 4100 5250
+Wire Wire Line
+	3900 5250 4000 5250
+Wire Wire Line
+	7100 9000 7150 9000
+Wire Wire Line
+	6000 9000 6050 9000
+Wire Wire Line
+	7150 8950 7150 8850
+Wire Wire Line
+	7150 8850 7150 8750
+Wire Wire Line
+	7150 8750 7150 8650
+Wire Wire Line
+	7150 8650 7150 8550
+Wire Wire Line
+	7150 8550 7150 8450
+Wire Wire Line
+	7150 8450 7150 8350
+Wire Wire Line
+	7150 8350 7150 8250
+Wire Wire Line
+	7150 8250 7150 8150
+Wire Wire Line
+	7150 8150 7150 8050
+Wire Wire Line
+	7150 8050 7150 7950
+Wire Wire Line
+	7150 7950 7150 7850
+Wire Wire Line
+	7150 7850 7150 7750
+Wire Wire Line
+	7150 7750 7150 7650
+Wire Wire Line
+	7150 7650 7150 7550
+Wire Wire Line
+	7150 7550 7150 7450
+Wire Wire Line
+	7150 7450 7150 7350
+Wire Wire Line
+	7150 7350 7150 7250
+Wire Wire Line
+	7050 8950 7050 9000
+Wire Wire Line
+	7050 8850 7050 8950
+Wire Wire Line
+	7050 8750 7050 8850
+Wire Wire Line
+	7050 8650 7050 8750
+Wire Wire Line
+	7050 8550 7050 8650
+Wire Wire Line
+	7050 8450 7050 8550
+Wire Wire Line
+	7050 8350 7050 8450
+Wire Wire Line
+	7050 8250 7050 8350
+Wire Wire Line
+	7050 8150 7050 8250
+Wire Wire Line
+	7050 8050 7050 8150
+Wire Wire Line
+	7050 7950 7050 8050
+Wire Wire Line
+	7050 7850 7050 7950
+Wire Wire Line
+	7050 7750 7050 7850
+Wire Wire Line
+	7050 7650 7050 7750
+Wire Wire Line
+	7050 7550 7050 7650
+Wire Wire Line
+	7050 7450 7050 7550
+Wire Wire Line
+	7050 7350 7050 7450
+Wire Wire Line
+	7050 7250 7050 7350
+Wire Wire Line
+	6050 8950 6050 8850
+Wire Wire Line
+	6050 8850 6050 8750
+Wire Wire Line
+	6050 8750 6050 8650
+Wire Wire Line
+	6050 8650 6050 8550
+Wire Wire Line
+	6050 8550 6050 8450
+Wire Wire Line
+	6050 8450 6050 8350
+Wire Wire Line
+	6050 8350 6050 8250
+Wire Wire Line
+	6050 8250 6050 8150
+Wire Wire Line
+	6050 8150 6050 8050
+Wire Wire Line
+	6050 8050 6050 7950
+Wire Wire Line
+	6050 7950 6050 7850
+Wire Wire Line
+	6050 7850 6050 7750
+Wire Wire Line
+	6050 7750 6050 7650
+Wire Wire Line
+	6050 7650 6050 7550
+Wire Wire Line
+	6050 7550 6050 7450
+Wire Wire Line
+	6050 7450 6050 7350
+Wire Wire Line
+	6050 7350 6050 7250
+Wire Wire Line
+	6050 7250 6050 7150
+Wire Wire Line
+	6050 7150 6050 7050
+Wire Wire Line
+	6050 7050 6050 6950
+Wire Wire Line
+	6050 6950 6050 6850
+Wire Wire Line
+	6050 6850 6050 6750
+Wire Wire Line
+	6050 6750 6050 6650
+Wire Wire Line
+	5950 8950 5950 9000
+Wire Wire Line
+	5950 8850 5950 8950
+Wire Wire Line
+	5950 8750 5950 8850
+Wire Wire Line
+	5950 8650 5950 8750
+Wire Wire Line
+	5950 8550 5950 8650
+Wire Wire Line
+	5950 8450 5950 8550
+Wire Wire Line
+	5950 8350 5950 8450
+Wire Wire Line
+	5950 8250 5950 8350
+Wire Wire Line
+	5950 8150 5950 8250
+Wire Wire Line
+	5950 8050 5950 8150
+Wire Wire Line
+	5950 7950 5950 8050
+Wire Wire Line
+	5950 7850 5950 7950
+Wire Wire Line
+	5950 7750 5950 7850
+Wire Wire Line
+	5950 7650 5950 7750
+Wire Wire Line
+	5950 7550 5950 7650
+Wire Wire Line
+	5950 7450 5950 7550
+Wire Wire Line
+	5950 7350 5950 7450
+Wire Wire Line
+	5950 7250 5950 7350
+Wire Wire Line
+	5950 7150 5950 7250
+Wire Wire Line
+	5950 7050 5950 7150
+Wire Wire Line
+	5950 6950 5950 7050
+Wire Wire Line
+	5950 6850 5950 6950
+Wire Wire Line
+	5950 6750 5950 6850
+Wire Wire Line
+	5950 6650 5950 6750
+Wire Wire Line
+	5950 6550 5950 6650
+Wire Wire Line
+	7850 4750 7850 5300
+Wire Wire Line
+	2400 2800 2450 2800
+Wire Wire Line
+	7350 4400 7800 4400
+Wire Wire Line
+	7300 3900 7350 3900
+Wire Wire Line
+	11200 9950 11200 10100
+Wire Wire Line
+	11300 10050 11300 10200
+Wire Wire Line
+	10900 9700 10950 9700
+Wire Wire Line
+	10850 10100 10400 10100
+Wire Wire Line
+	10850 10100 10850 10500
+Wire Wire Line
+	10950 10200 10400 10200
+Wire Wire Line
+	10950 10200 10950 10400
+Wire Notes Line
+	15950 7950 15950 9750
+Wire Notes Line
+	15650 7950 15950 7950
+Wire Notes Line
+	15650 7950 15650 8100
+Wire Notes Line
+	15650 9750 15950 9750
 $EndSCHEMATC
