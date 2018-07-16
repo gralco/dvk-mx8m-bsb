@@ -767,13 +767,7 @@ P 10200 1600
 F 0 "R1511" H 10375 1650 50  0000 C CNN
 F 1 "100k" H 10350 1550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 10130 1600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10200 1600 50  0001 C CNN
-F 4 "Stackpole" H 10200 1600 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 10200 1600 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 10200 1600 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 10200 1600 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 10200 1600 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 10200 1600 60  0001 C CNN "Others"
+F 3 "" H 10200 1600 50  0001 C CNN
 	1    10200 1600
 	1    0    0    -1  
 $EndComp
@@ -784,13 +778,7 @@ P 9850 1800
 F 0 "R1509" V 9925 1800 50  0000 C CNN
 F 1 "100k" V 9750 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9780 1800 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9850 1800 50  0001 C CNN
-F 4 "Stackpole" H 9850 1800 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 9850 1800 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 9850 1800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 9850 1800 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 9850 1800 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 9850 1800 60  0001 C CNN "Others"
+F 3 "" H 9850 1800 50  0001 C CNN
 	1    9850 1800
 	0    -1   -1   0   
 $EndComp
