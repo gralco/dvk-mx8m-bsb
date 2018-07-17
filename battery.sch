@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 24
 Title "Battery"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -30,7 +30,7 @@ Ihold=3.5A\nItrip=6.3A\nTtrip(max)=5s@8A
 Text Notes 6650 3300 0    60   ~ 0
 Vrwm(max)=5.0V\nVbr(min)=6.2V\nPd=150mW
 $Comp
-L dvk-mx8m-bsb-rescue:Battery_Cell BT301
+L Device:Battery_Cell BT301
 U 1 1 5ADAE7AB
 P 7500 4200
 F 0 "BT301" H 7250 4350 50  0000 L CNN
@@ -47,12 +47,12 @@ F 9 "http://www.sierraic.com/BHC186501P" H 7500 4200 60  0001 C CNN "Others"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C301
+L Device:C C301
 U 1 1 5ADEA19F
 P 4250 2800
 F 0 "C301" H 4275 2900 50  0000 L CNN
 F 1 "1uF" H 4275 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4288 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2650 50  0001 C CNN
 F 3 "" H 4250 2800 50  0001 C CNN
 	1    4250 2800
 	-1   0    0    -1  
@@ -69,12 +69,12 @@ F 3 "" H 4250 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C302
+L Device:C C302
 U 1 1 5ADEA322
 P 4450 2900
 F 0 "C302" H 4475 3000 50  0000 L CNN
 F 1 "8.2uF" H 4475 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4488 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 2750 50  0001 C CNN
 F 3 "" H 4450 2900 50  0001 C CNN
 	1    4450 2900
 	1    0    0    -1  
@@ -91,18 +91,18 @@ F 3 "" H 4450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C303
+L Device:C C303
 U 1 1 5ADFB737
 P 5650 2800
 F 0 "C303" H 5675 2900 50  0000 L CNN
 F 1 "47nF" H 5675 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5688 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 2650 50  0001 C CNN
 F 3 "" H 5650 2800 50  0001 C CNN
 	1    5650 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:L L301
+L Device:L L301
 U 1 1 5ADFB9AB
 P 5900 2600
 F 0 "L301" V 6050 2600 50  0000 C CNN
@@ -119,12 +119,12 @@ F 9 "https://www.digikey.com/products/en/inductors-coils-chokes/fixed-inductors/
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C304
+L Device:C C304
 U 1 1 5ADFC6C1
 P 5800 3350
 F 0 "C304" H 5825 3450 50  0000 L CNN
 F 1 "4.7uF" H 5825 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5838 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 3200 50  0001 C CNN
 F 3 "" H 5800 3350 50  0001 C CNN
 	1    5800 3350
 	1    0    0    -1  
@@ -141,12 +141,12 @@ F 3 "" H 5800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R306
+L Device:R R306
 U 1 1 5ADFDA10
 P 4350 3450
 F 0 "R306" V 4430 3450 50  0000 C CNN
 F 1 "191" V 4250 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4280 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 3450 50  0001 C CNN
 F 3 "" H 4350 3450 50  0001 C CNN
 	1    4350 3450
 	0    -1   -1   0   
@@ -163,12 +163,12 @@ F 3 "" H 4150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C308
+L Device:C C308
 U 1 1 5AE0040B
 P 7500 2800
 F 0 "C308" H 7525 2900 50  0000 L CNN
 F 1 "100nF" H 7500 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7538 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 2650 50  0001 C CNN
 F 3 "" H 7500 2800 50  0001 C CNN
 	1    7500 2800
 	1    0    0    -1  
@@ -185,18 +185,18 @@ F 3 "" H 6450 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C309
+L Device:C C309
 U 1 1 5AE01FE0
 P 7750 2800
 F 0 "C309" H 7775 2900 50  0000 L CNN
 F 1 "100nF" H 7775 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7788 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7788 2650 50  0001 C CNN
 F 3 "" H 7750 2800 50  0001 C CNN
 	1    7750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Polyfuse F301
+L Device:Polyfuse F301
 U 1 1 5AE34D8A
 P 7100 3900
 F 0 "F301" V 7000 3900 50  0000 C CNN
@@ -213,34 +213,34 @@ F 9 "https://www.digikey.com/products/en/circuit-protection/ptc-resettable-fuses
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R308
+L Device:R R308
 U 1 1 5AE3641A
 P 6100 4200
 F 0 "R308" V 6180 4200 50  0000 C CNN
 F 1 "5.23k" V 6000 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6030 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 4200 50  0001 C CNN
 F 3 "" H 6100 4200 50  0001 C CNN
 	1    6100 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R307
+L Device:R R307
 U 1 1 5AE36487
 P 5900 4600
 F 0 "R307" H 6050 4650 50  0000 C CNN
 F 1 "30.1k" H 6050 4550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5830 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 4600 50  0001 C CNN
 F 3 "" H 5900 4600 50  0001 C CNN
 	1    5900 4600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Thermistor TH301
+L Device:Thermistor TH301
 U 1 1 5AE369F4
 P 6300 4600
 F 0 "TH301" H 6475 4650 50  0000 C CNN
 F 1 "10k" H 6450 4550 50  0000 C BNN
-F 2 "Resistors_SMD:R_0603" H 6300 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6300 4600 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf2/AUA0000/AUA0000AE291.pdf" H 6300 4600 50  0001 C CNN
 F 4 "Panasonic" H 6300 4600 60  0001 C CNN "MFG Name"
 F 5 "ERTJ1VG103FA" H 6300 4600 60  0001 C CNN "MFG Part Num"
@@ -290,29 +290,29 @@ F 3 "" H 3400 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R302
+L Device:R R302
 U 1 1 5AE61BA6
 P 3400 3500
 F 0 "R302" H 3550 3550 50  0000 C CNN
 F 1 "2.2k" H 3550 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3330 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 3500 50  0001 C CNN
 F 3 "" H 3400 3500 50  0001 C CNN
 	1    3400 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R301
+L Device:R R301
 U 1 1 5AE62134
 P 3000 3500
 F 0 "R301" H 3150 3550 50  0000 C CNN
 F 1 "2.2k" H 3150 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2930 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 3500 50  0001 C CNN
 F 3 "" H 3000 3500 50  0001 C CNN
 	1    3000 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:LED_ALT D301
+L Device:LED_ALT D301
 U 1 1 5AE62EC1
 P 3000 3150
 F 0 "D301" V 3050 3325 50  0000 C CNN
@@ -351,7 +351,7 @@ F 3 "" H 7100 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB301
+L Device:Ferrite_Bead FB301
 U 1 1 5AE846A8
 P 6900 2600
 F 0 "FB301" V 6675 2600 50  0000 C CNN
@@ -379,7 +379,7 @@ F 3 "" H 7500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_Zener_ALT D303
+L Device:D_Zener_ALT D303
 U 1 1 5AE86DF6
 P 7250 2800
 F 0 "D303" V 7200 3000 50  0000 C CNN
@@ -1962,12 +1962,12 @@ $EndComp
 Text Notes 8550 2550 0    60   ~ 0
 ~~110uF
 $Comp
-L dvk-mx8m-bsb-rescue:R R309
+L Device:R R309
 U 1 1 5B0E4134
 P 9550 2600
 F 0 "R309" V 9630 2600 50  0000 C CNN
 F 1 "NC" V 9450 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_2512" V 9480 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 9480 2600 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/CSR.pdf" H 9550 2600 50  0001 C CNN
 F 4 "Riedon" V 9550 2600 60  0001 C CNN "MFG Name"
 F 5 "CSR2512A0R025F" V 9550 2600 60  0001 C CNN "MFG Part Num"
@@ -1979,12 +1979,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Conn_01x02 JP301
+L Connector_Generic:Conn_01x02 JP301
 U 1 1 5B0E413B
 P 9500 2150
 F 0 "JP301" V 9600 2100 50  0000 C CNN
 F 1 "NC" V 9400 1950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9500 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9500 2150 50  0001 C CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0015381026_ACCESSORIES.pdf" H 9500 2150 50  0001 C CNN
 F 4 "Molex" V 9500 2150 60  0001 C CNN "MFG Name"
 F 5 "0022284020" V 9500 2150 60  0001 C CNN "MFG Part Num"
@@ -1996,12 +1996,12 @@ F 9 "https://www.arrow.com/en/products/0015381026/molex" V 9500 2150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4250 2550 4250 2650
+	4250 2550 4250 2600
 Connection ~ 4250 2600
 Wire Wire Line
 	4250 3000 4250 2950
 Wire Wire Line
-	5550 2600 5750 2600
+	5550 2600 5600 2600
 Wire Wire Line
 	5650 2650 5650 2600
 Connection ~ 5650 2600
@@ -2028,14 +2028,14 @@ Wire Wire Line
 Wire Wire Line
 	4450 3100 4450 3050
 Wire Wire Line
-	5550 3750 6100 3750
+	5550 3750 5600 3750
 Wire Wire Line
 	6100 3750 6100 2600
 Connection ~ 6100 2600
 Wire Wire Line
 	6350 2950 6350 3000
 Wire Wire Line
-	6350 3000 6550 3000
+	6350 3000 6450 3000
 Wire Wire Line
 	6550 3000 6550 2950
 Wire Wire Line
@@ -2055,11 +2055,11 @@ Wire Wire Line
 	6100 5000 6100 5050
 Connection ~ 6100 5000
 Wire Wire Line
-	5550 4350 6300 4350
+	5550 4350 5900 4350
 Wire Wire Line
 	6300 4350 6300 4400
 Wire Wire Line
-	5900 4200 5900 4450
+	5900 4200 5900 4350
 Connection ~ 5900 4350
 Wire Wire Line
 	5950 4200 5900 4200
@@ -2096,18 +2096,18 @@ Wire Wire Line
 Wire Wire Line
 	4200 3300 4550 3300
 Wire Wire Line
-	6050 2600 6750 2600
+	6050 2600 6100 2600
 Wire Wire Line
 	7750 3000 7750 2950
 Wire Wire Line
-	7500 2950 7500 3050
+	7500 2950 7500 3000
 Wire Wire Line
 	7250 3000 7250 2950
 Wire Wire Line
-	7050 2600 9400 2600
+	7050 2600 7250 2600
 Connection ~ 7750 2600
 Wire Wire Line
-	7500 2550 7500 2650
+	7500 2550 7500 2600
 Connection ~ 7500 2600
 Wire Wire Line
 	7250 2650 7250 2600
@@ -2115,19 +2115,19 @@ Connection ~ 7250 2600
 Wire Wire Line
 	5600 4150 5550 4150
 Wire Wire Line
-	7250 3000 7750 3000
+	7250 3000 7500 3000
 Connection ~ 7500 3000
 Wire Wire Line
-	6700 4550 7500 4550
+	6700 4550 7100 4550
 Wire Wire Line
 	7500 4550 7500 4300
 Wire Wire Line
-	7100 4500 7100 4600
+	7100 4500 7100 4550
 Connection ~ 7100 4550
 Wire Wire Line
 	7500 3900 7500 4000
 Wire Wire Line
-	6700 3850 6700 4000
+	6700 3850 6700 3900
 Connection ~ 6700 3900
 Wire Wire Line
 	5550 4650 5600 4650
@@ -2138,7 +2138,7 @@ Wire Wire Line
 	5600 2700 5600 2600
 Connection ~ 5600 2600
 Wire Wire Line
-	3900 4400 3900 4700
+	3900 4400 3900 4650
 Wire Wire Line
 	3900 4100 3900 4050
 Wire Wire Line
@@ -2151,11 +2151,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 3300 3900 3300
 Wire Wire Line
-	3500 4450 4550 4450
+	3500 4450 3550 4450
 Wire Wire Line
 	7250 3900 7500 3900
 Wire Wire Line
-	5550 3900 6950 3900
+	5550 3900 5600 3900
 Wire Wire Line
 	6400 3900 6400 3850
 Connection ~ 6400 3900
@@ -2170,23 +2170,23 @@ Wire Notes Line
 Wire Wire Line
 	3950 2500 4000 2500
 Wire Wire Line
-	4000 2500 4000 2700
+	4000 2500 4000 2600
 Wire Wire Line
 	4000 2700 3950 2700
 Connection ~ 4000 2600
 Wire Wire Line
-	4000 2600 4550 2600
+	4000 2600 4250 2600
 Wire Wire Line
 	10200 2500 10150 2500
 Wire Wire Line
-	10150 2500 10150 2700
+	10150 2500 10150 2600
 Wire Wire Line
 	10150 2700 10200 2700
 Connection ~ 10150 2600
 Wire Wire Line
 	8200 2950 8200 3000
 Wire Wire Line
-	8200 3000 9200 3000
+	8200 3000 8450 3000
 Wire Wire Line
 	9200 3000 9200 2950
 Wire Wire Line
@@ -2208,7 +2208,7 @@ Wire Wire Line
 	8450 2950 8450 3000
 Connection ~ 8450 3000
 Wire Wire Line
-	8700 2950 8700 3050
+	8700 2950 8700 3000
 Wire Wire Line
 	8950 2950 8950 3000
 Connection ~ 8950 3000
@@ -2216,12 +2216,12 @@ Connection ~ 8700 3000
 Wire Wire Line
 	9500 2350 9500 2400
 Wire Wire Line
-	9350 2400 9750 2400
+	9350 2400 9500 2400
 Wire Wire Line
 	9350 2400 9350 2600
 Connection ~ 9350 2600
 Wire Wire Line
-	9700 2600 10150 2600
+	9700 2600 9750 2600
 Wire Wire Line
 	9600 2400 9600 2350
 Wire Wire Line
@@ -2232,12 +2232,12 @@ Connection ~ 9500 2400
 Wire Wire Line
 	7750 2650 7750 2600
 $Comp
-L dvk-mx8m-bsb-rescue:C C310
+L Device:C C310
 U 1 1 5B1BC001
 P 8200 2800
 F 0 "C310" H 8225 2900 50  0000 L CNN
 F 1 "22uF" H 8225 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8238 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8200 2800 50  0001 C CNN
 F 4 "Samsung" H 8200 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8200 2800 60  0001 C CNN "MFG Part Num"
@@ -2267,12 +2267,12 @@ Wire Wire Line
 	9950 2650 9950 2600
 Connection ~ 9950 2600
 $Comp
-L dvk-mx8m-bsb-rescue:R R305
+L Device:R R305
 U 1 1 5B302D80
 P 4050 3300
 F 0 "R305" V 4125 3300 50  0000 C CNN
 F 1 "10k" V 3950 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3980 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 3300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4050 3300 50  0001 C CNN
 F 4 "Stackpole" H 4050 3300 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 4050 3300 60  0001 C CNN "MFG Part Num"
@@ -2284,12 +2284,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R304
+L Device:R R304
 U 1 1 5B2F65C3
 P 3900 4250
 F 0 "R304" H 4050 4300 50  0000 C CNN
 F 1 "10k" H 4025 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3830 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3900 4250 50  0001 C CNN
 F 4 "Stackpole" H 3900 4250 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3900 4250 60  0001 C CNN "MFG Part Num"
@@ -2303,12 +2303,12 @@ $EndComp
 Text Notes 6300 5400 0    60   ~ 0
 Battery holder seems to fit up to ~~68.88mm long batteries\nneed to test 18650 protected cells which are ~~69.35mm long
 $Comp
-L dvk-mx8m-bsb-rescue:C C305
+L Device:C C305
 U 1 1 5B0BB8A8
 P 6350 2800
 F 0 "C305" H 6150 2900 50  0000 L CNN
 F 1 "10uF" H 6150 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6388 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 2650 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6350 2800 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6350 2800 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6350 2800 60  0001 C CNN "MFG Part Num"
@@ -2320,12 +2320,12 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C306
+L Device:C C306
 U 1 1 5B0BBD65
 P 6550 2800
 F 0 "C306" H 6350 2900 50  0000 L CNN
 F 1 "10uF" H 6350 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6588 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 2650 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6550 2800 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6550 2800 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6550 2800 60  0001 C CNN "MFG Part Num"
@@ -2337,12 +2337,12 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C307
+L Device:C C307
 U 1 1 5B0BD3BE
 P 6700 4150
 F 0 "C307" H 6500 4250 50  0000 L CNN
 F 1 "10uF" H 6500 4050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6738 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6738 4000 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6700 4150 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6700 4150 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6700 4150 60  0001 C CNN "MFG Part Num"
@@ -2354,7 +2354,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q301
+L Device:Q_NMOS_GSD Q301
 U 1 1 5B59770D
 P 3800 4900
 F 0 "Q301" H 4000 4950 50  0000 L CNN
@@ -2379,12 +2379,12 @@ Read: 0xD7\nWrite: 0xD6
 Text Notes 7850 4025 0    60   ~ 0
 ICHG(default)=REG[6:0]=2048mA (reduce to ~~1.6A [0011001])
 $Comp
-L dvk-mx8m-bsb-rescue:R R303
+L Device:R R303
 U 1 1 5B2725A1
 P 3550 4250
 F 0 "R303" H 3700 4300 50  0000 C CNN
 F 1 "10k" H 3675 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3480 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 4250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3550 4250 50  0001 C CNN
 F 4 "Stackpole" H 3550 4250 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3550 4250 60  0001 C CNN "MFG Part Num"
@@ -2427,7 +2427,7 @@ $EndComp
 Text Notes 3050 3800 0    60   ~ 0
 sink current ~~5mA
 $Comp
-L dvk-mx8m-bsb-rescue:LED_ALT D302
+L Device:LED_ALT D302
 U 1 1 5B304940
 P 3400 3150
 F 0 "D302" V 3450 3325 50  0000 C CNN
@@ -2444,7 +2444,7 @@ F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 3400 3150 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:LED_ALT D304
+L Device:LED_ALT D304
 U 1 1 5B3049D4
 P 9950 2800
 F 0 "D304" V 10000 2975 50  0000 C CNN
@@ -2461,12 +2461,12 @@ F 9 "https://octopart.com/search?q=LTST-C190GKT&start=0" V 9950 2800 60  0001 C 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R310
+L Device:R R310
 U 1 1 5B30501E
 P 9950 3150
 F 0 "R310" H 10100 3200 50  0000 C CNN
 F 1 "1.5k" H 10100 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9880 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9880 3150 50  0001 C CNN
 F 3 "" H 9950 3150 50  0001 C CNN
 	1    9950 3150
 	-1   0    0    -1  
@@ -2491,17 +2491,17 @@ Connection ~ 5600 4650
 Wire Wire Line
 	5050 4950 5050 5000
 Wire Wire Line
-	5050 5000 6300 5000
+	5050 5000 5600 5000
 Wire Wire Line
-	5600 4550 5600 5000
+	5600 4550 5600 4650
 Connection ~ 5600 5000
 $Comp
-L dvk-mx8m-bsb-rescue:C C311
+L Device:C C311
 U 1 1 5B3268DD
 P 8450 2800
 F 0 "C311" H 8475 2900 50  0000 L CNN
 F 1 "22uF" H 8475 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8488 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8450 2800 50  0001 C CNN
 F 4 "Samsung" H 8450 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8450 2800 60  0001 C CNN "MFG Part Num"
@@ -2513,12 +2513,12 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C312
+L Device:C C312
 U 1 1 5B326949
 P 8700 2800
 F 0 "C312" H 8725 2900 50  0000 L CNN
 F 1 "22uF" H 8725 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8738 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8738 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8700 2800 50  0001 C CNN
 F 4 "Samsung" H 8700 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8700 2800 60  0001 C CNN "MFG Part Num"
@@ -2530,12 +2530,12 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C313
+L Device:C C313
 U 1 1 5B3269CC
 P 8950 2800
 F 0 "C313" H 8975 2900 50  0000 L CNN
 F 1 "22uF" H 8975 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8988 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8950 2800 50  0001 C CNN
 F 4 "Samsung" H 8950 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8950 2800 60  0001 C CNN "MFG Part Num"
@@ -2547,12 +2547,12 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C314
+L Device:C C314
 U 1 1 5B326A44
 P 9200 2800
 F 0 "C314" H 9225 2900 50  0000 L CNN
 F 1 "22uF" H 9225 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9238 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9238 2650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 9200 2800 50  0001 C CNN
 F 4 "Samsung" H 9200 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 9200 2800 60  0001 C CNN "MFG Part Num"
@@ -2567,4 +2567,94 @@ Text Notes 4275 2750 0    39   ~ 0
 35V
 Text Notes 8225 2675 0    39   ~ 0
 10V
+Wire Wire Line
+	4250 2600 4250 2650
+Wire Wire Line
+	4250 2600 4550 2600
+Wire Wire Line
+	5650 2600 5750 2600
+Wire Wire Line
+	6100 2600 6350 2600
+Wire Wire Line
+	6450 3000 6550 3000
+Wire Wire Line
+	6350 2600 6550 2600
+Wire Wire Line
+	6550 2600 6750 2600
+Wire Wire Line
+	6100 5000 6300 5000
+Wire Wire Line
+	5900 4350 6300 4350
+Wire Wire Line
+	5900 4350 5900 4450
+Wire Wire Line
+	7750 2600 8200 2600
+Wire Wire Line
+	7500 2600 7750 2600
+Wire Wire Line
+	7500 2600 7500 2650
+Wire Wire Line
+	7250 2600 7500 2600
+Wire Wire Line
+	7500 3000 7500 3050
+Wire Wire Line
+	7500 3000 7750 3000
+Wire Wire Line
+	7100 4550 7500 4550
+Wire Wire Line
+	7100 4550 7100 4600
+Wire Wire Line
+	6700 3900 6700 4000
+Wire Wire Line
+	6700 3900 6950 3900
+Wire Wire Line
+	5900 5000 6100 5000
+Wire Wire Line
+	5600 2600 5650 2600
+Wire Wire Line
+	3900 4650 3900 4700
+Wire Wire Line
+	6400 3900 6700 3900
+Wire Wire Line
+	4000 2600 4000 2700
+Wire Wire Line
+	10150 2600 10150 2700
+Wire Wire Line
+	8200 2600 8450 2600
+Wire Wire Line
+	8450 2600 8700 2600
+Wire Wire Line
+	8700 2600 8950 2600
+Wire Wire Line
+	8950 2600 9200 2600
+Wire Wire Line
+	9200 2600 9350 2600
+Wire Wire Line
+	8450 3000 8700 3000
+Wire Wire Line
+	8950 3000 9200 3000
+Wire Wire Line
+	8700 3000 8700 3050
+Wire Wire Line
+	8700 3000 8950 3000
+Wire Wire Line
+	9350 2600 9400 2600
+Wire Wire Line
+	9750 2600 9950 2600
+Wire Wire Line
+	9600 2400 9750 2400
+Wire Wire Line
+	9500 2400 9600 2400
+Wire Wire Line
+	9950 2600 10150 2600
+Wire Wire Line
+	3550 4450 4550 4450
+Wire Wire Line
+	5600 3750 6100 3750
+Wire Wire Line
+	5600 3900 6400 3900
+Wire Wire Line
+	5600 4650 5600 5000
+Wire Wire Line
+	5600 5000 5900 5000
 $EndSCHEMATC

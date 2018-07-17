@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 14 24
 Title "Buttons & LED"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -15,7 +15,7 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L dvk-mx8m-bsb-rescue:SW_Push SW1401
+L Switch:SW_Push SW1401
 U 1 1 5ACC3A06
 P 3250 2250
 F 0 "SW1401" H 3300 2350 50  0000 L CNN
@@ -96,12 +96,12 @@ F 3 "" H 8600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1411
+L Device:R R1411
 U 1 1 5ACC7E2E
 P 8600 3350
 F 0 "R1411" H 8775 3400 50  0000 C CNN
 F 1 "330" H 8725 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8530 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 3350 50  0001 C CNN
 F 3 "" H 8600 3350 50  0001 C CNN
 	1    8600 3350
 	-1   0    0    -1  
@@ -163,45 +163,45 @@ Wire Wire Line
 Wire Wire Line
 	2900 6400 2900 6350
 $Comp
-L dvk-mx8m-bsb-rescue:R R1402
+L Device:R R1402
 U 1 1 5B0787FA
 P 2900 3700
 F 0 "R1402" H 3075 3750 50  0000 C CNN
 F 1 "33" H 3000 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2830 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 3700 50  0001 C CNN
 F 3 "" H 2900 3700 50  0001 C CNN
 	1    2900 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1401
+L Device:R R1401
 U 1 1 5B078851
 P 2900 2450
 F 0 "R1401" H 3075 2500 50  0000 C CNN
 F 1 "33" H 3000 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2830 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 2450 50  0001 C CNN
 F 3 "" H 2900 2450 50  0001 C CNN
 	1    2900 2450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1404
+L Device:R R1404
 U 1 1 5B07894D
 P 2900 6200
 F 0 "R1404" H 3075 6250 50  0000 C CNN
 F 1 "33" H 3000 6150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2830 6200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 6200 50  0001 C CNN
 F 3 "" H 2900 6200 50  0001 C CNN
 	1    2900 6200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1403
+L Device:R R1403
 U 1 1 5B0789B5
 P 2900 4950
 F 0 "R1403" H 3075 5000 50  0000 C CNN
 F 1 "33" H 3000 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2830 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 4950 50  0001 C CNN
 F 3 "" H 2900 4950 50  0001 C CNN
 	1    2900 4950
 	-1   0    0    -1  
@@ -222,12 +222,12 @@ MIC6315's ~MR
 Text Notes 4300 5050 0    60   ~ 0
 may tie ~WDG\nvia a diode
 $Comp
-L dvk-mx8m-bsb-rescue:C C1402
+L Device:C C1402
 U 1 1 5AF882AE
 P 3700 3700
 F 0 "C1402" H 3725 3800 50  0000 L CNN
 F 1 "10nF" H 3725 3600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3738 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 3550 50  0001 C CNN
 F 3 "" H 3700 3700 50  0001 C CNN
 	1    3700 3700
 	1    0    0    -1  
@@ -250,12 +250,12 @@ Wire Wire Line
 Wire Wire Line
 	3700 3450 3700 3550
 $Comp
-L dvk-mx8m-bsb-rescue:C C1401
+L Device:C C1401
 U 1 1 5AF899A7
 P 3700 2450
 F 0 "C1401" H 3725 2550 50  0000 L CNN
 F 1 "10nF" H 3725 2350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3738 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 2300 50  0001 C CNN
 F 3 "" H 3700 2450 50  0001 C CNN
 	1    3700 2450
 	1    0    0    -1  
@@ -278,12 +278,12 @@ Wire Wire Line
 Wire Wire Line
 	3700 2200 3700 2300
 $Comp
-L dvk-mx8m-bsb-rescue:C C1404
+L Device:C C1404
 U 1 1 5AF8B583
 P 3700 6200
 F 0 "C1404" H 3725 6300 50  0000 L CNN
 F 1 "10nF" H 3725 6100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3738 6050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 6050 50  0001 C CNN
 F 3 "" H 3700 6200 50  0001 C CNN
 	1    3700 6200
 	1    0    0    -1  
@@ -303,12 +303,12 @@ Wire Wire Line
 	3700 6400 3700 6350
 Connection ~ 3700 6000
 $Comp
-L dvk-mx8m-bsb-rescue:C C1403
+L Device:C C1403
 U 1 1 5AF8B7EB
 P 3700 4950
 F 0 "C1403" H 3725 5050 50  0000 L CNN
 F 1 "10nF" H 3725 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3738 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 4800 50  0001 C CNN
 F 3 "" H 3700 4950 50  0001 C CNN
 	1    3700 4950
 	1    0    0    -1  
@@ -335,23 +335,23 @@ Text Notes 7350 3650 0    60   ~ 0
 Text Notes 7100 2450 0    60   ~ 0
 Use PWM2_PWMSAR to set the compare value (duty cycle)\nUse PWM2_PWMCR[15:4] to set the PRESCALER (frequency)\nUse PWM2_PWMPR to set the top of the counter (frequency)
 $Comp
-L dvk-mx8m-bsb-rescue:R R1409
+L Device:R R1409
 U 1 1 5AFF5FC7
 P 7900 3950
 F 0 "R1409" H 8075 4000 50  0000 C CNN
 F 1 "100k" H 8050 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7830 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7830 3950 50  0001 C CNN
 F 3 "" H 7900 3950 50  0001 C CNN
 	1    7900 3950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1410
+L Device:R R1410
 U 1 1 5AFF6F1F
 P 8100 3750
 F 0 "R1410" V 8180 3750 50  0000 C CNN
 F 1 "100" V 8100 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8030 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 3750 50  0001 C CNN
 F 3 "" H 8100 3750 50  0001 C CNN
 	1    8100 3750
 	0    -1   -1   0   
@@ -441,12 +441,12 @@ Wire Wire Line
 Wire Wire Line
 	3500 5150 3500 5100
 $Comp
-L dvk-mx8m-bsb-rescue:R R1406
+L Device:R R1406
 U 1 1 5B3258BE
 P 3700 3300
 F 0 "R1406" H 3875 3350 50  0000 C CNN
 F 1 "10k" H 3825 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3630 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 3300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3700 3300 50  0001 C CNN
 F 4 "Stackpole" H 3700 3300 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3700 3300 60  0001 C CNN "MFG Part Num"
@@ -458,12 +458,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1405
+L Device:R R1405
 U 1 1 5B32596C
 P 3700 2050
 F 0 "R1405" H 3875 2100 50  0000 C CNN
 F 1 "10k" H 3825 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3630 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 2050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3700 2050 50  0001 C CNN
 F 4 "Stackpole" H 3700 2050 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3700 2050 60  0001 C CNN "MFG Part Num"
@@ -475,12 +475,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1407
+L Device:R R1407
 U 1 1 5B1DBA91
 P 3700 4550
 F 0 "R1407" H 3875 4600 50  0000 C CNN
 F 1 "NC" H 3825 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3630 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 4550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3700 4550 50  0001 C CNN
 F 4 "Stackpole" H 3700 4550 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3700 4550 60  0001 C CNN "MFG Part Num"
@@ -494,12 +494,12 @@ $EndComp
 Wire Wire Line
 	3700 5650 3700 5600
 $Comp
-L dvk-mx8m-bsb-rescue:R R1408
+L Device:R R1408
 U 1 1 5B1DBBDC
 P 3700 5800
 F 0 "R1408" H 3875 5850 50  0000 C CNN
 F 1 "NC" H 3825 5750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3630 5800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 5800 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3700 5800 50  0001 C CNN
 F 4 "Stackpole" H 3700 5800 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3700 5800 60  0001 C CNN "MFG Part Num"
@@ -557,7 +557,7 @@ F 3 "" H 3700 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D1401
+L Device:D_TVS_ALT D1401
 U 1 1 5B21D323
 P 3500 2450
 F 0 "D1401" V 3450 2250 50  0000 C CNN
@@ -574,7 +574,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 2450 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D1402
+L Device:D_TVS_ALT D1402
 U 1 1 5B21D35C
 P 3500 3700
 F 0 "D1402" V 3450 3500 50  0000 C CNN
@@ -591,7 +591,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 3700 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D1403
+L Device:D_TVS_ALT D1403
 U 1 1 5B21D5E6
 P 3500 4950
 F 0 "D1403" V 3450 4750 50  0000 C CNN
@@ -608,7 +608,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 4950 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D1404
+L Device:D_TVS_ALT D1404
 U 1 1 5B21D894
 P 3500 6200
 F 0 "D1404" V 3450 6000 50  0000 C CNN
@@ -625,7 +625,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 3500 6200 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:LED_ALT D1405
+L Device:LED_ALT D1405
 U 1 1 5B2AEB0F
 P 8600 3000
 F 0 "D1405" V 8600 3200 50  0000 C CNN
@@ -646,7 +646,7 @@ Text Notes 8650 3550 0    60   ~ 0
 Text Notes 4750 1400 0    236  ~ 47
 Buttons & LED
 $Comp
-L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1401
+L Device:Q_NMOS_GSD Q1401
 U 1 1 5B2E41DC
 P 8500 3750
 F 0 "Q1401" H 8700 3800 50  0000 L CNN
@@ -663,7 +663,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 8500 3750 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:SW_Push SW1402
+L Switch:SW_Push SW1402
 U 1 1 5B49E70C
 P 3250 3500
 F 0 "SW1402" H 3300 3600 50  0000 L CNN
@@ -680,7 +680,7 @@ F 9 "https://octopart.com/search?q=B3U-3000P&start=0" H 3250 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:SW_Push SW1403
+L Switch:SW_Push SW1403
 U 1 1 5B49E7A1
 P 3250 4750
 F 0 "SW1403" H 3300 4850 50  0000 L CNN
@@ -697,7 +697,7 @@ F 9 "https://octopart.com/search?q=B3U-3000P&start=0" H 3250 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:SW_Push SW1404
+L Switch:SW_Push SW1404
 U 1 1 5B49EA09
 P 3250 6000
 F 0 "SW1404" H 3300 6100 50  0000 L CNN

@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name dvk-mx8m-bsb-rescue)(type Legacy)(uri ${KIPRJMOD}/dvk-mx8m-bsb-rescue.lib)(options "")(descr ""))
   (lib (name dvk-mx8m-bsb)(type Legacy)(uri ${KIPRJMOD}/dvk-mx8m-bsb.lib)(options "")(descr ""))
 )

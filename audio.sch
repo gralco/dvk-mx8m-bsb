@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 24
 Title "Audio"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -55,23 +55,23 @@ SAI2_TXD
 Text HLabel 1250 3750 0    60   Input ~ 0
 SAI2_MCLK
 $Comp
-L dvk-mx8m-bsb-rescue:C C1606
+L Device:C C1606
 U 1 1 5ABEF358
 P 3900 3450
 F 0 "C1606" H 3925 3550 50  0000 L CNN
 F 1 "NC" H 3925 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3938 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 3300 50  0001 C CNN
 F 3 "" H 3900 3450 50  0001 C CNN
 	1    3900 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1608
+L Device:C C1608
 U 1 1 5ABEF388
 P 4200 3450
 F 0 "C1608" H 4225 3550 50  0000 L CNN
 F 1 "NC" H 4225 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4238 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 3300 50  0001 C CNN
 F 3 "" H 4200 3450 50  0001 C CNN
 	1    4200 3450
 	1    0    0    -1  
@@ -99,12 +99,12 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1603
+L Device:R R1603
 U 1 1 5ABEFC7B
 P 4850 3800
 F 0 "R1603" H 5025 3850 50  0000 C CNN
 F 1 "33" H 4975 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4780 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 3800 50  0001 C CNN
 F 3 "" H 4850 3800 50  0001 C CNN
 	1    4850 3800
 	1    0    0    -1  
@@ -121,23 +121,23 @@ F 3 "" H 5200 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1624
+L Device:C C1624
 U 1 1 5ABF2943
 P 8400 3450
 F 0 "C1624" H 8425 3550 50  0000 L CNN
 F 1 "270pF" H 8425 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8438 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 3300 50  0001 C CNN
 F 3 "" H 8400 3450 50  0001 C CNN
 	1    8400 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1621
+L Device:C C1621
 U 1 1 5ABF2987
 P 6900 3450
 F 0 "C1621" H 6925 3550 50  0000 L CNN
 F 1 "270pF" H 6925 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6938 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 3300 50  0001 C CNN
 F 3 "" H 6900 3450 50  0001 C CNN
 	1    6900 3450
 	1    0    0    -1  
@@ -165,45 +165,45 @@ F 3 "" H 6900 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1612
+L Device:C C1612
 U 1 1 5ABF4002
 P 4850 3450
 F 0 "C1612" H 4875 3550 50  0000 L CNN
 F 1 "100nF" H 4875 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4888 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 3300 50  0001 C CNN
 F 3 "" H 4850 3450 50  0001 C CNN
 	1    4850 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1614
+L Device:C C1614
 U 1 1 5ABF490A
 P 5200 3650
 F 0 "C1614" H 5225 3750 50  0000 L CNN
 F 1 "100pF" H 5225 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5238 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 3500 50  0001 C CNN
 F 3 "" H 5200 3650 50  0001 C CNN
 	1    5200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1604
+L Device:R R1604
 U 1 1 5ABF49BF
 P 5550 3650
 F 0 "R1604" H 5725 3700 50  0000 C CNN
 F 1 "15k" H 5675 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5480 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 3650 50  0001 C CNN
 F 3 "" H 5550 3650 50  0001 C CNN
 	1    5550 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1605
+L Device:R R1605
 U 1 1 5ABF53AE
 P 5900 3800
 F 0 "R1605" H 6075 3850 50  0000 C CNN
 F 1 "33" H 6025 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5830 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 3800 50  0001 C CNN
 F 3 "" H 5900 3800 50  0001 C CNN
 	1    5900 3800
 	1    0    0    -1  
@@ -220,34 +220,34 @@ F 3 "" H 6250 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1615
+L Device:C C1615
 U 1 1 5ABF53BC
 P 5900 3450
 F 0 "C1615" H 5925 3550 50  0000 L CNN
 F 1 "100nF" H 5925 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5938 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5938 3300 50  0001 C CNN
 F 3 "" H 5900 3450 50  0001 C CNN
 	1    5900 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1618
+L Device:C C1618
 U 1 1 5ABF53C2
 P 6250 3650
 F 0 "C1618" H 6275 3750 50  0000 L CNN
 F 1 "100pF" H 6275 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 3500 50  0001 C CNN
 F 3 "" H 6250 3650 50  0001 C CNN
 	1    6250 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1606
+L Device:R R1606
 U 1 1 5ABF53C8
 P 6600 3650
 F 0 "R1606" H 6775 3700 50  0000 C CNN
 F 1 "15k" H 6725 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6530 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 3650 50  0001 C CNN
 F 3 "" H 6600 3650 50  0001 C CNN
 	1    6600 3650
 	1    0    0    -1  
@@ -288,12 +288,12 @@ $EndComp
 Text Label 5950 5200 0    60   ~ 0
 MIC_IN
 $Comp
-L dvk-mx8m-bsb-rescue:C C1605
+L Device:C C1605
 U 1 1 5ABFC3EE
 P 3100 3650
 F 0 "C1605" H 3125 3750 50  0000 L CNN
 F 1 "100nF" H 3125 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3138 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 3500 50  0001 C CNN
 F 3 "" H 3100 3650 50  0001 C CNN
 	1    3100 3650
 	1    0    0    -1  
@@ -312,12 +312,12 @@ $EndComp
 NoConn ~ 1650 2600
 NoConn ~ 1650 2700
 $Comp
-L dvk-mx8m-bsb-rescue:C C1622
+L Device:C C1622
 U 1 1 5AC79EEC
 P 7300 5400
 F 0 "C1622" H 7325 5500 50  0000 L CNN
 F 1 "270pF" H 7325 5300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7338 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7338 5250 50  0001 C CNN
 F 3 "" H 7300 5400 50  0001 C CNN
 	1    7300 5400
 	1    0    0    -1  
@@ -334,34 +334,34 @@ F 3 "" H 7300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1607
+L Device:R R1607
 U 1 1 5AC7B464
 P 6600 5450
 F 0 "R1607" V 6500 5450 50  0000 C CNN
 F 1 "2.2k" V 6700 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6530 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 5450 50  0001 C CNN
 F 3 "" H 6600 5450 50  0001 C CNN
 	1    6600 5450
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1620
+L Device:C C1620
 U 1 1 5AC7B848
 P 6600 5200
 F 0 "C1620" V 6725 5100 50  0000 L CNN
 F 1 "100nF" V 6550 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6638 5050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 5050 50  0001 C CNN
 F 3 "" H 6600 5200 50  0001 C CNN
 	1    6600 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1619
+L Device:C C1619
 U 1 1 5AC7BC8A
 P 6400 5650
 F 0 "C1619" H 6425 5750 50  0000 L CNN
 F 1 "1uF" H 6425 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6438 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 5500 50  0001 C CNN
 F 3 "" H 6400 5650 50  0001 C CNN
 	1    6400 5650
 	-1   0    0    -1  
@@ -384,12 +384,12 @@ MIC_IN
 Text Label 1250 2950 0    60   ~ 0
 MIC_BIAS
 $Comp
-L dvk-mx8m-bsb-rescue:CP1 C1609
+L Device:CP1 C1609
 U 1 1 5B25A85A
 P 4550 3050
 F 0 "C1609" V 4600 3100 50  0000 L CNN
 F 1 "220uF" V 4600 2750 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-S_EIA-3216-12_Reflow" H 4550 3050 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 4550 3050 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TLN_Undertab.pdf" H 4550 3050 50  0001 C CNN
 F 4 "AVX" V 4550 3050 60  0001 C CNN "MFG Name"
 F 5 "TLNS227M004R3000" V 4550 3050 60  0001 C CNN "MFG Part Num"
@@ -401,12 +401,12 @@ F 9 "https://www.digikey.com/products/en/capacitors/tantalum-capacitors/59?FV=c0
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:CP1 C1610
+L Device:CP1 C1610
 U 1 1 5B25ADCC
 P 4550 3250
 F 0 "C1610" V 4600 3300 50  0000 L CNN
 F 1 "220uF" V 4600 2950 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-S_EIA-3216-12_Reflow" H 4550 3250 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 4550 3250 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TLN_Undertab.pdf" H 4550 3250 50  0001 C CNN
 F 4 "AVX" V 4550 3250 60  0001 C CNN "MFG Name"
 F 5 "TLNS227M004R3000" V 4550 3250 60  0001 C CNN "MFG Part Num"
@@ -1331,12 +1331,12 @@ $EndComp
 Text Notes 9950 3800 0    60   ~ 0
 Pin 5 (tip switch) is NC,\n  open when inserted
 $Comp
-L dvk-mx8m-bsb-rescue:R R1608
+L Device:R R1608
 U 1 1 5B273184
 P 9650 2850
 F 0 "R1608" H 9825 2900 50  0000 C CNN
 F 1 "1M" H 9750 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9580 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9580 2850 50  0001 C CNN
 F 3 "" H 9650 2850 50  0001 C CNN
 	1    9650 2850
 	-1   0    0    -1  
@@ -1355,12 +1355,12 @@ $EndComp
 Text HLabel 9300 3150 0    60   Output ~ 0
 HP_DET
 $Comp
-L dvk-mx8m-bsb-rescue:R R1601
+L Device:R R1601
 U 1 1 5B4049AB
 P 3450 3650
 F 0 "R1601" H 3625 3700 50  0000 C CNN
 F 1 "NC" H 3550 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3380 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 3650 50  0001 C CNN
 F 3 "" H 3450 3650 50  0001 C CNN
 	1    3450 3650
 	1    0    0    -1  
@@ -1381,12 +1381,12 @@ I2C3_SDA
 Text HLabel 1250 3200 0    60   Input ~ 0
 I2C3_SCL
 $Comp
-L dvk-mx8m-bsb-rescue:C C1602
+L Device:C C1602
 U 1 1 5B420B54
 P 1850 1600
 F 0 "C1602" H 1875 1700 50  0000 L CNN
 F 1 "100nF" H 1875 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1888 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 1450 50  0001 C CNN
 F 3 "" H 1850 1600 50  0001 C CNN
 	1    1850 1600
 	1    0    0    -1  
@@ -1403,23 +1403,23 @@ F 3 "" H 950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1603
+L Device:C C1603
 U 1 1 5B421D97
 P 2500 1400
 F 0 "C1603" H 2525 1500 50  0000 L CNN
 F 1 "100nF" H 2525 1300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2538 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 1250 50  0001 C CNN
 F 3 "" H 2500 1400 50  0001 C CNN
 	1    2500 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1604
+L Device:C C1604
 U 1 1 5B421EEC
 P 3100 2000
 F 0 "C1604" H 3125 2115 50  0000 L CNN
 F 1 "100nF" H 3125 1900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3138 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 1850 50  0001 C CNN
 F 3 "" H 3100 2000 50  0001 C CNN
 	1    3100 2000
 	1    0    0    -1  
@@ -1540,13 +1540,13 @@ Wire Wire Line
 Wire Wire Line
 	3650 3100 3650 3050
 Wire Wire Line
-	3650 3050 4400 3050
+	3650 3050 3900 3050
 Wire Wire Line
 	3050 3200 3650 3200
 Wire Wire Line
 	3650 3200 3650 3250
 Wire Wire Line
-	3650 3250 4400 3250
+	3650 3250 4200 3250
 Wire Wire Line
 	4200 3300 4200 3250
 Connection ~ 4200 3250
@@ -1555,9 +1555,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 3600 3900 3650
 Wire Wire Line
-	4700 3250 6650 3250
+	4700 3250 5900 3250
 Wire Wire Line
-	4700 3050 6650 3050
+	4700 3050 4850 3050
 Wire Wire Line
 	4850 3600 4850 3650
 Wire Wire Line
@@ -1574,11 +1574,11 @@ Wire Wire Line
 	3900 3300 3900 3050
 Connection ~ 3900 3050
 Wire Wire Line
-	4850 4000 5550 4000
+	4850 4000 5200 4000
 Wire Wire Line
 	5550 4000 5550 3800
 Wire Wire Line
-	5200 3800 5200 4050
+	5200 3800 5200 4000
 Connection ~ 5200 4000
 Wire Wire Line
 	4850 3300 4850 3050
@@ -1594,11 +1594,11 @@ Wire Wire Line
 Wire Wire Line
 	5900 3950 5900 4000
 Wire Wire Line
-	5900 4000 6600 4000
+	5900 4000 6250 4000
 Wire Wire Line
 	6600 4000 6600 3800
 Wire Wire Line
-	6250 3800 6250 4050
+	6250 3800 6250 4000
 Connection ~ 6250 4000
 Wire Wire Line
 	5900 3300 5900 3250
@@ -1635,7 +1635,7 @@ Connection ~ 7300 5200
 Wire Wire Line
 	6450 5200 5950 5200
 Wire Wire Line
-	5950 5450 6450 5450
+	5950 5450 6400 5450
 Wire Wire Line
 	6400 5500 6400 5450
 Connection ~ 6400 5450
@@ -1648,9 +1648,9 @@ Wire Wire Line
 Wire Wire Line
 	9850 3350 9900 3350
 Wire Wire Line
-	6850 3050 9900 3050
+	6850 3050 6900 3050
 Wire Wire Line
-	6850 3250 9900 3250
+	6850 3250 7850 3250
 Wire Wire Line
 	9650 2700 9650 2650
 Wire Wire Line
@@ -1674,9 +1674,9 @@ Wire Wire Line
 Wire Wire Line
 	2150 1400 2150 2050
 Wire Wire Line
-	1550 1400 2150 1400
+	1550 1400 1850 1400
 Wire Wire Line
-	950  1350 950  1450
+	950  1350 950  1400
 Wire Wire Line
 	950  1400 1250 1400
 Connection ~ 950  1400
@@ -1688,7 +1688,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2050 2350 1050
 Wire Wire Line
-	2350 1050 2750 1050
+	2350 1050 2500 1050
 Connection ~ 2500 1050
 Wire Wire Line
 	2500 1600 2500 1550
@@ -1706,13 +1706,13 @@ Wire Wire Line
 	3100 2150 3100 2200
 Connection ~ 3100 1800
 Wire Wire Line
-	2550 1800 3550 1800
+	2550 1800 3100 1800
 Wire Wire Line
-	3100 1750 3100 1850
+	3100 1750 3100 1800
 Wire Wire Line
-	1850 1350 1850 1450
+	1850 1350 1850 1400
 Wire Wire Line
-	2500 1000 2500 1250
+	2500 1000 2500 1050
 Text Notes 3100 2900 0    39   ~ 0
 may use lineout left channel\nfor pseudo-earpiece speaker
 Text Notes 7650 5700 0    60   ~ 0
@@ -1732,7 +1732,7 @@ If HP_DET is HIGH for >100ms then HPs are present
 Text Notes 7000 1450 0    60   ~ 0
 dB specs in datasheet is a unit of power gain (not dBu or VU)\nwith respect to the DAC's unattenuated output
 $Comp
-L dvk-mx8m-bsb-rescue:D_Zener_ALT D1603
+L Device:D_Zener_ALT D1603
 U 1 1 5AF88A1E
 P 9650 3650
 F 0 "D1603" V 9600 3450 50  0000 C CNN
@@ -1752,7 +1752,7 @@ Connection ~ 9650 3150
 Wire Wire Line
 	9650 3800 9650 3850
 Wire Wire Line
-	9650 3850 9850 3850
+	9650 3850 9750 3850
 Wire Wire Line
 	9850 3850 9850 3350
 Wire Wire Line
@@ -1761,16 +1761,16 @@ Connection ~ 9750 3850
 Text Notes 9200 4025 0    60   ~ 0
 Vz=4.7V\nVr=3.0V\nVf=0.9V
 Wire Wire Line
-	9300 3150 9900 3150
+	9300 3150 9650 3150
 Wire Wire Line
-	9650 3000 9650 3500
+	9650 3000 9650 3150
 $Comp
-L dvk-mx8m-bsb-rescue:C C1625
+L Device:C C1625
 U 1 1 5AF9EA3B
 P 8600 4350
 F 0 "C1625" H 8625 4450 50  0000 L CNN
 F 1 "10nF" H 8625 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8638 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 4200 50  0001 C CNN
 F 3 "" H 8600 4350 50  0001 C CNN
 	1    8600 4350
 	1    0    0    -1  
@@ -1787,19 +1787,19 @@ F 3 "" H 8600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 4100 8400 4700
+	8400 4100 8400 4150
 Wire Wire Line
 	8600 4150 8600 4200
 Connection ~ 8400 4150
 Wire Wire Line
 	8600 4550 8600 4500
 $Comp
-L dvk-mx8m-bsb-rescue:C C1623
+L Device:C C1623
 U 1 1 5AF9F523
 P 8200 4350
 F 0 "C1623" H 8225 4450 50  0000 L CNN
 F 1 "100nF" H 8225 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8238 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 4200 50  0001 C CNN
 F 3 "" H 8200 4350 50  0001 C CNN
 	1    8200 4350
 	-1   0    0    -1  
@@ -1820,7 +1820,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4200 8200 4150
 Wire Wire Line
-	8200 4150 8600 4150
+	8200 4150 8400 4150
 $Comp
 L dvk-mx8m-bsb:3V3_P #PWR0290
 U 1 1 5AFA078E
@@ -1833,11 +1833,11 @@ F 3 "" H 8400 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 5200 7650 5200
+	7200 5200 7300 5200
 Text Label 9300 3150 0    60   ~ 0
 HP_DET
 $Comp
-L dvk-mx8m-bsb-rescue:Microphone MK1601
+L Device:Microphone MK1601
 U 1 1 5AFB70F1
 P 9000 5350
 F 0 "MK1601" H 8850 5400 50  0000 R CNN
@@ -1925,7 +1925,7 @@ SW Mute Mic:\nMUTE_ADC=1
 Text Notes 9250 2725 0    60   ~ 0
 <3.3μA
 $Comp
-L dvk-mx8m-bsb-rescue:PAM8301 U1602
+L Amplifier_Audio:PAM8301 U1602
 U 1 1 5AFB8088
 P 4750 2250
 F 0 "U1602" H 4650 2575 50  0000 R CNN
@@ -1956,7 +1956,7 @@ Wire Wire Line
 	4750 2600 4750 2550
 NoConn ~ 3050 2800
 $Comp
-L dvk-mx8m-bsb-rescue:Speaker LS1601
+L Device:Speaker LS1601
 U 1 1 5AFC0731
 P 6600 2200
 F 0 "LS1601" H 6725 2475 50  0000 R CNN
@@ -1977,23 +1977,23 @@ Wire Wire Line
 Wire Wire Line
 	5150 2350 5350 2350
 $Comp
-L dvk-mx8m-bsb-rescue:C C1616
+L Device:C C1616
 U 1 1 5AFC383A
 P 6050 2550
 F 0 "C1616" H 6075 2650 50  0000 L CNN
 F 1 "220pF" H 6075 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6088 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6088 2400 50  0001 C CNN
 F 3 "" H 6050 2550 50  0001 C CNN
 	1    6050 2550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1617
+L Device:C C1617
 U 1 1 5AFC38D8
 P 6250 2550
 F 0 "C1617" H 6275 2650 50  0000 L CNN
 F 1 "220pF" H 6275 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 2400 50  0001 C CNN
 F 3 "" H 6250 2550 50  0001 C CNN
 	1    6250 2550
 	1    0    0    -1  
@@ -2010,7 +2010,7 @@ F 3 "" H 6150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 2150 6350 2150
+	5550 2150 6250 2150
 Wire Wire Line
 	6350 2150 6350 2200
 Wire Wire Line
@@ -2020,11 +2020,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 2300 6350 2350
 Wire Wire Line
-	6350 2350 5550 2350
+	6350 2350 6050 2350
 Wire Wire Line
 	6050 2700 6050 2750
 Wire Wire Line
-	6050 2750 6250 2750
+	6050 2750 6150 2750
 Wire Wire Line
 	6250 2750 6250 2700
 Wire Wire Line
@@ -2049,16 +2049,16 @@ S/E button on earbud headsets\nshorts the mic for key function
 Text Notes 7000 2500 0    60   ~ 0
 Could use FSA8008 to detect mic
 Wire Wire Line
-	4250 2350 4350 2350
+	4250 2350 4300 2350
 Text Notes 3050 2650 0    60   ~ 0
 Mute via\nMUTE_LO=1
 $Comp
-L dvk-mx8m-bsb-rescue:C C1613
+L Device:C C1613
 U 1 1 5B018F2A
 P 4900 1450
 F 0 "C1613" H 4925 1550 50  0000 L CNN
 F 1 "1uF" H 4925 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4938 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 1300 50  0001 C CNN
 F 3 "" H 4900 1450 50  0001 C CNN
 	1    4900 1450
 	1    0    0    -1  
@@ -2092,7 +2092,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 1300 4600 1250
 Wire Wire Line
-	4600 1250 4900 1250
+	4600 1250 4750 1250
 Wire Wire Line
 	4900 1250 4900 1300
 Connection ~ 4750 1250
@@ -2108,7 +2108,7 @@ F 3 "" H 4750 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1200 4750 1950
+	4750 1200 4750 1250
 Text Notes 4000 2250 0    60   ~ 0
 fc=106Hz
 Text Notes 8350 6175 0    60   ~ 0
@@ -8673,12 +8673,12 @@ $EndBitmap
 Text Notes 750  4900 0    60   ~ 0
 Built-In Speaker's Frequency Response:
 $Comp
-L dvk-mx8m-bsb-rescue:C C1601
+L Device:C C1601
 U 1 1 5B0BECD5
 P 950 1600
 F 0 "C1601" H 700 1700 50  0000 L CNN
 F 1 "10uF" H 750 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 988 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 1450 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 950 1600 50  0001 C CNN
 F 4 "Taiyo Yuden" V 950 1600 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 950 1600 60  0001 C CNN "MFG Part Num"
@@ -8690,12 +8690,12 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1611
+L Device:C C1611
 U 1 1 5B0BEFB5
 P 4600 1450
 F 0 "C1611" H 4350 1550 50  0000 L CNN
 F 1 "10uF" H 4400 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4638 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 1300 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 4600 1450 50  0001 C CNN
 F 4 "Taiyo Yuden" V 4600 1450 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 4600 1450 60  0001 C CNN "MFG Part Num"
@@ -8710,7 +8710,7 @@ Text Notes 7650 5900 0    60   ~ 0
 5->4 = ON\n5->6 = OFF
 NoConn ~ 8050 5300
 $Comp
-L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1301
+L Switch:SW_DPDT_x2 SW1301
 U 2 1 5B124801
 P 7850 5200
 F 0 "SW1301" H 7850 5010 50  0000 C CNN
@@ -8731,7 +8731,7 @@ Text Notes 600  2450 0    60   ~ 0
 Text Notes 950  2700 0    60   ~ 0
 Read: 0x15\nWrite: 0x14
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1606
+L Device:Ferrite_Bead_Small FB1606
 U 1 1 5B130E92
 P 6750 3050
 F 0 "FB1606" V 6925 2900 50  0000 L CNN
@@ -8748,14 +8748,14 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6750 5200 7000 5200
+	6750 5200 6900 5200
 Wire Wire Line
 	6750 5450 6900 5450
 Wire Wire Line
 	6900 5450 6900 5200
 Connection ~ 6900 5200
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1607
+L Device:Ferrite_Bead_Small FB1607
 U 1 1 5B139DA2
 P 6750 3250
 F 0 "FB1607" V 6875 3325 50  0000 L CNN
@@ -8772,7 +8772,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1608
+L Device:Ferrite_Bead_Small FB1608
 U 1 1 5B13A225
 P 7100 5200
 F 0 "FB1608" V 7275 5050 50  0000 L CNN
@@ -8789,7 +8789,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1604
+L Device:Ferrite_Bead_Small FB1604
 U 1 1 5B1508D3
 P 5450 2150
 F 0 "FB1604" V 5625 2000 50  0000 L CNN
@@ -8806,7 +8806,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead_Small FB1605
+L Device:Ferrite_Bead_Small FB1605
 U 1 1 5B1509AA
 P 5450 2350
 F 0 "FB1605" V 5325 2200 50  0000 L CNN
@@ -8823,7 +8823,7 @@ F 9 "https://www.digikey.com/products/en/filters/ferrite-beads-and-chips/841?FV=
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1601
+L Device:Ferrite_Bead FB1601
 U 1 1 5B136F98
 P 1400 1400
 F 0 "FB1601" V 1250 1400 50  0000 C CNN
@@ -8840,7 +8840,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 1400 1400 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1602
+L Device:Ferrite_Bead FB1602
 U 1 1 5B1372B0
 P 2900 1050
 F 0 "FB1602" V 2750 1050 50  0000 C CNN
@@ -8857,7 +8857,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 2900 1050 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB1603
+L Device:Ferrite_Bead FB1603
 U 1 1 5B137340
 P 3700 1800
 F 0 "FB1603" V 3550 1800 50  0000 C CNN
@@ -8874,7 +8874,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 3700 1800 60  0001 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D1601
+L Device:D_TVS_ALT D1601
 U 1 1 5B226FD2
 P 7300 3450
 F 0 "D1601" V 7250 3260 50  0000 C CNN
@@ -8891,7 +8891,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 7300 3450 60  0001 C 
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D1602
+L Device:D_TVS_ALT D1602
 U 1 1 5B226FDF
 P 7850 3450
 F 0 "D1602" V 7800 3260 50  0000 C CNN
@@ -8912,12 +8912,12 @@ Note:\nAll switches' pins\ncan be swapped\ne.g. 5<->4\n or 5<->6\n (+camera)
 Text Notes 4350 850  0    236  ~ 47
 Audio
 $Comp
-L dvk-mx8m-bsb-rescue:C C1607
+L Device:C C1607
 U 1 1 5B488D5A
 P 3950 2150
 F 0 "C1607" V 3900 2200 50  0000 L CNN
 F 1 "150nF" V 3900 1850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3988 2000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 2000 50  0001 C CNN
 F 3 "https://www.byipcb.com/downloads/CL10B154KA8NNNC.pdf" H 3950 2150 50  0001 C CNN
 F 4 "Samsung" V 3950 2150 60  0001 C CNN "MFG Name"
 F 5 "CL10B154KA8NNNC" V 3950 2150 60  0001 C CNN "MFG Part Num"
@@ -8931,12 +8931,12 @@ $EndComp
 Text HLabel 4250 2350 0    60   Input ~ 0
 MUTE
 $Comp
-L dvk-mx8m-bsb-rescue:R R1602
+L Device:R R1602
 U 1 1 5B4E9C2D
 P 4300 2550
 F 0 "R1602" H 4475 2600 50  0000 C CNN
 F 1 "100k" H 4450 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2550 50  0001 C CNN
 F 3 "" H 4300 2550 50  0001 C CNN
 	1    4300 2550
 	-1   0    0    -1  
@@ -8957,4 +8957,78 @@ Wire Wire Line
 Wire Wire Line
 	4300 2400 4300 2350
 Connection ~ 4300 2350
+Wire Wire Line
+	4200 3250 4400 3250
+Wire Wire Line
+	3900 3050 4400 3050
+Wire Wire Line
+	5200 4000 5550 4000
+Wire Wire Line
+	5200 4000 5200 4050
+Wire Wire Line
+	4850 3050 5200 3050
+Wire Wire Line
+	5200 3050 5550 3050
+Wire Wire Line
+	5550 3050 6650 3050
+Wire Wire Line
+	6250 4000 6600 4000
+Wire Wire Line
+	6250 4000 6250 4050
+Wire Wire Line
+	5900 3250 6250 3250
+Wire Wire Line
+	6250 3250 6600 3250
+Wire Wire Line
+	6600 3250 6650 3250
+Wire Wire Line
+	6900 3050 7300 3050
+Wire Wire Line
+	7850 3250 8400 3250
+Wire Wire Line
+	8400 3250 9900 3250
+Wire Wire Line
+	7300 3050 9900 3050
+Wire Wire Line
+	7300 5200 7650 5200
+Wire Wire Line
+	6400 5450 6450 5450
+Wire Wire Line
+	950  1400 950  1450
+Wire Wire Line
+	1850 1400 2150 1400
+Wire Wire Line
+	1850 1400 1850 1450
+Wire Wire Line
+	2500 1050 2750 1050
+Wire Wire Line
+	2500 1050 2500 1250
+Wire Wire Line
+	3100 1800 3550 1800
+Wire Wire Line
+	3100 1800 3100 1850
+Wire Wire Line
+	9650 3150 9900 3150
+Wire Wire Line
+	9650 3150 9650 3500
+Wire Wire Line
+	9750 3850 9850 3850
+Wire Wire Line
+	8400 4150 8400 4700
+Wire Wire Line
+	8400 4150 8600 4150
+Wire Wire Line
+	6150 2750 6250 2750
+Wire Wire Line
+	6050 2350 5550 2350
+Wire Wire Line
+	6250 2150 6350 2150
+Wire Wire Line
+	4750 1250 4900 1250
+Wire Wire Line
+	4750 1250 4750 1950
+Wire Wire Line
+	6900 5200 7000 5200
+Wire Wire Line
+	4300 2350 4350 2350
 $EndSCHEMATC

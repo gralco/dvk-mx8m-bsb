@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 24
 Title "USB Type C"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -15,12 +15,12 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L dvk-mx8m-bsb-rescue:C C204
+L Device:C C204
 U 1 1 5ADED0EE
 P 1250 1500
 F 0 "C204" V 1300 1600 50  0000 L CNN
 F 1 "2.2uF" V 1200 1250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1288 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 1350 50  0001 C CNN
 F 3 "" H 1250 1500 50  0001 C CNN
 	1    1250 1500
 	0    -1   -1   0   
@@ -28,12 +28,12 @@ $EndComp
 Text Label 1450 1500 0    60   ~ 0
 BYPASS
 $Comp
-L dvk-mx8m-bsb-rescue:C C203
+L Device:C C203
 U 1 1 5ADED0F6
 P 1250 1200
 F 0 "C203" V 1300 1300 50  0000 L CNN
 F 1 "10uF" V 1200 950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1288 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 1050 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1250 1200 50  0001 C CNN
 F 4 "Taiyo Yuden" V 1250 1200 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 1250 1200 60  0001 C CNN "MFG Part Num"
@@ -45,56 +45,56 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C205
+L Device:C C205
 U 1 1 5ADED0FD
 P 1250 1800
 F 0 "C205" V 1300 1900 50  0000 L CNN
 F 1 "4.7uF" V 1200 1550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1288 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 1650 50  0001 C CNN
 F 3 "" H 1250 1800 50  0001 C CNN
 	1    1250 1800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C206
+L Device:C C206
 U 1 1 5ADED104
 P 1250 2350
 F 0 "C206" V 1300 2450 50  0000 L CNN
 F 1 "2.2uF" V 1200 2100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1288 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 2200 50  0001 C CNN
 F 3 "" H 1250 2350 50  0001 C CNN
 	1    1250 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R211
+L Device:R R211
 U 1 1 5ADED10B
 P 4150 1500
 F 0 "R211" V 4230 1500 50  0000 C CNN
 F 1 "NC" V 4150 1500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4080 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 1500 50  0001 C CNN
 F 3 "" H 4150 1500 50  0001 C CNN
 	1    4150 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R212
+L Device:R R212
 U 1 1 5ADED119
 P 4300 2150
 F 0 "R212" V 4350 2400 50  0000 C CNN
 F 1 "NC" V 4300 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2150 50  0001 C CNN
 F 3 "" H 4300 2150 50  0001 C CNN
 	1    4300 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R213
+L Device:R R213
 U 1 1 5ADED120
 P 4300 2250
 F 0 "R213" V 4350 2500 50  0000 C CNN
 F 1 "NC" V 4300 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2250 50  0001 C CNN
 F 3 "" H 4300 2250 50  0001 C CNN
 	1    4300 2250
 	0    -1   -1   0   
@@ -113,45 +113,45 @@ $EndComp
 Text Label 4800 2150 2    60   ~ 0
 BYPASS
 $Comp
-L dvk-mx8m-bsb-rescue:R R215
+L Device:R R215
 U 1 1 5ADED135
 P 4300 2550
 F 0 "R215" V 4350 2850 50  0000 C CNN
 F 1 "NC" V 4300 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2550 50  0001 C CNN
 F 3 "" H 4300 2550 50  0001 C CNN
 	1    4300 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R216
+L Device:R R216
 U 1 1 5ADED13C
 P 4300 2650
 F 0 "R216" V 4350 2900 50  0000 C CNN
 F 1 "NC" V 4300 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2650 50  0001 C CNN
 F 3 "" H 4300 2650 50  0001 C CNN
 	1    4300 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R217
+L Device:R R217
 U 1 1 5ADED143
 P 4300 2900
 F 0 "R217" V 4380 2900 50  0000 C CNN
 F 1 "NC" V 4300 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2900 50  0001 C CNN
 F 3 "" H 4300 2900 50  0001 C CNN
 	1    4300 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R218
+L Device:R R218
 U 1 1 5ADED14A
 P 4300 3100
 F 0 "R218" V 4380 3100 50  0000 C CNN
 F 1 "NC" V 4300 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 3100 50  0001 C CNN
 F 3 "" H 4300 3100 50  0001 C CNN
 	1    4300 3100
 	0    -1   -1   0   
@@ -240,34 +240,34 @@ F 3 "" H 2300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C207
+L Device:C C207
 U 1 1 5AECE8FB
 P 1400 5750
 F 0 "C207" V 1450 5800 50  0000 L CNN
 F 1 "100nF" V 1450 5475 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1438 5600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 5600 50  0001 C CNN
 F 3 "" H 1400 5750 50  0001 C CNN
 	1    1400 5750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C208
+L Device:C C208
 U 1 1 5AECE985
 P 1400 5950
 F 0 "C208" V 1450 6000 50  0000 L CNN
 F 1 "100nF" V 1450 5675 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1438 5800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 5800 50  0001 C CNN
 F 3 "" H 1400 5950 50  0001 C CNN
 	1    1400 5950
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C202
+L Device:C C202
 U 1 1 5AED1DB6
 P 1750 4950
 F 0 "C202" H 1775 5050 50  0000 L CNN
 F 1 "100nF" H 1775 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1788 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 4800 50  0001 C CNN
 F 3 "" H 1750 4950 50  0001 C CNN
 	1    1750 4950
 	-1   0    0    -1  
@@ -284,89 +284,89 @@ F 3 "" H 1600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R202
+L Device:R R202
 U 1 1 5AED5D55
 P 1200 6350
 F 0 "R202" V 1250 6575 50  0000 C CNN
 F 1 "NC" V 1200 6350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1130 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1130 6350 50  0001 C CNN
 F 3 "" H 1200 6350 50  0001 C CNN
 	1    1200 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R203
+L Device:R R203
 U 1 1 5AED67BD
 P 1200 6450
 F 0 "R203" V 1250 6675 50  0000 C CNN
 F 1 "NC" V 1200 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1130 6450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1130 6450 50  0001 C CNN
 F 3 "" H 1200 6450 50  0001 C CNN
 	1    1200 6450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R204
+L Device:R R204
 U 1 1 5AED6845
 P 1200 6550
 F 0 "R204" V 1250 6775 50  0000 C CNN
 F 1 "NC" V 1200 6550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1130 6550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1130 6550 50  0001 C CNN
 F 3 "" H 1200 6550 50  0001 C CNN
 	1    1200 6550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R205
+L Device:R R205
 U 1 1 5AED68D0
 P 1200 6650
 F 0 "R205" V 1250 6875 50  0000 C CNN
 F 1 "NC" V 1200 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1130 6650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1130 6650 50  0001 C CNN
 F 3 "" H 1200 6650 50  0001 C CNN
 	1    1200 6650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R206
+L Device:R R206
 U 1 1 5AED69B2
 P 1400 6850
 F 0 "R206" H 1550 6900 50  0000 C CNN
 F 1 "4.7k" H 1525 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1330 6850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 6850 50  0001 C CNN
 F 3 "" H 1400 6850 50  0001 C CNN
 	1    1400 6850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R207
+L Device:R R207
 U 1 1 5AED7972
 P 1700 6850
 F 0 "R207" H 1850 6900 50  0000 C CNN
 F 1 "4.7k" H 1825 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1630 6850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 6850 50  0001 C CNN
 F 3 "" H 1700 6850 50  0001 C CNN
 	1    1700 6850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R208
+L Device:R R208
 U 1 1 5AED7E8E
 P 2000 6850
 F 0 "R208" H 2150 6900 50  0000 C CNN
 F 1 "4.7k" H 2125 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1930 6850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 6850 50  0001 C CNN
 F 3 "" H 2000 6850 50  0001 C CNN
 	1    2000 6850
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R209
+L Device:R R209
 U 1 1 5AED80E2
 P 2300 6850
 F 0 "R209" H 2450 6900 50  0000 C CNN
 F 1 "4.7k" H 2425 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2230 6850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 6850 50  0001 C CNN
 F 3 "" H 2300 6850 50  0001 C CNN
 	1    2300 6850
 	1    0    0    -1  
@@ -383,12 +383,12 @@ F 3 "" H 1850 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R201
+L Device:R R201
 U 1 1 5AEDAEEC
 P 1200 6250
 F 0 "R201" V 1250 6475 50  0000 C CNN
 F 1 "4.7k" V 1200 6250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1130 6250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1130 6250 50  0001 C CNN
 F 3 "" H 1200 6250 50  0001 C CNN
 	1    1200 6250
 	0    -1   -1   0   
@@ -405,45 +405,45 @@ F 3 "" H 800 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C209
+L Device:C C209
 U 1 1 5AEFF93F
 P 5050 5000
 F 0 "C209" V 5100 5050 50  0000 L CNN
 F 1 "100nF" V 5100 4725 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5088 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 4850 50  0001 C CNN
 F 3 "" H 5050 5000 50  0001 C CNN
 	1    5050 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C210
+L Device:C C210
 U 1 1 5AF01BEA
 P 5050 5200
 F 0 "C210" V 5100 5250 50  0000 L CNN
 F 1 "100nF" V 5100 4925 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5088 5050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 5050 50  0001 C CNN
 F 3 "" H 5050 5200 50  0001 C CNN
 	1    5050 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C211
+L Device:C C211
 U 1 1 5AF05DE3
 P 5050 5500
 F 0 "C211" V 5100 5550 50  0000 L CNN
 F 1 "100nF" V 5100 5225 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5088 5350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 5350 50  0001 C CNN
 F 3 "" H 5050 5500 50  0001 C CNN
 	1    5050 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C212
+L Device:C C212
 U 1 1 5AF075D9
 P 5050 5700
 F 0 "C212" V 5100 5750 50  0000 L CNN
 F 1 "100nF" V 5100 5425 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5088 5550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 5550 50  0001 C CNN
 F 3 "" H 5050 5700 50  0001 C CNN
 	1    5050 5700
 	0    -1   -1   0   
@@ -459,7 +459,7 @@ USB1_RX_N
 Text HLabel 1850 6150 0    60   Input ~ 0
 USB1_SS_SEL
 $Comp
-L dvk-mx8m-bsb-rescue:D_Zener_ALT D203
+L Device:D_Zener_ALT D203
 U 1 1 5AF3B9C5
 P 9100 2950
 F 0 "D203" V 9100 2775 50  0000 C CNN
@@ -487,45 +487,45 @@ F 3 "" H 8800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C215
+L Device:C C215
 U 1 1 5AF3CD28
 P 8800 2950
 F 0 "C215" H 8825 3050 50  0000 L CNN
 F 1 "10nF" H 8825 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8838 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 2800 50  0001 C CNN
 F 3 "" H 8800 2950 50  0001 C CNN
 	1    8800 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C214
+L Device:C C214
 U 1 1 5AF3D4AD
 P 8500 2950
 F 0 "C214" H 8525 3050 50  0000 L CNN
 F 1 "100nF" H 8525 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8538 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 2800 50  0001 C CNN
 F 3 "" H 8500 2950 50  0001 C CNN
 	1    8500 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R224
+L Device:R R224
 U 1 1 5AF41ABE
 P 8000 2950
 F 0 "R224" H 8150 3000 50  0000 C CNN
 F 1 "1M" H 8100 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7930 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 2950 50  0001 C CNN
 F 3 "" H 8000 2950 50  0001 C CNN
 	1    8000 2950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R225
+L Device:R R225
 U 1 1 5AF4CEE1
 P 8000 3550
 F 0 "R225" H 8150 3600 50  0000 C CNN
 F 1 "249k" H 8150 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7930 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 3550 50  0001 C CNN
 F 3 "" H 8000 3550 50  0001 C CNN
 	1    8000 3550
 	-1   0    0    -1  
@@ -548,23 +548,23 @@ F 9 "https://octopart.com/search?q=TLV3201AIDBVR&start=0" H 6650 3250 60  0001 C
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R222
+L Device:R R222
 U 1 1 5AF4F4C0
 P 7650 2950
 F 0 "R222" H 7800 3000 50  0000 C CNN
 F 1 "1.2M" H 7800 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7580 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 2950 50  0001 C CNN
 F 3 "" H 7650 2950 50  0001 C CNN
 	1    7650 2950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R223
+L Device:R R223
 U 1 1 5AF4F746
 P 7650 3550
 F 0 "R223" H 7800 3600 50  0000 C CNN
 F 1 "249k" H 7800 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7580 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3550 50  0001 C CNN
 F 3 "" H 7650 3550 50  0001 C CNN
 	1    7650 3550
 	-1   0    0    -1  
@@ -581,12 +581,12 @@ F 3 "" H 6750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R221
+L Device:R R221
 U 1 1 5AF53777
 P 6300 3550
 F 0 "R221" H 6150 3500 50  0000 C CNN
 F 1 "19.6k" H 6150 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6230 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 3550 50  0001 C CNN
 F 3 "" H 6300 3550 50  0001 C CNN
 	1    6300 3550
 	-1   0    0    1   
@@ -596,12 +596,12 @@ USB1_VBUS
 Text HLabel 5700 3400 0    60   Output ~ 0
 USB1_ID
 $Comp
-L dvk-mx8m-bsb-rescue:R R219
+L Device:R R219
 U 1 1 5AF58EF4
 P 5900 3400
 F 0 "R219" V 5980 3400 50  0000 C CNN
 F 1 "NC" V 5800 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5830 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 3400 50  0001 C CNN
 F 3 "" H 5900 3400 50  0001 C CNN
 	1    5900 3400
 	0    -1   -1   0   
@@ -690,29 +690,29 @@ CC1
 Text Label 9100 3350 0    60   ~ 0
 CC2
 $Comp
-L dvk-mx8m-bsb-rescue:C C216
+L Device:C C216
 U 1 1 5AF9B88F
 P 10350 6100
 F 0 "C216" V 10400 6150 50  0000 L CNN
 F 1 "NC" V 10400 5900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10388 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10388 5950 50  0001 C CNN
 F 3 "" H 10350 6100 50  0001 C CNN
 	1    10350 6100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R226
+L Device:R R226
 U 1 1 5AF9C7FE
 P 10350 6350
 F 0 "R226" V 10430 6350 50  0000 C CNN
 F 1 "0" V 10250 6350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10280 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10280 6350 50  0001 C CNN
 F 3 "" H 10350 6350 50  0001 C CNN
 	1    10350 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D202
+L Device:D_TVS_ALT D202
 U 1 1 5AF9EF91
 P 8800 5550
 F 0 "D202" V 8750 5375 50  0000 C CNN
@@ -774,7 +774,7 @@ F 3 "" H 1450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Polyfuse F201
+L Device:Polyfuse F201
 U 1 1 5AE32200
 P 9500 2750
 F 0 "F201" V 9600 2750 50  0000 C CNN
@@ -894,12 +894,12 @@ F 3 "" H 650 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R210
+L Device:R R210
 U 1 1 5B2F09F9
 P 4150 1300
 F 0 "R210" V 4300 1300 50  0000 C CNN
 F 1 "10k" V 4225 1300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4080 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 1300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4150 1300 50  0001 C CNN
 F 4 "Stackpole" H 4150 1300 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 4150 1300 60  0001 C CNN "MFG Part Num"
@@ -911,12 +911,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R214
+L Device:R R214
 U 1 1 5B2F2DD5
 P 4300 2450
 F 0 "R214" V 4350 2200 50  0000 C CNN
 F 1 "10k" V 4300 2450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4230 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2450 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4300 2450 50  0001 C CNN
 F 4 "Stackpole" H 4300 2450 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 4300 2450 60  0001 C CNN "MFG Part Num"
@@ -928,7 +928,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_Schottky_ALT D201
+L Device:D_Schottky_ALT D201
 U 1 1 5B41CF31
 P 2100 6150
 F 0 "D201" H 1950 6100 50  0000 C CNN
@@ -945,12 +945,12 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C213
+L Device:C C213
 U 1 1 5B0AE4C1
 P 8200 2950
 F 0 "C213" H 8225 3050 50  0000 L CNN
 F 1 "10uF" H 8225 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8238 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 2800 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 8200 2950 50  0001 C CNN
 F 4 "Taiyo Yuden" V 8200 2950 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 8200 2950 60  0001 C CNN "MFG Part Num"
@@ -962,12 +962,12 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C201
+L Device:C C201
 U 1 1 5B0AF555
 P 1450 4950
 F 0 "C201" H 1250 5050 50  0000 L CNN
 F 1 "10uF" H 1250 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1488 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 4800 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1450 4950 50  0001 C CNN
 F 4 "Taiyo Yuden" V 1450 4950 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 1450 4950 60  0001 C CNN "MFG Part Num"
@@ -983,7 +983,7 @@ Text Notes 4850 2900 0    60   ~ 0
 Text Notes 5500 2675 0    60   ~ 0
 Read: 0xA5\nWrite: 0xA4
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D204
+L Device:D_TVS_ALT D204
 U 1 1 5B1E1397
 P 9300 5550
 F 0 "D204" V 9250 5375 50  0000 C CNN
@@ -1000,7 +1000,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9300 5550 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D205
+L Device:D_TVS_ALT D205
 U 1 1 5B1E1464
 P 9500 5550
 F 0 "D205" V 9450 5375 50  0000 C CNN
@@ -1017,7 +1017,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 9500 5550 60  0001 C 
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D206
+L Device:D_TVS_ALT D206
 U 1 1 5B1E1575
 P 9850 5550
 F 0 "D206" V 9800 5375 50  0000 C CNN
@@ -1076,12 +1076,12 @@ Text Notes 8525 2825 0    39   ~ 0
 Text Notes 8825 2825 0    39   ~ 0
 35V
 $Comp
-L dvk-mx8m-bsb-rescue:R R220
+L Device:R R220
 U 1 1 5B421944
 P 6300 2950
 F 0 "R220" H 6450 2900 50  0000 C CNN
 F 1 "10k" H 6425 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6230 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 2950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6300 2950 50  0001 C CNN
 F 4 "Stackpole" H 6300 2950 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6300 2950 60  0001 C CNN "MFG Part Num"

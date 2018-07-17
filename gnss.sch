@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 23 24
 Title "GNSS"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -48,12 +48,12 @@ Connection ~ 3900 3350
 NoConn ~ 6150 4650
 NoConn ~ 6150 4450
 $Comp
-L dvk-mx8m-bsb-rescue:C C2301
+L Device:C C2301
 U 1 1 5B0ED9E5
 P 3900 3750
 F 0 "C2301" H 3925 3850 50  0000 L CNN
 F 1 "100nF" H 3925 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3938 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 3600 50  0001 C CNN
 F 3 "" H 3900 3750 50  0001 C CNN
 	1    3900 3750
 	-1   0    0    -1  
@@ -86,34 +86,34 @@ Wire Wire Line
 	4800 4100 4800 3550
 Connection ~ 4800 3550
 $Comp
-L dvk-mx8m-bsb-rescue:C C2302
+L Device:C C2302
 U 1 1 5B1028D6
 P 4150 3750
 F 0 "C2302" H 4150 3850 50  0000 L CNN
 F 1 "10nF" H 4175 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4188 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 3600 50  0001 C CNN
 F 3 "" H 4150 3750 50  0001 C CNN
 	1    4150 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2303
+L Device:C C2303
 U 1 1 5B102929
 P 4400 3750
 F 0 "C2303" H 4400 3850 50  0000 L CNN
 F 1 "1nF" H 4425 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4438 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 3600 50  0001 C CNN
 F 3 "" H 4400 3750 50  0001 C CNN
 	1    4400 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2304
+L Device:C C2304
 U 1 1 5B1029AE
 P 4650 3750
 F 0 "C2304" H 4650 3850 50  0000 L CNN
 F 1 "100pF" H 4650 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4688 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 3600 50  0001 C CNN
 F 3 "" H 4650 3750 50  0001 C CNN
 	1    4650 3750
 	-1   0    0    -1  
@@ -187,12 +187,12 @@ NoConn ~ 7350 3450
 Wire Wire Line
 	7350 3450 7300 3450
 $Comp
-L dvk-mx8m-bsb-rescue:L L2301
+L Device:L L2301
 U 1 1 5B103CD2
 P 7150 3450
 F 0 "L2301" V 7225 3450 50  0000 C CNN
 F 1 "NC" V 7105 3450 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603" H 7150 3450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 7150 3450 50  0001 C CNN
 F 3 "" H 7150 3450 50  0001 C CNN
 	1    7150 3450
 	0    -1   -1   0   
@@ -216,23 +216,23 @@ $EndComp
 Wire Wire Line
 	6900 3450 7000 3450
 $Comp
-L dvk-mx8m-bsb-rescue:C C2305
+L Device:C C2305
 U 1 1 5B103D07
 P 6950 3650
 F 0 "C2305" H 6975 3735 50  0000 L CNN
 F 1 "NC" H 6975 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6988 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6988 3500 50  0001 C CNN
 F 3 "" H 6950 3650 50  0001 C CNN
 	1    6950 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2301
+L Device:R R2301
 U 1 1 5B103CA5
 P 6750 3450
 F 0 "R2301" V 6830 3450 50  0000 C CNN
 F 1 "NC" V 6650 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6680 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 3450 50  0001 C CNN
 F 3 "" H 6750 3450 50  0001 C CNN
 	1    6750 3450
 	0    -1   -1   0   
@@ -242,12 +242,12 @@ VCC_RF used for\nactive antenna or LNA
 Text Notes 7100 3925 0    60   ~ 0
 33nH\n22pF\n10Ω
 $Comp
-L dvk-mx8m-bsb-rescue:L L2302
+L Device:L L2302
 U 1 1 5B2088FC
 P 7700 2800
 F 0 "L2302" V 7775 2800 50  0000 C CNN
 F 1 "NC" V 7655 2800 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603" H 7700 2800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 7700 2800 50  0001 C CNN
 F 3 "" H 7700 2800 50  0001 C CNN
 	1    7700 2800
 	0    -1   -1   0   
@@ -266,12 +266,12 @@ F 3 "" H 7500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2306
+L Device:C C2306
 U 1 1 5B208BC6
 P 7500 3000
 F 0 "C2306" H 7525 3085 50  0000 L CNN
 F 1 "NC" H 7525 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7538 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 2850 50  0001 C CNN
 F 3 "" H 7500 3000 50  0001 C CNN
 	1    7500 3000
 	1    0    0    -1  
@@ -290,12 +290,12 @@ F 3 "" H 7900 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2307
+L Device:C C2307
 U 1 1 5B208DA7
 P 7900 3000
 F 0 "C2307" H 7925 3085 50  0000 L CNN
 F 1 "NC" H 7925 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7938 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 2850 50  0001 C CNN
 F 3 "" H 7900 3000 50  0001 C CNN
 	1    7900 3000
 	1    0    0    -1  
@@ -356,7 +356,7 @@ F 3 "" H 3900 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB2301
+L Device:Ferrite_Bead FB2301
 U 1 1 5B2B7A3D
 P 3900 3050
 F 0 "FB2301" H 3625 3000 50  0000 C CNN

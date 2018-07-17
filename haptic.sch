@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 24 24
 Title "Haptic/Vibration Motor"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -28,12 +28,12 @@ $EndComp
 Text Notes 7050 4200 0    60   ~ 0
 When the motor is off\nboth terminals are at GND
 $Comp
-L dvk-mx8m-bsb-rescue:Q_PMOS_GSD Q2401
+L Device:Q_PMOS_GSD Q2401
 U 1 1 5AFD137F
 P 5950 3800
 F 0 "Q2401" H 6150 3750 50  0000 L CNN
 F 1 "DMG2301L" H 6150 3850 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6150 3900 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 3900 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 5950 3800 50  0001 C CNN
 F 4 "Diodes Inc" H 5950 3800 60  0001 C CNN "MFG Name"
 F 5 "DMG2301L-7" H 5950 3800 60  0001 C CNN "MFG Part Num"
@@ -56,12 +56,12 @@ F 3 "" H 6050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2401
+L Device:R R2401
 U 1 1 5AFD2E14
 P 5350 3600
 F 0 "R2401" H 5525 3650 50  0000 C CNN
 F 1 "100k" H 5500 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5280 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5280 3600 50  0001 C CNN
 F 3 "" H 5350 3600 50  0001 C CNN
 	1    5350 3600
 	-1   0    0    -1  
@@ -69,7 +69,7 @@ $EndComp
 Text HLabel 5300 3800 0    60   Input ~ 0
 HAPTIC
 $Comp
-L dvk-mx8m-bsb-rescue:D_Schottky_ALT D2401
+L Device:D_Schottky_ALT D2401
 U 1 1 5AFD563E
 P 5250 4350
 F 0 "D2401" V 5200 4150 50  0000 C CNN
@@ -86,23 +86,23 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2402
+L Device:R R2402
 U 1 1 5AFFD30C
 P 5550 3800
 F 0 "R2402" V 5450 3800 50  0000 C CNN
 F 1 "100" V 5650 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5480 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 3800 50  0001 C CNN
 F 3 "" H 5550 3800 50  0001 C CNN
 	1    5550 3800
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2401
+L Device:C C2401
 U 1 1 5B0285ED
 P 5650 4350
 F 0 "C2401" H 5675 4450 50  0000 L CNN
 F 1 "100nF" H 5675 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5688 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 4200 50  0001 C CNN
 F 3 "" H 5650 4350 50  0001 C CNN
 	1    5650 4350
 	-1   0    0    -1  
@@ -156,7 +156,7 @@ Metal housing is floating\nthick adhesive layer underneath\n(not connected to ei
 Text Notes 4550 2200 0    236  ~ 47
 Haptic Motor
 $Comp
-L dvk-mx8m-bsb-rescue:Conn_01x02 J2401
+L Connector_Generic:Conn_01x02 J2401
 U 1 1 5B316276
 P 6300 4400
 F 0 "J2401" H 6300 4200 50  0000 C CNN
@@ -194,12 +194,12 @@ F 9 "http://nfpshop.com/product/nfp-coin-motor-c0834-free-wire/" H 6600 4350 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2402
+L Device:C C2402
 U 1 1 5B428193
 P 6650 3600
 F 0 "C2402" H 6675 3700 50  0000 L CNN
 F 1 "1uF" H 6675 3500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 3450 50  0001 C CNN
 F 3 "" H 6650 3600 50  0001 C CNN
 	1    6650 3600
 	1    0    0    -1  

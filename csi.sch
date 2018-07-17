@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 24
 Title "MIPI CSI"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -6155,12 +6155,12 @@ Active-HIGH
 Text Notes 5450 4450 0    60   ~ 0
 DPDT with\nmicrophone
 $Comp
-L dvk-mx8m-bsb-rescue:R R1301
+L Device:R R1301
 U 1 1 5B1ED51C
 P 6100 4150
 F 0 "R1301" H 6275 4200 50  0000 C CNN
 F 1 "100k" H 6250 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6030 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 4150 50  0001 C CNN
 F 3 "" H 6100 4150 50  0001 C CNN
 	1    6100 4150
 	-1   0    0    -1  
@@ -6177,18 +6177,18 @@ F 3 "" H 6500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1301
+L Device:C C1301
 U 1 1 5B1EAF12
 P 6500 4150
 F 0 "C1301" H 6525 4250 50  0000 L CNN
 F 1 "100nF" H 6525 4050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6538 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 4000 50  0001 C CNN
 F 3 "" H 6500 4150 50  0001 C CNN
 	1    6500 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1301
+L Device:D_Schottky_ALT D1301
 U 1 1 5B1EAB95
 P 6300 3700
 F 0 "D1301" H 6300 3525 50  0000 C CNN
@@ -6205,12 +6205,12 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1302
+L Device:R R1302
 U 1 1 5B1E9C00
 P 6300 3950
 F 0 "R1302" V 6380 3950 50  0000 C CNN
 F 1 "100k" V 6200 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6230 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 3950 50  0001 C CNN
 F 3 "" H 6300 3950 50  0001 C CNN
 	1    6300 3950
 	0    1    -1   0   
@@ -6238,12 +6238,12 @@ F 3 "" H 7350 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1302
+L Device:C C1302
 U 1 1 5B197A0E
 P 7350 3250
 F 0 "C1302" H 7375 3350 50  0000 L CNN
 F 1 "100nF" H 7375 3150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7388 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7388 3100 50  0001 C CNN
 F 3 "" H 7350 3250 50  0001 C CNN
 	1    7350 3250
 	-1   0    0    -1  
@@ -6285,7 +6285,7 @@ internal pull-down
 Text Notes 8300 3450 0    39   ~ 0
 internal pull-up
 $Comp
-L dvk-mx8m-bsb-rescue:D_Schottky_ALT D1302
+L Device:D_Schottky_ALT D1302
 U 1 1 5B15603B
 P 8150 3450
 F 0 "D1302" H 8150 3350 50  0000 C CNN
@@ -6317,45 +6317,45 @@ $EndComp
 Text Notes 7975 3775 0    60   ~ 0
 V_IH(min)=1.26V
 $Comp
-L dvk-mx8m-bsb-rescue:C C1309
+L Device:C C1309
 U 1 1 5B0F9030
 P 10400 2850
 F 0 "C1309" H 10425 2950 50  0000 L CNN
 F 1 "4.7uF" H 10425 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10438 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10438 2700 50  0001 C CNN
 F 3 "" H 10400 2850 50  0001 C CNN
 	1    10400 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1307
+L Device:C C1307
 U 1 1 5B0F8FA9
 P 10150 2850
 F 0 "C1307" H 10150 2950 50  0000 L CNN
 F 1 "10nF" H 10175 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10188 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10188 2700 50  0001 C CNN
 F 3 "" H 10150 2850 50  0001 C CNN
 	1    10150 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1306
+L Device:C C1306
 U 1 1 5B0F8F0F
 P 9900 2850
 F 0 "C1306" H 9900 2950 50  0000 L CNN
 F 1 "1nF" H 9925 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9938 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9938 2700 50  0001 C CNN
 F 3 "" H 9900 2850 50  0001 C CNN
 	1    9900 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1305
+L Device:C C1305
 U 1 1 5B0F8E57
 P 9650 2850
 F 0 "C1305" H 9650 2950 50  0000 L CNN
 F 1 "100pF" H 9650 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9688 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9688 2700 50  0001 C CNN
 F 3 "" H 9650 2850 50  0001 C CNN
 	1    9650 2850
 	1    0    0    -1  
@@ -6418,12 +6418,12 @@ F 3 "" H 8550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1304
+L Device:C C1304
 U 1 1 5B2B061C
 P 8550 2850
 F 0 "C1304" H 8575 2950 50  0000 L CNN
 F 1 "100nF" H 8575 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8588 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 2700 50  0001 C CNN
 F 3 "" H 8550 2850 50  0001 C CNN
 	1    8550 2850
 	-1   0    0    -1  
@@ -6433,7 +6433,7 @@ Text Notes 8250 2625 0    39   ~ 0
 Text Notes 8300 5100 0    60   ~ 0
 OV5640 CMOS Image Sensor Datasheet:\nhttps://cdn.sparkfun.com/datasheets/\nSensors/LightImaging/OV5640_datasheet.pdf
 $Comp
-L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW1301
+L Switch:SW_DPDT_x2 SW1301
 U 1 1 5B126541
 P 5900 3700
 F 0 "SW1301" V 5900 4000 50  0000 C CNN
@@ -6453,7 +6453,7 @@ Text Notes 6150 3450 0    60   ~ 0
 2->1 = ON\n2->3 = OFF
 NoConn ~ 5800 3500
 $Comp
-L dvk-mx8m-bsb-rescue:Conn_02x15_Counter_Clockwise J1301
+L Connector_Generic:Conn_02x15_Counter_Clockwise J1301
 U 1 1 5B11E3C0
 P 9050 3350
 F 0 "J1301" H 9100 4225 50  0000 C CNN
@@ -6534,12 +6534,12 @@ F 3 "http://www.trulyamerica.com/products/compact-camera-module/#" H 12100 6200 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1303
+L Device:C C1303
 U 1 1 5B30A24C
 P 8250 2850
 F 0 "C1303" H 8275 2950 50  0000 L CNN
 F 1 "4.7uF" H 8275 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8288 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8288 2700 50  0001 C CNN
 F 3 "" H 8250 2850 50  0001 C CNN
 	1    8250 2850
 	-1   0    0    -1  
@@ -6573,12 +6573,12 @@ F 9 "http://www.digipart.com/part/TXB0101DCKR" H 10400 4300 60  0001 C CNN "Othe
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1310
+L Device:C C1310
 U 1 1 5B334AE4
 P 10650 3550
 F 0 "C1310" H 10650 3650 50  0000 L CNN
 F 1 "100nF" H 10650 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10688 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10688 3400 50  0001 C CNN
 F 3 "" H 10650 3550 50  0001 C CNN
 	1    10650 3550
 	1    0    0    -1  
@@ -6595,12 +6595,12 @@ F 3 "" H 10650 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1308
+L Device:C C1308
 U 1 1 5B334D05
 P 10150 3550
 F 0 "C1308" H 10150 3650 50  0000 L CNN
 F 1 "100nF" H 10150 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10188 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10188 3400 50  0001 C CNN
 F 3 "" H 10150 3550 50  0001 C CNN
 	1    10150 3550
 	-1   0    0    -1  

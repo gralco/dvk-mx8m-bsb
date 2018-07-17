@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 22 24
 Title "Smart Card"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -32,12 +32,12 @@ F 3 "" H 6700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2202
+L Device:C C2202
 U 1 1 5B1F1971
 P 6300 2800
 F 0 "C2202" H 6325 2900 50  0000 L CNN
 F 1 "1uF" H 6325 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6338 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 2650 50  0001 C CNN
 F 3 "" H 6300 2800 50  0001 C CNN
 	1    6300 2800
 	1    0    0    -1  
@@ -54,12 +54,12 @@ F 3 "" H 6300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2204
+L Device:C C2204
 U 1 1 5B1F1CFA
 P 6700 2700
 F 0 "C2204" H 6725 2800 50  0000 L CNN
 F 1 "1uF" H 6725 2600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6738 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6738 2550 50  0001 C CNN
 F 3 "" H 6700 2700 50  0001 C CNN
 	1    6700 2700
 	1    0    0    -1  
@@ -76,23 +76,23 @@ F 3 "" H 6700 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2202
+L Device:R R2202
 U 1 1 5B1F2A2C
 P 6600 3600
 F 0 "R2202" V 6680 3600 50  0000 C CNN
 F 1 "0" V 6600 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6530 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 3600 50  0001 C CNN
 F 3 "" H 6600 3600 50  0001 C CNN
 	1    6600 3600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2203
+L Device:R R2203
 U 1 1 5B1F2AD0
 P 6600 3700
 F 0 "R2203" V 6630 3930 50  0000 C CNN
 F 1 "33" V 6600 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6530 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6530 3700 50  0001 C CNN
 F 3 "" H 6600 3700 50  0001 C CNN
 	1    6600 3700
 	0    -1   -1   0   
@@ -101,12 +101,12 @@ NoConn ~ 6250 4350
 NoConn ~ 6250 4450
 NoConn ~ 6250 4550
 $Comp
-L dvk-mx8m-bsb-rescue:R R2201
+L Device:R R2201
 U 1 1 5B20FE9D
 P 4500 4100
 F 0 "R2201" H 4675 4150 50  0000 C CNN
 F 1 "100k" H 4650 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4430 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 4100 50  0001 C CNN
 F 3 "" H 4500 4100 50  0001 C CNN
 	1    4500 4100
 	-1   0    0    -1  
@@ -123,12 +123,12 @@ F 3 "" H 4500 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2201
+L Device:C C2201
 U 1 1 5B20FF65
 P 4500 4500
 F 0 "C2201" H 4525 4600 50  0000 L CNN
 F 1 "100nF" H 4525 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4538 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 4350 50  0001 C CNN
 F 3 "" H 4500 4500 50  0001 C CNN
 	1    4500 4500
 	-1   0    0    -1  
@@ -145,12 +145,12 @@ F 3 "" H 4500 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2203
+L Device:C C2203
 U 1 1 5B210DE6
 P 6500 3350
 F 0 "C2203" V 6550 3400 50  0000 L CNN
 F 1 "1uF" V 6540 3170 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6538 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 3200 50  0001 C CNN
 F 3 "" H 6500 3350 50  0001 C CNN
 	1    6500 3350
 	0    -1   -1   0   
@@ -360,12 +360,12 @@ F 3 "" H 7250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2205
+L Device:C C2205
 U 1 1 5B41E11A
 P 7250 2650
 F 0 "C2205" H 7275 2750 50  0000 L CNN
 F 1 "100nF" H 7275 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7288 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 2500 50  0001 C CNN
 F 3 "" H 7250 2650 50  0001 C CNN
 	1    7250 2650
 	1    0    0    -1  

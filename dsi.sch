@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 24
 Title "MIPI DSI"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -43,21 +43,21 @@ CAPTOUCH_~INT
 Text HLabel 1650 3700 0    60   Input ~ 0
 CAPTOUCH_~RST
 Wire Wire Line
-	4400 3600 5600 3600
+	4400 3600 4450 3600
 Wire Wire Line
-	2500 3700 5600 3700
+	2500 3700 2550 3700
 Wire Wire Line
 	2550 3700 2550 3650
 Connection ~ 2550 3700
 Wire Wire Line
-	2300 3250 2300 3400
+	2300 3250 2300 3300
 Wire Wire Line
 	2550 3350 2550 3300
 Wire Wire Line
 	2550 3300 2300 3300
 Connection ~ 2300 3300
 Wire Wire Line
-	1650 3700 2100 3700
+	1650 3700 1700 3700
 Wire Wire Line
 	1700 3700 1700 3650
 Wire Wire Line
@@ -66,14 +66,14 @@ Wire Wire Line
 	4450 3600 4450 3550
 Connection ~ 4450 3600
 Wire Wire Line
-	4450 3150 4450 3250
+	4450 3150 4450 3200
 Wire Wire Line
 	4450 3200 4200 3200
 Wire Wire Line
 	4200 3200 4200 3300
 Connection ~ 4450 3200
 Wire Wire Line
-	3550 3600 4000 3600
+	3550 3600 3600 3600
 Wire Wire Line
 	3600 3600 3600 3550
 Wire Wire Line
@@ -116,12 +116,12 @@ F 3 "" H 2300 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1202
+L Device:R R1202
 U 1 1 5B323584
 P 2550 3500
 F 0 "R1202" H 2725 3550 50  0000 C CNN
 F 1 "10k" H 2675 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2480 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 3500 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2550 3500 50  0001 C CNN
 F 4 "Stackpole" H 2550 3500 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2550 3500 60  0001 C CNN "MFG Part Num"
@@ -133,12 +133,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1201
+L Device:R R1201
 U 1 1 5B3235E0
 P 1700 3500
 F 0 "R1201" H 1875 3550 50  0000 C CNN
 F 1 "10k" H 1825 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1630 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 3500 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1700 3500 50  0001 C CNN
 F 4 "Stackpole" H 1700 3500 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 1700 3500 60  0001 C CNN "MFG Part Num"
@@ -150,12 +150,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1203
+L Device:R R1203
 U 1 1 5B32362A
 P 3600 3400
 F 0 "R1203" H 3775 3450 50  0000 C CNN
 F 1 "10k" H 3725 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3530 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 3400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3600 3400 50  0001 C CNN
 F 4 "Stackpole" H 3600 3400 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3600 3400 60  0001 C CNN "MFG Part Num"
@@ -167,12 +167,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R1204
+L Device:R R1204
 U 1 1 5B3236A9
 P 4450 3400
 F 0 "R1204" H 4625 3450 50  0000 C CNN
 F 1 "10k" H 4575 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4380 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 3400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4450 3400 50  0001 C CNN
 F 4 "Stackpole" H 4450 3400 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 4450 3400 60  0001 C CNN "MFG Part Num"
@@ -195,7 +195,7 @@ F 3 "" H 4450 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Conn_01x39 J1202
+L Connector_Generic:Conn_01x39 J1202
 U 1 1 5B314440
 P 8950 3150
 F 0 "J1202" H 8950 5225 50  0000 C CNN
@@ -225,7 +225,7 @@ $EndComp
 Wire Wire Line
 	8750 2050 8700 2050
 Wire Wire Line
-	8700 2050 8700 5100
+	8700 2050 8700 3150
 Wire Wire Line
 	8750 3150 8700 3150
 Connection ~ 8700 3150
@@ -264,7 +264,7 @@ $EndComp
 Text HLabel 8650 4950 0    60   Output ~ 0
 LCD_LEDK
 Wire Wire Line
-	7550 5050 8750 5050
+	7550 5050 7850 5050
 Wire Wire Line
 	8650 4950 8750 4950
 NoConn ~ 8750 1650
@@ -290,12 +290,12 @@ F 3 "" H 6750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1202
+L Device:C C1202
 U 1 1 5B32A2B5
 P 6300 2750
 F 0 "C1202" H 6325 2850 50  0000 L CNN
 F 1 "100nF" H 6325 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6338 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 2600 50  0001 C CNN
 F 3 "" H 6300 2750 50  0001 C CNN
 	1    6300 2750
 	-1   0    0    -1  
@@ -314,7 +314,7 @@ $EndComp
 Text HLabel 8150 2850 0    60   Input ~ 0
 LCD_~RESET
 Wire Wire Line
-	8150 2850 8750 2850
+	8150 2850 8200 2850
 Wire Wire Line
 	8650 3250 8750 3250
 Wire Wire Line
@@ -347,12 +347,12 @@ F 3 "" H 7500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1206
+L Device:C C1206
 U 1 1 5B3FFDB6
 P 7500 2750
 F 0 "C1206" H 7525 2850 50  0000 L CNN
 F 1 "100nF" H 7525 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7538 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 2600 50  0001 C CNN
 F 3 "" H 7500 2750 50  0001 C CNN
 	1    7500 2750
 	-1   0    0    -1  
@@ -371,12 +371,12 @@ $EndComp
 Wire Wire Line
 	7500 2950 7500 2900
 Wire Wire Line
-	7500 2400 7500 2600
+	7500 2400 7500 2550
 Wire Wire Line
 	8750 2550 7500 2550
 Connection ~ 7500 2550
 $Comp
-L dvk-mx8m-bsb-rescue:Conn_01x06 J1201
+L Connector_Generic:Conn_01x06 J1201
 U 1 1 5B445B35
 P 5800 3600
 F 0 "J1201" H 5800 3975 50  0000 C CNN
@@ -414,7 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 3800 5600 3800
 Wire Wire Line
-	5550 2700 5550 3800
+	5550 2700 5550 2750
 $Comp
 L dvk-mx8m-bsb:2V8_P #PWR0197
 U 1 1 5B449772
@@ -427,12 +427,12 @@ F 3 "" H 5550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1201
+L Device:C C1201
 U 1 1 5B44A018
 P 5400 2950
 F 0 "C1201" H 5425 3050 50  0000 L CNN
 F 1 "100nF" H 5425 2850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5438 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 2800 50  0001 C CNN
 F 3 "" H 5400 2950 50  0001 C CNN
 	1    5400 2950
 	-1   0    0    -1  
@@ -456,40 +456,40 @@ Connection ~ 5550 2750
 Wire Wire Line
 	5400 3150 5400 3100
 $Comp
-L dvk-mx8m-bsb-rescue:C C1205
+L Device:C C1205
 U 1 1 5B44F3BF
 P 7200 2750
 F 0 "C1205" H 7225 2850 50  0000 L CNN
 F 1 "100pF" H 7225 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7238 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 2600 50  0001 C CNN
 F 3 "" H 7200 2750 50  0001 C CNN
 	1    7200 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1204
+L Device:C C1204
 U 1 1 5B44F3C6
 P 6900 2750
 F 0 "C1204" H 6925 2850 50  0000 L CNN
 F 1 "1nF" H 6925 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6938 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 2600 50  0001 C CNN
 F 3 "" H 6900 2750 50  0001 C CNN
 	1    6900 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1203
+L Device:C C1203
 U 1 1 5B44F3CD
 P 6600 2750
 F 0 "C1203" H 6625 2850 50  0000 L CNN
 F 1 "10nF" H 6625 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6638 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 2600 50  0001 C CNN
 F 3 "" H 6600 2750 50  0001 C CNN
 	1    6600 2750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 2450 8750 2450
+	6300 2450 6600 2450
 Wire Wire Line
 	6300 2450 6300 2600
 Wire Wire Line
@@ -504,7 +504,7 @@ Connection ~ 7200 2450
 Wire Wire Line
 	6300 2900 6300 2950
 Wire Wire Line
-	6300 2950 7200 2950
+	6300 2950 6600 2950
 Wire Wire Line
 	7200 2950 7200 2900
 Wire Wire Line
@@ -520,12 +520,12 @@ Wire Wire Line
 	6750 2400 6750 2450
 Connection ~ 6750 2450
 $Comp
-L dvk-mx8m-bsb-rescue:C C1207
+L Device:C C1207
 U 1 1 5B452925
 P 7550 5350
 F 0 "C1207" H 7575 5450 50  0000 L CNN
 F 1 "100nF" H 7575 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7588 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 5200 50  0001 C CNN
 F 3 "" H 7550 5350 50  0001 C CNN
 	1    7550 5350
 	-1   0    0    -1  
@@ -542,34 +542,34 @@ F 3 "" H 8000 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1210
+L Device:C C1210
 U 1 1 5B452932
 P 8450 5350
 F 0 "C1210" H 8475 5450 50  0000 L CNN
 F 1 "100pF" H 8475 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8488 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 5200 50  0001 C CNN
 F 3 "" H 8450 5350 50  0001 C CNN
 	1    8450 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1209
+L Device:C C1209
 U 1 1 5B452939
 P 8150 5350
 F 0 "C1209" H 8175 5450 50  0000 L CNN
 F 1 "1nF" H 8175 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8188 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8188 5200 50  0001 C CNN
 F 3 "" H 8150 5350 50  0001 C CNN
 	1    8150 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C1208
+L Device:C C1208
 U 1 1 5B452940
 P 7850 5350
 F 0 "C1208" H 7875 5450 50  0000 L CNN
 F 1 "10nF" H 7875 5250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7888 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 5200 50  0001 C CNN
 F 3 "" H 7850 5350 50  0001 C CNN
 	1    7850 5350
 	-1   0    0    -1  
@@ -585,7 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 5500 7550 5550
 Wire Wire Line
-	7550 5550 8450 5550
+	7550 5550 7850 5550
 Wire Wire Line
 	8450 5550 8450 5500
 Wire Wire Line
@@ -3573,7 +3573,7 @@ HIGH
 Text Notes 1650 1000 0    236  ~ 47
 Display & Touch Controller
 $Comp
-L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1202
+L Device:Q_NMOS_GSD Q1202
 U 1 1 5B2E270A
 P 4200 3500
 F 0 "Q1202" V 4150 3650 50  0000 L CNN
@@ -3590,7 +3590,7 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 4200 3500 60 
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Q_NMOS_GSD Q1201
+L Device:Q_NMOS_GSD Q1201
 U 1 1 5B2E3533
 P 2300 3600
 F 0 "Q1201" V 2250 3750 50  0000 L CNN
@@ -3634,12 +3634,12 @@ Connection ~ 8200 2850
 Wire Wire Line
 	8200 3250 8200 3200
 $Comp
-L dvk-mx8m-bsb-rescue:R R1205
+L Device:R R1205
 U 1 1 5B477A28
 P 8200 3050
 F 0 "R1205" H 8375 3100 50  0000 C CNN
 F 1 "10k" H 8325 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8130 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 3050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8200 3050 50  0001 C CNN
 F 4 "Stackpole" H 8200 3050 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 8200 3050 60  0001 C CNN "MFG Part Num"
@@ -3650,4 +3650,62 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    8200 3050
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 3700 5600 3700
+Wire Wire Line
+	2300 3300 2300 3400
+Wire Wire Line
+	4450 3600 5600 3600
+Wire Wire Line
+	4450 3200 4450 3250
+Wire Wire Line
+	3600 3600 4000 3600
+Wire Wire Line
+	1700 3700 2100 3700
+Wire Wire Line
+	8700 3150 8700 3450
+Wire Wire Line
+	8700 3450 8700 3750
+Wire Wire Line
+	8700 3750 8700 4050
+Wire Wire Line
+	8700 4050 8700 4350
+Wire Wire Line
+	8700 4350 8700 4650
+Wire Wire Line
+	8700 4650 8700 5100
+Wire Wire Line
+	7500 2550 7500 2600
+Wire Wire Line
+	5550 2750 5550 3800
+Wire Wire Line
+	6600 2450 6750 2450
+Wire Wire Line
+	6900 2450 7200 2450
+Wire Wire Line
+	7200 2450 8750 2450
+Wire Wire Line
+	6600 2950 6750 2950
+Wire Wire Line
+	6900 2950 7200 2950
+Wire Wire Line
+	6750 2950 6900 2950
+Wire Wire Line
+	6750 2450 6900 2450
+Wire Wire Line
+	7850 5550 8000 5550
+Wire Wire Line
+	8150 5550 8450 5550
+Wire Wire Line
+	8000 5550 8150 5550
+Wire Wire Line
+	7850 5050 8000 5050
+Wire Wire Line
+	8150 5050 8450 5050
+Wire Wire Line
+	8450 5050 8750 5050
+Wire Wire Line
+	8000 5050 8150 5050
+Wire Wire Line
+	8200 2850 8750 2850
 $EndSCHEMATC

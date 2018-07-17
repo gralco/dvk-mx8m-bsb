@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 21 24
 Title "SPI NOR Flash"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -54,23 +54,23 @@ F 3 "" H 6000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2101
+L Device:C C2101
 U 1 1 5B12EA2B
 P 5850 2850
 F 0 "C2101" H 5875 2950 50  0000 L CNN
 F 1 "100nF" H 5875 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5888 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 2700 50  0001 C CNN
 F 3 "" H 5850 2850 50  0001 C CNN
 	1    5850 2850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2102
+L Device:C C2102
 U 1 1 5B14E905
 P 6150 2850
 F 0 "C2102" H 6175 2950 50  0000 L CNN
 F 1 "10nF" H 6175 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6188 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 2700 50  0001 C CNN
 F 3 "" H 6150 2850 50  0001 C CNN
 	1    6150 2850
 	1    0    0    -1  
@@ -106,12 +106,12 @@ SCLK
 Text HLabel 4900 3700 0    60   Input ~ 0
 ~CS
 $Comp
-L dvk-mx8m-bsb-rescue:R R2101
+L Device:R R2101
 U 1 1 5B152CDF
 P 4250 3450
 F 0 "R2101" H 4075 3500 50  0000 C CNN
 F 1 "100k" H 4100 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4180 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 3450 50  0001 C CNN
 F 3 "" H 4250 3450 50  0001 C CNN
 	1    4250 3450
 	1    0    0    -1  
@@ -128,23 +128,23 @@ F 3 "" H 4600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2102
+L Device:R R2102
 U 1 1 5AFB92E3
 P 4600 3450
 F 0 "R2102" H 4425 3500 50  0000 C CNN
 F 1 "100k" H 4450 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4530 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 3450 50  0001 C CNN
 F 3 "" H 4600 3450 50  0001 C CNN
 	1    4600 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2103
+L Device:R R2103
 U 1 1 5AFBA0EE
 P 4600 4100
 F 0 "R2103" H 4425 4150 50  0000 C CNN
 F 1 "NC" H 4500 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4530 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 4100 50  0001 C CNN
 F 3 "" H 4600 4100 50  0001 C CNN
 	1    4600 4100
 	1    0    0    -1  
@@ -208,12 +208,12 @@ Wire Wire Line
 Text Notes 4400 2200 0    236  ~ 47
 SPI NOR Flash
 $Comp
-L dvk-mx8m-bsb-rescue:R R2104
+L Device:R R2104
 U 1 1 5B2FF389
 P 4950 3450
 F 0 "R2104" H 4775 3500 50  0000 C CNN
 F 1 "100k" H 4800 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4880 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 3450 50  0001 C CNN
 F 3 "" H 4950 3450 50  0001 C CNN
 	1    4950 3450
 	1    0    0    -1  

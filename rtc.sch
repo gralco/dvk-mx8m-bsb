@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 24
 Title "RTC"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -15,12 +15,12 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L dvk-mx8m-bsb-rescue:R R602
+L Device:R R602
 U 1 1 5AC5AF1B
 P 6400 3850
 F 0 "R602" V 6480 3850 50  0000 C CNN
 F 1 "4.99k" V 6300 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6330 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 3850 50  0001 C CNN
 F 3 "" H 6400 3850 50  0001 C CNN
 	1    6400 3850
 	0    -1   -1   0   
@@ -71,12 +71,12 @@ Wire Wire Line
 	4500 3300 4600 3300
 NoConn ~ 4600 3200
 $Comp
-L dvk-mx8m-bsb-rescue:D_Schottky_x2_KCom_AAK D602
+L Device:D_Schottky_x2_KCom_AAK D602
 U 1 1 5AC55F7F
 P 6900 3850
 F 0 "D602" H 6800 3750 50  0000 C CNN
 F 1 "BAT54C" H 6900 3950 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 3850 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 3850 50  0001 C CNN
 F 3 "https://goodarksemi.com/docs/datasheets/schottky_diodes/BAT54-A-C-S.pdf" H 6900 3850 50  0001 C CNN
 F 4 "Good-Ark Semi" H 6900 3850 60  0001 C CNN "MFG Name"
 F 5 "BAT54C" H 6900 3850 60  0001 C CNN "MFG Part Num"
@@ -91,7 +91,7 @@ Wire Wire Line
 	7200 3850 7250 3850
 Connection ~ 7250 3850
 Wire Wire Line
-	7250 3800 7250 3900
+	7250 3800 7250 3850
 $Comp
 L power:GND #PWR0140
 U 1 1 5AC5B669
@@ -106,12 +106,12 @@ $EndComp
 Wire Wire Line
 	7250 4250 7250 4200
 $Comp
-L dvk-mx8m-bsb-rescue:C C601
+L Device:C C601
 U 1 1 5AC5B61C
 P 7250 4050
 F 0 "C601" H 7275 4150 50  0000 L CNN
 F 1 "100nF" H 7275 3950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7288 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 3900 50  0001 C CNN
 F 3 "" H 7250 4050 50  0001 C CNN
 	1    7250 4050
 	1    0    0    -1  
@@ -155,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3100 4600 3100
 $Comp
-L dvk-mx8m-bsb-rescue:D_Schottky_ALT D601
+L Device:D_Schottky_ALT D601
 U 1 1 5B6718B5
 P 5600 3300
 F 0 "D601" H 5550 3200 50  0000 C CNN
@@ -172,12 +172,12 @@ F 9 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-
 	1    0    0    1   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R601
+L Device:R R601
 U 1 1 5B68E84A
 P 6050 3100
 F 0 "R601" H 6200 3150 50  0000 C CNN
 F 1 "10k" H 6175 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5980 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 3100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6050 3100 50  0001 C CNN
 F 4 "Stackpole" H 6050 3100 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6050 3100 60  0001 C CNN "MFG Part Num"
@@ -197,7 +197,7 @@ Wire Wire Line
 Text HLabel 6100 3300 2    60   Output ~ 0
 ~IRQ
 Wire Wire Line
-	5750 3300 6100 3300
+	5750 3300 6050 3300
 Connection ~ 6050 3300
 Text Notes 4400 2650 0    60   ~ 0
 7-bit Slave Address: 0x68\n       (1101 000x)
@@ -208,7 +208,7 @@ Note:\nDatasheet says slave address is 0xD0\nwith a R/W bit appended, since 0xD 
 Text Notes 3700 5300 0    60   ~ 0
 Reference:\nhttps://github.com/HIO-Project/linux-imx6-nano-imx_3.10.17_1.0.1_ga/\nblob/8848e94b2f889fe44f6736e2d4c98851a2282275/arch/arm/boot/dts/\nimx6qdl-mtp.dtsi#L351
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB601
+L Device:Ferrite_Bead FB601
 U 1 1 5B175E17
 P 6500 3400
 F 0 "FB601" V 6350 3400 50  0000 C CNN
@@ -239,4 +239,8 @@ F 3 "" H 6050 2900 50  0001 C CNN
 	1    6050 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7250 3850 7250 3900
+Wire Wire Line
+	6050 3300 6100 3300
 $EndSCHEMATC

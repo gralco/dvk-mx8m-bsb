@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 20 24
 Title "Sensors"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -15,12 +15,12 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L dvk-mx8m-bsb-rescue:C C2002
+L Device:C C2002
 U 1 1 5B067A54
 P 4400 3600
 F 0 "C2002" H 4425 3700 50  0000 L CNN
 F 1 "2.2uF" H 4425 3500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4438 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 3450 50  0001 C CNN
 F 3 "" H 4400 3600 50  0001 C CNN
 	1    4400 3600
 	1    0    0    -1  
@@ -91,12 +91,12 @@ Text Notes 7450 1500 0    157  ~ 31
 Text Notes 6700 5150 0    60   ~ 0
 Reference:\nhttp://www.st.com/en/evaluation-tools/steval-mki159v1.html
 $Comp
-L dvk-mx8m-bsb-rescue:C C2001
+L Device:C C2001
 U 1 1 5B0BFB2C
 P 3450 2800
 F 0 "C2001" H 3200 2900 50  0000 L CNN
 F 1 "1uF" H 3300 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3488 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 2650 50  0001 C CNN
 F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 3450 2800 50  0001 C CNN
 F 4 "Taiyo Yuden" V 3450 2800 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 3450 2800 60  0001 C CNN "MFG Part Num"
@@ -127,12 +127,12 @@ $EndComp
 Text Notes 1450 3050 0    60   ~ 0
 Note:\nI2C 2.2kΩ pull-up suggested\ncheck input capacitance & rise time
 $Comp
-L dvk-mx8m-bsb-rescue:R R2001
+L Device:R R2001
 U 1 1 5B125D55
 P 2450 3700
 F 0 "R2001" H 2625 3750 50  0000 C CNN
 F 1 "10k" H 2575 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2380 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3700 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2450 3700 50  0001 C CNN
 F 4 "Stackpole" H 2450 3700 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2450 3700 60  0001 C CNN "MFG Part Num"
@@ -144,12 +144,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R2002
+L Device:R R2002
 U 1 1 5B13CA51
 P 4000 2600
 F 0 "R2002" V 4080 2600 50  0000 C CNN
 F 1 "0" V 4000 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3930 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 2600 50  0001 C CNN
 F 3 "" H 4000 2600 50  0001 C CNN
 	1    4000 2600
 	0    -1   -1   0   
@@ -207,34 +207,34 @@ F 3 "" H 8350 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2006
+L Device:C C2006
 U 1 1 5B15B74F
 P 8150 2400
 F 0 "C2006" H 8175 2500 50  0000 L CNN
 F 1 "100nF" H 8175 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8188 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8188 2250 50  0001 C CNN
 F 3 "" H 8150 2400 50  0001 C CNN
 	1    8150 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2007
+L Device:C C2007
 U 1 1 5B15B795
 P 8500 2400
 F 0 "C2007" H 8525 2500 50  0000 L CNN
 F 1 "100nF" H 8525 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8538 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 2250 50  0001 C CNN
 F 3 "" H 8500 2400 50  0001 C CNN
 	1    8500 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2005
+L Device:C C2005
 U 1 1 5B15B7F6
 P 7850 2400
 F 0 "C2005" H 7875 2500 50  0000 L CNN
 F 1 "10uF" H 7875 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7888 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 2250 50  0001 C CNN
 F 3 "" H 7850 2400 50  0001 C CNN
 	1    7850 2400
 	-1   0    0    -1  
@@ -283,23 +283,23 @@ I2C3_SCL
 Text HLabel 3050 3500 0    60   BiDi ~ 0
 I2C3_SDA
 $Comp
-L dvk-mx8m-bsb-rescue:C C2004
+L Device:C C2004
 U 1 1 5B163F79
 P 7400 4500
 F 0 "C2004" H 7425 4600 50  0000 L CNN
 F 1 "100nF" H 7425 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7438 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 4350 50  0001 C CNN
 F 3 "" H 7400 4500 50  0001 C CNN
 	1    7400 4500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C2003
+L Device:C C2003
 U 1 1 5B164D9D
 P 7100 4500
 F 0 "C2003" H 7125 4600 50  0000 L CNN
 F 1 "10nF" H 7125 4400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7138 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7138 4350 50  0001 C CNN
 F 3 "" H 7100 4500 50  0001 C CNN
 	1    7100 4500
 	-1   0    0    -1  
@@ -5123,12 +5123,12 @@ $EndComp
 Wire Wire Line
 	9700 1850 9700 2500
 $Comp
-L dvk-mx8m-bsb-rescue:C C2008
+L Device:C C2008
 U 1 1 5B0EBD64
 P 9550 2100
 F 0 "C2008" H 9575 2200 50  0000 L CNN
 F 1 "100nF" H 9575 2000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9588 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9588 1950 50  0001 C CNN
 F 3 "" H 9550 2100 50  0001 C CNN
 	1    9550 2100
 	-1   0    0    -1  
@@ -5208,7 +5208,7 @@ Input pins are\ninterchangeable
 Text Notes 5250 1100 0    236  ~ 47
 Sensors
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB2001
+L Device:Ferrite_Bead FB2001
 U 1 1 5B2D1FCE
 P 4400 2400
 F 0 "FB2001" H 4125 2350 50  0000 C CNN
@@ -5229,7 +5229,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2550 4400 3450
 $Comp
-L dvk-mx8m-bsb-rescue:Ferrite_Bead FB2002
+L Device:Ferrite_Bead FB2002
 U 1 1 5B2D277B
 P 8350 2000
 F 0 "FB2002" H 8075 1950 50  0000 C CNN

@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 24
 Title "UART Debug"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -32,12 +32,12 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-buffers-d
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:Conn_01x06 J701
+L Connector_Generic:Conn_01x06 J701
 U 1 1 5ACD600C
 P 6850 3950
 F 0 "J701" H 6850 4250 50  0000 C CNN
 F 1 "NC" H 6850 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 6850 3950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6850 3950 50  0001 C CNN
 F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 6850 3950 50  0001 C CNN
 F 4 "Sullins" H 6850 3950 60  0001 C CNN "MFG Name"
 F 5 "PREC006SAAN-RC" H 6850 3950 60  0001 C CNN "MFG Part Num"
@@ -89,12 +89,12 @@ UART1_TXD
 Text HLabel 4850 4400 0    60   Output ~ 0
 UART1_RXD
 $Comp
-L dvk-mx8m-bsb-rescue:R R701
+L Device:R R701
 U 1 1 5ACD6464
 P 5900 3550
 F 0 "R701" H 6050 3600 50  0000 C CNN
 F 1 "100k" H 6050 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5830 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 3550 50  0001 C CNN
 F 3 "" H 5900 3550 50  0001 C CNN
 	1    5900 3550
 	-1   0    0    -1  
@@ -160,12 +160,12 @@ TX->RX
 Text Label 6400 4050 2    60   ~ 0
 RX<-TX
 $Comp
-L dvk-mx8m-bsb-rescue:C C701
+L Device:C C701
 U 1 1 5ACD7D29
 P 6250 3350
 F 0 "C701" H 6275 3450 50  0000 L CNN
 F 1 "100nF" H 6275 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6288 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 3200 50  0001 C CNN
 F 3 "" H 6250 3350 50  0001 C CNN
 	1    6250 3350
 	1    0    0    -1  

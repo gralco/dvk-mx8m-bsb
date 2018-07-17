@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 24
 Title "Librem 5 Dev Kit"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -411,23 +411,23 @@ F 3 "" H 7100 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C103
+L Device:C C103
 U 1 1 5B2FE16C
 P 5550 4950
 F 0 "C103" H 5575 5050 50  0000 L CNN
 F 1 "100nF" H 5550 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5588 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5588 4800 50  0001 C CNN
 F 3 "" H 5550 4950 50  0001 C CNN
 	1    5550 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C104
+L Device:C C104
 U 1 1 5B300417
 P 5850 4950
 F 0 "C104" H 5875 5050 50  0000 L CNN
 F 1 "100nF" H 5850 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5888 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 4800 50  0001 C CNN
 F 3 "" H 5850 4950 50  0001 C CNN
 	1    5850 4950
 	1    0    0    -1  
@@ -449,7 +449,7 @@ SYS_~RST
 Text Label 8250 7350 0    60   ~ 0
 SYS_~RST
 $Comp
-L dvk-mx8m-bsb-rescue:TEST_1P TP101
+L Connector:TestPoint TP101
 U 1 1 5B018310
 P 8200 2350
 F 0 "TP101" H 8200 2620 50  0000 C CNN
@@ -545,12 +545,12 @@ F14 "HDMI_DDC_SDA" B R 12450 3050 60
 F15 "HDMI_DDC_SCL" I R 12450 2950 60 
 $EndSheet
 $Comp
-L dvk-mx8m-bsb-rescue:R R106
+L Device:R R106
 U 1 1 5B0AEFCA
 P 7950 10350
 F 0 "R106" H 8100 10400 50  0000 C CNN
 F 1 "19.6k" H 8100 10300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7880 10350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 10350 50  0001 C CNN
 F 3 "" H 7950 10350 50  0001 C CNN
 	1    7950 10350
 	-1   0    0    -1  
@@ -664,12 +664,12 @@ GPIO5_IO05
 Text Notes 7450 10750 2    60   ~ 0
 GPIO5_IO04
 $Comp
-L dvk-mx8m-bsb-rescue:R R103
+L Device:R R103
 U 1 1 5B330D8D
 P 7250 4100
 F 0 "R103" H 7400 4150 50  0000 C CNN
 F 1 "10k" H 7375 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7180 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 4100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7250 4100 50  0001 C CNN
 F 4 "Stackpole" H 7250 4100 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 7250 4100 60  0001 C CNN "MFG Part Num"
@@ -681,23 +681,23 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R101
+L Device:R R101
 U 1 1 5B33103F
 P 2350 3000
 F 0 "R101" H 2500 3050 50  0000 C CNN
 F 1 "2.2k" H 2500 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2280 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 3000 50  0001 C CNN
 F 3 "" H 2350 3000 50  0001 C CNN
 	1    2350 3000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R104
+L Device:R R104
 U 1 1 5B339DFC
 P 7350 4100
 F 0 "R104" H 7500 4150 50  0000 C CNN
 F 1 "10k" H 7475 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7280 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7280 4100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7350 4100 50  0001 C CNN
 F 4 "Stackpole" H 7350 4100 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 7350 4100 60  0001 C CNN "MFG Part Num"
@@ -739,12 +739,12 @@ F 3 "" H 15800 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R102
+L Device:R R102
 U 1 1 5B12EC2C
 P 2450 3000
 F 0 "R102" H 2600 3050 50  0000 C CNN
 F 1 "2.2k" H 2600 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2380 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3000 50  0001 C CNN
 F 3 "" H 2450 3000 50  0001 C CNN
 	1    2450 3000
 	1    0    0    -1  
@@ -958,12 +958,12 @@ F 3 "" H 8150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R107
+L Device:R R107
 U 1 1 5B2BBF6E
 P 8150 3400
 F 0 "R107" H 8300 3450 50  0000 C CNN
 F 1 "10k" H 8275 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8080 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8080 3400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8150 3400 50  0001 C CNN
 F 4 "Stackpole" H 8150 3400 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 8150 3400 60  0001 C CNN "MFG Part Num"
@@ -1052,12 +1052,12 @@ GPIO1_IO12
 Text Notes 2000 2850 2    60   ~ 0
 GPIO3_IO19
 $Comp
-L dvk-mx8m-bsb-rescue:C C108
+L Device:C C108
 U 1 1 5BE7141F
 P 8050 4950
 F 0 "C108" H 8075 5050 50  0000 L CNN
 F 1 "100nF" H 8075 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8088 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8088 4800 50  0001 C CNN
 F 3 "" H 8050 4950 50  0001 C CNN
 	1    8050 4950
 	1    0    0    -1  
@@ -2168,12 +2168,12 @@ Wire Wire Line
 	7300 3850 7300 3900
 Connection ~ 7300 3900
 $Comp
-L dvk-mx8m-bsb-rescue:C C107
+L Device:C C107
 U 1 1 5BF074D9
 P 7150 4950
 F 0 "C107" H 7175 5050 50  0000 L CNN
 F 1 "100nF" H 7175 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7188 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 4800 50  0001 C CNN
 F 3 "" H 7150 4950 50  0001 C CNN
 	1    7150 4950
 	-1   0    0    -1  
@@ -2348,12 +2348,12 @@ F 5 "DF40HC(4.0)-80DS-0.4V(51)" H 6550 5750 60  0001 C CNN "MFG Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C101
+L Device:C C101
 U 1 1 5B32D889
 P 4950 4950
 F 0 "C101" H 4975 5050 50  0000 L CNN
 F 1 "22uF" H 4975 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4988 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 4800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 4950 4950 50  0001 C CNN
 F 4 "Samsung" H 4950 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 4950 4950 60  0001 C CNN "MFG Part Num"
@@ -2365,12 +2365,12 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C102
+L Device:C C102
 U 1 1 5B32DB63
 P 5250 4950
 F 0 "C102" H 5275 5050 50  0000 L CNN
 F 1 "22uF" H 5275 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5288 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 4800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 5250 4950 50  0001 C CNN
 F 4 "Samsung" H 5250 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 5250 4950 60  0001 C CNN "MFG Part Num"
@@ -2382,12 +2382,12 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C105
+L Device:C C105
 U 1 1 5B32DE4A
 P 6150 4950
 F 0 "C105" H 6175 5050 50  0000 L CNN
 F 1 "22uF" H 6175 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6188 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 4800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6150 4950 50  0001 C CNN
 F 4 "Samsung" H 6150 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 6150 4950 60  0001 C CNN "MFG Part Num"
@@ -2399,12 +2399,12 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C106
+L Device:C C106
 U 1 1 5B32E12A
 P 6450 4950
 F 0 "C106" H 6475 5050 50  0000 L CNN
 F 1 "22uF" H 6475 4850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6488 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 4800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6450 4950 50  0001 C CNN
 F 4 "Samsung" H 6450 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 6450 4950 60  0001 C CNN "MFG Part Num"
@@ -2457,12 +2457,12 @@ Wire Wire Line
 Wire Wire Line
 	2150 3600 2450 3600
 $Comp
-L dvk-mx8m-bsb-rescue:R R105
+L Device:R R105
 U 1 1 5B425E35
 P 7950 9950
 F 0 "R105" H 8100 10000 50  0000 C CNN
 F 1 "10k" H 8075 9900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7880 9950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 9950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7950 9950 50  0001 C CNN
 F 4 "Stackpole" H 7950 9950 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 7950 9950 60  0001 C CNN "MFG Part Num"
@@ -2531,12 +2531,12 @@ F 3 "" H 7300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R108
+L Device:R R108
 U 1 1 5B4F042B
 P 10850 9900
 F 0 "R108" H 11000 9950 50  0000 C CNN
 F 1 "10k" H 10975 9850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10780 9900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10780 9900 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10850 9900 50  0001 C CNN
 F 4 "Stackpole" H 10850 9900 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 10850 9900 60  0001 C CNN "MFG Part Num"
@@ -2548,12 +2548,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R109
+L Device:R R109
 U 1 1 5B4F549E
 P 10950 9900
 F 0 "R109" H 11100 9950 50  0000 C CNN
 F 1 "10k" H 11075 9850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10880 9900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10880 9900 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10950 9900 50  0001 C CNN
 F 4 "Stackpole" H 10950 9900 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 10950 9900 60  0001 C CNN "MFG Part Num"

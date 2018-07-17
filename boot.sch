@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 24
 Title "Boot Configuration"
-Date "2018-06-18"
+Date "2018-07-17"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -26,12 +26,12 @@ F 3 "" H 2050 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R507
+L Device:R R507
 U 1 1 5ACC15C6
 P 2550 2750
 F 0 "R507" H 2700 2800 50  0000 C CNN
 F 1 "NC" H 2650 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2480 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 2750 50  0001 C CNN
 F 3 "" H 2550 2750 50  0001 C CNN
 	1    2550 2750
 	1    0    0    -1  
@@ -1818,12 +1818,12 @@ Wire Wire Line
 Wire Wire Line
 	4150 5200 4250 5200
 $Comp
-L dvk-mx8m-bsb-rescue:R R501
+L Device:R R501
 U 1 1 5B305194
 P 2250 2950
 F 0 "R501" V 2300 3150 50  0000 C CNN
 F 1 "10k" V 2250 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 2950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2250 2950 50  0001 C CNN
 F 4 "Stackpole" H 2250 2950 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2250 2950 60  0001 C CNN "MFG Part Num"
@@ -1835,12 +1835,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R502
+L Device:R R502
 U 1 1 5B305386
 P 2250 3150
 F 0 "R502" V 2300 3350 50  0000 C CNN
 F 1 "10k" V 2250 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 3150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2250 3150 50  0001 C CNN
 F 4 "Stackpole" H 2250 3150 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2250 3150 60  0001 C CNN "MFG Part Num"
@@ -1852,12 +1852,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R503
+L Device:R R503
 U 1 1 5B305401
 P 2250 3250
 F 0 "R503" V 2300 3450 50  0000 C CNN
 F 1 "10k" V 2250 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 3250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2250 3250 50  0001 C CNN
 F 4 "Stackpole" H 2250 3250 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2250 3250 60  0001 C CNN "MFG Part Num"
@@ -1869,12 +1869,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R504
+L Device:R R504
 U 1 1 5B30547B
 P 2250 3350
 F 0 "R504" V 2300 3550 50  0000 C CNN
 F 1 "10k" V 2250 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 3350 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2250 3350 50  0001 C CNN
 F 4 "Stackpole" H 2250 3350 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2250 3350 60  0001 C CNN "MFG Part Num"
@@ -1886,12 +1886,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R505
+L Device:R R505
 U 1 1 5B3054F4
 P 2250 3550
 F 0 "R505" V 2300 3750 50  0000 C CNN
 F 1 "10k" V 2250 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 3550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2250 3550 50  0001 C CNN
 F 4 "Stackpole" H 2250 3550 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2250 3550 60  0001 C CNN "MFG Part Num"
@@ -1903,12 +1903,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R506
+L Device:R R506
 U 1 1 5B305574
 P 2250 3650
 F 0 "R506" V 2300 3850 50  0000 C CNN
 F 1 "10k" V 2250 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2180 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 3650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2250 3650 50  0001 C CNN
 F 4 "Stackpole" H 2250 3650 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2250 3650 60  0001 C CNN "MFG Part Num"
@@ -1920,12 +1920,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    1    -1   0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R508
+L Device:R R508
 U 1 1 5B307580
 P 2850 2750
 F 0 "R508" H 3000 2800 50  0000 C CNN
 F 1 "10k" H 2975 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2780 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 2750 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2850 2750 50  0001 C CNN
 F 4 "Stackpole" H 2850 2750 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 2850 2750 60  0001 C CNN "MFG Part Num"
@@ -1937,12 +1937,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R510
+L Device:R R510
 U 1 1 5B3075F3
 P 3150 2750
 F 0 "R510" H 3300 2800 50  0000 C CNN
 F 1 "10k" H 3275 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3080 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 2750 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3150 2750 50  0001 C CNN
 F 4 "Stackpole" H 3150 2750 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3150 2750 60  0001 C CNN "MFG Part Num"
@@ -1954,12 +1954,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R514
+L Device:R R514
 U 1 1 5B307AAD
 P 6800 2050
 F 0 "R514" V 6725 2050 50  0000 C CNN
 F 1 "10k" V 6875 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 2050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 2050 50  0001 C CNN
 F 4 "Stackpole" H 6800 2050 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 2050 60  0001 C CNN "MFG Part Num"
@@ -1971,12 +1971,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R515
+L Device:R R515
 U 1 1 5B3095E1
 P 6800 2300
 F 0 "R515" V 6725 2300 50  0000 C CNN
 F 1 "10k" V 6875 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 2300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 2300 50  0001 C CNN
 F 4 "Stackpole" H 6800 2300 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 2300 60  0001 C CNN "MFG Part Num"
@@ -1988,12 +1988,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R516
+L Device:R R516
 U 1 1 5B309654
 P 6800 3250
 F 0 "R516" V 6725 3250 50  0000 C CNN
 F 1 "10k" V 6875 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 3250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 3250 50  0001 C CNN
 F 4 "Stackpole" H 6800 3250 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 3250 60  0001 C CNN "MFG Part Num"
@@ -2005,12 +2005,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R517
+L Device:R R517
 U 1 1 5B3096EC
 P 6800 3500
 F 0 "R517" V 6725 3500 50  0000 C CNN
 F 1 "10k" V 6875 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 3500 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 3500 50  0001 C CNN
 F 4 "Stackpole" H 6800 3500 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 3500 60  0001 C CNN "MFG Part Num"
@@ -2022,12 +2022,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R518
+L Device:R R518
 U 1 1 5B309B05
 P 6800 4400
 F 0 "R518" V 6725 4400 50  0000 C CNN
 F 1 "10k" V 6875 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 4400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 4400 50  0001 C CNN
 F 4 "Stackpole" H 6800 4400 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 4400 60  0001 C CNN "MFG Part Num"
@@ -2039,12 +2039,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R519
+L Device:R R519
 U 1 1 5B309B9F
 P 6800 5550
 F 0 "R519" V 6725 5550 50  0000 C CNN
 F 1 "10k" V 6875 5550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 5550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 5550 50  0001 C CNN
 F 4 "Stackpole" H 6800 5550 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 5550 60  0001 C CNN "MFG Part Num"
@@ -2056,12 +2056,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R520
+L Device:R R520
 U 1 1 5B309C4A
 P 6800 5850
 F 0 "R520" V 6725 5850 50  0000 C CNN
 F 1 "10k" V 6875 5850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 5850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 5850 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 5850 50  0001 C CNN
 F 4 "Stackpole" H 6800 5850 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 5850 60  0001 C CNN "MFG Part Num"
@@ -2073,12 +2073,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R521
+L Device:R R521
 U 1 1 5B309CCE
 P 6800 6100
 F 0 "R521" V 6725 6100 50  0000 C CNN
 F 1 "10k" V 6875 6100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6730 6100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 6100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6800 6100 50  0001 C CNN
 F 4 "Stackpole" H 6800 6100 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 6800 6100 60  0001 C CNN "MFG Part Num"
@@ -2090,12 +2090,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R513
+L Device:R R513
 U 1 1 5B30A633
 P 4000 5200
 F 0 "R513" V 3925 5200 50  0000 C CNN
 F 1 "10k" V 4075 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3930 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 5200 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4000 5200 50  0001 C CNN
 F 4 "Stackpole" H 4000 5200 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 4000 5200 60  0001 C CNN "MFG Part Num"
@@ -2107,12 +2107,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R509
+L Device:R R509
 U 1 1 5B30A6F1
 P 3000 5200
 F 0 "R509" V 2850 5200 50  0000 C CNN
 F 1 "10k" V 2925 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2930 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 5200 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3000 5200 50  0001 C CNN
 F 4 "Stackpole" H 3000 5200 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3000 5200 60  0001 C CNN "MFG Part Num"
@@ -2124,12 +2124,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	0    -1   1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R512
+L Device:R R512
 U 1 1 5B30B2F4
 P 3800 5550
 F 0 "R512" H 3650 5600 50  0000 C CNN
 F 1 "10k" H 3675 5500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3730 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3800 5550 50  0001 C CNN
 F 4 "Stackpole" H 3800 5550 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3800 5550 60  0001 C CNN "MFG Part Num"
@@ -2141,12 +2141,12 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:R R511
+L Device:R R511
 U 1 1 5B30BB41
 P 3200 4900
 F 0 "R511" H 3050 4950 50  0000 C CNN
 F 1 "10k" H 3075 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3130 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 4900 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3200 4900 50  0001 C CNN
 F 4 "Stackpole" H 3200 4900 60  0001 C CNN "MFG Name"
 F 5 "RMCF0603JG10K0" H 3200 4900 60  0001 C CNN "MFG Part Num"
@@ -2158,7 +2158,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW501
+L Switch:SW_DPDT_x2 SW501
 U 1 1 5B0CA9C7
 P 3100 5500
 F 0 "SW501" V 3150 5225 50  0000 C CNN
@@ -2177,7 +2177,7 @@ $EndComp
 NoConn ~ 3000 5300
 NoConn ~ 3700 4750
 $Comp
-L dvk-mx8m-bsb-rescue:SW_DPDT_x2 SW501
+L Switch:SW_DPDT_x2 SW501
 U 2 1 5B0D695F
 P 3800 4950
 F 0 "SW501" V 3850 4675 50  0000 C CNN
@@ -2280,23 +2280,23 @@ F 3 "" H 2850 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C502
+L Device:C C502
 U 1 1 5B12AE9C
 P 3700 4300
 F 0 "C502" H 3725 4400 50  0000 L CNN
 F 1 "100nF" H 3725 4200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3738 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 4150 50  0001 C CNN
 F 3 "" H 3700 4300 50  0001 C CNN
 	1    3700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:C C501
+L Device:C C501
 U 1 1 5B12B02A
 P 3000 2150
 F 0 "C501" H 3025 2250 50  0000 L CNN
 F 1 "100nF" H 3025 2050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3038 2000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 2000 50  0001 C CNN
 F 3 "" H 3000 2150 50  0001 C CNN
 	1    3000 2150
 	1    0    0    -1  
@@ -2338,7 +2338,7 @@ Connection ~ 3550 4100
 Wire Wire Line
 	3700 4450 3700 4500
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D501
+L Device:D_TVS_ALT D501
 U 1 1 5B21861F
 P 2800 5500
 F 0 "D501" V 2750 5325 50  0000 C CNN
@@ -2355,7 +2355,7 @@ F 9 "https://octopart.com/search?q=ESD5B5.0ST1G&start=0" V 2800 5500 60  0001 C 
 	0    1    1    0   
 $EndComp
 $Comp
-L dvk-mx8m-bsb-rescue:D_TVS_ALT D502
+L Device:D_TVS_ALT D502
 U 1 1 5B218688
 P 4200 5500
 F 0 "D502" V 4150 5325 50  0000 C CNN
