@@ -454,7 +454,7 @@ U 1 1 5B018310
 P 8200 2350
 F 0 "TP101" H 8200 2620 50  0000 C CNN
 F 1 "TEST_1P" H 8200 2550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8400 2350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8400 2350 50  0001 C CNN
 F 3 "" H 8400 2350 50  0001 C CNN
 	1    8200 2350
 	1    0    0    -1  

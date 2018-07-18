@@ -183,7 +183,7 @@ U 1 1 5AF22D8A
 P 750 5850
 F 0 "TP1701" H 750 6120 50  0000 C CNN
 F 1 "TEST_1P" H 750 6050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 950 5850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 950 5850 50  0001 C CNN
 F 3 "" H 950 5850 50  0001 C CNN
 	1    750  5850
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 5AF22DDD
 P 1050 5750
 F 0 "TP1702" H 1050 6020 50  0000 C CNN
 F 1 "TEST_1P" H 1050 5950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1250 5750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1250 5750 50  0001 C CNN
 F 3 "" H 1250 5750 50  0001 C CNN
 	1    1050 5750
 	1    0    0    -1  
