@@ -35,7 +35,7 @@
   (pad 9 thru_hole circle (at 0 0.4) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.Mask))
   (pad 9 smd rect (at 0 0) (size 0.9 1.6) (layers B.Cu)
     (solder_paste_margin_ratio -0.1))
-  (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

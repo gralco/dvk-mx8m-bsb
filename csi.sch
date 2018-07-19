@@ -6458,14 +6458,14 @@ U 1 1 5B11E3C0
 P 9050 3350
 F 0 "J1301" H 9100 4225 50  0000 C CNN
 F 1 "OV5640" H 9100 4150 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:Conn_Pan_AXT630124" H 9050 3350 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:Conn_Pan_AXT530124" H 9050 3350 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/cdn/e/control/connector/base-fpc/catalog/con_eng_f4s.pdf" H 9050 3350 50  0001 C CNN
 F 4 "Panasonic" H 9050 3350 60  0001 C CNN "MFG Name"
-F 5 "AXT630124" H 9050 3350 60  0001 C CNN "MFG Part Num"
-F 6 "769-AXT630124" H 9050 3350 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/AXT630124?qs=%2fha2pyFaduhWgBlnq%2f5GKY1ayWUWO5uKyvuPHSGZuvc%3d" H 9050 3350 60  0001 C CNN "Distrib Link"
+F 5 "AXT530124" H 9050 3350 60  0001 C CNN "MFG Part Num"
+F 6 "769-AXT530124" H 9050 3350 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/AXT530124?qs=2rFUEsTwVNyiwPOEKkiHLw%3D%3D" H 9050 3350 60  0001 C CNN "Distrib Link"
 F 8 "-" H 9050 3350 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=AXT630124&start=0" H 9050 3350 60  0001 C CNN "Others"
+F 9 "https://octopart.com/search?q=AXT530124&start=0" H 9050 3350 60  0001 C CNN "Others"
 	1    9050 3350
 	1    0    0    -1  
 $EndComp
@@ -6642,7 +6642,7 @@ Wire Wire Line
 	10400 4750 10400 4700
 Connection ~ 10250 3350
 Wire Wire Line
-	9900 3350 10250 3350
+	9900 3350 10150 3350
 Wire Wire Line
 	10150 3400 10150 3350
 Wire Wire Line
@@ -6655,13 +6655,13 @@ Wire Wire Line
 Wire Wire Line
 	10650 3400 10650 3350
 Wire Wire Line
-	10250 3300 10250 3900
+	10250 3300 10250 3350
 Wire Wire Line
-	10550 3300 10550 3900
+	10550 3300 10550 3350
 Wire Wire Line
-	8250 2650 8750 2650
+	8250 2650 8550 2650
 Wire Wire Line
-	8250 3150 8850 3150
+	8250 3150 8550 3150
 Connection ~ 8550 3150
 Wire Wire Line
 	8250 3000 8250 3150
@@ -6671,16 +6671,16 @@ Connection ~ 9650 3050
 Wire Wire Line
 	10400 3050 10400 3000
 Wire Wire Line
-	9350 3050 10400 3050
+	9350 3050 9400 3050
 Wire Wire Line
-	9450 2600 9450 2850
+	9450 2600 9450 2650
 Wire Wire Line
 	9450 2850 9350 2850
 Connection ~ 8550 2650
 Wire Wire Line
-	8750 2650 8750 3050
+	8750 2650 8750 2850
 Wire Wire Line
-	8800 2750 8800 4100
+	8800 2750 8800 2950
 Wire Wire Line
 	8750 2850 8850 2850
 Connection ~ 8750 2850
@@ -6701,7 +6701,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 2750 9350 2750
 Wire Wire Line
-	9400 2750 9400 4100
+	9400 2750 9400 3050
 Connection ~ 8800 4050
 Wire Wire Line
 	8800 4050 8850 4050
@@ -6737,11 +6737,11 @@ Wire Notes Line
 Wire Notes Line
 	3600 5050 3600 7750
 Wire Wire Line
-	5900 3950 6150 3950
+	5900 3950 6100 3950
 Wire Wire Line
-	6500 3700 6500 4000
+	6500 3700 6500 3950
 Wire Wire Line
-	6100 3700 6100 4000
+	6100 3700 6100 3950
 Wire Wire Line
 	6450 3700 6500 3700
 Connection ~ 6100 3950
@@ -6749,7 +6749,7 @@ Wire Wire Line
 	6150 3700 6100 3700
 Connection ~ 6500 3950
 Wire Wire Line
-	6450 3950 7100 3950
+	6450 3950 6500 3950
 Wire Wire Line
 	6500 4350 6500 4300
 Wire Wire Line
@@ -6764,7 +6764,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4050 7500 4100
 Wire Wire Line
-	7500 3000 7500 3650
+	7500 3000 7500 3050
 Wire Wire Line
 	9850 4300 9850 3150
 Wire Wire Line
@@ -6796,7 +6796,7 @@ Wire Wire Line
 	9650 3050 9650 3000
 Connection ~ 9450 2650
 Wire Wire Line
-	9450 2650 10400 2650
+	9450 2650 9650 2650
 Wire Wire Line
 	10400 2650 10400 2700
 Wire Wire Line
@@ -6824,7 +6824,69 @@ Wire Wire Line
 Wire Wire Line
 	8550 3150 8550 3000
 Wire Wire Line
-	8550 2600 8550 2700
+	8550 2600 8550 2650
 Wire Wire Line
 	8750 3250 8850 3250
+Wire Wire Line
+	10150 3350 10250 3350
+Wire Wire Line
+	10250 3350 10250 3900
+Wire Wire Line
+	10550 3350 10550 3900
+Wire Wire Line
+	8550 3150 8800 3150
+Wire Wire Line
+	9650 3050 9900 3050
+Wire Wire Line
+	8550 2650 8750 2650
+Wire Wire Line
+	8550 2650 8550 2700
+Wire Wire Line
+	8750 2850 8750 3050
+Wire Wire Line
+	9400 3050 9650 3050
+Wire Wire Line
+	9400 3050 9400 3250
+Wire Wire Line
+	9400 3250 9400 3550
+Wire Wire Line
+	9400 3550 9400 3850
+Wire Wire Line
+	9400 3850 9400 4100
+Wire Wire Line
+	8800 4050 8800 4100
+Wire Wire Line
+	8800 3950 8800 4050
+Wire Wire Line
+	8800 3750 8800 3950
+Wire Wire Line
+	8800 3650 8800 3750
+Wire Wire Line
+	8800 3150 8800 3650
+Wire Wire Line
+	8800 3150 8850 3150
+Wire Wire Line
+	8800 2950 8800 3150
+Wire Wire Line
+	6100 3950 6150 3950
+Wire Wire Line
+	6100 3950 6100 4000
+Wire Wire Line
+	6500 3950 6500 4000
+Wire Wire Line
+	6500 3950 7100 3950
+Wire Wire Line
+	7500 3050 7500 3650
+Wire Wire Line
+	9650 2650 9900 2650
+Wire Wire Line
+	9900 2650 10150 2650
+Wire Wire Line
+	10150 2650 10400 2650
+Wire Wire Line
+	9900 3050 10150 3050
+Wire Wire Line
+	10150 3050 10400 3050
+Wire Wire Line
+	9450 2650 9450 2850
 $EndSCHEMATC

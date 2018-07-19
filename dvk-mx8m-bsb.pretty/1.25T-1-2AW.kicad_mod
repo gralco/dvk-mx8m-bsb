@@ -1,4 +1,4 @@
-(module 1.25T-1-2AW (layer F.Cu) (tedit 5B3035D4)
+(module 1.25T-1-2AW (layer F.Cu) (tedit 5B4FD37E)
   (descr "1.25mm right angled pitch header")
   (tags "right angled header")
   (fp_text reference REF** (at 2.875 -4.25) (layer F.SilkS)
@@ -47,8 +47,8 @@
   (fp_line (start 2.2 -3.675) (end -2.2 -3.675) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole rect (at -0.625 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0.625 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask))
-  (model Connectors_JST.3dshapes/JST_EH_S02B-EH_02x2.50mm_Angled.wrl
-    (at (xyz -0.024606 0 0))
+  (model Connector_JST.3dshapes/JST_EH_S02B-EH_1x02_P2.50mm_Horizontal.wrl
+    (offset (xyz -0.6249923906135559 0 0))
     (scale (xyz 0.5 0.5 0.5))
     (rotate (xyz 0 0 0))
   )

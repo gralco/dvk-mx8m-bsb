@@ -1,4 +1,4 @@
-(module LTST-C190GKT (layer F.Cu) (tedit 5B184A95)
+(module LTST-C190GKT (layer F.Cu) (tedit 5B4F9A46)
   (descr "LED LTST-C190GKT smd package")
   (tags "LED led LTST-C190GKT SMD smd SMT smt smdled SMDLED smtled SMTLED")
   (attr smd)
@@ -25,9 +25,9 @@
   (fp_line (start -1.45 -0.65) (end 1.45 -0.65) (layer F.CrtYd) (width 0.05))
   (pad 2 smd rect (at 0.75 0 180) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.75 0 180) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0603.wrl
+  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
 )

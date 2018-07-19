@@ -1,4 +1,4 @@
-(module PCMF2HDMI2S (layer F.Cu) (tedit 5B22BA7B)
+(module PCMF2HDMI2S (layer F.Cu) (tedit 5B4FBC1B)
   (tags "Differential 2-channel common-mode EMI filter with integrated ESD protection")
   (solder_mask_margin 0.0375)
   (fp_text reference REF** (at 0 -2.2) (layer F.SilkS)
@@ -50,9 +50,9 @@
   (pad C1 smd circle (at -0.4 -0.6 270) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad C2 smd circle (at -0.4 -0.2 270) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad C3 smd circle (at -0.4 0.2 270) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Housings_BGA.3dshapes/BGA-256_16x16_17.0x17.0mm_Pitch1.0mm.wrl
-    (at (xyz 0 0 -0.002))
-    (scale (xyz 0.073 0.093 0.21))
-    (rotate (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Package_BGA.3dshapes/Maxim_WLP-12.wrl
+    (offset (xyz 0 0 -0.1))
+    (scale (xyz 0.8 0.8 1))
+    (rotate (xyz 0 0 90))
   )
 )

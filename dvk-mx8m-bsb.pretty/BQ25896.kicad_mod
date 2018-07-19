@@ -89,7 +89,7 @@
   (pad 25 thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu F.Mask))
   (pad 25 smd rect (at 0 0) (size 2.7 2.7) (layers B.Cu)
     (solder_paste_margin_ratio -0.5))
-  (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
