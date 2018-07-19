@@ -1841,15 +1841,15 @@ L Device:Microphone MK1601
 U 1 1 5AFB70F1
 P 9000 5350
 F 0 "MK1601" H 8850 5400 50  0000 R CNN
-F 1 "CMC-6022" H 8850 5325 50  0000 R CNN
+F 1 "CMC-2242PBL" H 8850 5325 50  0000 R CNN
 F 2 "dvk-mx8m-bsb:Electret_Condenser_Mic_6mm" V 9000 5450 50  0001 C CNN
-F 3 "https://www.cui.com/product/resource/cmc-6022-37t.pdf" V 9000 5450 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/cmc-2242pbl-a.pdf" V 9000 5450 50  0001 C CNN
 F 4 "CUI" H 9000 5350 60  0001 C CNN "MFG Name"
-F 5 "CMC-6022-37T" H 9000 5350 60  0001 C CNN "MFG Part Num"
-F 6 "102-4095-ND" H 9000 5350 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/cui-inc/CMC-6022-37T/102-4095-ND/6561033" H 9000 5350 60  0001 C CNN "Distrib Link"
+F 5 "CMC-2242PBL-A" H 9000 5350 60  0001 C CNN "MFG Part Num"
+F 6 "102-1727-ND" H 9000 5350 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/cui-inc/CMC-2242PBL-A/102-1727-ND/1869987" H 9000 5350 60  0001 C CNN "Distrib Link"
 F 8 "±3dB" H 9000 5350 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/audio-products/microphones/158?k=&pkeyword=&pv966=678&pv966=281&pv966=434&pv966=469&pv966=428&pv966=292&pv966=522&pv966=525&pv966=481&pv966=551&pv966=1658&pv966=330&pv966=415&pv966=1367&pv966=317&pv966=395&FV=a40062%2C9340003%2C1f140000%2Cyr100Hz+~+20kHz%7C2145%2Cyr100Hz+~+80kHz%7C2145%2Cyr20Hz+~+20kHz%7C2145%2Cyr25Hz+~+20kHz%7C2145%2Cyr28Hz+~+20kHz%7C2145%2Cyr35Hz+~+20kHz%7C2145%2Cyr50Hz+~+20kHz%7C2145%2Cyr60Hz+~+20kHz%7C2145%2Cyr6Hz+~+20kHz%7C2145%2Cyr70Hz+~+20kHz%7C2145%2Cyr75Hz+~+20kHz%7C2145%2Cffe0009e&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 9000 5350 60  0001 C CNN "Others"
+F 9 "https://www.digikey.com/products/en/audio-products/microphones/158?FV=fffc0066%2Cffe0009e&quantity=0&ColumnSort=1000011&page=1&pageSize=25" H 9000 5350 60  0001 C CNN "Others"
 	1    9000 5350
 	-1   0    0    -1  
 $EndComp
@@ -2036,8 +2036,6 @@ Connection ~ 6050 2350
 Wire Wire Line
 	6250 2400 6250 2150
 Connection ~ 6250 2150
-Text Notes 9100 5650 0    60   ~ 0
-Add TVS next to int-mic?\n(OpenMoko does this)
 Text Notes 6510 2290 0    60   ~ 0
 8Ω
 Text Notes 9150 4300 0    60   ~ 0
