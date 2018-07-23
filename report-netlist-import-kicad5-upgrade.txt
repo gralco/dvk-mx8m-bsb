@@ -520,137 +520,137 @@ Info: Checking netlist symbol footprint “C1810:/5AF3486B/5B1DE1E1:Capacitor_SM
 
 Info: Checking netlist symbol footprint “C1811:/5AF3486B/5B36D6D1:Capacitor_SMD:C_0603_1608Metric”.
 
-Info: Checking netlist symbol footprint “R1720:/5AF0A927/5AF3938A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1720:/5AF0A927/5AF3938A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1803:/5AF3486B/5B32B0CB:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1803:/5AF3486B/5B32B0CB:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “R1802:/5AF3486B/5B251402:Resistor_SMD:R_1206_3216Metric”.
 
-Info: Checking netlist symbol footprint “R1801:/5AF3486B/5B3298C6:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1801:/5AF3486B/5B3298C6:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1725:/5AF0A927/5B00D480:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1725:/5AF0A927/5B00D480:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1724:/5AF0A927/5B012A73:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1724:/5AF0A927/5B012A73:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1723:/5AF0A927/5B012960:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1723:/5AF0A927/5B012960:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1722:/5AF0A927/5AF1A694:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1722:/5AF0A927/5AF1A694:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1721:/5AF0A927/5AF37C5E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1721:/5AF0A927/5AF37C5E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1804:/5AF3486B/5B32B161:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1804:/5AF3486B/5B32B161:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1719:/5AF0A927/5AF37E4E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1719:/5AF0A927/5AF37E4E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1718:/5AF0A927/5B348B8D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1718:/5AF0A927/5B348B8D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1717:/5AF0A927/5B348AD6:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1717:/5AF0A927/5B348AD6:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1716:/5AF0A927/5B348A20:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1716:/5AF0A927/5B348A20:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1715:/5AF0A927/5AF1A84A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1715:/5AF0A927/5AF1A84A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1714:/5AF0A927/5B348865:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1714:/5AF0A927/5B348865:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1713:/5AF0A927/5AF1A819:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1713:/5AF0A927/5AF1A819:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1712:/5AF0A927/5B3487C7:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1712:/5AF0A927/5B3487C7:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1805:/5AF3486B/5AF51A2E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1805:/5AF3486B/5AF51A2E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1806:/5AF3486B/5B32B217:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1806:/5AF3486B/5B32B217:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1807:/5AF3486B/5AF3C97D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1807:/5AF3486B/5AF3C97D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1901:/5AFCA865/5B0140D4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1901:/5AFCA865/5B0140D4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1902:/5AFCA865/5B019D42:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1902:/5AFCA865/5B019D42:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1903:/5AFCA865/5B0141CF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1903:/5AFCA865/5B0141CF:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1904:/5AFCA865/5B019D48:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1904:/5AFCA865/5B019D48:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1905:/5AFCA865/5B014497:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1905:/5AFCA865/5B014497:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1906:/5AFCA865/5B019D5A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1906:/5AFCA865/5B019D5A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1907:/5AFCA865/5B01449E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1907:/5AFCA865/5B01449E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1908:/5AFCA865/5B019D60:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1908:/5AFCA865/5B019D60:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1909:/5AFCA865/5AFA5BBB:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1909:/5AFCA865/5AFA5BBB:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1910:/5AFCA865/5AFB7819:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1910:/5AFCA865/5AFB7819:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1911:/5AFCA865/5AFB7942:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1911:/5AFCA865/5AFB7942:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1912:/5AFCA865/5AFBA7AC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1912:/5AFCA865/5AFBA7AC:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1506:/5ACD5EDE/5ADA90CD:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1506:/5ACD5EDE/5ADA90CD:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1603:/5ABE7AA4/5ABEFC7B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1603:/5ABE7AA4/5ABEFC7B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1602:/5ABE7AA4/5B4E9C2D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1602:/5ABE7AA4/5B4E9C2D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1601:/5ABE7AA4/5B4049AB:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1601:/5ABE7AA4/5B4049AB:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1511:/5ACD5EDE/5B30C2F2:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1511:/5ACD5EDE/5B30C2F2:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1510:/5ACD5EDE/5B2C73A3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1510:/5ACD5EDE/5B2C73A3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1509:/5ACD5EDE/5B30C2FF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1509:/5ACD5EDE/5B30C2FF:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1508:/5ACD5EDE/5B2D270A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1508:/5ACD5EDE/5B2D270A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1507:/5ACD5EDE/5B2C9CCA:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1507:/5ACD5EDE/5B2C9CCA:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1604:/5ABE7AA4/5ABF49BF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1604:/5ABE7AA4/5ABF49BF:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1505:/5ACD5EDE/5B33E226:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1505:/5ACD5EDE/5B33E226:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1504:/5ACD5EDE/5B3230EC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1504:/5ACD5EDE/5B3230EC:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1503:/5ACD5EDE/5B33E6D3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1503:/5ACD5EDE/5B33E6D3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1502:/5ACD5EDE/5B256C75:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1502:/5ACD5EDE/5B256C75:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1501:/5ACD5EDE/5B256C5B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1501:/5ACD5EDE/5B256C5B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1411:/5ACBE3AE/5ACC7E2E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1411:/5ACBE3AE/5ACC7E2E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1410:/5ACBE3AE/5AFF6F1F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1410:/5ACBE3AE/5AFF6F1F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1913:/5AFCA865/5AF70298:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1913:/5AFCA865/5AF70298:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1605:/5ABE7AA4/5ABF53AE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1605:/5ABE7AA4/5ABF53AE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1606:/5ABE7AA4/5ABF53C8:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1606:/5ABE7AA4/5ABF53C8:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1607:/5ABE7AA4/5AC7B464:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1607:/5ABE7AA4/5AC7B464:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1608:/5ABE7AA4/5B273184:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1608:/5ABE7AA4/5B273184:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1701:/5AF0A927/5B348EA1:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1701:/5AF0A927/5B348EA1:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1702:/5AF0A927/5AFC8685:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1702:/5AF0A927/5AFC8685:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1703:/5AF0A927/5B34A0D6:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1703:/5AF0A927/5B34A0D6:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1704:/5AF0A927/5AFC8798:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1704:/5AF0A927/5AFC8798:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1705:/5AF0A927/5B34A19A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1705:/5AF0A927/5B34A19A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1706:/5AF0A927/5B34AEF4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1706:/5AF0A927/5B34AEF4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1707:/5AF0A927/5B34AFB0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1707:/5AF0A927/5B34AFB0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1708:/5AF0A927/5B34B06F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1708:/5AF0A927/5B34B06F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1709:/5AF0A927/5B34B135:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1709:/5AF0A927/5B34B135:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1710:/5AF0A927/5B34B1FE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1710:/5AF0A927/5B34B1FE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1711:/5AF0A927/5B34B2C6:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1711:/5AF0A927/5B34B2C6:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “U701:/5ACD5BC1/5ACD5FC3:dvk-mx8m-bsb:NXP_VSSOP-8-1EP_2x2.3mm_SOT765-1”.
 
@@ -720,37 +720,37 @@ Info: Checking netlist symbol footprint “Y1701:/5AF0A927/5AF1A76B:dvk-mx8m-bsb
 
 Info: Checking netlist symbol footprint “SW1401:/5ACBE3AE/5ACC3A06:dvk-mx8m-bsb:Tact_SW_side”.
 
-Info: Checking netlist symbol footprint “R1914:/5AFCA865/5AF6BA49:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1914:/5AFCA865/5AF6BA49:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2001:/5B05878C/5B125D55:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2001:/5B05878C/5B125D55:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2002:/5B05878C/5B13CA51:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2002:/5B05878C/5B13CA51:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2101:/5B0A785D/5B152CDF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2101:/5B0A785D/5B152CDF:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2102:/5B0A785D/5AFB92E3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2102:/5B0A785D/5AFB92E3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2103:/5B0A785D/5AFBA0EE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2103:/5B0A785D/5AFBA0EE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2104:/5B0A785D/5B2FF389:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2104:/5B0A785D/5B2FF389:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2201:/5B1815F4/5B20FE9D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2201:/5B1815F4/5B20FE9D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2202:/5B1815F4/5B1F2A2C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2202:/5B1815F4/5B1F2A2C:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2203:/5B1815F4/5B1F2AD0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2203:/5B1815F4/5B1F2AD0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2301:/5B0D6F7B/5B103CA5:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2301:/5B0D6F7B/5B103CA5:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2401:/5AFCB56A/5AFD2E14:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2401:/5AFCB56A/5AFD2E14:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R2402:/5AFCB56A/5AFFD30C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2402:/5AFCB56A/5AFFD30C:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “SW501:/5ACBD81C/5B0CA9C7:dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN”.
 
 Info: Checking netlist symbol footprint “SW1301:/5B120FA9/5B12DFE7/5B126541:dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN”.
 
-Info: Checking netlist symbol footprint “R1409:/5ACBE3AE/5AFF5FC7:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1409:/5ACBE3AE/5AFF5FC7:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “SW1402:/5ACBE3AE/5B49E70C:dvk-mx8m-bsb:Tact_SW_side”.
 
@@ -762,7 +762,7 @@ Info: Checking netlist symbol footprint “SW1501:/5ACD5EDE/5B30C2E5:dvk-mx8m-bs
 
 Info: Checking netlist symbol footprint “SW1801:/5AF3486B/5B12219C:dvk-mx8m-bsb:Switch_CK_DPDT_JS202011JAQN”.
 
-Info: Checking netlist symbol footprint “TH301:/5ABE5061/5AE369F4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “TH301:/5ABE5061/5AE369F4:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “TP101:/5B018310:Measurement_Points:Measurement_Point_Round-SMD-Pad_Small”.
 
@@ -782,73 +782,73 @@ Info: Checking netlist symbol footprint “U205:/5ACF2B88/5AF8A4AD:dvk-mx8m-bsb:
 
 Info: Checking netlist symbol footprint “U301:/5ABE5061/5AF31C9D:dvk-mx8m-bsb:BQ25896”.
 
-Info: Checking netlist symbol footprint “R302:/5ABE5061/5AE61BA6:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R302:/5ABE5061/5AE61BA6:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R310:/5ABE5061/5B30501E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R310:/5ABE5061/5B30501E:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “R309:/5ABE5061/5B0E4134:Resistor_SMD:R_2512_6332Metric”.
 
-Info: Checking netlist symbol footprint “R308:/5ABE5061/5AE3641A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R308:/5ABE5061/5AE3641A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R307:/5ABE5061/5AE36487:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R307:/5ABE5061/5AE36487:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R306:/5ABE5061/5ADFDA10:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R306:/5ABE5061/5ADFDA10:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R305:/5ABE5061/5B302D80:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R305:/5ABE5061/5B302D80:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R304:/5ABE5061/5B2F65C3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R304:/5ABE5061/5B2F65C3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R303:/5ABE5061/5B2725A1:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R303:/5ABE5061/5B2725A1:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R401:/5B0FA74B/5AC8ED7F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R401:/5B0FA74B/5AC8ED7F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R301:/5ABE5061/5AE62134:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R301:/5ABE5061/5AE62134:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R226:/5ACF2B88/5AF9C7FE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R226:/5ACF2B88/5AF9C7FE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R225:/5ACF2B88/5AF4CEE1:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R225:/5ACF2B88/5AF4CEE1:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R224:/5ACF2B88/5AF41ABE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R224:/5ACF2B88/5AF41ABE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R223:/5ACF2B88/5AF4F746:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R223:/5ACF2B88/5AF4F746:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R222:/5ACF2B88/5AF4F4C0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R222:/5ACF2B88/5AF4F4C0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R221:/5ACF2B88/5AF53777:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R221:/5ACF2B88/5AF53777:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R220:/5ACF2B88/5B421944:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R220:/5ACF2B88/5B421944:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R402:/5B0FA74B/5B1B6D12:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R402:/5B0FA74B/5B1B6D12:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R403:/5B0FA74B/5AC8DBD8:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R403:/5B0FA74B/5AC8DBD8:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R404:/5B0FA74B/5B1859A9:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R404:/5B0FA74B/5B1859A9:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R405:/5B0FA74B/5AC89C89:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R405:/5B0FA74B/5AC89C89:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R406:/5B0FA74B/5AC894B5:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R406:/5B0FA74B/5AC894B5:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R407:/5B0FA74B/5AC89505:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R407:/5B0FA74B/5AC89505:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R408:/5B0FA74B/5ACAFE3F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R408:/5B0FA74B/5ACAFE3F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R409:/5B0FA74B/5ACFAD14:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R409:/5B0FA74B/5ACFAD14:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R410:/5B0FA74B/5ACFAE7B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R410:/5B0FA74B/5ACFAE7B:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “R411:/5B0FA74B/5B0AFB7B:Resistor_SMD:R_1206_3216Metric”.
 
-Info: Checking netlist symbol footprint “R412:/5B0FA74B/5B3B9540:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R412:/5B0FA74B/5B3B9540:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “R413:/5B0FA74B/5B24C59F:Resistor_SMD:R_1206_3216Metric”.
 
 Info: Checking netlist symbol footprint “R414:/5B0FA74B/5B24CEF2:Resistor_SMD:R_1206_3216Metric”.
 
-Info: Checking netlist symbol footprint “R415:/5B0FA74B/5B406431:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R415:/5B0FA74B/5B406431:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R416:/5B0FA74B/5B1AB6C8:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R416:/5B0FA74B/5B1AB6C8:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R204:/5ACF2B88/5AED6845:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R204:/5ACF2B88/5AED6845:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “Q1903:/5AFCA865/5B1A7CAB:dvk-mx8m-bsb:6-TSSOP”.
 
@@ -856,191 +856,191 @@ Info: Checking netlist symbol footprint “Q1904:/5AFCA865/5B1A9D21:dvk-mx8m-bsb
 
 Info: Checking netlist symbol footprint “Q2401:/5AFCB56A/5AFD137F:Package_TO_SOT_SMD:SOT-23”.
 
-Info: Checking netlist symbol footprint “R101:/5B33103F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R101:/5B33103F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R102:/5B12EC2C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R102:/5B12EC2C:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R103:/5B330D8D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R103:/5B330D8D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R104:/5B339DFC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R104:/5B339DFC:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R105:/5B425E35:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R105:/5B425E35:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R106:/5B0AEFCA:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R106:/5B0AEFCA:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R107:/5B2BBF6E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R107:/5B2BBF6E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R108:/5B4F042B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R108:/5B4F042B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R109:/5B4F549E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R109:/5B4F549E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R201:/5ACF2B88/5AEDAEEC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R201:/5ACF2B88/5AEDAEEC:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R202:/5ACF2B88/5AED5D55:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R202:/5ACF2B88/5AED5D55:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R203:/5ACF2B88/5AED67BD:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R203:/5ACF2B88/5AED67BD:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R417:/5B0FA74B/5B1A53A5:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R417:/5B0FA74B/5B1A53A5:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R205:/5ACF2B88/5AED68D0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R205:/5ACF2B88/5AED68D0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R206:/5ACF2B88/5AED69B2:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R206:/5ACF2B88/5AED69B2:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R207:/5ACF2B88/5AED7972:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R207:/5ACF2B88/5AED7972:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R208:/5ACF2B88/5AED7E8E:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R208:/5ACF2B88/5AED7E8E:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R209:/5ACF2B88/5AED80E2:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R209:/5ACF2B88/5AED80E2:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R210:/5ACF2B88/5B2F09F9:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R210:/5ACF2B88/5B2F09F9:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R211:/5ACF2B88/5ADED10B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R211:/5ACF2B88/5ADED10B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R212:/5ACF2B88/5ADED119:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R212:/5ACF2B88/5ADED119:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R213:/5ACF2B88/5ADED120:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R213:/5ACF2B88/5ADED120:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R214:/5ACF2B88/5B2F2DD5:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R214:/5ACF2B88/5B2F2DD5:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R215:/5ACF2B88/5ADED135:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R215:/5ACF2B88/5ADED135:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R216:/5ACF2B88/5ADED13C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R216:/5ACF2B88/5ADED13C:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R217:/5ACF2B88/5ADED143:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R217:/5ACF2B88/5ADED143:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R218:/5ACF2B88/5ADED14A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R218:/5ACF2B88/5ADED14A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R219:/5ACF2B88/5AF58EF4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R219:/5ACF2B88/5AF58EF4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R907:/5ADF72D2/5B07D9A0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R907:/5ADF72D2/5B07D9A0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1101:/5B120FA9/5B18041B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1101:/5B120FA9/5B18041B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1004:/5AC9B567/5B32051A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1004:/5AC9B567/5B32051A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1003:/5AC9B567/5B3204AF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1003:/5AC9B567/5B3204AF:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1002:/5AC9B567/5B32045F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1002:/5AC9B567/5B32045F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1001:/5AC9B567/5B0D207F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1001:/5AC9B567/5B0D207F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R910:/5ADF72D2/5B0B14ED:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R910:/5ADF72D2/5B0B14ED:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R909:/5ADF72D2/5B46EF81:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R909:/5ADF72D2/5B46EF81:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R908:/5ADF72D2/5B07DA80:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R908:/5ADF72D2/5B07DA80:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1102:/5B120FA9/5B180428:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1102:/5B120FA9/5B180428:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R906:/5ADF72D2/5B10A19C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R906:/5ADF72D2/5B10A19C:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R905:/5ADF72D2/5B4728EA:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R905:/5ADF72D2/5B4728EA:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R904:/5ADF72D2/5B101B57:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R904:/5ADF72D2/5B101B57:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R903:/5ADF72D2/5B16A0C3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R903:/5ADF72D2/5B16A0C3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R902:/5ADF72D2/5B31F267:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R902:/5ADF72D2/5B31F267:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R901:/5ADF72D2/5B09B6A4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R901:/5ADF72D2/5B09B6A4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R807:/5ACE0382/5AD0530D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R807:/5ACE0382/5AD0530D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R806:/5ACE0382/5AD052F0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R806:/5ACE0382/5AD052F0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1201:/5B120FA9/5B12DFA8/5B3235E0:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1201:/5B120FA9/5B12DFA8/5B3235E0:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1202:/5B120FA9/5B12DFA8/5B323584:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1202:/5B120FA9/5B12DFA8/5B323584:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1203:/5B120FA9/5B12DFA8/5B32362A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1203:/5B120FA9/5B12DFA8/5B32362A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1204:/5B120FA9/5B12DFA8/5B3236A9:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1204:/5B120FA9/5B12DFA8/5B3236A9:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1205:/5B120FA9/5B12DFA8/5B477A28:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1205:/5B120FA9/5B12DFA8/5B477A28:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1301:/5B120FA9/5B12DFE7/5B1ED51C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1301:/5B120FA9/5B12DFE7/5B1ED51C:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1302:/5B120FA9/5B12DFE7/5B1E9C00:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1302:/5B120FA9/5B12DFE7/5B1E9C00:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1401:/5ACBE3AE/5B078851:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1401:/5ACBE3AE/5B078851:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1402:/5ACBE3AE/5B0787FA:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1402:/5ACBE3AE/5B0787FA:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1403:/5ACBE3AE/5B0789B5:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1403:/5ACBE3AE/5B0789B5:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1404:/5ACBE3AE/5B07894D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1404:/5ACBE3AE/5B07894D:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1405:/5ACBE3AE/5B32596C:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1405:/5ACBE3AE/5B32596C:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1406:/5ACBE3AE/5B3258BE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1406:/5ACBE3AE/5B3258BE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1407:/5ACBE3AE/5B1DBA91:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1407:/5ACBE3AE/5B1DBA91:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R1408:/5ACBE3AE/5B1DBBDC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1408:/5ACBE3AE/5B1DBBDC:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R514:/5ACBD81C/5B307AAD:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R514:/5ACBD81C/5B307AAD:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R418:/5B0FA74B/5B1A5A2A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R418:/5B0FA74B/5B1A5A2A:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “R419:/5B0FA74B/5B0C354D:Resistor_SMD:R_0805_2012Metric”.
 
-Info: Checking netlist symbol footprint “R501:/5ACBD81C/5B305194:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R501:/5ACBD81C/5B305194:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R502:/5ACBD81C/5B305386:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R502:/5ACBD81C/5B305386:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R503:/5ACBD81C/5B305401:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R503:/5ACBD81C/5B305401:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R504:/5ACBD81C/5B30547B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R504:/5ACBD81C/5B30547B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R505:/5ACBD81C/5B3054F4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R505:/5ACBD81C/5B3054F4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R506:/5ACBD81C/5B305574:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R506:/5ACBD81C/5B305574:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R507:/5ACBD81C/5ACC15C6:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R507:/5ACBD81C/5ACC15C6:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R508:/5ACBD81C/5B307580:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R508:/5ACBD81C/5B307580:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R509:/5ACBD81C/5B30A6F1:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R509:/5ACBD81C/5B30A6F1:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R510:/5ACBD81C/5B3075F3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R510:/5ACBD81C/5B3075F3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R511:/5ACBD81C/5B30BB41:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R511:/5ACBD81C/5B30BB41:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R512:/5ACBD81C/5B30B2F4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R512:/5ACBD81C/5B30B2F4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R513:/5ACBD81C/5B30A633:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R513:/5ACBD81C/5B30A633:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “D202:/5ACF2B88/5AF9EF91:dvk-mx8m-bsb:SOD-523_Case-502”.
 
-Info: Checking netlist symbol footprint “R515:/5ACBD81C/5B3095E1:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R515:/5ACBD81C/5B3095E1:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R516:/5ACBD81C/5B309654:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R516:/5ACBD81C/5B309654:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R517:/5ACBD81C/5B3096EC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R517:/5ACBD81C/5B3096EC:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R518:/5ACBD81C/5B309B05:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R518:/5ACBD81C/5B309B05:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R519:/5ACBD81C/5B309B9F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R519:/5ACBD81C/5B309B9F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R520:/5ACBD81C/5B309C4A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R520:/5ACBD81C/5B309C4A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R521:/5ACBD81C/5B309CCE:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R521:/5ACBD81C/5B309CCE:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R601:/5AC56093/5B68E84A:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R601:/5AC56093/5B68E84A:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R602:/5AC56093/5AC5AF1B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R602:/5AC56093/5AC5AF1B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R701:/5ACD5BC1/5ACD6464:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R701:/5ACD5BC1/5ACD6464:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R801:/5ACE0382/5B31E065:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R801:/5ACE0382/5B31E065:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R802:/5ACE0382/5B31E0A4:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R802:/5ACE0382/5B31E0A4:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R803:/5ACE0382/5B31E00F:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R803:/5ACE0382/5B31E00F:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R804:/5ACE0382/5AD058A3:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R804:/5ACE0382/5AD058A3:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “R805:/5ACE0382/5AD0593B:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R805:/5ACE0382/5AD0593B:Resistor_SMD:R_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C409:/5B0FA74B/5B203066:Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1312,15 +1312,15 @@ Info: Checking netlist symbol footprint “C203:/5ACF2B88/5ADED0F6:Capacitor_SMD
 
 Info: Checking netlist symbol footprint “C701:/5ACD5BC1/5ACD7D29:Capacitor_SMD:C_0603_1608Metric”.
 
-Replacing symbol “R519:/5ACBD81C/5B309B9F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R519:/5ACBD81C/5B309B9F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C404:/5B0FA74B/5B202F85” pad “1” net name from “” to “5V_P”.
 
-Replacing symbol “R516:/5ACBD81C/5B309654” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R516:/5ACBD81C/5B309654” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R516:/5ACBD81C/5B309654” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R802:/5ACE0382/5B31E0A4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R802:/5ACE0382/5B31E0A4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R801:/5ACE0382/5B31E065” pad “2” net name from “” to “/JTAG/JTAG_TMS”.
 
@@ -1334,23 +1334,23 @@ Changing footprint “R515:/5ACBD81C/5B3095E1” pad “1” net name from “�
 
 Changing footprint “R520:/5ACBD81C/5B309C4A” pad “2” net name from “” to “/SAI1_TXD6(GPIO4_IO18)”.
 
-Replacing symbol “R1203:/5B120FA9/5B12DFA8/5B32362A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1203:/5B120FA9/5B12DFA8/5B32362A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C403:/5B0FA74B/5B203D05” pad “2” net name from “” to “GND”.
 
 Changing footprint “R520:/5ACBD81C/5B309C4A” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R520:/5ACBD81C/5B309C4A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R520:/5ACBD81C/5B309C4A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R515:/5ACBD81C/5B3095E1” pad “2” net name from “” to “/SAI1_TXD1(GPIO4_IO13)”.
 
 Changing footprint “R517:/5ACBD81C/5B3096EC” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R518:/5ACBD81C/5B309B05” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R518:/5ACBD81C/5B309B05” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C404:/5B0FA74B/5B202F85” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
-Replacing symbol “R602:/5AC56093/5AC5AF1B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R602:/5AC56093/5AC5AF1B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R518:/5ACBD81C/5B309B05” pad “2” net name from “” to “/SAI1_TXD4(GPIO4_IO16)”.
 
@@ -1360,7 +1360,7 @@ Changing footprint “R602:/5AC56093/5AC5AF1B” pad “2” net name from “�
 
 Changing footprint “R601:/5AC56093/5B68E84A” pad “1” net name from “” to “3V3_OUT”.
 
-Replacing symbol “R601:/5AC56093/5B68E84A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R601:/5AC56093/5B68E84A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R602:/5AC56093/5AC5AF1B” pad “1” net name from “” to “VBAT”.
 
@@ -1368,7 +1368,7 @@ Changing footprint “C405:/5B0FA74B/5B203D0C” pad “1” net name from “�
 
 Changing footprint “R518:/5ACBD81C/5B309B05” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R701:/5ACD5BC1/5ACD6464” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R701:/5ACD5BC1/5ACD6464” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R516:/5ACBD81C/5B309654” pad “2” net name from “” to “/SAI1_TXD2(GPIO4_IO14)”.
 
@@ -1376,7 +1376,7 @@ Changing footprint “R517:/5ACBD81C/5B3096EC” pad “2” net name from “�
 
 Changing footprint “C404:/5B0FA74B/5B202F85” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R517:/5ACBD81C/5B3096EC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R517:/5ACBD81C/5B3096EC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R701:/5ACD5BC1/5ACD6464” pad “2” net name from “” to “GND”.
 
@@ -1392,21 +1392,21 @@ Changing footprint “C403:/5B0FA74B/5B203D05” pad “1” net name from “�
 
 Changing footprint “R521:/5ACBD81C/5B309CCE” pad “2” net name from “” to “/SAI1_TXD7(GPIO4_IO19)”.
 
-Replacing symbol “R801:/5ACE0382/5B31E065” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R801:/5ACE0382/5B31E065” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R521:/5ACBD81C/5B309CCE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R521:/5ACBD81C/5B309CCE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R910:/5ADF72D2/5B0B14ED” pad “1” net name from “” to “/USB Hub + SDIO Bridge/RDRV5”.
 
 Changing footprint “R1003:/5AC9B567/5B3204AF” pad “1” net name from “” to “3V3_SD”.
 
-Replacing symbol “R1003:/5AC9B567/5B3204AF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1003:/5AC9B567/5B3204AF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1002:/5AC9B567/5B32045F” pad “1” net name from “” to “3V3_SD”.
 
 Changing footprint “R1002:/5AC9B567/5B32045F” pad “2” net name from “” to “/uSD Card/CONN_SD2_CD_B”.
 
-Replacing symbol “R1002:/5AC9B567/5B32045F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1002:/5AC9B567/5B32045F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C313:/5ABE5061/5B3269CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1414,7 +1414,7 @@ Changing footprint “R1001:/5AC9B567/5B0D207F” pad “1” net name from “�
 
 Changing footprint “R1001:/5AC9B567/5B0D207F” pad “2” net name from “” to “Net-(C1001-Pad1)”.
 
-Replacing symbol “R1001:/5AC9B567/5B0D207F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1001:/5AC9B567/5B0D207F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C313:/5ABE5061/5B3269CC” pad “1” net name from “” to “VBAT_REG”.
 
@@ -1422,7 +1422,7 @@ Changing footprint “R910:/5ADF72D2/5B0B14ED” pad “2” net name from “�
 
 Changing footprint “R1003:/5AC9B567/5B3204AF” pad “2” net name from “” to “/uSD Card/CONN_SD2_CMD”.
 
-Replacing symbol “R910:/5ADF72D2/5B0B14ED” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R910:/5ADF72D2/5B0B14ED” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C313:/5ABE5061/5B3269CC” pad “2” net name from “” to “GND”.
 
@@ -1430,13 +1430,13 @@ Changing footprint “R909:/5ADF72D2/5B46EF81” pad “2” net name from “�
 
 Changing footprint “R909:/5ADF72D2/5B46EF81” pad “1” net name from “” to “/uSD Card/CONN_SD2_CD_B”.
 
-Replacing symbol “R909:/5ADF72D2/5B46EF81” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R909:/5ADF72D2/5B46EF81” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R908:/5ADF72D2/5B07DA80” pad “2” net name from “” to “/USB Hub + SDIO Bridge/DM0”.
 
 Changing footprint “R908:/5ADF72D2/5B07DA80” pad “1” net name from “” to “Net-(R908-Pad1)”.
 
-Replacing symbol “R908:/5ADF72D2/5B07DA80” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R908:/5ADF72D2/5B07DA80” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C314:/5ABE5061/5B326A44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1452,7 +1452,7 @@ Changing footprint “R1202:/5B120FA9/5B12DFA8/5B323584” pad “2” net name 
 
 Changing footprint “R1202:/5B120FA9/5B12DFA8/5B323584” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “R1202:/5B120FA9/5B12DFA8/5B323584” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1202:/5B120FA9/5B12DFA8/5B323584” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C311:/5ABE5061/5B3268DD” pad “2” net name from “” to “GND”.
 
@@ -1460,13 +1460,13 @@ Changing footprint “R1201:/5B120FA9/5B12DFA8/5B3235E0” pad “1” net name 
 
 Changing footprint “R1201:/5B120FA9/5B12DFA8/5B3235E0” pad “2” net name from “” to “/CAPTOUCH_~RST”.
 
-Replacing symbol “R1201:/5B120FA9/5B12DFA8/5B3235E0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1201:/5B120FA9/5B12DFA8/5B3235E0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1102:/5B120FA9/5B180428” pad “2” net name from “” to “/MIPI/I2C3_SCL_1V8”.
 
 Changing footprint “R907:/5ADF72D2/5B07D9A0” pad “2” net name from “” to “/USB Hub + SDIO Bridge/DP0”.
 
-Replacing symbol “R1102:/5B120FA9/5B180428” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1102:/5B120FA9/5B180428” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C312:/5ABE5061/5B326949” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1474,7 +1474,7 @@ Changing footprint “R1101:/5B120FA9/5B18041B” pad “1” net name from “�
 
 Changing footprint “R1101:/5B120FA9/5B18041B” pad “2” net name from “” to “/MIPI/I2C3_SDA_1V8”.
 
-Replacing symbol “R1101:/5B120FA9/5B18041B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1101:/5B120FA9/5B18041B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C312:/5ABE5061/5B326949” pad “2” net name from “” to “GND”.
 
@@ -1482,7 +1482,7 @@ Changing footprint “R1004:/5AC9B567/5B32051A” pad “2” net name from “�
 
 Changing footprint “R1004:/5AC9B567/5B32051A” pad “1” net name from “” to “3V3_SD”.
 
-Replacing symbol “R1004:/5AC9B567/5B32051A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1004:/5AC9B567/5B32051A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C312:/5ABE5061/5B326949” pad “1” net name from “” to “VBAT_REG”.
 
@@ -1490,13 +1490,13 @@ Changing footprint “R805:/5ACE0382/5AD0593B” pad “2” net name from “�
 
 Changing footprint “R901:/5ADF72D2/5B09B6A4” pad “2” net name from “” to “/USB Hub + SDIO Bridge/CD”.
 
-Replacing symbol “R901:/5ADF72D2/5B09B6A4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R901:/5ADF72D2/5B09B6A4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R807:/5ACE0382/5AD0530D” pad “1” net name from “” to “GND”.
 
 Changing footprint “R807:/5ACE0382/5AD0530D” pad “2” net name from “” to “Net-(J801-Pad9)”.
 
-Replacing symbol “R807:/5ACE0382/5AD0530D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R807:/5ACE0382/5AD0530D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C402:/5B0FA74B/5B202EA7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1504,7 +1504,7 @@ Changing footprint “R806:/5ACE0382/5AD052F0” pad “2” net name from “�
 
 Changing footprint “R806:/5ACE0382/5AD052F0” pad “1” net name from “” to “Net-(J801-Pad7)”.
 
-Replacing symbol “R806:/5ACE0382/5AD052F0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R806:/5ACE0382/5AD052F0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C402:/5B0FA74B/5B202EA7” pad “1” net name from “” to “5V_P”.
 
@@ -1512,7 +1512,7 @@ Changing footprint “R805:/5ACE0382/5AD0593B” pad “1” net name from “�
 
 Changing footprint “R901:/5ADF72D2/5B09B6A4” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R805:/5ACE0382/5AD0593B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R805:/5ACE0382/5AD0593B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C402:/5B0FA74B/5B202EA7” pad “2” net name from “” to “GND”.
 
@@ -1520,13 +1520,13 @@ Changing footprint “R804:/5ACE0382/5AD058A3” pad “2” net name from “�
 
 Changing footprint “R804:/5ACE0382/5AD058A3” pad “1” net name from “” to “Net-(J801-Pad9)”.
 
-Replacing symbol “R804:/5ACE0382/5AD058A3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R804:/5ACE0382/5AD058A3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R803:/5ACE0382/5B31E00F” pad “2” net name from “” to “GND”.
 
 Changing footprint “R803:/5ACE0382/5B31E00F” pad “1” net name from “” to “/JTAG/JTAG_TCK”.
 
-Replacing symbol “R803:/5ACE0382/5B31E00F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R803:/5ACE0382/5B31E00F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C403:/5B0FA74B/5B203D05” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1534,7 +1534,7 @@ Changing footprint “R802:/5ACE0382/5B31E0A4” pad “1” net name from “�
 
 Changing footprint “R904:/5ADF72D2/5B101B57” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R907:/5ADF72D2/5B07D9A0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R907:/5ADF72D2/5B07D9A0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C314:/5ABE5061/5B326A44” pad “2” net name from “” to “GND”.
 
@@ -1542,7 +1542,7 @@ Changing footprint “R906:/5ADF72D2/5B10A19C” pad “2” net name from “�
 
 Changing footprint “R906:/5ADF72D2/5B10A19C” pad “1” net name from “” to “Net-(R906-Pad1)”.
 
-Replacing symbol “R906:/5ADF72D2/5B10A19C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R906:/5ADF72D2/5B10A19C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C314:/5ABE5061/5B326A44” pad “1” net name from “” to “VBAT_REG”.
 
@@ -1550,13 +1550,13 @@ Changing footprint “R905:/5ADF72D2/5B4728EA” pad “1” net name from “�
 
 Changing footprint “R905:/5ADF72D2/5B4728EA” pad “2” net name from “” to “/SD2_~RST”.
 
-Replacing symbol “R905:/5ADF72D2/5B4728EA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R905:/5ADF72D2/5B4728EA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R904:/5ADF72D2/5B101B57” pad “1” net name from “” to “Net-(R904-Pad1)”.
 
 Changing footprint “R802:/5ACE0382/5B31E0A4” pad “2” net name from “” to “/JTAG/JTAG_TDI”.
 
-Replacing symbol “R904:/5ADF72D2/5B101B57” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R904:/5ADF72D2/5B101B57” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C401:/5B0FA74B/5B2016D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1564,7 +1564,7 @@ Changing footprint “R903:/5ADF72D2/5B16A0C3” pad “2” net name from “�
 
 Changing footprint “R903:/5ADF72D2/5B16A0C3” pad “1” net name from “” to “5V_P”.
 
-Replacing symbol “R903:/5ADF72D2/5B16A0C3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R903:/5ADF72D2/5B16A0C3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C401:/5B0FA74B/5B2016D9” pad “2” net name from “” to “GND”.
 
@@ -1572,19 +1572,19 @@ Changing footprint “R902:/5ADF72D2/5B31F267” pad “2” net name from “�
 
 Changing footprint “R902:/5ADF72D2/5B31F267” pad “1” net name from “” to “/USB2_ID”.
 
-Replacing symbol “R902:/5ADF72D2/5B31F267” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R902:/5ADF72D2/5B31F267” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C401:/5B0FA74B/5B2016D9” pad “1” net name from “” to “5V_P”.
 
-Replacing symbol “R310:/5ABE5061/5B30501E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R310:/5ABE5061/5B30501E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R403:/5B0FA74B/5AC8DBD8” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R403:/5B0FA74B/5AC8DBD8” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R402:/5B0FA74B/5B1B6D12” pad “1” net name from “” to “Net-(R402-Pad1)”.
 
 Changing footprint “R402:/5B0FA74B/5B1B6D12” pad “2” net name from “” to “VBAT_REG”.
 
-Replacing symbol “R402:/5B0FA74B/5B1B6D12” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R402:/5B0FA74B/5B1B6D12” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C414:/5B0FA74B/5B203D1A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1592,7 +1592,7 @@ Changing footprint “R401:/5B0FA74B/5AC8ED7F” pad “2” net name from “�
 
 Changing footprint “R401:/5B0FA74B/5AC8ED7F” pad “1” net name from “” to “Net-(R401-Pad1)”.
 
-Replacing symbol “R401:/5B0FA74B/5AC8ED7F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R401:/5B0FA74B/5AC8ED7F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C414:/5B0FA74B/5B203D1A” pad “1” net name from “” to “3V3_P”.
 
@@ -1614,7 +1614,7 @@ Changing footprint “R308:/5ABE5061/5AE3641A” pad “1” net name from “�
 
 Changing footprint “R308:/5ABE5061/5AE3641A” pad “2” net name from “” to “/Battery/RGEN”.
 
-Replacing symbol “R308:/5ABE5061/5AE3641A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R308:/5ABE5061/5AE3641A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C415:/5B0FA74B/5B20D5D0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1622,11 +1622,11 @@ Changing footprint “R307:/5ABE5061/5AE36487” pad “2” net name from “�
 
 Changing footprint “R307:/5ABE5061/5AE36487” pad “1” net name from “” to “Net-(R307-Pad1)”.
 
-Replacing symbol “R307:/5ABE5061/5AE36487” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R307:/5ABE5061/5AE36487” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R406:/5B0FA74B/5AC894B5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R406:/5B0FA74B/5AC894B5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R409:/5B0FA74B/5ACFAD14” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R409:/5B0FA74B/5ACFAD14” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C412:/5B0FA74B/5ACFCFAF” pad “1” net name from “” to “VBAT_REG”.
 
@@ -1634,7 +1634,7 @@ Changing footprint “R408:/5B0FA74B/5ACAFE3F” pad “1” net name from “�
 
 Changing footprint “R408:/5B0FA74B/5ACAFE3F” pad “2” net name from “” to “VBAT_REG”.
 
-Replacing symbol “R408:/5B0FA74B/5ACAFE3F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R408:/5B0FA74B/5ACAFE3F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C412:/5B0FA74B/5ACFCFAF” pad “2” net name from “” to “GND”.
 
@@ -1642,7 +1642,7 @@ Changing footprint “R407:/5B0FA74B/5AC89505” pad “1” net name from “�
 
 Changing footprint “R407:/5B0FA74B/5AC89505” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R407:/5B0FA74B/5AC89505” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R407:/5B0FA74B/5AC89505” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R406:/5B0FA74B/5AC894B5” pad “2” net name from “” to “Net-(R406-Pad2)”.
 
@@ -1656,7 +1656,7 @@ Changing footprint “R405:/5B0FA74B/5AC89C89” pad “2” net name from “�
 
 Changing footprint “R405:/5B0FA74B/5AC89C89” pad “1” net name from “” to “Net-(R405-Pad1)”.
 
-Replacing symbol “R405:/5B0FA74B/5AC89C89” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R405:/5B0FA74B/5AC89C89” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C413:/5B0FA74B/5B20314A” pad “2” net name from “” to “GND”.
 
@@ -1664,7 +1664,7 @@ Changing footprint “R404:/5B0FA74B/5B1859A9” pad “1” net name from “�
 
 Changing footprint “R404:/5B0FA74B/5B1859A9” pad “2” net name from “” to “Net-(C416-Pad1)”.
 
-Replacing symbol “R404:/5B0FA74B/5B1859A9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R404:/5B0FA74B/5B1859A9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C413:/5B0FA74B/5B20314A” pad “1” net name from “” to “5V_P”.
 
@@ -1674,7 +1674,7 @@ Changing footprint “R223:/5ACF2B88/5AF4F746” pad “1” net name from “�
 
 Changing footprint “R226:/5ACF2B88/5AF9C7FE” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R226:/5ACF2B88/5AF9C7FE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R226:/5ACF2B88/5AF9C7FE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C417:/5B0FA74B/5B203540” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1682,7 +1682,7 @@ Changing footprint “R225:/5ACF2B88/5AF4CEE1” pad “2” net name from “�
 
 Changing footprint “R225:/5ACF2B88/5AF4CEE1” pad “1” net name from “” to “Net-(R224-Pad2)”.
 
-Replacing symbol “R225:/5ACF2B88/5AF4CEE1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R225:/5ACF2B88/5AF4CEE1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C417:/5B0FA74B/5B203540” pad “1” net name from “” to “5V_P”.
 
@@ -1690,7 +1690,7 @@ Changing footprint “R224:/5ACF2B88/5AF41ABE” pad “2” net name from “�
 
 Changing footprint “R224:/5ACF2B88/5AF41ABE” pad “1” net name from “” to “VBUS”.
 
-Replacing symbol “R224:/5ACF2B88/5AF41ABE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R224:/5ACF2B88/5AF41ABE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C417:/5B0FA74B/5B203540” pad “2” net name from “” to “GND”.
 
@@ -1698,13 +1698,13 @@ Changing footprint “R226:/5ACF2B88/5AF9C7FE” pad “2” net name from “�
 
 Changing footprint “R223:/5ACF2B88/5AF4F746” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R223:/5ACF2B88/5AF4F746” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R223:/5ACF2B88/5AF4F746” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R222:/5ACF2B88/5AF4F4C0” pad “2” net name from “” to “Net-(R222-Pad2)”.
 
 Changing footprint “R222:/5ACF2B88/5AF4F4C0” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “R222:/5ACF2B88/5AF4F4C0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R222:/5ACF2B88/5AF4F4C0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C418:/5B0FA74B/5B203D21” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1712,7 +1712,7 @@ Changing footprint “R221:/5ACF2B88/5AF53777” pad “2” net name from “�
 
 Changing footprint “R221:/5ACF2B88/5AF53777” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R221:/5ACF2B88/5AF53777” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R221:/5ACF2B88/5AF53777” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R211:/5ACF2B88/5ADED10B” pad “2” net name from “” to “/USB-C/BYPASS”.
 
@@ -1722,7 +1722,7 @@ Changing footprint “R306:/5ABE5061/5ADFDA10” pad “2” net name from “�
 
 Changing footprint “R306:/5ABE5061/5ADFDA10” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R306:/5ABE5061/5ADFDA10” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R306:/5ABE5061/5ADFDA10” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C415:/5B0FA74B/5B20D5D0” pad “2” net name from “” to “GND”.
 
@@ -1730,13 +1730,13 @@ Changing footprint “R305:/5ABE5061/5B302D80” pad “2” net name from “�
 
 Changing footprint “R305:/5ABE5061/5B302D80” pad “1” net name from “” to “Net-(R305-Pad1)”.
 
-Replacing symbol “R305:/5ABE5061/5B302D80” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R305:/5ABE5061/5B302D80” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R304:/5ABE5061/5B2F65C3” pad “1” net name from “” to “3V3_OUT”.
 
 Changing footprint “R304:/5ABE5061/5B2F65C3” pad “2” net name from “” to “Net-(Q301-Pad3)”.
 
-Replacing symbol “R304:/5ABE5061/5B2F65C3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R304:/5ABE5061/5B2F65C3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C416:/5B0FA74B/5B1860BC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1744,7 +1744,7 @@ Changing footprint “R409:/5B0FA74B/5ACFAD14” pad “2” net name from “�
 
 Changing footprint “R303:/5ABE5061/5B2725A1” pad “1” net name from “” to “3V3_OUT”.
 
-Replacing symbol “R303:/5ABE5061/5B2725A1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R303:/5ABE5061/5B2725A1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C416:/5B0FA74B/5B1860BC” pad “1” net name from “” to “Net-(C416-Pad1)”.
 
@@ -1752,7 +1752,7 @@ Changing footprint “R302:/5ABE5061/5AE61BA6” pad “2” net name from “�
 
 Changing footprint “R302:/5ABE5061/5AE61BA6” pad “1” net name from “” to “Net-(D302-Pad1)”.
 
-Replacing symbol “R302:/5ABE5061/5AE61BA6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R302:/5ABE5061/5AE61BA6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C416:/5B0FA74B/5B1860BC” pad “2” net name from “” to “GND”.
 
@@ -1760,7 +1760,7 @@ Changing footprint “R301:/5ABE5061/5AE62134” pad “1” net name from “�
 
 Changing footprint “R301:/5ABE5061/5AE62134” pad “2” net name from “” to “Net-(R301-Pad2)”.
 
-Replacing symbol “R301:/5ABE5061/5AE62134” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R301:/5ABE5061/5AE62134” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C408:/5B0FA74B/5ACB617B” pad “2” net name from “” to “GND”.
 
@@ -1770,13 +1770,13 @@ Changing footprint “R508:/5ACBD81C/5B307580” pad “1” net name from “�
 
 Changing footprint “R508:/5ACBD81C/5B307580” pad “2” net name from “” to “/SAI1_RXD5(GPIO4_IO07)”.
 
-Replacing symbol “R508:/5ACBD81C/5B307580” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R508:/5ACBD81C/5B307580” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R507:/5ACBD81C/5ACC15C6” pad “2” net name from “” to “/SAI1_RXD4(GPIO4_IO06)”.
 
 Changing footprint “R507:/5ACBD81C/5ACC15C6” pad “1” net name from “” to “3V3”.
 
-Replacing symbol “R507:/5ACBD81C/5ACC15C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R507:/5ACBD81C/5ACC15C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C408:/5B0FA74B/5ACB617B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1784,15 +1784,15 @@ Changing footprint “R506:/5ACBD81C/5B305574” pad “2” net name from “�
 
 Changing footprint “R506:/5ACBD81C/5B305574” pad “1” net name from “” to “/SAI1_RXD7(GPIO4_IO09)”.
 
-Replacing symbol “R506:/5ACBD81C/5B305574” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R506:/5ACBD81C/5B305574” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R509:/5ACBD81C/5B30A6F1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R509:/5ACBD81C/5B30A6F1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R505:/5ACBD81C/5B3054F4” pad “1” net name from “” to “/SAI1_RXD6(GPIO4_IO08)”.
 
 Changing footprint “R505:/5ACBD81C/5B3054F4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R505:/5ACBD81C/5B3054F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R505:/5ACBD81C/5B3054F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C408:/5B0FA74B/5ACB617B” pad “1” net name from “” to “VBAT_REG”.
 
@@ -1800,17 +1800,17 @@ Changing footprint “R504:/5ACBD81C/5B30547B” pad “2” net name from “�
 
 Changing footprint “R504:/5ACBD81C/5B30547B” pad “1” net name from “” to “/SAI1_RXD4(GPIO4_IO06)”.
 
-Replacing symbol “R504:/5ACBD81C/5B30547B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R504:/5ACBD81C/5B30547B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R503:/5ACBD81C/5B305401” pad “1” net name from “” to “/SAI1_RXD3(GPIO4_IO05)”.
 
 Changing footprint “R503:/5ACBD81C/5B305401” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R503:/5ACBD81C/5B305401” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R503:/5ACBD81C/5B305401” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C409:/5B0FA74B/5B203066” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
-Replacing symbol “R512:/5ACBD81C/5B30B2F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R512:/5ACBD81C/5B30B2F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C406:/5B0FA74B/5B20D5C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1818,7 +1818,7 @@ Changing footprint “R514:/5ACBD81C/5B307AAD” pad “1” net name from “�
 
 Changing footprint “R514:/5ACBD81C/5B307AAD” pad “2” net name from “” to “/SAI1_RXD0(GPIO4_IO02)”.
 
-Replacing symbol “R514:/5ACBD81C/5B307AAD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R514:/5ACBD81C/5B307AAD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C406:/5B0FA74B/5B20D5C2” pad “1” net name from “” to “1V8_P”.
 
@@ -1826,7 +1826,7 @@ Changing footprint “R513:/5ACBD81C/5B30A633” pad “1” net name from “�
 
 Changing footprint “R513:/5ACBD81C/5B30A633” pad “2” net name from “” to “/Boot Config/BOOT_MODE0”.
 
-Replacing symbol “R513:/5ACBD81C/5B30A633” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R513:/5ACBD81C/5B30A633” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C406:/5B0FA74B/5B20D5C2” pad “2” net name from “” to “GND”.
 
@@ -1840,7 +1840,7 @@ Changing footprint “R511:/5ACBD81C/5B30BB41” pad “2” net name from “�
 
 Changing footprint “R511:/5ACBD81C/5B30BB41” pad “1” net name from “” to “3V3_SNVS”.
 
-Replacing symbol “R511:/5ACBD81C/5B30BB41” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R511:/5ACBD81C/5B30BB41” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C407:/5B0FA74B/5B0BA13D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1848,7 +1848,7 @@ Changing footprint “R510:/5ACBD81C/5B3075F3” pad “2” net name from “�
 
 Changing footprint “R510:/5ACBD81C/5B3075F3” pad “1” net name from “” to “3V3”.
 
-Replacing symbol “R510:/5ACBD81C/5B3075F3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R510:/5ACBD81C/5B3075F3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C407:/5B0FA74B/5B0BA13D” pad “2” net name from “” to “GND”.
 
@@ -1860,7 +1860,7 @@ Changing footprint “R412:/5B0FA74B/5B3B9540” pad “2” net name from “�
 
 Changing footprint “R415:/5B0FA74B/5B406431” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R415:/5B0FA74B/5B406431” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R415:/5B0FA74B/5B406431” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R414:/5B0FA74B/5B24CEF2” pad “1” net name from “” to “5V_P”.
 
@@ -1882,7 +1882,7 @@ Changing footprint “R412:/5B0FA74B/5B3B9540” pad “1” net name from “�
 
 Changing footprint “R415:/5B0FA74B/5B406431” pad “1” net name from “” to “/DSI_BL_PWM”.
 
-Replacing symbol “R412:/5B0FA74B/5B3B9540” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R412:/5B0FA74B/5B3B9540” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C411:/5B0FA74B/5B20D5C9” pad “1” net name from “” to “1V8_P”.
 
@@ -1896,7 +1896,7 @@ Changing footprint “R410:/5B0FA74B/5ACFAE7B” pad “2” net name from “�
 
 Changing footprint “R410:/5B0FA74B/5ACFAE7B” pad “1” net name from “” to “Net-(R409-Pad2)”.
 
-Replacing symbol “R410:/5B0FA74B/5ACFAE7B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R410:/5B0FA74B/5ACFAE7B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C412:/5B0FA74B/5ACFCFAF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1906,7 +1906,7 @@ Changing footprint “R418:/5B0FA74B/5B1A5A2A” pad “1” net name from “�
 
 Changing footprint “R502:/5ACBD81C/5B305386” pad “1” net name from “” to “/SAI1_RXD2(GPIO4_IO04)”.
 
-Replacing symbol “R502:/5ACBD81C/5B305386” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R502:/5ACBD81C/5B305386” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C409:/5B0FA74B/5B203066” pad “1” net name from “” to “5V_P”.
 
@@ -1914,7 +1914,7 @@ Changing footprint “R501:/5ACBD81C/5B305194” pad “1” net name from “�
 
 Changing footprint “R501:/5ACBD81C/5B305194” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R501:/5ACBD81C/5B305194” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R501:/5ACBD81C/5B305194” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C409:/5B0FA74B/5B203066” pad “2” net name from “” to “GND”.
 
@@ -1926,9 +1926,9 @@ Replacing symbol “R419:/5B0FA74B/5B0C354D” footprint “Resistors_SMD:R_0805
 
 Changing footprint “R418:/5B0FA74B/5B1A5A2A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R515:/5ACBD81C/5B3095E1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R515:/5ACBD81C/5B3095E1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R418:/5B0FA74B/5B1A5A2A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R418:/5B0FA74B/5B1A5A2A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C410:/5B0FA74B/5B203D13” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1936,7 +1936,7 @@ Changing footprint “R417:/5B0FA74B/5B1A53A5” pad “1” net name from “�
 
 Changing footprint “R417:/5B0FA74B/5B1A53A5” pad “2” net name from “” to “Net-(R417-Pad2)”.
 
-Replacing symbol “R417:/5B0FA74B/5B1A53A5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R417:/5B0FA74B/5B1A53A5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C410:/5B0FA74B/5B203D13” pad “2” net name from “” to “GND”.
 
@@ -1944,7 +1944,7 @@ Changing footprint “R416:/5B0FA74B/5B1AB6C8” pad “2” net name from “�
 
 Changing footprint “R416:/5B0FA74B/5B1AB6C8” pad “1” net name from “” to “/LCD_LEDK”.
 
-Replacing symbol “R416:/5B0FA74B/5B1AB6C8” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R416:/5B0FA74B/5B1AB6C8” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C410:/5B0FA74B/5B203D13” pad “1” net name from “” to “3V3_P”.
 
@@ -1954,13 +1954,13 @@ Changing footprint “R1904:/5AFCA865/5B019D48” pad “2” net name from “�
 
 Changing footprint “R1904:/5AFCA865/5B019D48” pad “1” net name from “” to “/HDMI/HDMI_TX2_N”.
 
-Replacing symbol “R1904:/5AFCA865/5B019D48” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1904:/5AFCA865/5B019D48” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1903:/5AFCA865/5B0141CF” pad “2” net name from “” to “Net-(Q1901-Pad3)”.
 
 Changing footprint “R1903:/5AFCA865/5B0141CF” pad “1” net name from “” to “/HDMI/HDMI_TX0_N”.
 
-Replacing symbol “R1903:/5AFCA865/5B0141CF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1903:/5AFCA865/5B0141CF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C210:/5ACF2B88/5AF01BEA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -1968,7 +1968,7 @@ Changing footprint “R1902:/5AFCA865/5B019D42” pad “1” net name from “�
 
 Changing footprint “R1902:/5AFCA865/5B019D42” pad “2” net name from “” to “Net-(Q1903-Pad6)”.
 
-Replacing symbol “R1902:/5AFCA865/5B019D42” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1902:/5AFCA865/5B019D42” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C210:/5ACF2B88/5AF01BEA” pad “1” net name from “” to “/USB-C/TX_CON_1_N”.
 
@@ -1976,7 +1976,7 @@ Changing footprint “C209:/5ACF2B88/5AEFF93F” pad “1” net name from “�
 
 Changing footprint “R1901:/5AFCA865/5B0140D4” pad “2” net name from “” to “Net-(Q1901-Pad6)”.
 
-Replacing symbol “R1901:/5AFCA865/5B0140D4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1901:/5AFCA865/5B0140D4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C210:/5ACF2B88/5AF01BEA” pad “2” net name from “” to “/USB-C/TX_CON_1C_N”.
 
@@ -1984,19 +1984,19 @@ Changing footprint “R1807:/5AF3486B/5AF3C97D” pad “1” net name from “�
 
 Changing footprint “R1807:/5AF3486B/5AF3C97D” pad “2” net name from “” to “Net-(D1803-Pad2)”.
 
-Replacing symbol “R1807:/5AF3486B/5AF3C97D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1807:/5AF3486B/5AF3C97D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1806:/5AF3486B/5B32B217” pad “1” net name from “” to “1V8_P”.
 
 Changing footprint “R1806:/5AF3486B/5B32B217” pad “2” net name from “” to “/WLAN+BT M.2/M2_I2C_SCL”.
 
-Replacing symbol “R1806:/5AF3486B/5B32B217” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1806:/5AF3486B/5B32B217” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C211:/5ACF2B88/5AF05DE3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
 Changing footprint “R1805:/5AF3486B/5AF51A2E” pad “2” net name from “” to “Net-(D1803-Pad2)”.
 
-Replacing symbol “R1908:/5AFCA865/5B019D60” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1908:/5AFCA865/5B019D60” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C208:/5ACF2B88/5AECE985” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2004,7 +2004,7 @@ Changing footprint “R1910:/5AFCA865/5AFB7819” pad “2” net name from “�
 
 Changing footprint “R1910:/5AFCA865/5AFB7819” pad “1” net name from “” to “/HDMI/DCDC_5V_CN”.
 
-Replacing symbol “R1910:/5AFCA865/5AFB7819” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1910:/5AFCA865/5AFB7819” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C208:/5ACF2B88/5AECE985” pad “2” net name from “” to “/USB-C/USB1_RXC_N”.
 
@@ -2012,7 +2012,7 @@ Changing footprint “R1909:/5AFCA865/5AFA5BBB” pad “2” net name from “�
 
 Changing footprint “R1909:/5AFCA865/5AFA5BBB” pad “1” net name from “” to “Net-(D1901-Pad2)”.
 
-Replacing symbol “R1909:/5AFCA865/5AFA5BBB” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1909:/5AFCA865/5AFA5BBB” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C208:/5ACF2B88/5AECE985” pad “1” net name from “” to “/USB-C/USB1_RX_N”.
 
@@ -2026,7 +2026,7 @@ Changing footprint “R1907:/5AFCA865/5B01449E” pad “2” net name from “�
 
 Changing footprint “R1907:/5AFCA865/5B01449E” pad “1” net name from “” to “/HDMI/HDMI_CLK_N”.
 
-Replacing symbol “R1907:/5AFCA865/5B01449E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1907:/5AFCA865/5B01449E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C209:/5ACF2B88/5AEFF93F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2034,7 +2034,7 @@ Changing footprint “R1906:/5AFCA865/5B019D5A” pad “1” net name from “�
 
 Changing footprint “R1906:/5AFCA865/5B019D5A” pad “2” net name from “” to “Net-(Q1904-Pad6)”.
 
-Replacing symbol “R1906:/5AFCA865/5B019D5A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1906:/5AFCA865/5B019D5A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C209:/5ACF2B88/5AEFF93F” pad “2” net name from “” to “/USB-C/TX_CON_1C_P”.
 
@@ -2042,7 +2042,7 @@ Changing footprint “R1905:/5AFCA865/5B014497” pad “1” net name from “�
 
 Changing footprint “R1905:/5AFCA865/5B014497” pad “2” net name from “” to “Net-(Q1902-Pad6)”.
 
-Replacing symbol “R1905:/5AFCA865/5B014497” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1905:/5AFCA865/5B014497” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C213:/5ACF2B88/5B0AE4C1” pad “2” net name from “” to “GND”.
 
@@ -2050,7 +2050,7 @@ Changing footprint “R1723:/5AF0A927/5B012960” pad “1” net name from “�
 
 Changing footprint “R1723:/5AF0A927/5B012960” pad “2” net name from “” to “Net-(J1701-Pad11)”.
 
-Replacing symbol “R1723:/5AF0A927/5B012960” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1723:/5AF0A927/5B012960” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C213:/5ACF2B88/5B0AE4C1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2058,7 +2058,7 @@ Changing footprint “R1722:/5AF0A927/5AF1A694” pad “2” net name from “�
 
 Changing footprint “R1722:/5AF0A927/5AF1A694” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R1722:/5AF0A927/5AF1A694” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1722:/5AF0A927/5AF1A694” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C213:/5ACF2B88/5B0AE4C1” pad “1” net name from “” to “VBUS”.
 
@@ -2066,21 +2066,21 @@ Changing footprint “R1721:/5AF0A927/5AF37C5E” pad “2” net name from “�
 
 Changing footprint “R1721:/5AF0A927/5AF37C5E” pad “1” net name from “” to “/Ethernet/ENET_1V1”.
 
-Replacing symbol “R1721:/5AF0A927/5AF37C5E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1721:/5AF0A927/5AF37C5E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R1724:/5AF0A927/5B012A73” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1724:/5AF0A927/5B012A73” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1720:/5AF0A927/5AF3938A” pad “1” net name from “” to “/Ethernet/ENET_MDIO”.
 
 Changing footprint “R1720:/5AF0A927/5AF3938A” pad “2” net name from “” to “/Ethernet/ENET_MDIO”.
 
-Replacing symbol “R1720:/5AF0A927/5AF3938A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1720:/5AF0A927/5AF3938A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1719:/5AF0A927/5AF37E4E” pad “2” net name from “” to “/Ethernet/ENET_MDC”.
 
 Changing footprint “R1719:/5AF0A927/5AF37E4E” pad “1” net name from “” to “/Ethernet/ENET_MDC”.
 
-Replacing symbol “R1719:/5AF0A927/5AF37E4E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1719:/5AF0A927/5AF37E4E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C214:/5ACF2B88/5AF3D4AD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2088,13 +2088,13 @@ Changing footprint “R1718:/5AF0A927/5B348B8D” pad “1” net name from “�
 
 Changing footprint “R1718:/5AF0A927/5B348B8D” pad “2” net name from “” to “/Ethernet/ENET_MDIO”.
 
-Replacing symbol “R1718:/5AF0A927/5B348B8D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1718:/5AF0A927/5B348B8D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C214:/5ACF2B88/5AF3D4AD” pad “1” net name from “” to “VBUS”.
 
 Replacing symbol “R1802:/5AF3486B/5B251402” footprint “Resistors_SMD:R_1206” with “Resistor_SMD:R_1206_3216Metric”.
 
-Replacing symbol “R1805:/5AF3486B/5AF51A2E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1805:/5AF3486B/5AF51A2E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C211:/5ACF2B88/5AF05DE3” pad “2” net name from “” to “/USB-C/TX_CON_2C_P”.
 
@@ -2102,7 +2102,7 @@ Changing footprint “R1804:/5AF3486B/5B32B161” pad “2” net name from “�
 
 Changing footprint “R1804:/5AF3486B/5B32B161” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “R1804:/5AF3486B/5B32B161” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1804:/5AF3486B/5B32B161” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C211:/5ACF2B88/5AF05DE3” pad “1” net name from “” to “/USB-C/TX_CON_2_P”.
 
@@ -2110,13 +2110,13 @@ Changing footprint “R1803:/5AF3486B/5B32B0CB” pad “2” net name from “�
 
 Changing footprint “R1803:/5AF3486B/5B32B0CB” pad “1” net name from “” to “Net-(R1803-Pad1)”.
 
-Replacing symbol “R1803:/5AF3486B/5B32B0CB” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1803:/5AF3486B/5B32B0CB” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1802:/5AF3486B/5B251402” pad “2” net name from “” to “3V3_P”.
 
 Changing footprint “R1802:/5AF3486B/5B251402” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R1911:/5AFCA865/5AFB7942” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1911:/5AFCA865/5AFB7942” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C212:/5ACF2B88/5AF075D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2124,7 +2124,7 @@ Changing footprint “R1801:/5AF3486B/5B3298C6” pad “1” net name from “�
 
 Changing footprint “R1801:/5AF3486B/5B3298C6” pad “2” net name from “” to “Net-(D1801-Pad2)”.
 
-Replacing symbol “R1801:/5AF3486B/5B3298C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1801:/5AF3486B/5B3298C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C212:/5ACF2B88/5AF075D9” pad “1” net name from “” to “/USB-C/TX_CON_2_N”.
 
@@ -2132,7 +2132,7 @@ Changing footprint “R1725:/5AF0A927/5B00D480” pad “2” net name from “�
 
 Changing footprint “R1725:/5AF0A927/5B00D480” pad “1” net name from “” to “/Ethernet/LED_LINK1000”.
 
-Replacing symbol “R1725:/5AF0A927/5B00D480” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1725:/5AF0A927/5B00D480” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C212:/5ACF2B88/5AF075D9” pad “2” net name from “” to “/USB-C/TX_CON_2C_N”.
 
@@ -2152,7 +2152,7 @@ Changing footprint “TH301:/5ABE5061/5AE369F4” pad “1” net name from “�
 
 Changing footprint “TH301:/5ABE5061/5AE369F4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “TH301:/5ABE5061/5AE369F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “TH301:/5ABE5061/5AE369F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C202:/5ACF2B88/5AED1DB6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2172,7 +2172,7 @@ Changing footprint “R2402:/5AFCB56A/5AFFD30C” pad “2” net name from “�
 
 Changing footprint “R2402:/5AFCB56A/5AFFD30C” pad “1” net name from “” to “Net-(Q2401-Pad1)”.
 
-Replacing symbol “R2402:/5AFCB56A/5AFFD30C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2402:/5AFCB56A/5AFFD30C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C204:/5ACF2B88/5ADED0EE” pad “1” net name from “” to “GND”.
 
@@ -2180,7 +2180,7 @@ Changing footprint “R2401:/5AFCB56A/5AFD2E14” pad “2” net name from “�
 
 Changing footprint “R2401:/5AFCB56A/5AFD2E14” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R2401:/5AFCB56A/5AFD2E14” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2401:/5AFCB56A/5AFD2E14” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C204:/5ACF2B88/5ADED0EE” pad “2” net name from “” to “/USB-C/BYPASS”.
 
@@ -2212,7 +2212,7 @@ Replacing symbol “C104:/5B300417” footprint “Capacitors_SMD:C_0603” with
 
 Changing footprint “C104:/5B300417” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R2301:/5B0D6F7B/5B103CA5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2301:/5B0D6F7B/5B103CA5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C105:/5B32DE4A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2240,7 +2240,7 @@ Changing footprint “R1914:/5AFCA865/5AF6BA49” pad “1” net name from “�
 
 Changing footprint “R2101:/5B0A785D/5B152CDF” pad “2” net name from “” to “Net-(R2101-Pad2)”.
 
-Replacing symbol “R2101:/5B0A785D/5B152CDF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2101:/5B0A785D/5B152CDF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C206:/5ACF2B88/5ADED104” pad “1” net name from “” to “GND”.
 
@@ -2248,13 +2248,13 @@ Changing footprint “R2002:/5B05878C/5B13CA51” pad “1” net name from “�
 
 Changing footprint “R2002:/5B05878C/5B13CA51” pad “2” net name from “” to “Net-(C2002-Pad1)”.
 
-Replacing symbol “R2002:/5B05878C/5B13CA51” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2002:/5B05878C/5B13CA51” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R2001:/5B05878C/5B125D55” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “R2001:/5B05878C/5B125D55” pad “2” net name from “” to “/PROX_~INT”.
 
-Replacing symbol “R2001:/5B05878C/5B125D55” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2001:/5B05878C/5B125D55” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C207:/5ACF2B88/5AECE8FB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2262,7 +2262,7 @@ Changing footprint “R1914:/5AFCA865/5AF6BA49” pad “2” net name from “�
 
 Changing footprint “R2101:/5B0A785D/5B152CDF” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R1914:/5AFCA865/5AF6BA49” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1914:/5AFCA865/5AF6BA49” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C207:/5ACF2B88/5AECE8FB” pad “1” net name from “” to “/USB-C/USB1_RX_P”.
 
@@ -2270,7 +2270,7 @@ Changing footprint “R1913:/5AFCA865/5AF70298” pad “1” net name from “�
 
 Changing footprint “R1913:/5AFCA865/5AF70298” pad “2” net name from “” to “/HDMI/HDMI_HPD”.
 
-Replacing symbol “R1913:/5AFCA865/5AF70298” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1913:/5AFCA865/5AF70298” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C207:/5ACF2B88/5AECE8FB” pad “2” net name from “” to “/USB-C/USB1_RXC_P”.
 
@@ -2278,7 +2278,7 @@ Changing footprint “R1912:/5AFCA865/5AFBA7AC” pad “1” net name from “�
 
 Changing footprint “R1912:/5AFCA865/5AFBA7AC” pad “2” net name from “” to “/HDMI/HDMI_CEC”.
 
-Replacing symbol “R1912:/5AFCA865/5AFBA7AC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1912:/5AFCA865/5AFBA7AC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1911:/5AFCA865/5AFB7942” pad “1” net name from “” to “/HDMI/DCDC_5V_CN”.
 
@@ -2290,7 +2290,7 @@ Changing footprint “R2203:/5B1815F4/5B1F2AD0” pad “1” net name from “�
 
 Changing footprint “R2203:/5B1815F4/5B1F2AD0” pad “2” net name from “” to “Net-(J2201-PadC3)”.
 
-Replacing symbol “R2203:/5B1815F4/5B1F2AD0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2203:/5B1815F4/5B1F2AD0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C205:/5ACF2B88/5ADED0FD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2298,7 +2298,7 @@ Changing footprint “R2202:/5B1815F4/5B1F2A2C” pad “2” net name from “�
 
 Changing footprint “R2202:/5B1815F4/5B1F2A2C” pad “1” net name from “” to “Net-(R2202-Pad1)”.
 
-Replacing symbol “R2202:/5B1815F4/5B1F2A2C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2202:/5B1815F4/5B1F2A2C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C205:/5ACF2B88/5ADED0FD” pad “1” net name from “” to “GND”.
 
@@ -2306,7 +2306,7 @@ Changing footprint “R2201:/5B1815F4/5B20FE9D” pad “1” net name from “�
 
 Changing footprint “R2201:/5B1815F4/5B20FE9D” pad “2” net name from “” to “Net-(C2201-Pad1)”.
 
-Replacing symbol “R2201:/5B1815F4/5B20FE9D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2201:/5B1815F4/5B20FE9D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1717:/5AF0A927/5B348AD6” pad “1” net name from “” to “/ENET_2V5”.
 
@@ -2314,13 +2314,13 @@ Changing footprint “R2104:/5B0A785D/5B2FF389” pad “2” net name from “�
 
 Changing footprint “R2104:/5B0A785D/5B2FF389” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R2104:/5B0A785D/5B2FF389” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2104:/5B0A785D/5B2FF389” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R2103:/5B0A785D/5AFBA0EE” pad “2” net name from “” to “GND”.
 
 Changing footprint “R2103:/5B0A785D/5AFBA0EE” pad “1” net name from “” to “Net-(R2102-Pad2)”.
 
-Replacing symbol “R2103:/5B0A785D/5AFBA0EE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2103:/5B0A785D/5AFBA0EE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C206:/5ACF2B88/5ADED104” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2328,7 +2328,7 @@ Changing footprint “R2102:/5B0A785D/5AFB92E3” pad “2” net name from “�
 
 Changing footprint “R2102:/5B0A785D/5AFB92E3” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R2102:/5B0A785D/5AFB92E3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R2102:/5B0A785D/5AFB92E3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C206:/5ACF2B88/5ADED104” pad “2” net name from “” to “5V_P”.
 
@@ -2336,7 +2336,7 @@ Changing footprint “R1501:/5ACD5EDE/5B256C5B” pad “2” net name from “�
 
 Changing footprint “R1504:/5ACD5EDE/5B3230EC” pad “2” net name from “” to “/WWAN mPCIe/~SIM_DETECT_O”.
 
-Replacing symbol “R1504:/5ACD5EDE/5B3230EC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1504:/5ACD5EDE/5B3230EC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C306:/5ABE5061/5B0BBD65” pad “2” net name from “” to “GND”.
 
@@ -2344,13 +2344,13 @@ Changing footprint “R1503:/5ACD5EDE/5B33E6D3” pad “1” net name from “�
 
 Changing footprint “R1503:/5ACD5EDE/5B33E6D3” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1503:/5ACD5EDE/5B33E6D3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1503:/5ACD5EDE/5B33E6D3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1502:/5ACD5EDE/5B256C75” pad “2” net name from “” to “/~WoWWAN”.
 
 Changing footprint “R1502:/5ACD5EDE/5B256C75” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R1502:/5ACD5EDE/5B256C75” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1502:/5ACD5EDE/5B256C75” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C307:/5ABE5061/5B0BD3BE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2358,7 +2358,7 @@ Changing footprint “R1501:/5ACD5EDE/5B256C5B” pad “1” net name from “�
 
 Changing footprint “R1504:/5ACD5EDE/5B3230EC” pad “1” net name from “” to “Net-(R1504-Pad1)”.
 
-Replacing symbol “R1501:/5ACD5EDE/5B256C5B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1501:/5ACD5EDE/5B256C5B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C307:/5ABE5061/5B0BD3BE” pad “2” net name from “” to “GND”.
 
@@ -2366,7 +2366,7 @@ Changing footprint “R1411:/5ACBE3AE/5ACC7E2E” pad “1” net name from “�
 
 Changing footprint “R1411:/5ACBE3AE/5ACC7E2E” pad “2” net name from “” to “Net-(Q1401-Pad3)”.
 
-Replacing symbol “R1411:/5ACBE3AE/5ACC7E2E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1411:/5ACBE3AE/5ACC7E2E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C307:/5ABE5061/5B0BD3BE” pad “1” net name from “” to “VBAT”.
 
@@ -2374,7 +2374,7 @@ Changing footprint “R1410:/5ACBE3AE/5AFF6F1F” pad “2” net name from “�
 
 Changing footprint “R1410:/5ACBE3AE/5AFF6F1F” pad “1” net name from “” to “/LED”.
 
-Replacing symbol “R1410:/5ACBE3AE/5AFF6F1F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1410:/5ACBE3AE/5AFF6F1F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1409:/5ACBE3AE/5AFF5FC7” pad “1” net name from “” to “/LED”.
 
@@ -2386,7 +2386,7 @@ Changing footprint “R1510:/5ACD5EDE/5B2C73A3” pad “1” net name from “�
 
 Changing footprint “R1510:/5ACD5EDE/5B2C73A3” pad “2” net name from “” to “/WWAN mPCIe/SIM_DETECT_I”.
 
-Replacing symbol “R1510:/5ACD5EDE/5B2C73A3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1510:/5ACD5EDE/5B2C73A3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C305:/5ABE5061/5B0BB8A8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2394,7 +2394,7 @@ Changing footprint “R1509:/5ACD5EDE/5B30C2FF” pad “2” net name from “�
 
 Changing footprint “R1509:/5ACD5EDE/5B30C2FF” pad “1” net name from “” to “Net-(C1523-Pad1)”.
 
-Replacing symbol “R1509:/5ACD5EDE/5B30C2FF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1509:/5ACD5EDE/5B30C2FF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C305:/5ABE5061/5B0BB8A8” pad “2” net name from “” to “GND”.
 
@@ -2402,21 +2402,21 @@ Changing footprint “R1508:/5ACD5EDE/5B2D270A” pad “1” net name from “�
 
 Changing footprint “R1508:/5ACD5EDE/5B2D270A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1508:/5ACD5EDE/5B2D270A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1508:/5ACD5EDE/5B2D270A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R1409:/5ACBE3AE/5AFF5FC7” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1409:/5ACBE3AE/5AFF5FC7” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1507:/5ACD5EDE/5B2C9CCA” pad “2” net name from “” to “Net-(R1507-Pad2)”.
 
 Changing footprint “R1507:/5ACD5EDE/5B2C9CCA” pad “1” net name from “” to “/WWAN mPCIe/UIM-PWR”.
 
-Replacing symbol “R1507:/5ACD5EDE/5B2C9CCA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1507:/5ACD5EDE/5B2C9CCA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1506:/5ACD5EDE/5ADA90CD” pad “2” net name from “” to “/WWAN mPCIe/UIM-DATA”.
 
 Changing footprint “R1506:/5ACD5EDE/5ADA90CD” pad “1” net name from “” to “/WWAN mPCIe/UIM-PWR”.
 
-Replacing symbol “R1506:/5ACD5EDE/5ADA90CD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1506:/5ACD5EDE/5ADA90CD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C306:/5ABE5061/5B0BBD65” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2424,7 +2424,7 @@ Changing footprint “R1505:/5ACD5EDE/5B33E226” pad “2” net name from “�
 
 Changing footprint “R1505:/5ACD5EDE/5B33E226” pad “1” net name from “” to “/WWAN_RESET”.
 
-Replacing symbol “R1505:/5ACD5EDE/5B33E226” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1505:/5ACD5EDE/5B33E226” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C306:/5ABE5061/5B0BBD65” pad “1” net name from “” to “Net-(C305-Pad1)”.
 
@@ -2434,13 +2434,13 @@ Changing footprint “R1402:/5ACBE3AE/5B0787FA” pad “2” net name from “�
 
 Changing footprint “R1402:/5ACBE3AE/5B0787FA” pad “1” net name from “” to “Net-(R1402-Pad1)”.
 
-Replacing symbol “R1402:/5ACBE3AE/5B0787FA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1402:/5ACBE3AE/5B0787FA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1401:/5ACBE3AE/5B078851” pad “1” net name from “” to “Net-(R1401-Pad1)”.
 
 Changing footprint “R1401:/5ACBE3AE/5B078851” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1401:/5ACBE3AE/5B078851” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1401:/5ACBE3AE/5B078851” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C310:/5ABE5061/5B1BC001” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2448,7 +2448,7 @@ Changing footprint “R1302:/5B120FA9/5B12DFE7/5B1E9C00” pad “2” net name 
 
 Changing footprint “R1302:/5B120FA9/5B12DFE7/5B1E9C00” pad “1” net name from “” to “Net-(C1301-Pad1)”.
 
-Replacing symbol “R1302:/5B120FA9/5B12DFE7/5B1E9C00” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1302:/5B120FA9/5B12DFE7/5B1E9C00” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C310:/5ABE5061/5B1BC001” pad “1” net name from “” to “VBAT_REG”.
 
@@ -2456,7 +2456,7 @@ Changing footprint “C309:/5ABE5061/5AE01FE0” pad “1” net name from “�
 
 Changing footprint “R1301:/5B120FA9/5B12DFE7/5B1ED51C” pad “1” net name from “” to “Net-(D1301-Pad1)”.
 
-Replacing symbol “R1301:/5B120FA9/5B12DFE7/5B1ED51C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1301:/5B120FA9/5B12DFE7/5B1ED51C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C310:/5ABE5061/5B1BC001” pad “2” net name from “” to “GND”.
 
@@ -2464,19 +2464,19 @@ Changing footprint “R1205:/5B120FA9/5B12DFA8/5B477A28” pad “2” net name 
 
 Changing footprint “R1205:/5B120FA9/5B12DFA8/5B477A28” pad “1” net name from “” to “/LCD_~RESET”.
 
-Replacing symbol “R1205:/5B120FA9/5B12DFA8/5B477A28” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1205:/5B120FA9/5B12DFA8/5B477A28” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1204:/5B120FA9/5B12DFA8/5B3236A9” pad “2” net name from “” to “Net-(J1201-Pad3)”.
 
 Changing footprint “R1204:/5B120FA9/5B12DFA8/5B3236A9” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “R1204:/5B120FA9/5B12DFA8/5B3236A9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1204:/5B120FA9/5B12DFA8/5B3236A9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C311:/5ABE5061/5B3268DD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
 Changing footprint “R1203:/5B120FA9/5B12DFA8/5B32362A” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R1406:/5ACBE3AE/5B3258BE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1406:/5ACBE3AE/5B3258BE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C308:/5ABE5061/5AE0040B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2484,7 +2484,7 @@ Changing footprint “R1408:/5ACBE3AE/5B1DBBDC” pad “2” net name from “�
 
 Changing footprint “R1408:/5ACBE3AE/5B1DBBDC” pad “1” net name from “” to “3V3”.
 
-Replacing symbol “R1408:/5ACBE3AE/5B1DBBDC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1408:/5ACBE3AE/5B1DBBDC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C308:/5ABE5061/5AE0040B” pad “1” net name from “” to “VBAT_REG”.
 
@@ -2492,7 +2492,7 @@ Changing footprint “R1407:/5ACBE3AE/5B1DBA91” pad “1” net name from “�
 
 Changing footprint “R1407:/5ACBE3AE/5B1DBA91” pad “2” net name from “” to “/SYS_~RST”.
 
-Replacing symbol “R1407:/5ACBE3AE/5B1DBA91” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1407:/5ACBE3AE/5B1DBA91” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C308:/5ABE5061/5AE0040B” pad “2” net name from “” to “GND”.
 
@@ -2500,13 +2500,13 @@ Changing footprint “R1406:/5ACBE3AE/5B3258BE” pad “1” net name from “�
 
 Changing footprint “R1406:/5ACBE3AE/5B3258BE” pad “2” net name from “” to “/BTN2”.
 
-Replacing symbol “R1511:/5ACD5EDE/5B30C2F2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1511:/5ACD5EDE/5B30C2F2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1405:/5ACBE3AE/5B32596C” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “R1405:/5ACBE3AE/5B32596C” pad “2” net name from “” to “/BTN1”.
 
-Replacing symbol “R1405:/5ACBE3AE/5B32596C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1405:/5ACBE3AE/5B32596C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C309:/5ABE5061/5AE01FE0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2514,7 +2514,7 @@ Changing footprint “R1404:/5ACBE3AE/5B07894D” pad “2” net name from “�
 
 Changing footprint “R1404:/5ACBE3AE/5B07894D” pad “1” net name from “” to “Net-(R1404-Pad1)”.
 
-Replacing symbol “R1404:/5ACBE3AE/5B07894D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1404:/5ACBE3AE/5B07894D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C309:/5ABE5061/5AE01FE0” pad “2” net name from “” to “GND”.
 
@@ -2522,9 +2522,9 @@ Changing footprint “R1403:/5ACBE3AE/5B0789B5” pad “1” net name from “�
 
 Changing footprint “R1403:/5ACBE3AE/5B0789B5” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1403:/5ACBE3AE/5B0789B5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1403:/5ACBE3AE/5B0789B5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R1708:/5AF0A927/5B34B06F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1708:/5AF0A927/5B34B06F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C216:/5ACF2B88/5AF9B88F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2532,7 +2532,7 @@ Changing footprint “R1710:/5AF0A927/5B34B1FE” pad “1” net name from “�
 
 Changing footprint “R1710:/5AF0A927/5B34B1FE” pad “2” net name from “” to “/Ethernet/LED_LINK1000”.
 
-Replacing symbol “R1710:/5AF0A927/5B34B1FE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1710:/5AF0A927/5B34B1FE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C216:/5ACF2B88/5AF9B88F” pad “2” net name from “” to “Net-(C216-Pad2)”.
 
@@ -2540,7 +2540,7 @@ Changing footprint “R1709:/5AF0A927/5B34B135” pad “2” net name from “�
 
 Changing footprint “R1709:/5AF0A927/5B34B135” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R1709:/5AF0A927/5B34B135” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1709:/5AF0A927/5B34B135” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C216:/5ACF2B88/5AF9B88F” pad “1” net name from “” to “GND”.
 
@@ -2548,13 +2548,13 @@ Changing footprint “R1708:/5AF0A927/5B34B06F” pad “1” net name from “�
 
 Changing footprint “R1708:/5AF0A927/5B34B06F” pad “2” net name from “” to “/Ethernet/ENET_RXC”.
 
-Replacing symbol “R1711:/5AF0A927/5B34B2C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1711:/5AF0A927/5B34B2C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1707:/5AF0A927/5B34AFB0” pad “2” net name from “” to “/Ethernet/ENET_RD2”.
 
 Changing footprint “R1707:/5AF0A927/5B34AFB0” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R1707:/5AF0A927/5B34AFB0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1707:/5AF0A927/5B34AFB0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C301:/5ABE5061/5ADEA19F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2562,7 +2562,7 @@ Changing footprint “R1706:/5AF0A927/5B34AEF4” pad “1” net name from “�
 
 Changing footprint “R1706:/5AF0A927/5B34AEF4” pad “2” net name from “” to “/Ethernet/ENET_RX_CTL”.
 
-Replacing symbol “R1706:/5AF0A927/5B34AEF4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1706:/5AF0A927/5B34AEF4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C301:/5ABE5061/5ADEA19F” pad “1” net name from “” to “VBUS”.
 
@@ -2570,13 +2570,13 @@ Changing footprint “R1705:/5AF0A927/5B34A19A” pad “2” net name from “�
 
 Changing footprint “R1705:/5AF0A927/5B34A19A” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R1705:/5AF0A927/5B34A19A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1705:/5AF0A927/5B34A19A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1714:/5AF0A927/5B348865” pad “2” net name from “” to “/ENET_WoL”.
 
 Changing footprint “R1717:/5AF0A927/5B348AD6” pad “2” net name from “” to “Net-(D1701-Pad2)”.
 
-Replacing symbol “R1717:/5AF0A927/5B348AD6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1717:/5AF0A927/5B348AD6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C214:/5ACF2B88/5AF3D4AD” pad “2” net name from “” to “GND”.
 
@@ -2584,13 +2584,13 @@ Changing footprint “R1716:/5AF0A927/5B348A20” pad “2” net name from “�
 
 Changing footprint “R1716:/5AF0A927/5B348A20” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R1716:/5AF0A927/5B348A20” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1716:/5AF0A927/5B348A20” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1715:/5AF0A927/5AF1A84A” pad “1” net name from “” to “GND”.
 
 Changing footprint “R1715:/5AF0A927/5AF1A84A” pad “2” net name from “” to “Net-(C1702-Pad1)”.
 
-Replacing symbol “R1715:/5AF0A927/5AF1A84A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1715:/5AF0A927/5AF1A84A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C215:/5ACF2B88/5AF3CD28” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2598,7 +2598,7 @@ Changing footprint “R1714:/5AF0A927/5B348865” pad “1” net name from “�
 
 Changing footprint “C301:/5ABE5061/5ADEA19F” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1714:/5AF0A927/5B348865” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1714:/5AF0A927/5B348865” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C215:/5ACF2B88/5AF3CD28” pad “2” net name from “” to “GND”.
 
@@ -2606,7 +2606,7 @@ Changing footprint “R1713:/5AF0A927/5AF1A819” pad “2” net name from “�
 
 Changing footprint “R1713:/5AF0A927/5AF1A819” pad “1” net name from “” to “/CLKO2”.
 
-Replacing symbol “R1713:/5AF0A927/5AF1A819” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1713:/5AF0A927/5AF1A819” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C215:/5ACF2B88/5AF3CD28” pad “1” net name from “” to “VBUS”.
 
@@ -2614,15 +2614,15 @@ Changing footprint “R1712:/5AF0A927/5B3487C7” pad “2” net name from “�
 
 Changing footprint “R1712:/5AF0A927/5B3487C7” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R1712:/5AF0A927/5B3487C7” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1712:/5AF0A927/5B3487C7” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1711:/5AF0A927/5B34B2C6” pad “2” net name from “” to “/Ethernet/LED_LINK10_100”.
 
 Changing footprint “R1711:/5AF0A927/5B34B2C6” pad “1” net name from “” to “GND”.
 
-Replacing symbol “R1603:/5ABE7AA4/5ABEFC7B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1603:/5ABE7AA4/5ABEFC7B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R1606:/5ABE7AA4/5ABF53C8” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1606:/5ABE7AA4/5ABF53C8” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C303:/5ABE5061/5ADFB737” pad “1” net name from “” to “Net-(C303-Pad1)”.
 
@@ -2630,7 +2630,7 @@ Changing footprint “R1605:/5ABE7AA4/5ABF53AE” pad “2” net name from “�
 
 Changing footprint “R1605:/5ABE7AA4/5ABF53AE” pad “1” net name from “” to “Net-(C1615-Pad2)”.
 
-Replacing symbol “R1605:/5ABE7AA4/5ABF53AE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1605:/5ABE7AA4/5ABF53AE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C303:/5ABE5061/5ADFB737” pad “2” net name from “” to “Net-(C303-Pad2)”.
 
@@ -2638,7 +2638,7 @@ Changing footprint “R1604:/5ABE7AA4/5ABF49BF” pad “1” net name from “�
 
 Changing footprint “R1604:/5ABE7AA4/5ABF49BF” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1604:/5ABE7AA4/5ABF49BF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1604:/5ABE7AA4/5ABF49BF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1603:/5ABE7AA4/5ABEFC7B” pad “1” net name from “” to “Net-(C1612-Pad2)”.
 
@@ -2652,7 +2652,7 @@ Changing footprint “R1602:/5ABE7AA4/5B4E9C2D” pad “1” net name from “�
 
 Changing footprint “R1602:/5ABE7AA4/5B4E9C2D” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1602:/5ABE7AA4/5B4E9C2D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1602:/5ABE7AA4/5B4E9C2D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C304:/5ABE5061/5ADFC6C1” pad “2” net name from “” to “GND”.
 
@@ -2660,7 +2660,7 @@ Changing footprint “R1601:/5ABE7AA4/5B4049AB” pad “2” net name from “�
 
 Changing footprint “R1601:/5ABE7AA4/5B4049AB” pad “1” net name from “” to “Net-(R1601-Pad1)”.
 
-Replacing symbol “R1601:/5ABE7AA4/5B4049AB” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1601:/5ABE7AA4/5B4049AB” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C304:/5ABE5061/5ADFC6C1” pad “1” net name from “” to “/Battery/RGEN”.
 
@@ -2674,13 +2674,13 @@ Changing footprint “R1704:/5AF0A927/5AFC8798” pad “2” net name from “�
 
 Changing footprint “R1704:/5AF0A927/5AFC8798” pad “1” net name from “” to “/Ethernet/LED_ACT”.
 
-Replacing symbol “R1704:/5AF0A927/5AFC8798” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1704:/5AF0A927/5AFC8798” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1703:/5AF0A927/5B34A0D6” pad “1” net name from “” to “GND”.
 
 Changing footprint “R1703:/5AF0A927/5B34A0D6” pad “2” net name from “” to “/Ethernet/ENET_RD1”.
 
-Replacing symbol “R1703:/5AF0A927/5B34A0D6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1703:/5AF0A927/5B34A0D6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C302:/5ABE5061/5ADEA322” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -2688,7 +2688,7 @@ Changing footprint “R1702:/5AF0A927/5AFC8685” pad “1” net name from “�
 
 Changing footprint “R1702:/5AF0A927/5AFC8685” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R1702:/5AF0A927/5AFC8685” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1702:/5AF0A927/5AFC8685” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C302:/5ABE5061/5ADEA322” pad “2” net name from “” to “GND”.
 
@@ -2696,7 +2696,7 @@ Changing footprint “R1203:/5B120FA9/5B12DFA8/5B32362A” pad “2” net name 
 
 Changing footprint “R1701:/5AF0A927/5B348EA1” pad “1” net name from “” to “/ENET_2V5”.
 
-Replacing symbol “R1701:/5AF0A927/5B348EA1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1701:/5AF0A927/5B348EA1” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C302:/5ABE5061/5ADEA322” pad “1” net name from “” to “Net-(C302-Pad1)”.
 
@@ -2704,13 +2704,13 @@ Changing footprint “R1608:/5ABE7AA4/5B273184” pad “1” net name from “�
 
 Changing footprint “R1608:/5ABE7AA4/5B273184” pad “2” net name from “” to “/HP_DET”.
 
-Replacing symbol “R1608:/5ABE7AA4/5B273184” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1608:/5ABE7AA4/5B273184” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R1607:/5ABE7AA4/5AC7B464” pad “2” net name from “” to “/Audio/MIC_BIAS”.
 
 Changing footprint “R1607:/5ABE7AA4/5AC7B464” pad “1” net name from “” to “Net-(C1620-Pad2)”.
 
-Replacing symbol “R1607:/5ABE7AA4/5AC7B464” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R1607:/5ABE7AA4/5AC7B464” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C303:/5ABE5061/5ADFB737” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3528,15 +3528,15 @@ Changing footprint “C432:/5B0FA74B/5B203D3D” pad “2” net name from “�
 
 Replacing symbol “C433:/5B0FA74B/5B20D5F3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
-Replacing symbol “R101:/5B33103F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R101:/5B33103F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “R104:/5B339DFC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R104:/5B339DFC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R103:/5B330D8D” pad “2” net name from “” to “/I2C2_SDA”.
 
 Changing footprint “R103:/5B330D8D” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R103:/5B330D8D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R103:/5B330D8D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C425:/5B0FA74B/5B203D2F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3544,7 +3544,7 @@ Changing footprint “R102:/5B12EC2C” pad “1” net name from “” to “3
 
 Changing footprint “R102:/5B12EC2C” pad “2” net name from “” to “/I2C3_SDA”.
 
-Replacing symbol “R102:/5B12EC2C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R102:/5B12EC2C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C425:/5B0FA74B/5B203D2F” pad “1” net name from “” to “3V3_P”.
 
@@ -3672,7 +3672,7 @@ Replacing symbol “JP403:/5B0FA74B/5B32BFC9” footprint “Pin_Headers:Pin_Hea
 
 Changing footprint “JP402:/5B0FA74B/5B32BE16” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “R211:/5ACF2B88/5ADED10B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R211:/5ACF2B88/5ADED10B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C420:/5B0FA74B/5B203547” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3680,7 +3680,7 @@ Changing footprint “R213:/5ACF2B88/5ADED120” pad “1” net name from “�
 
 Changing footprint “R213:/5ACF2B88/5ADED120” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R213:/5ACF2B88/5ADED120” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R213:/5ACF2B88/5ADED120” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C420:/5B0FA74B/5B203547” pad “2” net name from “” to “GND”.
 
@@ -3688,7 +3688,7 @@ Changing footprint “R212:/5ACF2B88/5ADED119” pad “2” net name from “�
 
 Changing footprint “R212:/5ACF2B88/5ADED119” pad “1” net name from “” to “Net-(R212-Pad1)”.
 
-Replacing symbol “R212:/5ACF2B88/5ADED119” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R212:/5ACF2B88/5ADED119” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C420:/5B0FA74B/5B203547” pad “1” net name from “” to “5V_P”.
 
@@ -3696,13 +3696,13 @@ Changing footprint “R211:/5ACF2B88/5ADED10B” pad “1” net name from “�
 
 Changing footprint “C1209:/5B120FA9/5B12DFA8/5B452939” pad “1” net name from “” to “22V4”.
 
-Replacing symbol “R214:/5ACF2B88/5B2F2DD5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R214:/5ACF2B88/5B2F2DD5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R210:/5ACF2B88/5B2F09F9” pad “1” net name from “” to “3V3”.
 
 Changing footprint “R210:/5ACF2B88/5B2F09F9” pad “2” net name from “” to “/USB-C/USB_LD_~FLT”.
 
-Replacing symbol “R210:/5ACF2B88/5B2F09F9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R210:/5ACF2B88/5B2F09F9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C421:/5B0FA74B/5B203D28” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3710,7 +3710,7 @@ Changing footprint “R209:/5ACF2B88/5AED80E2” pad “1” net name from “�
 
 Changing footprint “R209:/5ACF2B88/5AED80E2” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R209:/5ACF2B88/5AED80E2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R209:/5ACF2B88/5AED80E2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C421:/5B0FA74B/5B203D28” pad “2” net name from “” to “GND”.
 
@@ -3718,13 +3718,13 @@ Changing footprint “R208:/5ACF2B88/5AED7E8E” pad “2” net name from “�
 
 Changing footprint “R208:/5ACF2B88/5AED7E8E” pad “1” net name from “” to “Net-(R203-Pad2)”.
 
-Replacing symbol “R208:/5ACF2B88/5AED7E8E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R208:/5ACF2B88/5AED7E8E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R217:/5ACF2B88/5ADED143” pad “1” net name from “” to “/I2C1_SCL”.
 
 Changing footprint “R220:/5ACF2B88/5B421944” pad “2” net name from “” to “5V_SOM”.
 
-Replacing symbol “R220:/5ACF2B88/5B421944” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R220:/5ACF2B88/5B421944” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C418:/5B0FA74B/5B203D21” pad “2” net name from “” to “GND”.
 
@@ -3732,13 +3732,13 @@ Changing footprint “R219:/5ACF2B88/5AF58EF4” pad “1” net name from “�
 
 Changing footprint “R219:/5ACF2B88/5AF58EF4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R219:/5ACF2B88/5AF58EF4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R219:/5ACF2B88/5AF58EF4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R218:/5ACF2B88/5ADED14A” pad “2” net name from “” to “3V3_OUT”.
 
 Changing footprint “R218:/5ACF2B88/5ADED14A” pad “1” net name from “” to “/I2C1_SDA”.
 
-Replacing symbol “R218:/5ACF2B88/5ADED14A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R218:/5ACF2B88/5ADED14A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C419:/5B0FA74B/5B20D5D7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3746,7 +3746,7 @@ Changing footprint “R217:/5ACF2B88/5ADED143” pad “2” net name from “�
 
 Changing footprint “C421:/5B0FA74B/5B203D28” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “R217:/5ACF2B88/5ADED143” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R217:/5ACF2B88/5ADED143” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C419:/5B0FA74B/5B20D5D7” pad “2” net name from “” to “GND”.
 
@@ -3754,7 +3754,7 @@ Changing footprint “R216:/5ACF2B88/5ADED13C” pad “2” net name from “�
 
 Changing footprint “R216:/5ACF2B88/5ADED13C” pad “1” net name from “” to “/I2C1_SDA”.
 
-Replacing symbol “R216:/5ACF2B88/5ADED13C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R216:/5ACF2B88/5ADED13C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C419:/5B0FA74B/5B20D5D7” pad “1” net name from “” to “1V8_P”.
 
@@ -3762,7 +3762,7 @@ Changing footprint “R215:/5ACF2B88/5ADED135” pad “1” net name from “�
 
 Changing footprint “R215:/5ACF2B88/5ADED135” pad “2” net name from “” to “/I2C1_SCL”.
 
-Replacing symbol “R215:/5ACF2B88/5ADED135” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R215:/5ACF2B88/5ADED135” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R214:/5ACF2B88/5B2F2DD5” pad “2” net name from “” to “/TCPC_~INT”.
 
@@ -3772,7 +3772,7 @@ Changing footprint “R107:/5B2BBF6E” pad “1” net name from “” to “/
 
 Changing footprint “R201:/5ACF2B88/5AEDAEEC” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “R201:/5ACF2B88/5AEDAEEC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R201:/5ACF2B88/5AEDAEEC” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C423:/5B0FA74B/5AC8D0FC” pad “2” net name from “” to “GND”.
 
@@ -3780,7 +3780,7 @@ Changing footprint “R109:/5B4F549E” pad “2” net name from “” to “/
 
 Changing footprint “R109:/5B4F549E” pad “1” net name from “” to “3V3_OUT”.
 
-Replacing symbol “R109:/5B4F549E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R109:/5B4F549E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C423:/5B0FA74B/5AC8D0FC” pad “1” net name from “” to “Net-(C423-Pad1)”.
 
@@ -3788,13 +3788,13 @@ Changing footprint “R108:/5B4F042B” pad “2” net name from “” to “/
 
 Changing footprint “R108:/5B4F042B” pad “1” net name from “” to “3V3_OUT”.
 
-Replacing symbol “R108:/5B4F042B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R108:/5B4F042B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R107:/5B2BBF6E” pad “2” net name from “” to “GND”.
 
 Changing footprint “R201:/5ACF2B88/5AEDAEEC” pad “2” net name from “” to “Net-(D201-Pad2)”.
 
-Replacing symbol “R107:/5B2BBF6E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R107:/5B2BBF6E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C424:/5B0FA74B/5B20354E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3802,7 +3802,7 @@ Changing footprint “R106:/5B0AEFCA” pad “1” net name from “” to “/
 
 Changing footprint “R106:/5B0AEFCA” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R106:/5B0AEFCA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R106:/5B0AEFCA” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C424:/5B0FA74B/5B20354E” pad “1” net name from “” to “5V_P”.
 
@@ -3810,7 +3810,7 @@ Changing footprint “R105:/5B425E35” pad “2” net name from “” to “/
 
 Changing footprint “R105:/5B425E35” pad “1” net name from “” to “5V_P”.
 
-Replacing symbol “R105:/5B425E35” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R105:/5B425E35” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C424:/5B0FA74B/5B20354E” pad “2” net name from “” to “GND”.
 
@@ -3822,13 +3822,13 @@ Changing footprint “R207:/5ACF2B88/5AED7972” pad “1” net name from “�
 
 Changing footprint “R207:/5ACF2B88/5AED7972” pad “2” net name from “” to “GND”.
 
-Replacing symbol “R207:/5ACF2B88/5AED7972” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R207:/5ACF2B88/5AED7972” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R206:/5ACF2B88/5AED69B2” pad “2” net name from “” to “GND”.
 
 Changing footprint “R206:/5ACF2B88/5AED69B2” pad “1” net name from “” to “Net-(R205-Pad2)”.
 
-Replacing symbol “R206:/5ACF2B88/5AED69B2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R206:/5ACF2B88/5AED69B2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C422:/5B0FA74B/5B20D5DE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
@@ -3836,7 +3836,7 @@ Changing footprint “R205:/5ACF2B88/5AED68D0” pad “1” net name from “�
 
 Changing footprint “R205:/5ACF2B88/5AED68D0” pad “2” net name from “” to “Net-(R205-Pad2)”.
 
-Replacing symbol “R205:/5ACF2B88/5AED68D0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R205:/5ACF2B88/5AED68D0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C422:/5B0FA74B/5B20D5DE” pad “1” net name from “” to “1V8_P”.
 
@@ -3844,7 +3844,7 @@ Changing footprint “J801:/5ACE0382/5AD052A0” pad “9” net name from “�
 
 Changing footprint “R204:/5ACF2B88/5AED6845” pad “2” net name from “” to “Net-(R204-Pad2)”.
 
-Replacing symbol “R204:/5ACF2B88/5AED6845” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R204:/5ACF2B88/5AED6845” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “C422:/5B0FA74B/5B20D5DE” pad “2” net name from “” to “GND”.
 
@@ -3852,13 +3852,13 @@ Changing footprint “R203:/5ACF2B88/5AED67BD” pad “2” net name from “�
 
 Changing footprint “R203:/5ACF2B88/5AED67BD” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “R203:/5ACF2B88/5AED67BD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R203:/5ACF2B88/5AED67BD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Changing footprint “R202:/5ACF2B88/5AED5D55” pad “2” net name from “” to “Net-(R202-Pad2)”.
 
 Changing footprint “R202:/5ACF2B88/5AED5D55” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “R202:/5ACF2B88/5AED5D55” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0603_1608Metric”.
+Replacing symbol “R202:/5ACF2B88/5AED5D55” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
 Replacing symbol “C423:/5B0FA74B/5AC8D0FC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
 
