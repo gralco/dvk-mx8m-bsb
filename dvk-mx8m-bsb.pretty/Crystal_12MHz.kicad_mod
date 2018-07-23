@@ -1,4 +1,4 @@
-(module Crystal_12MHz (layer F.Cu) (tedit 5B1BFA78)
+(module Crystal_12MHz (layer F.Cu) (tedit 5B56377D)
   (descr "SMD Crystal 12MHz http://static6.arrow.com/aropdfconversion/b4030582c5e8eb43941a062f79d8d7672e21b46a/604ecx-2236.pdf, 2.5x2.0mm^2 package")
   (tags "SMD SMT crystal")
   (attr smd)
@@ -30,7 +30,7 @@
   (pad 2 smd rect (at 0.85 0.65) (size 1.2 1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.85 -0.65) (size 1.2 1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.85 -0.65) (size 1.2 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_2520-4pin_2.5x2.0mm.wrl
+  (model ${KIPRJMOD}/packages3d/Crystal_SMD_2520-4pin_2.5x2.0mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Mon 23 Jul 2018 01:34:14 PM EDT")
+    (date "Mon 23 Jul 2018 03:49:30 PM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1085,7 +1085,7 @@
       (tstamp 5AE36487))
     (comp (ref TH301)
       (value 10k)
-      (footprint Resistor_SMD:R_0402_1005Metric)
+      (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet https://industrial.panasonic.com/cdbs/www-data/pdf2/AUA0000/AUA0000AE291.pdf)
       (fields
         (field (name "Distrib Link") https://www.arrow.com/en/products/ert-j1vg103fa/panasonic)
