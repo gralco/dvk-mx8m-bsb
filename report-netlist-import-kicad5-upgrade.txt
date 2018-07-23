@@ -92,11 +92,11 @@ Info: Checking netlist symbol footprint “CBL1501:/5ACD5EDE/5B2DDE6A:dvk-mx8m-b
 
 Info: Checking netlist symbol footprint “CAM1301:/5B120FA9/5B12DFE7/5B2ACE32:dvk-mx8m-bsb:Camera_CO8725-B5SA-E”.
 
-Info: Checking netlist symbol footprint “C2402:/5AFCB56A/5B428193:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2402:/5AFCB56A/5B428193:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2401:/5AFCB56A/5B0285ED:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2401:/5AFCB56A/5B0285ED:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2307:/5B0D6F7B/5B208DA7:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2307:/5B0D6F7B/5B208DA7:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “FB2001:/5B05878C/5B2D1FCE:dvk-mx8m-bsb:FER-0603”.
 
@@ -228,7 +228,7 @@ Info: Checking netlist symbol footprint “J1502:/5ACD5EDE/5B330248:dvk-mx8m-bsb
 
 Info: Checking netlist symbol footprint “J1503:/5ACD5EDE/5B2CA2AD:dvk-mx8m-bsb:mpcie-socket”.
 
-Info: Checking netlist symbol footprint “C2306:/5B0D6F7B/5B208BC6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2306:/5B0D6F7B/5B208BC6:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “J1601:/5ABE7AA4/5B267FE2:dvk-mx8m-bsb:Phone_Jack_SJ-43515TS”.
 
@@ -260,265 +260,265 @@ Info: Checking netlist symbol footprint “JP1801:/5AF3486B/5B32C2B1:Connector_P
 
 Info: Checking netlist symbol footprint “L301:/5ABE5061/5ADFB9AB:dvk-mx8m-bsb:IHLP-2020BZ-11”.
 
-Info: Checking netlist symbol footprint “C1601:/5ABE7AA4/5B0BECD5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1601:/5ABE7AA4/5B0BECD5:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C1609:/5ABE7AA4/5B25A85A:Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S”.
 
-Info: Checking netlist symbol footprint “C1608:/5ABE7AA4/5ABEF388:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1608:/5ABE7AA4/5ABEF388:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1607:/5ABE7AA4/5B488D5A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1607:/5ABE7AA4/5B488D5A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1606:/5ABE7AA4/5ABEF358:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1606:/5ABE7AA4/5ABEF358:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1605:/5ABE7AA4/5ABFC3EE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1605:/5ABE7AA4/5ABFC3EE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1604:/5ABE7AA4/5B421EEC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1604:/5ABE7AA4/5B421EEC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1603:/5ABE7AA4/5B421D97:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1603:/5ABE7AA4/5B421D97:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1602:/5ABE7AA4/5B420B54:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1602:/5ABE7AA4/5B420B54:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C1610:/5ABE7AA4/5B25ADCC:Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S”.
 
-Info: Checking netlist symbol footprint “C1524:/5ACD5EDE/5ADA5CE1:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1524:/5ACD5EDE/5ADA5CE1:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1523:/5ACD5EDE/5B30C2BF:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1523:/5ACD5EDE/5B30C2BF:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1522:/5ACD5EDE/5B2EEC7F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1522:/5ACD5EDE/5B2EEC7F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1521:/5ACD5EDE/5B2CB1A8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1521:/5ACD5EDE/5B2CB1A8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1520:/5ACD5EDE/5ADA5915:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1520:/5ACD5EDE/5ADA5915:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1519:/5ACD5EDE/5ADA6940:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1519:/5ACD5EDE/5ADA6940:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1518:/5ACD5EDE/5ADA69A9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1518:/5ACD5EDE/5ADA69A9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1517:/5ACD5EDE/5ADA69EC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1517:/5ACD5EDE/5ADA69EC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1611:/5ABE7AA4/5B0BEFB5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1611:/5ABE7AA4/5B0BEFB5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1612:/5ABE7AA4/5ABF4002:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1612:/5ABE7AA4/5ABF4002:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1613:/5ABE7AA4/5B018F2A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1613:/5ABE7AA4/5B018F2A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1614:/5ABE7AA4/5ABF490A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1614:/5ABE7AA4/5ABF490A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1615:/5ABE7AA4/5ABF53BC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1615:/5ABE7AA4/5ABF53BC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1616:/5ABE7AA4/5AFC383A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1616:/5ABE7AA4/5AFC383A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1617:/5ABE7AA4/5AFC38D8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1617:/5ABE7AA4/5AFC38D8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1618:/5ABE7AA4/5ABF53C2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1618:/5ABE7AA4/5ABF53C2:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1619:/5ABE7AA4/5AC7BC8A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1619:/5ABE7AA4/5AC7BC8A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1620:/5ABE7AA4/5AC7B848:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1620:/5ABE7AA4/5AC7B848:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1621:/5ABE7AA4/5ABF2987:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1621:/5ABE7AA4/5ABF2987:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1622:/5ABE7AA4/5AC79EEC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1622:/5ABE7AA4/5AC79EEC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1623:/5ABE7AA4/5AF9F523:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1623:/5ABE7AA4/5AF9F523:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1624:/5ABE7AA4/5ABF2943:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1624:/5ABE7AA4/5ABF2943:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1625:/5ABE7AA4/5AF9EA3B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1625:/5ABE7AA4/5AF9EA3B:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C1501:/5ACD5EDE/5B2E992C:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Info: Checking netlist symbol footprint “C1210:/5B120FA9/5B12DFA8/5B452932:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1210:/5B120FA9/5B12DFA8/5B452932:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1301:/5B120FA9/5B12DFE7/5B1EAF12:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1301:/5B120FA9/5B12DFE7/5B1EAF12:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1302:/5B120FA9/5B12DFE7/5B197A0E:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1302:/5B120FA9/5B12DFE7/5B197A0E:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1303:/5B120FA9/5B12DFE7/5B30A24C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1303:/5B120FA9/5B12DFE7/5B30A24C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1304:/5B120FA9/5B12DFE7/5B2B061C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1304:/5B120FA9/5B12DFE7/5B2B061C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1305:/5B120FA9/5B12DFE7/5B0F8E57:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1305:/5B120FA9/5B12DFE7/5B0F8E57:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1306:/5B120FA9/5B12DFE7/5B0F8F0F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1306:/5B120FA9/5B12DFE7/5B0F8F0F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1307:/5B120FA9/5B12DFE7/5B0F8FA9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1307:/5B120FA9/5B12DFE7/5B0F8FA9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1308:/5B120FA9/5B12DFE7/5B334D05:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1308:/5B120FA9/5B12DFE7/5B334D05:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1309:/5B120FA9/5B12DFE7/5B0F9030:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1309:/5B120FA9/5B12DFE7/5B0F9030:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1310:/5B120FA9/5B12DFE7/5B334AE4:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1310:/5B120FA9/5B12DFE7/5B334AE4:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1401:/5ACBE3AE/5AF899A7:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1401:/5ACBE3AE/5AF899A7:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1402:/5ACBE3AE/5AF882AE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1402:/5ACBE3AE/5AF882AE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1403:/5ACBE3AE/5AF8B7EB:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1403:/5ACBE3AE/5AF8B7EB:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1404:/5ACBE3AE/5AF8B583:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1404:/5ACBE3AE/5AF8B583:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1701:/5AF0A927/5AF1C053:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1701:/5AF0A927/5AF1C053:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C1502:/5ACD5EDE/5B2E987D:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
 Info: Checking netlist symbol footprint “C1503:/5ACD5EDE/5B300899:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Info: Checking netlist symbol footprint “C1504:/5ACD5EDE/5B18C380:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1504:/5ACD5EDE/5B18C380:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1505:/5ACD5EDE/5B18C2F3:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1505:/5ACD5EDE/5B18C2F3:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1506:/5ACD5EDE/5B18C26B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1506:/5ACD5EDE/5B18C26B:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1507:/5ACD5EDE/5B18C1DE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1507:/5ACD5EDE/5B18C1DE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1508:/5ACD5EDE/5B2F6933:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1508:/5ACD5EDE/5B2F6933:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1509:/5ACD5EDE/5AD47C44:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1509:/5ACD5EDE/5AD47C44:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1510:/5ACD5EDE/5AD47BFC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1510:/5ACD5EDE/5AD47BFC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1511:/5ACD5EDE/5AF60909:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1511:/5ACD5EDE/5AF60909:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1512:/5ACD5EDE/5AF608F9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1512:/5ACD5EDE/5AF608F9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1513:/5ACD5EDE/5AF5FCD9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1513:/5ACD5EDE/5AF5FCD9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1514:/5ACD5EDE/5ADAB5AD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1514:/5ACD5EDE/5ADAB5AD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1515:/5ACD5EDE/5AF5FCEA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1515:/5ACD5EDE/5AF5FCEA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1516:/5ACD5EDE/5B342FF9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1516:/5ACD5EDE/5B342FF9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1901:/5AFCA865/5B535C7C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1901:/5AFCA865/5B535C7C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2004:/5B05878C/5B163F79:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2004:/5B05878C/5B163F79:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2003:/5B05878C/5B164D9D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2003:/5B05878C/5B164D9D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2002:/5B05878C/5B067A54:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2002:/5B05878C/5B067A54:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2001:/5B05878C/5B0BFB2C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2001:/5B05878C/5B0BFB2C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1905:/5AFCA865/5AF6AB55:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1905:/5AFCA865/5AF6AB55:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1904:/5AFCA865/5AFAA07E:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1904:/5AFCA865/5AFAA07E:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1903:/5AFCA865/5B33D3B2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1903:/5AFCA865/5B33D3B2:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1902:/5AFCA865/5B536320:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1902:/5AFCA865/5B536320:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2005:/5B05878C/5B15B7F6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2005:/5B05878C/5B15B7F6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1819:/5AF3486B/5AF3C976:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1819:/5AF3486B/5AF3C976:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C1818:/5AF3486B/5B2ED326:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
 Info: Checking netlist symbol footprint “C1817:/5AF3486B/5B300A38:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Info: Checking netlist symbol footprint “C1816:/5AF3486B/5B1DE203:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1816:/5AF3486B/5B1DE203:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1815:/5AF3486B/5B0D6F86:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1815:/5AF3486B/5B0D6F86:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1814:/5AF3486B/5B1DE1FC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1814:/5AF3486B/5B1DE1FC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1813:/5AF3486B/5B1DE1F5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1813:/5AF3486B/5B1DE1F5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1812:/5AF3486B/5B1DE1EE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1812:/5AF3486B/5B1DE1EE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2006:/5B05878C/5B15B74F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2006:/5B05878C/5B15B74F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2007:/5B05878C/5B15B795:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2007:/5B05878C/5B15B795:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2008:/5B05878C/5B0EBD64:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2008:/5B05878C/5B0EBD64:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2101:/5B0A785D/5B12EA2B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2101:/5B0A785D/5B12EA2B:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2102:/5B0A785D/5B14E905:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2102:/5B0A785D/5B14E905:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2201:/5B1815F4/5B20FF65:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2201:/5B1815F4/5B20FF65:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2202:/5B1815F4/5B1F1971:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2202:/5B1815F4/5B1F1971:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2203:/5B1815F4/5B210DE6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2203:/5B1815F4/5B210DE6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2204:/5B1815F4/5B1F1CFA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2204:/5B1815F4/5B1F1CFA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2205:/5B1815F4/5B41E11A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2205:/5B1815F4/5B41E11A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2301:/5B0D6F7B/5B0ED9E5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2301:/5B0D6F7B/5B0ED9E5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2302:/5B0D6F7B/5B1028D6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2302:/5B0D6F7B/5B1028D6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2303:/5B0D6F7B/5B102929:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2303:/5B0D6F7B/5B102929:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2304:/5B0D6F7B/5B1029AE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2304:/5B0D6F7B/5B1029AE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C2305:/5B0D6F7B/5B103D07:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C2305:/5B0D6F7B/5B103D07:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1717:/5AF0A927/5AF270F5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1717:/5AF0A927/5AF270F5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1702:/5AF0A927/5AF1C13E:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1702:/5AF0A927/5AF1C13E:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1703:/5AF0A927/5AF2DBDB:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1703:/5AF0A927/5AF2DBDB:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1704:/5AF0A927/5B0BF7A6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1704:/5AF0A927/5B0BF7A6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1705:/5AF0A927/5AF2DBE2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1705:/5AF0A927/5AF2DBE2:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1706:/5AF0A927/5AF2D8CC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1706:/5AF0A927/5AF2D8CC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1707:/5AF0A927/5AF330CC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1707:/5AF0A927/5AF330CC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1708:/5AF0A927/5AF3312A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1708:/5AF0A927/5AF3312A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1709:/5AF0A927/5AF23C6C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1709:/5AF0A927/5AF23C6C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1710:/5AF0A927/5AF331AA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1710:/5AF0A927/5AF331AA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1711:/5AF0A927/5AF27077:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1711:/5AF0A927/5AF27077:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1712:/5AF0A927/5AF23CAD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1712:/5AF0A927/5AF23CAD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1713:/5AF0A927/5B0BF33E:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1713:/5AF0A927/5B0BF33E:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1714:/5AF0A927/5AF270B5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1714:/5AF0A927/5AF270B5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1715:/5AF0A927/5AF23CEC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1715:/5AF0A927/5AF23CEC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1716:/5AF0A927/5B0BF400:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1716:/5AF0A927/5B0BF400:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “Q1902:/5AFCA865/5B1A8769:dvk-mx8m-bsb:6-TSSOP”.
 
-Info: Checking netlist symbol footprint “C1718:/5AF0A927/5B038954:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1718:/5AF0A927/5B038954:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1719:/5AF0A927/5B02CA8D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1719:/5AF0A927/5B02CA8D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1720:/5AF0A927/5B02D9E9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1720:/5AF0A927/5B02D9E9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1721:/5AF0A927/5B02DAA8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1721:/5AF0A927/5B02DAA8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1801:/5AF3486B/5B337F04:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1801:/5AF3486B/5B337F04:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1802:/5AF3486B/5B337EF5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1802:/5AF3486B/5B337EF5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1803:/5AF3486B/5B337ED7:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1803:/5AF3486B/5B337ED7:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1804:/5AF3486B/5B337EE8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1804:/5AF3486B/5B337EE8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1805:/5AF3486B/5B2489E3:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1805:/5AF3486B/5B2489E3:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1806:/5AF3486B/5B2489D4:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1806:/5AF3486B/5B2489D4:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1807:/5AF3486B/5B2489B6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1807:/5AF3486B/5B2489B6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1808:/5AF3486B/5B2489C7:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1808:/5AF3486B/5B2489C7:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1809:/5AF3486B/5B1DE1DA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1809:/5AF3486B/5B1DE1DA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1810:/5AF3486B/5B1DE1E1:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1810:/5AF3486B/5B1DE1E1:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1811:/5AF3486B/5B36D6D1:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1811:/5AF3486B/5B36D6D1:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “R1720:/5AF0A927/5AF3938A:Resistor_SMD:R_0402_1005Metric”.
 
@@ -1042,199 +1042,199 @@ Info: Checking netlist symbol footprint “R804:/5ACE0382/5AD058A3:Resistor_SMD:
 
 Info: Checking netlist symbol footprint “R805:/5ACE0382/5AD0593B:Resistor_SMD:R_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C409:/5B0FA74B/5B203066:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C409:/5B0FA74B/5B203066:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C207:/5ACF2B88/5AECE8FB:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C207:/5ACF2B88/5AECE8FB:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1203:/5B120FA9/5B12DFA8/5B44F3CD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1203:/5B120FA9/5B12DFA8/5B44F3CD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C401:/5B0FA74B/5B2016D9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C401:/5B0FA74B/5B2016D9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C448:/5B0FA74B/5B331290:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C448:/5B0FA74B/5B331290:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C303:/5ABE5061/5ADFB737:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C303:/5ABE5061/5ADFB737:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C307:/5ABE5061/5B0BD3BE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C307:/5ABE5061/5B0BD3BE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C903:/5ADF72D2/5B112B02:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C903:/5ADF72D2/5B112B02:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C424:/5B0FA74B/5B20354E:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C424:/5B0FA74B/5B20354E:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C435:/5B0FA74B/5B203D44:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C435:/5B0FA74B/5B203D44:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C414:/5B0FA74B/5B203D1A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C414:/5B0FA74B/5B203D1A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C213:/5ACF2B88/5B0AE4C1:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C213:/5ACF2B88/5B0AE4C1:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C434:/5B0FA74B/5B40518B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C434:/5B0FA74B/5B40518B:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1202:/5B120FA9/5B12DFA8/5B32A2B5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1202:/5B120FA9/5B12DFA8/5B32A2B5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C208:/5ACF2B88/5AECE985:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C208:/5ACF2B88/5AECE985:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C459:/5B0FA74B/5B1A7173:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C459:/5B0FA74B/5B1A7173:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C413:/5B0FA74B/5B20314A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C413:/5B0FA74B/5B20314A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C907:/5ADF72D2/5B0FBA1F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C907:/5ADF72D2/5B0FBA1F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1001:/5AC9B567/5B0D22C2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1001:/5AC9B567/5B0D22C2:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C449:/5B0FA74B/5B2FDDC8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C449:/5B0FA74B/5B2FDDC8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1204:/5B120FA9/5B12DFA8/5B44F3C6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1204:/5B120FA9/5B12DFA8/5B44F3C6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C422:/5B0FA74B/5B20D5DE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C422:/5B0FA74B/5B20D5DE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C408:/5B0FA74B/5ACB617B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C408:/5B0FA74B/5ACB617B:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C314:/5ABE5061/5B326A44:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C314:/5ABE5061/5B326A44:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C445:/5B0FA74B/5B3311E4:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C445:/5B0FA74B/5B3311E4:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C415:/5B0FA74B/5B20D5D0:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C415:/5B0FA74B/5B20D5D0:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C908:/5ADF72D2/5AFD532B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C908:/5ADF72D2/5AFD532B:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Changing component path “C460:/5B0FA74B/5B1C4CAA” to “/5B0FA74B/5C85DFB3”.
 
-Info: Checking netlist symbol footprint “C206:/5ACF2B88/5ADED104:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C206:/5ACF2B88/5ADED104:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C214:/5ACF2B88/5AF3D4AD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C214:/5ACF2B88/5AF3D4AD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C404:/5B0FA74B/5B202F85:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C404:/5B0FA74B/5B202F85:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C436:/5B0FA74B/5B20D5FA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C436:/5B0FA74B/5B20D5FA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C308:/5ABE5061/5AE0040B:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C308:/5ABE5061/5AE0040B:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C902:/5ADF72D2/5B10DFD5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C902:/5ADF72D2/5B10DFD5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C446:/5B0FA74B/5B33397E:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C446:/5B0FA74B/5B33397E:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C423:/5B0FA74B/5AC8D0FC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C423:/5B0FA74B/5AC8D0FC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C460:/5B0FA74B/5C85DFB3:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C460:/5B0FA74B/5C85DFB3:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C913:/5ADF72D2/5B0B1467:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C913:/5ADF72D2/5B0B1467:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C447:/5B0FA74B/5B3FB4AF:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C447:/5B0FA74B/5B3FB4AF:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C403:/5B0FA74B/5B203D05:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C403:/5B0FA74B/5B203D05:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C210:/5ACF2B88/5AF01BEA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C210:/5ACF2B88/5AF01BEA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C427:/5B0FA74B/5AC89BD0:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C427:/5B0FA74B/5AC89BD0:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C410:/5B0FA74B/5B203D13:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C410:/5B0FA74B/5B203D13:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C305:/5ABE5061/5B0BB8A8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C305:/5ABE5061/5B0BB8A8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1002:/5AC9B567/5B3619B2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1002:/5AC9B567/5B3619B2:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C454:/5B0FA74B/5B300605:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Info: Checking netlist symbol footprint “C411:/5B0FA74B/5B20D5C9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C411:/5B0FA74B/5B20D5C9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C431:/5B0FA74B/5B20355C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C431:/5B0FA74B/5B20355C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C428:/5B0FA74B/5B203555:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C428:/5B0FA74B/5B203555:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C905:/5ADF72D2/5B16A93D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C905:/5ADF72D2/5B16A93D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C304:/5ABE5061/5ADFC6C1:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C304:/5ABE5061/5ADFC6C1:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C452:/5B0FA74B/5B30B322:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C452:/5B0FA74B/5B30B322:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1003:/5AC9B567/5B3619FD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1003:/5AC9B567/5B3619FD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C429:/5B0FA74B/5B203D36:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C429:/5B0FA74B/5B203D36:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C430:/5B0FA74B/5B20D5EC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C430:/5B0FA74B/5B20D5EC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C211:/5ACF2B88/5AF05DE3:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C211:/5ACF2B88/5AF05DE3:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C906:/5ADF72D2/5B16A9CA:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C906:/5ADF72D2/5B16A9CA:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C453:/5B0FA74B/5B4026A2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C453:/5B0FA74B/5B4026A2:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C412:/5B0FA74B/5ACFCFAF:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C412:/5B0FA74B/5ACFCFAF:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C402:/5B0FA74B/5B202EA7:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C402:/5B0FA74B/5B202EA7:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C425:/5B0FA74B/5B203D2F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C425:/5B0FA74B/5B203D2F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C904:/5ADF72D2/5B16AE2A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C904:/5ADF72D2/5B16AE2A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C306:/5ABE5061/5B0BBD65:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C306:/5ABE5061/5B0BBD65:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C450:/5B0FA74B/5B36C0DB:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C450:/5B0FA74B/5B36C0DB:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1201:/5B120FA9/5B12DFA8/5B44A018:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1201:/5B120FA9/5B12DFA8/5B44A018:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C458:/5B0FA74B/5ACDF173:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C458:/5B0FA74B/5ACDF173:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C209:/5ACF2B88/5AEFF93F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C209:/5ACF2B88/5AEFF93F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C433:/5B0FA74B/5B20D5F3:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C433:/5B0FA74B/5B20D5F3:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “AE1502:/5ACD5EDE/5B385C8C:dvk-mx8m-bsb:placeholder_WLAN+BT_antenna”.
 
-Info: Checking netlist symbol footprint “C457:/5B0FA74B/5B19DE3D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C457:/5B0FA74B/5B19DE3D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C451:/5B0FA74B/5B37E46F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C451:/5B0FA74B/5B37E46F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C212:/5ACF2B88/5AF075D9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C212:/5ACF2B88/5AF075D9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C456:/5B0FA74B/5B19DCF4:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C456:/5B0FA74B/5B19DCF4:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C432:/5B0FA74B/5B203D3D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C432:/5B0FA74B/5B203D3D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C426:/5B0FA74B/5B20D5E5:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C426:/5B0FA74B/5B20D5E5:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1004:/5AC9B567/5AE8CA13:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1004:/5AC9B567/5AE8CA13:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “C455:/5B0FA74B/5B32F2D7:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Info: Checking netlist symbol footprint “C201:/5ACF2B88/5B0AF555:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C201:/5ACF2B88/5B0AF555:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C601:/5AC56093/5AC5B61C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C601:/5AC56093/5AC5B61C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C312:/5ABE5061/5B326949:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C312:/5ABE5061/5B326949:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C106:/5B32E12A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C106:/5B32E12A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C301:/5ABE5061/5ADEA19F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C301:/5ABE5061/5ADEA19F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C107:/5BF074D9:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C107:/5BF074D9:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C440:/5B0FA74B/5B400BBE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C440:/5B0FA74B/5B400BBE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C108:/5BE7141F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C108:/5BE7141F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C420:/5B0FA74B/5B203547:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C420:/5B0FA74B/5B203547:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C407:/5B0FA74B/5B0BA13D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C407:/5B0FA74B/5B0BA13D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1208:/5B120FA9/5B12DFA8/5B452940:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1208:/5B120FA9/5B12DFA8/5B452940:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1207:/5B120FA9/5B12DFA8/5B452925:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1207:/5B120FA9/5B12DFA8/5B452925:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C911:/5ADF72D2/5B1078FE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C911:/5ADF72D2/5B1078FE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C501:/5ACBD81C/5B12B02A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C501:/5ACBD81C/5B12B02A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C417:/5B0FA74B/5B203540:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C417:/5B0FA74B/5B203540:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C202:/5ACF2B88/5AED1DB6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C202:/5ACF2B88/5AED1DB6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C310:/5ABE5061/5B1BC001:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C310:/5ABE5061/5B1BC001:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C439:/5B0FA74B/5B33381D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C439:/5B0FA74B/5B33381D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C909:/5ADF72D2/5AFD53BF:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C909:/5ADF72D2/5AFD53BF:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C502:/5ACBD81C/5B12AE9C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C502:/5ACBD81C/5B12AE9C:Capacitor_SMD:C_0402_1005Metric”.
 
 Info: Checking netlist symbol footprint “AE1801:/5AF3486B/5B37EF16:dvk-mx8m-bsb:placeholder_WLAN+BT_antenna”.
 
@@ -1244,73 +1244,73 @@ Info: Checking netlist symbol footprint “AE2301:/5B0D6F7B/5B123EED:dvk-mx8m-bs
 
 Info: Checking netlist symbol footprint “BT301:/5ABE5061/5ADAE7AB:dvk-mx8m-bsb:BH18650”.
 
-Info: Checking netlist symbol footprint “C101:/5B32D889:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C101:/5B32D889:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C910:/5ADF72D2/5B10B18C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C910:/5ADF72D2/5B10B18C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1209:/5B120FA9/5B12DFA8/5B452939:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1209:/5B120FA9/5B12DFA8/5B452939:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C102:/5B32DB63:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C102:/5B32DB63:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C441:/5B0FA74B/5B331083:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C441:/5B0FA74B/5B331083:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C302:/5ABE5061/5ADEA322:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C302:/5ABE5061/5ADEA322:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C406:/5B0FA74B/5B20D5C2:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C406:/5B0FA74B/5B20D5C2:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C103:/5B2FE16C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C103:/5B2FE16C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C419:/5B0FA74B/5B20D5D7:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C419:/5B0FA74B/5B20D5D7:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C311:/5ABE5061/5B3268DD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C311:/5ABE5061/5B3268DD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C104:/5B300417:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C104:/5B300417:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C418:/5B0FA74B/5B203D21:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C418:/5B0FA74B/5B203D21:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C105:/5B32DE4A:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C105:/5B32DE4A:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C216:/5ACF2B88/5AF9B88F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C216:/5ACF2B88/5AF9B88F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C442:/5B0FA74B/5B331135:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C442:/5B0FA74B/5B331135:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C309:/5ABE5061/5AE01FE0:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C309:/5ABE5061/5AE01FE0:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C421:/5B0FA74B/5B203D28:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C421:/5B0FA74B/5B203D28:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C416:/5B0FA74B/5B1860BC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C416:/5B0FA74B/5B1860BC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C461:/5B0FA74B/5B1A5C1F:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C461:/5B0FA74B/5B1A5C1F:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C205:/5ACF2B88/5ADED0FD:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C205:/5ACF2B88/5ADED0FD:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C444:/5B0FA74B/5B3338D8:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C444:/5B0FA74B/5B3338D8:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C215:/5ACF2B88/5AF3CD28:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C215:/5ACF2B88/5AF3CD28:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C901:/5ADF72D2/5B10E037:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C901:/5ADF72D2/5B10E037:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1206:/5B120FA9/5B12DFA8/5B3FFDB6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1206:/5B120FA9/5B12DFA8/5B3FFDB6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C204:/5ACF2B88/5ADED0EE:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C204:/5ACF2B88/5ADED0EE:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C1205:/5B120FA9/5B12DFA8/5B44F3BF:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1205:/5B120FA9/5B12DFA8/5B44F3BF:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C912:/5ADF72D2/5B09BA78:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C912:/5ADF72D2/5B09BA78:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C443:/5B0FA74B/5B37D653:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C443:/5B0FA74B/5B37D653:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C313:/5ABE5061/5B3269CC:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C313:/5ABE5061/5B3269CC:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C405:/5B0FA74B/5B203D0C:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C405:/5B0FA74B/5B203D0C:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C438:/5B0FA74B/5B20D601:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C438:/5B0FA74B/5B20D601:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C437:/5B0FA74B/5B33377D:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C437:/5B0FA74B/5B33377D:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C203:/5ACF2B88/5ADED0F6:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C203:/5ACF2B88/5ADED0F6:Capacitor_SMD:C_0402_1005Metric”.
 
-Info: Checking netlist symbol footprint “C701:/5ACD5BC1/5ACD7D29:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C701:/5ACD5BC1/5ACD7D29:Capacitor_SMD:C_0402_1005Metric”.
 
 Replacing symbol “R519:/5ACBD81C/5B309B9F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
@@ -1348,7 +1348,7 @@ Changing footprint “R517:/5ACBD81C/5B3096EC” pad “1” net name from “�
 
 Replacing symbol “R518:/5ACBD81C/5B309B05” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C404:/5B0FA74B/5B202F85” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C404:/5B0FA74B/5B202F85” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Replacing symbol “R602:/5AC56093/5AC5AF1B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
@@ -1384,7 +1384,7 @@ Changing footprint “R701:/5ACD5BC1/5ACD6464” pad “1” net name from “�
 
 Changing footprint “C405:/5B0FA74B/5B203D0C” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C405:/5B0FA74B/5B203D0C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C405:/5B0FA74B/5B203D0C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R521:/5ACBD81C/5B309CCE” pad “1” net name from “” to “GND”.
 
@@ -1408,7 +1408,7 @@ Changing footprint “R1002:/5AC9B567/5B32045F” pad “2” net name from “�
 
 Replacing symbol “R1002:/5AC9B567/5B32045F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C313:/5ABE5061/5B3269CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C313:/5ABE5061/5B3269CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1001:/5AC9B567/5B0D207F” pad “1” net name from “” to “/uSD Card/CONN_SD2_CLK”.
 
@@ -1438,7 +1438,7 @@ Changing footprint “R908:/5ADF72D2/5B07DA80” pad “1” net name from “�
 
 Replacing symbol “R908:/5ADF72D2/5B07DA80” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C314:/5ABE5061/5B326A44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C314:/5ABE5061/5B326A44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R907:/5ADF72D2/5B07D9A0” pad “1” net name from “” to “Net-(R907-Pad1)”.
 
@@ -1468,7 +1468,7 @@ Changing footprint “R907:/5ADF72D2/5B07D9A0” pad “2” net name from “�
 
 Replacing symbol “R1102:/5B120FA9/5B180428” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C312:/5ABE5061/5B326949” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C312:/5ABE5061/5B326949” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1101:/5B120FA9/5B18041B” pad “1” net name from “” to “1V8_P”.
 
@@ -1498,7 +1498,7 @@ Changing footprint “R807:/5ACE0382/5AD0530D” pad “2” net name from “�
 
 Replacing symbol “R807:/5ACE0382/5AD0530D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C402:/5B0FA74B/5B202EA7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C402:/5B0FA74B/5B202EA7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R806:/5ACE0382/5AD052F0” pad “2” net name from “” to “GND”.
 
@@ -1528,7 +1528,7 @@ Changing footprint “R803:/5ACE0382/5B31E00F” pad “1” net name from “�
 
 Replacing symbol “R803:/5ACE0382/5B31E00F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C403:/5B0FA74B/5B203D05” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C403:/5B0FA74B/5B203D05” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R802:/5ACE0382/5B31E0A4” pad “1” net name from “” to “3V3_OUT”.
 
@@ -1558,7 +1558,7 @@ Changing footprint “R802:/5ACE0382/5B31E0A4” pad “2” net name from “�
 
 Replacing symbol “R904:/5ADF72D2/5B101B57” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C401:/5B0FA74B/5B2016D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C401:/5B0FA74B/5B2016D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R903:/5ADF72D2/5B16A0C3” pad “2” net name from “” to “Net-(C906-Pad1)”.
 
@@ -1586,7 +1586,7 @@ Changing footprint “R402:/5B0FA74B/5B1B6D12” pad “2” net name from “�
 
 Replacing symbol “R402:/5B0FA74B/5B1B6D12” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C414:/5B0FA74B/5B203D1A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C414:/5B0FA74B/5B203D1A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R401:/5B0FA74B/5AC8ED7F” pad “2” net name from “” to “VBAT_REG”.
 
@@ -1616,7 +1616,7 @@ Changing footprint “R308:/5ABE5061/5AE3641A” pad “2” net name from “�
 
 Replacing symbol “R308:/5ABE5061/5AE3641A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C415:/5B0FA74B/5B20D5D0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C415:/5B0FA74B/5B20D5D0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R307:/5ABE5061/5AE36487” pad “2” net name from “” to “GND”.
 
@@ -1650,7 +1650,7 @@ Changing footprint “R406:/5B0FA74B/5AC894B5” pad “1” net name from “�
 
 Changing footprint “C415:/5B0FA74B/5B20D5D0” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C413:/5B0FA74B/5B20314A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C413:/5B0FA74B/5B20314A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R405:/5B0FA74B/5AC89C89” pad “2” net name from “” to “Net-(C427-Pad1)”.
 
@@ -1676,7 +1676,7 @@ Changing footprint “R226:/5ACF2B88/5AF9C7FE” pad “1” net name from “�
 
 Replacing symbol “R226:/5ACF2B88/5AF9C7FE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C417:/5B0FA74B/5B203540” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C417:/5B0FA74B/5B203540” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R225:/5ACF2B88/5AF4CEE1” pad “2” net name from “” to “GND”.
 
@@ -1706,7 +1706,7 @@ Changing footprint “R222:/5ACF2B88/5AF4F4C0” pad “1” net name from “�
 
 Replacing symbol “R222:/5ACF2B88/5AF4F4C0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C418:/5B0FA74B/5B203D21” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C418:/5B0FA74B/5B203D21” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R221:/5ACF2B88/5AF53777” pad “2” net name from “” to “/USB-C/USB1_VBUS”.
 
@@ -1738,7 +1738,7 @@ Changing footprint “R304:/5ABE5061/5B2F65C3” pad “2” net name from “�
 
 Replacing symbol “R304:/5ABE5061/5B2F65C3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C416:/5B0FA74B/5B1860BC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C416:/5B0FA74B/5B1860BC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R409:/5B0FA74B/5ACFAD14” pad “2” net name from “” to “Net-(R409-Pad2)”.
 
@@ -1778,7 +1778,7 @@ Changing footprint “R507:/5ACBD81C/5ACC15C6” pad “1” net name from “�
 
 Replacing symbol “R507:/5ACBD81C/5ACC15C6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C408:/5B0FA74B/5ACB617B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C408:/5B0FA74B/5ACB617B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R506:/5ACBD81C/5B305574” pad “2” net name from “” to “GND”.
 
@@ -1808,11 +1808,11 @@ Changing footprint “R503:/5ACBD81C/5B305401” pad “2” net name from “�
 
 Replacing symbol “R503:/5ACBD81C/5B305401” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C409:/5B0FA74B/5B203066” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C409:/5B0FA74B/5B203066” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Replacing symbol “R512:/5ACBD81C/5B30B2F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C406:/5B0FA74B/5B20D5C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C406:/5B0FA74B/5B20D5C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R514:/5ACBD81C/5B307AAD” pad “1” net name from “” to “GND”.
 
@@ -1842,7 +1842,7 @@ Changing footprint “R511:/5ACBD81C/5B30BB41” pad “1” net name from “�
 
 Replacing symbol “R511:/5ACBD81C/5B30BB41” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C407:/5B0FA74B/5B0BA13D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C407:/5B0FA74B/5B0BA13D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R510:/5ACBD81C/5B3075F3” pad “2” net name from “” to “/SAI1_RXD1(GPIO4_IO03)”.
 
@@ -1868,7 +1868,7 @@ Changing footprint “R414:/5B0FA74B/5B24CEF2” pad “2” net name from “�
 
 Replacing symbol “R414:/5B0FA74B/5B24CEF2” footprint “Resistors_SMD:R_1206” with “Resistor_SMD:R_1206_3216Metric”.
 
-Replacing symbol “C411:/5B0FA74B/5B20D5C9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C411:/5B0FA74B/5B20D5C9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R413:/5B0FA74B/5B24C59F” pad “2” net name from “” to “5V_SOM”.
 
@@ -1898,7 +1898,7 @@ Changing footprint “R410:/5B0FA74B/5ACFAE7B” pad “1” net name from “�
 
 Replacing symbol “R410:/5B0FA74B/5ACFAE7B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C412:/5B0FA74B/5ACFCFAF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C412:/5B0FA74B/5ACFCFAF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R409:/5B0FA74B/5ACFAD14” pad “1” net name from “” to “5V_SOM”.
 
@@ -1930,7 +1930,7 @@ Replacing symbol “R515:/5ACBD81C/5B3095E1” footprint “Resistors_SMD:R_0603
 
 Replacing symbol “R418:/5B0FA74B/5B1A5A2A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C410:/5B0FA74B/5B203D13” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C410:/5B0FA74B/5B203D13” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R417:/5B0FA74B/5B1A53A5” pad “1” net name from “” to “22V4”.
 
@@ -1962,7 +1962,7 @@ Changing footprint “R1903:/5AFCA865/5B0141CF” pad “1” net name from “�
 
 Replacing symbol “R1903:/5AFCA865/5B0141CF” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C210:/5ACF2B88/5AF01BEA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C210:/5ACF2B88/5AF01BEA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1902:/5AFCA865/5B019D42” pad “1” net name from “” to “/HDMI/HDMI_TX2_P”.
 
@@ -1992,13 +1992,13 @@ Changing footprint “R1806:/5AF3486B/5B32B217” pad “2” net name from “�
 
 Replacing symbol “R1806:/5AF3486B/5B32B217” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C211:/5ACF2B88/5AF05DE3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C211:/5ACF2B88/5AF05DE3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1805:/5AF3486B/5AF51A2E” pad “2” net name from “” to “Net-(D1803-Pad2)”.
 
 Replacing symbol “R1908:/5AFCA865/5B019D60” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C208:/5ACF2B88/5AECE985” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C208:/5ACF2B88/5AECE985” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1910:/5AFCA865/5AFB7819” pad “2” net name from “” to “/HDMI_DDC_SDA”.
 
@@ -2028,7 +2028,7 @@ Changing footprint “R1907:/5AFCA865/5B01449E” pad “1” net name from “�
 
 Replacing symbol “R1907:/5AFCA865/5B01449E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C209:/5ACF2B88/5AEFF93F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C209:/5ACF2B88/5AEFF93F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1906:/5AFCA865/5B019D5A” pad “1” net name from “” to “/HDMI/HDMI_TX1_P”.
 
@@ -2052,7 +2052,7 @@ Changing footprint “R1723:/5AF0A927/5B012960” pad “2” net name from “�
 
 Replacing symbol “R1723:/5AF0A927/5B012960” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C213:/5ACF2B88/5B0AE4C1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C213:/5ACF2B88/5B0AE4C1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1722:/5AF0A927/5AF1A694” pad “2” net name from “” to “Net-(R1722-Pad2)”.
 
@@ -2082,7 +2082,7 @@ Changing footprint “R1719:/5AF0A927/5AF37E4E” pad “1” net name from “�
 
 Replacing symbol “R1719:/5AF0A927/5AF37E4E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C214:/5ACF2B88/5AF3D4AD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C214:/5ACF2B88/5AF3D4AD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1718:/5AF0A927/5B348B8D” pad “1” net name from “” to “/ENET_2V5”.
 
@@ -2118,7 +2118,7 @@ Changing footprint “R1802:/5AF3486B/5B251402” pad “1” net name from “�
 
 Replacing symbol “R1911:/5AFCA865/5AFB7942” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C212:/5ACF2B88/5AF075D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C212:/5ACF2B88/5AF075D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1801:/5AF3486B/5B3298C6” pad “1” net name from “” to “1V8_P”.
 
@@ -2142,7 +2142,7 @@ Changing footprint “R1724:/5AF0A927/5B012A73” pad “1” net name from “�
 
 Changing footprint “C203:/5ACF2B88/5ADED0F6” pad “1” net name from “” to “GND”.
 
-Replacing symbol “C201:/5ACF2B88/5B0AF555” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C201:/5ACF2B88/5B0AF555” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C201:/5ACF2B88/5B0AF555” pad “2” net name from “” to “GND”.
 
@@ -2154,19 +2154,19 @@ Changing footprint “TH301:/5ABE5061/5AE369F4” pad “2” net name from “�
 
 Replacing symbol “TH301:/5ABE5061/5AE369F4” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C202:/5ACF2B88/5AED1DB6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C202:/5ACF2B88/5AED1DB6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C202:/5ACF2B88/5AED1DB6” pad “1” net name from “” to “1V8_P”.
 
 Changing footprint “C202:/5ACF2B88/5AED1DB6” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C203:/5ACF2B88/5ADED0F6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C203:/5ACF2B88/5ADED0F6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C203:/5ACF2B88/5ADED0F6” pad “2” net name from “” to “VBUS”.
 
 Changing footprint “C108:/5BE7141F” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C204:/5ACF2B88/5ADED0EE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C204:/5ACF2B88/5ADED0EE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R2402:/5AFCB56A/5AFFD30C” pad “2” net name from “” to “/HAPTIC”.
 
@@ -2190,49 +2190,49 @@ Changing footprint “R2301:/5B0D6F7B/5B103CA5” pad “2” net name from “�
 
 Changing footprint “C104:/5B300417” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “C101:/5B32D889” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C101:/5B32D889” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C101:/5B32D889” pad “1” net name from “” to “5V_SOM”.
 
 Changing footprint “C101:/5B32D889” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C102:/5B32DB63” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C102:/5B32DB63” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C102:/5B32DB63” pad “2” net name from “” to “GND”.
 
 Changing footprint “C102:/5B32DB63” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “C103:/5B2FE16C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C103:/5B2FE16C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C103:/5B2FE16C” pad “2” net name from “” to “GND”.
 
 Changing footprint “C103:/5B2FE16C” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “C104:/5B300417” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C104:/5B300417” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C104:/5B300417” pad “2” net name from “” to “GND”.
 
 Replacing symbol “R2301:/5B0D6F7B/5B103CA5” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C105:/5B32DE4A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C105:/5B32DE4A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C105:/5B32DE4A” pad “1” net name from “” to “5V_SOM”.
 
 Changing footprint “C105:/5B32DE4A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C106:/5B32E12A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C106:/5B32E12A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C106:/5B32E12A” pad “2” net name from “” to “GND”.
 
 Changing footprint “C106:/5B32E12A” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “C107:/5BF074D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C107:/5BF074D9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C107:/5BF074D9” pad “2” net name from “” to “GND”.
 
 Changing footprint “C107:/5BF074D9” pad “1” net name from “” to “3V3_OUT”.
 
-Replacing symbol “C108:/5BE7141F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C108:/5BE7141F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C108:/5BE7141F” pad “1” net name from “” to “/ENET_2V5”.
 
@@ -2256,7 +2256,7 @@ Changing footprint “R2001:/5B05878C/5B125D55” pad “2” net name from “�
 
 Replacing symbol “R2001:/5B05878C/5B125D55” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C207:/5ACF2B88/5AECE8FB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C207:/5ACF2B88/5AECE8FB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1914:/5AFCA865/5AF6BA49” pad “2” net name from “” to “Net-(C1905-Pad1)”.
 
@@ -2292,7 +2292,7 @@ Changing footprint “R2203:/5B1815F4/5B1F2AD0” pad “2” net name from “�
 
 Replacing symbol “R2203:/5B1815F4/5B1F2AD0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C205:/5ACF2B88/5ADED0FD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C205:/5ACF2B88/5ADED0FD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R2202:/5B1815F4/5B1F2A2C” pad “2” net name from “” to “Net-(J2201-PadC2)”.
 
@@ -2322,7 +2322,7 @@ Changing footprint “R2103:/5B0A785D/5AFBA0EE” pad “1” net name from “�
 
 Replacing symbol “R2103:/5B0A785D/5AFBA0EE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C206:/5ACF2B88/5ADED104” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C206:/5ACF2B88/5ADED104” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R2102:/5B0A785D/5AFB92E3” pad “2” net name from “” to “Net-(R2102-Pad2)”.
 
@@ -2352,7 +2352,7 @@ Changing footprint “R1502:/5ACD5EDE/5B256C75” pad “1” net name from “�
 
 Replacing symbol “R1502:/5ACD5EDE/5B256C75” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C307:/5ABE5061/5B0BD3BE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C307:/5ABE5061/5B0BD3BE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1501:/5ACD5EDE/5B256C5B” pad “1” net name from “” to “1V8_P”.
 
@@ -2388,7 +2388,7 @@ Changing footprint “R1510:/5ACD5EDE/5B2C73A3” pad “2” net name from “�
 
 Replacing symbol “R1510:/5ACD5EDE/5B2C73A3” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C305:/5ABE5061/5B0BB8A8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C305:/5ABE5061/5B0BB8A8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1509:/5ACD5EDE/5B30C2FF” pad “2” net name from “” to “Net-(D1502-Pad2)”.
 
@@ -2418,7 +2418,7 @@ Changing footprint “R1506:/5ACD5EDE/5ADA90CD” pad “1” net name from “�
 
 Replacing symbol “R1506:/5ACD5EDE/5ADA90CD” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C306:/5ABE5061/5B0BBD65” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C306:/5ABE5061/5B0BBD65” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1505:/5ACD5EDE/5B33E226” pad “2” net name from “” to “Net-(Q1502-Pad1)”.
 
@@ -2442,7 +2442,7 @@ Changing footprint “R1401:/5ACBE3AE/5B078851” pad “2” net name from “�
 
 Replacing symbol “R1401:/5ACBE3AE/5B078851” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C310:/5ABE5061/5B1BC001” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C310:/5ABE5061/5B1BC001” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1302:/5B120FA9/5B12DFE7/5B1E9C00” pad “2” net name from “” to “Net-(D1301-Pad1)”.
 
@@ -2472,13 +2472,13 @@ Changing footprint “R1204:/5B120FA9/5B12DFA8/5B3236A9” pad “1” net name 
 
 Replacing symbol “R1204:/5B120FA9/5B12DFA8/5B3236A9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C311:/5ABE5061/5B3268DD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C311:/5ABE5061/5B3268DD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1203:/5B120FA9/5B12DFA8/5B32362A” pad “1” net name from “” to “3V3_P”.
 
 Replacing symbol “R1406:/5ACBE3AE/5B3258BE” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C308:/5ABE5061/5AE0040B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C308:/5ABE5061/5AE0040B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1408:/5ACBE3AE/5B1DBBDC” pad “2” net name from “” to “/ONOFF”.
 
@@ -2508,7 +2508,7 @@ Changing footprint “R1405:/5ACBE3AE/5B32596C” pad “2” net name from “�
 
 Replacing symbol “R1405:/5ACBE3AE/5B32596C” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C309:/5ABE5061/5AE01FE0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C309:/5ABE5061/5AE01FE0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1404:/5ACBE3AE/5B07894D” pad “2” net name from “” to “GND”.
 
@@ -2526,7 +2526,7 @@ Replacing symbol “R1403:/5ACBE3AE/5B0789B5” footprint “Resistors_SMD:R_060
 
 Replacing symbol “R1708:/5AF0A927/5B34B06F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C216:/5ACF2B88/5AF9B88F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C216:/5ACF2B88/5AF9B88F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1710:/5AF0A927/5B34B1FE” pad “1” net name from “” to “GND”.
 
@@ -2556,7 +2556,7 @@ Changing footprint “R1707:/5AF0A927/5B34AFB0” pad “1” net name from “�
 
 Replacing symbol “R1707:/5AF0A927/5B34AFB0” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C301:/5ABE5061/5ADEA19F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C301:/5ABE5061/5ADEA19F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1706:/5AF0A927/5B34AEF4” pad “1” net name from “” to “GND”.
 
@@ -2592,7 +2592,7 @@ Changing footprint “R1715:/5AF0A927/5AF1A84A” pad “2” net name from “�
 
 Replacing symbol “R1715:/5AF0A927/5AF1A84A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C215:/5ACF2B88/5AF3CD28” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C215:/5ACF2B88/5AF3CD28” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1714:/5AF0A927/5B348865” pad “1” net name from “” to “3V3_P”.
 
@@ -2646,7 +2646,7 @@ Changing footprint “R1603:/5ABE7AA4/5ABEFC7B” pad “2” net name from “�
 
 Changing footprint “R1606:/5ABE7AA4/5ABF53C8” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C304:/5ABE5061/5ADFC6C1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C304:/5ABE5061/5ADFC6C1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1602:/5ABE7AA4/5B4E9C2D” pad “1” net name from “” to “/MUTE”.
 
@@ -2682,7 +2682,7 @@ Changing footprint “R1703:/5AF0A927/5B34A0D6” pad “2” net name from “�
 
 Replacing symbol “R1703:/5AF0A927/5B34A0D6” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C302:/5ABE5061/5ADEA322” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C302:/5ABE5061/5ADEA322” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1702:/5AF0A927/5AFC8685” pad “1” net name from “” to “/Ethernet/ENET_RD0”.
 
@@ -2712,7 +2712,7 @@ Changing footprint “R1607:/5ABE7AA4/5AC7B464” pad “1” net name from “�
 
 Replacing symbol “R1607:/5ABE7AA4/5AC7B464” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C303:/5ABE5061/5ADFB737” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C303:/5ABE5061/5ADFB737” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R1606:/5ABE7AA4/5ABF53C8” pad “1” net name from “” to “Net-(C1610-Pad2)”.
 
@@ -2720,15 +2720,15 @@ Changing footprint “C1703:/5AF0A927/5AF2DBDB” pad “2” net name from “�
 
 Changing footprint “C1706:/5AF0A927/5AF2D8CC” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1706:/5AF0A927/5AF2D8CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1706:/5AF0A927/5AF2D8CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C909:/5ADF72D2/5AFD53BF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C909:/5ADF72D2/5AFD53BF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1705:/5AF0A927/5AF2DBE2” pad “1” net name from “” to “Net-(C1703-Pad1)”.
 
 Changing footprint “C1705:/5AF0A927/5AF2DBE2” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1705:/5AF0A927/5AF2DBE2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1705:/5AF0A927/5AF2DBE2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C909:/5ADF72D2/5AFD53BF” pad “2” net name from “” to “Net-(C909-Pad2)”.
 
@@ -2736,7 +2736,7 @@ Changing footprint “C1704:/5AF0A927/5B0BF7A6” pad “2” net name from “�
 
 Changing footprint “C1704:/5AF0A927/5B0BF7A6” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1704:/5AF0A927/5B0BF7A6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1704:/5AF0A927/5B0BF7A6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C909:/5ADF72D2/5AFD53BF” pad “1” net name from “” to “GND”.
 
@@ -2744,27 +2744,27 @@ Changing footprint “C1706:/5AF0A927/5AF2D8CC” pad “2” net name from “�
 
 Changing footprint “C1703:/5AF0A927/5AF2DBDB” pad “1” net name from “” to “Net-(C1703-Pad1)”.
 
-Replacing symbol “C1703:/5AF0A927/5AF2DBDB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1703:/5AF0A927/5AF2DBDB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1702:/5AF0A927/5AF1C13E” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1702:/5AF0A927/5AF1C13E” pad “1” net name from “” to “Net-(C1702-Pad1)”.
 
-Replacing symbol “C1702:/5AF0A927/5AF1C13E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1702:/5AF0A927/5AF1C13E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C910:/5ADF72D2/5B10B18C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C910:/5ADF72D2/5B10B18C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1701:/5AF0A927/5AF1C053” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1701:/5AF0A927/5AF1C053” pad “1” net name from “” to “Net-(C1701-Pad1)”.
 
-Replacing symbol “C1701:/5AF0A927/5AF1C053” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1701:/5AF0A927/5AF1C053” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C910:/5ADF72D2/5B10B18C” pad “1” net name from “” to “Net-(C910-Pad1)”.
 
 Changing footprint “C1625:/5ABE7AA4/5AF9EA3B” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C908:/5ADF72D2/5AFD532B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C908:/5ADF72D2/5AFD532B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C907:/5ADF72D2/5B0FBA1F” pad “1” net name from “” to “/SD2_~RST”.
 
@@ -2772,7 +2772,7 @@ Changing footprint “C1712:/5AF0A927/5AF23CAD” pad “1” net name from “�
 
 Changing footprint “C1712:/5AF0A927/5AF23CAD” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1712:/5AF0A927/5AF23CAD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1712:/5AF0A927/5AF23CAD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C907:/5ADF72D2/5B0FBA1F” pad “2” net name from “” to “GND”.
 
@@ -2780,13 +2780,13 @@ Changing footprint “C1711:/5AF0A927/5AF27077” pad “1” net name from “�
 
 Changing footprint “C1711:/5AF0A927/5AF27077” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1711:/5AF0A927/5AF27077” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1711:/5AF0A927/5AF27077” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1710:/5AF0A927/5AF331AA” pad “1” net name from “” to “/ENET_2V5”.
 
 Changing footprint “C1710:/5AF0A927/5AF331AA” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1710:/5AF0A927/5AF331AA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1710:/5AF0A927/5AF331AA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1625:/5ABE7AA4/5AF9EA3B” pad “2” net name from “” to “GND”.
 
@@ -2794,7 +2794,7 @@ Changing footprint “C1709:/5AF0A927/5AF23C6C” pad “2” net name from “�
 
 Changing footprint “C1709:/5AF0A927/5AF23C6C” pad “1” net name from “” to “/Ethernet/LED_ACT”.
 
-Replacing symbol “C1709:/5AF0A927/5AF23C6C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1709:/5AF0A927/5AF23C6C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C908:/5ADF72D2/5AFD532B” pad “1” net name from “” to “GND”.
 
@@ -2802,7 +2802,7 @@ Changing footprint “C1708:/5AF0A927/5AF3312A” pad “1” net name from “�
 
 Changing footprint “C1708:/5AF0A927/5AF3312A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1708:/5AF0A927/5AF3312A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1708:/5AF0A927/5AF3312A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C908:/5ADF72D2/5AFD532B” pad “2” net name from “” to “Net-(C908-Pad2)”.
 
@@ -2810,7 +2810,7 @@ Changing footprint “C1707:/5AF0A927/5AF330CC” pad “2” net name from “�
 
 Changing footprint “C1707:/5AF0A927/5AF330CC” pad “1” net name from “” to “/ENET_2V5”.
 
-Replacing symbol “C1707:/5AF0A927/5AF330CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1707:/5AF0A927/5AF330CC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1615:/5ABE7AA4/5ABF53BC” pad “2” net name from “” to “Net-(C1615-Pad2)”.
 
@@ -2818,7 +2818,7 @@ Changing footprint “C1618:/5ABE7AA4/5ABF53C2” pad “1” net name from “�
 
 Changing footprint “C1618:/5ABE7AA4/5ABF53C2” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1618:/5ABE7AA4/5ABF53C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1618:/5ABE7AA4/5ABF53C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C912:/5ADF72D2/5B09BA78” pad “1” net name from “” to “/uSD Card/CONN_SD2_CD_B”.
 
@@ -2826,7 +2826,7 @@ Changing footprint “C1617:/5ABE7AA4/5AFC38D8” pad “2” net name from “�
 
 Changing footprint “C1617:/5ABE7AA4/5AFC38D8” pad “1” net name from “” to “Net-(C1617-Pad1)”.
 
-Replacing symbol “C1617:/5ABE7AA4/5AFC38D8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1617:/5ABE7AA4/5AFC38D8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C912:/5ADF72D2/5B09BA78” pad “2” net name from “” to “Net-(C912-Pad2)”.
 
@@ -2834,21 +2834,21 @@ Changing footprint “C1616:/5ABE7AA4/5AFC383A” pad “1” net name from “�
 
 Changing footprint “C1616:/5ABE7AA4/5AFC383A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1616:/5ABE7AA4/5AFC383A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1616:/5ABE7AA4/5AFC383A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C912:/5ADF72D2/5B09BA78” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C912:/5ADF72D2/5B09BA78” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1615:/5ABE7AA4/5ABF53BC” pad “1” net name from “” to “Net-(C1610-Pad2)”.
 
-Replacing symbol “C1615:/5ABE7AA4/5ABF53BC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1615:/5ABE7AA4/5ABF53BC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C913:/5ADF72D2/5B0B1467” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C913:/5ADF72D2/5B0B1467” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1614:/5ABE7AA4/5ABF490A” pad “1” net name from “” to “Net-(C1609-Pad2)”.
 
 Changing footprint “C1614:/5ABE7AA4/5ABF490A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1614:/5ABE7AA4/5ABF490A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1614:/5ABE7AA4/5ABF490A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C913:/5ADF72D2/5B0B1467” pad “2” net name from “” to “GND”.
 
@@ -2856,13 +2856,13 @@ Changing footprint “C1613:/5ABE7AA4/5B018F2A” pad “1” net name from “�
 
 Changing footprint “C1613:/5ABE7AA4/5B018F2A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1613:/5ABE7AA4/5B018F2A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1613:/5ABE7AA4/5B018F2A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C913:/5ADF72D2/5B0B1467” pad “1” net name from “” to “/USB Hub + SDIO Bridge/RDRV5”.
 
-Replacing symbol “C1622:/5ABE7AA4/5AC79EEC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1622:/5ABE7AA4/5AC79EEC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1625:/5ABE7AA4/5AF9EA3B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1625:/5ABE7AA4/5AF9EA3B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C910:/5ADF72D2/5B10B18C” pad “2” net name from “” to “GND”.
 
@@ -2870,21 +2870,21 @@ Changing footprint “C1624:/5ABE7AA4/5ABF2943” pad “2” net name from “�
 
 Changing footprint “C1624:/5ABE7AA4/5ABF2943” pad “1” net name from “” to “Net-(C1624-Pad1)”.
 
-Replacing symbol “C1624:/5ABE7AA4/5ABF2943” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1624:/5ABE7AA4/5ABF2943” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1623:/5ABE7AA4/5AF9F523” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1623:/5ABE7AA4/5AF9F523” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1623:/5ABE7AA4/5AF9F523” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1623:/5ABE7AA4/5AF9F523” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C911:/5ADF72D2/5B1078FE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C911:/5ADF72D2/5B1078FE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1622:/5ABE7AA4/5AC79EEC” pad “1” net name from “” to “Net-(C1622-Pad1)”.
 
 Changing footprint “C1622:/5ABE7AA4/5AC79EEC” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1713:/5AF0A927/5B0BF33E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1713:/5AF0A927/5B0BF33E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C911:/5ADF72D2/5B1078FE” pad “2” net name from “” to “GND”.
 
@@ -2892,7 +2892,7 @@ Changing footprint “C1621:/5ABE7AA4/5ABF2987” pad “1” net name from “�
 
 Changing footprint “C1621:/5ABE7AA4/5ABF2987” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1621:/5ABE7AA4/5ABF2987” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1621:/5ABE7AA4/5ABF2987” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C911:/5ADF72D2/5B1078FE” pad “1” net name from “” to “/USB Hub + SDIO Bridge/HV33”.
 
@@ -2900,13 +2900,13 @@ Changing footprint “C1620:/5ABE7AA4/5AC7B848” pad “2” net name from “�
 
 Changing footprint “C1620:/5ABE7AA4/5AC7B848” pad “1” net name from “” to “/Audio/MIC_IN”.
 
-Replacing symbol “C1620:/5ABE7AA4/5AC7B848” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1620:/5ABE7AA4/5AC7B848” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1619:/5ABE7AA4/5AC7BC8A” pad “1” net name from “” to “/Audio/MIC_BIAS”.
 
 Changing footprint “C1619:/5ABE7AA4/5AC7BC8A” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1619:/5ABE7AA4/5AC7BC8A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1619:/5ABE7AA4/5AC7BC8A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C903:/5ADF72D2/5B112B02” pad “2” net name from “” to “GND”.
 
@@ -2916,29 +2916,29 @@ Changing footprint “C1810:/5AF3486B/5B1DE1E1” pad “1” net name from “�
 
 Changing footprint “C1810:/5AF3486B/5B1DE1E1” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1810:/5AF3486B/5B1DE1E1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1810:/5AF3486B/5B1DE1E1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1809:/5AF3486B/5B1DE1DA” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1809:/5AF3486B/5B1DE1DA” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1809:/5AF3486B/5B1DE1DA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1809:/5AF3486B/5B1DE1DA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C903:/5ADF72D2/5B112B02” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C903:/5ADF72D2/5B112B02” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1808:/5AF3486B/5B2489C7” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1808:/5AF3486B/5B2489C7” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1808:/5AF3486B/5B2489C7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1808:/5AF3486B/5B2489C7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1811:/5AF3486B/5B36D6D1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1811:/5AF3486B/5B36D6D1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1807:/5AF3486B/5B2489B6” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C1807:/5AF3486B/5B2489B6” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1807:/5AF3486B/5B2489B6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1807:/5AF3486B/5B2489B6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C903:/5ADF72D2/5B112B02” pad “1” net name from “” to “/USB Hub + SDIO Bridge/RDRV33”.
 
@@ -2946,27 +2946,27 @@ Changing footprint “C1806:/5AF3486B/5B2489D4” pad “1” net name from “�
 
 Changing footprint “C1806:/5AF3486B/5B2489D4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1806:/5AF3486B/5B2489D4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1806:/5AF3486B/5B2489D4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1805:/5AF3486B/5B2489E3” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1805:/5AF3486B/5B2489E3” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C1805:/5AF3486B/5B2489E3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1805:/5AF3486B/5B2489E3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C904:/5ADF72D2/5B16AE2A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C904:/5ADF72D2/5B16AE2A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1814:/5AF3486B/5B1DE1FC” pad “1” net name from “” to “3V3_P”.
 
 Replacing symbol “C1817:/5AF3486B/5B300A38” footprint “Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow” with “Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Replacing symbol “C901:/5ADF72D2/5B10E037” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C901:/5ADF72D2/5B10E037” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1816:/5AF3486B/5B1DE203” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C1816:/5AF3486B/5B1DE203” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1816:/5AF3486B/5B1DE203” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1816:/5AF3486B/5B1DE203” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C901:/5ADF72D2/5B10E037” pad “1” net name from “” to “3V3_SD”.
 
@@ -2974,7 +2974,7 @@ Changing footprint “C1815:/5AF3486B/5B0D6F86” pad “2” net name from “�
 
 Changing footprint “C1815:/5AF3486B/5B0D6F86” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1815:/5AF3486B/5B0D6F86” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1815:/5AF3486B/5B0D6F86” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C901:/5ADF72D2/5B10E037” pad “2” net name from “” to “GND”.
 
@@ -2982,21 +2982,21 @@ Changing footprint “C1814:/5AF3486B/5B1DE1FC” pad “2” net name from “�
 
 Changing footprint “C1804:/5AF3486B/5B337EE8” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1814:/5AF3486B/5B1DE1FC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1814:/5AF3486B/5B1DE1FC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1813:/5AF3486B/5B1DE1F5” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C1813:/5AF3486B/5B1DE1F5” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1813:/5AF3486B/5B1DE1F5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1813:/5AF3486B/5B1DE1F5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C902:/5ADF72D2/5B10DFD5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C902:/5ADF72D2/5B10DFD5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1812:/5AF3486B/5B1DE1EE” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1812:/5AF3486B/5B1DE1EE” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1812:/5AF3486B/5B1DE1EE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1812:/5AF3486B/5B1DE1EE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C902:/5ADF72D2/5B10DFD5” pad “2” net name from “” to “GND”.
 
@@ -3008,21 +3008,21 @@ Changing footprint “C1716:/5AF0A927/5B0BF400” pad “2” net name from “�
 
 Changing footprint “C1719:/5AF0A927/5B02CA8D” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1719:/5AF0A927/5B02CA8D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1719:/5AF0A927/5B02CA8D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1718:/5AF0A927/5B038954” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1718:/5AF0A927/5B038954” pad “1” net name from “” to “Net-(C1711-Pad1)”.
 
-Replacing symbol “C1718:/5AF0A927/5B038954” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1718:/5AF0A927/5B038954” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C906:/5ADF72D2/5B16A9CA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C906:/5ADF72D2/5B16A9CA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1717:/5AF0A927/5AF270F5” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1717:/5AF0A927/5AF270F5” pad “1” net name from “” to “Net-(C1711-Pad1)”.
 
-Replacing symbol “C1717:/5AF0A927/5AF270F5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1717:/5AF0A927/5AF270F5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C906:/5ADF72D2/5B16A9CA” pad “2” net name from “” to “GND”.
 
@@ -3030,7 +3030,7 @@ Changing footprint “C1716:/5AF0A927/5B0BF400” pad “1” net name from “�
 
 Changing footprint “C1719:/5AF0A927/5B02CA8D” pad “1” net name from “” to “Net-(C1719-Pad1)”.
 
-Replacing symbol “C1716:/5AF0A927/5B0BF400” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1716:/5AF0A927/5B0BF400” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C906:/5ADF72D2/5B16A9CA” pad “1” net name from “” to “Net-(C906-Pad1)”.
 
@@ -3038,15 +3038,15 @@ Changing footprint “C1715:/5AF0A927/5AF23CEC” pad “2” net name from “�
 
 Changing footprint “C1715:/5AF0A927/5AF23CEC” pad “1” net name from “” to “/Ethernet/LED_LINK10_100”.
 
-Replacing symbol “C1715:/5AF0A927/5AF23CEC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1715:/5AF0A927/5AF23CEC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1714:/5AF0A927/5AF270B5” pad “1” net name from “” to “Net-(C1711-Pad1)”.
 
 Changing footprint “C1714:/5AF0A927/5AF270B5” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1714:/5AF0A927/5AF270B5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1714:/5AF0A927/5AF270B5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C907:/5ADF72D2/5B0FBA1F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C907:/5ADF72D2/5B0FBA1F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1713:/5AF0A927/5B0BF33E” pad “2” net name from “” to “GND”.
 
@@ -3056,7 +3056,7 @@ Changing footprint “C1801:/5AF3486B/5B337F04” pad “1” net name from “�
 
 Changing footprint “C1804:/5AF3486B/5B337EE8” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1804:/5AF3486B/5B337EE8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1804:/5AF3486B/5B337EE8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C904:/5ADF72D2/5B16AE2A” pad “1” net name from “” to “5V_P”.
 
@@ -3064,7 +3064,7 @@ Changing footprint “C1803:/5AF3486B/5B337ED7” pad “2” net name from “�
 
 Changing footprint “C1803:/5AF3486B/5B337ED7” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1803:/5AF3486B/5B337ED7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1803:/5AF3486B/5B337ED7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C904:/5ADF72D2/5B16AE2A” pad “2” net name from “” to “GND”.
 
@@ -3072,21 +3072,21 @@ Changing footprint “C1802:/5AF3486B/5B337EF5” pad “1” net name from “�
 
 Changing footprint “C1802:/5AF3486B/5B337EF5” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1802:/5AF3486B/5B337EF5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1802:/5AF3486B/5B337EF5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1801:/5AF3486B/5B337F04” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1612:/5ABE7AA4/5ABF4002” pad “2” net name from “” to “Net-(C1612-Pad2)”.
 
-Replacing symbol “C1801:/5AF3486B/5B337F04” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1801:/5AF3486B/5B337F04” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C905:/5ADF72D2/5B16A93D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C905:/5ADF72D2/5B16A93D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1721:/5AF0A927/5B02DAA8” pad “1” net name from “” to “Net-(C1719-Pad1)”.
 
 Changing footprint “C1721:/5AF0A927/5B02DAA8” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1721:/5AF0A927/5B02DAA8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1721:/5AF0A927/5B02DAA8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C905:/5ADF72D2/5B16A93D” pad “1” net name from “” to “/USB Hub + SDIO Bridge/RDRV18”.
 
@@ -3094,7 +3094,7 @@ Changing footprint “C1720:/5AF0A927/5B02D9E9” pad “2” net name from “�
 
 Changing footprint “C1720:/5AF0A927/5B02D9E9” pad “1” net name from “” to “Net-(C1719-Pad1)”.
 
-Replacing symbol “C1720:/5AF0A927/5B02D9E9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1720:/5AF0A927/5B02D9E9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C905:/5ADF72D2/5B16A93D” pad “2” net name from “” to “GND”.
 
@@ -3104,7 +3104,7 @@ Changing footprint “C1504:/5ACD5EDE/5B18C380” pad “2” net name from “�
 
 Changing footprint “C1504:/5ACD5EDE/5B18C380” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1504:/5ACD5EDE/5B18C380” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1504:/5ACD5EDE/5B18C380” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1503:/5ACD5EDE/5B300899” pad “2” net name from “” to “GND”.
 
@@ -3112,7 +3112,7 @@ Changing footprint “C1503:/5ACD5EDE/5B300899” pad “1” net name from “�
 
 Replacing symbol “C1503:/5ACD5EDE/5B300899” footprint “Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow” with “Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D”.
 
-Replacing symbol “C1205:/5B120FA9/5B12DFA8/5B44F3BF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1205:/5B120FA9/5B12DFA8/5B44F3BF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1502:/5ACD5EDE/5B2E987D” pad “2” net name from “” to “GND”.
 
@@ -3134,27 +3134,27 @@ Changing footprint “C1404:/5ACBE3AE/5AF8B583” pad “1” net name from “�
 
 Changing footprint “C1404:/5ACBE3AE/5AF8B583” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1404:/5ACBE3AE/5AF8B583” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1404:/5ACBE3AE/5AF8B583” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1403:/5ACBE3AE/5AF8B7EB” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1403:/5ACBE3AE/5AF8B7EB” pad “1” net name from “” to “/SYS_~RST”.
 
-Replacing symbol “C1403:/5ACBE3AE/5AF8B7EB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1403:/5ACBE3AE/5AF8B7EB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1206:/5B120FA9/5B12DFA8/5B3FFDB6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1206:/5B120FA9/5B12DFA8/5B3FFDB6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1402:/5ACBE3AE/5AF882AE” pad “1” net name from “” to “/BTN2”.
 
-Replacing symbol “C1508:/5ACD5EDE/5B2F6933” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1508:/5ACD5EDE/5B2F6933” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1203:/5B120FA9/5B12DFA8/5B44F3CD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1203:/5B120FA9/5B12DFA8/5B44F3CD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1510:/5ACD5EDE/5AD47BFC” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C1510:/5ACD5EDE/5AD47BFC” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1510:/5ACD5EDE/5AD47BFC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1510:/5ACD5EDE/5AD47BFC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1203:/5B120FA9/5B12DFA8/5B44F3CD” pad “1” net name from “” to “1V8_P”.
 
@@ -3162,7 +3162,7 @@ Changing footprint “C1509:/5ACD5EDE/5AD47C44” pad “2” net name from “�
 
 Changing footprint “C1509:/5ACD5EDE/5AD47C44” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1509:/5ACD5EDE/5AD47C44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1509:/5ACD5EDE/5AD47C44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1203:/5B120FA9/5B12DFA8/5B44F3CD” pad “2” net name from “” to “GND”.
 
@@ -3176,15 +3176,15 @@ Changing footprint “C1507:/5ACD5EDE/5B18C1DE” pad “1” net name from “�
 
 Changing footprint “C1507:/5ACD5EDE/5B18C1DE” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1507:/5ACD5EDE/5B18C1DE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1507:/5ACD5EDE/5B18C1DE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1204:/5B120FA9/5B12DFA8/5B44F3C6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1204:/5B120FA9/5B12DFA8/5B44F3C6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1506:/5ACD5EDE/5B18C26B” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1506:/5ACD5EDE/5B18C26B” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1506:/5ACD5EDE/5B18C26B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1506:/5ACD5EDE/5B18C26B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1204:/5B120FA9/5B12DFA8/5B44F3C6” pad “2” net name from “” to “GND”.
 
@@ -3192,7 +3192,7 @@ Changing footprint “C1505:/5ACD5EDE/5B18C2F3” pad “1” net name from “�
 
 Changing footprint “C1505:/5ACD5EDE/5B18C2F3” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1505:/5ACD5EDE/5B18C2F3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1505:/5ACD5EDE/5B18C2F3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1208:/5B120FA9/5B12DFA8/5B452940” pad “2” net name from “” to “GND”.
 
@@ -3200,15 +3200,15 @@ Changing footprint “C1305:/5B120FA9/5B12DFE7/5B0F8E57” pad “2” net name 
 
 Changing footprint “C1305:/5B120FA9/5B12DFE7/5B0F8E57” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C1305:/5B120FA9/5B12DFE7/5B0F8E57” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1305:/5B120FA9/5B12DFE7/5B0F8E57” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1208:/5B120FA9/5B12DFA8/5B452940” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1208:/5B120FA9/5B12DFA8/5B452940” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1304:/5B120FA9/5B12DFE7/5B2B061C” pad “1” net name from “” to “2V8_P”.
 
 Changing footprint “C1304:/5B120FA9/5B12DFE7/5B2B061C” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1304:/5B120FA9/5B12DFE7/5B2B061C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1304:/5B120FA9/5B12DFE7/5B2B061C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1208:/5B120FA9/5B12DFA8/5B452940” pad “1” net name from “” to “22V4”.
 
@@ -3216,35 +3216,35 @@ Changing footprint “C1303:/5B120FA9/5B12DFE7/5B30A24C” pad “2” net name 
 
 Changing footprint “C1303:/5B120FA9/5B12DFE7/5B30A24C” pad “1” net name from “” to “2V8_P”.
 
-Replacing symbol “C1303:/5B120FA9/5B12DFE7/5B30A24C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1303:/5B120FA9/5B12DFE7/5B30A24C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1306:/5B120FA9/5B12DFE7/5B0F8F0F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1306:/5B120FA9/5B12DFE7/5B0F8F0F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1302:/5B120FA9/5B12DFE7/5B197A0E” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1302:/5B120FA9/5B12DFE7/5B197A0E” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C1302:/5B120FA9/5B12DFE7/5B197A0E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1302:/5B120FA9/5B12DFE7/5B197A0E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1301:/5B120FA9/5B12DFE7/5B1EAF12” pad “1” net name from “” to “Net-(C1301-Pad1)”.
 
 Changing footprint “C1301:/5B120FA9/5B12DFE7/5B1EAF12” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1301:/5B120FA9/5B12DFE7/5B1EAF12” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1301:/5B120FA9/5B12DFE7/5B1EAF12” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1209:/5B120FA9/5B12DFA8/5B452939” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1209:/5B120FA9/5B12DFA8/5B452939” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1210:/5B120FA9/5B12DFA8/5B452932” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1210:/5B120FA9/5B12DFA8/5B452932” pad “1” net name from “” to “22V4”.
 
-Replacing symbol “C1210:/5B120FA9/5B12DFA8/5B452932” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1210:/5B120FA9/5B12DFA8/5B452932” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1209:/5B120FA9/5B12DFA8/5B452939” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1309:/5B120FA9/5B12DFE7/5B0F9030” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1309:/5B120FA9/5B12DFE7/5B0F9030” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1402:/5ACBE3AE/5AF882AE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1402:/5ACBE3AE/5AF882AE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1206:/5B120FA9/5B12DFA8/5B3FFDB6” pad “1” net name from “” to “2V8_P”.
 
@@ -3252,7 +3252,7 @@ Changing footprint “C1401:/5ACBE3AE/5AF899A7” pad “2” net name from “�
 
 Changing footprint “C1401:/5ACBE3AE/5AF899A7” pad “1” net name from “” to “/BTN1”.
 
-Replacing symbol “C1401:/5ACBE3AE/5AF899A7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1401:/5ACBE3AE/5AF899A7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1206:/5B120FA9/5B12DFA8/5B3FFDB6” pad “2” net name from “” to “GND”.
 
@@ -3260,21 +3260,21 @@ Changing footprint “C1310:/5B120FA9/5B12DFE7/5B334AE4” pad “1” net name 
 
 Changing footprint “C1310:/5B120FA9/5B12DFE7/5B334AE4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1310:/5B120FA9/5B12DFE7/5B334AE4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1310:/5B120FA9/5B12DFE7/5B334AE4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1309:/5B120FA9/5B12DFE7/5B0F9030” pad “1” net name from “” to “1V8_P”.
 
 Changing footprint “C1309:/5B120FA9/5B12DFE7/5B0F9030” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1511:/5ACD5EDE/5AF60909” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1511:/5ACD5EDE/5AF60909” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1207:/5B120FA9/5B12DFA8/5B452925” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1207:/5B120FA9/5B12DFA8/5B452925” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1308:/5B120FA9/5B12DFE7/5B334D05” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1308:/5B120FA9/5B12DFE7/5B334D05” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C1308:/5B120FA9/5B12DFE7/5B334D05” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1308:/5B120FA9/5B12DFE7/5B334D05” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1207:/5B120FA9/5B12DFA8/5B452925” pad “2” net name from “” to “GND”.
 
@@ -3282,7 +3282,7 @@ Changing footprint “C1307:/5B120FA9/5B12DFE7/5B0F8FA9” pad “2” net name 
 
 Changing footprint “C1307:/5B120FA9/5B12DFE7/5B0F8FA9” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C1307:/5B120FA9/5B12DFE7/5B0F8FA9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1307:/5B120FA9/5B12DFE7/5B0F8FA9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1207:/5B120FA9/5B12DFA8/5B452925” pad “1” net name from “” to “22V4”.
 
@@ -3290,7 +3290,7 @@ Changing footprint “C1306:/5B120FA9/5B12DFE7/5B0F8F0F” pad “1” net name 
 
 Changing footprint “C1306:/5B120FA9/5B12DFE7/5B0F8F0F” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1003:/5AC9B567/5B3619FD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1003:/5AC9B567/5B3619FD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1002:/5AC9B567/5B3619B2” pad “2” net name from “” to “GND”.
 
@@ -3298,7 +3298,7 @@ Changing footprint “C1605:/5ABE7AA4/5ABFC3EE” pad “2” net name from “�
 
 Changing footprint “C1605:/5ABE7AA4/5ABFC3EE” pad “1” net name from “” to “Net-(C1605-Pad1)”.
 
-Replacing symbol “C1605:/5ABE7AA4/5ABFC3EE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1605:/5ABE7AA4/5ABFC3EE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1002:/5AC9B567/5B3619B2” pad “1” net name from “” to “3V3_SD”.
 
@@ -3306,21 +3306,21 @@ Changing footprint “C1604:/5ABE7AA4/5B421EEC” pad “2” net name from “�
 
 Changing footprint “C1604:/5ABE7AA4/5B421EEC” pad “1” net name from “” to “Net-(C1604-Pad1)”.
 
-Replacing symbol “C1604:/5ABE7AA4/5B421EEC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1604:/5ABE7AA4/5B421EEC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1603:/5ABE7AA4/5B421D97” pad “1” net name from “” to “Net-(C1603-Pad1)”.
 
 Changing footprint “C1603:/5ABE7AA4/5B421D97” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1603:/5ABE7AA4/5B421D97” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1603:/5ABE7AA4/5B421D97” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1606:/5ABE7AA4/5ABEF358” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1606:/5ABE7AA4/5ABEF358” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1602:/5ABE7AA4/5B420B54” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1602:/5ABE7AA4/5B420B54” pad “1” net name from “” to “Net-(C1602-Pad1)”.
 
-Replacing symbol “C1602:/5ABE7AA4/5B420B54” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1602:/5ABE7AA4/5B420B54” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1003:/5AC9B567/5B3619FD” pad “1” net name from “” to “3V3_SD”.
 
@@ -3328,7 +3328,7 @@ Changing footprint “C1601:/5ABE7AA4/5B0BECD5” pad “2” net name from “�
 
 Changing footprint “C1601:/5ABE7AA4/5B0BECD5” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1601:/5ABE7AA4/5B0BECD5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1601:/5ABE7AA4/5B0BECD5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1003:/5AC9B567/5B3619FD” pad “2” net name from “” to “GND”.
 
@@ -3336,21 +3336,21 @@ Changing footprint “C1524:/5ACD5EDE/5ADA5CE1” pad “2” net name from “�
 
 Changing footprint “C1524:/5ACD5EDE/5ADA5CE1” pad “1” net name from “” to “/WWAN mPCIe/SIM_DETECT_I”.
 
-Replacing symbol “C1524:/5ACD5EDE/5ADA5CE1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1524:/5ACD5EDE/5ADA5CE1” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1609:/5ABE7AA4/5B25A85A” pad “2” net name from “” to “Net-(C1609-Pad2)”.
 
 Changing footprint “C1612:/5ABE7AA4/5ABF4002” pad “1” net name from “” to “Net-(C1609-Pad2)”.
 
-Replacing symbol “C1612:/5ABE7AA4/5ABF4002” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1612:/5ABE7AA4/5ABF4002” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1611:/5ABE7AA4/5B0BEFB5” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C1611:/5ABE7AA4/5B0BEFB5” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1611:/5ABE7AA4/5B0BEFB5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1611:/5ABE7AA4/5B0BEFB5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1001:/5AC9B567/5B0D22C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1001:/5AC9B567/5B0D22C2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1610:/5ABE7AA4/5B25ADCC” pad “2” net name from “” to “Net-(C1610-Pad2)”.
 
@@ -3372,15 +3372,15 @@ Changing footprint “C1608:/5ABE7AA4/5ABEF388” pad “1” net name from “�
 
 Changing footprint “C1608:/5ABE7AA4/5ABEF388” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1608:/5ABE7AA4/5ABEF388” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1608:/5ABE7AA4/5ABEF388” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1607:/5ABE7AA4/5B488D5A” pad “2” net name from “” to “Net-(C1607-Pad2)”.
 
 Changing footprint “C1607:/5ABE7AA4/5B488D5A” pad “1” net name from “” to “Net-(C1607-Pad1)”.
 
-Replacing symbol “C1607:/5ABE7AA4/5B488D5A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1607:/5ABE7AA4/5B488D5A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1002:/5AC9B567/5B3619B2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1002:/5AC9B567/5B3619B2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1606:/5ABE7AA4/5ABEF358” pad “2” net name from “” to “GND”.
 
@@ -3390,7 +3390,7 @@ Changing footprint “C1514:/5ACD5EDE/5ADAB5AD” pad “1” net name from “�
 
 Changing footprint “C1517:/5ACD5EDE/5ADA69EC” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1517:/5ACD5EDE/5ADA69EC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1517:/5ACD5EDE/5ADA69EC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1201:/5B120FA9/5B12DFA8/5B44A018” pad “1” net name from “” to “2V8_P”.
 
@@ -3398,21 +3398,21 @@ Changing footprint “C1516:/5ACD5EDE/5B342FF9” pad “1” net name from “�
 
 Changing footprint “C1516:/5ACD5EDE/5B342FF9” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1516:/5ACD5EDE/5B342FF9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1516:/5ACD5EDE/5B342FF9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1515:/5ACD5EDE/5AF5FCEA” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1515:/5ACD5EDE/5AF5FCEA” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C1515:/5ACD5EDE/5AF5FCEA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1515:/5ACD5EDE/5AF5FCEA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1202:/5B120FA9/5B12DFA8/5B32A2B5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1202:/5B120FA9/5B12DFA8/5B32A2B5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1514:/5ACD5EDE/5ADAB5AD” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1517:/5ACD5EDE/5ADA69EC” pad “1” net name from “” to “/WWAN mPCIe/UIM-PWR”.
 
-Replacing symbol “C1514:/5ACD5EDE/5ADAB5AD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1514:/5ACD5EDE/5ADAB5AD” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1202:/5B120FA9/5B12DFA8/5B32A2B5” pad “2” net name from “” to “GND”.
 
@@ -3420,7 +3420,7 @@ Changing footprint “C1513:/5ACD5EDE/5AF5FCD9” pad “1” net name from “�
 
 Changing footprint “C1513:/5ACD5EDE/5AF5FCD9” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1513:/5ACD5EDE/5AF5FCD9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1513:/5ACD5EDE/5AF5FCD9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1202:/5B120FA9/5B12DFA8/5B32A2B5” pad “1” net name from “” to “1V8_P”.
 
@@ -3428,7 +3428,7 @@ Changing footprint “C1512:/5ACD5EDE/5AF608F9” pad “1” net name from “�
 
 Changing footprint “C1512:/5ACD5EDE/5AF608F9” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1512:/5ACD5EDE/5AF608F9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1512:/5ACD5EDE/5AF608F9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1511:/5ACD5EDE/5AF60909” pad “2” net name from “” to “GND”.
 
@@ -3438,15 +3438,15 @@ Changing footprint “C1520:/5ACD5EDE/5ADA5915” pad “1” net name from “�
 
 Changing footprint “C1523:/5ACD5EDE/5B30C2BF” pad “1” net name from “” to “Net-(C1523-Pad1)”.
 
-Replacing symbol “C1523:/5ACD5EDE/5B30C2BF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1523:/5ACD5EDE/5B30C2BF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1004:/5AC9B567/5AE8CA13” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1004:/5AC9B567/5AE8CA13” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1522:/5ACD5EDE/5B2EEC7F” pad “1” net name from “” to “1V8_P”.
 
 Changing footprint “C1522:/5ACD5EDE/5B2EEC7F” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1522:/5ACD5EDE/5B2EEC7F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1522:/5ACD5EDE/5B2EEC7F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1004:/5AC9B567/5AE8CA13” pad “2” net name from “” to “GND”.
 
@@ -3454,7 +3454,7 @@ Changing footprint “C1521:/5ACD5EDE/5B2CB1A8” pad “1” net name from “�
 
 Changing footprint “C1521:/5ACD5EDE/5B2CB1A8” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1521:/5ACD5EDE/5B2CB1A8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1521:/5ACD5EDE/5B2CB1A8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1004:/5AC9B567/5AE8CA13” pad “1” net name from “” to “3V3_SD”.
 
@@ -3462,21 +3462,21 @@ Changing footprint “C1817:/5AF3486B/5B300A38” pad “2” net name from “�
 
 Changing footprint “C1520:/5ACD5EDE/5ADA5915” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1520:/5ACD5EDE/5ADA5915” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1520:/5ACD5EDE/5ADA5915” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1519:/5ACD5EDE/5ADA6940” pad “1” net name from “” to “/WWAN mPCIe/UIM-RESET”.
 
 Changing footprint “C1519:/5ACD5EDE/5ADA6940” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1519:/5ACD5EDE/5ADA6940” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1519:/5ACD5EDE/5ADA6940” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C1201:/5B120FA9/5B12DFA8/5B44A018” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1201:/5B120FA9/5B12DFA8/5B44A018” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1518:/5ACD5EDE/5ADA69A9” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1518:/5ACD5EDE/5ADA69A9” pad “1” net name from “” to “/WWAN mPCIe/UIM-CLK”.
 
-Replacing symbol “C1518:/5ACD5EDE/5ADA69A9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1518:/5ACD5EDE/5ADA69A9” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1201:/5B120FA9/5B12DFA8/5B44A018” pad “2” net name from “” to “GND”.
 
@@ -3488,13 +3488,13 @@ Replacing symbol “Q1502:/5ACD5EDE/5B33E792” footprint “TO_SOT_Packages_SMD
 
 Changing footprint “C427:/5B0FA74B/5AC89BD0” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C428:/5B0FA74B/5B203555” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C428:/5B0FA74B/5B203555” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C428:/5B0FA74B/5B203555” pad “2” net name from “” to “GND”.
 
 Changing footprint “C428:/5B0FA74B/5B203555” pad “1” net name from “” to “5V_P”.
 
-Replacing symbol “C429:/5B0FA74B/5B203D36” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C429:/5B0FA74B/5B203D36” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “Q901:/5ADF72D2/5B0B11B2” pad “1” net name from “” to “/uSD Card/CONN_SD2_CD_B”.
 
@@ -3508,25 +3508,25 @@ Changing footprint “Q1502:/5ACD5EDE/5B33E792” pad “2” net name from “�
 
 Changing footprint “C429:/5B0FA74B/5B203D36” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C430:/5B0FA74B/5B20D5EC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C430:/5B0FA74B/5B20D5EC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C430:/5B0FA74B/5B20D5EC” pad “1” net name from “” to “1V8_P”.
 
 Changing footprint “C430:/5B0FA74B/5B20D5EC” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C431:/5B0FA74B/5B20355C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C431:/5B0FA74B/5B20355C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C431:/5B0FA74B/5B20355C” pad “1” net name from “” to “5V_P”.
 
 Changing footprint “C431:/5B0FA74B/5B20355C” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C432:/5B0FA74B/5B203D3D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C432:/5B0FA74B/5B203D3D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C432:/5B0FA74B/5B203D3D” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C432:/5B0FA74B/5B203D3D” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C433:/5B0FA74B/5B20D5F3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C433:/5B0FA74B/5B20D5F3” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Replacing symbol “R101:/5B33103F” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
@@ -3538,7 +3538,7 @@ Changing footprint “R103:/5B330D8D” pad “1” net name from “” to “3
 
 Replacing symbol “R103:/5B330D8D” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C425:/5B0FA74B/5B203D2F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C425:/5B0FA74B/5B203D2F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R102:/5B12EC2C” pad “1” net name from “” to “3V3_P”.
 
@@ -3564,13 +3564,13 @@ Changing footprint “Q2401:/5AFCB56A/5AFD137F” pad “1” net name from “�
 
 Replacing symbol “Q2401:/5AFCB56A/5AFD137F” footprint “TO_SOT_Packages_SMD:SOT-23” with “Package_TO_SOT_SMD:SOT-23”.
 
-Replacing symbol “C426:/5B0FA74B/5B20D5E5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C426:/5B0FA74B/5B20D5E5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C426:/5B0FA74B/5B20D5E5” pad “2” net name from “” to “GND”.
 
 Changing footprint “C426:/5B0FA74B/5B20D5E5” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C427:/5B0FA74B/5AC89BD0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C427:/5B0FA74B/5AC89BD0” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C427:/5B0FA74B/5AC89BD0” pad “1” net name from “” to “Net-(C427-Pad1)”.
 
@@ -3580,7 +3580,7 @@ Changing footprint “C437:/5B0FA74B/5B33377D” pad “1” net name from “�
 
 Replacing symbol “JP402:/5B0FA74B/5B32BE16” footprint “Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm” with “Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical”.
 
-Replacing symbol “C436:/5B0FA74B/5B20D5FA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C436:/5B0FA74B/5B20D5FA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “JP401:/5B0FA74B/5B32BBF9” pad “2” net name from “” to “3V3”.
 
@@ -3598,25 +3598,25 @@ Replacing symbol “JP301:/5ABE5061/5B0E413B” footprint “Pin_Headers:Pin_Hea
 
 Changing footprint “C436:/5B0FA74B/5B20D5FA” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C437:/5B0FA74B/5B33377D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C437:/5B0FA74B/5B33377D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “JP402:/5B0FA74B/5B32BE16” pad “2” net name from “” to “5V_SOM”.
 
 Changing footprint “C437:/5B0FA74B/5B33377D” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C438:/5B0FA74B/5B20D601” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C438:/5B0FA74B/5B20D601” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C438:/5B0FA74B/5B20D601” pad “2” net name from “” to “GND”.
 
 Changing footprint “C438:/5B0FA74B/5B20D601” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C439:/5B0FA74B/5B33381D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C439:/5B0FA74B/5B33381D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C439:/5B0FA74B/5B33381D” pad “2” net name from “” to “GND”.
 
 Changing footprint “C439:/5B0FA74B/5B33381D” pad “1” net name from “” to “3V3”.
 
-Replacing symbol “C440:/5B0FA74B/5B400BBE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C440:/5B0FA74B/5B400BBE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C440:/5B0FA74B/5B400BBE” pad “2” net name from “” to “GND”.
 
@@ -3640,13 +3640,13 @@ Replacing symbol “L2301:/5B0D6F7B/5B103CD2” footprint “Inductors_SMD:L_060
 
 Changing footprint “C433:/5B0FA74B/5B20D5F3” pad “1” net name from “” to “1V8_P”.
 
-Replacing symbol “C434:/5B0FA74B/5B40518B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C434:/5B0FA74B/5B40518B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C434:/5B0FA74B/5B40518B” pad “2” net name from “” to “GND”.
 
 Changing footprint “C434:/5B0FA74B/5B40518B” pad “1” net name from “” to “3V3”.
 
-Replacing symbol “C435:/5B0FA74B/5B203D44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C435:/5B0FA74B/5B203D44” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R104:/5B339DFC” pad “1” net name from “” to “3V3_P”.
 
@@ -3674,7 +3674,7 @@ Changing footprint “JP402:/5B0FA74B/5B32BE16” pad “1” net name from “�
 
 Replacing symbol “R211:/5ACF2B88/5ADED10B” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C420:/5B0FA74B/5B203547” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C420:/5B0FA74B/5B203547” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R213:/5ACF2B88/5ADED120” pad “1” net name from “” to “Net-(R212-Pad1)”.
 
@@ -3704,7 +3704,7 @@ Changing footprint “R210:/5ACF2B88/5B2F09F9” pad “2” net name from “�
 
 Replacing symbol “R210:/5ACF2B88/5B2F09F9” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C421:/5B0FA74B/5B203D28” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C421:/5B0FA74B/5B203D28” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R209:/5ACF2B88/5AED80E2” pad “1” net name from “” to “Net-(R202-Pad2)”.
 
@@ -3740,7 +3740,7 @@ Changing footprint “R218:/5ACF2B88/5ADED14A” pad “1” net name from “�
 
 Replacing symbol “R218:/5ACF2B88/5ADED14A” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C419:/5B0FA74B/5B20D5D7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C419:/5B0FA74B/5B20D5D7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R217:/5ACF2B88/5ADED143” pad “2” net name from “” to “3V3_OUT”.
 
@@ -3796,7 +3796,7 @@ Changing footprint “R201:/5ACF2B88/5AEDAEEC” pad “2” net name from “�
 
 Replacing symbol “R107:/5B2BBF6E” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C424:/5B0FA74B/5B20354E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C424:/5B0FA74B/5B20354E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R106:/5B0AEFCA” pad “1” net name from “” to “/USB2_VBUS”.
 
@@ -3830,7 +3830,7 @@ Changing footprint “R206:/5ACF2B88/5AED69B2” pad “1” net name from “�
 
 Replacing symbol “R206:/5ACF2B88/5AED69B2” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C422:/5B0FA74B/5B20D5DE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C422:/5B0FA74B/5B20D5DE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “R205:/5ACF2B88/5AED68D0” pad “1” net name from “” to “1V8_P”.
 
@@ -3860,11 +3860,11 @@ Changing footprint “R202:/5ACF2B88/5AED5D55” pad “1” net name from “�
 
 Replacing symbol “R202:/5ACF2B88/5AED5D55” footprint “Resistors_SMD:R_0603” with “Resistor_SMD:R_0402_1005Metric”.
 
-Replacing symbol “C423:/5B0FA74B/5AC8D0FC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C423:/5B0FA74B/5AC8D0FC” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C2101:/5B0A785D/5B12EA2B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2101:/5B0A785D/5B12EA2B” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C2202:/5B1815F4/5B1F1971” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2202:/5B1815F4/5B1F1971” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C461:/5B0FA74B/5B1A5C1F” pad “1” net name from “” to “22V4”.
 
@@ -3872,7 +3872,7 @@ Changing footprint “C2201:/5B1815F4/5B20FF65” pad “2” net name from “�
 
 Changing footprint “C2201:/5B1815F4/5B20FF65” pad “1” net name from “” to “Net-(C2201-Pad1)”.
 
-Replacing symbol “C2201:/5B1815F4/5B20FF65” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2201:/5B1815F4/5B20FF65” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C461:/5B0FA74B/5B1A5C1F” pad “2” net name from “” to “GND”.
 
@@ -3880,7 +3880,7 @@ Changing footprint “C2102:/5B0A785D/5B14E905” pad “1” net name from “�
 
 Changing footprint “C2102:/5B0A785D/5B14E905” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2102:/5B0A785D/5B14E905” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2102:/5B0A785D/5B14E905” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2101:/5B0A785D/5B12EA2B” pad “2” net name from “” to “GND”.
 
@@ -3888,13 +3888,13 @@ Changing footprint “C2101:/5B0A785D/5B12EA2B” pad “1” net name from “�
 
 Changing footprint “C2202:/5B1815F4/5B1F1971” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C501:/5ACBD81C/5B12B02A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C501:/5ACBD81C/5B12B02A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2008:/5B05878C/5B0EBD64” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C2008:/5B05878C/5B0EBD64” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2008:/5B05878C/5B0EBD64” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2008:/5B05878C/5B0EBD64” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C501:/5ACBD81C/5B12B02A” pad “2” net name from “” to “GND”.
 
@@ -3902,7 +3902,7 @@ Changing footprint “C2007:/5B05878C/5B15B795” pad “1” net name from “�
 
 Changing footprint “C2007:/5B05878C/5B15B795” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2007:/5B05878C/5B15B795” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2007:/5B05878C/5B15B795” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C501:/5ACBD81C/5B12B02A” pad “1” net name from “” to “3V3”.
 
@@ -3916,29 +3916,29 @@ Changing footprint “C2303:/5B0D6F7B/5B102929” pad “1” net name from “�
 
 Changing footprint “C2303:/5B0D6F7B/5B102929” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2303:/5B0D6F7B/5B102929” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2303:/5B0D6F7B/5B102929” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C460:/5B0FA74B/5B1C4CAA” footprint “Capacitors_SMD:C_0805” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C460:/5B0FA74B/5B1C4CAA” footprint “Capacitors_SMD:C_0805” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2302:/5B0D6F7B/5B1028D6” pad “2” net name from “” to “GND”.
 
 Changing footprint “C2302:/5B0D6F7B/5B1028D6” pad “1” net name from “” to “Net-(C2301-Pad1)”.
 
-Replacing symbol “C2302:/5B0D6F7B/5B1028D6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2302:/5B0D6F7B/5B1028D6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2301:/5B0D6F7B/5B0ED9E5” pad “1” net name from “” to “Net-(C2301-Pad1)”.
 
 Changing footprint “C2301:/5B0D6F7B/5B0ED9E5” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2301:/5B0D6F7B/5B0ED9E5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2301:/5B0D6F7B/5B0ED9E5” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C460:/5B0FA74B/5C85DFB3” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2006:/5B05878C/5B15B74F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2006:/5B05878C/5B15B74F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2205:/5B1815F4/5B41E11A” pad “1” net name from “” to “Net-(C2203-Pad2)”.
 
-Replacing symbol “C2205:/5B1815F4/5B41E11A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2205:/5B1815F4/5B41E11A” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C460:/5B0FA74B/5C85DFB3” pad “1” net name from “” to “1V8_P”.
 
@@ -3946,15 +3946,15 @@ Changing footprint “C2204:/5B1815F4/5B1F1CFA” pad “1” net name from “�
 
 Changing footprint “C2204:/5B1815F4/5B1F1CFA” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2204:/5B1815F4/5B1F1CFA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2204:/5B1815F4/5B1F1CFA” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2203:/5B1815F4/5B210DE6” pad “1” net name from “” to “GND”.
 
 Changing footprint “C2203:/5B1815F4/5B210DE6” pad “2” net name from “” to “Net-(C2203-Pad2)”.
 
-Replacing symbol “C2203:/5B1815F4/5B210DE6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2203:/5B1815F4/5B210DE6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C461:/5B0FA74B/5B1A5C1F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C461:/5B0FA74B/5B1A5C1F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2202:/5B1815F4/5B1F1971” pad “1” net name from “” to “Net-(C2202-Pad1)”.
 
@@ -3964,7 +3964,7 @@ Changing footprint “C1904:/5AFCA865/5AFAA07E” pad “1” net name from “�
 
 Changing footprint “C1904:/5AFCA865/5AFAA07E” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1904:/5AFCA865/5AFAA07E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1904:/5AFCA865/5AFAA07E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C601:/5AC56093/5AC5B61C” pad “2” net name from “” to “GND”.
 
@@ -3972,21 +3972,21 @@ Changing footprint “C1903:/5AFCA865/5B33D3B2” pad “1” net name from “�
 
 Changing footprint “C1903:/5AFCA865/5B33D3B2” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1903:/5AFCA865/5B33D3B2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1903:/5AFCA865/5B33D3B2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1902:/5AFCA865/5B536320” pad “1” net name from “” to “Net-(C1902-Pad1)”.
 
 Changing footprint “C1902:/5AFCA865/5B536320” pad “2” net name from “” to “/HDMI/HDMI_AUX_N”.
 
-Replacing symbol “C1902:/5AFCA865/5B536320” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1902:/5AFCA865/5B536320” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C701:/5ACD5BC1/5ACD7D29” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C701:/5ACD5BC1/5ACD7D29” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C601:/5AC56093/5AC5B61C” pad “1” net name from “” to “VBAT_REG”.
 
 Changing footprint “C1901:/5AFCA865/5B535C7C” pad “2” net name from “” to “/HDMI/HDMI_AUX_P”.
 
-Replacing symbol “C1901:/5AFCA865/5B535C7C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1901:/5AFCA865/5B535C7C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C701:/5ACD5BC1/5ACD7D29” pad “2” net name from “” to “GND”.
 
@@ -3994,7 +3994,7 @@ Changing footprint “C1819:/5AF3486B/5AF3C976” pad “1” net name from “�
 
 Changing footprint “C1819:/5AF3486B/5AF3C976” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C1819:/5AF3486B/5AF3C976” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1819:/5AF3486B/5AF3C976” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C701:/5ACD5BC1/5ACD7D29” pad “1” net name from “” to “3V3_OUT”.
 
@@ -4012,15 +4012,15 @@ Changing footprint “C2005:/5B05878C/5B15B7F6” pad “2” net name from “�
 
 Changing footprint “C2005:/5B05878C/5B15B7F6” pad “1” net name from “” to “Net-(C2005-Pad1)”.
 
-Replacing symbol “C2005:/5B05878C/5B15B7F6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2005:/5B05878C/5B15B7F6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C502:/5ACBD81C/5B12AE9C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C502:/5ACBD81C/5B12AE9C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2004:/5B05878C/5B163F79” pad “1” net name from “” to “Net-(C2004-Pad1)”.
 
 Changing footprint “C2004:/5B05878C/5B163F79” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2004:/5B05878C/5B163F79” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2004:/5B05878C/5B163F79” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C502:/5ACBD81C/5B12AE9C” pad “1” net name from “” to “3V3_SNVS”.
 
@@ -4028,77 +4028,77 @@ Changing footprint “C2003:/5B05878C/5B164D9D” pad “2” net name from “�
 
 Changing footprint “C2003:/5B05878C/5B164D9D” pad “1” net name from “” to “Net-(C2003-Pad1)”.
 
-Replacing symbol “C2003:/5B05878C/5B164D9D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2003:/5B05878C/5B164D9D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C2304:/5B0D6F7B/5B1029AE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2304:/5B0D6F7B/5B1029AE” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2002:/5B05878C/5B067A54” pad “2” net name from “” to “GND”.
 
 Changing footprint “C2002:/5B05878C/5B067A54” pad “1” net name from “” to “Net-(C2002-Pad1)”.
 
-Replacing symbol “C2002:/5B05878C/5B067A54” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2002:/5B05878C/5B067A54” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2001:/5B05878C/5B0BFB2C” pad “1” net name from “” to “Net-(C2001-Pad1)”.
 
 Changing footprint “C2001:/5B05878C/5B0BFB2C” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2001:/5B05878C/5B0BFB2C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2001:/5B05878C/5B0BFB2C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C601:/5AC56093/5AC5B61C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C601:/5AC56093/5AC5B61C” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C1905:/5AFCA865/5AF6AB55” pad “2” net name from “” to “GND”.
 
 Changing footprint “C1905:/5AFCA865/5AF6AB55” pad “1” net name from “” to “Net-(C1905-Pad1)”.
 
-Replacing symbol “C1905:/5AFCA865/5AF6AB55” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C1905:/5AFCA865/5AF6AB55” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C447:/5B0FA74B/5B3FB4AF” pad “1” net name from “” to “Net-(C447-Pad1)”.
 
 Changing footprint “C443:/5B0FA74B/5B37D653” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C444:/5B0FA74B/5B3338D8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C444:/5B0FA74B/5B3338D8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C444:/5B0FA74B/5B3338D8” pad “1” net name from “” to “3V3”.
 
 Changing footprint “C444:/5B0FA74B/5B3338D8” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C445:/5B0FA74B/5B3311E4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C445:/5B0FA74B/5B3311E4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C445:/5B0FA74B/5B3311E4” pad “1” net name from “” to “5V_SOM”.
 
 Changing footprint “C445:/5B0FA74B/5B3311E4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C446:/5B0FA74B/5B33397E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C446:/5B0FA74B/5B33397E” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C446:/5B0FA74B/5B33397E” pad “2” net name from “” to “GND”.
 
 Changing footprint “C446:/5B0FA74B/5B33397E” pad “1” net name from “” to “3V3”.
 
-Replacing symbol “C447:/5B0FA74B/5B3FB4AF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C447:/5B0FA74B/5B3FB4AF” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C443:/5B0FA74B/5B37D653” pad “1” net name from “” to “3V3_P”.
 
 Changing footprint “C447:/5B0FA74B/5B3FB4AF” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C448:/5B0FA74B/5B331290” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C448:/5B0FA74B/5B331290” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C448:/5B0FA74B/5B331290” pad “2” net name from “” to “GND”.
 
 Changing footprint “C448:/5B0FA74B/5B331290” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “C449:/5B0FA74B/5B2FDDC8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C449:/5B0FA74B/5B2FDDC8” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C449:/5B0FA74B/5B2FDDC8” pad “1” net name from “” to “3V3”.
 
 Changing footprint “C449:/5B0FA74B/5B2FDDC8” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C450:/5B0FA74B/5B36C0DB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C450:/5B0FA74B/5B36C0DB” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C450:/5B0FA74B/5B36C0DB” pad “1” net name from “” to “5V_SOM”.
 
 Changing footprint “C450:/5B0FA74B/5B36C0DB” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C451:/5B0FA74B/5B37E46F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C451:/5B0FA74B/5B37E46F” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “J701:/5ACD5BC1/5ACD600C” pad “4” net name from “” to “/UART Debug/RX<-TX”.
 
@@ -4134,23 +4134,23 @@ Changing footprint “J701:/5ACD5BC1/5ACD600C” pad “1” net name from “�
 
 Replacing symbol “J701:/5ACD5BC1/5ACD600C” footprint “Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm” with “Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical”.
 
-Replacing symbol “C441:/5B0FA74B/5B331083” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C441:/5B0FA74B/5B331083” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C441:/5B0FA74B/5B331083” pad “1” net name from “” to “5V_SOM”.
 
 Changing footprint “C441:/5B0FA74B/5B331083” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C442:/5B0FA74B/5B331135” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C442:/5B0FA74B/5B331135” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C442:/5B0FA74B/5B331135” pad “2” net name from “” to “GND”.
 
 Changing footprint “C442:/5B0FA74B/5B331135” pad “1” net name from “” to “5V_SOM”.
 
-Replacing symbol “C443:/5B0FA74B/5B37D653” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C443:/5B0FA74B/5B37D653” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C2307:/5B0D6F7B/5B208DA7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2307:/5B0D6F7B/5B208DA7” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
-Replacing symbol “C458:/5B0FA74B/5ACDF173” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C458:/5B0FA74B/5ACDF173” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C458:/5B0FA74B/5ACDF173” pad “1” net name from “” to “VBAT_REG”.
 
@@ -4158,7 +4158,7 @@ Changing footprint “C2402:/5AFCB56A/5B428193” pad “1” net name from “�
 
 Changing footprint “C2402:/5AFCB56A/5B428193” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2402:/5AFCB56A/5B428193” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2402:/5AFCB56A/5B428193” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C458:/5B0FA74B/5ACDF173” pad “2” net name from “” to “GND”.
 
@@ -4166,7 +4166,7 @@ Changing footprint “C2401:/5AFCB56A/5B0285ED” pad “1” net name from “�
 
 Changing footprint “C2401:/5AFCB56A/5B0285ED” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C2401:/5AFCB56A/5B0285ED” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2401:/5AFCB56A/5B0285ED” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2307:/5B0D6F7B/5B208DA7” pad “1” net name from “” to “Net-(AE2301-Pad1)”.
 
@@ -4174,13 +4174,13 @@ Changing footprint “C2307:/5B0D6F7B/5B208DA7” pad “2” net name from “�
 
 Changing footprint “C457:/5B0FA74B/5B19DE3D” pad “1” net name from “” to “VBAT_REG”.
 
-Replacing symbol “C459:/5B0FA74B/5B1A7173” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C459:/5B0FA74B/5B1A7173” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C2306:/5B0D6F7B/5B208BC6” pad “2” net name from “” to “GND”.
 
 Changing footprint “C2306:/5B0D6F7B/5B208BC6” pad “1” net name from “” to “Net-(AE2301-Pad1)”.
 
-Replacing symbol “C2306:/5B0D6F7B/5B208BC6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2306:/5B0D6F7B/5B208BC6” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C459:/5B0FA74B/5B1A7173” pad “2” net name from “” to “GND”.
 
@@ -4188,7 +4188,7 @@ Changing footprint “C2305:/5B0D6F7B/5B103D07” pad “2” net name from “�
 
 Changing footprint “C2305:/5B0D6F7B/5B103D07” pad “1” net name from “” to “Net-(C2305-Pad1)”.
 
-Replacing symbol “C2305:/5B0D6F7B/5B103D07” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C2305:/5B0D6F7B/5B103D07” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C459:/5B0FA74B/5B1A7173” pad “1” net name from “” to “Net-(C459-Pad1)”.
 
@@ -4200,13 +4200,13 @@ Replacing symbol “C454:/5B0FA74B/5B300605” footprint “Capacitors_Tantalum_
 
 Changing footprint “C451:/5B0FA74B/5B37E46F” pad “1” net name from “” to “2V8_P”.
 
-Replacing symbol “C452:/5B0FA74B/5B30B322” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C452:/5B0FA74B/5B30B322” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C452:/5B0FA74B/5B30B322” pad “2” net name from “” to “GND”.
 
 Changing footprint “C452:/5B0FA74B/5B30B322” pad “1” net name from “” to “3V3_P”.
 
-Replacing symbol “C453:/5B0FA74B/5B4026A2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C453:/5B0FA74B/5B4026A2” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C453:/5B0FA74B/5B4026A2” pad “1” net name from “” to “5V_P”.
 
@@ -4232,13 +4232,13 @@ Changing footprint “C455:/5B0FA74B/5B32F2D7” pad “2” net name from “�
 
 Changing footprint “C455:/5B0FA74B/5B32F2D7” pad “1” net name from “” to “5V_P”.
 
-Replacing symbol “C456:/5B0FA74B/5B19DCF4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C456:/5B0FA74B/5B19DCF4” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C456:/5B0FA74B/5B19DCF4” pad “1” net name from “” to “VBAT_REG”.
 
 Changing footprint “C456:/5B0FA74B/5B19DCF4” pad “2” net name from “” to “GND”.
 
-Replacing symbol “C457:/5B0FA74B/5B19DE3D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0603_1608Metric”.
+Replacing symbol “C457:/5B0FA74B/5B19DE3D” footprint “Capacitors_SMD:C_0603” with “Capacitor_SMD:C_0402_1005Metric”.
 
 Changing footprint “C457:/5B0FA74B/5B19DE3D” pad “2” net name from “” to “GND”.
 
