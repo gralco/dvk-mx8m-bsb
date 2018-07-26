@@ -1601,7 +1601,7 @@ U 1 1 5B383934
 P 950 2500
 F 0 "AE1501" H 1300 2625 50  0000 R CNN
 F 1 "Antenna" H 1300 2550 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 950 2600 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 950 2600 50  0001 C CNN
 F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 950 2600 50  0001 C CNN
 	1    950  2500
 	-1   0    0    -1  
@@ -1612,7 +1612,7 @@ U 1 1 5B385C8C
 P 950 4650
 F 0 "AE1502" H 1300 4775 50  0000 R CNN
 F 1 "Antenna" H 1300 4700 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WLAN+BT_antenna" H 950 4750 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 950 4750 50  0001 C CNN
 F 3 "https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf" H 950 4750 50  0001 C CNN
 	1    950  4650
 	-1   0    0    -1  
