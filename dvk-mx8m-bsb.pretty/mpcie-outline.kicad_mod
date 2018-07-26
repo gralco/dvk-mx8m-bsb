@@ -1,8 +1,8 @@
-(module mpcie-outline (layer F.Cu) (tedit 5B579087)
+(module mpcie-outline (layer F.Cu) (tedit 5B58DC3B)
   (fp_text reference Ref** (at 0 -52) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value mPCIe_Module (at 0 1) (layer F.CrtYd) hide
+  (fp_text value mPCIe_Module (at 0 1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -9.2 -45.15) (end -9.2 -50.95) (layer F.CrtYd) (width 0.15))

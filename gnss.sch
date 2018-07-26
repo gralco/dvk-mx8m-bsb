@@ -38,9 +38,9 @@ References:\nhttps://www.u-blox.com/sites/default/files/MAX-M8_HardwareIntegrati
 Text Notes 8050 2200 0    60   ~ 0
 3.4dBic
 Wire Wire Line
-	3900 3550 4850 3550
+	3900 3550 4150 3550
 Wire Wire Line
-	3900 3250 4850 3250
+	3900 3250 4800 3250
 Connection ~ 3900 3250
 Wire Wire Line
 	3900 3350 4850 3350
@@ -71,7 +71,7 @@ F 3 "" H 3900 4000 50  0001 C CNN
 $EndComp
 Connection ~ 3900 3550
 Wire Wire Line
-	3900 3900 3900 4000
+	3900 3900 3900 3950
 NoConn ~ 6150 3950
 NoConn ~ 6150 4050
 NoConn ~ 6150 4250
@@ -119,7 +119,7 @@ F 3 "" H 4650 3750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 3950 4650 3950
+	3900 3950 4150 3950
 Wire Wire Line
 	4650 3950 4650 3900
 Connection ~ 3900 3950
@@ -145,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3750 6200 3750
 Wire Wire Line
-	4800 4450 4800 4700
+	4800 4450 4800 4550
 NoConn ~ 6150 4550
 Text HLabel 6200 3650 2    60   Output ~ 0
 UART3_RXD
@@ -182,7 +182,7 @@ $EndComp
 Wire Wire Line
 	8000 2350 8000 2300
 Wire Wire Line
-	7900 2300 7900 2850
+	7900 2300 7900 2650
 NoConn ~ 7350 3450
 Wire Wire Line
 	7350 3450 7300 3450
@@ -192,7 +192,7 @@ U 1 1 5B103CD2
 P 7150 3450
 F 0 "L2301" V 7225 3450 50  0000 C CNN
 F 1 "NC" V 7105 3450 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 7150 3450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 7150 3450 50  0001 C CNN
 F 3 "" H 7150 3450 50  0001 C CNN
 	1    7150 3450
 	0    -1   -1   0   
@@ -214,7 +214,7 @@ F 3 "" H 6950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 3450 7000 3450
+	6900 3450 6950 3450
 $Comp
 L Device:C C2305
 U 1 1 5B103D07
@@ -247,7 +247,7 @@ U 1 1 5B2088FC
 P 7700 2800
 F 0 "L2302" V 7775 2800 50  0000 C CNN
 F 1 "NC" V 7655 2800 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 7700 2800 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 7700 2800 50  0001 C CNN
 F 3 "" H 7700 2800 50  0001 C CNN
 	1    7700 2800
 	0    -1   -1   0   
@@ -305,9 +305,9 @@ Wire Wire Line
 Wire Wire Line
 	7350 3250 7350 2800
 Wire Wire Line
-	7350 2800 7550 2800
+	7350 2800 7500 2800
 Wire Wire Line
-	7500 2650 7500 2850
+	7500 2650 7500 2800
 Connection ~ 7500 2800
 Wire Wire Line
 	7850 2800 7900 2800
@@ -373,7 +373,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 3900 3050 60  0001 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3900 3200 3900 3600
+	3900 3200 3900 3250
 Wire Wire Line
 	3900 2900 3900 2850
 $Comp
@@ -390,4 +390,40 @@ $EndComp
 Wire Wire Line
 	4800 3100 4800 3250
 Connection ~ 4800 3250
+Wire Wire Line
+	4800 4550 4800 4650
+Wire Wire Line
+	4800 4650 4800 4700
+Wire Wire Line
+	3900 3250 3900 3350
+Wire Wire Line
+	3900 3350 3900 3550
+Wire Wire Line
+	3900 3550 3900 3600
+Wire Wire Line
+	4800 3550 4850 3550
+Wire Wire Line
+	3900 3950 3900 4000
+Wire Wire Line
+	4400 3950 4650 3950
+Wire Wire Line
+	4150 3950 4400 3950
+Wire Wire Line
+	4150 3550 4400 3550
+Wire Wire Line
+	4400 3550 4650 3550
+Wire Wire Line
+	4650 3550 4800 3550
+Wire Wire Line
+	6950 3450 7000 3450
+Wire Wire Line
+	7500 2800 7550 2800
+Wire Wire Line
+	7500 2800 7500 2850
+Wire Wire Line
+	7900 2800 7900 2850
+Wire Wire Line
+	7900 2650 7900 2800
+Wire Wire Line
+	4800 3250 4850 3250
 $EndSCHEMATC
