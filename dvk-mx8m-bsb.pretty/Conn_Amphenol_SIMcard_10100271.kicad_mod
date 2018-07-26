@@ -1,4 +1,5 @@
-(module Conn_Amphenol_SIMcard_10100271 (layer F.Cu) (tedit 5B3597A0)
+(module Conn_Amphenol_SIMcard_10100271 (layer F.Cu) (tedit 5B5936BF)
+  (attr smd)
   (fp_text reference REF** (at 7.6 -14.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -106,12 +107,12 @@
   (pad GND1 smd rect (at 9.85 10.5) (size 1.7 4) (layers F.Cu F.Paste F.Mask))
   (pad GND2 smd rect (at -9.85 10.5) (size 1.7 4) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/1010027182.wrl
-    (at (xyz 0 0.1915 0))
+    (offset (xyz 0 4.864099926948548 0))
     (scale (xyz 0.0155 0.0155 0.0155))
     (rotate (xyz 0 0 0))
   )
   (model ${KIPRJMOD}/packages3d/1010027182-pins.wrl
-    (at (xyz 0 0.1915 0))
+    (offset (xyz 0 4.864099926948548 0))
     (scale (xyz 0.0155 0.0155 0.0155))
     (rotate (xyz 0 0 0))
   )

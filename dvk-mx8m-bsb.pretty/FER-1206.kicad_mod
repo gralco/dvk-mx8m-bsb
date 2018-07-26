@@ -1,6 +1,7 @@
-(module FER-1206 (layer F.Cu) (tedit 5B12D83C)
+(module FER-1206 (layer F.Cu) (tedit 5B5937A1)
   (descr "Ferrite - 1206 (3216 metric)")
   (tags "smt 1206")
+  (attr smd)
   (fp_text reference REF** (at -2.794 -1.651) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )

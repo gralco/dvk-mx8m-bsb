@@ -1,5 +1,6 @@
-(module MAX-M8 (layer F.Cu) (tedit 5B59250E)
+(module MAX-M8 (layer F.Cu) (tedit 5B5936E7)
   (tags "Concurrent GNSS Module")
+  (attr smd)
   (fp_text reference REF** (at 0.05 5.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

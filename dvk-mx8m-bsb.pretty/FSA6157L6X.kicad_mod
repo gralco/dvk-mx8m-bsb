@@ -1,6 +1,7 @@
-(module FSA6157L6X (layer F.Cu) (tedit 5B288C60)
+(module FSA6157L6X (layer F.Cu) (tedit 5B593815)
   (solder_mask_margin 0.05)
   (solder_paste_margin -0.025)
+  (attr smd)
   (fp_text reference REF** (at 0 -1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -23,7 +24,7 @@
   (pad 2 smd rect (at 0 0.375) (size 0.3 0.49) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.5 0.36) (size 0.3 0.52) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/MO-255.wrl
-    (at (xyz -0.03 -0.021 0.001))
+    (offset (xyz -0.7619999885559082 -0.5333999919891358 0.02539999961853028))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz -90 0 0))
   )

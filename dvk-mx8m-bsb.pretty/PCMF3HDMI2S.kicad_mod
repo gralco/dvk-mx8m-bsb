@@ -1,6 +1,7 @@
-(module PCMF3HDMI2S (layer F.Cu) (tedit 5B4FBB61)
+(module PCMF3HDMI2S (layer F.Cu) (tedit 5B593838)
   (tags "Differential 3-channel common-mode EMI filter with integrated ESD protection")
   (solder_mask_margin 0.0375)
+  (attr smd)
   (fp_text reference U204 (at -1.55 0.4 -270) (layer F.SilkS)
     (effects (font (size 0.77 0.77) (thickness 0.15)))
   )

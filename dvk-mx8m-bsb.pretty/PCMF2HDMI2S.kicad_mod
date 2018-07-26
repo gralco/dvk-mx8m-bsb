@@ -1,6 +1,7 @@
-(module PCMF2HDMI2S (layer F.Cu) (tedit 5B4FBC1B)
+(module PCMF2HDMI2S (layer F.Cu) (tedit 5B59382E)
   (tags "Differential 2-channel common-mode EMI filter with integrated ESD protection")
   (solder_mask_margin 0.0375)
+  (attr smd)
   (fp_text reference REF** (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
