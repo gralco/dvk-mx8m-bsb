@@ -38,8 +38,6 @@ F 3 "" H 2550 2750 50  0001 C CNN
 $EndComp
 Text Notes 2150 2900 0    60   ~ 0
 10k
-Text Label 3200 2950 0    60   ~ 0
-<CB_Function>
 Text Label 3200 3550 0    60   ~ 0
 SAI6_TXFS/RXFS
 Text Label 7000 3250 0    60   ~ 0
@@ -54,8 +52,6 @@ Text Label 7000 5550 0    60   ~ 0
 BOOT_CFG13
 Text Label 7600 5550 0    60   ~ 0
 SAI6_RXD0
-Text Label 7600 2050 0    60   ~ 0
-<CB_Function>
 Text Label 7000 2050 0    60   ~ 0
 BOOT_CFG08
 Text Label 7000 2300 0    60   ~ 0
@@ -1702,7 +1698,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5850 6650 5850
 Wire Wire Line
-	6600 5850 6600 6150
+	6600 5850 6600 6100
 Wire Wire Line
 	6950 6100 8350 6100
 Wire Wire Line
@@ -1719,7 +1715,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2050 6650 2050
 Wire Wire Line
-	6600 2050 6600 2350
+	6600 2050 6600 2300
 Wire Wire Line
 	6950 5550 8350 5550
 Wire Wire Line
@@ -1742,7 +1738,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 3550 3950 3550
 Wire Wire Line
-	2400 3350 3950 3350
+	2400 3350 2550 3350
 Wire Wire Line
 	2400 3250 3950 3250
 Wire Wire Line
@@ -1767,22 +1763,22 @@ Wire Wire Line
 Wire Wire Line
 	2050 2950 2100 2950
 Wire Wire Line
-	2050 2950 2050 3700
+	2050 2950 2050 3150
 Wire Wire Line
 	3200 4750 3200 4700
 Wire Wire Line
-	3200 4700 3900 4700
+	3200 4700 3550 4700
 Wire Wire Line
 	3900 4700 3900 4750
 Wire Wire Line
-	3550 4050 3550 4700
+	3550 4050 3550 4100
 Connection ~ 3550 4700
 Wire Wire Line
 	3100 5700 3100 5750
 Wire Wire Line
 	3800 5750 3800 5700
 Wire Wire Line
-	2800 5750 4200 5750
+	2800 5750 3100 5750
 Wire Wire Line
 	3450 5800 3450 5750
 Connection ~ 3450 5750
@@ -1792,9 +1788,9 @@ Connection ~ 2850 2550
 Wire Wire Line
 	2850 3450 3950 3450
 Wire Wire Line
-	3800 5150 3800 5400
+	3800 5150 3800 5200
 Wire Wire Line
-	3200 5050 3200 5300
+	3200 5050 3200 5200
 Connection ~ 3200 5200
 Connection ~ 3800 5200
 Wire Wire Line
@@ -1810,13 +1806,13 @@ Wire Wire Line
 	4200 5750 4200 5650
 Connection ~ 3800 5750
 Wire Wire Line
-	2750 5200 2850 5200
+	2750 5200 2800 5200
 Wire Wire Line
 	3150 5200 3200 5200
 Wire Wire Line
 	3850 5200 3800 5200
 Wire Wire Line
-	4150 5200 4250 5200
+	4150 5200 4200 5200
 $Comp
 L Device:R R501
 U 1 1 5B305194
@@ -2205,7 +2201,7 @@ F 3 "" H 6600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 3250 6600 3550
+	6600 3250 6600 3500
 Wire Wire Line
 	6600 3250 6650 3250
 Wire Wire Line
@@ -2242,9 +2238,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 5550 6600 5500
 Wire Wire Line
-	2850 1900 2850 2600
+	2850 1900 2850 1950
 Wire Wire Line
-	2550 2550 3150 2550
+	2550 2550 2850 2550
 Wire Notes Line
 	7500 500  7500 1800
 Wire Notes Line
@@ -2379,4 +2375,46 @@ Wire Notes Line
 	7500 500  11200 500 
 Wire Notes Line
 	11200 500  11200 1800
+Wire Wire Line
+	6600 6100 6600 6150
+Wire Wire Line
+	6600 2300 6600 2350
+Wire Wire Line
+	2550 3350 3950 3350
+Wire Wire Line
+	2050 3650 2050 3700
+Wire Wire Line
+	2050 3550 2050 3650
+Wire Wire Line
+	2050 3350 2050 3550
+Wire Wire Line
+	2050 3250 2050 3350
+Wire Wire Line
+	2050 3150 2050 3250
+Wire Wire Line
+	3550 4700 3900 4700
+Wire Wire Line
+	3450 5750 3800 5750
+Wire Wire Line
+	2850 2550 2850 2600
+Wire Wire Line
+	2850 2550 3150 2550
+Wire Wire Line
+	3200 5200 3200 5300
+Wire Wire Line
+	3800 5200 3800 5400
+Wire Wire Line
+	3100 5750 3450 5750
+Wire Wire Line
+	2800 5200 2850 5200
+Wire Wire Line
+	4200 5200 4250 5200
+Wire Wire Line
+	3800 5750 4200 5750
+Wire Wire Line
+	6600 3500 6600 3550
+Wire Wire Line
+	2850 1950 2850 2550
+Wire Wire Line
+	3550 4100 3550 4700
 $EndSCHEMATC

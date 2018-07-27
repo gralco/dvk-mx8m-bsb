@@ -32,11 +32,11 @@ P 6000 3700
 F 0 "U2101" H 5675 4100 50  0000 C CNN
 F 1 "MX25L1606E" H 6250 4100 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:MX25L1606EZNI" H 6800 3800 50  0001 C CNN
-F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/6786/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf" H 6150 3600 50  0001 C CNN
+F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7465/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf" H 6150 3600 50  0001 C CNN
 F 4 "Macronix" H 6000 3700 60  0001 C CNN "MFG Name"
 F 5 "MX25L1606EZNI-12G" H 6000 3700 60  0001 C CNN "MFG Part Num"
 F 6 "MX25L1606EZNI-12G" H 6000 3700 60  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/mx25l1606ezni-12g/macronix-international?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=MX25L1606EZNI-12G&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart" H 6000 3700 60  0001 C CNN "Distrib Link"
+F 7 "https://www.arrow.com/en/products/mx25l1606ezni-12g/macronix-international" H 6000 3700 60  0001 C CNN "Distrib Link"
 F 8 "-" H 6000 3700 60  0001 C CNN "Tolerance"
 F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/memory/774?k=&pkeyword=&pv1291=5519&pv1291=7498&pv1291=5520&pv1291=3298&pv1291=9457&pv1291=9363&pv1291=4953&pv1291=6332&pv1291=4954&FV=8e80066%2Cmu100MHz%7C800%2Cmu104MHz%7C800%2Cmu33MHz%7C800%2Cmu40MHz%7C800%2Cmu52MHz%7C800%2Cmu54MHz%7C800%2Cmu56MHz%7C800%2Cmu65MHz%7C800%2Cmu66MHz%7C800%2Cmu75MHz%7C800%2Cmu80MHz%7C800%2Cmu86MHz%7C800%2C1f140000%2Cffe00306%2C23805c6%2C23805ca%2C23805dd%2C23805e2%2C23805ed%2C2380617%2C2380618%2C238063c%2C238063f%2C2380641%2C238067c%2C238067d%2C2380692%2C2380694&quantity=0&ColumnSort=1000011&page=1&pageSize=500" H 6000 3700 60  0001 C CNN "Others"
 	1    6000 3700
