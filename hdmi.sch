@@ -246,7 +246,7 @@ L Device:C C1905
 U 1 1 5AF6AB55
 P 10200 4650
 F 0 "C1905" H 10225 4750 50  0000 L CNN
-F 1 "1nF" H 10225 4550 50  0000 L CNN
+F 1 "NC" H 10225 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10238 4500 50  0001 C CNN
 F 3 "" H 10200 4650 50  0001 C CNN
 	1    10200 4650
@@ -274,10 +274,8 @@ F 3 "" H 9600 4650 50  0001 C CNN
 	1    9600 4650
 	-1   0    0    1   
 $EndComp
-Text HLabel 6800 4200 0    60   Output ~ 0
-HDMI_HPD
 Text Label 6800 3700 0    60   ~ 0
-HDMI_Utility
+HDMI_HEAC_P
 Text Label 6800 2400 0    60   ~ 0
 HDMI_CN_TX2_P
 Text Label 6800 2600 0    60   ~ 0
@@ -390,7 +388,7 @@ F 3 "" H 9200 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5400 1900 2    60   ~ 0
-HDMI_Utility
+HDMI_HEAC_P
 Text Label 5400 2000 2    60   ~ 0
 HDMI_HPD
 Text Label 5400 2150 2    60   ~ 0
@@ -678,16 +676,16 @@ Text Notes 3250 5050 0    60   ~ 0
 Text Notes 1300 3700 0    60   ~ 0
 Dual N-Fet annotation\nmust follow text!
 Wire Wire Line
-	7550 1850 7550 4500
+	7550 1850 7550 4100
 Connection ~ 9600 4200
 Wire Wire Line
 	9600 4500 9600 4200
 Wire Wire Line
-	8650 2350 8650 4500
+	8650 2350 8650 3800
 Connection ~ 8100 1850
 Connection ~ 7550 1850
 Wire Wire Line
-	7400 1850 8650 1850
+	7400 1850 7450 1850
 Connection ~ 10550 2150
 Wire Wire Line
 	10550 2200 10550 2150
@@ -700,7 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 4450 10600 2150
 Wire Wire Line
-	10600 2150 10450 2150
+	10600 2150 10550 2150
 Wire Wire Line
 	10450 2150 10450 2200
 Wire Wire Line
@@ -742,7 +740,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2050 7050 2050
 Wire Wire Line
-	6800 1850 7100 1850
+	6800 1850 7050 1850
 Connection ~ 6050 1850
 Connection ~ 6150 2350
 Wire Wire Line
@@ -750,16 +748,16 @@ Wire Wire Line
 Wire Wire Line
 	6250 2350 6250 2300
 Wire Wire Line
-	6050 2350 6250 2350
+	6050 2350 6150 2350
 Wire Wire Line
 	6050 2300 6050 2350
 Connection ~ 6250 1850
 Wire Wire Line
 	6250 2000 6250 1850
 Wire Wire Line
-	6050 1800 6050 2000
+	6050 1800 6050 1850
 Wire Wire Line
-	6050 1850 6500 1850
+	6050 1850 6250 1850
 Connection ~ 10200 4000
 Wire Wire Line
 	10200 4000 10250 4000
@@ -775,11 +773,11 @@ Wire Wire Line
 Wire Wire Line
 	10250 2500 10200 2500
 Wire Wire Line
-	6800 3900 10250 3900
+	6800 3900 8100 3900
 Wire Wire Line
-	6800 3800 10250 3800
+	6800 3800 8650 3800
 Wire Wire Line
-	6800 3600 10250 3600
+	6800 3600 9200 3600
 Wire Wire Line
 	10250 3500 6800 3500
 Wire Wire Line
@@ -799,10 +797,10 @@ Wire Wire Line
 Wire Wire Line
 	10250 3700 6800 3700
 Wire Wire Line
-	6800 4200 10250 4200
+	6800 4200 9600 4200
 Connection ~ 8100 4850
 Wire Wire Line
-	7550 4850 10200 4850
+	7550 4850 8100 4850
 Wire Wire Line
 	7550 4800 7550 4850
 Connection ~ 10000 4850
@@ -813,7 +811,7 @@ Wire Wire Line
 	9600 4850 9600 4800
 Connection ~ 9200 4850
 Wire Wire Line
-	9200 4800 9200 4900
+	9200 4800 9200 4850
 Connection ~ 8650 4850
 Wire Wire Line
 	8650 4850 8650 4800
@@ -823,17 +821,17 @@ Wire Wire Line
 	8100 4800 8100 4850
 Connection ~ 10200 4450
 Wire Wire Line
-	10200 2500 10200 4500
+	10200 2500 10200 2800
 Wire Wire Line
 	10000 4450 10000 4500
 Wire Wire Line
-	10000 4450 10600 4450
+	10000 4450 10200 4450
 Wire Wire Line
-	1250 3350 4250 3350
+	1250 3350 2000 3350
 Wire Wire Line
-	1250 5050 4250 5050
+	1250 5050 2000 5050
 Wire Wire Line
-	4150 4600 4150 5100
+	4150 4600 4150 5050
 Connection ~ 4150 5050
 Wire Wire Line
 	4250 5050 4250 4600
@@ -850,19 +848,19 @@ Connection ~ 1250 3850
 Wire Wire Line
 	1250 4250 1250 3850
 Wire Wire Line
-	1200 4200 3700 4200
+	1200 4200 3500 4200
 Wire Wire Line
-	1200 4100 3700 4100
+	1200 4100 2750 4100
 Wire Wire Line
-	1200 3950 3700 3950
+	1200 3950 2000 3950
 Wire Wire Line
-	1200 3850 3700 3850
+	1200 3850 1250 3850
 Connection ~ 4050 3350
 Wire Wire Line
 	4050 3350 4050 2650
 Connection ~ 4150 3350
 Wire Wire Line
-	4150 2650 4150 3400
+	4150 2650 4150 3350
 Wire Wire Line
 	4250 3350 4250 2650
 Connection ~ 3500 2500
@@ -878,15 +876,15 @@ Connection ~ 1250 2150
 Wire Wire Line
 	1250 2550 1250 2150
 Wire Wire Line
-	1200 2500 3650 2500
+	1200 2500 3500 2500
 Wire Wire Line
-	1200 2400 3650 2400
+	1200 2400 2750 2400
 Wire Wire Line
-	1200 2250 3650 2250
+	1200 2250 2000 2250
 Wire Wire Line
-	1200 2150 3650 2150
+	1200 2150 1250 2150
 Wire Wire Line
-	750  5100 3150 5100
+	750  5100 900  5100
 Connection ~ 900  5100
 Wire Wire Line
 	900  4800 900  5100
@@ -928,7 +926,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 5000 1250 5050
 Wire Wire Line
-	750  3400 3150 3400
+	750  3400 900  3400
 Connection ~ 900  3400
 Wire Wire Line
 	900  3100 900  3400
@@ -971,11 +969,11 @@ Wire Wire Line
 	1250 3300 1250 3350
 Connection ~ 7550 4100
 Wire Wire Line
-	6800 4100 10250 4100
+	6800 4100 7550 4100
 Wire Wire Line
-	8100 2350 8100 4500
+	8100 2350 8100 3900
 Wire Wire Line
-	9200 2350 9200 4500
+	9200 2350 9200 3600
 Connection ~ 8100 3900
 Connection ~ 8650 3800
 Connection ~ 9200 3600
@@ -1028,4 +1026,124 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    6050 2150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	9600 4200 10250 4200
+Wire Wire Line
+	8100 1850 8650 1850
+Wire Wire Line
+	7550 1850 8100 1850
+Wire Wire Line
+	10550 2150 10450 2150
+Wire Wire Line
+	10550 4450 10600 4450
+Wire Wire Line
+	10450 4450 10550 4450
+Wire Wire Line
+	7450 1850 7550 1850
+Wire Wire Line
+	7050 1850 7100 1850
+Wire Wire Line
+	6050 1850 6050 2000
+Wire Wire Line
+	6150 2350 6250 2350
+Wire Wire Line
+	6250 1850 6500 1850
+Wire Wire Line
+	10200 4000 10200 4450
+Wire Wire Line
+	10200 3400 10200 4000
+Wire Wire Line
+	10200 3100 10200 3400
+Wire Wire Line
+	10200 2800 10200 3100
+Wire Wire Line
+	8100 4850 8650 4850
+Wire Wire Line
+	10000 4850 10200 4850
+Wire Wire Line
+	9600 4850 10000 4850
+Wire Wire Line
+	9200 4850 9200 4900
+Wire Wire Line
+	9200 4850 9600 4850
+Wire Wire Line
+	8650 4850 9200 4850
+Wire Wire Line
+	10200 4450 10450 4450
+Wire Wire Line
+	10200 4450 10200 4500
+Wire Wire Line
+	4150 5050 4250 5050
+Wire Wire Line
+	4150 5050 4150 5100
+Wire Wire Line
+	3500 4200 3700 4200
+Wire Wire Line
+	2750 4100 3700 4100
+Wire Wire Line
+	2000 3950 3700 3950
+Wire Wire Line
+	1250 3850 3700 3850
+Wire Wire Line
+	4050 3350 4150 3350
+Wire Wire Line
+	4150 3350 4150 3400
+Wire Wire Line
+	4150 3350 4250 3350
+Wire Wire Line
+	3500 2500 3650 2500
+Wire Wire Line
+	2750 2400 3650 2400
+Wire Wire Line
+	2000 2250 3650 2250
+Wire Wire Line
+	1250 2150 3650 2150
+Wire Wire Line
+	900  5100 1650 5100
+Wire Wire Line
+	1650 5100 2400 5100
+Wire Wire Line
+	2400 5100 3150 5100
+Wire Wire Line
+	3500 5050 4150 5050
+Wire Wire Line
+	2750 5050 3500 5050
+Wire Wire Line
+	2000 5050 2750 5050
+Wire Wire Line
+	900  3400 1650 3400
+Wire Wire Line
+	1650 3400 2400 3400
+Wire Wire Line
+	2400 3400 3150 3400
+Wire Wire Line
+	3500 3350 4050 3350
+Wire Wire Line
+	2750 3350 3500 3350
+Wire Wire Line
+	2000 3350 2750 3350
+Wire Wire Line
+	7550 4100 7550 4500
+Wire Wire Line
+	7550 4100 10250 4100
+Wire Wire Line
+	8100 3900 10250 3900
+Wire Wire Line
+	8100 3900 8100 4500
+Wire Wire Line
+	8650 3800 8650 4500
+Wire Wire Line
+	8650 3800 10250 3800
+Wire Wire Line
+	9200 3600 10250 3600
+Wire Wire Line
+	9200 3600 9200 4500
+Text Notes 9600 3700 0    60   ~ 0
+HDMI_Utility
+Text HLabel 6800 4200 0    60   Output ~ 0
+HDMI_HEAC_N
+Text Label 3600 1900 2    60   ~ 0
+HDMI_AUX_AC_P
+Text Label 3600 2000 2    60   ~ 0
+HDMI_AUX_AC_N
 $EndSCHEMATC
