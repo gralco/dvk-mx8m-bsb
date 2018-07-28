@@ -228,8 +228,6 @@ F 9 "https://octopart.com/search?q=PICOSMDC035S&start=0" V 6650 1850 60  0001 C 
 $EndComp
 Text Notes 650  1800 0    60   ~ 0
 100Ω diff pairs
-Text Notes 3400 1650 0    60   ~ 0
-Layout Note:\nMay need swap some signals\ndue to micro-HDMI pinout diff\ndepending on pin location/routing
 $Comp
 L power:GND #PWR0350
 U 1 1 5AF69B9C
