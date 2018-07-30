@@ -816,7 +816,7 @@ L Connector:Conn_Coaxial J1501
 U 1 1 5B3301D0
 P 1300 2850
 F 0 "J1501" H 1310 2970 50  0000 C CNN
-F 1 "u.FL" H 1500 2850 50  0000 C CNN
+F 1 "U.FL" H 1500 2850 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1300 2850 50  0001 C CNN
 F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1300 2850 50  0001 C CNN
 F 4 "Linx" H 1300 2850 60  0001 C CNN "MFG Name"
@@ -833,7 +833,7 @@ L Connector:Conn_Coaxial J1502
 U 1 1 5B330248
 P 1300 5000
 F 0 "J1502" H 1310 5120 50  0000 C CNN
-F 1 "u.FL" H 1500 5000 50  0000 C CNN
+F 1 "U.FL" H 1500 5000 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1300 5000 50  0001 C CNN
 F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1300 5000 50  0001 C CNN
 F 4 "Linx" H 1300 5000 60  0001 C CNN "MFG Name"

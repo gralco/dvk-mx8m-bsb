@@ -1,4 +1,4 @@
-(module MHF4_20449-001E (layer F.Cu) (tedit 5B2970E2)
+(module MHF4_20449-001E (layer F.Cu) (tedit 5B5F6C3D)
   (solder_mask_margin 0.000001)
   (attr smd)
   (fp_text reference REF** (at 0 -2) (layer F.SilkS)
@@ -48,4 +48,9 @@
     (zone_connect 2))
   (pad 2 smd trapezoid (at 0.73 0.39) (size 0.06 0.3) (layers F.Cu F.Paste F.Mask)
     (zone_connect 2))
+  (model ${KIPRJMOD}/packages3d/MHF4_receptacle.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3989 0.3989 0.3989))
+    (rotate (xyz -90 0 90))
+  )
 )

@@ -1933,15 +1933,15 @@ L Connector:Conn_Coaxial J1801
 U 1 1 5B6AA251
 P 2300 3450
 F 0 "J1801" H 2310 3570 50  0000 C CNN
-F 1 "u.FL" H 2500 3450 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 2300 3450 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 2300 3450 50  0001 C CNN
-F 4 "Linx" H 2300 3450 60  0001 C CNN "MFG Name"
-F 5 "CONUFL001-SMD-T" H 2300 3450 60  0001 C CNN "MFG Part Num"
-F 6 "712-CONUFL001-SMD-T" H 2300 3450 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 2300 3450 60  0001 C CNN "Distrib Link"
+F 1 "MHF4" H 2500 3450 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 2300 3450 50  0001 C CNN
+F 3 "http://www.taoglas.com/images/product_images/original_images/RECE.20449.001E.01.pdf" H 2300 3450 50  0001 C CNN
+F 4 "Taoglas" H 2300 3450 60  0001 C CNN "MFG Name"
+F 5 "RECE-20449-001E-01" H 2300 3450 60  0001 C CNN "MFG Part Num"
+F 6 "960-RECE20449-001E01" H 2300 3450 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=%2fha2pyFaduhuIY4wWTVKB6roJgz9SHYsLjNmpvVxDNcgjaumesx7oRkp8dxIiEMJ" H 2300 3450 60  0001 C CNN "Distrib Link"
 F 8 "-" H 2300 3450 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 2300 3450 60  0001 C CNN "Others"
+F 9 "https://octopart.com/search?q=RECE-20449-001E-01&start=0" H 2300 3450 60  0001 C CNN "Others"
 	1    2300 3450
 	1    0    0    -1  
 $EndComp
@@ -2009,15 +2009,15 @@ L Connector:Conn_Coaxial J1802
 U 1 1 5B29F847
 P 2300 4900
 F 0 "J1802" H 2310 5020 50  0000 C CNN
-F 1 "u.FL" H 2500 4900 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 2300 4900 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 2300 4900 50  0001 C CNN
-F 4 "Linx" H 2300 4900 60  0001 C CNN "MFG Name"
-F 5 "CONUFL001-SMD-T" H 2300 4900 60  0001 C CNN "MFG Part Num"
-F 6 "712-CONUFL001-SMD-T" H 2300 4900 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 2300 4900 60  0001 C CNN "Distrib Link"
+F 1 "MHF4" H 2500 4900 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:MHF4_20449-001E" H 2300 4900 50  0001 C CNN
+F 3 "http://www.taoglas.com/images/product_images/original_images/RECE.20449.001E.01.pdf" H 2300 4900 50  0001 C CNN
+F 4 "Taoglas" H 2300 4900 60  0001 C CNN "MFG Name"
+F 5 "RECE-20449-001E-01" H 2300 4900 60  0001 C CNN "MFG Part Num"
+F 6 "960-RECE20449-001E01" H 2300 4900 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Taoglas/RECE-20449-001E-01?qs=%2fha2pyFaduhuIY4wWTVKB6roJgz9SHYsLjNmpvVxDNcgjaumesx7oRkp8dxIiEMJ" H 2300 4900 60  0001 C CNN "Distrib Link"
 F 8 "-" H 2300 4900 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 2300 4900 60  0001 C CNN "Others"
+F 9 "https://octopart.com/search?q=RECE-20449-001E-01&start=0" H 2300 4900 60  0001 C CNN "Others"
 	1    2300 4900
 	1    0    0    -1  
 $EndComp

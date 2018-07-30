@@ -1,4 +1,4 @@
-(module Coax_Cable_Straight_4cm (layer F.Cu) (tedit 5B3032AC)
+(module Coax_Cable_Straight_4cm (layer F.Cu) (tedit 5B5F6F37)
   (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9,4 +9,9 @@
   (fp_line (start 20 -0.6) (end 20 0.6) (layer F.SilkS) (width 0.15))
   (fp_line (start -20 -0.6) (end 20 -0.6) (layer F.SilkS) (width 0.15))
   (fp_line (start -20 0.6) (end 20 0.6) (layer F.SilkS) (width 0.15))
+  (model ${KIPRJMOD}/packages3d/MHF4_plug.wrl
+    (offset (xyz 20 0 0))
+    (scale (xyz 0.3989 0.3989 0.3989))
+    (rotate (xyz -90 0 -90))
+  )
 )
