@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Mon 30 Jul 2018 04:10:54 PM EDT")
+    (date "Wed 01 Aug 2018 01:33:01 AM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -4530,7 +4530,7 @@
       (sheetpath (names /Audio/) (tstamps /5ABE7AA4/))
       (tstamp 5AFB8088))
     (comp (ref LS1601)
-      (value AS01608MS-SP9)
+      (value AS01508MS-SP11)
       (footprint dvk-mx8m-bsb:Speaker_flat_15x11x4mm)
       (datasheet http://www.puiaudio.com/pdf/AS01508MS-SP11-WP-R.pdf)
       (fields
