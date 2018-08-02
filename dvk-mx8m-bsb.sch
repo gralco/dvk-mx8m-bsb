@@ -2195,17 +2195,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 6750 4400 6750
 $Comp
-L power:GND #PWR021
-U 1 1 5B2F8B52
-P 800 9700
-F 0 "#PWR021" H 800 9450 50  0001 C CNN
-F 1 "GND" H 800 9550 50  0000 C CNN
-F 2 "" H 800 9700 50  0001 C CNN
-F 3 "" H 800 9700 50  0001 C CNN
-	1    800  9700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR022
 U 1 1 5B2FDC71
 P 800 10700
@@ -2239,10 +2228,10 @@ F 3 "" H 2500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb:Mount_Hole MNT104
+L dvk-mx8m-bsb:Mount_Hole MNT102
 U 1 1 5B2FE213
 P 2500 9500
-F 0 "MNT104" H 2500 9725 60  0000 C CNN
+F 0 "MNT102" H 2500 9725 60  0000 C CNN
 F 1 "Mount_Hole" H 2500 9650 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:MountingHole_2.2mm_M2_ISO7380_Pad" H 2500 9500 60  0001 C CNN
 F 3 "" H 2500 9500 60  0001 C CNN
@@ -2261,33 +2250,20 @@ F 3 "" H 2500 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  9700 800  9650
-Wire Wire Line
 	800  10650 800  10700
 Wire Wire Line
 	2500 10650 2500 10700
 Wire Wire Line
 	2500 9650 2500 9700
 $Comp
-L dvk-mx8m-bsb:Mount_Hole MNT102
+L dvk-mx8m-bsb:Mount_Hole MNT101
 U 1 1 5B2FDC6A
 P 800 10500
-F 0 "MNT102" H 800 10725 60  0000 C CNN
+F 0 "MNT101" H 800 10725 60  0000 C CNN
 F 1 "Mount_Hole" H 800 10650 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:MountingHole_2.2mm_M2_ISO7380_Pad" H 800 10500 60  0001 C CNN
 F 3 "" H 800 10500 60  0001 C CNN
 	1    800  10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L dvk-mx8m-bsb:Mount_Hole MNT101
-U 1 1 5B2F3834
-P 800 9500
-F 0 "MNT101" H 800 9725 60  0000 C CNN
-F 1 "Mount_Hole" H 800 9650 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:MountingHole_2.2mm_M2_ISO7380_Pad" H 800 9500 60  0001 C CNN
-F 3 "" H 800 9500 60  0001 C CNN
-	1    800  9500
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -377,12 +377,12 @@ SAI6 can be configured\nas master or slave
 $Comp
 L power:GND #PWR01503
 U 1 1 5B118C1F
-P 1550 3050
-F 0 "#PWR01503" H 1550 2800 50  0001 C CNN
-F 1 "GND" H 1550 2900 50  0000 C CNN
-F 2 "" H 1550 3050 50  0001 C CNN
-F 3 "" H 1550 3050 50  0001 C CNN
-	1    1550 3050
+P 1400 3100
+F 0 "#PWR01503" H 1400 2850 50  0001 C CNN
+F 1 "GND" H 1400 2950 50  0000 C CNN
+F 2 "" H 1400 3100 50  0001 C CNN
+F 3 "" H 1400 3100 50  0001 C CNN
+	1    1400 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -803,18 +803,18 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J1501
 U 1 1 5B3301D0
-P 1550 2800
-F 0 "J1501" H 1560 2920 50  0000 C CNN
-F 1 "U.FL" H 1750 2800 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1550 2800 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1550 2800 50  0001 C CNN
-F 4 "Linx" H 1550 2800 60  0001 C CNN "MFG Name"
-F 5 "CONUFL001-SMD-T" H 1550 2800 60  0001 C CNN "MFG Part Num"
-F 6 "712-CONUFL001-SMD-T" H 1550 2800 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1550 2800 60  0001 C CNN "Distrib Link"
-F 8 "-" H 1550 2800 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1550 2800 60  0001 C CNN "Others"
-	1    1550 2800
+P 1400 2850
+F 0 "J1501" H 1410 2970 50  0000 C CNN
+F 1 "U.FL" H 1600 2850 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1400 2850 50  0001 C CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1400 2850 50  0001 C CNN
+F 4 "Linx" H 1400 2850 60  0001 C CNN "MFG Name"
+F 5 "CONUFL001-SMD-T" H 1400 2850 60  0001 C CNN "MFG Part Num"
+F 6 "712-CONUFL001-SMD-T" H 1400 2850 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1400 2850 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1400 2850 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1400 2850 60  0001 C CNN "Others"
+	1    1400 2850
 	1    0    0    -1  
 $EndComp
 Text Notes 2750 2350 0    60   ~ 0
@@ -930,12 +930,12 @@ $EndComp
 $Comp
 L dvk-mx8m-bsb:ModemCard MOD1501
 U 1 1 5B2C06BF
-P 2800 3200
-F 0 "MOD1501" H 2625 3600 60  0000 C CNN
-F 1 "ModemCard" H 2625 3475 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:mpcie-outline" H 3375 3450 60  0001 C CNN
-F 3 "https://cloud.puri.sm/s/iSg345Zb5Fyd354" H 3375 3450 60  0001 C CNN
-	1    2800 3200
+P 2650 3250
+F 0 "MOD1501" H 2475 3650 60  0000 C CNN
+F 1 "ModemCard" H 2475 3525 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:mpcie-outline" H 3225 3500 60  0001 C CNN
+F 3 "https://cloud.puri.sm/s/iSg345Zb5Fyd354" H 3225 3500 60  0001 C CNN
+	1    2650 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1202,7 +1202,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1500 1600 1550
 Wire Wire Line
-	1550 3000 1550 3050
+	1400 3050 1400 3100
 Wire Wire Line
 	4600 5650 4600 6000
 Wire Wire Line
@@ -1335,12 +1335,12 @@ Wire Wire Line
 $Comp
 L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1501
 U 1 1 5B2DDE6A
-P 2300 2550
-F 0 "CBL1501" H 1825 2675 60  0000 C CNN
-F 1 "Coax_cable_ufl_ufl" H 2500 2675 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2500 2550 60  0001 C CNN
-F 3 "" H 2500 2550 60  0001 C CNN
-	1    2300 2550
+P 2150 2600
+F 0 "CBL1501" H 1675 2725 60  0000 C CNN
+F 1 "Coax_cable_ufl_ufl" H 2350 2725 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2350 2600 60  0001 C CNN
+F 3 "" H 2350 2600 60  0001 C CNN
+	1    2150 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1555,33 +1555,33 @@ internal pull-up
 $Comp
 L Device:Antenna_Shield AE1501
 U 1 1 5B383934
-P 1200 2450
-F 0 "AE1501" H 1550 2550 50  0000 R CNN
-F 1 "ANT-LTE-CER-T" H 1900 2450 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:placeholder_WWAN_antenna" H 1200 2550 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/ant-lte-cer.pdf" H 1200 2550 50  0001 C CNN
-F 4 "Linx" H 1200 2450 50  0001 C CNN "MFG Name"
-F 5 "ANT-LTE-CER-T" H 1200 2450 50  0001 C CNN "MFG Part Num"
-F 6 "712-ANT-LTE-CER-T" H 1200 2450 50  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/ANT-LTE-CER-T?qs=F5EMLAvA7IB7cQaKyhfEiQ%3d%3d" H 1200 2450 50  0001 C CNN "Distrib Link"
-F 8 "-" H 1200 2450 50  0001 C CNN "Tolerance"
-F 9 "https://www.mouser.com/Passive-Components/Antennas/_/N-8w0fa?P=1y94rceZ1yr2ofqZ1yuqgh4Z1y92y2dZ1yzxtllZ1yzv8z0Z1y94rlyZ1yzu5bhZ1yzxtl9Z1yzxpklZ1yyabshZ1yzxqw6Z1y94rh6Z1y9iqlfZ1y94rr8Z1yyabcjZ1y9guvjZ1y94rgvZ1y94rhdZ1yzu5bwZ1y9guvlZ1yzxq81Z1z0x1exZ1z0x0msZ1z0x1eqZ1z0x0wrZ1z0x1fdZ1yzxdv5&Rl=8w0faZgjdhamZ1y94rd6Z1y93y46SGT&Ns=Pricing|0" H 1200 2450 50  0001 C CNN "Others"
-	1    1200 2450
+P 1050 2500
+F 0 "AE1501" H 1400 2600 50  0000 R CNN
+F 1 "SR4L034-R" H 1550 2500 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:SR4L034-R" H 1050 2600 50  0001 C CNN
+F 3 "http://www.antenova-m2m.com/wp-content/uploads/2018/04/Inversa-SR4L034-PS-1.0.pdf?hsCtaTracking=a9dc692e-b13d-47be-9833-dc5991ce0b63%7Cad2a757a-c239-4a11-84f9-686c9a9d57a6" H 1050 2600 50  0001 C CNN
+F 4 "Antenova" H 1050 2500 50  0001 C CNN "MFG Name"
+F 5 "SR4L034-R" H 1050 2500 50  0001 C CNN "MFG Part Num"
+F 6 "SR4L034-R" H 1050 2500 50  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/sr4l034-r/antenova" H 1050 2500 50  0001 C CNN "Distrib Link"
+F 8 "-" H 1050 2500 50  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=SR4L034-R&start=0" H 1050 2500 50  0001 C CNN "Others"
+	1    1050 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01501
 U 1 1 5B3865C4
-P 1100 2700
-F 0 "#PWR01501" H 1100 2450 50  0001 C CNN
-F 1 "GND" H 1100 2550 50  0000 C CNN
-F 2 "" H 1100 2700 50  0001 C CNN
-F 3 "" H 1100 2700 50  0001 C CNN
-	1    1100 2700
+P 950 2750
+F 0 "#PWR01501" H 950 2500 50  0001 C CNN
+F 1 "GND" H 950 2600 50  0000 C CNN
+F 2 "" H 950 2750 50  0001 C CNN
+F 3 "" H 950 2750 50  0001 C CNN
+	1    950  2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 2700 1100 2650
+	950  2750 950  2700
 Wire Wire Line
 	3800 2650 3800 2750
 Wire Wire Line
@@ -1745,7 +1745,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3700 6450 3700
 Wire Wire Line
-	1200 2650 1200 2800
+	1050 2700 1050 2850
 Wire Wire Line
-	1200 2800 1350 2800
+	1050 2850 1200 2850
 $EndSCHEMATC

@@ -1,8 +1,8 @@
 Reference, Value, Footprint, Datasheet, MFG Name, MFG Part Num, Distrib PN, Distrib Link, Tolerance, Others
 AE2301,ACM4-5036-A1-CC-S,dvk-mx8m-bsb:ACM4-5036-A1-CC-S,https://cloud.puri.sm/s/Xi64aJqKKKscxsZ,INPAQ,ACM4-5036-A1-CC-S,ACM4-5036-A1-CC-S,https://www.endrich.com/antennen_nfc_wpc/acm4_5036_a1_cc_s,-,https://www.everythingrf.com/products/gps-gnss-antennas/inpaq-technology-co-ltd/666-329-acm4-5036-a1-cc-s
-AE1501,ANT-LTE-CER-T,dvk-mx8m-bsb:placeholder_WWAN_antenna,https://linxtechnologies.com/wp/wp-content/uploads/ant-lte-cer.pdf,Linx,ANT-LTE-CER-T,712-ANT-LTE-CER-T,https://www.mouser.com/ProductDetail/Linx-Technologies/ANT-LTE-CER-T?qs=F5EMLAvA7IB7cQaKyhfEiQ%3d%3d,-,https://www.mouser.com/Passive-Components/Antennas/_/N-8w0fa?P=1y94rceZ1yr2ofqZ1yuqgh4Z1y92y2dZ1yzxtllZ1yzv8z0Z1y94rlyZ1yzu5bhZ1yzxtl9Z1yzxpklZ1yyabshZ1yzxqw6Z1y94rh6Z1y9iqlfZ1y94rr8Z1yyabcjZ1y9guvjZ1y94rgvZ1y94rhdZ1yzu5bwZ1y9guvlZ1yzxq81Z1z0x1exZ1z0x0msZ1z0x1eqZ1z0x0wrZ1z0x1fdZ1yzxdv5&Rl=8w0faZgjdhamZ1y94rd6Z1y93y46SGT&Ns=Pricing|0
-AE1801,FR05-S1-NO-1-004,dvk-mx8m-bsb:placeholder_WLAN+BT_antenna,https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf,,,,,,
-AE1802,FR05-S1-NO-1-004,dvk-mx8m-bsb:placeholder_WLAN+BT_antenna,https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf,,,,,,
+AE1501,SR4L034-R,dvk-mx8m-bsb:SR4L034-R,http://www.antenova-m2m.com/wp-content/uploads/2018/04/Inversa-SR4L034-PS-1.0.pdf?hsCtaTracking=a9dc692e-b13d-47be-9833-dc5991ce0b63%7Cad2a757a-c239-4a11-84f9-686c9a9d57a6,Antenova,SR4L034-R,SR4L034-R,https://www.arrow.com/en/products/sr4l034-r/antenova,-,https://octopart.com/search?q=SR4L034-R&start=0
+AE1801,FR05-S1-NO-1-004,dvk-mx8m-bsb:FR05-S1-NO-1-004,https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf,,,,,,
+AE1802,FR05-S1-NO-1-004,dvk-mx8m-bsb:FR05-S1-NO-1-004,https://www.fractusantennas.com/files/UM_FR05_S1_NO_1_004.pdf,,,,,,
 BT301,18650,dvk-mx8m-bsb:BH18650,https://www.tme.eu/en/Document/8fa81c4c5d128169ded6af3ed3867ae3/BHC-18650-1P.pdf,COMF,BHC-18650-1P,BHC-18650-1P,https://www.tme.eu/en/details/bhc-18650-1p/batteries-holders/comf/,-,http://www.sierraic.com/BHC186501P
 C103,100nF,Capacitors_SMD:C_0402,,,,,,,
 C104,100nF,Capacitors_SMD:C_0402,,,,,,,
