@@ -15,10 +15,10 @@ Comment3 "nicole.faerber@puri.sm"
 Comment4 "christian.schilmoeller@puri.sm"
 $EndDescr
 $Comp
-L Device:C C1510
+L Device:C C1512
 U 1 1 5AD47BFC
 P 3600 1700
-F 0 "C1510" H 3600 1800 50  0000 L CNN
+F 0 "C1512" H 3600 1800 50  0000 L CNN
 F 1 "6.8pF" H 3625 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 1550 50  0001 C CNN
 F 3 "" H 3600 1700 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 3600 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1509
+L Device:C C1511
 U 1 1 5AD47C44
 P 3350 1700
-F 0 "C1509" H 3350 1800 50  0000 L CNN
+F 0 "C1511" H 3350 1800 50  0000 L CNN
 F 1 "8.2pF" H 3375 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3388 1550 50  0001 C CNN
 F 3 "" H 3350 1700 50  0001 C CNN
@@ -147,10 +147,10 @@ F 3 "" H 7550 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1520
+L Device:C C1522
 U 1 1 5ADA5915
 P 7100 4900
-F 0 "C1520" H 7125 5000 50  0000 L CNN
+F 0 "C1522" H 7125 5000 50  0000 L CNN
 F 1 "22pF" H 7125 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 4750 50  0001 C CNN
 F 3 "" H 7100 4900 50  0001 C CNN
@@ -158,10 +158,10 @@ F 3 "" H 7100 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1524
+L Device:C C1526
 U 1 1 5ADA5CE1
 P 9950 4650
-F 0 "C1524" H 9975 4750 50  0000 L CNN
+F 0 "C1526" H 9975 4750 50  0000 L CNN
 F 1 "NC" H 9975 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9988 4500 50  0001 C CNN
 F 3 "" H 9950 4650 50  0001 C CNN
@@ -180,10 +180,10 @@ F 3 "" H 9950 4850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1519
+L Device:C C1521
 U 1 1 5ADA6940
 P 6800 4900
-F 0 "C1519" H 6825 5000 50  0000 L CNN
+F 0 "C1521" H 6825 5000 50  0000 L CNN
 F 1 "NC" H 6825 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 4750 50  0001 C CNN
 F 3 "" H 6800 4900 50  0001 C CNN
@@ -191,10 +191,10 @@ F 3 "" H 6800 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1518
+L Device:C C1520
 U 1 1 5ADA69A9
 P 6500 4900
-F 0 "C1518" H 6525 5000 50  0000 L CNN
+F 0 "C1520" H 6525 5000 50  0000 L CNN
 F 1 "NC" H 6525 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6538 4750 50  0001 C CNN
 F 3 "" H 6500 4900 50  0001 C CNN
@@ -202,10 +202,10 @@ F 3 "" H 6500 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1517
+L Device:C C1519
 U 1 1 5ADA69EC
 P 6200 4900
-F 0 "C1517" H 6225 5000 50  0000 L CNN
+F 0 "C1519" H 6225 5000 50  0000 L CNN
 F 1 "1uF" H 6225 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 4750 50  0001 C CNN
 F 3 "" H 6200 4900 50  0001 C CNN
@@ -224,10 +224,10 @@ F 3 "" H 7100 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1514
+L Device:C C1516
 U 1 1 5ADAB5AD
 P 5800 4900
-F 0 "C1514" H 5825 5000 50  0000 L CNN
+F 0 "C1516" H 5825 5000 50  0000 L CNN
 F 1 "33pF" H 5825 4800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5838 4750 50  0001 C CNN
 F 3 "" H 5800 4900 50  0001 C CNN
@@ -264,10 +264,10 @@ F 9 "https://www.digikey.com/products/en/integrated-circuits-ics/logic-translato
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1513
+L Device:C C1515
 U 1 1 5AF5FCD9
 P 5500 5850
-F 0 "C1513" H 5525 5950 50  0000 L CNN
+F 0 "C1515" H 5525 5950 50  0000 L CNN
 F 1 "10nF" H 5525 5750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5538 5700 50  0001 C CNN
 F 3 "" H 5500 5850 50  0001 C CNN
@@ -286,10 +286,10 @@ F 3 "" H 5650 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1515
+L Device:C C1517
 U 1 1 5AF5FCEA
 P 5800 5850
-F 0 "C1515" H 5825 5950 50  0000 L CNN
+F 0 "C1517" H 5825 5950 50  0000 L CNN
 F 1 "1uF" H 5825 5750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5838 5700 50  0001 C CNN
 F 3 "" H 5800 5850 50  0001 C CNN
@@ -297,10 +297,10 @@ F 3 "" H 5800 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1512
+L Device:C C1514
 U 1 1 5AF608F9
 P 4050 5850
-F 0 "C1512" H 4075 5950 50  0000 L CNN
+F 0 "C1514" H 4075 5950 50  0000 L CNN
 F 1 "10nF" H 4075 5750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4088 5700 50  0001 C CNN
 F 3 "" H 4050 5850 50  0001 C CNN
@@ -319,10 +319,10 @@ F 3 "" H 3900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1511
+L Device:C C1513
 U 1 1 5AF60909
 P 3750 5850
-F 0 "C1511" H 3775 5950 50  0000 L CNN
+F 0 "C1513" H 3775 5950 50  0000 L CNN
 F 1 "1uF" H 3775 5750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 5700 50  0001 C CNN
 F 3 "" H 3750 5850 50  0001 C CNN
@@ -375,21 +375,21 @@ $EndComp
 Text Notes 5050 7250 0    60   ~ 0
 SAI6 can be configured\nas master or slave
 $Comp
-L power:GND #PWR01503
+L power:GND #PWR01504
 U 1 1 5B118C1F
-P 1400 3100
-F 0 "#PWR01503" H 1400 2850 50  0001 C CNN
-F 1 "GND" H 1400 2950 50  0000 C CNN
-F 2 "" H 1400 3100 50  0001 C CNN
-F 3 "" H 1400 3100 50  0001 C CNN
-	1    1400 3100
+P 1950 2950
+F 0 "#PWR01504" H 1950 2700 50  0001 C CNN
+F 1 "GND" H 1950 2800 50  0000 C CNN
+F 2 "" H 1950 2950 50  0001 C CNN
+F 3 "" H 1950 2950 50  0001 C CNN
+	1    1950 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1507
+L Device:C C1509
 U 1 1 5B18C1DE
 P 2850 1700
-F 0 "C1507" H 2850 1800 50  0000 L CNN
+F 0 "C1509" H 2850 1800 50  0000 L CNN
 F 1 "33pF" H 2875 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 1550 50  0001 C CNN
 F 3 "" H 2850 1700 50  0001 C CNN
@@ -397,10 +397,10 @@ F 3 "" H 2850 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1506
+L Device:C C1508
 U 1 1 5B18C26B
 P 2600 1700
-F 0 "C1506" H 2600 1800 50  0000 L CNN
+F 0 "C1508" H 2600 1800 50  0000 L CNN
 F 1 "39pF" H 2625 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 1550 50  0001 C CNN
 F 3 "" H 2600 1700 50  0001 C CNN
@@ -408,10 +408,10 @@ F 3 "" H 2600 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1505
+L Device:C C1507
 U 1 1 5B18C2F3
 P 2350 1700
-F 0 "C1505" H 2350 1800 50  0000 L CNN
+F 0 "C1507" H 2350 1800 50  0000 L CNN
 F 1 "100nF" H 2350 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2388 1550 50  0001 C CNN
 F 3 "" H 2350 1700 50  0001 C CNN
@@ -419,10 +419,10 @@ F 3 "" H 2350 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1504
+L Device:C C1506
 U 1 1 5B18C380
 P 2100 1700
-F 0 "C1504" H 2100 1850 50  0000 L CNN
+F 0 "C1506" H 2100 1850 50  0000 L CNN
 F 1 "1uF" H 2125 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2138 1550 50  0001 C CNN
 F 3 "" H 2100 1700 50  0001 C CNN
@@ -443,10 +443,10 @@ F 3 "" H 2250 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb:1V8_P #PWR01504
+L dvk-mx8m-bsb:1V8_P #PWR01503
 U 1 1 5B256C4E
 P 1750 6400
-F 0 "#PWR01504" H 1750 6250 50  0001 C CNN
+F 0 "#PWR01503" H 1750 6250 50  0001 C CNN
 F 1 "1V8_P" H 1750 6540 50  0000 C CNN
 F 2 "" H 1750 6400 50  0001 C CNN
 F 3 "" H 1750 6400 50  0001 C CNN
@@ -511,10 +511,10 @@ F 9 "https://www.arrow.com/en/products/fdv301n/on-semiconductor" V 2000 6750 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C1503
+L Device:CP1 C1505
 U 1 1 5B300899
 P 1850 1700
-F 0 "C1503" H 1850 1850 50  0000 L CNN
+F 0 "C1505" H 1850 1850 50  0000 L CNN
 F 1 "220uF" H 1850 1600 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 1850 1700 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TPS.pdf" H 1850 1700 50  0001 C CNN
@@ -620,10 +620,10 @@ NoConn ~ 5200 2650
 Text HLabel 7200 3450 2    60   Input ~ 0
 RESET
 $Comp
-L Device:C C1522
+L Device:C C1524
 U 1 1 5B2EEC7F
 P 8700 1550
-F 0 "C1522" H 8725 1650 50  0000 L CNN
+F 0 "C1524" H 8725 1650 50  0000 L CNN
 F 1 "100nF" H 8725 1450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8738 1400 50  0001 C CNN
 F 3 "" H 8700 1550 50  0001 C CNN
@@ -650,10 +650,10 @@ Text Label 3200 4750 0    60   ~ 0
 NoConn ~ 5200 3250
 NoConn ~ 5200 3150
 $Comp
-L Device:C C1523
+L Device:C C1525
 U 1 1 5B30C2BF
 P 9600 2000
-F 0 "C1523" H 9625 2100 50  0000 L CNN
+F 0 "C1525" H 9625 2100 50  0000 L CNN
 F 1 "1uF" H 9625 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9638 1850 50  0001 C CNN
 F 3 "" H 9600 2000 50  0001 C CNN
@@ -803,18 +803,18 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J1501
 U 1 1 5B3301D0
-P 1400 2850
-F 0 "J1501" H 1410 2970 50  0000 C CNN
-F 1 "U.FL" H 1600 2850 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1400 2850 50  0001 C CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1400 2850 50  0001 C CNN
-F 4 "Linx" H 1400 2850 60  0001 C CNN "MFG Name"
-F 5 "CONUFL001-SMD-T" H 1400 2850 60  0001 C CNN "MFG Part Num"
-F 6 "712-CONUFL001-SMD-T" H 1400 2850 60  0001 C CNN "Distrib PN"
-F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1400 2850 60  0001 C CNN "Distrib Link"
-F 8 "-" H 1400 2850 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1400 2850 60  0001 C CNN "Others"
-	1    1400 2850
+P 1950 2700
+F 0 "J1501" H 1950 2900 50  0000 C CNN
+F 1 "U.FL" H 1950 2825 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1950 2700 50  0001 C CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/conufl001-smd.pdf" H 1950 2700 50  0001 C CNN
+F 4 "Linx" H 1950 2700 60  0001 C CNN "MFG Name"
+F 5 "CONUFL001-SMD-T" H 1950 2700 60  0001 C CNN "MFG Part Num"
+F 6 "712-CONUFL001-SMD-T" H 1950 2700 60  0001 C CNN "Distrib PN"
+F 7 "https://www.mouser.com/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=%2fha2pyFaduivK93xHKUivxg4VjfDQlObuMZMwyaL26SpKX%252bySjigOg%3d%3d" H 1950 2700 60  0001 C CNN "Distrib Link"
+F 8 "-" H 1950 2700 60  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=CONUFL001-SMD-T&oq=CONUFL001-SMD-T&start=0" H 1950 2700 60  0001 C CNN "Others"
+	1    1950 2700
 	1    0    0    -1  
 $EndComp
 Text Notes 2750 2350 0    60   ~ 0
@@ -884,10 +884,10 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1521
+L Device:C C1523
 U 1 1 5B2CB1A8
 P 7950 3100
-F 0 "C1521" H 7975 3200 50  0000 L CNN
+F 0 "C1523" H 7975 3200 50  0000 L CNN
 F 1 "100nF" H 8000 3000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7988 2950 50  0001 C CNN
 F 3 "" H 7950 3100 50  0001 C CNN
@@ -930,12 +930,12 @@ $EndComp
 $Comp
 L dvk-mx8m-bsb:ModemCard MOD1501
 U 1 1 5B2C06BF
-P 2650 3250
-F 0 "MOD1501" H 2475 3650 60  0000 C CNN
-F 1 "ModemCard" H 2475 3525 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:mpcie-outline" H 3225 3500 60  0001 C CNN
-F 3 "https://cloud.puri.sm/s/iSg345Zb5Fyd354" H 3225 3500 60  0001 C CNN
-	1    2650 3250
+P 3025 3100
+F 0 "MOD1501" H 2850 3500 60  0000 C CNN
+F 1 "ModemCard" H 2850 3375 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:mpcie-outline" H 3600 3350 60  0001 C CNN
+F 3 "https://cloud.puri.sm/s/iSg345Zb5Fyd354" H 3600 3350 60  0001 C CNN
+	1    3025 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1202,8 +1202,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 1500 1600 1550
 Wire Wire Line
-	1400 3050 1400 3100
-Wire Wire Line
 	4600 5650 4600 6000
 Wire Wire Line
 	4250 5600 4250 5650
@@ -1335,19 +1333,19 @@ Wire Wire Line
 $Comp
 L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1501
 U 1 1 5B2DDE6A
-P 2150 2600
-F 0 "CBL1501" H 1675 2725 60  0000 C CNN
-F 1 "Coax_cable_ufl_ufl" H 2350 2725 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2350 2600 60  0001 C CNN
-F 3 "" H 2350 2600 60  0001 C CNN
-	1    2150 2600
-	1    0    0    -1  
+P 2325 3750
+F 0 "CBL1501" H 1850 3875 60  0000 C CNN
+F 1 "Coax_cable_ufl_ufl" H 2525 3875 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2525 3750 60  0001 C CNN
+F 3 "" H 2525 3750 60  0001 C CNN
+	1    2325 3750
+	1    0    0    1   
 $EndComp
 $Comp
-L Device:CP1 C1502
+L Device:CP1 C1503
 U 1 1 5B2E987D
 P 1600 1700
-F 0 "C1502" H 1600 1850 50  0000 L CNN
+F 0 "C1503" H 1600 1850 50  0000 L CNN
 F 1 "220uF" H 1600 1600 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 1600 1700 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TPS.pdf" H 1600 1700 50  0001 C CNN
@@ -1361,10 +1359,10 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 1600 1700 60 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C1501
+L Device:CP1 C1502
 U 1 1 5B2E992C
 P 1350 1700
-F 0 "C1501" H 1350 1800 50  0000 L CNN
+F 0 "C1502" H 1350 1800 50  0000 L CNN
 F 1 "220uF" H 1350 1600 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 1350 1700 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TPS.pdf" H 1350 1700 50  0001 C CNN
@@ -1378,10 +1376,10 @@ F 9 "https://www.arrow.com/en/products/293d227x9010d2te3/vishay" H 1350 1700 60 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C1508
+L Device:C C1510
 U 1 1 5B2F6933
 P 3100 1700
-F 0 "C1508" H 3100 1800 50  0000 L CNN
+F 0 "C1510" H 3100 1800 50  0000 L CNN
 F 1 "18pF" H 3125 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3138 1550 50  0001 C CNN
 F 3 "" H 3100 1700 50  0001 C CNN
@@ -1495,10 +1493,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 3200 6400 3250
 $Comp
-L Device:C C1516
+L Device:C C1518
 U 1 1 5B342FF9
 P 6200 3450
-F 0 "C1516" H 6200 3525 50  0000 L CNN
+F 0 "C1518" H 6200 3525 50  0000 L CNN
 F 1 "100nF" H 6200 3375 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 3300 50  0001 C CNN
 F 3 "" H 6200 3450 50  0001 C CNN
@@ -1555,33 +1553,31 @@ internal pull-up
 $Comp
 L Device:Antenna_Shield AE1501
 U 1 1 5B383934
-P 1050 2500
-F 0 "AE1501" H 1400 2600 50  0000 R CNN
-F 1 "SR4L034-R" H 1550 2500 50  0000 R CNN
-F 2 "dvk-mx8m-bsb:SR4L034-R" H 1050 2600 50  0001 C CNN
-F 3 "http://www.antenova-m2m.com/wp-content/uploads/2018/04/Inversa-SR4L034-PS-1.0.pdf?hsCtaTracking=a9dc692e-b13d-47be-9833-dc5991ce0b63%7Cad2a757a-c239-4a11-84f9-686c9a9d57a6" H 1050 2600 50  0001 C CNN
-F 4 "Antenova" H 1050 2500 50  0001 C CNN "MFG Name"
-F 5 "SR4L034-R" H 1050 2500 50  0001 C CNN "MFG Part Num"
-F 6 "SR4L034-R" H 1050 2500 50  0001 C CNN "Distrib PN"
-F 7 "https://www.arrow.com/en/products/sr4l034-r/antenova" H 1050 2500 50  0001 C CNN "Distrib Link"
-F 8 "-" H 1050 2500 50  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=SR4L034-R&start=0" H 1050 2500 50  0001 C CNN "Others"
-	1    1050 2500
+P 1050 2350
+F 0 "AE1501" H 1400 2450 50  0000 R CNN
+F 1 "SR4L034-R" H 1550 2350 50  0000 R CNN
+F 2 "dvk-mx8m-bsb:SR4L034-R" H 1050 2450 50  0001 C CNN
+F 3 "http://www.antenova-m2m.com/wp-content/uploads/2018/04/Inversa-SR4L034-PS-1.0.pdf?hsCtaTracking=a9dc692e-b13d-47be-9833-dc5991ce0b63%7Cad2a757a-c239-4a11-84f9-686c9a9d57a6" H 1050 2450 50  0001 C CNN
+F 4 "Antenova" H 1050 2350 50  0001 C CNN "MFG Name"
+F 5 "SR4L034-R" H 1050 2350 50  0001 C CNN "MFG Part Num"
+F 6 "SR4L034-R" H 1050 2350 50  0001 C CNN "Distrib PN"
+F 7 "https://www.arrow.com/en/products/sr4l034-r/antenova" H 1050 2350 50  0001 C CNN "Distrib Link"
+F 8 "-" H 1050 2350 50  0001 C CNN "Tolerance"
+F 9 "https://octopart.com/search?q=SR4L034-R&start=0" H 1050 2350 50  0001 C CNN "Others"
+	1    1050 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01501
 U 1 1 5B3865C4
-P 950 2750
-F 0 "#PWR01501" H 950 2500 50  0001 C CNN
-F 1 "GND" H 950 2600 50  0000 C CNN
-F 2 "" H 950 2750 50  0001 C CNN
-F 3 "" H 950 2750 50  0001 C CNN
-	1    950  2750
+P 950 3150
+F 0 "#PWR01501" H 950 2900 50  0001 C CNN
+F 1 "GND" H 950 3000 50  0000 C CNN
+F 2 "" H 950 3150 50  0001 C CNN
+F 3 "" H 950 3150 50  0001 C CNN
+	1    950  3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  2750 950  2700
 Wire Wire Line
 	3800 2650 3800 2750
 Wire Wire Line
@@ -1745,7 +1741,99 @@ Wire Wire Line
 Wire Wire Line
 	6400 3700 6450 3700
 Wire Wire Line
-	1050 2700 1050 2850
+	1050 2550 1050 2700
 Wire Wire Line
-	1050 2850 1200 2850
+	1050 2700 1300 2700
+$Comp
+L Device:L L1501
+U 1 1 5BA3CBB5
+P 950 2800
+F 0 "L1501" H 1225 2750 50  0000 R CNN
+F 1 "NC" H 1100 2850 50  0000 R CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 950 2800 50  0001 C CNN
+F 3 "~" H 950 2800 50  0001 C CNN
+	1    950  2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1501
+U 1 1 5BA66B56
+P 1300 2900
+F 0 "C1501" H 1275 2800 50  0000 R CNN
+F 1 "NC" H 1250 3000 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1338 2750 50  0001 C CNN
+F 3 "~" H 1300 2900 50  0001 C CNN
+	1    1300 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:L L1502
+U 1 1 5BA66BE4
+P 1500 2650
+F 0 "L1502" V 1650 2650 50  0000 C CNN
+F 1 "NC" V 1575 2650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 1500 2650 50  0001 C CNN
+F 3 "~" H 1500 2650 50  0001 C CNN
+	1    1500 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1504
+U 1 1 5BA66CB3
+P 1700 2900
+F 0 "C1504" H 1675 2800 50  0000 R CNN
+F 1 "NC" H 1650 3000 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1738 2750 50  0001 C CNN
+F 3 "~" H 1700 2900 50  0001 C CNN
+	1    1700 2900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	950  2950 950  3000
+Wire Wire Line
+	950  3100 1300 3100
+Wire Wire Line
+	1700 3100 1700 3050
+Connection ~ 950  3100
+Wire Wire Line
+	950  3100 950  3150
+Wire Wire Line
+	1300 3050 1300 3100
+Connection ~ 1300 3100
+Wire Wire Line
+	1300 3100 1700 3100
+Wire Wire Line
+	1300 2750 1300 2700
+Connection ~ 1300 2700
+Wire Wire Line
+	1300 2700 1700 2700
+Wire Wire Line
+	1350 2650 1300 2650
+Wire Wire Line
+	1300 2650 1300 2700
+Wire Wire Line
+	1650 2650 1700 2650
+Wire Wire Line
+	1700 2650 1700 2700
+Connection ~ 1700 2700
+Wire Wire Line
+	1700 2700 1750 2700
+Wire Wire Line
+	1700 2750 1700 2700
+Wire Wire Line
+	950  2650 950  2600
+Wire Wire Line
+	1950 2950 1950 2900
+Wire Wire Line
+	950  2600 1000 2600
+Wire Wire Line
+	1000 2600 1000 3000
+Wire Wire Line
+	1000 3000 950  3000
+Connection ~ 950  2600
+Wire Wire Line
+	950  2600 950  2550
+Connection ~ 950  3000
+Wire Wire Line
+	950  3000 950  3100
 $EndSCHEMATC
