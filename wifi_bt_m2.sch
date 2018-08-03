@@ -721,8 +721,8 @@ Text Notes 10000 2625 0    60   ~ 0
 TX output\nRX input\nCTS output\nRTS input
 Text Notes 9950 3050 0    60   ~ 0
 ⇒TX→RX\n  RX←TX\n  CTS→CTS\n  RTS←RTS
-Text Notes 6700 3050 0    39   ~ 0
-i.MX8M in DCE mode (POR state)\nhas CTS output, RTS input
+Text Notes 6700 3100 0    39   ~ 0
+i.MX8M in DCE mode\n(POR state)\nhas CTS output, RTS input
 Text Notes 8450 1950 0    60   ~ 0
 UARTn_UFCR[DCEDTE]=0 on POR
 Text HLabel 6050 2200 2    60   Output ~ 0
@@ -1087,13 +1087,13 @@ M2_PCM_IN
 Text Label 4350 7100 0    60   ~ 0
 M2_PCM_OUT
 Text Label 6650 2350 2    60   ~ 0
-BT_UART_RXD
+M2_UART_RXD
 Text Label 6650 2850 2    60   ~ 0
-BT_UART_TXD
-Text Label 1200 6500 0    60   ~ 0
-BT_UART_RXD
-Text Label 1200 6700 0    60   ~ 0
-BT_UART_TXD
+M2_UART_TXD
+Text Label 950  6500 0    60   ~ 0
+M2_UART_RXD
+Text Label 950  6700 0    60   ~ 0
+M2_UART_TXD
 Text Notes 4100 7250 0    60   ~ 0
 configure as slave
 Text Notes 2700 7350 0    60   ~ 0
@@ -1215,13 +1215,13 @@ F 3 "" H 1800 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6650 2950 2    60   ~ 0
-BT_UART_RTS
+M2_UART_RTS
 Text Label 6650 3050 2    60   ~ 0
-BT_UART_CTS
-Text Label 1200 6900 0    60   ~ 0
-BT_UART_RTS
-Text Label 1200 7100 0    60   ~ 0
-BT_UART_CTS
+M2_UART_CTS
+Text Label 950  6900 0    60   ~ 0
+M2_UART_RTS
+Text Label 950  7100 0    60   ~ 0
+M2_UART_CTS
 Text Notes 6500 3400 0    60   ~ 0
 Pin 54 on RS9116 is\nUSB_VBUS Sink
 Text Notes 4400 1350 0    60   ~ 0
@@ -1424,9 +1424,9 @@ Wire Wire Line
 	9650 5100 9400 5100
 Connection ~ 9400 5100
 Wire Wire Line
-	1850 6500 1200 6500
+	1850 6500 950  6500
 Wire Wire Line
-	1850 6700 1200 6700
+	1850 6700 950  6700
 Wire Wire Line
 	6200 5700 6200 5750
 Wire Wire Line
@@ -1536,9 +1536,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 7100 2700 7100
 Wire Wire Line
-	1850 6900 1200 6900
+	1850 6900 950  6900
 Wire Wire Line
-	1850 7100 1200 7100
+	1850 7100 950  7100
 Wire Wire Line
 	2150 5750 2150 6100
 Wire Wire Line
