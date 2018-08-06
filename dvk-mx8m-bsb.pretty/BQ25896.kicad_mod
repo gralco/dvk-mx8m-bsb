@@ -1,6 +1,7 @@
-(module BQ25896 (layer F.Cu) (tedit 5B464B1C)
+(module BQ25896 (layer F.Cu) (tedit 5B688383)
   (solder_mask_margin 0.07)
   (solder_paste_margin -0.025)
+  (attr smd)
   (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

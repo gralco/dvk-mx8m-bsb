@@ -1,5 +1,4 @@
-(module EmCr_SOM_IMX8M_Outline (layer F.Cu) (tedit 5B3EB6AB)
-  (attr smd)
+(module EmCr_SOM_IMX8M_Outline (layer F.Cu) (tedit 5B688438)
   (fp_text reference MOD101 (at 0 -27.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -1233,7 +1232,7 @@
   (pad MH4 thru_hole circle (at 36.8 25 90) (size 6 6) (drill 3.73) (layers *.Cu *.Mask)
     (zone_connect 2))
   (model ${KIPRJMOD}/packages3d/SoM.wrl
-    (at (xyz -1.574473 -1.181417 0.21348))
+    (offset (xyz -39.99161359938621 -30.00799134932518 5.422391918563843))
     (scale (xyz 0.39375 0.39375 0.39375))
     (rotate (xyz 0 0 0))
   )

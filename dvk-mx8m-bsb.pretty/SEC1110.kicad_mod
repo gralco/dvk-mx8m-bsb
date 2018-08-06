@@ -1,6 +1,7 @@
-(module SEC1110 (layer F.Cu) (tedit 5B465554)
+(module SEC1110 (layer F.Cu) (tedit 5B68839B)
   (solder_mask_margin 0.05)
   (solder_paste_margin -0.025)
+  (attr smd)
   (fp_text reference REF** (at 0 -4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
