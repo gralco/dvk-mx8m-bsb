@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Tue 07 Aug 2018 11:50:15 PM EDT")
+    (date "Wed 08 Aug 2018 01:47:38 PM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
