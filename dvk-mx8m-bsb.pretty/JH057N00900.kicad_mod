@@ -1,11 +1,11 @@
-(module JH057N00900 (layer F.Cu) (tedit 5B6B10C4)
+(module JH057N00900 (layer F.Cu) (tedit 5B6B4543)
   (descr "Imported from /home/christian/Bilder/Display_back_vector.svg")
   (tags svg2mod)
   (attr smd)
-  (fp_text reference JH057N00900 (at 0 -10) (layer F.SilkS) hide
+  (fp_text reference JH057N00900 (at 0 -10) (layer F.Fab) hide
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (fp_text value REF** (at 0 8) (layer F.SilkS) hide
+  (fp_text value REF** (at 0 10) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_line (start 24.357133 89.617729) (end 18.404007 89.617734) (layer F.Fab) (width 0.150019))
