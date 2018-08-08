@@ -272,9 +272,9 @@ C1905,NC,Capacitors_SMD:C_0402,,,,,,,
 C2305,NC,Capacitors_SMD:C_0402,,,,,,,
 C2306,NC,Capacitors_SMD:C_0402,,,,,,,
 C2307,NC,Capacitors_SMD:C_0402,,,,,,,
-CBL1501,Coax_cable_ufl_ufl,dvk-mx8m-bsb:Coax_Cable_Straight_4cm,,,,,,,
-CBL1801,Coax_cable_ufl_ufl,dvk-mx8m-bsb:Coax_Cable_Straight_4cm,,,,,,,
-CBL1802,Coax_cable_ufl_ufl,dvk-mx8m-bsb:Coax_Cable_Straight_4cm,,,,,,,
+CBL1501,Coax_cable_ufl_ufl,dvk-mx8m-bsb:Coax_Cable_Straight_5cm,,,,,,,
+CBL1801,Coax_cable_MHF4_MHF4,dvk-mx8m-bsb:Coax_Cable_Straight_5cm,,,,,,,
+CBL1802,Coax_cable_MHF4_MHF4,dvk-mx8m-bsb:Coax_Cable_Straight_5cm,,,,,,,
 CAM1301,OV5640_Camera,dvk-mx8m-bsb:Camera_CO8725-B5SA-E,http://www.trulyamerica.com/products/compact-camera-module/#,,,,,,
 D602,BAT54C,TO_SOT_Packages_SMD:SOT-23,https://goodarksemi.com/docs/datasheets/schottky_diodes/BAT54-A-C-S.pdf,Good-Ark Semi,BAT54C,BAT54C,https://www.arrow.com/en/products/bat54c/good-ark-semiconductor,-,https://octopart.com/search?q=BAT54C&start=0
 D201,DB2J209,dvk-mx8m-bsb:SMini2-F5-B,https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf,Panasonic,DB2J20900L,667-DB2J20900L,https://www.mouser.com/ProductDetail/Panasonic/DB2J20900L?qs=%2fha2pyFaduhbcITEqrxj3eM%252bYzwxAPmbxHAZ9Z3k%2f8Tl0%2fG3TiNLEw%3d%3d&utm_source=octopart&utm_medium=aggregator&utm_campaign=667-DB2J20900L&utm_content=Panasonic,-,https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280

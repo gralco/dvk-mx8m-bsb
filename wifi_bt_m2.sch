@@ -2050,28 +2050,6 @@ F 3 "http://www.redpinesignals.com/pdfs/RS9116_Connectivity_Product_Brief.pdf" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1801
-U 1 1 5B2D8415
-P 2700 3150
-F 0 "CBL1801" H 2025 3275 60  0000 C CNN
-F 1 "Coax_cable_ufl_ufl" H 2900 3275 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2700 3150 60  0001 C CNN
-F 3 "" H 2700 3150 60  0001 C CNN
-	1    2700 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL1802
-U 1 1 5B2D8870
-P 2700 4600
-F 0 "CBL1802" H 2025 4725 60  0000 C CNN
-F 1 "Coax_cable_ufl_ufl" H 2900 4725 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2700 4600 60  0001 C CNN
-F 3 "" H 2700 4600 60  0001 C CNN
-	1    2700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C1822
 U 1 1 5B2ED326
 P 8550 1150
@@ -2403,4 +2381,26 @@ Wire Wire Line
 Connection ~ 1300 5300
 Wire Wire Line
 	1300 5300 1300 4900
+$Comp
+L dvk-mx8m-bsb:Coax_cable_MHF4_MHF4 CBL1801
+U 1 1 5BB59C68
+P 2700 3150
+F 0 "CBL1801" H 1775 3275 60  0000 C CNN
+F 1 "Coax_cable_MHF4_MHF4" H 2700 3275 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_5cm" H 2700 3150 60  0001 C CNN
+F 3 "" H 2700 3150 60  0001 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dvk-mx8m-bsb:Coax_cable_MHF4_MHF4 CBL1802
+U 1 1 5BB59E76
+P 2750 4600
+F 0 "CBL1802" H 1825 4725 60  0000 C CNN
+F 1 "Coax_cable_MHF4_MHF4" H 2750 4725 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_5cm" H 2750 4600 60  0001 C CNN
+F 3 "" H 2750 4600 60  0001 C CNN
+	1    2750 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

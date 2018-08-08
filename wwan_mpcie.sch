@@ -1336,7 +1336,7 @@ U 1 1 5B2DDE6A
 P 2325 3750
 F 0 "CBL1501" H 1850 3875 60  0000 C CNN
 F 1 "Coax_cable_ufl_ufl" H 2525 3875 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_4cm" H 2525 3750 60  0001 C CNN
+F 2 "dvk-mx8m-bsb:Coax_Cable_Straight_5cm" H 2525 3750 60  0001 C CNN
 F 3 "" H 2525 3750 60  0001 C CNN
 	1    2325 3750
 	1    0    0    1   

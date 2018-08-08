@@ -1,0 +1,17 @@
+(module Coax_Cable_Straight_5cm (layer F.Cu) (tedit 5B6A60EA)
+  (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Coax_Cable_Straight_5cm (at 0 1.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -25 0.6) (end -25 -0.6) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 25 -0.6) (end 25 0.6) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -25 -0.6) (end 25 -0.6) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -25 0.6) (end 25 0.6) (layer Dwgs.User) (width 0.15))
+  (model ${KIPRJMOD}/packages3d/MHF4_plug.wrl
+    (offset (xyz 20 0 0))
+    (scale (xyz 0.3989 0.3989 0.3989))
+    (rotate (xyz -90 0 -90))
+  )
+)
