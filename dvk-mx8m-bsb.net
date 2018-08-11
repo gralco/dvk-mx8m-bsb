@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Sat 11 Aug 2018 02:16:38 PM EDT")
+    (date "Sat 11 Aug 2018 02:56:22 PM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9841,7 +9841,7 @@
       (node (ref R103) (pin 2))
       (node (ref Q1801) (pin 3))
       (node (ref P4) (pin 15)))
-    (net (code 202) (name 22V4)
+    (net (code 202) (name 22V4_P)
       (node (ref C461) (pin 1))
       (node (ref C1210) (pin 1))
       (node (ref C1207) (pin 1))
