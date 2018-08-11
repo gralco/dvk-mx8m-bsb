@@ -940,7 +940,7 @@ L Device:R R418
 U 1 1 5B1A5A2A
 P 10100 4400
 F 0 "R418" H 10250 4450 50  0000 C CNN
-F 1 "30k" H 10225 4350 50  0000 C CNN
+F 1 "33k" H 10225 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 4400 50  0001 C CNN
 F 3 "" H 10100 4400 50  0001 C CNN
 	1    10100 4400
@@ -952,7 +952,7 @@ U 1 1 5B1A5C1F
 P 10500 3750
 F 0 "C461" H 10525 3850 50  0000 L CNN
 F 1 "1uF" H 10525 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10538 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 3600 50  0001 C CNN
 F 3 "" H 10500 3750 50  0001 C CNN
 	1    10500 3750
 	1    0    0    -1  
@@ -1073,7 +1073,7 @@ $EndComp
 Text Notes 9150 5300 0    60   ~ 0
 Reference:\nhttps://www.diodes.com/assets/\nEvaluation-Boards/\nPAM2841-User-Guide.pdf
 Text Notes 9500 4050 0    60   ~ 0
-OVP@~~37.6V
+OVP@~~34.3V
 Text Notes 9150 5375 0    39   ~ 0
 (brochure lists backlight as an application)
 $Comp
