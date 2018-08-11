@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Sat 11 Aug 2018 02:56:22 PM EDT")
+    (date "Sat 11 Aug 2018 07:15:31 PM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1747,7 +1747,7 @@
       (sheetpath (names /Power/) (tstamps /5B0FA74B/))
       (tstamp 5B1A5A2A))
     (comp (ref C461)
-      (value 1uF)
+      (value 4.7uF)
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /Power/) (tstamps /5B0FA74B/))
