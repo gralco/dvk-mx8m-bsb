@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Sat 11 Aug 2018 07:15:31 PM EDT")
+    (date "Tue 14 Aug 2018 01:30:15 AM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -527,6 +527,12 @@
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B4F549E))
+    (comp (ref SK1)
+      (value Purism_Logo)
+      (footprint dvk-mx8m-bsb:Purism_Logo)
+      (libsource (lib dvk-mx8m-bsb) (part Purism_Logo) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5BB51875))
     (comp (ref C202)
       (value 2.2uF)
       (footprint Capacitor_SMD:C_0603_1608Metric)
@@ -8034,6 +8040,12 @@
         (pin (num 15) (name VBUS) (type power_in))
         (pin (num 16) (name EN_SRC) (type output))
         (pin (num 17) (name GND) (type power_in))))
+    (libpart (lib dvk-mx8m-bsb) (part Purism_Logo)
+      (footprints
+        (fp Purism_Logo*))
+      (fields
+        (field (name Reference) SK)
+        (field (name Value) Purism_Logo)))
     (libpart (lib dvk-mx8m-bsb) (part Q_NMOS_DUAL)
       (description "30 V, 180 mA dual N-channel Trench MOSFET")
       (fields

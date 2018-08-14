@@ -1,4 +1,4 @@
-update=Fri 10 Aug 2018 09:01:57 PM EDT
+update=Tue 14 Aug 2018 01:33:26 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -9,25 +9,6 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[pcbnew]
-version=1
-PageLayoutDescrFile=purism_portrait.kicad_wks
-LastNetListRead=
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=2.2
-PadSizeV=1.05
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.06
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=purism_landscape.kicad_wks
@@ -38,3 +19,22 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=purism_portrait.kicad_wks
+LastNetListRead=
+PadDrill=3
+PadDrillOvalY=3
+PadSizeH=3
+PadSizeV=1.8
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.06
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.09999999999999999
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15

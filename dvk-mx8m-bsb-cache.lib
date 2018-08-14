@@ -2899,6 +2899,20 @@ X DBG_ACC 9 1000 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# dvk-mx8m-bsb:Purism_Logo
+#
+DEF dvk-mx8m-bsb:Purism_Logo SK 0 40 Y Y 1 F N
+F0 "SK" 0 100 60 H I C CNN
+F1 "dvk-mx8m-bsb:Purism_Logo" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+$FPLIST
+ Purism_Logo*
+$ENDFPLIST
+DRAW
+ENDDRAW
+ENDDEF
+#
 # dvk-mx8m-bsb:Q_NMOS_DUAL
 #
 DEF dvk-mx8m-bsb:Q_NMOS_DUAL Q 0 0 Y N 2 F N

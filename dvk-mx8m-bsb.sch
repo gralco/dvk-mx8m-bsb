@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 24
 Title "Librem 5 Dev Kit"
-Date "2018-07-17"
+Date "2018-08-14"
 Rev "v0.1.0"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
@@ -2890,4 +2890,15 @@ Wire Notes Line
 	15650 9750 15950 9750
 Text Notes 11300 1550 2    60   ~ 0
 HDMI_HPD
+$Comp
+L dvk-mx8m-bsb:Purism_Logo SK1
+U 1 1 5BB51875
+P 1350 9150
+F 0 "SK1" H 1350 9250 60  0001 C CNN
+F 1 "Purism_Logo" H 1375 9150 60  0000 L CNN
+F 2 "dvk-mx8m-bsb:Purism_Logo" H 1350 9150 60  0001 C CNN
+F 3 "" H 1350 9150 60  0001 C CNN
+	1    1350 9150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
