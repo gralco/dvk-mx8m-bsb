@@ -2280,12 +2280,12 @@ $EndComp
 $Comp
 L dvk-mx8m-bsb:Fiducial FID102
 U 1 1 5B34A33F
-P 2000 9450
-F 0 "FID102" H 2000 9625 60  0000 C CNN
-F 1 "Fiducial" H 2000 9550 60  0000 C CNN
-F 2 "dvk-mx8m-bsb:Fiducial" H 2000 9450 60  0001 C CNN
-F 3 "" H 2000 9450 60  0001 C CNN
-	1    2000 9450
+P 1300 10700
+F 0 "FID102" H 1300 10875 60  0000 C CNN
+F 1 "Fiducial" H 1300 10800 60  0000 C CNN
+F 2 "dvk-mx8m-bsb:Fiducial" H 1300 10700 60  0001 C CNN
+F 3 "" H 1300 10700 60  0001 C CNN
+	1    1300 10700
 	1    0    0    -1  
 $EndComp
 $Comp
