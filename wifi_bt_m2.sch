@@ -915,15 +915,15 @@ L dvk-mx8m-bsb:74AUP2G08 U1803
 U 1 1 5AFAFE0B
 P 7550 3550
 F 0 "U1803" H 7550 3600 50  0000 C CNN
-F 1 "74LVC2G08" H 7550 3500 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:74LVC2G08DCU" H 7550 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g08.pdf" H 7550 3550 50  0001 C CNN
+F 1 "74AUP2G08" H 7550 3500 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:74AUP2G08DCU" H 7550 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf" H 7550 3550 50  0001 C CNN
 F 4 "Texas Instruments" H 7550 3550 60  0001 C CNN "MFG Name"
-F 5 "SN74LVC2G08DCU" H 7550 3550 60  0001 C CNN "MFG Part Num"
-F 6 "SN74LVC2G08DCU6" H 7550 3550 60  0001 C CNN "Distrib PN"
-F 7 "https://www.rocelec.com/part/textissn74lvc2g08dcu6" H 7550 3550 60  0001 C CNN "Distrib Link"
+F 5 "SN74AUP2G08DCU" H 7550 3550 60  0001 C CNN "MFG Part Num"
+F 6 "SN74AUP2G08DCUR" H 7550 3550 60  0001 C CNN "Distrib PN"
+F 7 "https://store.ti.com/SN74AUP2G08DCUR.aspx" H 7550 3550 60  0001 C CNN "Distrib Link"
 F 8 "-" H 7550 3550 60  0001 C CNN "Tolerance"
-F 9 "https://store.ti.com/SN74AUP2G08DCUR.aspx" H 7550 3550 60  0001 C CNN "Others"
+F 9 "https://www.rocelec.com/part/textissn74aup2g08dcur" H 7550 3550 60  0001 C CNN "Others"
 	1    7550 3550
 	-1   0    0    -1  
 $EndComp
@@ -1233,8 +1233,8 @@ L dvk-mx8m-bsb:74AUP2G08 U1803
 U 2 1 5B14C873
 P 7550 4450
 F 0 "U1803" H 7550 4500 50  0000 C CNN
-F 1 "74LVC2G08" H 7550 4400 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:74LVC2G08DCU" H 7550 4450 50  0001 C CNN
+F 1 "74AUP2G08" H 7550 4400 50  0000 C CNN
+F 2 "dvk-mx8m-bsb:74AUP2G08DCU" H 7550 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf" H 7550 4450 50  0001 C CNN
 F 4 "Texas Instruments" H 7550 4450 60  0001 C CNN "MFG Name"
 F 5 "SN74AUP2G08DCU" H 7550 4450 60  0001 C CNN "MFG Part Num"
