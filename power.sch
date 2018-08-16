@@ -1760,9 +1760,9 @@ Wire Wire Line
 	4950 3450 4950 3650
 Connection ~ 4950 3950
 Text Notes 4000 4750 0    60   ~ 0
-0.1%
+0.5%
 Text Notes 3550 2100 0    60   ~ 0
-0.1%
+0.5%
 $Comp
 L dvk-mx8m-bsb:5V_P #PWR0408
 U 1 1 5B1FFC91
