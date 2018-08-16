@@ -951,13 +951,13 @@ P 8200 2950
 F 0 "C213" H 8225 3050 50  0000 L CNN
 F 1 "10uF" H 8225 2850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 2800 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 8200 2950 50  0001 C CNN
-F 4 "Taiyo Yuden" V 8200 2950 60  0001 C CNN "MFG Name"
-F 5 "LMK107BBJ106MALT" V 8200 2950 60  0001 C CNN "MFG Part Num"
-F 6 "587-3258-1-ND" V 8200 2950 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BBJ106MALT/587-3258-1-ND/3662218" V 8200 2950 60  0001 C CNN "Distrib Link"
+F 3 "http://www.farnell.com/datasheets/2291921.pdf?_ga=2.48712998.102033539.1534381505-1463127165.1531753465" H 8200 2950 50  0001 C CNN
+F 4 "TDK" V 8200 2950 60  0001 C CNN "MFG Name"
+F 5 "C1608X5R1E106M080AC" V 8200 2950 60  0001 C CNN "MFG Part Num"
+F 6 "95Y0025" V 8200 2950 60  0001 C CNN "Distrib PN"
+F 7 "http://www.newark.com/tdk/c1608x5r1e106m080ac/capacitor-mlcc-x5r-10uf-25v-0603/dp/95Y0025" V 8200 2950 60  0001 C CNN "Distrib Link"
 F 8 "20%" V 8200 2950 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv16=5&FV=380010%2C380014%2C380016%2C380020%2C380004%2C380009%2C400005%2C400006%2C440013%2C1f140000%2Cmu10%C2%B5F%7C2049%2Cffe0003c&quantity=0&ColumnSort=1000011&page=1&pageSize=500" V 8200 2950 60  0001 C CNN "Others"
+F 9 "https://octopart.com/search?q=C1608X5R1E106M080AC&start=0" V 8200 2950 60  0001 C CNN "Others"
 	1    8200 2950
 	1    0    0    -1  
 $EndComp
@@ -1070,7 +1070,7 @@ F 9 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-c
 	-1   0    0    -1  
 $EndComp
 Text Notes 8225 2825 0    39   ~ 0
-35V
+≥25V
 Text Notes 8525 2825 0    39   ~ 0
 35V
 Text Notes 8825 2825 0    39   ~ 0

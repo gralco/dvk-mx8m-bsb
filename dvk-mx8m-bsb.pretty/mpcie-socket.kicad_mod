@@ -1,5 +1,6 @@
-(module mpcie-socket (layer F.Cu) (tedit 5B63715D)
+(module mpcie-socket (layer F.Cu) (tedit 5B74F652)
   (tags "mpci, pci, pci express")
+  (attr smd)
   (fp_text reference Ref** (at 12.5 -7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

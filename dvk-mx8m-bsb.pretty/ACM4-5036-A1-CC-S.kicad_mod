@@ -1,6 +1,7 @@
-(module ACM4-5036-A1-CC-S (layer F.Cu) (tedit 5B629608)
+(module ACM4-5036-A1-CC-S (layer F.Cu) (tedit 5B74F6D0)
   (tags "Chip Antenna")
   (solder_mask_margin 0.000001)
+  (attr smd)
   (fp_text reference REF** (at 0 -5.925) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

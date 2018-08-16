@@ -1,4 +1,5 @@
-(module Switch_CK_DPDT_JS202011JAQN (layer F.Cu) (tedit 5B63DEF9)
+(module Switch_CK_DPDT_JS202011JAQN (layer F.Cu) (tedit 5B74F732)
+  (attr smd)
   (fp_text reference REF** (at 0 -2.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

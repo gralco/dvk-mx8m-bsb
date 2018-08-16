@@ -2891,10 +2891,10 @@ Wire Notes Line
 Text Notes 11300 1550 2    60   ~ 0
 HDMI_HPD
 $Comp
-L dvk-mx8m-bsb:Purism_Logo SK1
+L dvk-mx8m-bsb:Purism_Logo SK101
 U 1 1 5BB51875
 P 1350 9150
-F 0 "SK1" H 1350 9250 60  0001 C CNN
+F 0 "SK101" H 1350 9250 60  0001 C CNN
 F 1 "Purism_Logo" H 1375 9150 60  0000 L CNN
 F 2 "dvk-mx8m-bsb:Purism_Logo" H 1350 9150 60  0001 C CNN
 F 3 "" H 1350 9150 60  0001 C CNN
