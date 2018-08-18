@@ -207,7 +207,6 @@ F 9 "https://octopart.com/search?q=1010027182&start=0" H 7650 3500 60  0001 C CN
 	1    7650 3500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7150 3600
 $Comp
 L power:GND #PWR02208
 U 1 1 5B27C54B
@@ -257,7 +256,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4750 6300 4700
 Wire Wire Line
-	6250 3800 7150 3800
+	6250 3800 7100 3800
 Wire Wire Line
 	6750 3700 6900 3700
 Wire Wire Line
@@ -305,8 +304,6 @@ Wire Wire Line
 	4600 2500 4650 2500
 Text Notes 4600 2000 0    236  ~ 47
 Smart Card
-Wire Wire Line
-	7150 3800 7150 3700
 Wire Wire Line
 	6250 4100 7250 4100
 Wire Wire Line
@@ -394,4 +391,9 @@ Wire Wire Line
 	7100 3200 7150 3200
 Wire Wire Line
 	7700 4000 7750 4000
+Wire Wire Line
+	7100 3800 7100 3700
+Wire Wire Line
+	7100 3700 7150 3700
+NoConn ~ 7150 3600
 $EndSCHEMATC
