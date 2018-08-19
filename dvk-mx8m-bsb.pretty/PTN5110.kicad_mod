@@ -68,4 +68,7 @@
     (zone_connect 2))
   (pad 17 smd rect (at 0 0) (size 1.1 1) (layers B.Cu)
     (solder_paste_margin -0.000001) (solder_paste_margin_ratio -0.08))
+  (fp_text user %R (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 )
