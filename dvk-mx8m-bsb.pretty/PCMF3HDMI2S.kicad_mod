@@ -1,4 +1,4 @@
-(module PCMF3HDMI2S (layer F.Cu) (tedit 5B593838)
+(module PCMF3HDMI2S (layer F.Cu) (tedit 5B79B9D3)
   (tags "Differential 3-channel common-mode EMI filter with integrated ESD protection")
   (solder_mask_margin 0.0375)
   (attr smd)
@@ -47,6 +47,7 @@
   )
   (fp_line (start 0.585 1.185) (end -0.585 1.185) (layer F.Fab) (width 0.05))
   (fp_line (start 0.585 -1.185) (end 0.585 1.185) (layer F.Fab) (width 0.05))
+  (fp_circle (center 0.4 -1) (end 0.45 -1) (layer F.Fab) (width 0.1))
   (pad B2 smd circle (at 0 0 270) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad B1 smd circle (at 0 -0.8 270) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (pad A1 smd circle (at 0.4 -1 270) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))

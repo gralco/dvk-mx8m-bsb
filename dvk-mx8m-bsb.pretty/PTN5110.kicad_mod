@@ -1,4 +1,4 @@
-(module PTN5110 (layer F.Cu) (tedit 5B74F7A0)
+(module PTN5110 (layer F.Cu) (tedit 5B79B7FE)
   (descr https://www.nxp.com/docs/en/data-sheet/PTN5110_SDS.pdf)
   (tags "USB PD TCPC PHY IC")
   (solder_mask_margin 0.05)
@@ -43,6 +43,7 @@
   (fp_line (start 1.925 1.025) (end 1.425 1.025) (layer F.Fab) (width 0.05))
   (fp_line (start 1.925 -1.025) (end 1.425 -1.025) (layer F.Fab) (width 0.05))
   (fp_line (start 1.925 -1.025) (end 1.925 1.025) (layer F.Fab) (width 0.05))
+  (fp_circle (center -1.75 -1.25) (end -1.675 -1.25) (layer F.Fab) (width 0.15))
   (pad 1 smd rect (at -1.35 -0.8) (size 0.9 0.24) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.35 -0.4) (size 0.9 0.24) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -1.35 0) (size 0.9 0.24) (layers F.Cu F.Paste F.Mask))
