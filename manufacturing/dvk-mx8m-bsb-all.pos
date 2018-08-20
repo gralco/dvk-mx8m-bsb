@@ -1,8 +1,12 @@
-### Module positions - created on Thu Aug 16 15:30:33 2018 ###
+### Module positions - created on Mon Aug 20 16:10:31 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0
 ## Unit = inches, Angle = deg.
 ## Side : All
+## Coordinates listed are relative to the top-left fiducial
 # Ref     Val                  Package                                   PosX       PosY       Rot  Side
+FID101    Fiducial             Fiducial                                0.0000     0.0000    0.0000  top
+FID102    Fiducial             Fiducial                               -0.8661    -6.9291    0.0000  top
+FID103    Fiducial             Fiducial                                2.4409    -6.9291    0.0000  top
 C101      22uF                 C_0603_1608Metric                      -2.3209    -2.8155   90.0000  bottom
 C102      22uF                 C_0603_1608Metric                      -2.0492    -2.8155   90.0000  bottom
 C103      100nF                C_0402_1005Metric                      -2.1220    -3.0354  270.0000  bottom
@@ -443,9 +447,6 @@ FB1702    BLM18PG121SN1D       FER-0603                                1.2106   
 FB1703    BLM18PG121SN1D       FER-0603                                1.0512    -6.1339  180.0000  top
 FB2002    BLM18PG121SN1D       FER-0603                                2.2441    -6.4587  270.0000  top
 FB2301    BLM18PG121SN1D       FER-0603                                1.1772    -1.1831  270.0000  top
-FID101    Fiducial             Fiducial                                0.0000     0.0000    0.0000  top
-FID102    Fiducial             Fiducial                               -0.8661    -6.9291    0.0000  top
-FID103    Fiducial             Fiducial                                2.4409    -6.9291    0.0000  top
 J201      USB_C                USB_C_Receptacle                        0.2283    -6.8209    0.0000  top
 J1001     Micro_SD             ALPS_SCHA4B0419                        -0.2874    -6.7126    0.0000  top
 J1301     OV5640               Conn_Pan_AXT530124                      2.3465    -2.0728    0.0000  top
