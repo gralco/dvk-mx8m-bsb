@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 24
 Title "Librem 5 Dev Kit"
-Date "2018-08-21"
-Rev "v0.1.1"
+Date "2018-09-05"
+Rev "v0.1.2"
 Comp "Copyright 2018 GNU GPLv3"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
