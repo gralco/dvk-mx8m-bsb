@@ -8,7 +8,7 @@ Sheet 1 24
 Title "Librem 5 Dev Kit"
 Date "2018-09-05"
 Rev "v0.1.2"
-Comp "Copyright 2018 GNU GPLv3"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
