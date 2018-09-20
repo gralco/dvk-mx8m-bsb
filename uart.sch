@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 4150 4850 4150
 Wire Wire Line
-	4850 3350 6000 3350
+	4850 3350 5900 3350
 $Comp
 L power:GND #PWR0705
 U 1 1 5ACD6CF4
@@ -222,4 +222,6 @@ F 3 "" H 6250 3150 50  0001 C CNN
 $EndComp
 Text Notes 4650 2700 0    236  ~ 47
 UART Debug
+Wire Wire Line
+	5900 3350 6000 3350
 $EndSCHEMATC

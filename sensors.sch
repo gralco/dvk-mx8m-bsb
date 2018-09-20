@@ -4973,7 +4973,7 @@ Wire Notes Line
 Wire Notes Line
 	9200 3310 9900 3310
 Wire Wire Line
-	9100 3250 9100 3400
+	9100 3250 9100 3300
 Wire Wire Line
 	8850 3300 9100 3300
 Wire Wire Line
@@ -4993,7 +4993,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2600 9000 2600
 Wire Wire Line
-	8900 4750 7100 4750
+	8900 4750 8250 4750
 Connection ~ 7400 4750
 Wire Wire Line
 	7100 4750 7100 4650
@@ -5018,14 +5018,14 @@ Wire Wire Line
 Wire Wire Line
 	4400 3400 4200 3400
 Wire Wire Line
-	3650 2550 3650 3100
+	3650 2550 3650 2600
 Wire Wire Line
 	4400 3800 4400 3750
 Connection ~ 2450 3900
 Wire Wire Line
 	2450 3850 2450 3900
 Wire Wire Line
-	2400 3900 3100 3900
+	2400 3900 2450 3900
 Wire Wire Line
 	2450 3500 2450 3550
 Connection ~ 3650 2600
@@ -5043,12 +5043,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 3850 4250 3850
 Wire Wire Line
-	3450 2600 3850 2600
+	3450 2600 3650 2600
 Wire Wire Line
 	4150 2600 4400 2600
 Connection ~ 4400 2600
 Wire Wire Line
-	8900 3800 8900 4750
+	8900 3800 8900 3900
 Wire Wire Line
 	8900 3800 8850 3800
 Wire Wire Line
@@ -5067,12 +5067,12 @@ Wire Wire Line
 	8250 4750 8250 4500
 Connection ~ 8250 4750
 Wire Wire Line
-	8050 4500 8050 4800
+	8050 4500 8050 4750
 Connection ~ 8050 4750
 Wire Wire Line
 	8150 2900 8150 2850
 Wire Wire Line
-	8150 2850 8550 2850
+	8150 2850 8250 2850
 Wire Wire Line
 	8550 2850 8550 2900
 Connection ~ 8350 2850
@@ -5085,7 +5085,7 @@ Connection ~ 8450 2850
 Wire Wire Line
 	8500 2200 8500 2250
 Wire Wire Line
-	7850 2200 8500 2200
+	7850 2200 8150 2200
 Wire Wire Line
 	8150 2250 8150 2200
 Connection ~ 8150 2200
@@ -5121,7 +5121,7 @@ F 3 "" H 9700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 1850 9700 2500
+	9700 1850 9700 1900
 $Comp
 L Device:C C2008
 U 1 1 5B0EBD64
@@ -5227,7 +5227,7 @@ $EndComp
 Wire Wire Line
 	4400 2200 4400 2250
 Wire Wire Line
-	4400 2550 4400 3450
+	4400 2550 4400 2600
 $Comp
 L Device:Ferrite_Bead FB2002
 U 1 1 5B2D277B
@@ -5246,7 +5246,7 @@ F 9 "https://octopart.com/search?q=BLM18PG121SN1D&start=0" V 8350 2000 60  0001 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8350 2150 8350 2850
+	8350 2150 8350 2200
 Wire Wire Line
 	8350 1850 8350 1800
 $Comp
@@ -5261,6 +5261,50 @@ F 3 "" H 7850 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 2150 7850 2250
+	7850 2150 7850 2200
 Connection ~ 7850 2200
+Wire Wire Line
+	9100 3300 9100 3400
+Wire Wire Line
+	7400 4750 7100 4750
+Wire Wire Line
+	2450 3900 3100 3900
+Wire Wire Line
+	3650 2600 3650 3100
+Wire Wire Line
+	3650 2600 3850 2600
+Wire Wire Line
+	4400 3400 4400 3450
+Wire Wire Line
+	4400 2600 4400 3400
+Wire Wire Line
+	8900 3900 8900 4000
+Wire Wire Line
+	8900 4000 8900 4100
+Wire Wire Line
+	8900 4100 8900 4200
+Wire Wire Line
+	8900 4200 8900 4750
+Wire Wire Line
+	8250 4750 8050 4750
+Wire Wire Line
+	8050 4750 8050 4800
+Wire Wire Line
+	8050 4750 7400 4750
+Wire Wire Line
+	8350 2850 8450 2850
+Wire Wire Line
+	8250 2850 8350 2850
+Wire Wire Line
+	8450 2850 8550 2850
+Wire Wire Line
+	8150 2200 8350 2200
+Wire Wire Line
+	8350 2200 8350 2850
+Wire Wire Line
+	8350 2200 8500 2200
+Wire Wire Line
+	9700 1900 9700 2500
+Wire Wire Line
+	7850 2200 7850 2250
 $EndSCHEMATC

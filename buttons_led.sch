@@ -83,7 +83,7 @@ VOL UP
 Text Notes 3100 5850 0    60   ~ 0
 ON/OFF
 Wire Wire Line
-	3450 6000 4350 6000
+	3450 6000 3500 6000
 $Comp
 L power:GND #PWR01419
 U 1 1 5ACC7D2C
@@ -246,9 +246,9 @@ $EndComp
 Wire Wire Line
 	3700 3900 3700 3850
 Wire Wire Line
-	3450 3500 4350 3500
+	3450 3500 3500 3500
 Wire Wire Line
-	3700 3450 3700 3550
+	3700 3450 3700 3500
 $Comp
 L Device:C C1401
 U 1 1 5AF899A7
@@ -274,9 +274,9 @@ $EndComp
 Wire Wire Line
 	3700 2650 3700 2600
 Wire Wire Line
-	3450 2250 4350 2250
+	3450 2250 3500 2250
 Wire Wire Line
-	3700 2200 3700 2300
+	3700 2200 3700 2250
 $Comp
 L Device:C C1404
 U 1 1 5AF8B583
@@ -327,9 +327,9 @@ $EndComp
 Wire Wire Line
 	3700 5150 3700 5100
 Wire Wire Line
-	3450 4750 4350 4750
+	3450 4750 3500 4750
 Wire Wire Line
-	3700 4700 3700 4800
+	3700 4700 3700 4750
 Text Notes 7350 3650 0    60   ~ 0
 16-bit PWM2
 Text Notes 7100 2450 0    60   ~ 0
@@ -357,7 +357,7 @@ F 3 "" H 8100 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7850 3750 7950 3750
+	7850 3750 7900 3750
 Wire Wire Line
 	8250 3750 8300 3750
 Wire Wire Line
@@ -511,7 +511,7 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 5950 3700 6050
+	3700 5950 3700 6000
 $Comp
 L dvk-mx8m-bsb:3V3_P #PWR01411
 U 1 1 5B1DEF78
@@ -713,4 +713,30 @@ F 9 "https://octopart.com/search?q=B3U-3000P&start=0" H 3250 6000 60  0001 C CNN
 	1    3250 6000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3700 2250 4350 2250
+Wire Wire Line
+	3700 2250 3700 2300
+Wire Wire Line
+	3700 3500 4350 3500
+Wire Wire Line
+	3700 3500 3700 3550
+Wire Wire Line
+	3700 4750 4350 4750
+Wire Wire Line
+	3700 4750 3700 4800
+Wire Wire Line
+	3700 6000 4350 6000
+Wire Wire Line
+	3700 6000 3700 6050
+Wire Wire Line
+	7900 3750 7950 3750
+Wire Wire Line
+	3500 3500 3700 3500
+Wire Wire Line
+	3500 2250 3700 2250
+Wire Wire Line
+	3500 6000 3700 6000
+Wire Wire Line
+	3500 4750 3700 4750
 $EndSCHEMATC

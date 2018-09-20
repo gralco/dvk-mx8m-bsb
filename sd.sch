@@ -85,9 +85,9 @@ F 3 "" H 6400 2550 50  0001 C CNN
 $EndComp
 Connection ~ 6100 2750
 Wire Wire Line
-	6100 2700 6100 2800
+	6100 2700 6100 2750
 Wire Wire Line
-	5800 2750 6400 2750
+	5800 2750 6100 2750
 Wire Wire Line
 	6400 2750 6400 2700
 Wire Wire Line
@@ -101,9 +101,9 @@ Connection ~ 5800 2350
 Wire Wire Line
 	5800 2400 5800 2350
 Wire Wire Line
-	6100 2300 6100 2400
+	6100 2300 6100 2350
 Wire Wire Line
-	5600 2350 6400 2350
+	5600 2350 5800 2350
 Wire Wire Line
 	5600 3650 5600 2350
 Wire Wire Line
@@ -117,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 4050 5650 4050
 Wire Wire Line
-	4250 3950 5650 3950
+	4250 3950 5450 3950
 Wire Wire Line
 	4250 3350 5650 3350
 $Comp
@@ -687,7 +687,7 @@ $EndBitmap
 Text Notes 6150 5000 0    60   ~ 0
 Normally Open?
 Wire Wire Line
-	4250 4250 5650 4250
+	4250 4250 4750 4250
 Connection ~ 4750 4250
 Connection ~ 5450 3950
 Connection ~ 5100 3550
@@ -750,11 +750,11 @@ Wire Wire Line
 	5450 2950 5450 3000
 Connection ~ 5100 2950
 Wire Wire Line
-	5100 2900 5100 3000
+	5100 2900 5100 2950
 Wire Wire Line
 	4750 3000 4750 2950
 Wire Wire Line
-	4750 2950 5450 2950
+	4750 2950 5100 2950
 Wire Wire Line
 	5450 3300 5450 3950
 $Comp
@@ -780,7 +780,7 @@ F 3 "" H 4450 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4250 3550 5650 3550
+	4250 3550 5100 3550
 Wire Wire Line
 	4250 3750 4300 3750
 $Comp
@@ -806,7 +806,7 @@ F 3 "" H 4650 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 3750 5650 3750
+	4600 3750 4650 3750
 Wire Wire Line
 	4650 4300 4650 3750
 Connection ~ 4650 3750
@@ -850,4 +850,26 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    6100 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6100 2750 6100 2800
+Wire Wire Line
+	6100 2750 6400 2750
+Wire Wire Line
+	6100 2350 6100 2400
+Wire Wire Line
+	6100 2350 6400 2350
+Wire Wire Line
+	5800 2350 6100 2350
+Wire Wire Line
+	4750 4250 5650 4250
+Wire Wire Line
+	5450 3950 5650 3950
+Wire Wire Line
+	5100 3550 5650 3550
+Wire Wire Line
+	5100 2950 5100 3000
+Wire Wire Line
+	5100 2950 5450 2950
+Wire Wire Line
+	4650 3750 5650 3750
 $EndSCHEMATC

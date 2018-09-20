@@ -120,25 +120,25 @@ PWM needed?\nOnly needs to be toggled\nON 1 sec, OFF 1 sec (0.5Hz)
 Text Notes 3650 4000 0    60   ~ 0
 Can MUX as either\nGPIO or PWM2\nswapping with LED
 Wire Wire Line
-	6050 3350 6050 3600
+	6050 3350 6050 3400
 Wire Wire Line
-	5300 3800 5400 3800
+	5300 3800 5350 3800
 Wire Wire Line
 	5350 3450 5350 3400
 Connection ~ 6050 3400
 Wire Wire Line
-	6050 4000 6050 4300
+	6050 4000 6050 4050
 Wire Wire Line
-	6050 4400 6050 4700
+	6050 4400 6050 4650
 Wire Wire Line
 	5250 4200 5250 4050
 Wire Wire Line
-	5250 4050 6050 4050
+	5250 4050 5650 4050
 Connection ~ 6050 4050
 Wire Wire Line
 	5250 4500 5250 4650
 Wire Wire Line
-	5250 4650 6050 4650
+	5250 4650 5650 4650
 Connection ~ 6050 4650
 Wire Wire Line
 	5650 4200 5650 4050
@@ -218,7 +218,21 @@ $EndComp
 Wire Wire Line
 	6650 3800 6650 3750
 Wire Wire Line
-	5350 3400 6650 3400
+	5350 3400 6050 3400
 Wire Wire Line
 	6650 3400 6650 3450
+Wire Wire Line
+	6050 3400 6050 3600
+Wire Wire Line
+	6050 3400 6650 3400
+Wire Wire Line
+	6050 4050 6050 4300
+Wire Wire Line
+	6050 4650 6050 4700
+Wire Wire Line
+	5650 4050 6050 4050
+Wire Wire Line
+	5650 4650 6050 4650
+Wire Wire Line
+	5350 3800 5400 3800
 $EndSCHEMATC

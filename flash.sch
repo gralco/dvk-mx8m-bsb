@@ -152,11 +152,11 @@ $EndComp
 Wire Wire Line
 	5850 2700 5850 2650
 Wire Wire Line
-	5850 2650 6150 2650
+	5850 2650 6000 2650
 Wire Wire Line
 	6150 2650 6150 2700
 Wire Wire Line
-	6000 2600 6000 3200
+	6000 2600 6000 2650
 Connection ~ 6000 2650
 Wire Wire Line
 	5850 3000 5850 3050
@@ -165,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 4200 5900 4250
 Wire Wire Line
-	5900 4250 6100 4250
+	5900 4250 6000 4250
 Wire Wire Line
 	6100 4250 6100 4200
 Wire Wire Line
@@ -176,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3600 5400 3600
 Wire Wire Line
-	4900 3700 5400 3700
+	4900 3700 4950 3700
 Wire Wire Line
 	6600 3500 6650 3500
 Wire Wire Line
@@ -188,9 +188,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 3250 4250 3300
 Wire Wire Line
-	4600 3600 4600 3950
+	4600 3600 4600 3800
 Wire Wire Line
-	4250 3250 4950 3250
+	4250 3250 4600 3250
 Connection ~ 4600 3800
 $Comp
 L power:GND #PWR02102
@@ -222,8 +222,22 @@ Wire Wire Line
 	4950 3600 4950 3700
 Connection ~ 4950 3700
 Wire Wire Line
-	4600 3300 4600 3200
+	4600 3300 4600 3250
 Wire Wire Line
 	4950 3250 4950 3300
 Connection ~ 4600 3250
+Wire Wire Line
+	6000 2650 6150 2650
+Wire Wire Line
+	6000 2650 6000 3200
+Wire Wire Line
+	6000 4250 6100 4250
+Wire Wire Line
+	4600 3800 4600 3950
+Wire Wire Line
+	4950 3700 5400 3700
+Wire Wire Line
+	4600 3250 4950 3250
+Wire Wire Line
+	4600 3250 4600 3200
 $EndSCHEMATC

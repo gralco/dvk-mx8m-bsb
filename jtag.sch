@@ -84,7 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3650 6600 3650
 Wire Wire Line
-	6400 3750 6600 3750
+	6400 3750 6550 3750
 Wire Wire Line
 	6300 3950 6550 3950
 Wire Wire Line
@@ -104,7 +104,7 @@ $EndComp
 Wire Wire Line
 	6400 3450 6950 3450
 Wire Wire Line
-	6950 3450 6950 3800
+	6950 3450 6950 3550
 Wire Wire Line
 	6400 3550 6950 3550
 Connection ~ 6950 3550
@@ -115,7 +115,7 @@ Wire Wire Line
 	6900 3750 6950 3750
 Connection ~ 6950 3750
 Wire Wire Line
-	4950 3450 5900 3450
+	4950 3450 5750 3450
 Wire Wire Line
 	5750 3450 5750 4000
 $Comp
@@ -142,12 +142,12 @@ JTAG_TDI
 Text HLabel 4950 3750 0    60   Output ~ 0
 POR_B
 Wire Wire Line
-	4950 3350 5900 3350
+	4950 3350 5250 3350
 Connection ~ 5750 3450
 Wire Wire Line
 	4950 3550 5900 3550
 Wire Wire Line
-	4950 3650 5900 3650
+	4950 3650 5350 3650
 Wire Wire Line
 	4950 3750 5400 3750
 Wire Wire Line
@@ -183,7 +183,7 @@ $EndComp
 Wire Wire Line
 	5250 3000 5250 2950
 Wire Wire Line
-	5250 2950 5350 2950
+	5250 2950 5300 2950
 Wire Wire Line
 	5350 2950 5350 3000
 Wire Wire Line
@@ -265,4 +265,20 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 $EndComp
 Text Notes 5600 2300 0    236  ~ 47
 JTAG
+Wire Wire Line
+	6550 3750 6600 3750
+Wire Wire Line
+	6950 3550 6950 3650
+Wire Wire Line
+	6950 3650 6950 3750
+Wire Wire Line
+	6950 3750 6950 3800
+Wire Wire Line
+	5750 3450 5900 3450
+Wire Wire Line
+	5300 2950 5350 2950
+Wire Wire Line
+	5250 3350 5900 3350
+Wire Wire Line
+	5350 3650 5900 3650
 $EndSCHEMATC
