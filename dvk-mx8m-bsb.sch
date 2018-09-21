@@ -466,9 +466,9 @@ SAI6_TXD0
 Text Notes 15200 2250 0    60   ~ 0
 SAI6_RXD0
 Text Notes 15200 1550 0    60   ~ 0
-SAI6_TXFS/RXFS
+SAI6_RXFS/TXFS
 Text Notes 15200 2150 0    60   ~ 0
-SAI6_TXC/RXC
+SAI6_RXC/TXC
 Text Label 12550 8350 0    60   ~ 0
 VBUS
 Text GLabel 12800 8150 0    60   Input ~ 0
@@ -613,7 +613,7 @@ S 6200 10550 700  200
 U 5AFCB56A
 F0 "Haptic Motor" 60
 F1 "haptic.sch" 60
-F2 "HAPTIC" I R 6900 10650 60 
+F2 "~HAPTIC" I R 6900 10650 60 
 $EndSheet
 Text Label 11300 2950 2    60   ~ 0
 SAI5_TX_BCLK
@@ -648,9 +648,9 @@ F 3 "" H 7950 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8250 6600 0    60   ~ 0
-HAPTIC
+~HAPTIC
 Text Label 7450 10650 2    60   ~ 0
-HAPTIC
+~HAPTIC
 Text Notes 15200 1350 0    60   ~ 12
 Alternate \nFunctions:
 Text Label 8250 3700 0    60   ~ 0
@@ -855,9 +855,9 @@ F 3 "" H 15800 8900 50  0001 C CNN
 $EndComp
 Text Label 10750 5100 0    60   ~ 0
 ECSPI1_MOSI
-Text Label 8250 9100 0    60   ~ 0
-ECSPI1_MISO
 Text Label 8250 8750 0    60   ~ 0
+ECSPI1_MISO
+Text Label 8250 9100 0    60   ~ 0
 ECSPI1_MOSI
 Text Label 4700 3850 2    60   ~ 0
 ~WWAN_DISABLE

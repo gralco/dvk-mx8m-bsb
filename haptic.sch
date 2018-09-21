@@ -67,7 +67,7 @@ F 3 "" H 5350 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text HLabel 5300 3800 0    60   Input ~ 0
-HAPTIC
+~HAPTIC
 $Comp
 L Device:D_Schottky_ALT D2401
 U 1 1 5AFD563E
