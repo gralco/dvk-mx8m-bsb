@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 24
 Title "Librem 5 Dev Kit"
 Date "2018-09-05"
-Rev "v0.1.2"
+Rev "v0.1.3"
 Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -232,7 +232,7 @@ F7 "HP_DET" O R 12450 3850 60
 F8 "I2C3_SDA" B R 12450 4450 60 
 F9 "I2C3_SCL" I R 12450 4550 60 
 F10 "MIC_SEL" I L 11350 4450 60 
-F11 "MUTE" I R 12450 3950 60 
+F11 "~MUTE" I R 12450 3950 60 
 $EndSheet
 $Sheet
 S 4850 1050 1450 1500
@@ -2458,14 +2458,14 @@ GPIO1_IO05
 Wire Wire Line
 	12450 3950 12950 3950
 Text Label 12950 3950 2    60   ~ 0
-MUTE
+~MUTE
 Text Notes 13490 3930 2    60   ~ 0
 GPIO5_IO03
 NoConn ~ 8100 7400
 Wire Wire Line
 	9350 6500 8250 6500
 Text Label 8250 6500 0    60   ~ 0
-MUTE
+~MUTE
 Text Label 10650 6800 2    60   ~ 0
 MIC_SEL
 Wire Wire Line

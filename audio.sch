@@ -6538,7 +6538,7 @@ F 9 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	0    1    1    0   
 $EndComp
 Text HLabel 4250 2350 0    60   Input ~ 0
-MUTE
+~MUTE
 $Comp
 L Device:R R1602
 U 1 1 5B4E9C2D

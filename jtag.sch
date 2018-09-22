@@ -156,8 +156,6 @@ Wire Wire Line
 	6000 3950 4950 3950
 Text HLabel 4950 3950 0    60   Output ~ 0
 JTAG_~TRST
-Text Notes 5750 3200 0    60   ~ 0
-ARM DStream
 $Comp
 L dvk-mx8m-bsb:3V3_OUT #PWR0803
 U 1 1 5AEA3F80
