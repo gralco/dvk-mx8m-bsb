@@ -272,25 +272,25 @@ F 3 "" H 9600 4650 50  0001 C CNN
 	1    9600 4650
 	-1   0    0    1   
 $EndComp
-Text Label 6800 3700 0    60   ~ 0
+Text Label 6800 4000 0    60   ~ 0
 HDMI_HEAC_P
-Text Label 6800 2400 0    60   ~ 0
+Text Label 6800 2500 0    60   ~ 0
 HDMI_CN_TX2_P
 Text Label 6800 2600 0    60   ~ 0
 HDMI_CN_TX2_N
-Text Label 6800 2700 0    60   ~ 0
+Text Label 6800 2800 0    60   ~ 0
 HDMI_CN_TX1_P
 Text Label 6800 2900 0    60   ~ 0
 HDMI_CN_TX1_N
-Text Label 6800 3000 0    60   ~ 0
+Text Label 6800 3100 0    60   ~ 0
 HDMI_CN_TX0_P
 Text Label 6800 3200 0    60   ~ 0
 HDMI_CN_TX0_N
-Text Label 6800 3300 0    60   ~ 0
+Text Label 6800 3400 0    60   ~ 0
 HDMI_CN_CLK_P
 Text Label 6800 3500 0    60   ~ 0
 HDMI_CN_CLK_N
-Text HLabel 6800 3600 0    60   BiDi ~ 0
+Text HLabel 6800 3700 0    60   BiDi ~ 0
 HDMI_CEC
 Text HLabel 6800 3800 0    60   Input ~ 0
 HDMI_DDC_SCL
@@ -298,7 +298,7 @@ Text HLabel 6800 3900 0    60   BiDi ~ 0
 HDMI_DDC_SDA
 Text Label 6800 4100 0    60   ~ 0
 DCDC_5V_CN
-Text Label 6800 3600 0    60   ~ 0
+Text Label 6800 3700 0    60   ~ 0
 HDMI_CEC
 Text Label 6800 3800 0    60   ~ 0
 HDMI_DDC_SCL
@@ -407,22 +407,6 @@ Text Label 5400 4200 2    60   ~ 0
 HDMI_CN_TX1_N
 Text Notes 10000 2000 0    39   ~ 0
 SMD Micro-HDMI Type D Alternative:\n0467650301
-$Comp
-L dvk-mx8m-bsb:HDMI-SWM-19 J1901
-U 1 1 5B003DCE
-P 10450 3300
-F 0 "J1901" H 10550 4375 50  0000 L BNN
-F 1 "Mini-HDMI" H 10550 4300 50  0000 L BNN
-F 2 "dvk-mx8m-bsb:HDMI_Mini_Female_2001-1-2-21-00-BK" H 10480 3450 20  0001 C CNN
-F 3 "http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf" H 10450 3300 60  0001 C CNN
-F 4 "2001-1-2-21-00-BK" H 10450 3300 60  0001 C CNN "MFG Part Num"
-F 5 "1175-1704-1-ND" H 10450 3300 60  0001 C CNN "Distrib PN"
-F 6 "https://www.digikey.com/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013" H 10450 3300 60  0001 C CNN "Distrib Link"
-F 7 "-" H 10450 3300 60  0001 C CNN "Tolerance"
-F 8 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?FV=ffe00138%2C7008fd%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 10450 3300 60  0001 C CNN "Others"
-	1    10450 3300
-	-1   0    0    -1  
-$EndComp
 $Comp
 L dvk-mx8m-bsb:5V_P #PWR01905
 U 1 1 5B3E4E0C
@@ -673,13 +657,6 @@ Text Notes 3250 5050 0    60   ~ 0
 4B
 Text Notes 1300 3700 0    60   ~ 0
 Dual N-Fet annotation\nmust follow text!
-Wire Wire Line
-	7550 1850 7550 4100
-Connection ~ 9600 4200
-Wire Wire Line
-	9600 4500 9600 4200
-Wire Wire Line
-	8650 2350 8650 3800
 Connection ~ 8100 1850
 Connection ~ 7550 1850
 Wire Wire Line
@@ -756,44 +733,24 @@ Wire Wire Line
 	6050 1800 6050 1850
 Wire Wire Line
 	6050 1850 6250 1850
-Connection ~ 10200 4000
-Wire Wire Line
-	10200 4000 10250 4000
-Connection ~ 10200 3400
-Wire Wire Line
-	10200 3400 10250 3400
-Connection ~ 10200 3100
-Wire Wire Line
-	10200 3100 10250 3100
-Connection ~ 10200 2800
-Wire Wire Line
-	10250 2800 10200 2800
-Wire Wire Line
-	10250 2500 10200 2500
-Wire Wire Line
-	6800 3900 8100 3900
-Wire Wire Line
-	6800 3800 8650 3800
-Wire Wire Line
-	6800 3600 9200 3600
 Wire Wire Line
 	10250 3500 6800 3500
 Wire Wire Line
-	10250 3300 6800 3300
+	10250 3400 6800 3400
 Wire Wire Line
 	10250 3200 6800 3200
 Wire Wire Line
-	10250 3000 6800 3000
+	10250 3100 6800 3100
 Wire Wire Line
 	10250 2900 6800 2900
 Wire Wire Line
-	10250 2700 6800 2700
+	10250 2800 6800 2800
 Wire Wire Line
 	10250 2600 6800 2600
 Wire Wire Line
-	6800 2400 10250 2400
+	6800 2500 10250 2500
 Wire Wire Line
-	10250 3700 6800 3700
+	10250 4000 6800 4000
 Wire Wire Line
 	6800 4200 9600 4200
 Connection ~ 8100 4850
@@ -818,8 +775,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 4800 8100 4850
 Connection ~ 10200 4450
-Wire Wire Line
-	10200 2500 10200 2800
 Wire Wire Line
 	10000 4450 10000 4500
 Wire Wire Line
@@ -965,16 +920,6 @@ Wire Wire Line
 	2000 3300 2000 3350
 Wire Wire Line
 	1250 3300 1250 3350
-Connection ~ 7550 4100
-Wire Wire Line
-	6800 4100 7550 4100
-Wire Wire Line
-	8100 2350 8100 3900
-Wire Wire Line
-	9200 2350 9200 3600
-Connection ~ 8100 3900
-Connection ~ 8650 3800
-Connection ~ 9200 3600
 Text Notes 5500 1150 0    236  ~ 47
 HDMI
 $Comp
@@ -1025,8 +970,6 @@ F 9 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 4200 10250 4200
-Wire Wire Line
 	8100 1850 8650 1850
 Wire Wire Line
 	7550 1850 8100 1850
@@ -1046,14 +989,6 @@ Wire Wire Line
 	6150 2350 6250 2350
 Wire Wire Line
 	6250 1850 6500 1850
-Wire Wire Line
-	10200 4000 10200 4450
-Wire Wire Line
-	10200 3400 10200 4000
-Wire Wire Line
-	10200 3100 10200 3400
-Wire Wire Line
-	10200 2800 10200 3100
 Wire Wire Line
 	8100 4850 8650 4850
 Wire Wire Line
@@ -1120,23 +1055,7 @@ Wire Wire Line
 	2750 3350 3500 3350
 Wire Wire Line
 	2000 3350 2750 3350
-Wire Wire Line
-	7550 4100 7550 4500
-Wire Wire Line
-	7550 4100 10250 4100
-Wire Wire Line
-	8100 3900 10250 3900
-Wire Wire Line
-	8100 3900 8100 4500
-Wire Wire Line
-	8650 3800 8650 4500
-Wire Wire Line
-	8650 3800 10250 3800
-Wire Wire Line
-	9200 3600 10250 3600
-Wire Wire Line
-	9200 3600 9200 4500
-Text Notes 9600 3700 0    60   ~ 0
+Text Notes 9600 4000 0    60   ~ 0
 HDMI_Utility
 Text HLabel 6800 4200 0    60   Output ~ 0
 HDMI_HEAC_N
@@ -1144,4 +1063,85 @@ Text Label 3600 1900 2    60   ~ 0
 HDMI_AUX_AC_P
 Text Label 3600 2000 2    60   ~ 0
 HDMI_AUX_AC_N
+$Comp
+L dvk-mx8m-bsb:HDMI-SWM-19 J1901
+U 1 1 5B003DCE
+P 10450 3300
+F 0 "J1901" H 10550 4375 50  0000 L BNN
+F 1 "Mini-HDMI" H 10550 4300 50  0000 L BNN
+F 2 "dvk-mx8m-bsb:HDMI_Mini_Female_2001-1-2-21-00-BK" H 10480 3450 20  0001 C CNN
+F 3 "http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf" H 10450 3300 60  0001 C CNN
+F 4 "2001-1-2-21-00-BK" H 10450 3300 60  0001 C CNN "MFG Part Num"
+F 5 "1175-1704-1-ND" H 10450 3300 60  0001 C CNN "Distrib PN"
+F 6 "https://www.digikey.com/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013" H 10450 3300 60  0001 C CNN "Distrib Link"
+F 7 "-" H 10450 3300 60  0001 C CNN "Tolerance"
+F 8 "https://www.digikey.com/products/en/connectors-interconnects/usb-dvi-hdmi-connectors/312?FV=ffe00138%2C7008fd%2C1f140000&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 10450 3300 60  0001 C CNN "Others"
+	1    10450 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4100 7550 4100
+Wire Wire Line
+	9600 4500 9600 4200
+Wire Wire Line
+	9600 4200 10250 4200
+Wire Wire Line
+	6800 3900 8100 3900
+Wire Wire Line
+	6800 3800 8650 3800
+Wire Wire Line
+	6800 3700 9200 3700
+Wire Wire Line
+	7550 4100 7550 4500
+Wire Wire Line
+	7550 1850 7550 4100
+Connection ~ 7550 4100
+Wire Wire Line
+	7550 4100 10250 4100
+Wire Wire Line
+	8650 3800 8650 4500
+Wire Wire Line
+	8650 2350 8650 3800
+Connection ~ 8650 3800
+Wire Wire Line
+	8650 3800 10250 3800
+Wire Wire Line
+	8100 3900 8100 4500
+Wire Wire Line
+	8100 2350 8100 3900
+Connection ~ 8100 3900
+Wire Wire Line
+	8100 3900 10250 3900
+Connection ~ 9600 4200
+Wire Wire Line
+	9200 3700 9200 4500
+Connection ~ 9200 3700
+Wire Wire Line
+	9200 2350 9200 3700
+Wire Wire Line
+	9200 3700 10250 3700
+Wire Wire Line
+	10200 4450 10200 3600
+Wire Wire Line
+	10200 2400 10250 2400
+Wire Wire Line
+	10250 2700 10200 2700
+Wire Wire Line
+	10200 2700 10200 2400
+Connection ~ 10200 2700
+Wire Wire Line
+	10250 3000 10200 3000
+Wire Wire Line
+	10200 3000 10200 2700
+Connection ~ 10200 3000
+Wire Wire Line
+	10250 3300 10200 3300
+Wire Wire Line
+	10200 3300 10200 3000
+Connection ~ 10200 3300
+Wire Wire Line
+	10250 3600 10200 3600
+Wire Wire Line
+	10200 3600 10200 3300
+Connection ~ 10200 3600
 $EndSCHEMATC
