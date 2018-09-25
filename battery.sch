@@ -2366,7 +2366,7 @@ Text Notes 4750 2300 0    60   ~ 0
 Text Notes 4000 4150 0    60   ~ 0
 Read: 0xD7\nWrite: 0xD6
 Text Notes 7850 4025 0    60   ~ 0
-ICHG(default)=REG[6:0]=2048mA (reduce to ~~1.6A [0011001])
+ICHG(default)=REG12[6:0]=2048mA (reduce to ~~1.6A [0011001])
 $Comp
 L Device:R R303
 U 1 1 5B2725A1
