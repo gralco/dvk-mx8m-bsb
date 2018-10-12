@@ -1714,7 +1714,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 1000 2500 1050
 Text Notes 3100 2900 0    39   ~ 0
-may use lineout left channel\nfor pseudo-earpiece speaker
+may use lineout left channel\nfor pseudo-loud speaker
 Text Notes 7650 5700 0    60   ~ 0
 DPDT with\ncamera
 Text Notes 5050 7500 0    39   ~ 0

@@ -994,7 +994,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 4850 10200 4850
 Wire Wire Line
-	9600 4850 10000 4850
+	9600 4850 9700 4850
 Wire Wire Line
 	9200 4850 9200 4900
 Wire Wire Line
@@ -1121,8 +1121,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 3700 10250 3700
 Wire Wire Line
-	10200 4450 10200 3600
-Wire Wire Line
 	10200 2400 10250 2400
 Wire Wire Line
 	10250 2700 10200 2700
@@ -1143,5 +1141,14 @@ Wire Wire Line
 	10250 3600 10200 3600
 Wire Wire Line
 	10200 3600 10200 3300
+Wire Wire Line
+	10200 3600 10200 4350
+Wire Wire Line
+	10200 4350 9700 4350
+Wire Wire Line
+	9700 4350 9700 4850
 Connection ~ 10200 3600
+Connection ~ 9700 4850
+Wire Wire Line
+	9700 4850 10000 4850
 $EndSCHEMATC
