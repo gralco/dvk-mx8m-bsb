@@ -58,14 +58,14 @@ U 1 1 5B00BA4A
 P 5550 3100
 F 0 "J1803" H 5600 5075 50  0000 C CNN
 F 1 "Key_E" H 5600 5000 50  0000 C CNN
-F 2 "dvk-mx8m-bsb:MDT180EXX" H 5550 3100 50  0001 C CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/CMDT180XXX001.pdf" H 5550 3100 50  0001 C CNN
+F 2 "dvk-mx8m-bsb:MDT320E03001" H 5550 3100 50  0001 C CNN
+F 3 "https://signin.amphenolcanada.com/ProductSearch/drawings/AC/MDTXXXXXX001.pdf" H 5550 3100 50  0001 C CNN
 F 4 "Amphenol" H 5550 3100 60  0001 C CNN "MFG Name"
-F 5 "MDT180E03001" H 5550 3100 60  0001 C CNN "MFG Part Num"
-F 6 "MDT180E03001CT-ND" H 5550 3100 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT180E03001/MDT180E03001CT-ND/5810396" H 5550 3100 60  0001 C CNN "Distrib Link"
+F 5 "MDT320E03001" H 5550 3100 60  0001 C CNN "MFG Part Num"
+F 6 "MDT320E03001CT-ND" H 5550 3100 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT320E03001/MDT320E03001CT-ND/5810380" H 5550 3100 60  0001 C CNN "Distrib Link"
 F 8 "-" H 5550 3100 60  0001 C CNN "Tolerance"
-F 9 "https://octopart.com/search?q=MDT180E03001&start=0" H 5550 3100 60  0001 C CNN "Others"
+F 9 "https://octopart.com/search?q=MDT320E03001&start=0" H 5550 3100 60  0001 C CNN "Others"
 	1    5550 3100
 	1    0    0    -1  
 $EndComp

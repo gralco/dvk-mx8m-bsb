@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/dvk-mx8m-bsb/dvk-mx8m-bsb.sch)
-    (date "Fri 12 Oct 2018 04:00:48 PM EDT")
+    (date "Wed 17 Oct 2018 02:56:29 PM EDT")
     (tool "Eeschema 5.0.0")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -5308,7 +5308,7 @@
       (tstamp 5B38E6C5))
     (comp (ref J1803)
       (value Key_E)
-      (footprint dvk-mx8m-bsb:MDT180EXX)
+      (footprint dvk-mx8m-bsb:MDT320E03001)
       (datasheet https://www.amphenolcanada.com/ProductSearch/drawings/AC/CMDT180XXX001.pdf)
       (fields
         (field (name "Distrib Link") https://www.digikey.com/product-detail/en/amphenol-commercial-products/MDT180E03001/MDT180E03001CT-ND/5810396)
