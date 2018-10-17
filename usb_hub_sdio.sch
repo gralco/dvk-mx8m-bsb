@@ -495,9 +495,6 @@ Text Label 3950 3900 0    60   ~ 0
 CD
 Text HLabel 9750 1700 0    60   Input ~ 0
 SDCD
-Text Label 3950 4000 0    60   ~ 0
-WP
-NoConn ~ 3950 4000
 $Comp
 L dvk-mx8m-bsb:5V_P #PWR0907
 U 1 1 5B169FFA
@@ -816,8 +813,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 3900 4400 3900
 Wire Wire Line
-	4400 4000 3950 4000
-Wire Wire Line
 	5400 1900 5400 2900
 Wire Wire Line
 	5100 1900 5150 1900
@@ -892,7 +887,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 5850 6350 6000
 Wire Wire Line
-	4350 3600 4350 4750
+	4350 3600 4350 4000
 Wire Wire Line
 	6950 3900 6950 4750
 Wire Wire Line
@@ -952,4 +947,9 @@ Text Label 7000 4000 0    60   ~ 0
 D0+
 Text Label 7000 4100 0    60   ~ 0
 D0-
+Wire Wire Line
+	4400 4000 4350 4000
+Connection ~ 4350 4000
+Wire Wire Line
+	4350 4000 4350 4750
 $EndSCHEMATC
