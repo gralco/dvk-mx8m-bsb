@@ -3708,4 +3708,6 @@ Wire Wire Line
 	8000 5050 8150 5050
 Wire Wire Line
 	8200 2850 8750 2850
+Text Notes 9400 1200 0    60   ~ 0
+Display Driver IC PN:\n   Sitronix ST7703
 $EndSCHEMATC
