@@ -603,8 +603,8 @@ Connection ~ 8450 5050
 Wire Wire Line
 	8000 5000 8000 5050
 Connection ~ 8000 5050
-Text Notes 7950 1000 0    60   ~ 0
-                 LCD PN:\nShenzhen Jinghong Electronics Co., Ltd.\n              JH057N00900
+Text Notes 7750 1000 0    60   ~ 0
+                      LCD PN:\nRocktech / Shenzhen Jinghong Electronics Co., Ltd.\n                   JH057N00900
 Text Notes 4900 2450 0    60   ~ 0
 Cap-Touch Controller IC PN:\n      Goodix GT5688
 $Bitmap
