@@ -847,7 +847,7 @@ $EndComp
 Text Notes 4900 1775 0    60   ~ 0
        fast role swap is optional\nPTN5110 8.1.4 leaves it floating (good)!
 Text Notes 4850 2200 0    60   ~ 0
-Open-drain output\ntied with CHRG_~INT
+Open-drain output
 Text Notes 650  3550 0    60   ~ 0
 "Under dead battery operation, PTN5110 applies voltage clamps to both CC pins so that\n the system may receive power as a Sink. To support platforms with buck-boost\n configuration, PTN5110 asserts EN_SNK1 pin based on validity of VBUS voltage\n (facilitates 5 V VBUS sinking)."
 Text Notes 4925 4125 0    60   ~ 0
