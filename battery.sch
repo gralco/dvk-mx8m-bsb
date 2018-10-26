@@ -387,7 +387,7 @@ $EndComp
 Text HLabel 5600 4150 2    60   Input ~ 0
 ONOFF
 Text Notes 7850 4550 0    60   ~ 0
-may want to include BQ29705 protection as in:\nhttp://www.ti.com/lit/ug/tiducl1/tiducl1.pdf\nschematic: http://www.ti.com/lit/df/tidrp70/tidrp70.pdf\n(PTC may be good enough)
+could use BQ29705 protection as in:\nhttp://www.ti.com/lit/ug/tiducl1/tiducl1.pdf\nschematic: http://www.ti.com/lit/df/tidrp70/tidrp70.pdf\n(PTC is enough)
 Text Notes 7850 3900 0    60   ~ 0
 VBAT(ovp_default)=REG06[7:2]=4.208V (reduce to 4.192V [010110])\nWorst Case:\nVBAT(default_max_ovp)=(REG06[7:2]×1.005)×1.04=4.3982016V\nBQ29705 provides 4.425V as OVP!
 Text Notes 4300 5300 0    60   ~ 0
@@ -1924,7 +1924,7 @@ AD 0E 16 6D AF 46 10 04 41 10 04 61 16 F4 FC 20 41 10 04 41 10 84 C9 FC FF 58 AF
 EndData
 $EndBitmap
 Text Notes 7850 3475 0    60   ~ 0
-Proposed battery: NCR18650B
+Proposed battery: protected NCR18650B
 Text Notes 1300 2700 0    60   ~ 0
 (interpret RSOC% based on this plot)
 Text HLabel 3950 2700 0    60   Input ~ 0
@@ -2289,8 +2289,8 @@ F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/5
 	1    3900 4250
 	-1   0    0    -1  
 $EndComp
-Text Notes 6300 5400 0    60   ~ 0
-Battery holder seems to fit up to ~~68.88mm long batteries\nneed to test 18650 protected cells which are ~~69.35mm long
+Text Notes 6300 5350 0    60   ~ 0
+18650 battery holder fits ~~68.9mm long protected batteries
 $Comp
 L Device:C C305
 U 1 1 5B0BB8A8
