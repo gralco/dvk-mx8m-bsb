@@ -1,6 +1,6 @@
 # dvk-mx8m-bsb
 
-Development kit using EmCraft's i.MX 8M System-on-Module.
+Librem 5 Development Kit using EmCraft's i.MX 8M System-on-Module.
 
 KiCad v5.0.0 has been used to create this design.
 
