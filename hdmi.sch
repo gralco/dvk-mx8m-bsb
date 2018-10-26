@@ -208,7 +208,7 @@ F 3 "" H 4150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 650  650  0    60   ~ 0
-TUSB1046 can be used for DP over USB-C
+TUSB546A-DCI  can be used for HDMI over USB-C
 $Comp
 L Device:Polyfuse F1901
 U 1 1 5B0C90A9
