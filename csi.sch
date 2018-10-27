@@ -6511,9 +6511,9 @@ NoConn ~ 9350 4500
 NoConn ~ 9350 4600
 NoConn ~ 9350 4700
 Text Notes 8500 2150 0    60   ~ 0
-7-bit Slave Address: 0x78\n       (1111 000x)
+7-bit Slave Address: 0x3C\n       (0111 100x)
 Text Notes 8850 2400 0    60   ~ 0
-Read: 0xF1\nWrite 0xF0
+Read: 0x79\nWrite 0x78
 Text Notes 8600 1900 0    60   ~ 0
      Camera PN:\nTruly CO8725-B5SA-E
 Text Notes 5650 3150 0    60   ~ 0
