@@ -311,10 +311,10 @@ F 3 "" H 6750 3000 50  0001 C CNN
 	1    6750 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 8150 2850 0    60   Input ~ 0
-LCD_~RESET
+Text HLabel 8200 2850 0    60   Input ~ 0
+LCD_~RST~_1V8
 Wire Wire Line
-	8150 2850 8200 2850
+	8200 2850 8250 2850
 Wire Wire Line
 	8650 3250 8750 3250
 Wire Wire Line
@@ -3620,34 +3620,34 @@ $EndComp
 $Comp
 L power:GND #PWR01214
 U 1 1 5B477319
-P 8200 3250
-F 0 "#PWR01214" H 8200 3000 50  0001 C CNN
-F 1 "GND" H 8200 3100 50  0000 C CNN
-F 2 "" H 8200 3250 50  0001 C CNN
-F 3 "" H 8200 3250 50  0001 C CNN
-	1    8200 3250
+P 8250 3250
+F 0 "#PWR01214" H 8250 3000 50  0001 C CNN
+F 1 "GND" H 8250 3100 50  0000 C CNN
+F 2 "" H 8250 3250 50  0001 C CNN
+F 3 "" H 8250 3250 50  0001 C CNN
+	1    8250 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 2900 8200 2850
-Connection ~ 8200 2850
+	8250 2900 8250 2850
+Connection ~ 8250 2850
 Wire Wire Line
-	8200 3250 8200 3200
+	8250 3250 8250 3200
 $Comp
 L Device:R R1205
 U 1 1 5B477A28
-P 8200 3050
-F 0 "R1205" H 8375 3100 50  0000 C CNN
-F 1 "10k" H 8325 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 3050 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8200 3050 50  0001 C CNN
-F 4 "Stackpole" H 8200 3050 60  0001 C CNN "MFG Name"
-F 5 "RMCF0603JG10K0" H 8200 3050 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0603JG10K0CT-ND" H 8200 3050 60  0001 C CNN "Distrib PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8200 3050 60  0001 C CNN "Distrib Link"
-F 8 "5%" H 8200 3050 60  0001 C CNN "Tolerance"
-F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8200 3050 60  0001 C CNN "Others"
-	1    8200 3050
+P 8250 3050
+F 0 "R1205" H 8425 3100 50  0000 C CNN
+F 1 "10k" H 8375 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8180 3050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8250 3050 50  0001 C CNN
+F 4 "Stackpole" H 8250 3050 60  0001 C CNN "MFG Name"
+F 5 "RMCF0603JG10K0" H 8250 3050 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0603JG10K0CT-ND" H 8250 3050 60  0001 C CNN "Distrib PN"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0CT-ND/4425128" H 8250 3050 60  0001 C CNN "Distrib Link"
+F 8 "5%" H 8250 3050 60  0001 C CNN "Tolerance"
+F 9 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffe00034%2C400005%2C1f140000%2Cmu10+kOhms%7C2085&quantity=&ColumnSort=1000011&page=1&pageSize=500" H 8250 3050 60  0001 C CNN "Others"
+	1    8250 3050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3707,7 +3707,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 5050 8150 5050
 Wire Wire Line
-	8200 2850 8750 2850
+	8250 2850 8750 2850
 Text Notes 9400 1200 0    60   ~ 0
 Display Driver IC PN:\n   Sitronix ST7703
 $EndSCHEMATC

@@ -59,6 +59,8 @@ C601,100nF,Capacitors_SMD:C_0402,,,,,,,
 C701,100nF,Capacitors_SMD:C_0402,,,,,,,
 C902,100nF,Capacitors_SMD:C_0402,,,,,,,
 C1004,100nF,Capacitors_SMD:C_0402,,,,,,,
+C1101,100nF,Capacitors_SMD:C_0402,,,,,,,
+C1102,100nF,Capacitors_SMD:C_0402,,,,,,,
 C1202,100nF,Capacitors_SMD:C_0402,,,,,,,
 C1206,100nF,Capacitors_SMD:C_0402,,,,,,,
 C1201,100nF,Capacitors_SMD:C_0402,,,,,,,
@@ -651,6 +653,7 @@ U601,RV-4162-C7,dvk-mx8m-bsb:RV-4162-C7,http://www.microcrystal.com/images/_Prod
 U2201,SEC1110,dvk-mx8m-bsb:SEC1110,http://ww1.microchip.com/downloads/en/DeviceDoc/00001561C.pdf,,,,,,
 U1601,SGTL5000,dvk-mx8m-bsb:SGTL5000XNLA3R2,https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf,NXP,SGTL5000XNLA3R2,568-13255-1-ND,https://www.digikey.com/product-detail/en/nxp-usa-inc/SGTL5000XNLA3R2/568-13255-1-ND/6576159,-,https://www.digikey.com/products/en/integrated-circuits-ics/interface-codecs/716?FV=ffe002cc&quantity=&ColumnSort=1000011&page=1&k=SGTL5000&pageSize=500
 U203,TLV3201AIDBVR,dvk-mx8m-bsb:TLV3201AIDBVR,http://www.ti.com/lit/ds/symlink/tlv3201.pdf,Texas Instruments,TLV3201AIDBVR,TLV3201AIDBVR,https://store.ti.com/TLV3201AIDBVR.aspx,-,https://octopart.com/search?q=TLV3201AIDBVR&start=0
+U1101,TXB0101,dvk-mx8m-bsb:TXB0101DCKR,http://www.ti.com/lit/ds/symlink/txb0101.pdf,Texas Instruments,TXB0101DCKR,TXB0101DCKR,https://www.rocelec.com/part/textistxb0101dckr,-,http://www.digipart.com/part/TXB0101DCKR
 U1302,TXB0101,dvk-mx8m-bsb:TXB0101DCKR,http://www.ti.com/lit/ds/symlink/txb0101.pdf,Texas Instruments,TXB0101DCKR,TXB0101DCKR,https://www.rocelec.com/part/textistxb0101dckr,-,http://www.digipart.com/part/TXB0101DCKR
 U2001,VCNL4040,dvk-mx8m-bsb:VCNL4040,http://www.vishay.com/docs/84274/vcnl4040.pdf,Vishay,VCNL4040M3OE-H5,VCNL4040M3OE-H5,EBV,-,https://octopart.com/search?q=VCNL4040&start=0
 Y901,12MHz,dvk-mx8m-bsb:Crystal_12MHz,http://www.ecsxtal.com/store/pdf/ECX-2236.pdf,ECS,ECS-120-12-36-AGN-TR,ECS-120-12-36-AGN-TR,https://www.arrow.com/en/products/ecs-120-12-36-agn-tr/ecs-international,25ppm,https://www.digikey.com/products/en/crystals-oscillators-resonators/crystals/171?k=&pkeyword=&pv69=3&FV=1f140000%2Cmu12MHz%7C2150%2Cffe000ab%2C8c0001%2C8c0010%2C8c0005%2C8c0008&quantity=0&ColumnSort=1000011&page=1&pageSize=500
