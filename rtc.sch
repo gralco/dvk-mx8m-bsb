@@ -34,7 +34,7 @@ P 5000 3250
 F 0 "U601" H 4900 3500 60  0000 C CNN
 F 1 "RV-4162-C7" H 5000 3000 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:RV-4162-C7" H 5100 3000 60  0001 C CNN
-F 3 "http://www.microcrystal.com/images/_Product-Documentation/02_Oscillator_&_RTC_Modules/01_Datasheet/RV-4162-C7.pdf" H 5100 3000 60  0001 C CNN
+F 3 "https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-4162-C7_App-Manual.pdf" H 5100 3000 60  0001 C CNN
 F 4 "Micro Crystal" H 5000 3250 60  0001 C CNN "MFG Name"
 F 5 "RV-4162-C7" H 5000 3250 60  0001 C CNN "MFG Part Num"
 F 6 "428-200007-MG01" H 5000 3250 60  0001 C CNN "Distrib PN"
@@ -146,8 +146,8 @@ Text Notes 5150 4150 0    60   ~ 0
  If battery is depleted\nthen current is ~~350nA\n      (<1µWatt)
 Text Notes 5250 3850 0    60   ~ 0
 VBAT is PTC fused
-Text Notes 7050 3200 0    60   ~ 0
-      VIH(min) not given, however\n    assuming VIH(min)≅0.77647*VDD\n@VDD=4.25V then VIH(min)≅3.2999975V
+Text Notes 6550 3100 0    60   ~ 0
+         VIH(min)=0.7*VDD\n@VDD=4.25V then VIH(min)≅2.975V
 Text Notes 7050 3575 0    60   ~ 0
 3.5~~4.25V
 Wire Wire Line
