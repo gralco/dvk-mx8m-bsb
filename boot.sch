@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 24
+Sheet 5 25
 Title "Boot Configuration"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -51,7 +51,7 @@ SAI6_TXC/RXC
 Text Label 7000 5550 0    60   ~ 0
 BOOT_CFG13
 Text Label 7600 5550 0    60   ~ 0
-SAI6_RXD0
+SAI6_TXD0
 Text Label 7000 2050 0    60   ~ 0
 BOOT_CFG08
 Text Label 7000 2300 0    60   ~ 0
@@ -1685,7 +1685,7 @@ BOOT_CFG04:\n0 - 1-bit SD bus\n1 - 4-bit SD bus\n(pull-up DATA1-3?)
 Text Notes 9050 600  0    60   ~ 0
 Only eMMC
 Text Label 3200 3450 0    60   ~ 0
-SAI6_TXD0
+SAI6_RXD0
 Text Notes 4350 2500 0    60   ~ 0
 BOOT_CFG05:\n1 - 8-bit eMMC bus\n0 - 1-bit eMMC bus
 Text Label 7600 2300 0    60   ~ 0
@@ -2417,4 +2417,8 @@ Wire Wire Line
 	2850 1950 2850 2550
 Wire Wire Line
 	3550 4100 3550 4700
+Text Notes 7550 600  0    60   ~ 0
+[2]
+Text Notes 5100 6300 0    60   ~ 0
+[2]
 $EndSCHEMATC

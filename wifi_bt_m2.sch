@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 24
+Sheet 18 25
 Title "WLAN+BT M.2"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -2403,4 +2403,6 @@ F 3 "" H 2750 4600 60  0001 C CNN
 	1    2750 4600
 	1    0    0    -1  
 $EndComp
+Text Notes 8450 2150 0    60   ~ 0
+[2]
 $EndSCHEMATC

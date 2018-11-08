@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 24
+Sheet 3 25
 Title "Battery"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -449,7 +449,7 @@ F 3 "" H 3900 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1050 5000 0    60   ~ 0
-         This disables charging\n      but maybe not VBUS->VOUT\n  if PTN5110HQ's FAULT_STATUS[6]==1\n(Force Off VBUS bit) then set EN_HiZ=1\nEN_HiZ may be auto-set when in hiccup
+       EN_SNK disables charging\n   but does not disable VBUS->VOUT\nso if PTN5110HQ's FAULT_STATUS[6]==1\n(Force Off VBUS bit) then set EN_HiZ=1\nEN_HiZ may be auto-set when in hiccup
 Text Notes 3475 3175 0    60   ~ 0
  Default LOW:\nadapter source
 $Comp
@@ -474,8 +474,8 @@ F 3 "" H 4250 2550 50  0001 C CNN
 	1    4250 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 3700 2000 0    60   ~ 0
- use AUTO_DPDM_EN\nto auto-detect IINLIM
+Text Notes 3600 2000 0    60   ~ 0
+use EN_ICO (=1 by default)\n   to auto-detect IINLIM
 Text Notes 750  5250 0    60   ~ 0
 Reading PTN5110HQ's CC_STATUS and POWER_STATUS\nregisters will tell TCPM (i.MX8M) when to set EN_HiZ
 Text Notes 750  5600 0    60   ~ 0
@@ -2366,7 +2366,7 @@ Text Notes 4750 2300 0    60   ~ 0
 Text Notes 4000 4150 0    60   ~ 0
 Read: 0xD7\nWrite: 0xD6
 Text Notes 7850 4025 0    60   ~ 0
-ICHG(default)=REG12[6:0]=2048mA (reduce to ~~1.6A [0011001])
+ICHG(default)=REG04[6:0]=2048mA (reduce to ~~1.6A [0011001])
 $Comp
 L Device:R R303
 U 1 1 5B2725A1
@@ -2667,4 +2667,6 @@ F 9 "https://octopart.com/search?q=C1608X5R1E106M080AC&start=0" V 4450 2900 60  
 	1    4450 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 3550 1400 0    60   ~ 0
+[1]
 $EndSCHEMATC

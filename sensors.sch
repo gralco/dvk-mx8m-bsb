@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 24
+Sheet 20 25
 Title "Sensors"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -5307,4 +5307,6 @@ Wire Wire Line
 	9700 1900 9700 2500
 Wire Wire Line
 	7850 2200 7850 2250
+Text Notes 5950 5400 0    60   ~ 0
+[10]
 $EndSCHEMATC

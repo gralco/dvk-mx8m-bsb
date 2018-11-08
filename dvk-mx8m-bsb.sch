@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 24
+Sheet 1 25
 Title "Librem 5 Dev Kit"
-Date "2018-09-05"
-Rev "v0.1.3"
+Date "2018-11-08"
+Rev "v1.0.0"
 Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
@@ -214,9 +214,9 @@ F4 "WWAN_D_N" B L 13000 5850 60
 F5 "~W_DISABLE1" I R 14050 4350 60 
 F6 "PCM_SYNC/I2S_FSC" B R 14050 5100 60 
 F7 "PCM_CLK/I2S_SCK" B R 14050 4850 60 
-F8 "PCM_IN/I2S_IN" I R 14050 5350 60 
-F9 "PCM_OUT/I2S_OUT" O R 14050 5600 60 
-F10 "RESET" I R 14050 4600 60 
+F8 "RESET" I R 14050 4600 60 
+F9 "PCM_OUT/I2S_OUT" I R 14050 5600 60 
+F10 "PCM_IN/I2S_IN" O R 14050 5350 60 
 $EndSheet
 $Sheet
 S 11350 3750 1100 900 
@@ -376,11 +376,11 @@ Text Label 8250 3550 0    60   ~ 0
 HP_DET
 Text Label 15150 5350 2    60   ~ 0
 SAI1_RXD5(GPIO4_IO07)
-Text Notes 15150 5450 2    60   ~ 0
+Text Notes 15150 5700 2    60   ~ 0
 SAI6_TXD0
 Text Label 15150 5600 2    60   ~ 0
 SAI1_TXD5(GPIO4_IO17)
-Text Notes 15150 5700 2    60   ~ 0
+Text Notes 15150 5450 2    60   ~ 0
 SAI6_RXD0
 Text Label 15150 5100 2    60   ~ 0
 SAI1_RXD6(GPIO4_IO08)
@@ -462,9 +462,9 @@ $EndComp
 Text Label 8250 3200 0    60   ~ 0
 PWR_EN
 Text Notes 15200 1450 0    60   ~ 0
-SAI6_TXD0
-Text Notes 15200 2250 0    60   ~ 0
 SAI6_RXD0
+Text Notes 15200 2250 0    60   ~ 0
+SAI6_TXD0
 Text Notes 15200 1550 0    60   ~ 0
 SAI6_RXFS/TXFS
 Text Notes 15200 2150 0    60   ~ 0
@@ -2901,4 +2901,10 @@ F 3 "" H 1350 9150 60  0001 C CNN
 	1    1350 9150
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 16700 550  500  150 
+U 5C6E5A15
+F0 "References" 60
+F1 "references.sch" 60
+$EndSheet
 $EndSCHEMATC
