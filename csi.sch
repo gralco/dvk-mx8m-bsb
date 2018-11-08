@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 24
+Sheet 13 25
 Title "MIPI CSI"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -6889,4 +6889,6 @@ Wire Wire Line
 	10150 3050 10400 3050
 Wire Wire Line
 	9450 2650 9450 2850
+Text Notes 3400 900  0    60   ~ 0
+[6]
 $EndSCHEMATC

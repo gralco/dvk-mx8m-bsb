@@ -1,5 +1,6 @@
-(module MDT320E03001 (layer F.Cu) (tedit 5BC79E91)
+(module MDT320E03001 (layer F.Cu) (tedit 5BFD6D2D)
   (descr MDT320E03001)
+  (attr smd)
   (fp_text reference REF** (at 0 -6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

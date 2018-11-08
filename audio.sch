@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 24
+Sheet 16 25
 Title "Audio"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -12121,4 +12121,10 @@ EF 97 D5 AB E5 F0 E1 BB EA 18 5D E9 C7 CF CF 6C 31 A2 1E 19 26 00 00 00 00 2B E6
 98 00 00 00 00 00 75 FC 3F D2 8E AA 4D 2D 2C 9C 79 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 10650 2350 0    60   ~ 0
+[7]
+Text Notes 2700 4550 0    60   ~ 0
+[8]
+Text Notes 4700 4550 0    60   ~ 0
+[9]
 $EndSCHEMATC

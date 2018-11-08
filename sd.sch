@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 24
+Sheet 10 25
 Title "uSD Card"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -872,4 +872,6 @@ Wire Wire Line
 	5100 2950 5450 2950
 Wire Wire Line
 	4650 3750 5650 3750
+Text Notes 7250 4650 0    60   ~ 0
+[3]
 $EndSCHEMATC

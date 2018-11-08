@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 24
+Sheet 12 25
 Title "MIPI DSI"
-Date "2018-08-14"
-Rev "v0.1.0"
-Comp "Copyright 2018 GNU GPLv3"
+Date "2018-11-08"
+Rev "v1.0.0"
+Comp "Copyright 2018 GNU GPLv3+"
 Comment1 "eric.kuzmenko@puri.sm"
 Comment2 "angus.ainslie@puri.sm"
 Comment3 "nicole.faerber@puri.sm"
@@ -2040,7 +2040,7 @@ Wire Notes Line
 Wire Notes Line
 	9950 4550 9250 4550
 Text Notes 7300 4700 0    60   ~ 0
-100Ω Differential Impedance
+90Ω Differential Impedance
 Text Notes 5600 2900 0    60   ~ 0
 ??mA
 Text Notes 5600 3050 0    39   ~ 0
@@ -3710,4 +3710,14 @@ Wire Wire Line
 	8250 2850 8750 2850
 Text Notes 9400 1200 0    60   ~ 0
 Display Driver IC PN:\n   Sitronix ST7703
+Text Notes 3400 5300 0    60   ~ 0
+[4]
+Text Notes 10000 5100 0    60   ~ 0
+[5]
+Text Notes 10000 5700 0    60   ~ 0
+[5]
+Text Notes 5300 4700 0    60   ~ 0
+[5]
+Text Notes 3050 4700 0    60   ~ 0
+[4]
 $EndSCHEMATC

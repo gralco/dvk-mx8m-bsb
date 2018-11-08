@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amplifier_Audio:PAM8301
+# Amplifier_Audio_PAM8301
 #
-DEF Amplifier_Audio:PAM8301 U 0 20 Y Y 1 F N
+DEF Amplifier_Audio_PAM8301 U 0 20 Y Y 1 F N
 F0 "U" 250 350 50 H V C CNN
-F1 "Amplifier_Audio:PAM8301" 250 250 50 H V C CNN
+F1 "Amplifier_Audio_PAM8301" 250 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -22,11 +22,11 @@ X OUT+ 6 400 100 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_Coaxial
+# Connector_Conn_Coaxial
 #
-DEF Connector:Conn_Coaxial J 0 40 Y N 1 F N
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Connector:Conn_Coaxial" 115 0 50 V V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -47,28 +47,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:TestPoint
+# Connector_Generic_Conn_01x02
 #
-DEF Connector:TestPoint TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
-F1 "Connector:TestPoint" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x02
-#
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -83,11 +66,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x06
+# Connector_Generic_Conn_01x06
 #
-DEF Connector_Generic:Conn_01x06 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic:Conn_01x06" 0 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -110,11 +93,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x39
+# Connector_Generic_Conn_01x39
 #
-DEF Connector_Generic:Conn_01x39 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x39 J 0 40 Y N 1 F N
 F0 "J" 0 2000 50 H V C CNN
-F1 "Connector_Generic:Conn_01x39" 0 -2000 50 H V C CNN
+F1 "Connector_Generic_Conn_01x39" 0 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -203,11 +186,11 @@ X Pin_9 9 -200 1100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x05_Odd_Even
+# Connector_Generic_Conn_02x05_Odd_Even
 #
-DEF Connector_Generic:Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector_Generic:Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -238,11 +221,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x15_Counter_Clockwise
+# Connector_Generic_Conn_02x15_Counter_Clockwise
 #
-DEF Connector_Generic:Conn_02x15_Counter_Clockwise J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x15_Counter_Clockwise J 0 40 Y N 1 F N
 F0 "J" 50 800 50 H V C CNN
-F1 "Connector_Generic:Conn_02x15_Counter_Clockwise" 50 -800 50 H V C CNN
+F1 "Connector_Generic_Conn_02x15_Counter_Clockwise" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -313,11 +296,28 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Antenna_Shield
+# Connector_TestPoint
 #
-DEF Device:Antenna_Shield AE 0 40 N N 1 F N
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Antenna_Shield
+#
+DEF Device_Antenna_Shield AE 0 40 N N 1 F N
 F0 "AE" -75 175 50 H V R CNN
-F1 "Device:Antenna_Shield" -75 100 50 H V R CNN
+F1 "Device_Antenna_Shield" -75 100 50 H V R CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -334,11 +334,11 @@ X Shield 2 100 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Device:Battery_Cell
+# Device_Battery_Cell
 #
-DEF Device:Battery_Cell BT 0 0 N N 1 F N
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Device:Battery_Cell" 100 0 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -353,11 +353,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -371,11 +371,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:CP1
+# Device_CP1
 #
-DEF Device:CP1 C 0 10 N N 1 F N
+DEF Device_CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:CP1" 25 -100 50 H V L CNN
+F1 "Device_CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -391,11 +391,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Crystal_GND24
+# Device_Crystal_GND24
 #
-DEF Device:Crystal_GND24 Y 0 40 Y N 1 F N
+DEF Device_Crystal_GND24 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "Device:Crystal_GND24" 125 125 50 H V L CNN
+F1 "Device_Crystal_GND24" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -418,11 +418,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_Schottky_ALT
+# Device_D_Schottky_ALT
 #
-DEF Device:D_Schottky_ALT D 0 40 N N 1 F N
+DEF Device_D_Schottky_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_Schottky_ALT" 0 -100 50 H V C CNN
+F1 "Device_D_Schottky_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -440,11 +440,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_Schottky_x2_KCom_AAK
+# Device_D_Schottky_x2_KCom_AAK
 #
-DEF Device:D_Schottky_x2_KCom_AAK D 0 30 Y N 1 F N
+DEF Device_D_Schottky_x2_KCom_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "Device:D_Schottky_x2_KCom_AAK" 0 100 50 H V C CNN
+F1 "Device_D_Schottky_x2_KCom_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -464,11 +464,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_TVS_ALT
+# Device_D_TVS_ALT
 #
-DEF Device:D_TVS_ALT D 0 40 N N 1 F N
+DEF Device_D_TVS_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_TVS_ALT" 0 -100 50 H V C CNN
+F1 "Device_D_TVS_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -487,11 +487,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_Zener_ALT
+# Device_D_Zener_ALT
 #
-DEF Device:D_Zener_ALT D 0 40 N N 1 F N
+DEF Device_D_Zener_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_Zener_ALT" 0 -100 50 H V C CNN
+F1 "Device_D_Zener_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -509,11 +509,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Ferrite_Bead
+# Device_Ferrite_Bead
 #
-DEF Device:Ferrite_Bead L 0 0 N Y 1 F N
-F0 "L" -150 25 50 V V C CNN
-F1 "Device:Ferrite_Bead" 150 0 50 V V C CNN
+DEF Device_Ferrite_Bead FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "Device_Ferrite_Bead" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -530,11 +530,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Ferrite_Bead_Small
+# Device_Ferrite_Bead_Small
 #
-DEF Device:Ferrite_Bead_Small L 0 0 N Y 1 F N
-F0 "L" 75 50 50 H V L CNN
-F1 "Device:Ferrite_Bead_Small" 75 -50 50 H V L CNN
+DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
+F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -551,11 +551,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:L
+# Device_L
 #
-DEF Device:L L 0 40 N N 1 F N
+DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device:L" 75 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -574,11 +574,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED_ALT
+# Device_LED_ALT
 #
-DEF Device:LED_ALT D 0 40 N N 1 F N
+DEF Device_LED_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED_ALT" 0 -100 50 H V C CNN
+F1 "Device_LED_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -597,11 +597,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Microphone
+# Device_Microphone
 #
-DEF Device:Microphone MK 0 1 Y N 1 F N
+DEF Device_Microphone MK 0 1 Y N 1 F N
 F0 "MK" -150 50 50 H V R CNN
-F1 "Device:Microphone" -150 -25 50 H V R CNN
+F1 "Device_Microphone" -150 -25 50 H V R CNN
 F2 "" 0 100 50 V I C CNN
 F3 "" 0 100 50 V I C CNN
 DRAW
@@ -614,11 +614,11 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Polyfuse
+# Device_Polyfuse
 #
-DEF Device:Polyfuse F 0 0 N Y 1 F N
+DEF Device_Polyfuse F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "Device:Polyfuse" 100 0 50 V V C CNN
+F1 "Device_Polyfuse" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -634,11 +634,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NMOS_GSD
+# Device_Q_NMOS_GSD
 #
-DEF Device:Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NMOS_GSD" 200 -50 50 H V L CNN
+F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -666,11 +666,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NPN_BEC
+# Device_Q_NPN_BEC
 #
-DEF Device:Q_NPN_BEC Q 0 0 Y N 1 F N
+DEF Device_Q_NPN_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NPN_BEC" 200 -50 50 H V L CNN
+F1 "Device_Q_NPN_BEC" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -685,11 +685,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_PMOS_GSD
+# Device_Q_PMOS_GSD
 #
-DEF Device:Q_PMOS_GSD Q 0 0 Y N 1 F N
+DEF Device_Q_PMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PMOS_GSD" 200 -50 50 H V L CNN
+F1 "Device_Q_PMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -717,11 +717,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -734,11 +734,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Speaker
+# Device_Speaker
 #
-DEF Device:Speaker LS 0 0 Y N 1 F N
+DEF Device_Speaker LS 0 0 Y N 1 F N
 F0 "LS" 50 225 50 H V R CNN
-F1 "Device:Speaker" 50 150 50 H V R CNN
+F1 "Device_Speaker" 50 150 50 H V R CNN
 F2 "" 0 -200 50 H I C CNN
 F3 "" -10 -50 50 H I C CNN
 DRAW
@@ -749,11 +749,11 @@ X 2 2 -200 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Device:Thermistor
+# Device_Thermistor
 #
-DEF Device:Thermistor TH 0 0 N Y 1 F N
+DEF Device_Thermistor TH 0 0 N Y 1 F N
 F0 "TH" 100 50 50 V V C CNN
-F1 "Device:Thermistor" -100 0 50 V V C BNN
+F1 "Device_Thermistor" -100 0 50 V V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -767,11 +767,11 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Logic_LevelTranslator:TXB0104RUT
+# Logic_LevelTranslator_TXB0104RUT
 #
-DEF Logic_LevelTranslator:TXB0104RUT U 0 20 Y Y 1 F N
+DEF Logic_LevelTranslator_TXB0104RUT U 0 20 Y Y 1 F N
 F0 "U" -250 650 50 H V C CNN
-F1 "Logic_LevelTranslator:TXB0104RUT" 150 650 50 H V L CNN
+F1 "Logic_LevelTranslator_TXB0104RUT" 150 650 50 H V L CNN
 F2 "Package_DFN_QFN:Texas_R_PUQFN-N12" 0 -750 50 H I C CNN
 F3 "" 110 95 50 H I C CNN
 $FPLIST
@@ -819,11 +819,11 @@ X B2 9 400 100 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_DPDT_x2
+# Switch_SW_DPDT_x2
 #
-DEF Switch:SW_DPDT_x2 SW 0 0 Y N 2 F N
+DEF Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Switch:SW_DPDT_x2" 0 -200 50 H V C CNN
+F1 "Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -843,11 +843,11 @@ X C 6 200 -100 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_Push
+# Switch_SW_Push
 #
-DEF Switch:SW_Push SW 0 40 N N 1 F N
+DEF Switch_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -860,11 +860,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:1V8_P
+# dvk-mx8m-bsb_1V8_P
 #
-DEF dvk-mx8m-bsb:1V8_P #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_1V8_P #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:1V8_P" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_1V8_P" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -875,11 +875,11 @@ X 1V8_P 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:22V4_P
+# dvk-mx8m-bsb_22V4_P
 #
-DEF dvk-mx8m-bsb:22V4_P #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_22V4_P #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:22V4_P" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_22V4_P" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -890,11 +890,11 @@ X 22V4_P 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:2V8_P
+# dvk-mx8m-bsb_2V8_P
 #
-DEF dvk-mx8m-bsb:2V8_P #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_2V8_P #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:2V8_P" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_2V8_P" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -905,11 +905,11 @@ X 2V8_P 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:3V3
+# dvk-mx8m-bsb_3V3
 #
-DEF dvk-mx8m-bsb:3V3 #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:3V3" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -920,11 +920,11 @@ X 3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:3V3_OUT
+# dvk-mx8m-bsb_3V3_OUT
 #
-DEF dvk-mx8m-bsb:3V3_OUT #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_3V3_OUT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:3V3_OUT" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_3V3_OUT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -935,11 +935,11 @@ X 3V3_OUT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:3V3_P
+# dvk-mx8m-bsb_3V3_P
 #
-DEF dvk-mx8m-bsb:3V3_P #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_3V3_P #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:3V3_P" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_3V3_P" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -950,11 +950,11 @@ X 3V3_P 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:3V3_SD
+# dvk-mx8m-bsb_3V3_SD
 #
-DEF dvk-mx8m-bsb:3V3_SD #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_3V3_SD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:3V3_SD" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_3V3_SD" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -965,11 +965,11 @@ X 3V3_SD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:3V3_SNVS
+# dvk-mx8m-bsb_3V3_SNVS
 #
-DEF dvk-mx8m-bsb:3V3_SNVS #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_3V3_SNVS #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:3V3_SNVS" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_3V3_SNVS" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -980,11 +980,11 @@ X 3V3_SNVS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:5V_P
+# dvk-mx8m-bsb_5V_P
 #
-DEF dvk-mx8m-bsb:5V_P #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_5V_P #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:5V_P" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_5V_P" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -995,11 +995,11 @@ X 5V_P 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:5V_SOM
+# dvk-mx8m-bsb_5V_SOM
 #
-DEF dvk-mx8m-bsb:5V_SOM #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_5V_SOM #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:5V_SOM" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_5V_SOM" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1010,11 +1010,11 @@ X 5V_SOM 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:74AUP2G08
+# dvk-mx8m-bsb_74AUP2G08
 #
-DEF dvk-mx8m-bsb:74AUP2G08 U 0 30 Y Y 2 F N
+DEF dvk-mx8m-bsb_74AUP2G08 U 0 30 Y Y 2 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "dvk-mx8m-bsb:74AUP2G08" 0 -50 50 H V C CNN
+F1 "dvk-mx8m-bsb_74AUP2G08" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1042,11 +1042,11 @@ X ~ 6 600 0 300 L 50 50 2 2 O I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:74LVC1G08
+# dvk-mx8m-bsb_74LVC1G08
 #
-DEF dvk-mx8m-bsb:74LVC1G08 U 0 10 Y Y 1 F N
+DEF dvk-mx8m-bsb_74LVC1G08 U 0 10 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "dvk-mx8m-bsb:74LVC1G08" 0 -50 50 H V C CNN
+F1 "dvk-mx8m-bsb_74LVC1G08" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1068,11 +1068,11 @@ X ~ 3 600 0 300 L 50 50 1 2 O I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:74LVC1G32
+# dvk-mx8m-bsb_74LVC1G32
 #
-DEF dvk-mx8m-bsb:74LVC1G32 U 0 10 Y Y 1 F N
+DEF dvk-mx8m-bsb_74LVC1G32 U 0 10 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "dvk-mx8m-bsb:74LVC1G32" 0 -50 50 H V C CNN
+F1 "dvk-mx8m-bsb_74LVC1G32" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1092,11 +1092,11 @@ X ~ 4 600 0 300 L 50 50 1 2 O
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:74LVC1G332
+# dvk-mx8m-bsb_74LVC1G332
 #
-DEF dvk-mx8m-bsb:74LVC1G332 U 0 10 Y Y 1 F N
+DEF dvk-mx8m-bsb_74LVC1G332 U 0 10 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "dvk-mx8m-bsb:74LVC1G332" 30 -10 50 H V C CNN
+F1 "dvk-mx8m-bsb_74LVC1G332" 30 -10 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1124,11 +1124,11 @@ X ~ 3 600 0 300 L 50 50 1 2 O I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:74LVC1G86
+# dvk-mx8m-bsb_74LVC1G86
 #
-DEF dvk-mx8m-bsb:74LVC1G86 U 0 10 Y Y 1 F N
+DEF dvk-mx8m-bsb_74LVC1G86 U 0 10 Y Y 1 F N
 F0 "U" 100 0 50 H V C CNN
-F1 "dvk-mx8m-bsb:74LVC1G86" 25 -75 50 H V C CNN
+F1 "dvk-mx8m-bsb_74LVC1G86" 25 -75 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1146,11 +1146,11 @@ X ~ 4 600 0 300 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:74LVC2G241
+# dvk-mx8m-bsb_74LVC2G241
 #
-DEF dvk-mx8m-bsb:74LVC2G241 U 0 0 Y Y 1 F N
+DEF dvk-mx8m-bsb_74LVC2G241 U 0 0 Y Y 1 F N
 F0 "U" 0 400 60 H V C CNN
-F1 "dvk-mx8m-bsb:74LVC2G241" 0 325 60 H V C CNN
+F1 "dvk-mx8m-bsb_74LVC2G241" 0 325 60 H V C CNN
 F2 "" 50 -250 60 H I C CNN
 F3 "" 50 -250 60 H I C CNN
 DRAW
@@ -1175,11 +1175,11 @@ X VCC 8 300 200 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:AP22814
+# dvk-mx8m-bsb_AP22814
 #
-DEF dvk-mx8m-bsb:AP22814 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_AP22814 U 0 40 Y Y 1 F N
 F0 "U" -200 550 60 H V C CNN
-F1 "dvk-mx8m-bsb:AP22814" 250 550 60 H V C CNN
+F1 "dvk-mx8m-bsb_AP22814" 250 550 60 H V C CNN
 F2 "" 0 150 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
 DRAW
@@ -1192,11 +1192,11 @@ X VOUT 5 450 400 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:AR8031
+# dvk-mx8m-bsb_AR8031
 #
-DEF dvk-mx8m-bsb:AR8031 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_AR8031 U 0 40 Y Y 1 F N
 F0 "U" -800 2050 60 H V C CNN
-F1 "dvk-mx8m-bsb:AR8031" -700 -2050 60 H V C CNN
+F1 "dvk-mx8m-bsb_AR8031" -700 -2050 60 H V C CNN
 F2 "" 350 -100 60 H I C CNN
 F3 "" 350 -100 60 H I C CNN
 DRAW
@@ -1264,11 +1264,11 @@ X RBIAS 9 -1050 -1900 200 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Antenna_Chip
+# dvk-mx8m-bsb_Antenna_Chip
 #
-DEF dvk-mx8m-bsb:Antenna_Chip AE 0 40 N N 1 F N
+DEF dvk-mx8m-bsb_Antenna_Chip AE 0 40 N N 1 F N
 F0 "AE" -75 175 50 H V R CNN
-F1 "dvk-mx8m-bsb:Antenna_Chip" -75 100 50 H V R CNN
+F1 "dvk-mx8m-bsb_Antenna_Chip" -75 100 50 H V R CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -1285,11 +1285,11 @@ X Shield 2 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Audio-Jack-4_1Switch
+# dvk-mx8m-bsb_Audio-Jack-4_1Switch
 #
-DEF dvk-mx8m-bsb:Audio-Jack-4_1Switch J 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Audio-Jack-4_1Switch J 0 40 Y Y 1 F N
 F0 "J" -210 270 50 H V C CNN
-F1 "dvk-mx8m-bsb:Audio-Jack-4_1Switch" -50 -300 50 H V C CNN
+F1 "dvk-mx8m-bsb_Audio-Jack-4_1Switch" -50 -300 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -1308,11 +1308,11 @@ X ~ 5 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:BQ25896
+# dvk-mx8m-bsb_BQ25896
 #
-DEF dvk-mx8m-bsb:BQ25896 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_BQ25896 U 0 40 Y Y 1 F N
 F0 "U" -250 1150 60 H V C CNN
-F1 "dvk-mx8m-bsb:BQ25896" 100 1150 60 H V C CNN
+F1 "dvk-mx8m-bsb_BQ25896" 100 1150 60 H V C CNN
 F2 "" 100 200 60 H I C CNN
 F3 "" 100 200 60 H I C CNN
 DRAW
@@ -1344,11 +1344,11 @@ X ~CE 9 -500 -1050 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Coax_cable_MHF4_MHF4
+# dvk-mx8m-bsb_Coax_cable_MHF4_MHF4
 #
-DEF dvk-mx8m-bsb:Coax_cable_MHF4_MHF4 CBL 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Coax_cable_MHF4_MHF4 CBL 0 40 Y Y 1 F N
 F0 "CBL" -675 125 60 H V C CNN
-F1 "dvk-mx8m-bsb:Coax_cable_MHF4_MHF4" 200 125 60 H V C CNN
+F1 "dvk-mx8m-bsb_Coax_cable_MHF4_MHF4" 200 125 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1358,11 +1358,11 @@ P 10 0 0 0 -1125 175 -1125 -50 -875 -50 -875 75 800 75 800 -50 1050 -50 1050 150
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Coax_cable_ufl_ufl
+# dvk-mx8m-bsb_Coax_cable_ufl_ufl
 #
-DEF dvk-mx8m-bsb:Coax_cable_ufl_ufl CBL 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Coax_cable_ufl_ufl CBL 0 40 Y Y 1 F N
 F0 "CBL" -475 125 60 H V C CNN
-F1 "dvk-mx8m-bsb:Coax_cable_ufl_ufl" 200 125 60 H V C CNN
+F1 "dvk-mx8m-bsb_Coax_cable_ufl_ufl" 200 125 60 H V C CNN
 F2 "" 200 0 60 H I C CNN
 F3 "" 200 0 60 H I C CNN
 DRAW
@@ -1372,11 +1372,11 @@ P 9 0 0 0 -875 175 -875 -50 -675 -50 -675 75 675 75 675 -50 875 -50 875 175 -875
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Display_JH057N00900
+# dvk-mx8m-bsb_Display_JH057N00900
 #
-DEF dvk-mx8m-bsb:Display_JH057N00900 DISP 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Display_JH057N00900 DISP 0 40 Y Y 1 F N
 F0 "DISP" 0 1000 60 H V C CNN
-F1 "dvk-mx8m-bsb:Display_JH057N00900" 0 1200 60 H V C CNN
+F1 "dvk-mx8m-bsb_Display_JH057N00900" 0 1200 60 H V C CNN
 F2 "" 4350 3200 60 H I C CNN
 F3 "" 4350 3200 60 H I C CNN
 DRAW
@@ -1395,11 +1395,11 @@ S -50 -1100 450 -2050 0 1 0 f
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:EmC_SoM
+# dvk-mx8m-bsb_EmC_SoM
 #
-DEF dvk-mx8m-bsb:EmC_SoM MOD 0 30 Y Y 1 F N
+DEF dvk-mx8m-bsb_EmC_SoM MOD 0 30 Y Y 1 F N
 F0 "MOD" 0 200 60 H V C CNN
-F1 "dvk-mx8m-bsb:EmC_SoM" 0 100 60 H V C CNN
+F1 "dvk-mx8m-bsb_EmC_SoM" 0 100 60 H V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 DRAW
@@ -1418,11 +1418,11 @@ X GND MH4 350 -450 0 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:FSA6157L6X
+# dvk-mx8m-bsb_FSA6157L6X
 #
-DEF dvk-mx8m-bsb:FSA6157L6X U 0 0 Y Y 1 F N
+DEF dvk-mx8m-bsb_FSA6157L6X U 0 0 Y Y 1 F N
 F0 "U" -300 200 50 H V L CNN
-F1 "dvk-mx8m-bsb:FSA6157L6X" 100 200 50 H V L CNN
+F1 "dvk-mx8m-bsb_FSA6157L6X" 100 200 50 H V L CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 $FPLIST
@@ -1458,11 +1458,11 @@ X B1 6 300 100 150 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:FT440
+# dvk-mx8m-bsb_FT440
 #
-DEF dvk-mx8m-bsb:FT440 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_FT440 U 0 40 Y Y 1 F N
 F0 "U" -250 250 60 H V C CNN
-F1 "dvk-mx8m-bsb:FT440" 200 250 60 H V C CNN
+F1 "dvk-mx8m-bsb_FT440" 200 250 60 H V C CNN
 F2 "" 0 -100 591 H I C CNN
 F3 "" 0 -100 591 H I C CNN
 DRAW
@@ -1475,11 +1475,11 @@ X FB 5 500 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Fiducial
+# dvk-mx8m-bsb_Fiducial
 #
-DEF dvk-mx8m-bsb:Fiducial FID 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Fiducial FID 0 40 Y Y 1 F N
 F0 "FID" 0 175 60 H V C CNN
-F1 "dvk-mx8m-bsb:Fiducial" 0 100 60 H V C CNN
+F1 "dvk-mx8m-bsb_Fiducial" 0 100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1488,11 +1488,11 @@ C 0 0 50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:HDMI-SWM-19
+# dvk-mx8m-bsb_HDMI-SWM-19
 #
-DEF dvk-mx8m-bsb:HDMI-SWM-19 HDMI 0 40 Y N 1 F N
+DEF dvk-mx8m-bsb_HDMI-SWM-19 HDMI 0 40 Y N 1 F N
 F0 "HDMI" 100 1000 50 H V L BNN
-F1 "dvk-mx8m-bsb:HDMI-SWM-19" 100 -1100 50 H V L BNN
+F1 "dvk-mx8m-bsb_HDMI-SWM-19" 100 -1100 50 H V L BNN
 F2 "" 30 150 20 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1669,11 +1669,11 @@ X 23 SH4 -100 -1100 100 U 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:IMX8M-SOM1
+# dvk-mx8m-bsb_IMX8M-SOM1
 #
-DEF dvk-mx8m-bsb:IMX8M-SOM1 P 0 40 N Y 1 F N
+DEF dvk-mx8m-bsb_IMX8M-SOM1 P 0 40 N Y 1 F N
 F0 "P" -3250 4800 50 H V C CNN
-F1 "dvk-mx8m-bsb:IMX8M-SOM1" -3250 4700 60 H V C CNN
+F1 "dvk-mx8m-bsb_IMX8M-SOM1" -3250 4700 60 H V C CNN
 F2 "" -3450 3500 50 H I C CNN
 F3 "" -3450 3500 50 H I C CNN
 DRAW
@@ -1827,11 +1827,11 @@ X P1.09 9 -1550 -750 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:IMX8M-SOM2
+# dvk-mx8m-bsb_IMX8M-SOM2
 #
-DEF dvk-mx8m-bsb:IMX8M-SOM2 P 0 40 N Y 1 F N
+DEF dvk-mx8m-bsb_IMX8M-SOM2 P 0 40 N Y 1 F N
 F0 "P" -3250 -600 60 H V C CNN
-F1 "dvk-mx8m-bsb:IMX8M-SOM2" -3250 -700 60 H V C CNN
+F1 "dvk-mx8m-bsb_IMX8M-SOM2" -3250 -700 60 H V C CNN
 F2 "" -500 -2050 60 V I C CNN
 F3 "" -500 -2050 60 V I C CNN
 DRAW
@@ -1918,11 +1918,11 @@ X P2.09 9 -1550 -2650 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:IMX8M-SOM3
+# dvk-mx8m-bsb_IMX8M-SOM3
 #
-DEF dvk-mx8m-bsb:IMX8M-SOM3 P 0 40 N Y 1 F N
+DEF dvk-mx8m-bsb_IMX8M-SOM3 P 0 40 N Y 1 F N
 F0 "P" 3250 4550 60 H V C CNN
-F1 "dvk-mx8m-bsb:IMX8M-SOM3" 3250 4450 60 H V C CNN
+F1 "dvk-mx8m-bsb_IMX8M-SOM3" 3250 4450 60 H V C CNN
 F2 "" 3200 2300 60 H I C CNN
 F3 "" 3200 2300 60 H I C CNN
 DRAW
@@ -2009,11 +2009,11 @@ X P3.09 9 2800 3950 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:IMX8M-SOM4
+# dvk-mx8m-bsb_IMX8M-SOM4
 #
-DEF dvk-mx8m-bsb:IMX8M-SOM4 P 0 40 N Y 1 F N
+DEF dvk-mx8m-bsb_IMX8M-SOM4 P 0 40 N Y 1 F N
 F0 "P" 3250 -700 60 H V C CNN
-F1 "dvk-mx8m-bsb:IMX8M-SOM4" 3250 -800 60 H V C CNN
+F1 "dvk-mx8m-bsb_IMX8M-SOM4" 3250 -800 60 H V C CNN
 F2 "" 3300 -2650 60 H I C CNN
 F3 "" 3300 -2650 60 H I C CNN
 DRAW
@@ -2100,11 +2100,11 @@ X P4.09 9 2800 -1300 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:LSM9DS1
+# dvk-mx8m-bsb_LSM9DS1
 #
-DEF dvk-mx8m-bsb:LSM9DS1 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_LSM9DS1 U 0 40 Y Y 1 F N
 F0 "U" -600 850 50 H V L CNN
-F1 "dvk-mx8m-bsb:LSM9DS1" -600 750 50 H V L CNN
+F1 "dvk-mx8m-bsb_LSM9DS1" -600 750 50 H V L CNN
 F2 "Housings_LGA:LGA-24L_3x3.5mm_Pitch0.43mm" 1500 750 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -2139,11 +2139,11 @@ X DRDY_M 9 700 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:M.2_Key_E
+# dvk-mx8m-bsb_M.2_Key_E
 #
-DEF dvk-mx8m-bsb:M.2_Key_E J 0 40 Y N 1 F N
+DEF dvk-mx8m-bsb_M.2_Key_E J 0 40 Y N 1 F N
 F0 "J" 50 1900 50 H V C CNN
-F1 "dvk-mx8m-bsb:M.2_Key_E" 50 -2000 50 H V C CNN
+F1 "dvk-mx8m-bsb_M.2_Key_E" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2293,11 +2293,11 @@ X Pin_9 9 -200 1400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:MA8627
+# dvk-mx8m-bsb_MA8627
 #
-DEF dvk-mx8m-bsb:MA8627 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_MA8627 U 0 40 Y Y 1 F N
 F0 "U" -1000 1100 60 H V C CNN
-F1 "dvk-mx8m-bsb:MA8627" 900 1100 60 H V C CNN
+F1 "dvk-mx8m-bsb_MA8627" 900 1100 60 H V C CNN
 F2 "" 200 -250 60 H I C CNN
 F3 "" 200 -250 60 H I C CNN
 DRAW
@@ -2354,11 +2354,11 @@ X DATA14/D2 9 -1250 -250 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:MAX-M8
+# dvk-mx8m-bsb_MAX-M8
 #
-DEF dvk-mx8m-bsb:MAX-M8 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_MAX-M8 U 0 40 Y Y 1 F N
 F0 "U" -400 850 60 H V C CNN
-F1 "dvk-mx8m-bsb:MAX-M8" 250 850 60 H V C CNN
+F1 "dvk-mx8m-bsb_MAX-M8" 250 850 60 H V C CNN
 F2 "" 850 350 60 H V C CNN
 F3 "" 850 350 60 H V C CNN
 DRAW
@@ -2384,11 +2384,11 @@ X RESET_N 9 -650 -150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:MIC2876
+# dvk-mx8m-bsb_MIC2876
 #
-DEF dvk-mx8m-bsb:MIC2876 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_MIC2876 U 0 40 Y Y 1 F N
 F0 "U" -250 450 60 H V C CNN
-F1 "dvk-mx8m-bsb:MIC2876" 200 450 60 H V C CNN
+F1 "dvk-mx8m-bsb_MIC2876" 200 450 60 H V C CNN
 F2 "" 50 -50 60 H I C CNN
 F3 "" 50 -50 60 H I C CNN
 DRAW
@@ -2405,11 +2405,11 @@ X PAD 9 0 -600 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:MIC5365-2.8
+# dvk-mx8m-bsb_MIC5365-2.8
 #
-DEF dvk-mx8m-bsb:MIC5365-2.8 U 0 10 Y Y 1 F N
+DEF dvk-mx8m-bsb_MIC5365-2.8 U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "dvk-mx8m-bsb:MIC5365-2.8" 0 225 50 H V L CNN
+F1 "dvk-mx8m-bsb_MIC5365-2.8" 0 225 50 H V L CNN
 F2 "" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2422,11 +2422,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:MPCIE-Socket
+# dvk-mx8m-bsb_MPCIE-Socket
 #
-DEF dvk-mx8m-bsb:MPCIE-Socket J 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_MPCIE-Socket J 0 40 Y Y 1 F N
 F0 "J" -400 1300 60 H V C CNN
-F1 "dvk-mx8m-bsb:MPCIE-Socket" 100 -1550 60 H V C CNN
+F1 "dvk-mx8m-bsb_MPCIE-Socket" 100 -1550 60 H V C CNN
 F2 "" 100 -1000 60 H V C CNN
 F3 "" 100 -1000 60 H V C CNN
 DRAW
@@ -2488,11 +2488,11 @@ X GND 9 -650 -1050 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:MX25L1606E
+# dvk-mx8m-bsb_MX25L1606E
 #
-DEF dvk-mx8m-bsb:MX25L1606E U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_MX25L1606E U 0 40 Y Y 1 F N
 F0 "U" -400 400 50 H V C CNN
-F1 "dvk-mx8m-bsb:MX25L1606E" 400 -400 50 H V C CNN
+F1 "dvk-mx8m-bsb_MX25L1606E" 400 -400 50 H V C CNN
 F2 "Housings_DFN_QFN:DFN-S-8-1EP_6x5mm_Pitch1.27mm" 800 100 50 H I C CNN
 F3 "" 150 -100 50 H I C CNN
 $FPLIST
@@ -2512,11 +2512,11 @@ X PAD 9 100 -500 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Micro_SD_Card_Det_ALPS_SCHA
+# dvk-mx8m-bsb_Micro_SD_Card_Det_ALPS_SCHA
 #
-DEF dvk-mx8m-bsb:Micro_SD_Card_Det_ALPS_SCHA J 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Micro_SD_Card_Det_ALPS_SCHA J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "dvk-mx8m-bsb:Micro_SD_Card_Det_ALPS_SCHA" 650 700 50 H V R CNN
+F1 "dvk-mx8m-bsb_Micro_SD_Card_Det_ALPS_SCHA" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 ALIAS Micro_SD_Card_Det_Hirose_DM3AT
@@ -2547,11 +2547,11 @@ X DET 9 -900 -500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:ModemCard
+# dvk-mx8m-bsb_ModemCard
 #
-DEF dvk-mx8m-bsb:ModemCard MOD 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_ModemCard MOD 0 40 Y Y 1 F N
 F0 "MOD" -175 400 60 H V C CNN
-F1 "dvk-mx8m-bsb:ModemCard" -175 275 60 H V C CNN
+F1 "dvk-mx8m-bsb_ModemCard" -175 275 60 H V C CNN
 F2 "" 575 -250 60 H I C CNN
 F3 "" 575 -250 60 H I C CNN
 DRAW
@@ -2567,11 +2567,11 @@ X GND 1 -925 0 0 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Motor_Haptic
+# dvk-mx8m-bsb_Motor_Haptic
 #
-DEF dvk-mx8m-bsb:Motor_Haptic M 0 0 Y Y 1 F N
+DEF dvk-mx8m-bsb_Motor_Haptic M 0 0 Y Y 1 F N
 F0 "M" 150 50 50 H V L CNN
-F1 "dvk-mx8m-bsb:Motor_Haptic" 150 -50 50 H V L TNN
+F1 "dvk-mx8m-bsb_Motor_Haptic" 150 -50 50 H V L TNN
 F2 "" 0 -30 50 H I C CNN
 F3 "" 0 -30 50 H I C CNN
 DRAW
@@ -2583,11 +2583,11 @@ P 4 0 1 0 -105 75 -175 75 -175 -75 -105 -75 f
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Mount_Hole
+# dvk-mx8m-bsb_Mount_Hole
 #
-DEF dvk-mx8m-bsb:Mount_Hole MNT 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Mount_Hole MNT 0 40 Y Y 1 F N
 F0 "MNT" 0 225 60 H V C CNN
-F1 "dvk-mx8m-bsb:Mount_Hole" 0 150 60 H V C CNN
+F1 "dvk-mx8m-bsb_Mount_Hole" 0 150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -2597,11 +2597,11 @@ X GND 1 0 -150 50 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:NUP5120
+# dvk-mx8m-bsb_NUP5120
 #
-DEF dvk-mx8m-bsb:NUP5120 U 0 40 Y N 1 F N
+DEF dvk-mx8m-bsb_NUP5120 U 0 40 Y N 1 F N
 F0 "U" 0 300 60 H V C CNN
-F1 "dvk-mx8m-bsb:NUP5120" 0 225 60 H V C CNN
+F1 "dvk-mx8m-bsb_NUP5120" 0 225 60 H V C CNN
 F2 "" -25 0 60 V I C CNN
 F3 "" -25 0 60 V I C CNN
 DRAW
@@ -2643,11 +2643,11 @@ X ~ 6 250 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:OV5640_Camera
+# dvk-mx8m-bsb_OV5640_Camera
 #
-DEF dvk-mx8m-bsb:OV5640_Camera CAM 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_OV5640_Camera CAM 0 40 Y Y 1 F N
 F0 "CAM" 0 450 60 H V C CNN
-F1 "dvk-mx8m-bsb:OV5640_Camera" 0 -450 60 H V C CNN
+F1 "dvk-mx8m-bsb_OV5640_Camera" 0 -450 60 H V C CNN
 F2 "" 3650 350 60 H I C CNN
 F3 "" 3650 350 60 H I C CNN
 DRAW
@@ -2659,11 +2659,11 @@ S 1250 550 1600 -550 0 1 0 f
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:PAM2841
+# dvk-mx8m-bsb_PAM2841
 #
-DEF dvk-mx8m-bsb:PAM2841 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_PAM2841 U 0 40 Y Y 1 F N
 F0 "U" -350 550 60 H V C CNN
-F1 "dvk-mx8m-bsb:PAM2841" 200 550 60 H V C CNN
+F1 "dvk-mx8m-bsb_PAM2841" 200 550 60 H V C CNN
 F2 "" 50 -150 60 H I C CNN
 F3 "" 50 -150 60 H I C CNN
 DRAW
@@ -2680,11 +2680,11 @@ X PAD 9 0 -650 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:PCMF2HDMI2SZ
+# dvk-mx8m-bsb_PCMF2HDMI2SZ
 #
-DEF dvk-mx8m-bsb:PCMF2HDMI2SZ U 0 10 Y N 1 F N
+DEF dvk-mx8m-bsb_PCMF2HDMI2SZ U 0 10 Y N 1 F N
 F0 "U" -350 400 50 H V C CNN
-F1 "dvk-mx8m-bsb:PCMF2HDMI2SZ" 150 400 50 H V C CNN
+F1 "dvk-mx8m-bsb_PCMF2HDMI2SZ" 150 400 50 H V C CNN
 F2 "" -125 85 50 V V C CNN
 F3 "" -125 85 50 V V C CNN
 $FPLIST
@@ -2746,11 +2746,11 @@ X ~ C4 -500 -50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:PCMF3HDMI2SZ
+# dvk-mx8m-bsb_PCMF3HDMI2SZ
 #
-DEF dvk-mx8m-bsb:PCMF3HDMI2SZ U 0 10 Y N 1 F N
+DEF dvk-mx8m-bsb_PCMF3HDMI2SZ U 0 10 Y N 1 F N
 F0 "U" -350 400 50 H V C CNN
-F1 "dvk-mx8m-bsb:PCMF3HDMI2SZ" 100 400 50 H V C CNN
+F1 "dvk-mx8m-bsb_PCMF3HDMI2SZ" 100 400 50 H V C CNN
 F2 "" -125 85 50 V V C CNN
 F3 "" -125 85 50 V V C CNN
 $FPLIST
@@ -2817,11 +2817,11 @@ X ~ C6 -500 -300 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:PTN36043BXY
+# dvk-mx8m-bsb_PTN36043BXY
 #
-DEF dvk-mx8m-bsb:PTN36043BXY U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_PTN36043BXY U 0 40 Y Y 1 F N
 F0 "U" -650 950 60 H V C CNN
-F1 "dvk-mx8m-bsb:PTN36043BXY" 350 950 60 H V C CNN
+F1 "dvk-mx8m-bsb_PTN36043BXY" 350 950 60 H V C CNN
 F2 "" 0 150 60 H I C CNN
 F3 "" 0 150 60 H I C CNN
 DRAW
@@ -2857,11 +2857,11 @@ X RX_CON_2+ 9 900 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:PTN5110HQZ
+# dvk-mx8m-bsb_PTN5110HQZ
 #
-DEF dvk-mx8m-bsb:PTN5110HQZ U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_PTN5110HQZ U 0 40 Y Y 1 F N
 F0 "U" -750 800 60 H V C CNN
-F1 "dvk-mx8m-bsb:PTN5110HQZ" -500 -800 60 H V C CNN
+F1 "dvk-mx8m-bsb_PTN5110HQZ" -500 -800 60 H V C CNN
 F2 "" -300 100 60 H I C CNN
 F3 "" -300 100 60 H I C CNN
 DRAW
@@ -2899,11 +2899,11 @@ X DBG_ACC 9 1000 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Purism_Logo
+# dvk-mx8m-bsb_Purism_Logo
 #
-DEF dvk-mx8m-bsb:Purism_Logo SK 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_Purism_Logo SK 0 40 Y Y 1 F N
 F0 "SK" 0 100 60 H I C CNN
-F1 "dvk-mx8m-bsb:Purism_Logo" 0 0 60 H V C CNN
+F1 "dvk-mx8m-bsb_Purism_Logo" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
@@ -2913,11 +2913,11 @@ DRAW
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:Q_NMOS_DUAL
+# dvk-mx8m-bsb_Q_NMOS_DUAL
 #
-DEF dvk-mx8m-bsb:Q_NMOS_DUAL Q 0 0 Y N 2 F N
+DEF dvk-mx8m-bsb_Q_NMOS_DUAL Q 0 0 Y N 2 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "dvk-mx8m-bsb:Q_NMOS_DUAL" 200 -50 50 H V L CNN
+F1 "dvk-mx8m-bsb_Q_NMOS_DUAL" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2955,11 +2955,11 @@ X G 5 -200 0 200 R 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:RJHSE-5381
+# dvk-mx8m-bsb_RJHSE-5381
 #
-DEF dvk-mx8m-bsb:RJHSE-5381 J 0 0 Y Y 1 F N
+DEF dvk-mx8m-bsb_RJHSE-5381 J 0 0 Y Y 1 F N
 F0 "J" -1150 650 50 H V L CNN
-F1 "dvk-mx8m-bsb:RJHSE-5381" -450 -2000 50 H V R CNN
+F1 "dvk-mx8m-bsb_RJHSE-5381" -450 -2000 50 H V R CNN
 F2 "" -300 -1700 50 H I C CNN
 F3 "" -300 -1700 50 H I C CNN
 DRAW
@@ -3121,11 +3121,11 @@ X ~ SH2 -1350 -1350 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:RT8070
+# dvk-mx8m-bsb_RT8070
 #
-DEF dvk-mx8m-bsb:RT8070 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_RT8070 U 0 40 Y Y 1 F N
 F0 "U" -250 650 60 H V C CNN
-F1 "dvk-mx8m-bsb:RT8070" 150 650 60 H V C CNN
+F1 "dvk-mx8m-bsb_RT8070" 150 650 60 H V C CNN
 F2 "" 50 150 60 H I C CNN
 F3 "" 50 150 60 H I C CNN
 DRAW
@@ -3142,11 +3142,11 @@ X GND 9 500 -400 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:RV-4162-C7
+# dvk-mx8m-bsb_RV-4162-C7
 #
-DEF dvk-mx8m-bsb:RV-4162-C7 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_RV-4162-C7 U 0 40 Y Y 1 F N
 F0 "U" -150 250 60 H V C CNN
-F1 "dvk-mx8m-bsb:RV-4162-C7" 0 -250 60 H V C CNN
+F1 "dvk-mx8m-bsb_RV-4162-C7" 0 -250 60 H V C CNN
 F2 "" 100 -250 60 H I C CNN
 F3 "" 100 -250 60 H I C CNN
 DRAW
@@ -3162,11 +3162,11 @@ X SCL 8 400 150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:SEC1110
+# dvk-mx8m-bsb_SEC1110
 #
-DEF dvk-mx8m-bsb:SEC1110 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_SEC1110 U 0 40 Y Y 1 F N
 F0 "U" -550 1250 60 H V C CNN
-F1 "dvk-mx8m-bsb:SEC1110" 400 1250 60 H V C CNN
+F1 "dvk-mx8m-bsb_SEC1110" 400 1250 60 H V C CNN
 F2 "" 0 300 60 H I C CNN
 F3 "" 0 300 60 H I C CNN
 DRAW
@@ -3199,11 +3199,11 @@ X TEST 9 -800 -850 200 R 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:SGTL5000
+# dvk-mx8m-bsb_SGTL5000
 #
-DEF dvk-mx8m-bsb:SGTL5000 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_SGTL5000 U 0 40 Y Y 1 F N
 F0 "U" -450 900 60 H V C CNN
-F1 "dvk-mx8m-bsb:SGTL5000" 450 900 60 H V C CNN
+F1 "dvk-mx8m-bsb_SGTL5000" 450 900 60 H V C CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
 $FPLIST
@@ -3235,11 +3235,11 @@ X LINEINL 9 -700 500 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:SIM_Card_Det
+# dvk-mx8m-bsb_SIM_Card_Det
 #
-DEF dvk-mx8m-bsb:SIM_Card_Det J 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_SIM_Card_Det J 0 40 Y Y 1 F N
 F0 "J" -100 500 50 H V R CNN
-F1 "dvk-mx8m-bsb:SIM_Card_Det" 100 400 50 H V R CNN
+F1 "dvk-mx8m-bsb_SIM_Card_Det" 100 400 50 H V R CNN
 F2 "" 0 350 50 H V C CNN
 F3 "" -100 100 50 H V C CNN
 $FPLIST
@@ -3268,11 +3268,11 @@ X HD HD4 200 -450 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:SMART_CARD
+# dvk-mx8m-bsb_SMART_CARD
 #
-DEF dvk-mx8m-bsb:SMART_CARD J 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_SMART_CARD J 0 40 Y Y 1 F N
 F0 "J" -100 500 50 H V R CNN
-F1 "dvk-mx8m-bsb:SMART_CARD" 100 400 50 H V R CNN
+F1 "dvk-mx8m-bsb_SMART_CARD" 100 400 50 H V R CNN
 F2 "" 0 350 50 H V C CNN
 F3 "" -50 100 50 H V C CNN
 $FPLIST
@@ -3301,11 +3301,11 @@ X DET SW2 800 250 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:TLV3201AIDBVR
+# dvk-mx8m-bsb_TLV3201AIDBVR
 #
-DEF dvk-mx8m-bsb:TLV3201AIDBVR U 0 1 Y N 1 F N
+DEF dvk-mx8m-bsb_TLV3201AIDBVR U 0 1 Y N 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "dvk-mx8m-bsb:TLV3201AIDBVR" -75 -175 50 H V L CNN
+F1 "dvk-mx8m-bsb_TLV3201AIDBVR" -75 -175 50 H V L CNN
 F2 "" 25 0 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -3325,11 +3325,11 @@ X - 4 -300 100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:TXB0101
+# dvk-mx8m-bsb_TXB0101
 #
-DEF dvk-mx8m-bsb:TXB0101 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_TXB0101 U 0 40 Y Y 1 F N
 F0 "U" -300 340 50 H V C CNN
-F1 "dvk-mx8m-bsb:TXB0101" 330 340 50 H V C CNN
+F1 "dvk-mx8m-bsb_TXB0101" 330 340 50 H V C CNN
 F2 "" 950 -600 50 H I C CNN
 F3 "" 0 -30 50 H I C CNN
 DRAW
@@ -3349,11 +3349,11 @@ X VCCB 6 150 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:USB-C_Receptacle
+# dvk-mx8m-bsb_USB-C_Receptacle
 #
-DEF dvk-mx8m-bsb:USB-C_Receptacle J 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_USB-C_Receptacle J 0 40 Y Y 1 F N
 F0 "J" -400 1450 50 H V L CNN
-F1 "dvk-mx8m-bsb:USB-C_Receptacle" 400 1450 50 H V R CNN
+F1 "dvk-mx8m-bsb_USB-C_Receptacle" 400 1450 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -3432,11 +3432,11 @@ X SHIELD GND4 -50 -1800 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:VBAT
+# dvk-mx8m-bsb_VBAT
 #
-DEF dvk-mx8m-bsb:VBAT #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_VBAT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:VBAT" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_VBAT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3447,11 +3447,11 @@ X VBAT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:VBAT_REG
+# dvk-mx8m-bsb_VBAT_REG
 #
-DEF dvk-mx8m-bsb:VBAT_REG #PWR 0 0 Y Y 1 F P
+DEF dvk-mx8m-bsb_VBAT_REG #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "dvk-mx8m-bsb:VBAT_REG" 0 140 50 H V C CNN
+F1 "dvk-mx8m-bsb_VBAT_REG" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3462,11 +3462,11 @@ X VBAT_REG 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:VCNL4040
+# dvk-mx8m-bsb_VCNL4040
 #
-DEF dvk-mx8m-bsb:VCNL4040 U 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_VCNL4040 U 0 40 Y Y 1 F N
 F0 "U" -300 500 60 H V C CNN
-F1 "dvk-mx8m-bsb:VCNL4040" 250 500 60 H V C CNN
+F1 "dvk-mx8m-bsb_VCNL4040" 250 500 60 H V C CNN
 F2 "" 0 -150 60 H I C CNN
 F3 "" 0 -150 60 H I C CNN
 DRAW
@@ -3482,11 +3482,11 @@ X SCL 8 -550 350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dvk-mx8m-bsb:WifiBTCard
+# dvk-mx8m-bsb_WifiBTCard
 #
-DEF dvk-mx8m-bsb:WifiBTCard MOD 0 40 Y Y 1 F N
+DEF dvk-mx8m-bsb_WifiBTCard MOD 0 40 Y Y 1 F N
 F0 "MOD" 0 350 60 H V C CNN
-F1 "dvk-mx8m-bsb:WifiBTCard" 0 250 60 H V C CNN
+F1 "dvk-mx8m-bsb_WifiBTCard" 0 250 60 H V C CNN
 F2 "" 0 -50 60 H I C CNN
 F3 "" 0 -50 60 H I C CNN
 DRAW
@@ -3501,11 +3501,11 @@ X GND 1 -550 0 0 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3514,11 +3514,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3527,11 +3527,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# power:VBUS
+# power_VBUS
 #
-DEF power:VBUS #PWR 0 0 Y Y 1 F P
+DEF power_VBUS #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VBUS" 0 150 50 H V C CNN
+F1 "power_VBUS" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
