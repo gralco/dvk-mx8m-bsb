@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:dvk-mx8m-bsb-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -953,7 +952,7 @@ BT_PCM_IN
 Text HLabel 5850 7100 2    60   Input ~ 0
 BT_PCM_OUT
 $Comp
-L Logic_LevelTranslator:TXB0104RUT U1802
+L dvk-mx8m-bsb-rescue:TXB0104RUT-Logic_LevelTranslator U1802
 U 1 1 5B248996
 P 5400 6800
 F 0 "U1802" H 5100 7450 50  0000 C CNN
@@ -1099,7 +1098,7 @@ configure as slave
 Text Notes 2700 7350 0    60   ~ 0
 RX, TX, RTS, CTS\n   of the SoC
 $Comp
-L Logic_LevelTranslator:TXB0104RUT U1801
+L dvk-mx8m-bsb-rescue:TXB0104RUT-Logic_LevelTranslator U1801
 U 1 1 5B337ED0
 P 2250 6800
 F 0 "U1801" H 1950 7450 50  0000 C CNN

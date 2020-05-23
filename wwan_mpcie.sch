@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:dvk-mx8m-bsb-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -247,7 +246,7 @@ PCM_OUT/I2S_OUT
 Text HLabel 5150 7000 2    60   Output ~ 0
 PCM_IN/I2S_IN
 $Comp
-L Logic_LevelTranslator:TXB0104RUT U1501
+L dvk-mx8m-bsb-rescue:TXB0104RUT-Logic_LevelTranslator U1501
 U 1 1 5AF59D77
 P 4700 6700
 F 0 "U1501" H 4400 7350 50  0000 C CNN

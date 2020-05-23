@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:dvk-mx8m-bsb-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -6281,7 +6280,7 @@ CSI_PWDN
 Text HLabel 7950 3450 0    60   Input ~ 0
 CSI_~RST
 Text Notes 8225 3850 0    39   ~ 0
-internal pull-down
+internal pull-up
 Text Notes 8300 3450 0    39   ~ 0
 internal pull-up
 $Comp
