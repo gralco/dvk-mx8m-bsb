@@ -6193,7 +6193,7 @@ P 6300 3700
 F 0 "D1301" H 6300 3525 50  0000 C CNN
 F 1 "DB2J209" H 6300 3600 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 6300 3700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 6300 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 6300 3700 50  0001 C CNN
 F 4 "Panasonic" V 6300 3700 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 6300 3700 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 6300 3700 60  0001 C CNN "Distrib PN"
@@ -6290,7 +6290,7 @@ P 8150 3450
 F 0 "D1302" H 8150 3350 50  0000 C CNN
 F 1 "DB2J209" H 8150 3275 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 8150 3450 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 8150 3450 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 8150 3450 50  0001 C CNN
 F 4 "Panasonic" V 8150 3450 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 8150 3450 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 8150 3450 60  0001 C CNN "Distrib PN"

@@ -200,7 +200,7 @@ P 8950 3150
 F 0 "J1202" H 8950 5225 50  0000 C CNN
 F 1 "LCD" H 8950 5150 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:Conn_Hirose_FPC_39x0_3" H 8950 3150 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/FH26-39S-0.3SHW%2805%29/category/Drawing%20(2D)/doc_file_id/42931/?file_category_id=6&item_id=05800201105&is_series=" H 8950 3150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/185/FH26_catalog-939414.pdf" H 8950 3150 50  0001 C CNN
 F 4 "Hirose" H 8950 3150 60  0001 C CNN "MFG Name"
 F 5 "FH26-39S-0.3SHW" H 8950 3150 60  0001 C CNN "MFG Part Num"
 F 6 "FH26-39S-0.3SHW(05)" H 8950 3150 60  0001 C CNN "Distrib PN"

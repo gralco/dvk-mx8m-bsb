@@ -822,7 +822,7 @@ P 5800 2550
 F 0 "C1002" H 5825 2650 50  0000 L CNN
 F 1 "22uF" H 5825 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 2400 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 5800 2550 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 5800 2550 50  0001 C CNN
 F 4 "Samsung" H 5800 2550 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 5800 2550 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 5800 2550 60  0001 C CNN "Distrib PN"
@@ -839,7 +839,7 @@ P 6100 2550
 F 0 "C1003" H 6125 2650 50  0000 L CNN
 F 1 "22uF" H 6125 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 2400 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6100 2550 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 6100 2550 50  0001 C CNN
 F 4 "Samsung" H 6100 2550 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 6100 2550 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 6100 2550 60  0001 C CNN "Distrib PN"

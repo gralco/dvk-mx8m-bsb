@@ -78,7 +78,7 @@ P 8550 4450
 F 0 "J1503" H 8375 4850 50  0000 R CNN
 F 1 "Micro_SIM_Card" H 9150 4850 50  0000 R CNN
 F 2 "dvk-mx8m-bsb:JAE_SF56" H 8550 4800 50  0001 C CNN
-F 3 "http://www.jae.com/z-en/pdf_download_exec.cfm?param=MB-0256-2E_SF56.pdf" H 8500 4450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/SF56_Series_rev2012.pdf" H 8500 4450 50  0001 C CNN
 F 4 "JAE" H 8550 4450 60  0001 C CNN "MFG Name"
 F 5 "SF56S006V4BR2000" H 8550 4450 60  0001 C CNN "MFG Part Num"
 F 6 "670-2834-1-ND" H 8550 4450 60  0001 C CNN "Distrib PN"
@@ -688,7 +688,7 @@ P 9850 1500
 F 0 "D1502" H 9850 1410 50  0000 C CNN
 F 1 "DB2J209" H 9850 1600 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 9850 1500 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 9850 1500 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 9850 1500 50  0001 C CNN
 F 4 "Panasonic" V 9850 1500 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 9850 1500 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 9850 1500 60  0001 C CNN "Distrib PN"

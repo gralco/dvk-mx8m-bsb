@@ -33,7 +33,7 @@ P 1250 1200
 F 0 "C201" V 1300 1300 50  0000 L CNN
 F 1 "10uF" V 1200 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 1050 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1250 1200 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 1250 1200 50  0001 C CNN
 F 4 "Taiyo Yuden" V 1250 1200 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 1250 1200 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 1250 1200 60  0001 C CNN "Distrib PN"
@@ -217,7 +217,7 @@ P 2800 2000
 F 0 "U201" H 2100 2800 60  0000 C CNN
 F 1 "PTN5110HQZ" H 2300 1200 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:PTN5110" H 2500 2100 60  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PTN5110_SDS.pdf" H 2500 2100 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PTN5110_DS.pdf" H 2500 2100 60  0001 C CNN
 	1    2800 2000
 	1    0    0    -1  
 $EndComp
@@ -933,7 +933,7 @@ P 2100 6150
 F 0 "D201" H 1950 6100 50  0000 C CNN
 F 1 "DB2J209" H 1850 6225 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 2100 6150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 2100 6150 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 2100 6150 50  0001 C CNN
 F 4 "Panasonic" V 2100 6150 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 2100 6150 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 2100 6150 60  0001 C CNN "Distrib PN"
@@ -967,7 +967,7 @@ P 1450 4950
 F 0 "C207" H 1250 5050 50  0000 L CNN
 F 1 "10uF" H 1250 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 4800 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 1450 4950 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 1450 4950 50  0001 C CNN
 F 4 "Taiyo Yuden" V 1450 4950 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 1450 4950 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 1450 4950 60  0001 C CNN "Distrib PN"
