@@ -424,7 +424,7 @@ P 7250 1850
 F 0 "D1901" H 7250 1675 50  0000 C CNN
 F 1 "DB2J209" H 7250 1750 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 7250 1850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 7250 1850 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 7250 1850 50  0001 C CNN
 F 4 "Panasonic" V 7250 1850 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 7250 1850 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 7250 1850 60  0001 C CNN "Distrib PN"
@@ -441,7 +441,7 @@ P 9200 1850
 F 0 "D1905" V 9225 1675 50  0000 C CNN
 F 1 "DB2J209" V 9150 1625 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 9200 1850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 9200 1850 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 9200 1850 50  0001 C CNN
 F 4 "Panasonic" V 9200 1850 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 9200 1850 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 9200 1850 60  0001 C CNN "Distrib PN"
@@ -958,7 +958,7 @@ P 6050 2150
 F 0 "C1903" H 6075 2250 50  0000 L CNN
 F 1 "22uF" H 6075 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6088 2000 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6050 2150 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 6050 2150 50  0001 C CNN
 F 4 "Samsung" H 6050 2150 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 6050 2150 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 6050 2150 60  0001 C CNN "Distrib PN"

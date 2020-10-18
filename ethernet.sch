@@ -70,7 +70,7 @@ P 3050 6450
 F 0 "Y1701" H 3275 6650 50  0000 L CNN
 F 1 "25MHz" H 3275 6575 50  0000 L CNN
 F 2 "dvk-mx8m-bsb:Crystal_25MHz" H 3050 6450 50  0001 C CNN
-F 3 "https://www.ctscorp.com/wp-content/uploads/403.pdf" H 3050 6450 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/008-0288-0_H-403.pdf" H 3050 6450 50  0001 C CNN
 F 4 "CTS-Frequency Controls" H 3050 6450 60  0001 C CNN "MFG Name"
 F 5 "403C35D25M00000" H 3050 6450 60  0001 C CNN "MFG Part Num"
 F 6 "403C35D25M00000" H 3050 6450 60  0001 C CNN "Distrib PN"
@@ -311,7 +311,7 @@ P 6000 2150
 F 0 "L1701" V 6075 2150 50  0000 C CNN
 F 1 "4.7uH" V 5950 2150 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:L_1008" H 6000 2150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/inductor/__icsFiles/afieldfile/2014/11/13/S_CIG22L4R7MNE.pdf" H 6000 2150 50  0001 C CNN
+F 3 "http://product.samsungsem.com/pi/CIG22L4R7MN.do" H 6000 2150 50  0001 C CNN
 F 4 "Samsung" V 6000 2150 60  0001 C CNN "MFG Name"
 F 5 "CIG22L4R7MNE" V 6000 2150 60  0001 C CNN "MFG Part Num"
 F 6 "1276-6213-2-ND" V 6000 2150 60  0001 C CNN "Distrib PN"
@@ -1423,7 +1423,7 @@ P 2700 5300
 F 0 "D1701" H 2700 5210 50  0000 C CNN
 F 1 "DB2J209" H 2700 5150 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 2700 5300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 2700 5300 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 2700 5300 50  0001 C CNN
 F 4 "Panasonic" V 2700 5300 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 2700 5300 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 2700 5300 60  0001 C CNN "Distrib PN"
@@ -1440,7 +1440,7 @@ P 6700 2350
 F 0 "C1713" H 6450 2450 50  0000 L CNN
 F 1 "10uF" H 6500 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6738 2200 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6700 2350 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 6700 2350 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6700 2350 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6700 2350 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 6700 2350 60  0001 C CNN "Distrib PN"
@@ -1457,7 +1457,7 @@ P 7000 2350
 F 0 "C1716" H 6750 2450 50  0000 L CNN
 F 1 "220nF" H 6750 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7038 2200 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 7000 2350 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 7000 2350 50  0001 C CNN
 F 4 "Taiyo Yuden" V 7000 2350 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 7000 2350 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 7000 2350 60  0001 C CNN "Distrib PN"
@@ -1474,7 +1474,7 @@ P 4050 1850
 F 0 "C1704" H 3800 1950 50  0000 L CNN
 F 1 "10uF" H 3850 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 1700 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 4050 1850 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 4050 1850 50  0001 C CNN
 F 4 "Taiyo Yuden" V 4050 1850 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 4050 1850 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 4050 1850 60  0001 C CNN "Distrib PN"

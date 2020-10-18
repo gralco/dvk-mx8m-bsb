@@ -2226,7 +2226,7 @@ P 8200 2800
 F 0 "C310" H 8225 2900 50  0000 L CNN
 F 1 "22uF" H 8225 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8200 2800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 8200 2800 50  0001 C CNN
 F 4 "Samsung" H 8200 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8200 2800 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 8200 2800 60  0001 C CNN "Distrib PN"
@@ -2297,7 +2297,7 @@ P 6350 2800
 F 0 "C305" H 6150 2900 50  0000 L CNN
 F 1 "10uF" H 6150 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 2650 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6350 2800 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 6350 2800 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6350 2800 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6350 2800 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 6350 2800 60  0001 C CNN "Distrib PN"
@@ -2314,7 +2314,7 @@ P 6550 2800
 F 0 "C306" H 6350 2900 50  0000 L CNN
 F 1 "10uF" H 6350 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 2650 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6550 2800 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 6550 2800 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6550 2800 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6550 2800 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 6550 2800 60  0001 C CNN "Distrib PN"
@@ -2331,7 +2331,7 @@ P 6700 4150
 F 0 "C307" H 6500 4250 50  0000 L CNN
 F 1 "10uF" H 6500 4050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6738 4000 50  0001 C CNN
-F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&fileName=LMK107BBJ106MALT_SS&mode=specSheetDownload" H 6700 4150 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?u=M&pn=LMK107BBJ106MALT" H 6700 4150 50  0001 C CNN
 F 4 "Taiyo Yuden" V 6700 4150 60  0001 C CNN "MFG Name"
 F 5 "LMK107BBJ106MALT" V 6700 4150 60  0001 C CNN "MFG Part Num"
 F 6 "587-3258-1-ND" V 6700 4150 60  0001 C CNN "Distrib PN"
@@ -2490,7 +2490,7 @@ P 8450 2800
 F 0 "C311" H 8475 2900 50  0000 L CNN
 F 1 "22uF" H 8475 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8450 2800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 8450 2800 50  0001 C CNN
 F 4 "Samsung" H 8450 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8450 2800 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 8450 2800 60  0001 C CNN "Distrib PN"
@@ -2507,7 +2507,7 @@ P 8700 2800
 F 0 "C312" H 8725 2900 50  0000 L CNN
 F 1 "22uF" H 8725 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8738 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8700 2800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 8700 2800 50  0001 C CNN
 F 4 "Samsung" H 8700 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8700 2800 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 8700 2800 60  0001 C CNN "Distrib PN"
@@ -2524,7 +2524,7 @@ P 8950 2800
 F 0 "C313" H 8975 2900 50  0000 L CNN
 F 1 "22uF" H 8975 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 8950 2800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 8950 2800 50  0001 C CNN
 F 4 "Samsung" H 8950 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 8950 2800 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 8950 2800 60  0001 C CNN "Distrib PN"
@@ -2541,7 +2541,7 @@ P 9200 2800
 F 0 "C314" H 9225 2900 50  0000 L CNN
 F 1 "22uF" H 9225 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9238 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 9200 2800 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 9200 2800 50  0001 C CNN
 F 4 "Samsung" H 9200 2800 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 9200 2800 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 9200 2800 60  0001 C CNN "Distrib PN"

@@ -199,7 +199,7 @@ P 5550 3750
 F 0 "D801" H 5550 3850 50  0000 C CNN
 F 1 "DB2J209" H 5770 3710 50  0000 C CNN
 F 2 "dvk-mx8m-bsb:SMini2-F5-B" H 5550 3750 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB2J20900L_E.pdf" H 5550 3750 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/732841/0/0/1/DB2J20900L-.pdf" H 5550 3750 50  0001 C CNN
 F 4 "Panasonic" V 5550 3750 60  0001 C CNN "MFG Name"
 F 5 "DB2J20900L" V 5550 3750 60  0001 C CNN "MFG Part Num"
 F 6 "667-DB2J20900L" V 5550 3750 60  0001 C CNN "Distrib PN"

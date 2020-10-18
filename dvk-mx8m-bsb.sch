@@ -2316,7 +2316,7 @@ P 6550 5750
 F 0 "P1" H 3300 10550 50  0000 C CNN
 F 1 "IMX8M-SOM1" H 3300 10450 60  0000 C CNN
 F 2 "dvk-mx8m-bsb:EmCr_SOM_IMX8M_Connector" H 3100 9250 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DF40/category/Catalog/doc_file_id/31649/?file_category_id=4&item_id=22&is_series=1" H 3100 9250 50  0001 C CNN
+F 3 "https://www.hirose.com/product/p/CL0684-4140-4-51?lang=en" H 3100 9250 50  0001 C CNN
 F 4 "Hirose" H 6550 5750 60  0001 C CNN "MFG Name"
 F 5 "DF40HC(4.0)-80DS-0.4V(51)" H 6550 5750 60  0001 C CNN "MFG Part Num"
 	1    6550 5750
@@ -2329,7 +2329,7 @@ P 4950 4950
 F 0 "C101" H 4975 5050 50  0000 L CNN
 F 1 "22uF" H 4975 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 4800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 4950 4950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 4950 4950 50  0001 C CNN
 F 4 "Samsung" H 4950 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 4950 4950 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 4950 4950 60  0001 C CNN "Distrib PN"
@@ -2346,7 +2346,7 @@ P 5250 4950
 F 0 "C102" H 5275 5050 50  0000 L CNN
 F 1 "22uF" H 5275 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 4800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 5250 4950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 5250 4950 50  0001 C CNN
 F 4 "Samsung" H 5250 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 5250 4950 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 5250 4950 60  0001 C CNN "Distrib PN"
@@ -2363,7 +2363,7 @@ P 6150 4950
 F 0 "C105" H 6175 5050 50  0000 L CNN
 F 1 "22uF" H 6175 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 4800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6150 4950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 6150 4950 50  0001 C CNN
 F 4 "Samsung" H 6150 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 6150 4950 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 6150 4950 60  0001 C CNN "Distrib PN"
@@ -2380,7 +2380,7 @@ P 6450 4950
 F 0 "C106" H 6475 5050 50  0000 L CNN
 F 1 "22uF" H 6475 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 4800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/21/CL10A226MP8NUNE.pdf" H 6450 4950 50  0001 C CNN
+F 3 "http://product.samsungsem.com/mlcc/CL10A226MP8NUN.do" H 6450 4950 50  0001 C CNN
 F 4 "Samsung" H 6450 4950 60  0001 C CNN "MFG Name"
 F 5 "CL10A226MP8NUNE" H 6450 4950 60  0001 C CNN "MFG Part Num"
 F 6 "C86295" H 6450 4950 60  0001 C CNN "Distrib PN"
